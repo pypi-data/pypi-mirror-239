@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: mirror.py
+Version: 1.0.0rc1
+Summary: Mirror Manager written in python
+Author: Roul
+Author-email: geoul@sparcs.org
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: prompt-toolkit >=3.0.38
+Requires-Dist: requests
+Requires-Dist: bandersnatch
+
+# Mirror.PY
+
+Mirror.PY is a simple python daemon that mirrors a directory to another directory. It is designed to be used with a web server to serve the mirrored directory.

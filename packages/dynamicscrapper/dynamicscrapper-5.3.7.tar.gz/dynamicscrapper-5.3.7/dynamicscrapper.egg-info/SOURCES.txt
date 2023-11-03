@@ -1,0 +1,6 @@
+README.md
+setup.py
+dynamicscrapper.egg-info/PKG-INFO
+dynamicscrapper.egg-info/SOURCES.txt
+dynamicscrapper.egg-info/dependency_links.txt
+dynamicscrapper.egg-info/top_level.txt

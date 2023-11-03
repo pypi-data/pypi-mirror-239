@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+AnalyzerAndScraper/__init__.py
+AnalyzerAndScraper/scrape_analyze.py
+AnalyzerAndScraper.egg-info/PKG-INFO
+AnalyzerAndScraper.egg-info/SOURCES.txt
+AnalyzerAndScraper.egg-info/dependency_links.txt
+AnalyzerAndScraper.egg-info/requires.txt
+AnalyzerAndScraper.egg-info/top_level.txt

@@ -1,0 +1,11 @@
+black==23.10.1
+flake8==5.0.4
+isort==5.10.1
+mypy==0.971
+mysqlclient==2.0.3
+psycopg2-binary==2.9.5
+pylint-django==2.5.5
+pytest-benchmark==3.4.1
+pytest-django==4.5.2
+pytest==7.0.1
+tox==4.11.3

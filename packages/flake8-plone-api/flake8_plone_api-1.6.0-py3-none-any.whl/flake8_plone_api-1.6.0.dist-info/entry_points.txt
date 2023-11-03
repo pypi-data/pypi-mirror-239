@@ -1,0 +1,2 @@
+[flake8.extension]
+P001 = flake8_plone_api:PloneAPIChecker

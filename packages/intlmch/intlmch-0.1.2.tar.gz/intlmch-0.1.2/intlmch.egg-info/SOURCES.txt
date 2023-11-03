@@ -1,0 +1,9 @@
+README.md
+setup.py
+intLMCH/__init__.py
+intLMCH/modulo.py
+intlmch.egg-info/PKG-INFO
+intlmch.egg-info/SOURCES.txt
+intlmch.egg-info/dependency_links.txt
+intlmch.egg-info/requires.txt
+intlmch.egg-info/top_level.txt

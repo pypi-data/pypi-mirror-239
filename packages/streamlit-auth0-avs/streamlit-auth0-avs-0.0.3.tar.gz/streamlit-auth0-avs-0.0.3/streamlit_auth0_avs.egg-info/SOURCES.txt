@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+auth0_avs/__init__.py
+auth0_avs/frontend/dist/index.html
+auth0_avs/frontend/dist/assets/index.33f1792e.js
+auth0_avs/frontend/dist/assets/index.5223bee9.css
+streamlit_auth0_avs.egg-info/PKG-INFO
+streamlit_auth0_avs.egg-info/SOURCES.txt
+streamlit_auth0_avs.egg-info/dependency_links.txt
+streamlit_auth0_avs.egg-info/requires.txt
+streamlit_auth0_avs.egg-info/top_level.txt

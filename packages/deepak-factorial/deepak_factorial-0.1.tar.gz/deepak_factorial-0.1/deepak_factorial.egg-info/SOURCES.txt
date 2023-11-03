@@ -1,0 +1,6 @@
+factorial.py
+setup.py
+deepak_factorial.egg-info/PKG-INFO
+deepak_factorial.egg-info/SOURCES.txt
+deepak_factorial.egg-info/dependency_links.txt
+deepak_factorial.egg-info/top_level.txt

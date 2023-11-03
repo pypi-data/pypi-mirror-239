@@ -1,0 +1,3 @@
+[console_scripts]
+combos_stat = combos_stat.bin.main:main
+

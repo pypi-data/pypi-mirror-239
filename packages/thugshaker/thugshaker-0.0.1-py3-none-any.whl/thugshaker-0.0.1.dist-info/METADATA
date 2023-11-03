@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: thugshaker
+Version: 0.0.1
+Summary: You can't stop the Thug Shaker.
+Home-page: https://github.com/arpy8/thugshaker
+Author: Thug Shaker
+Author-email: thugcentral@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pygame
+Requires-Dist: opencv-python
+Requires-Dist: keyboard
+
+# Oh, you've got an ass on you alright, see that's what he's talkin' about! Spread your ass open, dude. You can do the thug shaker, huh? The thug shaker, give me the thug shaker! Shake your ass. Take your hands off it and shake that shit, pull your shirt up, I know you can shake it. Shake it. Yeah, thatâ€™s some thug ass right there.

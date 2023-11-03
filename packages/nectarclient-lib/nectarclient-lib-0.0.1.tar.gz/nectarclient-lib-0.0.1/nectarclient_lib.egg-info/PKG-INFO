@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: nectarclient-lib
+Version: 0.0.1
+Summary: Common lib for nectar clients
+Home-page: https://github.com/NeCTAR-RC/nectarclient-lib
+Author: Sam Morrison
+Author-email: sorrison@gmail.com
+License: Apache
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent

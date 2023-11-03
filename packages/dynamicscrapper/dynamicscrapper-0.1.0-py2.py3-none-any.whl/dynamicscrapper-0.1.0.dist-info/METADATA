@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: dynamicscrapper
+Version: 0.1.0
+Summary: A package to scrap the web dynamically
+Author: Saidi Souhaieb
+Author-email: Saidisouhaieb@takiacademyteam.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+

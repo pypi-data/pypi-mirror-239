@@ -1,0 +1,8 @@
+numpy>=1.19
+Cython
+
+[dev]
+pytest
+
+[plot]
+matplotlib

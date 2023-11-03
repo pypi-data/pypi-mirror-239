@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: a-gis
+Version: 0.2.5
+Summary: AEGIS
+Home-page: https://github.com/a-gis-001/a_gis
+Author: AEGIS 001
+Author-email: a-gis-001@proton.me
+Project-URL: Documentation, https://github.com/a-gis-001/a_gis
+Project-URL: Bug Reports, https://github.com/a-gis-001/a_gis/issues
+Project-URL: Source Code, https://github.com/a-gis-001/a_gis
+Keywords: art,AI
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: License :: OSI Approved :: The Unlicense (Unlicense)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: check-manifest ; extra == 'dev'
+
+## AEGIS Imagery
+

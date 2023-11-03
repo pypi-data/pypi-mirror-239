@@ -1,0 +1,4 @@
+pandas
+systools
+PyMuPDF==1.22.5
+tqdm

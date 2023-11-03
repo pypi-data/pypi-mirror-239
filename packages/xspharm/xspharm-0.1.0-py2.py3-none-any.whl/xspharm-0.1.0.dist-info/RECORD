@@ -1,0 +1,11 @@
+xspharm/__init__.py,sha256=Cr8ho1wJ1znhX-d7bA1nU7VPs7ESpw0X5xxAAgRDQCY,150
+xspharm/xspharm.py,sha256=LowNGrMlP3-hIF2YcGG44DwBCFKn4LZcYtAVHGDCTFg,12798
+xspharm/tests/__init__.py,sha256=lj0CocnCZDOH7590_NDStAdH3UJVGVApELc8aosH7Q0,37
+xspharm/tests/test_xspharm.py,sha256=l2nyHY-XVcDc9_5gljTR721vMKqgRN5Jxi7MuGd7d3k,852
+xspharm-0.1.0.dist-info/AUTHORS.rst,sha256=MqNLoh03lwn0aD3lMcZ1Jd6ArWzCLpFrdkB5pTkJAqE,153
+xspharm-0.1.0.dist-info/LICENSE,sha256=I4GGmrOUhGc2A-Xl4V_lqWGAARAtCe0i32ATVDA6PWY,1502
+xspharm-0.1.0.dist-info/METADATA,sha256=ulP4fWTW1bzOl27wUNPgFFE2nGDcuDQJZc96PKxi_kk,3016
+xspharm-0.1.0.dist-info/WHEEL,sha256=P2T-6epvtXQ2cBOE_U1K4_noqlJFN3tj15djMgEu4NM,110
+xspharm-0.1.0.dist-info/entry_points.txt,sha256=r42SSLY2wOeRYOeTQsUIQGP6tolytMB5RTPaQ7mhID0,45
+xspharm-0.1.0.dist-info/top_level.txt,sha256=h2UhAsFV3zJydGqf9Pd8WfWeCUmKPCanLmZqfL-6GIo,8
+xspharm-0.1.0.dist-info/RECORD,,

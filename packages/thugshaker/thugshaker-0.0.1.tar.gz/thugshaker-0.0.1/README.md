@@ -1,0 +1,1 @@
+# Oh, you've got an ass on you alright, see that's what he's talkin' about! Spread your ass open, dude. You can do the thug shaker, huh? The thug shaker, give me the thug shaker! Shake your ass. Take your hands off it and shake that shit, pull your shirt up, I know you can shake it. Shake it. Yeah, that’s some thug ass right there.

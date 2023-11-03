@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+thugshaker/__init__.py
+thugshaker/player.py
+thugshaker.egg-info/PKG-INFO
+thugshaker.egg-info/SOURCES.txt
+thugshaker.egg-info/dependency_links.txt
+thugshaker.egg-info/entry_points.txt
+thugshaker.egg-info/requires.txt
+thugshaker.egg-info/top_level.txt
+thugshaker/assets/audio.mp3
+thugshaker/assets/video.mp4

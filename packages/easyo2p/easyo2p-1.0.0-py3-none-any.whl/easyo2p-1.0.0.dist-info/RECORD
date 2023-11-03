@@ -1,0 +1,14 @@
+easyo2p/__init__.py,sha256=RJ5r6IsHnW6kjk-sDumFjhETn3AZEit9mMxm0shjNcI,714
+easyo2p/_constants.py,sha256=4rQTlhaY3UaLMBbxICQgp3cD2W8CFldW_lSBQecqIqQ,1130
+easyo2p/_data.py,sha256=Qcv1n2nz6mqMelu4W4pXQXOm7E2xeUigeHQTpCewGL8,2196
+easyo2p/_foreign_keys.py,sha256=VoylFmGwDwcY7BjIt1fwaBPDZdhNHbai9SE-LZLX8Ak,3301
+easyo2p/_indexes.py,sha256=FBTVDOgl9UbNTCLn53MrJt6Zn_XGBmomjA7D5rTynCE,2049
+easyo2p/_main.py,sha256=J9tTnqSwkg-hi4lgI5fUB66qjWDs5dg5EjGNT8NiXMw,26359
+easyo2p/_sequences.py,sha256=qpZCVLWzcHh9bxRgDcH_ufI2jwM13KXcgjIcDIddPWM,1117
+easyo2p/_tables.py,sha256=DC1Q4BYIqZXpmzOsQMsLNZ0h12bcp4hYyefSCnteTVc,9915
+easyo2p/_triggers.py,sha256=RL1h2EgWQ-f_NwiLBOeKwfd1Dj9Aw2S-LJBERS_tLp8,3565
+easyo2p-1.0.0.dist-info/LICENSE,sha256=IXDs1mPlCE1al8uGrL5DSMnYZuG1smXl5s8nKZLUyvQ,1084
+easyo2p-1.0.0.dist-info/METADATA,sha256=4wRWvabYf9TQwmqdax-7KaK05OCXYJpUEfRG8PRzseg,2655
+easyo2p-1.0.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+easyo2p-1.0.0.dist-info/top_level.txt,sha256=PVx8F1t7k-ZkvYMtUx4Oe9Viz3l3_uMjhC-9eDZ-uzk,8
+easyo2p-1.0.0.dist-info/RECORD,,

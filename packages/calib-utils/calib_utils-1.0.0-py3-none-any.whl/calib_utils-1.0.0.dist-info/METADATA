@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: calib-utils
+Version: 1.0.0
+Summary: calibration tools
+Home-page: UNKNOWN
+Author: Lingbo Yu
+Author-email: xxxx@gmail.com
+License: {{ cookiecutter.open_source_license }}
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Requires-Dist: numpy
+
+UNKNOWN
+
+

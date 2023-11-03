@@ -1,0 +1,10 @@
+auth0_avs/__init__.py,sha256=iOAGqh3LzE_3Xy42jwnSMww5ErsYrlke0fgYWpTjPBc,3344
+auth0_avs/frontend/dist/index.html,sha256=dD6lHc2ztmwBfy0NWz1Ga81mhlfRGCy-PRqpWjaGUVo,301
+auth0_avs/frontend/dist/assets/index.33f1792e.js,sha256=fo5f_D125yGrMRCGMoSRdrZ3Jb2M67LwueDqlaz4qXc,337434
+auth0_avs/frontend/dist/assets/index.5223bee9.css,sha256=UiO-6ZFct-W5lObb8-rYs2UKoHSMZct-CqxixaJ6eDI,1468
+auth0_avs/frontend/dist/assets/index.7f67485c.js,sha256=nA2aIut-pbePpAXatXTD9mF0S3eiOsAQkLZUothdn4Y,337399
+streamlit_auth0_avs-0.0.3.dist-info/LICENSE,sha256=9VDWIUfeWnnobvVpN2KtC5cHaNpAmxhdjyF4LivEPNw,1063
+streamlit_auth0_avs-0.0.3.dist-info/METADATA,sha256=qa9IsiMw5cj01hojjTqttx6D39WEhYkt1fepS0r5B_Y,253
+streamlit_auth0_avs-0.0.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+streamlit_auth0_avs-0.0.3.dist-info/top_level.txt,sha256=QkqpxpuMeevJ9g7RiSdvN6vM_PXDo5Tl8qj-14_gnV8,10
+streamlit_auth0_avs-0.0.3.dist-info/RECORD,,

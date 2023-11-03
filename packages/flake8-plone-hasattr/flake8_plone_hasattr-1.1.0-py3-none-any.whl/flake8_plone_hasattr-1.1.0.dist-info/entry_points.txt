@@ -1,0 +1,2 @@
+[flake8.extension]
+P002 = flake8_plone_hasattr:PloneHasattrChecker

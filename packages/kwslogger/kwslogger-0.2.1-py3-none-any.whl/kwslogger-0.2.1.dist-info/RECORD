@@ -1,0 +1,10 @@
+kwslogger/__init__.py,sha256=cePGutwOk20symT1DEFiNGmmzsSAPID3tpJeC5McoXg,24
+kwslogger/main.py,sha256=6UlQh-1rS-wofM3rGkaf0vxeF5Xi1wzkzL-FsvWo6Lo,5375
+kwslogger/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kwslogger/utils/date.py,sha256=yIUaUREHNzWHvYEFSxQE7vULjxaSbVCdXGAFBqu_hsU,686
+kwslogger/utils/spinners.py,sha256=wkOw7-qNEdGvkV3NdMr9-2KH306VgOgNUdWhUDWNnRo,591
+kwslogger-0.2.1.dist-info/LICENSE,sha256=szYekw4HzUJdDDvUQEep0DwQqmS-jfI10iNc5_NM_qY,1061
+kwslogger-0.2.1.dist-info/METADATA,sha256=RtsRht3qA99P7oAIM6WZFxIJQ5PzY765QxP48yP_gNA,1946
+kwslogger-0.2.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+kwslogger-0.2.1.dist-info/top_level.txt,sha256=RNF0uOthbjYrVybU8UohEL09IcuBEtaAi9UVcvb4nhg,10
+kwslogger-0.2.1.dist-info/RECORD,,

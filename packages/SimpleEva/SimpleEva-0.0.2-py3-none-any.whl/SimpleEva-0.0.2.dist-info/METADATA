@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: SimpleEva
+Version: 0.0.2
+Summary: A simple library for controlling Eva
+Author: Tom Brothers
+License: BSD
+Keywords: EVA robot arm
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: BSD License
+Requires-Dist: evasdk
+
+# SimpleEVA
+A simple libary to use the EVA robot arm in python. This libary simplifies the use of IK and allows for easy control of the robot arm.
+
+## Installation
+To install the libary, first clone the repository:
+```
+git clone URL
+```
+Then navigate to the directory and run the setup.py file:
+```python
+python setup.py install
+```

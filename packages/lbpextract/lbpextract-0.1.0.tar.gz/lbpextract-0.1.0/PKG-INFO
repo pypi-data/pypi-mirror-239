@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: lbpextract
+Version: 0.1.0
+Summary: A tool to convert La Banque Postale's account documents (PDFs) into CSV files.
+Home-page: https://github.com/hayj/LBPExtract
+Author: hayj
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+

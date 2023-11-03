@@ -1,0 +1,5 @@
+requests
+pyexecjs
+aiohttp
+lxml
+jinja2

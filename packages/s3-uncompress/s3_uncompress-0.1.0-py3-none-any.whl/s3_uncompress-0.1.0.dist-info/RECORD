@@ -1,0 +1,7 @@
+s3_uncompress/__init_.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+s3_uncompress/exceptions.py,sha256=S_4fZExgQnhbclHr7lMIF0OHvLvKtHTNBv0tzezu3rQ,45
+s3_uncompress/uncompress.py,sha256=G9To4sGLP3b1VJRFBM9pGQ-SxmKkIaplscDJP8dcRfY,6545
+s3_uncompress-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+s3_uncompress-0.1.0.dist-info/METADATA,sha256=8zoCpxjrsfthiFhLhWjA9al5EvBmwhwRzRzzNR1ZAPA,1730
+s3_uncompress-0.1.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+s3_uncompress-0.1.0.dist-info/RECORD,,

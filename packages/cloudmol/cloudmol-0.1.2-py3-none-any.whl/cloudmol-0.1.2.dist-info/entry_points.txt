@@ -1,0 +1,2 @@
+[console_scripts]
+fold_batch = cloudmol.fold_batch:main

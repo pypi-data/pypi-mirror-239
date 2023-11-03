@@ -1,0 +1,13 @@
+iidxbak/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+iidxbak/base.py,sha256=wLA8E-pgdBo87J2fiDasmZtVYHDJU4cVOfZGIYQ4Y8Y,1639
+iidxbak/conf.py,sha256=lE1qdo9kDDBxTzBSoI62YRLA_vHWSN8-nF_gpDVcztk,545
+iidxbak/core_zip.py,sha256=14QE4lfDgeHr7S95X29BlFfN2lYpCgvF01hJHzacp6M,1152
+iidxbak/main.py,sha256=LgR6hBhiSGKzhqt00ykVK9YHk_aRN6n7q4wyx7iiBj0,6381
+iidxbak/niam.py,sha256=2j-iAqdI9Tq_A80VzhKtq9CWV0MyxghhLvCkzBcm3mQ,20
+iidxbak/test_keys.py,sha256=RciYHFlG2eeCZz-fcgEqR6_OzPcokzh8diT3KjaQGeM,2727
+iidxbak/test_m.py,sha256=icqc9ovApirDcDQdqJp68I6kwcy49FlThXQAe0NbW1s,232
+iidxbak-0.9.4.dist-info/METADATA,sha256=yfsBL4ZmoI4OjsXmdKFQoKIOcahov97ViP66hT-1ZwA,1381
+iidxbak-0.9.4.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+iidxbak-0.9.4.dist-info/entry_points.txt,sha256=PknhL3eDR2K4_1cUWtlyGAnzgRAM5KtIatKa285xE3k,163
+iidxbak-0.9.4.dist-info/top_level.txt,sha256=kEd_hBsQLcLI9EDjQnFijt80K_N8UBdY7KfopfbUKnw,8
+iidxbak-0.9.4.dist-info/RECORD,,

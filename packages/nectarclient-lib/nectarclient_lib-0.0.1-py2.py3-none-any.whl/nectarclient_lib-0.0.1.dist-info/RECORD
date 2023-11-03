@@ -1,0 +1,14 @@
+nectarclient_lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nectarclient_lib/exceptions.py,sha256=TYAl_8UJ2pRQ-7D165P8VJ4HQPzhIhrvW92e4zd35to,5462
+nectarclient_lib/osc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nectarclient_lib/osc/utils.py,sha256=e0IeRKxXbZQ6GcC90YhwLgxKRNGgD7muhi4cshAig3Q,1476
+nectarclient_lib/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nectarclient_lib/tests/unit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nectarclient_lib/tests/unit/test_exceptions.py,sha256=UDJ-8mIhx0xGXQxL-tzwqX0_G_wdVXlCKIAvKS-7iTU,1148
+nectarclient_lib/tests/unit/utils.py,sha256=UoXioTh7bRW1QxMCN1S83oOiWa87GDlIOgzUh3WmCQc,3132
+nectarclient_lib-0.0.1.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+nectarclient_lib-0.0.1.dist-info/METADATA,sha256=PNL9OHPXkiR8g7nW6RaySh4g1zpW30Q3I-kRZN0TdkQ,432
+nectarclient_lib-0.0.1.dist-info/RECORD,,
+nectarclient_lib-0.0.1.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+nectarclient_lib-0.0.1.dist-info/metadata.json,sha256=BOV4YLM8Sl_eCM2YxW0cRbCc51gda1SEOgO20yaCvZ0,634
+nectarclient_lib-0.0.1.dist-info/top_level.txt,sha256=b5eb6W5tv58WuboDvaV9u8Fn6BuaCS8jW-TmYxh1Ib4,17

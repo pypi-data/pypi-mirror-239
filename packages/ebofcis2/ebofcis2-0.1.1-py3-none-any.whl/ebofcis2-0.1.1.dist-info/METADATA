@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: ebofcis2
+Version: 0.1.1
+Summary: Libreria que contiene dos clases        Una para realizar integrales por método de montecarlo        y otra para realizar un ajuste de curva suavizado        con el método de kernel gaussiano
+Author: Emmanuel Botero  
+Author-email: emmanuel.botero@udea.edu.co
+License: MIT
+Requires-Python: >=3.10.12
+Description-Content-Type: text/markdown
+Requires-Dist: sympy ==1.12
+Requires-Dist: tqdm ==4.66.1
+Requires-Dist: numpy ==1.26.1
+Requires-Dist: pandas ==2.1.2
+Requires-Dist: matplotlib ==3.8.1
+
+# Biblioteca de Python para Integración Monte Carlo y Ajuste de Curva
+
+Esta biblioteca proporciona dos clases para realizar dos tareas diferentes:
+
+1. **Integral_montecarlo**: Una clase que permite integrar funciones definidas en Sympy utilizando el método Monte Carlo. Puedes comparar los resultados con soluciones analíticas y realizar análisis de precisión.
+
+2. **ajuste_curva**: Una clase que te permite suavizar la curva de datos contenidos en un archivo CSV con columnas 'nuevos_casos' y 'fecha_actualizacion'. Esto es útil para analizar y visualizar tendencias en datos de casos.
+

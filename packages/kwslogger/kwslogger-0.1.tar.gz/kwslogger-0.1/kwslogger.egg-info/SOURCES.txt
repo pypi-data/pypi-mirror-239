@@ -1,0 +1,8 @@
+README.md
+setup.py
+kwslogger.egg-info/PKG-INFO
+kwslogger.egg-info/SOURCES.txt
+kwslogger.egg-info/dependency_links.txt
+kwslogger.egg-info/requires.txt
+kwslogger.egg-info/top_level.txt
+src/__init__.py

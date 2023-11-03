@@ -1,0 +1,10 @@
+solarmach/__init__.py,sha256=jGBuhmrVffkXBDCgLjWPC-R54-3J_QD_QPKgxGNzjNc,101003
+solarmach/pfss_utilities.py,sha256=uD3uaQPxvGX9IfkC4YABJzuPzYmEy6Ziss9R54-6gyY,22587
+solarmach/version.py,sha256=a-pd2OhwdXrxwUK6GzlyxcZtbNusK-pachL8eavNBH8,345
+solarmach/tests/__init__.py,sha256=1D-l3TVbwIZHY78A-sB7kc4ldldX8ZaEq-Ntph51WVw,108
+solarmach/tests/test.py,sha256=JAb9n69UYp9SfSBeh51HxfWkz7HORlm1w7-QdxM2dFU,4194
+solarmach-0.3.0.dist-info/LICENSE.rst,sha256=dxyb32N5KF3Pa1k7vk0dbRn3noeg_5fk0dFkt1gwLEM,1478
+solarmach-0.3.0.dist-info/METADATA,sha256=W-kYY5ZSZZH2mDgUHzC4iKBYjgQBGqCrZ5qzSkhdAis,7976
+solarmach-0.3.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+solarmach-0.3.0.dist-info/top_level.txt,sha256=FcOXBxRFWMDt2eDo_6jPKB7y1C_5wWfthxVMEWu2Hlg,10
+solarmach-0.3.0.dist-info/RECORD,,

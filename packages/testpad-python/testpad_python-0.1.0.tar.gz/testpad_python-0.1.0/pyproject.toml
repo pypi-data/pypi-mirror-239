@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "testpad-python"
+version = "0.1.0"
+description = ""
+authors = ["Carl Crowder <carl@testpad.com>"]
+readme = "README.md"
+packages = [
+    { include = "testpad/"}
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

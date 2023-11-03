@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: vecflow
+Version: 0.0.1
+Summary: VecFlow
+Author: VecFlow
+Author-email: <mail@neuralnine.com>
+Keywords: python,llms,data
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Description-Content-Type: text/markdown
+
+
+## This is a placeholder

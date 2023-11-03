@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/__init__.py
+src/main.py
+vecflow.egg-info/PKG-INFO
+vecflow.egg-info/SOURCES.txt
+vecflow.egg-info/dependency_links.txt
+vecflow.egg-info/top_level.txt

@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: growth-ops-apps-common
+Version: 1.0.3
+Summary: Common utilities for Growth Ops Apps
+Requires-Dist: anvil-uplink (==0.4.2)
+Requires-Dist: dependency-injector (==4.41.0)
+Requires-Dist: fastapi (==0.104.0)
+Requires-Dist: google-cloud-firestore (==2.10.0)
+Requires-Dist: google-cloud-logging (==3.5.0)
+Requires-Dist: google-cloud-run (==0.10.0)
+Requires-Dist: google-cloud-tasks (==2.13.1)
+Requires-Dist: gunicorn (==20.1.0)
+Requires-Dist: hubspot-api-client (==8.0.0)
+Requires-Dist: pydantic (==2.4.2)
+Requires-Dist: PyJWT (==2.7.0)
+Requires-Dist: pytz
+Requires-Dist: requests (==2.31.0)
+Requires-Dist: starlette (==0.27.0)
+Requires-Dist: stripe (~=5.2.0)
+Requires-Dist: urllib3 (==1.26.14)
+Requires-Dist: uvicorn (==0.22.0)
+

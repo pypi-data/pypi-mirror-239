@@ -1,0 +1,20 @@
+[project]
+name="entyty"
+version="0.0.21"
+description="entyty is a Python module for managing entities!"
+readme={file="README.md", content-type="text/markdown"}
+classifiers=[
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.7",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development",
+    "Topic :: Utilities",
+]
+keywords=["entity", "entities", "game", "gamedev", "game-development"]
+
+[build-system]
+requires=["setuptools", "wheel"]
+build-backend="setuptools.build_meta"

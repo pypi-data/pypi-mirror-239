@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: PLANit-Python
+Version: 0.4.0
+Summary: Python API for traffic assignment using PLANit
+Home-page: http://www.goplanit.org
+Author: Mark Raadsen
+Author-email: info@goplanit.org
+License: modified BSD License (see http://www.goplanit.org/docs/licenses/)
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Java
+Classifier: Topic :: Scientific/Engineering
+License-File: LICENSE.txt
+
+PLANit-Python enables Python programs running in a Python interpreter to configure and run a PLANit traffic assignment. It uses Py4J to access the underlying Java API that can be used for the same purpose

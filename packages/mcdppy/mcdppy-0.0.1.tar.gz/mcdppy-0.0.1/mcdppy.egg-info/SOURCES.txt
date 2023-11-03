@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+mcdppy/__init__.py
+mcdppy.egg-info/PKG-INFO
+mcdppy.egg-info/SOURCES.txt
+mcdppy.egg-info/dependency_links.txt
+mcdppy.egg-info/top_level.txt

@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: mcdppy
+Version: 0.0.1
+Summary: Minecraft Datapack Python Library
+Author-email: Minsung Kim <spongbob9876@naver.com>
+Project-URL: Homepage, https://github.com/McDic/MCDPPY
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# MCDPPY: Minecraft Datapack Python Library
+
+This repository is intended to produce Minecraft Datapack with convenience.
+Currently this library is mostly focused on functions but it's subject to change.

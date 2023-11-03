@@ -1,0 +1,2 @@
+peek-plugin-base==3.4.*,>=3.4.12
+peek-platform==3.4.*,>=3.4.12

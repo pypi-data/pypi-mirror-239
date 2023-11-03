@@ -1,0 +1,9 @@
+README.md
+setup.py
+pruebalibreria/__init__.py
+pruebalibreria/mtrrf.py
+pruebalibreria.egg-info/PKG-INFO
+pruebalibreria.egg-info/SOURCES.txt
+pruebalibreria.egg-info/dependency_links.txt
+pruebalibreria.egg-info/requires.txt
+pruebalibreria.egg-info/top_level.txt

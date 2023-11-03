@@ -1,0 +1,11 @@
+numpy>=1.24.4
+pandas>=2.0.3
+parameterfree
+pyskiplist
+sentence-transformers>=2.2.2
+torch
+vowpal-wabbit-next==0.7.0
+
+[dev]
+black==23.10.0
+pytest

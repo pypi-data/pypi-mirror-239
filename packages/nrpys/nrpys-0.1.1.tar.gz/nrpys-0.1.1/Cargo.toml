@@ -1,0 +1,18 @@
+[package]
+name = "nrpys"
+version = "0.1.1"
+edition = "2021"
+authors = ["Kai Blin <kblin@biosustain.dtu.dk>"]
+repository = "https://github.com/kblin/nrpys.git"
+readme = "README.md"
+license = "AGPL-3.0-or-later"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "nrpys"
+crate-type = ["cdylib"]
+
+[dependencies]
+nrps-rs = "0.2.1"
+pyo3 = { version = "0.19.0", features = ["abi3-py38"] }
+thiserror = "1.0.38"

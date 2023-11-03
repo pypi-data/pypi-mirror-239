@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: miksisdk
+Version: 0.0.1
+Requires-Dist: pip
+Requires-Dist: setuptools
+Requires-Dist: langchain
+Requires-Dist: sqlalchemy
+Requires-Dist: pymysql
+

@@ -1,0 +1,6 @@
+mymodule.py
+setup.py
+maasaa.egg-info/PKG-INFO
+maasaa.egg-info/SOURCES.txt
+maasaa.egg-info/dependency_links.txt
+maasaa.egg-info/top_level.txt

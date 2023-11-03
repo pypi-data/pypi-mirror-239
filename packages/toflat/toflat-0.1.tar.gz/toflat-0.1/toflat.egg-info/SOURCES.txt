@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+tests/test_data.py
+toflat/__init__.py
+toflat/toflat.py
+toflat.egg-info/PKG-INFO
+toflat.egg-info/SOURCES.txt
+toflat.egg-info/dependency_links.txt
+toflat.egg-info/requires.txt
+toflat.egg-info/top_level.txt
+toflat/data/jgd2011_plane_rect_crs.geojson

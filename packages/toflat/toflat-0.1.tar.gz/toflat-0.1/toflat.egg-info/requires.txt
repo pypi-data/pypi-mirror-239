@@ -1,0 +1,8 @@
+geopandas
+
+[dev]
+black
+isort
+flake8
+mypy
+pytest

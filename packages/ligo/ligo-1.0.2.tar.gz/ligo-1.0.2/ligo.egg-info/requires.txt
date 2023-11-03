@@ -1,0 +1,13 @@
+pandas
+bionumpy==0.2.26
+numpy
+olga
+pyyaml
+airr<1.4
+plotly
+pystache
+scipy
+npstructures
+stitchr
+IMGTgeneDL
+dill

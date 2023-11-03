@@ -1,0 +1,9 @@
+[project]
+name="entyty"
+version="0.0.22"
+description="entyty is a Python module for managing entities!"
+readme={file="README.md", content-type="text/markdown"}
+
+[build-system]
+requires=["setuptools", "wheel"]
+build-backend="setuptools.build_meta"

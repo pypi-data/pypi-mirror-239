@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: bibdatamanagement
+Version: 0.5.0
+Summary: Package to read .bib file annotations and retrieve values from it
+Home-page: https://gitlab.epfl.ch/ipese/bibdatamanagement/bibdata-package/
+Author: Joseph Loustau
+Author-email: joseph.loustau@epfl.ch
+Maintainer: IT team of IPESE Laboratory from EPFL
+Maintainer-email: itsupport.ipese@groupes.epfl.ch
+License: Free For Educational Use License
+Keywords: bibliography
+Platform: macOS-14.0-arm64-arm-64bit
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: Free For Educational Use
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Code Generators
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+
+README.md

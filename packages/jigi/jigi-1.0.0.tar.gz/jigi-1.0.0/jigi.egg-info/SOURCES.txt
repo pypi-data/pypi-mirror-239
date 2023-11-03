@@ -1,0 +1,7 @@
+setup.py
+jigi/__init__.py
+jigi.egg-info/PKG-INFO
+jigi.egg-info/SOURCES.txt
+jigi.egg-info/dependency_links.txt
+jigi.egg-info/requires.txt
+jigi.egg-info/top_level.txt

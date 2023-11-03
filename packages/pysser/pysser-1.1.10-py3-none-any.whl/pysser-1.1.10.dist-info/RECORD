@@ -1,0 +1,11 @@
+pysser/__init__.py,sha256=CDR-Fjm1oEtI5HEhx7VUEPe8LSxFEkrxSv-IZbUvAf4,28
+pysser/linux_runtime.so,sha256=a8qZDyRkv27HadLnQNnJu1IaTM5tfv1azAVp0ORCbxU,603768
+pysser/pysser.py,sha256=1qJrwFykjnj1GpFWhODDXfbkg9fHX8XcjO3UitxwoTQ,1142
+pysser/ssermainlinux.py,sha256=Zlvqk4Id6i89z7DKoBOp1GQNjPCJar79SoQNOYz7izk,65412
+pysser/ssermainwin.py,sha256=Rcks3JL-ud4E9R50X2uSMq8aj3dQ3qhE0AsGrS35rtk,64068
+pysser/win_runtime.pyd,sha256=bFDk6IeC1SOAZO9Na78ypWvks6xV7yADCpI-pc6zg_c,4913680
+pysser-1.1.10.dist-info/LICENSE,sha256=R7bXls3pxJ7hhQTwOLQKX82Atq_s-vDnsNE8BcvSPOc,1084
+pysser-1.1.10.dist-info/METADATA,sha256=o7xFSCop9VymOkY7drxQK4bGFChBAXoa0dIewMRhbMI,594
+pysser-1.1.10.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pysser-1.1.10.dist-info/top_level.txt,sha256=GqE_hH0ZXJNDF1IctVr2Sfb22csc1SeB3H5xoz4-Sio,7
+pysser-1.1.10.dist-info/RECORD,,

@@ -1,0 +1,14 @@
+cscdata/__init__.py,sha256=o_X-kZ47LUi29GHFKnJ57a2nkuax9BfGlU0FxW91ECE,552
+cscdata/ckClient.py,sha256=qUv1oFgGPewwlwH3rkuFqlEzZ1cfMtN8EEkh227rQiE,17089
+cscdata/ckServer.py,sha256=rxM2MKKEexa0FcGYdqSSBNDBgTmjiNxkmaEK__Ue99o,688
+cscdata/config.py,sha256=s4xduOhI_TL6verlO8CcWADudaA92QQOMmh4NDbwxs8,454
+cscdata/localAbstract.py,sha256=GgwjiGXiYEWqfnFVEPhDQRNRtIJY3WwzqWBtLTF9AdU,1705
+cscdata/localDB.py,sha256=MSYuQuyOITde6lAXxKIp2pmhkPJMPWrw6612DP1tDVQ,16431
+cscdata/localInit.py,sha256=0X0QucLFOnceNac713vmHkzTfOH7h9kE1X7BDAY473U,14255
+cscdata/localManager.py,sha256=VraKNXQSaHt0H5flibGNr7dC7ZOjESlvKBTp4_3ccvY,9073
+cscdata/map.py,sha256=OcM_1ctrw-xytd3ivRwC8bTgXJRbBSe6Cnrq6fL1ASY,1011
+cscdata/utils.py,sha256=oO-CQEbLyr-QOrTNSa4XN91VWAx52wdkqQ22je_n3Co,8589
+cscdata-0.0.15.dist-info/METADATA,sha256=YtgeNAaPrYhkmWnIXWqKe3ZTWTeQLwIPlv7cgokjDh4,84
+cscdata-0.0.15.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+cscdata-0.0.15.dist-info/top_level.txt,sha256=ZN2PrykWVj6zpxCfG-xAqrGQFYOU0f1QyY_2IBWhCds,8
+cscdata-0.0.15.dist-info/RECORD,,

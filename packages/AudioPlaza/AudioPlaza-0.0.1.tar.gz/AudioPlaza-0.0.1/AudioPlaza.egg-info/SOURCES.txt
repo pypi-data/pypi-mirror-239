@@ -1,0 +1,11 @@
+README.md
+setup.py
+AudioPlaza/__init__.py
+AudioPlaza/downsample.py
+AudioPlaza/duration.py
+AudioPlaza/googledrive.py
+AudioPlaza/trim.py
+AudioPlaza.egg-info/PKG-INFO
+AudioPlaza.egg-info/SOURCES.txt
+AudioPlaza.egg-info/dependency_links.txt
+AudioPlaza.egg-info/top_level.txt

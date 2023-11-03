@@ -1,0 +1,16 @@
+sql_mock/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sql_mock/bigquery/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sql_mock/bigquery/column_mocks.py,sha256=18arpAddBXw5GgmOUuwwPoCiC43tr6Tdcx2f957z6Og,524
+sql_mock/bigquery/settings.py,sha256=_tT8mvUov8PLWbAE2ulVJfVoMs2FgXsIrNPRDlIH9Cc,123
+sql_mock/bigquery/table_mocks.py,sha256=pQRs_jKxOWZI8TLfNIHHsO80HFAunZaAv62YSVSII9c,650
+sql_mock/clickhouse/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sql_mock/clickhouse/column_mocks.py,sha256=JZwNEx7GeFnMe7Qab1DUjeClN-vp_01scH6B6qIjNwo,891
+sql_mock/clickhouse/settings.py,sha256=5U2VoHbR2wIAEP_rjr1yXPDAE54yfZ-eaTR81on5qzk,238
+sql_mock/clickhouse/table_mocks.py,sha256=EhjXuu7CRLZ8GRMpkDAEV8n0BTa0vu4AdK-gtEHwGdc,650
+sql_mock/column_mocks.py,sha256=VKjQj6IvcYTp1qF333QM_sHbWBJIxNf7F2vUQ6AOkyI,1435
+sql_mock/constants.py,sha256=tY5vrMxqf_7RwDhLuluihx5VFUCg7OGHUiewa29T0LQ,47
+sql_mock/exceptions.py,sha256=ifvhlxVWqvNDv8EGYdTGuvYwVV-s0K_mbbwL7vBZiHk,43
+sql_mock/table_mocks.py,sha256=qtkkEl-DMt_UW-Lb1Dx5jmbalJ5_sxntWHn6lirzUIo,13250
+sql_mock-0.3.0.dist-info/METADATA,sha256=nOQU7AThfAtZtOgOr8wxjcdouWiN8641VVdWUTr-sCk,4300
+sql_mock-0.3.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+sql_mock-0.3.0.dist-info/RECORD,,

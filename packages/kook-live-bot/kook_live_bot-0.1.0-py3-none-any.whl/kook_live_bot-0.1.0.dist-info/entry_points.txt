@@ -1,0 +1,3 @@
+[console_scripts]
+klb=src.cli:kook_live_bot
+

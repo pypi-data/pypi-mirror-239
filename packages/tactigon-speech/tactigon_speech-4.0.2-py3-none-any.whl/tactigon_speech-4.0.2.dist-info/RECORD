@@ -1,0 +1,10 @@
+tactigon_speech/__init__.py,sha256=_FZuTCH0Cy5uUDn8VVMWd5ATbPTP7jZOfemx7zDE61o,7295
+tactigon_speech/models.py,sha256=j56vJFTP4-gbNnlguERE4vz5KzBqgurgSKfcmwjtwUk,4500
+tactigon_speech/hal/Tactigon_Audio.py,sha256=n_0N6pV3oNyOJAQcpB_rXlkMrlyHELMrRCK4Otidx8c,7661
+tactigon_speech/hal/__init__.py,sha256=IabOmbnmJ7AWMoU73eSedvRmcpnrVoXorPsUcCYVes4,74
+tactigon_speech/middleware/__init__.py,sha256=_JdtlppaK8Rhf5khQOCcv8hwafxcHF_Rc0R-AXggRpQ,10066
+tactigon_speech-4.0.2.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tactigon_speech-4.0.2.dist-info/METADATA,sha256=6ByoqqhLYB71KaeU9G_q6APtf_54-X7gsC23ArV1eVQ,2054
+tactigon_speech-4.0.2.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+tactigon_speech-4.0.2.dist-info/top_level.txt,sha256=-2ddenOmJTerGQvSXbq-ExMnc0Acu99VfBu4RAOWqY8,16
+tactigon_speech-4.0.2.dist-info/RECORD,,

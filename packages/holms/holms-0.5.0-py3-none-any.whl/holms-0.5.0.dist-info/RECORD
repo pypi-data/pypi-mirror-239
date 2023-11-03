@@ -1,0 +1,12 @@
+holms/__init__.py,sha256=wxjRdQalpqhVcqh8CGZ28_WyHqEXHFdzZwVb53b8-H0,376
+holms/__main__.py,sha256=xZjbVsbrRLugYmEMeDobNCIS8EcBU8bqfFr6mYzHek8,324
+holms/_version.py,sha256=ByXlm3Sd06pbnLPUmJpxa3uP5mvx-2_CLuHnKDpHTAs,288
+holms/cli.py,sha256=-7_po2AVz7I1fVG40SGCRBgMBA8SuCMPApqYt7Dk7_c,7585
+holms/common.py,sha256=-dGPbwCvMP5OgikPPuDlriO1rO4uE_c-brgDFA0EVAA,813
+holms/core.py,sha256=gOUxmQRbB6aU1n1aU6cOOqHipdPpLbzb-qXPpAjepCI,6782
+holms/reader.py,sha256=t21tOUbjmoI5HmMWlKo2iqJCWKRgMw20fWZJ0meErjs,1299
+holms/writer.py,sha256=9GiMYlhjVvwV1hz2tgnrC18ogduHUpX7FJe1WTrbWXU,13390
+holms-0.5.0.dist-info/METADATA,sha256=T7427OnibS-RkfVNY32MxRw1iTNTuABWBsGDwW537ow,4616
+holms-0.5.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+holms-0.5.0.dist-info/entry_points.txt,sha256=DJY-okASSVjwVgvjNgx2JiA66xdNYZJquGckkZ_GY68,46
+holms-0.5.0.dist-info/RECORD,,

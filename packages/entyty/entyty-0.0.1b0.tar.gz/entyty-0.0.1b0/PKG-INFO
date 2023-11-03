@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: entyty
+Version: 0.0.1b0
+Summary: A Python library for creating and managing entities.
+Home-page: https://github.com/primal-coder/entyty
+Author: James Evans
+Author-email: joesaysahoy@gmail.com
+License: MIT
+Keywords: entity game development grid
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Games/Entertainment
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7
+Requires-Dist: pyglet

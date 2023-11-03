@@ -1,0 +1,13 @@
+nuscenes_hacker/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nuscenes_hacker/main.py,sha256=IxDDnhfk3a2gVjehFFnO6YM9ik8xSCrlc4B5878zoNc,900
+nuscenes_hacker/hack/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nuscenes_hacker/hack/hack.py,sha256=5sAXEdUQfXE6K0Ht0Kcn6k9nIWw9c2U0TbydcAmy9nU,4791
+nuscenes_hacker/hack/main.py,sha256=9cl_FTMbT-I3pM6sgp3a2TrWQtJAOPul1BExHUo_kRY,710
+nuscenes_hacker/restore/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nuscenes_hacker/restore/main.py,sha256=jH1IdcqOv-4q3X7X6XJZx4l0_3uP-kQA4rTqWlmEzME,1099
+nuscenes_hacker-0.0.1.dist-info/LICENSE,sha256=b32u7CjDe2MqKUBCbkrXg_cST8v9KtsljAvWpxMmIYg,1063
+nuscenes_hacker-0.0.1.dist-info/METADATA,sha256=07qjsH4ASmR_NX5GLRD_THnIZGit1bzM1VMbT3cos2c,641
+nuscenes_hacker-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+nuscenes_hacker-0.0.1.dist-info/entry_points.txt,sha256=AyHZmPssBadQgW6RNbcM6UBIGFflfrgUmnARznR8KJ8,63
+nuscenes_hacker-0.0.1.dist-info/top_level.txt,sha256=iwj88q_-qvQNnBemtkH_klvc25wv3Fvv6GCEnA04jBY,16
+nuscenes_hacker-0.0.1.dist-info/RECORD,,

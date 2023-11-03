@@ -1,0 +1,2 @@
+[nbdev]
+TimeSeriesML = TimeSeriesML._modidx:d

@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: nrpys
+Version: 0.1.1
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+License-File: LICENSE.txt
+Author: Kai Blin <kblin@biosustain.dtu.dk>
+Author-email: Kai Blin <kblin@biosustain.dtu.dk>
+License: AGPL-3.0-or-later
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Source Code, https://github.com/kblin/nrpys.git
+
+# NRPyS: Python language bindings for `nrps-rs` substrate specificity predictor
+
+## License
+NRPyS is an open source tool available under the GNU Affero General Public
+License version 3.0 or greater. See the [`LICENSE.txt`](LICENSE.txt) file for
+details.
+

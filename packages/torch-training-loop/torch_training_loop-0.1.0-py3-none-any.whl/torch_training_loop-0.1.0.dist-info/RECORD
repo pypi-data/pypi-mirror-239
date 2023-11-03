@@ -1,0 +1,16 @@
+training_loop/__init__.py,sha256=4wvNces0nVRzzlehmZWue9LqGsdz96xcebsNL-5r7mg,308
+training_loop/callbacks/__init__.py,sha256=Xc81XK2dQRsGDpsRYlx8kykyEl5Q2DDvSBhgMK1cUYo,169
+training_loop/callbacks/callback.py,sha256=NbHfRMye5HUzPly6DNWa2ctPJHOgLvp6R6YlM_4xbFA,2180
+training_loop/callbacks/early_stopping.py,sha256=I3rI3G-YXGzVHQuR1LXhXzE1ogs8toQt2f7UmxLpUHg,2924
+training_loop/callbacks/model_checkpoint.py,sha256=B_rjX2pMFqo92jiys3v5U2gbaq5-aSUYE50JabfnIv4,3087
+training_loop/callbacks/tensorboard_logger.py,sha256=15KvDC7eSBmbUgqkMXJDtQ_x92mWA4mZLuDIApTuzGQ,1886
+training_loop/exceptions.py,sha256=Up1ZH9ezmlS1jE-WfG0b5TM8sRzxc7Lb0lKsQGseN5g,122
+training_loop/training_loops/__init__.py,sha256=4Z6G5V_r3yVjuhtXKY3X1m1N70yVU0AOm1B222mfbe0,133
+training_loop/training_loops/simple_training_step.py,sha256=f4wygyTtnGMWw20WW8Yg1VQ6USHMZX2YS7Uu-U56yos,21360
+training_loop/training_loops/training_loop.py,sha256=NVmb4oU_MoeGpEiopzrPlgEZNd3wS7_5bOqd_kTNnJM,8074
+training_loop/training_loops/training_step.py,sha256=tZGQHXaqvjAuLYymVi6GGX7VLSDUeIsdVQpcUbuSHts,3145
+training_loop/types.py,sha256=79YdakOk2GdqwL6f2_nm2hSb8nJPSS-5NzQag317ihw,167
+torch_training_loop-0.1.0.dist-info/LICENSE,sha256=wPx7-tKUgcvJLX-kOSsa6gCrxzYxD2dKCxDIuok5v-I,1065
+torch_training_loop-0.1.0.dist-info/METADATA,sha256=rVqYzbFQ-1NJaIKPoFi2_p1FQr-2zmQBp-59mAZSl5c,3432
+torch_training_loop-0.1.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+torch_training_loop-0.1.0.dist-info/RECORD,,

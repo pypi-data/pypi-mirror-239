@@ -1,0 +1,6 @@
+README.md
+setup.py
+GreatLibrarianTest.egg-info/PKG-INFO
+GreatLibrarianTest.egg-info/SOURCES.txt
+GreatLibrarianTest.egg-info/dependency_links.txt
+GreatLibrarianTest.egg-info/top_level.txt

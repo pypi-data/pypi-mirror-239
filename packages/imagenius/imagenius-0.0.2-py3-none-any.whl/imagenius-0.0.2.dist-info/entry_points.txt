@@ -1,0 +1,2 @@
+[console_scripts]
+imagenius = imagenius.cli:main

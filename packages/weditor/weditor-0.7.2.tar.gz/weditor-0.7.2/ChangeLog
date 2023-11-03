@@ -1,0 +1,16 @@
+CHANGES
+=======
+
+0.7.2
+-----
+
+* fix github actions
+* ignore android.webkit.WebView content
+* add missing file
+* add support for pure adb
+* try to add adbutils support
+* manualy merged, close pr#132
+* add little unittest
+* Update ipyshell-console.py
+* remove useless code
+* add github actions

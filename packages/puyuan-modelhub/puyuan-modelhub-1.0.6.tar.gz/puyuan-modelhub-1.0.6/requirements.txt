@@ -1,0 +1,10 @@
+zhipuai
+openai
+fastapi[all]
+uvicorn[standard]
+sse_starlette
+pymongo
+transformers
+torch
+pydantic<1.10.14,>=1.10.13
+typing_extensions>=4.7.1

@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aspectp"
+version = "1.0.0"
+authors = [
+  { name="Gabriele Maurina", email="gabrielemaurina95@gmail.com" },
+]
+description = "Aspect Oriented Programming in Python"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/GabrieleMaurina/aspectp"

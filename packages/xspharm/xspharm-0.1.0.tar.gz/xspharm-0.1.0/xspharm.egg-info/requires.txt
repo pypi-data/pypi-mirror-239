@@ -1,0 +1,3 @@
+numpy
+xarray
+pyspharm>=1.0.9

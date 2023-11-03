@@ -1,0 +1,15 @@
+scrapeomatic/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scrapeomatic/collector.py,sha256=tCeWlg16JOX4EIZVMO8pVhfKKW8vq3LMzHIioZnceAc,1109
+scrapeomatic/collectors/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scrapeomatic/collectors/instagram.py,sha256=FlIf5XJ46sPGKzj0_nrU0_9LLBTj5W2Sobe7rrT_kgw,2266
+scrapeomatic/collectors/tiktok.py,sha256=0VvngOaXV4KbzHE_Ah6ipbE4BImbnWLHUtBJ-DMPQog,6317
+scrapeomatic/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scrapeomatic/tests/test_instagram.py,sha256=QLHt7Lj2jDUxqN8JY0chlFGdjpHznStbSKJYUmTHk8w,561
+scrapeomatic/tests/test_tiktok.py,sha256=IZLERrNiXMxBiNS--C3ilyXzeDeQBk316E4mw_uUO6c,449
+scrapeomatic/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scrapeomatic/utils/constants.py,sha256=nbVge7ctd9sN41wCet-E5957uh5h3mGJ-8gIRx6L7w0,253
+scrapeomatic-0.1.dist-info/LICENSE.txt,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+scrapeomatic-0.1.dist-info/METADATA,sha256=cRhTcoCQgEH4LEXu06Xg60MtFi1R_vcnNO77XGVdLWI,3028
+scrapeomatic-0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+scrapeomatic-0.1.dist-info/top_level.txt,sha256=iKz4qQEb4OshT-I-D9js4P5YUZZRr6d38rbVs95cvE8,13
+scrapeomatic-0.1.dist-info/RECORD,,

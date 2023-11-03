@@ -1,0 +1,108 @@
+Metadata-Version: 2.1
+Name: lightautoml-gpu
+Version: 0.2.15
+Summary: Fast and customizable framework for automatic ML model creation (AutoML)
+Home-page: https://lightautoml.readthedocs.io/en/latest/
+License: Apache-2.0
+Author: Alexander Ryzhkov
+Author-email: AMRyzhkov@sberbank.ru
+Requires-Python: >=3.6.1,<4.0.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: Russian
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Typing :: Typed
+Provides-Extra: pdf
+Requires-Dist: albumentations (>=0.4.6)
+Requires-Dist: autowoe (>=1.2)
+Requires-Dist: cffi (>=1.14.5,<2.0.0); extra == "pdf"
+Requires-Dist: cmaes
+Requires-Dist: efficientnet-pytorch
+Requires-Dist: gensim
+Requires-Dist: holidays
+Requires-Dist: importlib-metadata (>=1.0,<2.0); python_version < "3.8"
+Requires-Dist: jinja2
+Requires-Dist: joblib
+Requires-Dist: json2html
+Requires-Dist: lightgbm (>=2.3,<3.0)
+Requires-Dist: log-calls
+Requires-Dist: networkx
+Requires-Dist: nltk
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: optuna
+Requires-Dist: pandas (>=1)
+Requires-Dist: poetry-core (>=1.0.0,<2.0.0)
+Requires-Dist: pywavelets
+Requires-Dist: pyyaml
+Requires-Dist: scikit-image
+Requires-Dist: scikit-learn (>=0.22)
+Requires-Dist: scipy
+Requires-Dist: seaborn
+Requires-Dist: torch (>=1.6)
+Requires-Dist: torchvision
+Requires-Dist: tqdm
+Requires-Dist: transformers (>=4)
+Requires-Dist: weasyprint (>=52.5,<53.0); extra == "pdf"
+Requires-Dist: webencodings
+Project-URL: Repository, https://github.com/sberbank-ai-lab/LightAutoML
+Description-Content-Type: text/markdown
+
+## Developing LightAutoML on GPU
+
+To develop LightAutoML on GPUs using RAPIDS some prerequisites need to be met:
+1. NVIDIA GPU: Pascal or higher
+2. CUDA 11.0 (drivers v460.32+) or higher need to be installed
+3. Python version 3.8 or higher
+4. OS: Ubuntu 16.04/18.04/20.04 or CentOS 7/8 with gcc/++ 9.0+
+
+### Installation
+
+[Anaconda](https://www.anaconda.com/products/individual#download-section) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html) is necessary to install RAPIDS and work with environments.
+
+1. Once you install Anaconda/Miniconda, you need to set up your own environment. For example:
+```bash
+conda create -n lama_venv python=3.8
+conda activate lama_venv
+```
+
+2. To install RAPIDS for Python 3.8 and CUDA 11.0 use the following command:
+```bash
+conda install -c rapidsai -c nvidia -c conda-forge rapids=22.10 cudatoolkit=11.0
+pip install dask-ml
+```
+
+3. To clone the project on your own local machine:
+```bash
+git clone https://github.com/ekonyagin/LightAutoML-1.git
+cd LightAutoML-1
+```
+
+4. Install LightAutoML in develop mode and other necessary libraries:
+```bash
+pip install .
+pip install catboost
+pip install py-boost
+```
+
+After you change the library code, you need to re-install the library: go to LightAutoML directory and call ```pip install ./ -U```
+
+Please note, if you use NVIDIA GPU Ampere architecture (i.e. Tesla A100 or RTX3000 series), you may need to uninstall pytorch and install it manually 
+due to compatibility issues. To do so, run following commands:
+```bash
+pip uninstall torch torchvision
+pip install torch==1.7.1+cu110 torchvision==0.8.2+cu110 -f https://download.pytorch.org/whl/torch_stable.html
+```
+
+Once the RAPIDS is installed, the environment is fully ready. You can activate it using the `source` command and test and implement your own code.
+
+

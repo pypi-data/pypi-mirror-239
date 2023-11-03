@@ -1,0 +1,1 @@
+recursive-include auth0_avs/frontend/dist *

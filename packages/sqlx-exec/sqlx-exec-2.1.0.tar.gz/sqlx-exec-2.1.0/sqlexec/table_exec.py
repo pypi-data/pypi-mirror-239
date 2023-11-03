@@ -1,0 +1,240 @@
+#！/usr/bin/env python3
+# -*- coding:utf-8 -*-
+
+from . import exec
+from .constant import LIMIT_1
+from typing import Sequence, Union, List, Tuple
+
+
+def table(table: str) :
+    table = table.strip()
+    assert table, "Parameter 'table' must not be none"
+    return TableExec(table, exec)
+
+
+class TableExec:
+
+    def __init__(self, table, executor):
+        self.table = table
+        self.executor = executor
+
+    def insert(self, **kwargs):
+        """
+        Insert data into table, return effect rowcount.
+
+        :param kwargs: {name='张三', age=20}
+        return: Effect rowcount
+        """
+        return self.executor.insert(self.table, **kwargs)
+
+    def save(self, select_key: str, **kwargs):
+        """
+        Insert data into table, return primary key.
+
+        :param select_key: sql for select primary key
+        :param kwargs:
+        :return: Primary key
+        """
+        return self.executor.save(select_key, self.table, **kwargs)
+
+    def get(self, column: str):
+        """
+        Execute select SQL and expected one int and only one int result, SQL contain 'limit'.
+        MultiColumnsError: Expect only one column.
+        """
+        sql = get_select_sql(self.table, '', LIMIT_1, column)
+        return self.executor.do_get(sql, LIMIT_1)
+
+    def count(self):
+        """
+        Count
+        """
+        return self.get('count(1)')
+
+    def select(self, *columns):
+        """
+        execute select SQL and return unique result or list results(tuple).
+        """
+        sql = get_select_sql(self.table, '', 0, *columns)
+        return self.executor.do_select(sql)
+
+    def select_one(self, *columns):
+        """
+        Execute select SQL and return unique result(tuple), SQL contain 'limit'.
+        """
+        sql = get_select_sql(self.table, '', LIMIT_1, *columns)
+        return self.executor.do_select_one(sql, LIMIT_1)
+
+    def query(self, *columns):
+        """
+        Execute select SQL and return list results(dict).
+        """
+        sql = get_select_sql(self.table, '', 0, *columns)
+        return self.executor.do_query(sql)
+
+    def query_one(self, *columns):
+        """
+        execute select SQL and return unique result(dict), SQL contain 'limit'.
+        """
+        sql = get_select_sql(self.table, '', LIMIT_1, *columns)
+        return self.executor.do_query_one(sql, LIMIT_1)
+
+    def batch_insert(self, *args):
+        """
+        Execute sql return effect rowcount
+        :param args: [{'name': '张三', 'age': 20}, {'name': '李四', 'age': 28}]
+        """
+        return self.executor.batch_insert(self.table, *args)
+
+    def where(self, **kwargs):
+        return WhereExec(self.table, self.executor, **kwargs)
+
+
+class WhereExec:
+
+    def __init__(self, table, executor, **kwargs):
+        self.table = table
+        self.executor = executor
+        self.kwargs = kwargs
+
+    def get(self, column: str):
+        """
+        Execute select SQL and expected one int and only one int result, SQL contain 'limit'.
+        MultiColumnsError: Expect only one column.
+        """
+        where, args, _ = get_where_arg_limit(**self.kwargs)
+        sql = get_select_sql(self.table, where, LIMIT_1, column)
+        return self.executor.do_get(sql, *args, LIMIT_1)
+
+    def count(self):
+        return self.get('count(1)')
+
+    def select(self, *columns):
+        """
+        execute select SQL and return unique result or list results(tuple).
+        """
+        where, args, limit = get_where_arg_limit(**self.kwargs)
+        sql = get_select_sql(self.table, where, limit, *columns)
+        if limit:
+            if isinstance(limit, int):
+                args = [*args, limit]
+            else:
+                args = [*args, *limit]
+        return self.executor.do_select(sql, *args)
+
+    def select_one(self, *columns):
+        """
+        Execute select SQL and return unique result(tuple), SQL contain 'limit'.
+        """
+        where, args, _ = get_where_arg_limit(**self.kwargs)
+        sql = get_select_sql(self.table, where, LIMIT_1, *columns)
+        return self.executor.do_select_one(sql, *args, LIMIT_1)
+
+    def query(self, *columns):
+        """
+        Execute select SQL and return list results(dict).
+        """
+        where, args, limit = get_where_arg_limit(**self.kwargs)
+        sql = get_select_sql(self.table, where, limit, *columns)
+        if limit:
+            if isinstance(limit, int):
+                args = [*args, limit]
+            else:
+                args = [*args, *limit]
+        return self.executor.do_query(sql, *args)
+
+    def query_one(self, *columns):
+        """
+        execute select SQL and return unique result(dict), SQL contain 'limit'.
+        """
+        where, args, _ = get_where_arg_limit(**self.kwargs)
+        sql = get_select_sql(self.table, where, LIMIT_1, *columns)
+        return self.executor.do_query_one(sql, *args, LIMIT_1)
+
+    def delete(self):
+        """
+        execute select SQL and return unique result(dict), SQL contain 'limit'.
+        """
+        where, args, _ = get_where_arg_limit(**self.kwargs)
+        sql = 'DELETE FROM %s %s' % (self.table, where)
+        return self.executor.do_execute(sql, *args)
+
+
+def get_select_sql(table: str, where: str, limit: Union[int, Tuple[int], List[int]], *columns):
+    columns = ','.join([col if '(' in col else '{}'.format(col) for col in columns]) if columns else '*'
+
+    if limit:
+        if isinstance(limit, int):
+            return 'SELECT {} FROM {} {} LIMIT ?'.format(columns, table, where)
+        elif (isinstance(limit, Tuple) or isinstance(limit, List)) and len(limit) == 2:
+            return 'SELECT {} FROM {} {} LIMIT ? OFFSET ?'.format(columns, table, where)
+        else:
+            raise ValueError("The type of the parameter 'limit' must be 'int' or tuple, list, and it length is 2.")
+    else:
+        return 'SELECT {} FROM {} {}'.format(columns, table, where)
+
+
+def get_condition_arg(k: str, v: object):
+    if k.endswith("__eq"):
+        return "{} = ?".format(k[:-4]), v
+    if k.endswith("__ne"):
+        return "{} != ?".format(k[:-4]), v
+    if k.endswith("__gt"):
+        return "{} > ?".format(k[:-4]), v
+    if k.endswith("__lt"):
+        return "{} < ?".format(k[:-4]), v
+    if k.endswith("__ge"):
+        return "{} >= ?".format(k[:-4]), v
+    if k.endswith("__gte"):
+        return "{} >= ?".format(k[:-5]), v
+    if k.endswith("__le"):
+        return "{} <= ?".format(k[:-4]), v
+    if k.endswith("__lte"):
+        return "{} <= ?".format(k[:-5]), v
+    if k.endswith("__isnull"):
+        return "{} is {}".format(k[:-8], 'null' if v else 'not null'), None
+    if k.endswith("__in") and isinstance(v, Sequence) and not isinstance(v, str):
+        return "{} in({})".format(k[:-4], ','.join(['?' for _ in v])), v
+    if k.endswith("__in"):
+        return "{} in({})".format(k[:-4], '?'), v
+    if k.endswith("__not_in") and isinstance(v, Sequence) and not isinstance(v, str):
+        return "{} not in({})".format(k[:-8], ','.join(['?' for _ in v])), v
+    if k.endswith("__not_in"):
+        return "{} not in({})".format(k[:-8], '?'), v
+    if k.endswith("__like"):
+        return "{} like ?".format(k[:-6], '?'), v
+    if k.endswith("__startswith"):
+        return "{} like ?".format(k[:-12]), '{}%'.format(v)
+    if k.endswith("__endswith"):
+        return "{} like ?".format(k[:-10]), '%{}'.format(v)
+    if k.endswith("__contains"):
+        return "{} like ?".format(k[:-10]), '%{}%'.format(v)
+    if k.endswith("__range") and isinstance(v, Sequence) and 2 == len(v) and not isinstance(v, str):
+        col = k[:-7]
+        return "{} >= ? and {} <= ?".format(col, col), v
+    if k.endswith("__between") and isinstance(v, Sequence) and 2 == len(v) and not isinstance(v, str):
+        return "{} between ? and ?".format(k[:-9]), v
+    if k.endswith("__range") or k.endswith("__between"):
+        return ValueError("Must is instance of Sequence with length 2 when use range or between statement")
+
+    return "{} = ?".format(k), v
+
+
+def get_where_arg_limit(**kwargs):
+    where, args, limit = '', [], 0
+    if 'limit' in kwargs:
+        limit = kwargs.pop('limit')
+
+    if kwargs:
+        conditions, tmp_args = zip(*[get_condition_arg(k, v) for k, v in kwargs.items()])
+        tmp_args = [arg for arg in tmp_args if arg is not None]
+
+        for arg in tmp_args:
+            if arg:
+                if isinstance(arg, Sequence) and not isinstance(arg, str):
+                    args.extend(arg)
+                else:
+                    args.append(arg)
+        where = 'WHERE {}'.format(' and '.join(conditions))
+
+    return where, args, limit

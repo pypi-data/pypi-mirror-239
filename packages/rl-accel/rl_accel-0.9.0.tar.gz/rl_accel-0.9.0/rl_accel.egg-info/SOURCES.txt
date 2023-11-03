@@ -1,0 +1,10 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+rl_accel.egg-info/PKG-INFO
+rl_accel.egg-info/SOURCES.txt
+rl_accel.egg-info/dependency_links.txt
+rl_accel.egg-info/top_level.txt
+src/_rl_accel.c

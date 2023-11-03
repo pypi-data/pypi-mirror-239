@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: jigi
+Version: 1.0.3
+Summary: JIGI
+Home-page: https://github.com/baxromov/JIGI.git
+Author: Baxromov Shahzodbek
+Author-email: baxromov.shahzodbek@gmail.com
+Requires-Dist: appdirs ==1.4.4
+Requires-Dist: beautifulsoup4 ==4.12.2
+Requires-Dist: bs4 ==0.0.1
+Requires-Dist: certifi ==2023.7.22
+Requires-Dist: colorama ==0.4.6
+Requires-Dist: importlib-metadata ==6.8.0
+Requires-Dist: lxml ==4.9.3
+Requires-Dist: mpd-parser ==0.1.2
+Requires-Dist: pyee ==8.2.2
+Requires-Dist: pyppeteer ==1.0.2
+Requires-Dist: soupsieve ==2.5
+Requires-Dist: tqdm ==4.66.1
+Requires-Dist: urllib3 ==1.26.18
+Requires-Dist: websockets ==10.4
+Requires-Dist: zipp ==3.17.0
+

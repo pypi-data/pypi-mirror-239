@@ -1,0 +1,17 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.py
+src/easyo2p/__init__.py
+src/easyo2p/_constants.py
+src/easyo2p/_data.py
+src/easyo2p/_foreign_keys.py
+src/easyo2p/_indexes.py
+src/easyo2p/_main.py
+src/easyo2p/_sequences.py
+src/easyo2p/_tables.py
+src/easyo2p/_triggers.py
+src/easyo2p.egg-info/PKG-INFO
+src/easyo2p.egg-info/SOURCES.txt
+src/easyo2p.egg-info/dependency_links.txt
+src/easyo2p.egg-info/top_level.txt

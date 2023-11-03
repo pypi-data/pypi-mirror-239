@@ -1,0 +1,5 @@
+setup.py
+prisjakt_offer_validator.egg-info/PKG-INFO
+prisjakt_offer_validator.egg-info/SOURCES.txt
+prisjakt_offer_validator.egg-info/dependency_links.txt
+prisjakt_offer_validator.egg-info/top_level.txt

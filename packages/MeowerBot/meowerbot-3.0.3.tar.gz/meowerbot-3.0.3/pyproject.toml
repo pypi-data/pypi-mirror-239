@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "MeowerBot"
+version = "3.0.3"
+description = "A meower bot lib for py"
+authors = ["showierdata9978 <68120127+showierdata9978@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [
+    {include = "MeowerBot"}
+]
+repository = "https://github.com/MeowerBots/MeowerBot.py"
+
+
+[tool.poetry.dependencies]
+python = "^3.12"
+websockets = "^11.0.3"
+orjson = "^3.9.4"
+httpx = "^0.25.0"
+dataclasses-json = "^0.6.1"
+typing-extensions = "^4.8.0"
+ujson = "^5.8.0"
+
+
+[tool.poetry.group.extras.dependencies]
+
+
+
+[tool.poetry.group.dev.dependencies]
+bandit = "^1.7.5"
+jedi = "^0.19.1"
+python-dotenv = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

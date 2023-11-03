@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: Abyss-Beta
+Version: 0.0.1
+Summary: The GUI for the Nebula CLI
+Home-page: https://github.com/setoyuma/NebulaEngine
+Author: Setoichi
+Author-email: setoichi.dev@gmail.com
+License: MIT
+Classifier: Development Status :: 4 - Beta

@@ -1,0 +1,8 @@
+setup.py
+klrrrr/__init__.py
+klrrrr/klrrrr.py
+klrrrr.egg-info/PKG-INFO
+klrrrr.egg-info/SOURCES.txt
+klrrrr.egg-info/dependency_links.txt
+klrrrr.egg-info/not-zip-safe
+klrrrr.egg-info/top_level.txt

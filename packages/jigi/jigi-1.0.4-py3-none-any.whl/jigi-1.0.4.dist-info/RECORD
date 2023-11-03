@@ -1,0 +1,15 @@
+jigi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jigi/facebook/__init__.py,sha256=FVspHq2ay6BQ_jQiEg2bSCaCRsSz7KUG_r6FESDCRfw,33
+jigi/facebook/download.py,sha256=g1vNY4JRC-sDJ_5VtybnxXZGKAMcJ9tIJOB_vscVYP8,2402
+jigi/facebook/helpers.py,sha256=eXP5iSkBKLZHQ18uOpVQ-itJFfaX27MVb9fKGbh4jPA,653
+jigi/instagram/__init__.py,sha256=sMQeKOKBlnZK8SmU7hd5wI4CWVX1zL2mktZX14_Uk18,24
+jigi/instagram/download.py,sha256=uftMZLfK3AXTyTKZcA-9cGA2xuBMUK9OfD3PH1n38Mw,2239
+jigi/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jigi/utils/utils.py,sha256=j-3OCfy9SLULvfz6_D6Y3IFm4kyIhO0t1SHoyUwGfBs,461
+jigi/vk/__init__.py,sha256=ICzu4KD4Cyf5q7cQCUvwRpcQzTLws8-yt-jIy_3IU9E,33
+jigi/vk/download.py,sha256=CTLc4DoHJXGLGsgbs0fnVx9Po2ffUubwlRHDga-L4L8,2771
+jigi/vk/helpers.py,sha256=yE5jXseQzOqdOzMh5l4q8JJdhm4xp9Pm--CKrNRTw5w,1254
+jigi-1.0.4.dist-info/METADATA,sha256=Up2owdpuVZiuYwEDa47YFw8QP7m92RIeQ2tq663ex7Y,690
+jigi-1.0.4.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+jigi-1.0.4.dist-info/top_level.txt,sha256=2CuviOdSrokuZ7_0CuAs5JjyCUuioFv22-wzHziusFY,5
+jigi-1.0.4.dist-info/RECORD,,

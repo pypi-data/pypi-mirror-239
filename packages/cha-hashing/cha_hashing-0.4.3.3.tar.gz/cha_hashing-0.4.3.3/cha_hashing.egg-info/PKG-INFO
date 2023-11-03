@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: cha-hashing
+Version: 0.4.3.3
+Summary: A Hashing and encryption with Customizable Hashing Algorithm CHA, WARNING: DO NOT USE IN REAL USE CASES! THIS WAS MADE JUST FOR FUN!
+Home-page: https://github.com/RoyNisimov1/CHA
+Author: NeuralNine (Florian Dedov)
+Author-email: <mail@neuralnine.com>
+License: MIT
+Keywords: python,hashin,cha,encryption,decryption
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+A Hashing and encryption with Customizable Hashing Algorithm CHA, WARNING: DO NOT USE IN REAL USE CASES! THIS WAS MADE JUST FOR FUN!

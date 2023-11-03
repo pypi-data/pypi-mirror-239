@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: housing-library-5500
+Version: 0.1
+Summary: Sample code for coding practice
+Author-email: Bidisha Mukherjee <bidisha.mukherje@tigeranalytics.com>
+Project-URL: Homepage, https://github.com/BidiMukh28/mle-training.git
+Keywords: housing,data training
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+
+#This submission consists of solution for TAMLEP-Assignment2.1

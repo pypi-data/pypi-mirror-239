@@ -1,0 +1,8 @@
+in_pack/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+in_pack/funcs.py,sha256=dB0l41g_70NnKgUDqA2BQiTdMSwGRiZIKkz8eVKPYbk,157
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_funcs.py,sha256=kuh03akRvtMyxR3rW3c1pjFUmTtznkX18Hy7GP7fraw,215
+in_pack-0.0.1.dist-info/METADATA,sha256=tKHCfhZgWTjrEfXL77VX9FSRlfw8E2_vozsZ51ocObo,104
+in_pack-0.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+in_pack-0.0.1.dist-info/top_level.txt,sha256=XKKnlxocR8goa0_QzJtyLsvw9wl-ayBzLwsM9x1hzHI,14
+in_pack-0.0.1.dist-info/RECORD,,

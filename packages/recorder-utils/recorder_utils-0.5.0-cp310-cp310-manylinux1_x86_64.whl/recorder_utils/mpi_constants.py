@@ -1,0 +1,16 @@
+type2size = {
+    'MPI_TYPE_UNKNOWN': 0,
+    'MPI_CHAR': 1,
+    'MPI_SIGNED_CHAR ': 1,
+    'MPI_UNSIGNED_CHAR': 1,
+    'MPI_BYTE': 1,
+    'MPI_WCHAR': 4,
+    'MPI_SHORT': 2,
+    'MPI_UNSIGNED_SHORT': 2,
+    'MPI_INT': 4,
+    'MPI_UNSIGNED': 4,
+    'MPI_LONG': 8,
+    'MPI_UNSIGNED_LONG': 8,
+    'MPI_FLOAT': 4,
+    'MPI_DOUBLE': 8,
+}

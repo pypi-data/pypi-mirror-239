@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: TCPIPLS
+Version: 2.1
+Summary: Python connect to PLC LS
+Author: Quangcha
+Author-email: duyquangd4.bk@gmail.com
+Keywords: PLC,protocol,LS electric
+Description-Content-Type: text/markdown
+
+# Python connect to PLC LS by TCP/IP
+
+LS protocol(LS electric Communication Protocol) implementation by Python. LS protocol enables you to operate PLC from computer.
+
+# import library
+
+from TCPIP.LS import conn_plpc
+
+# setting PLC IP and Port
+
+PLC_INFORM = {"host":"192.168.1.10", "port":2004} # Port :2004 XGT server TCP/IP
+
+# connect to PLC
+
+conn = conn_plpc(\*\*PLC_INFORM)
+
+# write device
+
+val = conn.plc_comm("XGB", "write", "bit", "M70","1")# Write ON to Bit M70
+
+val = conn.plc_comm("XGB", "write", "bit", "M70") or conn.plc_comm("XGB", "write", "bit", "M70","0") # Write OFF to Bit M70
+
+val = conn.plc_comm("XGB", "write", "byte", "D100","20") # Write 20 to 100th Byte(int8) D50( beacause 1 D= int16)
+
+val = conn.plc_comm("XGB", "write", "word", "D100","1") # write 1 to Word(int16) D100
+
+val = conn.plc_comm("XGB", "write", "dword", "D50","1") # Write 1 to 50th doubleWord(int32)( D100-D101)
+
+val = conn.plc_comm("XGB", "write", "lword", "D25","1") # Write 1 to 25th long(int64) ( D100-D101-d102-d103)
+
+# read device
+
+val = conn.plc_comm("XGB", "read", "bit", "M70") # read Bit M70 return [1] or [0]
+
+val = conn.plc_comm("XGB", "read", "byte", "D100") # read 100th Byte(int8) D50( beacause 1 D= int16)
+
+val = conn.plc_comm("XGB", "read", "word", "D100) # read Word(int16) D100
+
+val = conn.plc_comm("XGB", "read", "dword", "D50) # read 50th doubleWord(int32)( D100-D101)
+
+val = conn.plc_comm("XGB", "read", "lword", "D25) # read 25th long(int64) ( D100-D101-d102-d103)
+
+# write multi device
+
+val = conn.plc_comm("XGB", "write", "bit", "M70,M71,M72","1,0,1")# Write ON to Bit M70, OFF M71 and ON M72
+
+val = conn.plc_comm("XGB", "write", "bit", "M70,M71,M72") # write off all 3 bits M70,M71,M72
+
+.......................
+
+# read multi device
+
+val = conn.plc_comm("XGB", "read", "bit", "M70,M71,M72") # read 3 Bits M70,M71,M72 return [1,0,1]
+
+.............................................

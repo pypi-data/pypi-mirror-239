@@ -1,0 +1,144 @@
+Metadata-Version: 2.1
+Name: bibdatamanagement
+Version: 0.5.1
+Summary: Package to read .bib file annotations and retrieve values from it
+Home-page: https://gitlab.epfl.ch/ipese/bibdatamanagement/bibdata-package/
+Author: Joseph Loustau
+Author-email: joseph.loustau@epfl.ch
+Project-URL: documentation, https://ipese-web.epfl.ch/static/docs/bibdatamanagement/index.html
+Project-URL: repository, https://gitlab.epfl.ch/ipese/bibdatamanagement/bibdata-package/
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: Free For Educational Use
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Code Generators
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Bibliography management
+
+The goal is to provide an easy way to extract in python custom data set in the *annote* field of a bib file.
+
+## Installation
+
+**BibdataManagement** library is stored in IPESE pypi server located on https://ipese-internal.epfl.ch/registry/pypi.
+
+To include the library in your projects, do the following in _requirements.txt_:
+1. Add on the top of the file those lines
+ ```
+  --trusted-host ipese-internal.epfl.ch  
+  --index-url=https://ipese-internal.epfl.ch/registry/pypi
+ ```
+2. Include the package 
+```
+bibdatamanagement >= 0.1.14
+```
+
+Otherwise, the package can be installed by using a _pip_ command.  
+```
+pip install --index-url=https://ipese-internal.epfl.ch/registry/pypi bibdatamanagement
+```
+
+## Data format
+
+The package is designed to extract data in a specific format. The initial development was made for technologies parameter
+used to model it.
+```
++- TECH # row_key:set: general description of tech
+param1 = min:value1:max [unit1] # short_name: a comment about the param and its value
+param2 = value2 [unit2]
++- /TECH
+```
+Where the fields described as follows:
+|Fields | Description | Mandatory|
+|--- | --- | ---|
+|TECH | The name of the tech to which the parameters belong | True|
+|row_key | An identifier | False|
+|set | Use to retrieve all values from a user (e.g. all values for   *scenario_oil*) | False|
+|general_description | A comment on the tech or on the paper | False|
+|param | Name of the parameter characterised | False|
+|value | Value of the parameter | True|
+|min | Minimal value that the parameter can have | False|
+|max | Maximal value that the parameter can have | False|
+|unit | Unit of the parameter | True|
+
+The minimal information to provide is the `+- TECH       +- /TECH`. The fields after the _#_ are optional, as well as
+the min and max values.
+
+> Nb: spaces in the key/value line are for readability but are not required
+
+## Usage
+
+The minimal workflow to access the data in the _.bib_ is the following.
+
+```python
+from bibdata_management.bibdata_management import BibDataManagement
+bib_file = 'your_path/your_file.bib'
+bibdata = BibDataManagement(bib_file)
+df_bib = bibdata.get_data(tech_name='YOUR_TECH', set_name='YOUR_SET')
+```
+
+One can also add a _.csv_ file that contains the default value for parameters description (short name, long name, description).
+```{python}
+bibdata = BibDataManagement(bib_file, 'your_default_file.csv')
+```
+
+## Documentation
+
+More information on the fields and the methods is available in the [documentation website](https://ipese-internal.epfl.ch/docs/bibdatamanagement/)
+
+## Suggestions and contributions
+
+All suggestions or implementation must be tracked with dedicated issues and reported at the [project GitLab](https://gitlab.epfl.ch/ipese/bibdatamanagement/bibdata-package/issues) 
+
+If you want to make the format evolve or implement a new python function, create an issue before anything else.
+
+Non-Commercial License Agreement 
+Source Code
+
+Introduction 
+●	This license agreement sets forth the terms and conditions under which ECOLE POLYTECHNIQUE FEDERALE DE LAUSANNE ( EPFL), CH-1015 Lausanne, Switzerland (hereafter "LICENSOR") will grant you (hereafter "LICENSEE") a fully-paid, non-exclusive, and non-transferable license for academic, non- commercial purposes only (hereafter “LICENSE”) to use the  "REHO - Renewable Energy Hub Optimizer" computer software program and associated documentation furnished hereunder (hereafter "PROGRAM").
+●	LICENSEE acknowledges that the PROGRAM is a research tool still in the development stage, that is being supplied "as is", without any related services, improvements or warranties from LICENSOR and that this license is entered into in order to enable others to utilize the PROGRAM in their academic activities.
+
+Terms and Conditions of the LICENSE
+
+1.	LICENSOR grants to LICENSEE a fully-paid up, non-exclusive, and non-transferable license to use the PROGRAM for academic, non-commercial purposes, upon the terms and conditions hereinafter set out and until termination of this license as set forth below.
+
+2.	LICENSEE acknowledges that the PROGRAM is a research tool still in the development stage. The PROGRAM M is provided "as is", without any related services or improvements from LICENSOR and that the LICENSE is entered into in order to enable others to utilize the PROGRAM in their academic activities.
+
+3.	LICENSOR MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITAION ANY REPRESENTATIONS OR WARRANTIES OF MERCHANTABILITY OR FITNESS FOR PARTICULAR PURPOSE OR THAT THE USE OF THE PROGRAM WILL NOT INFRINGE ANY PATENTS, COPYRIGHTS, TRADEMARKS OR OTHER RIGHTS. LICENSOR shall not be liable for any direct, indirect or consequential damages with respect to any claim by LICENSEE or any third party arising from this Agreement or use of the PROGRAM.
+
+4.	LICENSEE agrees that it will use the PROGRAM, and any modifications, improvements, or derivatives to PROGRAM that LICENSEE may create (collectively, "IMPROVEMENTS") solely for academic, non-commercial purposes and shall not distribute or transfer the PROGRAM or any IMPROVEMENTS to any person without prior written permission from LICENSOR. The terms "academic, non-commercial", as used in this Agreement, mean academic or other scholarly research which (a) is not undertaken for profit, or (b) is not intended to produce works, services, or data for commercial use, or (c) is neither conducted, nor funded, by a person or an entity engaged in the commercial use, application or exploitation of works similar to the PROGRAM.
+
+5.	LICENSEE agrees that he/she shall make the following acknowledgement in publications resulting from the use of the PROGRAM :
+    ●	L. Middelhauve,On the role of districts as renewable energy hubs, EPFL, Lausanne,  2022.
+
+    Except for the above-mentioned acknowledgment, LICENSEE shall not use the PROGRAM title or the names or logos of LICENSOR, nor any adaptation thereof, nor the names of any of its employees or laboratories, in any advertising, promotional or sales material without prior written consent obtained from LICENSOR in each case.
+
+6.	LICENSEE will notify LICENSOR of any errors or deficiencies of the PROGRAM, suggestions for improvements, compatibility problems and of any improvements, patches, fixes or the like regarding the PROGRAM.
+
+7.	Ownership of all rights, including copyright in the PROGRAM and in any material associated therewith, shall at all times remain with LICENSOR and LICENSEE agrees to preserve same. LICENSEE agrees not to use any portion of the PROGRAM or of any IMPROVEMENTS in any machine-readable form outside the PROGRAM, nor to make any copies except for its internal use, without prior written consent of LICENSOR. LICENSEE agrees to place the following copyright notice on any such copies : 
+    © All rights reserved. ECOLE POLYTECHNIQUE FEDERALE DE LAUSANNE, Switzerland, Laboratory of IPESE-EPFL, 2022.
+
+8.	The LICENSE shall not be construed to confer any rights upon LICENSEE by implication or otherwise except as specifically set forth herein.
+
+9.	This Agreement shall be governed by the material laws of Switzerland and any dispute arising out of this Agreement or use of the PROGRAM shall be brought before the courts of Lausanne, Switzerland. 
+
+10.	This Agreement and the LICENSE shall be for a term of 5 years except that upon any breach of this Agreement by LICENSEE, LICENSOR shall have the right to terminate the LICENSE immediately upon notice to LICENSEE.
+
+Agreed by LICENSEE : 
+Institution : ______________________________
+Address and country :________________________________, ______________
+Signature:____________________________________
+   Name and title
+Date: _____________________________
+Agreed by EPFL (LICENSOR) :
+Signature: _________________________
+                 Prof. ………. ………………… , Head of Laboratory of …………………..
+Date:___________________

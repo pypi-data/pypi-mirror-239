@@ -1,0 +1,33 @@
+[project.scripts]
+imagenius = "imagenius.cli:main"
+
+[build-system]
+requires = ["hatchling>=1.11.0"]
+build-backend = "hatchling.build"
+
+[project]
+requires-python = ">=3.9"
+version = "0.0.2"
+
+name        = "imagenius"
+description = "Automatically tag images based on their content."
+readme      = ".github/README.md"
+license     = "MIT"
+
+dependencies = [
+    "black",
+    "flask",
+    "flask-cors",
+    "Pillow",
+    "requests",
+    "torch",
+    "transformers",
+]
+
+
+[tool.hatch.build]
+ignore-vcs = false
+reproducible = true
+directory = "dist"
+sources = ["src"]
+include = ["src/", "LICENSE", "pyproject.toml",]

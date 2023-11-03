@@ -1,0 +1,15 @@
+.*
+*.egg-info
+__pycache__
+/dist/
+/coverage.*
+*.orig
+
+!.github
+!.editorconfig
+!.flake8
+!.gitignore
+!.gitkeep
+
+*.rom
+/roms/*

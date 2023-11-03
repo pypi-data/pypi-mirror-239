@@ -1,0 +1,8 @@
+common_pb2.cp37-win_amd64.pyd,sha256=dwLa2nv4NOUodxInGmy2HrSHcLZzMVTfQEizA6oTFw4,46592
+common_pb2_grpc.cp37-win_amd64.pyd,sha256=SfFhtCIZNSYtNhc_V-7O2XSmM_bQOlPIuk8r8XfdJdE,48128
+grpclib.cp37-win_amd64.pyd,sha256=iATk_Ii1D5ADV6ZUeloYGSBUmgNTwiHc4DXhLZYb0sg,125440
+common_pygrpc-0.0.5.dist-info/LICENSE,sha256=o-02BI0i_BY29kG9tGOwZn4jEtTXtKomlDoEhmrz0As,35168
+common_pygrpc-0.0.5.dist-info/METADATA,sha256=uQ20RoC_pexFNnxNa7QMEjjlMQXTKJa4XjbMrV6VBiE,811
+common_pygrpc-0.0.5.dist-info/WHEEL,sha256=-FqDJjo4HrkrIaThvtAYef2eEAn1_QvVe5nINCnUEbQ,101
+common_pygrpc-0.0.5.dist-info/top_level.txt,sha256=xfw2Lc6jQADxWVtkofKQ507frTm0AHt-pK3HWu4Qj_Q,35
+common_pygrpc-0.0.5.dist-info/RECORD,,

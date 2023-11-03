@@ -1,0 +1,8 @@
+flask_http_middleware/__init__.py,sha256=CukLwTAfLSnuFsBgRm9bwlD-Y_8KN8si8idO-ww9ESY,22
+flask_http_middleware/base.py,sha256=28KnVX6VFeKzn0ryTa6tVzHja8cc1WJiCWtZw3eASns,1726
+flask_http_middleware/manager.py,sha256=vR2jLLHc84vaDvTGzc-dnxgr_QvzqSeKmMw7IhxMO0w,8688
+flask_http_middleware-0.4.1.dist-info/LICENSE,sha256=g_wJo4INBdEowI61_9pIMaETRoSaa_lNf9rYVIGt-74,1068
+flask_http_middleware-0.4.1.dist-info/METADATA,sha256=39D7TEa7AHma4oKNB-by9REotKMWArqIUCp6Z2N1HR0,7396
+flask_http_middleware-0.4.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+flask_http_middleware-0.4.1.dist-info/top_level.txt,sha256=-fzJDnCRUmxH3kW6aGgYC7DTVhRwSRZzAbZAMoB3Sy4,22
+flask_http_middleware-0.4.1.dist-info/RECORD,,

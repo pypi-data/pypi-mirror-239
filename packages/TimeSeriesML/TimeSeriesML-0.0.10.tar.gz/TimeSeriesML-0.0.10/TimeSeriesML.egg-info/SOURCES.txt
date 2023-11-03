@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+TimeSeriesML/__init__.py
+TimeSeriesML/_modidx.py
+TimeSeriesML/core.py
+TimeSeriesML.egg-info/PKG-INFO
+TimeSeriesML.egg-info/SOURCES.txt
+TimeSeriesML.egg-info/dependency_links.txt
+TimeSeriesML.egg-info/entry_points.txt
+TimeSeriesML.egg-info/not-zip-safe
+TimeSeriesML.egg-info/requires.txt
+TimeSeriesML.egg-info/top_level.txt

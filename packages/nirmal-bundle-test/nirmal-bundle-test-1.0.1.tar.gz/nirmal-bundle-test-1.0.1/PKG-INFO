@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: nirmal-bundle-test
+Version: 1.0.1
+Summary: Package bundling
+Home-page: 
+Author: co.dx
+Author-email: co.dx@test.com
+License: MIT
+Keywords: maps location address
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+
+Test
+

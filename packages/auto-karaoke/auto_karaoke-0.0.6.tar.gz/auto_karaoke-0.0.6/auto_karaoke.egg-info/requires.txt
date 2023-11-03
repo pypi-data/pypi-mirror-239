@@ -1,0 +1,5 @@
+ass==0.5.2
+ffmpeg-python==0.2.0
+torch
+torchaudio
+torchvision

@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+auto_karaoke/__init__.py
+auto_karaoke/main.py
+auto_karaoke/sampleKaraokeMugen.ass
+auto_karaoke.egg-info/PKG-INFO
+auto_karaoke.egg-info/SOURCES.txt
+auto_karaoke.egg-info/dependency_links.txt
+auto_karaoke.egg-info/entry_points.txt
+auto_karaoke.egg-info/requires.txt
+auto_karaoke.egg-info/top_level.txt

@@ -1,0 +1,2 @@
+[console_scripts]
+autokaraoke = auto_karaoke.main:wrapper

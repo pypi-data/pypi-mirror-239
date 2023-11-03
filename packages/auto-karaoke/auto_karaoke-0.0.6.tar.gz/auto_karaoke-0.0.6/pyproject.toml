@@ -1,0 +1,29 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools"]
+
+[project]
+name = "auto_karaoke"
+authors = [{name = "DiZeroX"}]
+description = "Approximate word-based subtitle timing for karaokes"
+version = "0.0.6"
+license = {text = "MIT License"}
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+requires-python = ">=3.9"
+dependencies = [
+    "ass == 0.5.2",
+    "ffmpeg-python == 0.2.0",
+    "torch",
+    "torchaudio",
+    "torchvision",
+]
+
+[project.scripts]
+autokaraoke = "auto_karaoke.main:wrapper"
+
+[project.urls]
+"Homepage" = "https://github.com/DiZeroX/auto-karaoke"
+"Bug Tracker" = "https://github.com/DiZeroX/auto-karaoke/issues"

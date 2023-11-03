@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: web_page_analyzer
+Version: 0.1
+Summary: Una biblioteca para analizar páginas web y sentimientos de texto.
+Home-page: https://github.com/rodrigocolomo/Scrape_analize
+Author: Alvaro and Rodrigo
+Author-email: alvaro.ortega@alumni.mondragon.edu
+License-File: LICENSE.txt

@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: intlmch
+Version: 0.1.3
+Summary: library ML
+Author: M Luciano
+Author-email: luciano.munoz1@udea.edu.co
+License: MIT
+Requires-Python: >=3.10.12
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: scipy
+
+# Librería de Cálculo de Integrales con Monte Carlo
+
+## Descripción
+
+Esta librería permite calcular integrales utilizando el método de Monte Carlo y comparar los resultados con el valor exacto. También proporciona una representación gráfica del valor de la integral calculada con el método de Monte Carlo y el valor exacto en función del número de iteraciones.
+
+## Instalación
+
+Puedes instalar esta librería utilizando pip:
+
+```bash
+pip install intLMCH
+```
+
+## Uso
+
+A continuación, se muestra un ejemplo de cómo utilizar la librería en tu código:
+
+```python
+
+import intLMCH as mc
+
+# Definir la función a integrar, los límites de integración y el número de iteraciones
+f = # tu función aquí
+a = # límite inferior de integración
+b = # límite superior de integración
+N = # número de iteraciones
+
+# Crear una instancia de la clase intMC
+mi_int = mc.intMC(f, a, b, N)
+
+# Calcular la integral utilizando Monte Carlo
+valor_integral_monte_carlo = mi_int.IntegrateMC()
+
+# Calcular la integral exacta
+valor_integral_exacta = mi_int.IntegrateEx()
+
+# Graficar el valor de la integral en función del número de iteraciones
+mi_int.PlotMC()
+```
+## Créditos
+
+Esta librería fue desarrollada por Luciano Muñoz.
+
+## Contacto
+
+Si tienes alguna pregunta o comentario, no dudes en ponerte en contacto conmigo a través de mi correo electrónico: [luciano.munoz1@udea.edu.co].
+

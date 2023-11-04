@@ -1,0 +1,98 @@
+Metadata-Version: 2.1
+Name: sh-copilot
+Version: 0.1.0
+Summary: Copilot for shell
+Home-page: https://github.com/Lunik/sh-copilot
+Download-URL: https://pypi.org/project/sh-copilot/
+Author: Guillaume MARTINEZ
+Author-email: lunik@tiwabbit.fr
+Maintainer: Guillaume MARTINEZ
+Maintainer-email: lunik@tiwabbit.fr
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.11.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pydantic==2.*
+Requires-Dist: pyyaml==6.*
+Provides-Extra: dev
+Requires-Dist: pylint; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Requires-Dist: twine; extra == "dev"
+Requires-Dist: build; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Requires-Dist: pytest-html; extra == "dev"
+Requires-Dist: pytest-xdist; extra == "dev"
+Requires-Dist: pytest-helpers-namespace; extra == "dev"
+Requires-Dist: pytest-order; extra == "dev"
+Requires-Dist: wheel; extra == "dev"
+Provides-Extra: openai
+Requires-Dist: openai==0.*; extra == "openai"
+Provides-Extra: azure
+Requires-Dist: azure-identity==1.*; extra == "azure"
+
+# Shell Copilot
+
+## Description
+
+Shell Copilot is a set of tools to help you in your daily shell usage.
+
+## Installation
+
+To install Shell Copilot, simply run the following command:
+
+```bash
+pip install --user sh-copilot
+```
+
+or with an isolated environment:
+
+```bash
+python -m venv ~/bin/sh_copilot_venv
+~/bin/sh_copilot_venv/bin/pip install sh-copilot
+
+ln -s ~/bin/sh_copilot_venv/bin/sh_copilot ~/bin/sh_copilot
+ln -s ~/bin/sh_copilot_venv/bin/sc ~/bin/sc
+```
+
+## Usage
+
+To use Shell Copilot, simply run the following command :
+
+```bash
+sh_copilot --help
+```
+
+or with the alias :
+
+```bash
+sc --help
+```
+
+## Contributing
+
+To contribute to Shell Copilot, simply fork the repository and create a pull request. Please make sure to include a detailed description of your changes. Here are the things I will check during the review :
+
+- Is CHANGELOG.md have been updated (**required**)
+- Is the lint score did not decrease (**required**)
+- Is the test coverage did not decrease (**required**)
+- Is the documentation have been updated (**if required**)
+- If tests have been added (**optional**)
+
+### Development
+
+This repository uses [Taskfile](https://taskfile.dev) to manage the development tasks. To see the available tasks, run the following command:
+
+```bash
+task --list
+```

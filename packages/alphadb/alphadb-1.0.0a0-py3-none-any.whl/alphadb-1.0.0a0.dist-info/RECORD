@@ -1,0 +1,16 @@
+alphadb/__init__.py,sha256=SguDP6p0qwoTpIHNmq9sEhVwXiXGSHgm67WULKjqLfA,768
+alphadb/alphadb.py,sha256=pb3JMhcEogk4IO7ThL8XU8ixpec_N47qOXO6uFPwgPU,11635
+alphadb/mysql.py,sha256=eFBCT0U0PvRTG3M0LR_1FyzEjZA93dXg6yC-eka_PW8,1722
+alphadb/sqlite.py,sha256=XsFvtWciu6-eKP4u9h-cRJ1LxM-77PoWYIZ-nBKk834,1607
+alphadb/utils/decorators.py,sha256=cXfYP8T6fpx6o1JV7lyTVk5fOM--7O-DATzljrrC2Y8,1355
+alphadb/utils/exceptions.py,sha256=pB1trbx7Ced_3x7fqEmXzT3tB4CWYsuVyexvKCzz6-k,3271
+alphadb/utils/globals.py,sha256=CjdPz5N__Gm-KSq0MrKZ9vo5VcRNzwGdOLg5Pm6mRY0,31
+alphadb/utils/types.py,sha256=AJsx-HGvwEzKpTVtZMtEU-GBzvHC2DJi7Zh5VmFCS6I,948
+alphadb/utils/query/column.py,sha256=9G3CoigFeChn1YqoHXT2fcqY4iAhc59UUcb8_hzvRig,1721
+alphadb/utils/query/default_data.py,sha256=MYfO_OVJHftfoBxwmfnRqjYgxb9Y71T_rskO2iLutY8,1656
+alphadb/utils/query/table.py,sha256=dd7MoioDN2KZT7DbxRABWQoD8vLZgMXnWkTRGijlf0U,4717
+alphadb-1.0.0a0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+alphadb-1.0.0a0.dist-info/METADATA,sha256=NOE6XtRp8d0ms5i2BDtlqRwV0Hq5IaxKOFGcHvmHt6s,5021
+alphadb-1.0.0a0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+alphadb-1.0.0a0.dist-info/top_level.txt,sha256=AnEKHd4RQw1wJWNoL2W7ThWLYvc6cWdCX06E9oCLitg,8
+alphadb-1.0.0a0.dist-info/RECORD,,

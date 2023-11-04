@@ -1,0 +1,8 @@
+README.md
+setup.py
+tesppypi/__init__.py
+tesppypi/hello.py
+tesppypi.egg-info/PKG-INFO
+tesppypi.egg-info/SOURCES.txt
+tesppypi.egg-info/dependency_links.txt
+tesppypi.egg-info/top_level.txt

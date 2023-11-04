@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: custom-gameclock
+Version: 1.0
+Summary: A customizable clock and calendar for a video game.
+Author: Snackmonger
+Project-URL: Homepage, https://github.com/snackmonger/gameclock
+Project-URL: Bug Tracker, https://github.com/snackmonger/gameclock/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+

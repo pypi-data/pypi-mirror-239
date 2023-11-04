@@ -1,0 +1,13 @@
+custom_gameclock/__init__.py,sha256=vpsqYdXK-CiJS1aNpCEAV16Gd8ty2VlUgqn9ab5_hj8,765
+custom_gameclock/clock.py,sha256=cWje7ga5GtgbLi1ca1F_5KmHlzL8g2w8UQe9jKaneZg,12716
+custom_gameclock/defaults.py,sha256=9LEEMlB8OC53leRH6mw2lQLM38oj5LhAUwm36crFqpI,2360
+custom_gameclock/errors.py,sha256=4TYh3juQX8OF1tfF-18sI5mFS6zR1k8rrAIJGLWRP3Y,231
+custom_gameclock/formatting.py,sha256=ctRY6sN7s5Uh9-bpj768Pkrph0VaWVNZWLHE88qgNug,5642
+custom_gameclock/functions.py,sha256=0BtUYhQqsVEaPogC5zeUWR3RUScHPfse2QgHn2KbEZE,2088
+custom_gameclock/mixins.py,sha256=sPWEECa-PwkNjaE83PMEB_Pyep3wq2oKJ5t1nF9SlaU,5893
+custom_gameclock/vocabulary.py,sha256=cB7OJ90lWrjpzB3zOFyYQxYT_MSKYF_vbudb_814qcg,522
+custom_gameclock-1.0.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+custom_gameclock-1.0.dist-info/METADATA,sha256=BcXjLg0KeUr59mEl9z9nnHAd1ScNpZ9SoKpXk-MUjMs,524
+custom_gameclock-1.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+custom_gameclock-1.0.dist-info/top_level.txt,sha256=MhGG6VvwodEQTh5GrK-1Xtq0PVSLJyiMK-px7gsK88w,17
+custom_gameclock-1.0.dist-info/RECORD,,

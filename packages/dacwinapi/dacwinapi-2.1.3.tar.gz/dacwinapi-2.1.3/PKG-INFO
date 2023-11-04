@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: dacwinapi
+Version: 2.1.3
+Author: RidoineEl
+Author-email: ridoineelofficiel@gmail.com
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# DacWin API package

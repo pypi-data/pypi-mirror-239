@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "ArgCache"
+version = "0.2.1"
+description = "Caching the results of a function call given the same arguments"
+authors = ["Johan Philis <johan.e.philis@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.6,<4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

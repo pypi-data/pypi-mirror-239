@@ -1,0 +1,155 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+# Project metadata (PEP 621)
+# https://packaging.python.org/en/latest/specifications/declaring-project-metadata/
+
+[project]
+name = "python-gitmojis"
+version = "1.0.0"
+description = "😜 The official Gitmoji Guide in Python projects 🐍"
+readme = "README.md"
+authors = [
+  { name = "Kamil Paduszyński", email = "paduszyk@gmail.com" },
+]
+keywords = ["emoji", "git", "gitmoji"]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+]
+requires-python = ">= 3.10"
+dependencies = [
+  "click",
+  "requests",
+]
+
+[project.optional-dependencies]
+dev = [
+  "nox",
+  "pre-commit",
+]
+lint = [
+  "black",
+  "mypy",
+  "ruff",
+  "types-requests",
+]
+test = [
+  "pytest",
+  "pytest-click",
+  "pytest-cov",
+  "pytest-custom-exit-code",
+  "pytest-mock",
+]
+
+[project.scripts]
+"gitmojis" = "gitmojis.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["gitmojis*"]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"gitmojis" = ["py.typed", "assets*"]
+
+# Black
+# https://black.readthedocs.io/en/stable/usage_and_configuration/
+
+[tool.black]
+line-length = 88
+target-version = ["py312", "py311", "py310"]
+
+# Mypy
+# https://mypy.readthedocs.io/en/stable/config_file.html
+
+[tool.mypy]
+exclude = [
+  '^(?:(?!src).)*$',
+]
+show_error_codes = true
+disallow_any_generics = true
+disallow_subclassing_any = true
+disallow_untyped_calls = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+check_untyped_defs = true
+no_implicit_optional = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+warn_no_return = true
+warn_return_any = true
+warn_unreachable = true
+warn_unused_configs = true
+
+# Ruff
+# https://docs.astral.sh/ruff/configuration/
+# https://docs.astral.sh/ruff/rules/
+# https://docs.astral.sh/ruff/settings/
+
+[tool.ruff]
+select = [
+  "F",     # pyflakes
+  "E",     # pycodestyle (errors)
+  "W",     # pycodestyle (warnings)
+  "I",     # isort
+  "N",     # pep8-naming
+  "D",     # pydocstyle
+  "B",     # flake8-bugbear
+  "A",     # flake8-builtins
+  "C4",    # flake8-comprehensions
+  "T20",   # flake8-print
+  "PT",    # flake8-pytest-style
+  "Q",     # flake8-quotes
+  "PTH",   # flake8-use-pathlib
+]
+ignore = ["E501", "N818", "D1", "D205", "PT004", "PT016"]
+
+[tool.ruff.pydocstyle]
+convention = "google"
+
+[tool.ruff.isort]
+known-first-party = ["gitmojis"]
+
+# Pytest
+# https://docs.pytest.org/en/latest/reference/reference.html#configuration-options
+
+[tool.pytest.ini_options]
+addopts = [
+  "-ra",
+  "-q",
+  "--strict-markers",
+  "--cov=src/",
+  "--cov-branch",
+  "--cov-append",
+  "--cov-report=term-missing:skip-covered",
+  "--cov-report=xml",
+  "--suppress-no-test-exit-code",
+]
+pythonpath = [".", "src"]
+testpaths = ["tests/"]
+
+# Coverage.py
+# https://coverage.readthedocs.io/en/latest/config.html
+
+[tool.coverage.report]
+exclude_also = [
+  "@(abc\\.)?abstractmethod",
+  "@overload",
+  "class .*\\bProtocol\\):",
+  "def __repr__",
+  "if __name__ == .__main__.:",
+  "if 0:",
+  "if self.debug:",
+  "if settings.DEBUG",
+  "if TYPE_CHECKING:",
+  "raise AssertionError",
+  "raise NotImplementedError",
+]

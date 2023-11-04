@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/devel/OneDrive/Documents/Desktop/langtest/langtest/mlruns/292698923947537049/4bcb433c22694985a6e7aac0d909ec95/artifacts
+end_time: 1698949583585
+entry_point_name: ''
+experiment_id: '292698923947537049'
+lifecycle_stage: active
+run_id: 4bcb433c22694985a6e7aac0d909ec95
+run_name: ner_testing_2023-11-02_23-56-23
+run_uuid: 4bcb433c22694985a6e7aac0d909ec95
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1698949583473
+status: 3
+tags: []
+user_id: devel

@@ -1,0 +1,6 @@
+artifact_location: file:///C:/Users/devel/OneDrive/Documents/Desktop/langtest/langtest/mlruns/292698923947537049
+creation_time: 1698949583362
+experiment_id: '292698923947537049'
+last_update_time: 1698949583362
+lifecycle_stage: active
+name: dslim/bert-base-NER

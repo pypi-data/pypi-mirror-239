@@ -1,0 +1,9 @@
+mdal/__init__.py,sha256=-NxeeG9qjV0w3ycFpjMBpveGj0fkFBVfm7pBaJcFJb8,466
+mdal/conf.py,sha256=WPJ6CmU7axl80d7OKJGclAE9k7yB3WMsQmSGsU-ehT0,1929
+mdal/libmdalpython.cpython-310-darwin.so,sha256=MFPuQX6YW45B2sVi1c2oO80irvLKcN4wRpAuemgkHPA,383816
+mdal/transform.py,sha256=U6p6ewVnIzlC516Uym1KRuhPhOLu1QvlIg1pOtYED94,19183
+mdal_python-1.0.3.dist-info/LICENSE,sha256=1dcTfxqJKsIpSX8KzE045l7IFQSQD7gkjcRnTKyWSnc,1077
+mdal_python-1.0.3.dist-info/METADATA,sha256=Kxuli45W1x4hbhstZs5TWtsrbmwbFwAvNcLhcAR29zw,12933
+mdal_python-1.0.3.dist-info/WHEEL,sha256=497X7hkSlrD0aKwMBvWtikkSBuqDeZgLiOfEAVQDhDE,105
+mdal_python-1.0.3.dist-info/top_level.txt,sha256=gtbVhew9CibnHzxS0K4MYRjnIiEMORxkCn75jF4PE2I,5
+mdal_python-1.0.3.dist-info/RECORD,,

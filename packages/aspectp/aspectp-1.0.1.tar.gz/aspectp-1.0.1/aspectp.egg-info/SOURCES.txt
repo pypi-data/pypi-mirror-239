@@ -1,0 +1,9 @@
+LICENSE
+README.md
+aspectp.py
+pyproject.toml
+aspectp.egg-info/PKG-INFO
+aspectp.egg-info/SOURCES.txt
+aspectp.egg-info/dependency_links.txt
+aspectp.egg-info/top_level.txt
+tests/test_aspectp.py

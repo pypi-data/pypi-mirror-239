@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: zerohertzPkg
+Version: 0.1
+Summary: Zerohertz's Library
+Home-page: UNKNOWN
+Author: Zerohertz
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
+
+
+# 프로젝트 이름
+
+프로젝트의 간단한 설명이 여기에 오게 됩니다. 이 부분에서는 프로젝트가 무엇을 하는지 간략하게 요약하여 기술합니다.
+
+## 설치 방법
+
+이 섹션에서는 프로젝트의 설치 방법을 설명합니다. 예를 들어:
+
+```bash
+pip install yourprojectname
+```
+

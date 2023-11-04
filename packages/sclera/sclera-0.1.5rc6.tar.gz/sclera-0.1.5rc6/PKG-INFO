@@ -1,0 +1,82 @@
+Metadata-Version: 2.1
+Name: sclera
+Version: 0.1.5rc6
+Summary: One-stop destination for Computer Vision with Keras
+Author: Suvaditya Mukherjee
+Author-email: suvadityamuk@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: keras (>=2.14.0,<3.0.0)
+Requires-Dist: keras-core (>=0.1.7,<0.2.0)
+Description-Content-Type: text/markdown
+
+# Sclera: One-stop Destination for Computer Vision with Keras and Kornia
+
+Sclera is a comprehensive computer vision library built on Keras and taking inspiration from Kornia library, and is designed to simplify and enhance the development of computer vision projects. This repository provides an expansive collection of computer vision models, as well as a flexible, all-in-one framework. Sclera focuses on addressing the challenges of sticking to a single ecosystem in the world of software development and machine learning, enabling developers and data scientists to transition seamlessly between frameworks and utilize a range of computer vision capabilities.
+
+## Introduction
+
+In the rapidly evolving landscape of software development and machine learning, the choice to stick exclusively to one ecosystem can have several notable drawbacks:
+
+- **Code Separation:** Sticking to a single ecosystem often requires writing code separately for each framework within that ecosystem. This can lead to increased development complexity and potential duplication of effort.
+
+- **Model Versatility:** Exclusivity to one ecosystem can restrict the versatility and adaptability of your models, limiting their ability to leverage the strengths of other ecosystems.
+
+- **Deployment Challenges:** Being locked into a specific framework can make deployment and distribution challenging, potentially hampering scalability and collaboration.
+
+- **Data Pipeline Constraints:** Relying solely on one ecosystem can constrain data pipelines to only one type of source, limiting the variety and richness of data inputs that can enhance model performance.
+
+To address these challenges, Sclera offers a flexible ecosystem that allows seamless transitions between different frameworks. This flexibility streamlines development and fosters collaboration among a diverse community of machine learning developers, particularly for tackling complex Computer Vision problems.
+
+## Key Functionalities
+
+As part of the Sclera project, we have made significant contributions to the computer vision community, including:
+
+1. **Augmentation of Kornia with Keras:** We have worked closely with the Kornia project to augment its capabilities and contribute directly to the open-source ecosystem of Kornia, guided by the project maintainers.
+
+2. **Filling Gaps in the Multi-Backend Computer Vision Ecosystem:** Our work emphasizes cross-platform compatibility and portability, making it possible to seamlessly migrate computer vision applications across different backends.
+
+3. **Enhancing Flexibility:** We have revamped existing modules in Kornia to make them compatible with different backends such as Tensorflow, PyTorch, and Jax.
+
+4. **Access to Models via an Easy-to-Use API:** In our library, "Sclera," we have implemented multiple models for various tasks that may not be readily available in other libraries.
+
+5. **Multi-Backend Model Implementations:** All models available in "Sclera" are backend-compatible with Tensorflow, PyTorch, and Jax.
+
+6. **Deployment:** Our library, "Sclera," is readily available for users via "pip install sclera" and is licensed under the MIT License, providing flexibility and freedom to use and modify the library.
+
+
+
+## Getting Started
+
+Sclera is designed to be user-friendly and easy to integrate into your projects. Here's a quick overview of how to get started:
+
+1. **Installation:** To get started, simply run the following command in your Python environment to install Sclera:
+
+    ```
+    pip install sclera
+    ```
+
+2. **Model Import:** Import the required model from Sclera to leverage its capabilities in your project. For example:
+
+    ```python
+    from sclera.tasks.semantic_segmentation.models.unet import UNet
+    ```
+
+3. **Model Usage:** Instantiate the model by specifying parameters such as image size, model flavor, and the number of output classes. Prepare your input data and perform inference on the model.
+
+4. **License:** Sclera is released under the MIT License, providing users with the freedom to make changes and use the library as-is, with the only condition being the attachment of the same license to any derivatives of the work.
+
+## License
+
+Sclera is licensed under the MIT License, which allows users to make changes and use the library without any kind of warranty, offering full flexibility while adhering to the same license for derivative works.
+
+
+We welcome contributions and collaboration from the computer vision community to make Sclera even more versatile and powerful.
+
+## Acknowledgments
+
+We would like to express our gratitude to Keras team, Kornia and the open-source community, project maintainers, and contributors who have made Sclera possible.
+
+

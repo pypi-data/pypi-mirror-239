@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: django-simple-nav
+Version: 0.1.0.dev0
+Summary: A simple, flexible, and extensible navigation menu for Django.
+Project-URL: Documentation, https://django-simple-nav.westervelt.dev
+Project-URL: Issues, https://github.com/westerveltco/django-simple-nav/issues
+Project-URL: Source, https://github.com/westerveltco/django-simple-nav
+Author-email: Josh Thomas <josh@joshthomas.dev>
+License-Expression: MIT
+License-File: AUTHORS.md
+License-File: LICENSE
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3
+Classifier: Framework :: Django :: 3.2
+Classifier: Framework :: Django :: 4
+Classifier: Framework :: Django :: 4.1
+Classifier: Framework :: Django :: 4.2
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.8
+Requires-Dist: django>=3.2
+Provides-Extra: dev
+Requires-Dist: bumpver; extra == 'dev'
+Requires-Dist: coverage[toml]; extra == 'dev'
+Requires-Dist: django-stubs; extra == 'dev'
+Requires-Dist: django-stubs-ext; extra == 'dev'
+Requires-Dist: hatch; extra == 'dev'
+Requires-Dist: mypy; extra == 'dev'
+Requires-Dist: nox; extra == 'dev'
+Requires-Dist: pytest; extra == 'dev'
+Requires-Dist: pytest-cov; extra == 'dev'
+Requires-Dist: pytest-django; extra == 'dev'
+Requires-Dist: pytest-randomly; extra == 'dev'
+Requires-Dist: pytest-reverse; extra == 'dev'
+Requires-Dist: pytest-xdist; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: cogapp; extra == 'docs'
+Requires-Dist: furo; extra == 'docs'
+Requires-Dist: myst-parser; extra == 'docs'
+Requires-Dist: sphinx; extra == 'docs'
+Requires-Dist: sphinx-autobuild; extra == 'docs'
+Requires-Dist: sphinx-copybutton; extra == 'docs'
+Requires-Dist: sphinx-inline-tabs; extra == 'docs'
+Provides-Extra: lint
+Requires-Dist: pre-commit; extra == 'lint'
+Description-Content-Type: text/markdown
+
+# django-simple-nav
+
+[![PyPI](https://img.shields.io/pypi/v/django-simple-nav)](https://pypi.org/project/django-simple-nav/)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/django-simple-nav)
+![Django Version](https://img.shields.io/badge/django-3.2%20%7C%204.1%20%7C%204.2-%2344B78B?labelColor=%23092E20)
+<!-- https://shields.io/badges -->
+<!-- django-3.2 | 4.1 | 4.2-#44B78B -->
+<!-- labelColor=%23092E20 -->
+
+WIP
+
+## License
+
+`django-simple-nav` is licensed under the MIT license. See the [`LICENSE`](LICENSE) file for more information.

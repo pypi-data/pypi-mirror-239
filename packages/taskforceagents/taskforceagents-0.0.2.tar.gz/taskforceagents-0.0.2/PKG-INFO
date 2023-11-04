@@ -1,0 +1,131 @@
+Metadata-Version: 2.1
+Name: taskforceagents
+Version: 0.0.2
+Summary: Domain Specific Agents - customized to work in teams to plan and solve real-world problems for real people
+License: MIT
+Author: Sean Kruzel
+Author-email: sean@closedloop.tech
+Requires-Python: >=3.10,<3.13
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: beautifulsoup4 (>=4.12.2,<5.0.0)
+Requires-Dist: colorama (>=0.4.6,<0.5.0)
+Requires-Dist: dataclasses-json (>=0.6.0,<0.7.0)
+Requires-Dist: gcloud (>=0.18.3,<0.19.0)
+Requires-Dist: googlemaps (>=4.10.0,<5.0.0)
+Requires-Dist: httpx (>=0.25.0,<0.26.0)
+Requires-Dist: matplotlib (>=3.8.0,<4.0.0)
+Requires-Dist: networkx (>=3.1,<4.0)
+Requires-Dist: pandas (>=2.1.1,<3.0.0)
+Requires-Dist: pre-commit (>=3.3.1,<4.0.0)
+Requires-Dist: promptedgraphs (>=0.2.1,<0.3.0)
+Requires-Dist: pydantic (>=2.3.0,<3.0.0)
+Requires-Dist: pydantic-settings (>=2.0.3,<3.0.0)
+Requires-Dist: pyfiglet (>=1.0.2,<2.0.0)
+Requires-Dist: python-dotenv (>=1.0.0,<2.0.0)
+Requires-Dist: spacy (>=3.6.1,<4.0.0)
+Requires-Dist: sse-starlette (>=1.6.5,<2.0.0)
+Requires-Dist: tabulate (>=0.9.0,<0.10.0)
+Requires-Dist: termcolor (>=2.3.0,<3.0.0)
+Requires-Dist: tiktoken (>=0.5.1,<0.6.0)
+Requires-Dist: twine (>=4.0.2,<5.0.0)
+Requires-Dist: typer (>=0.9.0,<0.10.0)
+Requires-Dist: vulture (>=2.10,<3.0)
+Project-URL: Bug Tracker, https://github.com/closedLoop-technologies/taskforceagents/issues
+Project-URL: Repository, https://github.com/closedLoop-technologies/taskforceagents
+Description-Content-Type: text/markdown
+
+# 🤖 TaskForceAgents - in ALPHA 🚧 👷
+
+**Domain Specific Agents - customized to work in teams to plan and solve real-world problems for real people**
+
+## Description
+
+TaskForceAgents is a Python library for building domain specific agents. Agents are able to leverage domain-specific knowledge (in the form of APIs, databases, knowledge graphs) and take customized actions and execute domain-specific workflows.
+
+Agents must be able to:
+- **Understand** the context of a problem
+- **Plan** a solution and ancipate costs and risks
+- **Coordinate** with other agents to solve the problem
+- **Execute** the solution
+- **Learn** from the results
+
+This library is designed for people who want to build agents that want more control over
+ * Cost
+ * Accuracy
+ * Speed
+
+
+### Built with
+
+TaskForceAgents is built on top of [PromptedGraphs](https://github.com/closedloop-technologies/PromptedGraphs)
+
+
+## ✨ Features
+
+🚧 👷
+
+## Core Functions
+
+🚧 👷
+
+## Requirements
+
+- Python 3.10 or newer.
+
+## 📦 Installation
+
+To install `TaskForceAgents` via pip:
+
+```bash
+pip install taskforceagents
+# or
+poetry add taskforceagents
+```
+
+## Usage
+
+### Example 1
+
+### Example 2
+
+## 📚 Resources
+
+  * [Agent Protocol](https://agentprotocol.ai/)
+
+### Related Libraries
+  * [AutoGen](https://github.com/microsoft/autogen)
+  * [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)
+  * [Haystack](https://github.com/deepset-ai/haystack)
+
+## 💻 Development
+
+Poetry is used for dependency management. To install poetry, see [here](https://python-poetry.org/docs/#installation).
+
+To install dependencies:
+
+```bash
+poetry install
+
+pre-commit install
+
+# For cleaner commits, install opencommit
+opencommit hook set
+```
+
+
+## Contributing
+
+We welcome contributions! Please DM me [@seankruzel](https://twitter.com/seankruzel) or create issues or pull requests.
+
+## 📝 License
+
+This project is licensed under the terms of the [MIT license](/LICENSE).
+
+Built using [quantready](https://github.com/closedloop-technologies/quantready) using template [https://github.com/closedloop-technologies/quantready-api](https://github.com/closedloop-technologies/quantready-api)
+

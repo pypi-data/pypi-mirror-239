@@ -1,0 +1,10 @@
+keycloakfastsso/__init__.py,sha256=GOqdmxWKDVMgJU6heQBfrTVc6WJUDHlr8G6_-mPOcQw,601
+keycloakfastsso/decorators.py,sha256=fZYvAEfFySx7JPOs4C2CROokqozwlXoFAPYtRAGUUDM,8875
+keycloakfastsso/logging.py,sha256=UII8vliyjSfoOXX0JXNeVWgOxCtzXD6LkJgyfQWZH2o,1017
+keycloakfastsso/utils.py,sha256=ly2lDQ2B8r_wp0tdL1luHNXE44299MJ9M4zKGn0jSjU,9314
+keycloakfastsso/middleware/__init__.py,sha256=eO5ztcryCL9lX0afw-4NMCAD9X-hdO3Hvit0gJzSDE8,84
+keycloakfastsso/middleware/keycloak_middleware.py,sha256=Th2cs3YCTt3icA_Mz1X68h5TLOqOatbGkk5rhaJG68c,7768
+KeycloakFastSso-2023.13.0.dist-info/METADATA,sha256=g4Q8EZHVhqnkIG8YfokS5BtIVL_uVnsSkho5sP7TUfs,414
+KeycloakFastSso-2023.13.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+KeycloakFastSso-2023.13.0.dist-info/top_level.txt,sha256=VkD9cSZlu_RXCKXymQlZHW0apoLEfKzOSS_AqGCTRwI,16
+KeycloakFastSso-2023.13.0.dist-info/RECORD,,

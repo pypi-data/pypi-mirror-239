@@ -1,0 +1,83 @@
+Metadata-Version: 2.1
+Name: release-version
+Version: 0.1.2
+Summary: Yet another tool for bumping version number and updating changelog
+Author-email: Tuomas Siipola <tuomas.siipola@fmi.fi>
+License: MIT License
+        
+        Copyright (c) 2023 Finnish Meteorological Institute
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/actris-cloudnet/release-version
+Project-URL: Bug Reports, https://github.com/actris-cloudnet/release-version/issues
+Project-URL: Source, https://github.com/actris-cloudnet/release-version/
+Keywords: development
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tomli >=2.0.1
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: pylint ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: types-toml ; extra == 'dev'
+
+[![Test](https://github.com/actris-cloudnet/release-version/actions/workflows/test.yml/badge.svg)](https://github.com/actris-cloudnet/release-version/actions/workflows/test.yml)
+
+# Release version
+
+Yet another tool for bumping version number and updating changelog.
+
+## Usage
+
+Install by running:
+
+```sh
+pip install git+https://github.com/actris-cloudnet/release-version.git
+```
+
+Add following in `pyproject.toml` file in the root directory of your project:
+
+```toml
+[tool.release-version]
+filename = "pyproject.toml"
+pattern = "version = \"(?P<major>\\d+)\\.(?P<minor>\\d+)\\.(?P<patch>\\d+)\""
+changelog = "CHANGELOG.md" # optional
+```
+
+Release new versions by running:
+
+```sh
+release-version patch
+release-version minor
+release-version major
+```
+
+## License
+
+MIT

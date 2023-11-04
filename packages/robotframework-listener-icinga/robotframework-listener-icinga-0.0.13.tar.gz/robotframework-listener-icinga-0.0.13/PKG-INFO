@@ -1,0 +1,96 @@
+Metadata-Version: 2.1
+Name: robotframework-listener-icinga
+Version: 0.0.13
+Summary: A Robot Framework listener for reporting via Icinga2 API.
+Home-page: https://gitlab.com/uhbs/robotframework-listener-icinga
+Author: Dominik Riva
+Author-email: dominik.riva@usb.ch
+License: Apache-2.0
+Project-URL: Changelog, https://gitlab.com/dominik.riva/robotframework-listener-icinga/blob/master/CHANGELOG.rst
+Project-URL: Issue Tracker, https://gitlab.com/dominik.riva/robotframework-listener-icinga/issues
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Utilities
+Requires-Python: >=3.8
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: linuxfabrik-lib==2023051201.post1
+Requires-Dist: rpaframework==26.1.0
+
+========
+Overview
+========
+
+A Robot Framework listener for reporting via Icinga2 API.
+
+* Free software: Apache Software License 2.0
+
+Installation
+============
+
+::
+
+    pip install robotframework-listener-icinga
+
+You can also install the in-development version with::
+
+    pip install https://gitlab.com/dominik.riva/robotframework-listener-icinga/-/archive/main/robotframework-listener-icinga-main.zip
+
+
+Documentation
+=============
+
+
+To use the project:
+
+.. code-block:: python
+
+    import icinga
+    icinga.longest()
+
+
+Development
+===========
+
+To run all the tests run::
+
+    tox
+
+Note, to combine the coverage data from all the tox environments run:
+
+.. list-table::
+    :widths: 10 90
+    :stub-columns: 1
+
+    - - Windows
+      - ::
+
+            set PYTEST_ADDOPTS=--cov-append
+            tox
+
+    - - Other
+      - ::
+
+            PYTEST_ADDOPTS=--cov-append tox
+
+
+Changelog
+=========
+
+0.0.0 (2023-07-07)
+------------------
+
+* First release on PyPI.

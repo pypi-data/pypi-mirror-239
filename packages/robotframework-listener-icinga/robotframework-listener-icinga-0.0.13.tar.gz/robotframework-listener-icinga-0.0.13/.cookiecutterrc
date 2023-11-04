@@ -1,0 +1,61 @@
+# This file exists so you can easily regenerate your project.
+#
+# `cookiepatcher` is a convenient shim around `cookiecutter`
+# for regenerating projects (it will generate a .cookiecutterrc
+# automatically for any template). To use it:
+#
+#    pip install cookiepatcher
+#    cookiepatcher gh:ionelmc/cookiecutter-pylibrary robotframework-listener-icinga
+#
+# See:
+#    https://pypi.org/project/cookiepatcher
+#
+# Alternatively, you can run:
+#
+#    cookiecutter --overwrite-if-exists --config-file=robotframework-listener-icinga/.cookiecutterrc gh:ionelmc/cookiecutter-pylibrary
+
+default_context:
+    allow_tests_inside_package: "no"
+    c_extension_function: "longest"
+    c_extension_module: "_icinga"
+    c_extension_optional: "no"
+    c_extension_support: "no"
+    codacy: "no"
+    codacy_projectid: "[Get ID from https://app.codacy.com/gh/dominik.riva/robotframework-listener-icinga/settings]"
+    codeclimate: "no"
+    codecov: "no"
+    command_line_interface: "no"
+    command_line_interface_bin_name: "robotframework-listener-icinga"
+    coveralls: "no"
+    distribution_name: "robotframework-listener-icinga"
+    email: "dominik.riva@usb.ch"
+    formatter_quote_style: "double"
+    full_name: "Dominik Riva"
+    github_actions: "no"
+    github_actions_osx: "no"
+    github_actions_windows: "no"
+    license: "Apache Software License 2.0"
+    package_name: "icinga"
+    pre_commit: "yes"
+    project_name: "robotframework-listener-icinga"
+    project_short_description: "A Robot Framework listener for reporting via Icinga2 API."
+    pypi_badge: "yes"
+    pypi_disable_upload: "no"
+    release_date: "today"
+    repo_hosting: "gitlab.com"
+    repo_hosting_domain: "gitlab.com"
+    repo_main_branch: "main"
+    repo_name: "robotframework-listener-icinga"
+    repo_username: "dominik.riva"
+    scrutinizer: "no"
+    setup_py_uses_setuptools_scm: "no"
+    sphinx_docs: "no"
+    sphinx_docs_hosting: "https://robotframework-listener-icinga.readthedocs.io/"
+    sphinx_doctest: "no"
+    sphinx_theme: "sphinx-rtd-theme"
+    test_matrix_separate_coverage: "no"
+    version: "0.0.13"
+    version_manager: "bump2version"
+    website: "https://www.unispital-basel.ch/"
+    year_from: "2023"
+    year_to: "2023"

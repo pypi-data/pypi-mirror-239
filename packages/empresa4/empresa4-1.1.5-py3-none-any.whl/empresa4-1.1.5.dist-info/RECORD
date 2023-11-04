@@ -1,0 +1,17 @@
+empresa4/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+empresa4/core.py,sha256=z1k4YvWIRJme9AfY4WtmBOAH0BQ9Kxy7f6SE-CO1gC8,1051
+empresa4/datasets/01_make_datasets_clase_1.ipynb,sha256=_6PSYV63CSx4m9G4l-SxUfQKPKWSz5soqzpvTjGHGtI,69356
+empresa4/datasets/__init__.py,sha256=BW33M4MMBgDM6m6u0OJZ4G3kmGB6SJytsWsPiSvAnEo,1054
+empresa4/datasets/maestro_productos.csv,sha256=adbwOxg-PVJdSRT0wlnbJceSsCPMEgTLwclS_EdYGWI,47984
+empresa4/datasets/mejores_clientes.csv,sha256=0jSi4Sl62iwFs3nJ-L2ZIePRcaIr0QZqsE2Juyz4gTw,82
+empresa4/datasets/mejores_productos.csv,sha256=L5UcjdJdKnJOMJrG7i4EsOx-sHFkdf394GnHCx8dcXE,71
+empresa4/datasets/tb_sellout_01_original.csv,sha256=NU-UZiQuzgjQjhhWehvx050Z0D7xSVKQHyCgE3xGJfc,114213197
+empresa4/datasets/tb_sellout_01_por_cliente.csv,sha256=5QPJjOlE2-PRPlWxXqs-WBE29_UCmry5lK6U2p8lyYI,619842
+empresa4/datasets/tb_sellout_01_producto_estrella.csv,sha256=qSgen8E40EvuUNw6_MZ-N26B-2c6IuyGa6ZYXX9hhSw,1701
+empresa4/datasets/tb_sellout_01_productos_todos.csv,sha256=fF27imt-LOQNlc7zdamgKQxxsNlRRQFXIgHfpBsj8uA,1300841
+empresa4/datasets/test.py,sha256=jMlUXJlaATVP85qSX7sGEbpf2I_4CCDM1kera8DdfEY,56
+empresa4-1.1.5.dist-info/LICENSE.txt,sha256=VvudR-D24MxyolF9R3rv3p86Ujaq7heAQ-Q8lGdAMsc,1078
+empresa4-1.1.5.dist-info/METADATA,sha256=8S_-_UBhLfqhn2TXiZ0xJWoqWPG4RD74-Hu3XLPbXCc,279
+empresa4-1.1.5.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+empresa4-1.1.5.dist-info/top_level.txt,sha256=-C8iGPa1Ga2ar2AT90Ew9jlMBP0G7VcdQOvWU_H5t2Q,9
+empresa4-1.1.5.dist-info/RECORD,,

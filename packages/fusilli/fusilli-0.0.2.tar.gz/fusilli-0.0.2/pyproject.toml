@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fusilli"
+version = "0.0.2"
+authors = [
+    { name = "Florence J Townend", email = "f.j.townend@live.com" },
+]
+description = "Comparing multi-modal data fusion methods. Don't be silly, use Fusilli!"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+filterwarnings = [
+    "ignore:MPS available but not used*:UserWarning",
+    "ignore:GPU available but not used*:UserWarning",
+    "ignore:Layer group*:UserWarning",
+    "ignore:.*Use Resampling.*:DeprecationWarning",
+    "ignore:.*The 'warn' method is deprecated*:DeprecationWarning",
+    "ignore:.*np.find_common_type is deprecated*:DeprecationWarning",
+]
+
+[tool.coverage.run]
+omit = [
+    "*__init__*",
+    "fusilli/utils/mcvae/*",
+]

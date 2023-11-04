@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: swebench
+Version: 0.4.1
+Summary: The official SWE-bench package - a benchmark for evaluating LMs on software engineering
+Home-page: https://swebench.com
+Author: John Yang
+Author-email: byjohnyang@gmail.com
+Project-URL: Documentation, https://github.com/princeton-nlp/SWE-bench
+Project-URL: Bug Reports, http://github.com/princeton-nlp/SWE-bench/issues
+Project-URL: Source Code, http://github.com/princeton-nlp/SWE-bench
+Project-URL: Website, https://swebench.com
+Keywords: nlp,benchmark,code
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: beautifulsoup4
+Requires-Dist: chardet
+Requires-Dist: ghapi
+Requires-Dist: GitPython
+Requires-Dist: python-dotenv
+Requires-Dist: requests
+Requires-Dist: rich
+
+# SWE-bench PyPI Package
+
+Test run

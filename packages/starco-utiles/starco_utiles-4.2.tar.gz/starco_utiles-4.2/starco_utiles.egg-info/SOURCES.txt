@@ -1,0 +1,10 @@
+setup.py
+starco_utiles/__init__.py
+starco_utiles/debug.py
+starco_utiles/directories.py
+starco_utiles/structures.py
+starco_utiles/time.py
+starco_utiles.egg-info/PKG-INFO
+starco_utiles.egg-info/SOURCES.txt
+starco_utiles.egg-info/dependency_links.txt
+starco_utiles.egg-info/top_level.txt

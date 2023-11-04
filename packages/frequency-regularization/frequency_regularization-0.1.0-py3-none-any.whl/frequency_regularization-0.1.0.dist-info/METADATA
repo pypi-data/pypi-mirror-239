@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: frequency-regularization
+Version: 0.1.0
+Summary: Frequency Regularization Python Package
+Home-page: https://github.com/guanfangdong/pytorch-frequency-regularization
+Author: Zhao, Chenqiu and Dong, Guanfang and Zhang, Shupei and Tan, Zijie and Basu, Anup
+License: Apache License 2.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.7, <4
+Requires-Dist: numpy
+Requires-Dist: imageio
+Requires-Dist: torch
+Requires-Dist: matplotlib
+

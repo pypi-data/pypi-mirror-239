@@ -1,0 +1,6 @@
+[
+  "integration_test.py::test_implementation",
+  "integration_test.py::test_list_dev_statuses[exclude0-expected0]",
+  "listings_test.py::test_list_dev_statuses[exclude0-expected0]",
+  "listings_test.py::test_list_dev_statuses[exclude1-expected1]"
+]

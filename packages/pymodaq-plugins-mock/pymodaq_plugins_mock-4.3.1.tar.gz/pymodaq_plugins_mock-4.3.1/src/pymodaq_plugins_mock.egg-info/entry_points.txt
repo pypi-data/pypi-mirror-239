@@ -1,0 +1,2 @@
+[pymodaq.instruments]
+mock = pymodaq_plugins_mock

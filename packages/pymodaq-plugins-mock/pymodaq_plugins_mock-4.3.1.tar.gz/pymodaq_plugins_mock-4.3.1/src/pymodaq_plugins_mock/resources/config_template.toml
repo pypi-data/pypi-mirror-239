@@ -1,0 +1,5 @@
+#this is the configuration file of the Mock plugin
+
+[actuators]
+    [actuators.mocktau]
+    tau = 20  # ms

@@ -1,0 +1,8 @@
+daml_dit_api/__init__.py,sha256=1EBSZSlHHZ7QdKjJKkGh5Qi2iff77dRiSPJhcqevYfw,1387
+daml_dit_api/integration_runtime_spec.py,sha256=9oEDXdAm7WfYRVo2JJlaGJQzx1gaWr5YJaMBsmaqyB0,1066
+daml_dit_api/package_metadata.py,sha256=bqfm2R9G0qktsvuaT4Tbni_QRdH-fGIwi9-s5m7pGhY,4455
+daml_dit_api/py.typed,sha256=naNEh8SAbMm_109u81gjfCHDf5k5GtDYA_MQvR5BgDs,58
+daml_dit_api-0.5.0.dist-info/LICENSE,sha256=mR-Jb8GDUemKazwtvsyvTF-uV-HuOGcPoAScSj53yws,11393
+daml_dit_api-0.5.0.dist-info/METADATA,sha256=8rc7VsmofGOXwmfTRghc45R9ka5s9AEYyZ6GOUhjv8A,5143
+daml_dit_api-0.5.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+daml_dit_api-0.5.0.dist-info/RECORD,,

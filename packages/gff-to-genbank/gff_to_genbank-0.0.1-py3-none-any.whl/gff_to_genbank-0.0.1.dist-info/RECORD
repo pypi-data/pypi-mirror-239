@@ -1,0 +1,8 @@
+gff_to_genbank/__about__.py,sha256=ugyuFliEqtAwQmH4sTlc16YXKYbFWDmfyk87fErB8-8,21
+gff_to_genbank/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gff_to_genbank/gff_to_genbank.py,sha256=W82WlCXIKL8_os-zFHd8I89tciusc1A0aKc6ui46ywU,5246
+gff_to_genbank-0.0.1.dist-info/METADATA,sha256=op2KMt-Uj7rblVr3Hrw60eNiDV7F5aSGAh3h93WcL3c,1584
+gff_to_genbank-0.0.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+gff_to_genbank-0.0.1.dist-info/entry_points.txt,sha256=1D2yq1jWJaqOjrsvJlqpzKKXfeXvJLVe8z1yRfYeKV4,70
+gff_to_genbank-0.0.1.dist-info/licenses/LICENSE,sha256=78B5AqbEnlRR-BA7vBLH6uuDBgmhFmW40cfwMdII6jY,2182
+gff_to_genbank-0.0.1.dist-info/RECORD,,

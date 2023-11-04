@@ -1,0 +1,16 @@
+commit_message_validator/__init__.py,sha256=uMGYSwL78cY6nxYacUiA84TeG0A77vqmqHKmjrxb1IQ,1094
+commit_message_validator/__main__.py,sha256=qOJ74dZNgKSiJhD18TPevYTD4DQz6QUCiKA6PW0sFs0,833
+commit_message_validator/cli.py,sha256=neQcvPx7gAoKgOw2Ocdm_RCwEY-LiuqgnLud3DS58jc,4134
+commit_message_validator/lint.py,sha256=OTFHWDMDK-hmXikgykqIQYow12RKOTG5JTXpGcoFiTw,7486
+commit_message_validator/utils.py,sha256=yzwmRfHDHqSFZ9lTYecZUQTy6UiPCU7vb8Uc7Jq7SmA,2144
+commit_message_validator/version.py,sha256=6wFvJ_Oy6s5J0CCaOI3cGrQv1z2ozR7qoB4cLm2AvK4,1029
+commit_message_validator/validators/__init__.py,sha256=Ow6XWS06yAPsB6dtrjvCVia_2PDbU6oSpp1uaBMjqZg,1223
+commit_message_validator/validators/core.py,sha256=5rPZNuRzZYZRpuDiQK-UXgvhikyMqE3vJwTP9DFjJKQ,3765
+commit_message_validator/validators/github.py,sha256=zZYr9R_ITPVr_Fp91ALlhw495DWDjmZ0FurjLPn0t4g,2096
+commit_message_validator/validators/rules.py,sha256=Mwqo9FJSCUQhiZmpolDlqAFzt2vBX_Mn988WU4emi2U,14950
+commit_message_validator/validators/wikimedia.py,sha256=x-TDEAHvo4-RN_ttrYENhvxPgeIBLSkWd9s-fGsKurc,3876
+commit_message_validator-2.0.0.dist-info/METADATA,sha256=r_1pENkmNHoHHDo7cDYhQjuk16jWVhlnne_eNPgHu2Q,3854
+commit_message_validator-2.0.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+commit_message_validator-2.0.0.dist-info/entry_points.txt,sha256=FI_RFzQk2gbL-60Fu837Z-cExe1KiCbVjqhFI8IaJ-I,78
+commit_message_validator-2.0.0.dist-info/licenses/COPYING,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+commit_message_validator-2.0.0.dist-info/RECORD,,

@@ -1,0 +1,15 @@
+gitmojis/__init__.py,sha256=cFSBvuzXrwJzX6b5TF1m7aY9tyAWj2qb_pW7IgAzCOQ,126
+gitmojis/__main__.py,sha256=TpZKhx32bh5RqAsGuHtNYcB75tPbthqkUfwlXGyyHfI,85
+gitmojis/core.py,sha256=sYj9goHiurbks7CmuET5Hw4XYLdR9pCTv9dlBbX_aic,1871
+gitmojis/defaults.py,sha256=kNrtmSUohor-WrM-H3EilyaPC7-9qEOfw9_vqZHFgXU,252
+gitmojis/exceptions.py,sha256=kzJUWNxtW42kYe2OovBOwOhDLZnhwmTiFsINh8k4Ekg,418
+gitmojis/model.py,sha256=u_PbVBslbWDMl6zcuQ_nwp9bhtozewOeDRBlY_sCYIo,1974
+gitmojis/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gitmojis/cli/__init__.py,sha256=mkPm04uX4jBP8Lm6uwBH82LL7zwQj3uuzQuPTvHvLcY,1015
+gitmojis/cli/commands.py,sha256=AxJoE0cee8UzROdFbZWSJ74jTWW3-PqVX3kK-bPU_HU,754
+python_gitmojis-1.0.0.dist-info/LICENSE,sha256=iHR_1MUUh3pnFPRppAd20LhTqDl820fDdizEWXNGSII,1075
+python_gitmojis-1.0.0.dist-info/METADATA,sha256=JS1ahw2KSQp6GqUcYHI7vcQa2wEceDOk0TkjooPy8gQ,9765
+python_gitmojis-1.0.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+python_gitmojis-1.0.0.dist-info/entry_points.txt,sha256=ikh4RpFvqZT85TD0aUtoOT7C6LbaKNV0RU-iPNXCv1g,52
+python_gitmojis-1.0.0.dist-info/top_level.txt,sha256=hEF9XSDmvmTWl3k8rl92pxO-pG7vEC9EqHjXQkoyY_k,9
+python_gitmojis-1.0.0.dist-info/RECORD,,

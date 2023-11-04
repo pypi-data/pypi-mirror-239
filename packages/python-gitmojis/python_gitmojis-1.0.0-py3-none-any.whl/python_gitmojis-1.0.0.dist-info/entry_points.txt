@@ -1,0 +1,2 @@
+[console_scripts]
+gitmojis = gitmojis.__main__:main

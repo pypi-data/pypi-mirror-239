@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: cashfree_pg
+Version: 3.0.1
+Summary: Cashfree Payment Gateway APIs
+Home-page: https://cashfree.com
+Author: Cashfree Payments
+Author-email: developers@cashfree.com
+License: Apache 2.0
+Keywords: Payment Gateway,Cashfree,SDK,Payments,Cashfree Payment Gateway APIs
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+    Cashfree&#39;s Payment Gateway APIs provide developers with a streamlined pathway to integrate advanced payment processing capabilities into their applications, platforms and websites.
+    

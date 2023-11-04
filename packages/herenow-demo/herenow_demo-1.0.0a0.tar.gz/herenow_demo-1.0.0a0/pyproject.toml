@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "herenow_demo"
+version = "1.0.0-alpha"
+description = "Demo of Approximate Retrieval capability of LLMs appplied to build a product for Mindful Exploration of Urban Events."
+authors = ["Sid <itissid@gmail.com>"]
+license = "CC BY NC"
+readme = "README.md"
+packages = [{ include = "herenow_demo", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.103.0"
+Jinja2 = "^3.1.2"
+SQLAlchemy = "2.0.18"
+shapely = "^2.0.2"
+gunicorn = "^21.2.0"
+uvicorn = "^0.23.2"
+itsdangerous = "^2.1.2"
+mypy = { version = "^1.6.1", optional = true }
+python-dotenv = "^1.0.0"
+drop-backend = "1.0.7a0"
+tomlkit = "^0.12.2"
+semver = "^3.0.2"
+
+
+[tool.poetry.extras]
+quality = ["mypy"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.scripts]
+herenow_demo = "herenow_demo.main:run"

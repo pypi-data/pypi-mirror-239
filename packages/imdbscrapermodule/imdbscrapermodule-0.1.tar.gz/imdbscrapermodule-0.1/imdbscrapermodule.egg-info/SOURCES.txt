@@ -1,0 +1,6 @@
+imdbscraper.py
+setup.py
+imdbscrapermodule.egg-info/PKG-INFO
+imdbscrapermodule.egg-info/SOURCES.txt
+imdbscrapermodule.egg-info/dependency_links.txt
+imdbscrapermodule.egg-info/top_level.txt

@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: squeeze-rest
+Version: 0.2.0
+Summary: A ReST API wrapper for the Logitech Media Server/SqueezeBox JSON-RPC API.
+License: MIT
+Author: Simon Redding
+Author-email: s1m0n.r3dd1ng@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: Flask (>=3.0.0,<4.0.0)
+Requires-Dist: squeeze-jrpc (>=0.2.0,<0.3.0)
+Description-Content-Type: text/markdown
+
+# squeeze-rest [![Latest Release](https://gitlab.com/OldIronHorse/squeeze-rest/-/badges/release.svg)](https://gitlab.com/OldIronHorse/squeeze-rest/-/releases) [![pipeline status](https://gitlab.com/OldIronHorse/squeeze-rest/badges/master/pipeline.svg)](https://gitlab.com/OldIronHorse/squeeze-rest/-/commits/master) [![coverage report](https://gitlab.com/OldIronHorse/squeeze-rest/badges/master/coverage.svg)](https://gitlab.com/OldIronHorse/squeeze-rest/-/commits/master) 
+
+This ReST API wraps the Logitech Media Server/SqueezeBox API.
+

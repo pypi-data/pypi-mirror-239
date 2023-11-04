@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: libmiaa
+Version: 0.2.0
+Summary: libreria de suma
+Author:  Emmanuel Botero  
+Author-email: emmanuel.botero@udea.edu.co
+License: MIT
+Requires-Python: >=3.10.12
+Description-Content-Type: text/markdown
+
+#Mi primera libreria
+

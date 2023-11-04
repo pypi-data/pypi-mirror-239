@@ -1,0 +1,9 @@
+rich
+
+[dev]
+black
+pylint
+isort
+pytest
+build
+twine

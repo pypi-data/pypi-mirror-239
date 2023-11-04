@@ -1,0 +1,10 @@
+svc_from_callable/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+svc_from_callable/app/__init__.py,sha256=M7wZPeEDnL6DAN7HLU3N3EiUpy8NYQxiYi4rCbswAew,1552
+svc_from_callable/app/handler.py,sha256=S4Uw-p9veUsyALQmf7YCnAYEb2o4O_CoTTgAe8tNjmY,1557
+svc_from_callable/app/main.py,sha256=RenI_eY8LPU1SwjrENM49TrOgRgPPeX7L9zB8LwiULQ,1105
+svc_from_callable/app/middleware.py,sha256=pCmimbhCewL6MIbbMLbK4jpZRClE_NoTU10w7zJfc8A,1391
+svc_from_callable/app/routes.py,sha256=NP72wIwOEXK7w7YjLKIkRWDXTnirauwuuKT_oJOLM5U,498
+svc_from_callable/app/types.py,sha256=vKoNoGFmwYOauHlzmfqk--ZM5oGgRnOcaZeNrfNpu3A,741
+svc_from_callable-0.1.0.dist-info/METADATA,sha256=kqn8Rnn_NuL7BzrHb8odyga4AXfVJm-WkkuGmMNc6_s,441
+svc_from_callable-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+svc_from_callable-0.1.0.dist-info/RECORD,,

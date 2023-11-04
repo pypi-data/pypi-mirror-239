@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: hmt-azure-funcs
+Version: 0.5
+Summary: code to interact with azure
+Home-page: UNKNOWN
+Author: hmt data science team
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: azure-core
+Requires-Dist: azure-identity
+Requires-Dist: azure-storage-blob
+Requires-Dist: certifi
+Requires-Dist: cffi
+Requires-Dist: charset-normalizer
+Requires-Dist: idna
+Requires-Dist: isodate
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pyaes
+Requires-Dist: pyarrow
+Requires-Dist: pycparser
+Requires-Dist: python-dateutil
+Requires-Dist: pytz
+Requires-Dist: requests
+Requires-Dist: six
+Requires-Dist: typing-extensions
+Requires-Dist: tzdata
+Requires-Dist: urllib3
+
+UNKNOWN
+
+

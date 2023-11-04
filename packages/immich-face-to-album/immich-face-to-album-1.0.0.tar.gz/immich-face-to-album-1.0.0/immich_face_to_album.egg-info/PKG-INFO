@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: immich-face-to-album
+Version: 1.0.0
+Summary: Tool to import a user's face from Immich into an album, mimicking the Google Photos "auto-updating album" feature.
+Home-page: https://github.com/romainrbr/immich-face-to-album
+Download-URL: https://github.com/romainrbr/immich-face-to-album/archive/v_01.tar.gz
+Author: romainrbr
+Author-email: contact@romain.tech
+License: WTFPL
+Keywords: immich
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+License-File: LICENCE.txt
+Requires-Dist: click
+Requires-Dist: requests

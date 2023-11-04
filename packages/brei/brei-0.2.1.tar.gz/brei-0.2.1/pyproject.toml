@@ -1,0 +1,105 @@
+[tool.poetry]
+name = "brei"
+version = "0.2.1"
+description = "A minimal build system."
+authors = ["Johan Hidding <j.hidding@esciencecenter.nl>"]
+license = "Apache 2"
+readme = "README.md"
+packages = []
+
+[tool.poetry.scripts]
+brei = "brei.cli:cli"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+rich = "^13.6.0"
+rich-argparse = "^1.3.0"
+argh = "^0.30.2"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.2"
+hypothesis = "^6.88.1"
+mypy = "^1.6.1"
+pytest-asyncio = "^0.21.1"
+deadcode = "^2.2.2"
+pytest-timeout = "^2.2.0"
+coverage = "^7.3.2"
+pyright = "^1.1.333"
+pdoc = "^14.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.mypy]
+packages = ["brei"]
+
+[tool.brei]
+include = ["docs/weave.toml"]
+
+[[tool.brei.task]]
+name = "test"
+requires = ["#coverage-report", "#mypy"]
+
+[[tool.brei.task]]
+description = "Print coverage info"
+name = "coverage-report"
+requires = ["coverage.xml"]
+script = "coverage report"
+
+[[tool.brei.task]]
+description = "Write coverage report to XML"
+creates = ["coverage.xml"]
+requires = [".coverage"]
+script = "coverage xml"
+
+[[tool.brei.task]]
+creates = [".coverage"]
+requires = ["brei"]
+description = "Run tests"
+script = "coverage run --source=brei -m pytest"
+
+[[tool.brei.task]]
+name = "mypy"
+description = "The MyPy static type checker"
+script = "mypy"
+
+[[tool.brei.task]]
+name = "serve"
+description = "Serve and watch for changes"
+runner = "bash"
+script = """
+while true; do
+	inotifywait -e close_write docs/*.md docs/template
+	brei weave
+done
+"""
+
+[[tool.brei.task]]
+requires = ["coverage.xml"]
+stdout = "docs/test_coverage.md"
+script = "coverage report --format=markdown"
+
+[[tool.brei.task]]
+name = "weave"
+requires = ["#html", "#static", "#pdoc"]
+
+[[tool.brei.call]]
+template = "pandoc"
+collect = "html"
+[tool.brei.call.args]
+basename = [
+  "index",
+  "implementation",
+  "tasks",
+  "lazy",
+  "template_strings",
+  "program",
+]
+
+[[tool.brei.task]]
+name = "pdoc"
+description = "Build API documentation"
+creates = ["docs/site/api/brei.html"]
+requires = ["brei/__init__.py"]
+script = "pdoc brei -o ./docs/site/api"

@@ -1,0 +1,15 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+latk/__init__.py
+latk/latk_kmeans.py
+latk/latk_main.py
+latk/latk_rdp.py
+latk/latk_tilt.py
+latk/latk_zip.py
+latk.egg-info/PKG-INFO
+latk.egg-info/SOURCES.txt
+latk.egg-info/dependency_links.txt
+latk.egg-info/requires.txt
+latk.egg-info/top_level.txt

@@ -1,0 +1,11 @@
+package/IO_module.py,sha256=qrcA4laOLa7kg9dl5IxzxIz8xfWqDXY_fe5IgtfB1AE,5592
+package/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+package/prisma_module.py,sha256=MjCjwFR9jvYaJY730UvosLpfyFInm4xpmO7VT1tnkI0,9714
+package/runJob.py,sha256=gsIk3jUCnnLx4QENeHwR4FdSM2HF_8iRtRATsqEKJjM,3477
+package/supabase_module.py,sha256=DxhNQXX1zllgV2MlkMy90uFwJ0uodHER64bOIYNfSko,4823
+ivette_client-0.0.8.dist-info/LICENSE,sha256=sYhD2VVLltzMzHDFTJ09r3gQLJluCvm6Bq7HmosvntU,1071
+ivette_client-0.0.8.dist-info/METADATA,sha256=8vgDTX4V05dUJpbeME2zgIVf41XnhYWjWVKWXzV1Pn0,252
+ivette_client-0.0.8.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+ivette_client-0.0.8.dist-info/entry_points.txt,sha256=aeGCbVxGMt3VZRrgAwYp0C27FghtwqcHbLOsSVaJ8JE,40
+ivette_client-0.0.8.dist-info/top_level.txt,sha256=TpQW7893uEAT8mPh-QCMZWhhKYvlqryC9Fjm5Hxg2f8,8
+ivette_client-0.0.8.dist-info/RECORD,,

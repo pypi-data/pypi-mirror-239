@@ -1,0 +1,10 @@
+pandas
+numpy
+scipy
+xlsxwriter
+statsmodels
+openpyxl
+docopt
+pydot
+requests
+rich

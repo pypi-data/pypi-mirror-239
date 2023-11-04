@@ -1,0 +1,6 @@
+[console_scripts]
+frysk=frysk:main
+
+[pytest11]
+frysk=pytest_frysk
+

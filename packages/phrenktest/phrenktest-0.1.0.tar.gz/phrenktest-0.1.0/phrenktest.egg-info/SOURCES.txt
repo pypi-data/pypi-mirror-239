@@ -1,0 +1,12 @@
+MANIFEST.in
+setup.py
+phrenktest/__init__.py
+phrenktest/hello.py
+phrenktest.egg-info/PKG-INFO
+phrenktest.egg-info/SOURCES.txt
+phrenktest.egg-info/dependency_links.txt
+phrenktest.egg-info/top_level.txt
+phrenktest/__pycache__/__init__.cpython-39.pyc
+phrenktest/__pycache__/hello.cpython-39.pyc
+phrenktest/othermodule/__init__.py
+phrenktest/othermodule/hello2.py

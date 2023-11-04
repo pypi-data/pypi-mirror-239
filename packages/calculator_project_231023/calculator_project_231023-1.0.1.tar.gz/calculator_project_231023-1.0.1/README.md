@@ -1,0 +1,76 @@
+# Calculator
+
+This is a simple calculator program written in Python that performs basic arithmetic operations such as addition, subtraction, multiplication, division, and taking the root of a number. The calculator uses the Decimal module to ensure precision in calculations.
+
+# Installation
+
+Use the following command to install
+```
+pip install calculator_project_231023
+```
+
+# Usage
+
+To use the calculator, follow these steps:
+1. Import the pacakge.
+2. Run the main interface function run_interface().
+3. You will be prompted to enter the first number (integer or float).
+4. After entering the first number, you will be prompted to choose an arithmetic operation (+, -, *, /, **) for the calculation.
+5. Enter the second number (integer or float).
+6. The program will perform the selected arithmetic operation on the first and second numbers and display the result.
+7. You will then be prompted to choose the next action:
+* Enter 'C' to continue using the current result as the first number for the next operation.
+* Enter 'R' to reset the calculator result to 0 and start a new calculation.
+* Enter 'Q' to quit the program.
+8. Repeat the calculation loop as desired.
+
+# Example
+
+```
+import calculator_project_231023
+
+run_interface()
+```
+
+Your interaction will be something like this:
+```
+Welcome to the calculator
+Use it to add, subtract, multiply, divide, or take a root
+
+Enter the first element (integer or float): 5
+Enter arithmetic operation (options: +, -, *, /, **): *
+Enter the second element (integer or float): 2
+Result: 10
+
+C to continue with the result, R to reset result to 0, Q to quit: c
+Enter arithmetic operation (options: +, -, *, /, **): +
+Enter the second element (integer or float): 3
+Result: 13
+
+C to continue with the result, R to reset result to 0, Q to quit: c
+Enter arithmetic operation (options: +, -, *, /, **): **
+Enter the second element (integer or float): 0.5
+Result: 3.605551275
+
+C to continue with the result, R to reset result to 0, Q to quit: R
+Calculator reset to 0
+
+Enter the first element (integer or float): 10
+Enter arithmetic operation (options: +, -, *, /, **): /
+Enter the second element (integer or float): 3
+Result: 3.3333333333
+
+C to continue with the result, R to reset result to 0, Q to quit: Q
+Thank you for using the calculator
+```
+
+# Notes
+
+* The calculator uses the Decimal data type for more precise calculations. The precision of the calculator can be adjusted by modifying the PRECISION constant in the code. It is 10 decimal places by default.
+* The calculator stores the most recent result and applies additional operations to that result until explicitly instructed to clear the result.
+* The calculator supports the following arithmetic operations: addition (+), subtraction (-), multiplication (*), division (/), and taking the root (**).
+* To take the root of a specific power you only need to inter the power. For instace to take a 3rd degree root of 8 you enter 3 after selecting the ** operation. Your input sequence looks like this 8 ** 3, but the actual calculation happens in the following format: 8**(1/3). 
+* The calcualtor does not allow to take a root of a negative number. But it allows to enter a negavite power, for example your input sequence could look like this 8 ** -3, but the actual calculation happens in the following format: 8**(1/-3).
+* The calculator prompts the user for valid number inputs and handles any invalid inputs with appropriate error messages.
+* The calculator allows the user to continue using the current result for subsequent operations, reset the calculator result to 0, or quit the program.
+* The program can be terminated at the end of one calculation cycle by entering 'Q' as the next action, or at any time by 'ctrl+Q'.

@@ -1,0 +1,2 @@
+[console_scripts]
+release-version = release_version:main

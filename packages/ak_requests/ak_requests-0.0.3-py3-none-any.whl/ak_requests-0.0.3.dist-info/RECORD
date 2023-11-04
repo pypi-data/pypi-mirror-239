@@ -1,0 +1,8 @@
+ak_requests/__init__.py,sha256=Ma6lzPi1JftypSAm49JeI5XQ3KIwO-c-MQIoOx7BuYo,193
+ak_requests/beautifulsoup.py,sha256=HMn4KYhHsY9ujTlnNcbmrswNmh74OLuLgqaT6G8u9q4,154
+ak_requests/logger.py,sha256=HdidswkzjxBXL5hiO3hR5x6f6gy87PUisYuRvnDRwDA,1482
+ak_requests/request.py,sha256=Spi8tGNO8ghB3shr2bsUNEn6SZkDDn3RBW8x6y-9uTI,8719
+ak_requests-0.0.3.dist-info/LICENSE,sha256=sHOBmrMwc7ayYTppcEXEmfXI9n8c6Ix0epH9APstXVQ,1100
+ak_requests-0.0.3.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+ak_requests-0.0.3.dist-info/METADATA,sha256=giCg5oqLq1Ary80CIvycZ_UTa3Gdu34BCwAJlYEnI1k,5064
+ak_requests-0.0.3.dist-info/RECORD,,

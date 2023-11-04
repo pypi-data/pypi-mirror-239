@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "hwcramerchecker-py"
+version = "1.0.9"
+description = "open_ai_check(file, DZ_num)"
+authors = ["Simon_lob <simonlobgromov@gmail.com>"]
+readme = "README.md"
+packages = [{include = "hwcramerchecker"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

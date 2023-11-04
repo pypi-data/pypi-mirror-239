@@ -1,0 +1,13 @@
+sclera/__init__.py,sha256=49_1jdTbRuWBcn0v1u1O346Hm_pRcJjOv28VjJNFH1w,47
+sclera/tasks/__init__.py,sha256=ZoxpYR4QzReStBahtDCgfyP9XvMtPGpyFL-XY02Vpeo,93
+sclera/tasks/depth_estimation/__init__.py,sha256=qi7gdtgUyu7Wpwa80LiZKwbuilmjoZSc7TiBKS3uJqg,51
+sclera/tasks/depth_estimation/models/__init__.py,sha256=dU7ZrTfgwHcIKVm0PH0xM5VyFn2fajnN7VmeiwrhgdA,65
+sclera/tasks/depth_estimation/models/fastmde.py,sha256=CywJR69euZmMDajxd9gfmujpp3f2G-u6u7y_hAF0frU,2433
+sclera/tasks/semantic_segmentation/__init__.py,sha256=MDIYRJqgZ6E_fsCwdmFNUi6RDTai0L6QmW0PZqWiXXs,56
+sclera/tasks/semantic_segmentation/models/__init__.py,sha256=oMwIcEyDE2po8r_32zqOWiUmHU9ygT9J8Ifx5cfS4HE,138
+sclera/tasks/semantic_segmentation/models/segformer.py,sha256=GxZegpaaz_fHC-k3fwmod6P1GtdZkVxCs-Vb3fnRbmI,22454
+sclera/tasks/semantic_segmentation/models/unet.py,sha256=pL-4D3ObPUhNi8YVqqRmWkI2SxcRMr77pBs6wASBVzA,3050
+sclera-0.1.5rc6.dist-info/LICENSE,sha256=s2ERahu0djEkdZ4xDJDCH4Dz8uo0CYH-nVNS8U0BsZk,1110
+sclera-0.1.5rc6.dist-info/METADATA,sha256=FPI2Q3PomxoyAbXKMJ6QCkGs0woDAbEuaDEpD7PpyI0,5184
+sclera-0.1.5rc6.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+sclera-0.1.5rc6.dist-info/RECORD,,

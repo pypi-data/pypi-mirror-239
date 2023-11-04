@@ -1,0 +1,10 @@
+setup.py
+max_dist_98/Binomialdistribution.py
+max_dist_98/Gaussiandistribution.py
+max_dist_98/Generaldistribution.py
+max_dist_98/__init__.py
+max_dist_98.egg-info/PKG-INFO
+max_dist_98.egg-info/SOURCES.txt
+max_dist_98.egg-info/dependency_links.txt
+max_dist_98.egg-info/not-zip-safe
+max_dist_98.egg-info/top_level.txt

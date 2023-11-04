@@ -1,0 +1,135 @@
+Metadata-Version: 2.1
+Name: econompy
+Version: 0.1.0
+Summary: The Python package for econometric analysis.
+Author-email: Markus Lill <markus.lill@gmx.de>
+License: MIT License
+        
+        Copyright (c) 2023 Markus Lill <markus.lill@gmx.de>
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NON INFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Platform: unix
+Platform: linux
+Platform: osx
+Platform: cygwin
+Platform: win32
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas >=2.1.2
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: ruff ; extra == 'dev'
+Provides-Extra: doc
+Requires-Dist: mkdocs ; extra == 'doc'
+Requires-Dist: mkdocstrings ; extra == 'doc'
+Requires-Dist: mkdocstrings[python] ; extra == 'doc'
+Requires-Dist: mkdocs-material ; extra == 'doc'
+Requires-Dist: Pygments ; extra == 'doc'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+Requires-Dist: codecov ; extra == 'test'
+Requires-Dist: pre-commit ; extra == 'test'
+
+# EconomPy - The Econometric Python Library
+
+![Python](https://img.shields.io/badge/python-3.12-blue)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Build](https://github.com/malill/econompy/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/malill/econompy/actions/workflows/test.yml)
+[![codecov](https://codecov.io/gh/malill/econompy/graph/badge.svg?token=AV6JEZMSIP)](https://codecov.io/gh/malill/econompy)
+[![Documentation](https://img.shields.io/badge/ref-Documentation-blue)](https://malill.github.io/econompy/)
+
+> The motivation behind the EconomPy library is to provide a set of tools for econometric analysis in Python. Instead of using R (Studio) or Stata for econometric analysis, the goal is to provide a Python alternative.
+
+The EconomPy library is a collection of econometric functions and classes written in Python. The library is designed to be used in conjunction with the [Pandas](https://pandas.pydata.org/) library.
+
+## Installation
+
+For the latest stable version, install from [PyPi](https://pypi.org/project/econompy/):
+
+```bash
+# Create a virtual environment
+python -m venv .venv
+
+# Activate the virtual environment
+source .venv/bin/activate
+
+# Install the package from PyPi
+pip install econompy
+```
+
+## Usage
+
+```python
+import econompy as ep
+```
+
+## Development
+
+To contribute to the development of EconomPy, clone the repository and install the development dependencies.
+
+### Install the Development Dependencies
+
+```bash
+# Clone the repository
+git clone https://github.com/malill/econompy.git
+
+# Create a virtual environment
+python -m venv .venv
+
+# Install the development dependencies
+pip install -r requirements-dev.txt
+
+# Install the package in editable mode
+pip install -e .
+```
+
+### Use pre-commit hooks
+
+The pre-commit hooks are used to ensure that the code is formatted correctly and that the tests pass before committing the code.
+
+```bash
+# Install the pre-commit package
+pre-commit install
+
+# (To locally) Run the pre-commit hooks
+pre-commit run --all-files
+```
+
+### Run Code Coverage
+
+You can test the code coverage by running the following command:
+
+```bash
+# Run the code coverage
+pytest --cov=econompy --cov-report=html
+```
+
+This will generate a HTML report in the `htmlcov` folder. Inspect the report by opening the `index.html` file in your browser.

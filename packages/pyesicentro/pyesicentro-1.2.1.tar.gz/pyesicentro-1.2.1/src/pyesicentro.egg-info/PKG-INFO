@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pyesicentro
+Version: 1.2.1
+Summary: A python library for use with ESI Centro RTP5 Smart Thermostat.
+Author-email: John Martin McLaughlin <johnmartinmclaughlin@gmail.com>
+Project-URL: Homepage, https://github.com/johnmmclaughlin/pyesicentro
+Project-URL: Bug Tracker, https://github.com/johnmmclaughlin/pyesicentro/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+A python library for use with ESI Centro RTP5 Smart Thermostat.

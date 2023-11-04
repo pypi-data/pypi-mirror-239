@@ -1,0 +1,14 @@
+incremental
+requests>=2.1.0
+hyperlink>=21.0.0
+Twisted[tls]>=22.10.0
+attrs
+
+[dev]
+pep8
+pyflakes
+httpbin==0.7.0
+werkzeug==2.0.3
+
+[docs]
+sphinx<7.0.0

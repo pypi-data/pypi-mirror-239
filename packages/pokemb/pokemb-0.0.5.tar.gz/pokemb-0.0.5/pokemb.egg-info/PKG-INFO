@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: pokemb
+Version: 0.0.5
+Home-page: https://github.com/spktrm/pokemb
+Author: Joseph Twin
+Author-email: joseph.twin14@gmail.com
+Requires-Dist: numpy==1.21.5
+Requires-Dist: pandas==2.0.2
+Requires-Dist: scikit_learn==1.3.2
+Requires-Dist: torch==1.13.0

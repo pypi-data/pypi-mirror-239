@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: URLRakshak
+Version: 0.0.3
+Summary: Fake URL Inspector
+Home-page: https://github.com/ViswanathBalusu/SafeURLInspector
+Author: viswanathbalusu
+Author-email: ckvbalusu@gmail.com
+License: GPL3.0
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Development Status :: 5 - Production/Stable
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: fastapi[all] ==0.104.0
+Requires-Dist: selenium ==4.14.0
+Requires-Dist: pyOpenSSL ==23.3.0
+Requires-Dist: SQLAlchemy ==1.4.47
+Requires-Dist: python-whois ==0.8.0
+Requires-Dist: databases[sqlite] ==0.8.0
+Requires-Dist: tldextract ==5.0.1
+Requires-Dist: pandas ==2.1.2
+Requires-Dist: scikit-learn ==1.2.2
+Requires-Dist: pyTelegramBotAPI ==4.14.0
+Requires-Dist: aiohttp ==3.8.6
+
+# URL Rakshak

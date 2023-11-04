@@ -1,0 +1,14 @@
+abbreviations
+beautifulsoup4
+braceexpand
+coloredlogs
+ConfigArgParse
+lxml
+nltk
+pandas
+pygetpapers
+pytest
+setuptools
+spacy
+tkinterweb
+tqdm

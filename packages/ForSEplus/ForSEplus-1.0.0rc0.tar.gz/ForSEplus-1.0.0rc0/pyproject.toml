@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ForSEplus"
+version = "1.0.0-pre"
+authors = [
+    {name = "Jian Yao", email = "jyao@sissa.it"},
+]
+
+description = "My package description"
+readme = "README.md"
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["feed", "reader", "tutorial"]
+
+#dependencies = [
+#    "tensorflow >= 2.0",
+#    "reproject",
+#    "healpy",
+#    "astropy",
+#    "numpy", 
+#    "scipy",
+#    "pymaster",
+#]
+
+[project.urls]
+Homepage = "https://github.com/yaojian95/ForSEplus"

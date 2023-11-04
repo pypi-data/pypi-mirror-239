@@ -1,0 +1,3 @@
+[console_scripts]
+sc = sh_copilot:main
+sh_copilot = sh_copilot:main

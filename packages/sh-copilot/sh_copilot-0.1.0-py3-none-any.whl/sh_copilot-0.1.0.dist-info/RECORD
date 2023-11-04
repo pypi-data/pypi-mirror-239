@@ -1,0 +1,16 @@
+sh_copilot/__init__.py,sha256=e05opNXIMe_wrxWeDHBBfwqhgULZEAtyxC1k0GbfX4M,731
+sh_copilot/cli.py,sha256=oPK-xYIhPkFDoVHcgVGgwtQltYA8T2FtineLRcXcMmg,480
+sh_copilot/config.py,sha256=UYeJgL6Ugfvupzpix6CMH-SBbDHbzEXGJ68s9IkkYOY,1428
+sh_copilot/copilot.py,sha256=QRCX-HXd8cLVSWYsrULtvstCrWF8MtzooFntZv-zb5s,2612
+sh_copilot/ai/__init__.py,sha256=qIUZDhYWYdqfT_mItC0uAFjlosmJrL3BQdzrE2ZLvdE,172
+sh_copilot/ai/context.py,sha256=kS1oa_YlWImUQR7ayx_u0UrgHe9Lul8UOlovYlXvDMg,2331
+sh_copilot/ai/models/__init__.py,sha256=kuHPf9SuSfAPRXRl9sHSTzpAjZWY_Xaj6AxUG99KOgM,827
+sh_copilot/ai/models/base.py,sha256=pTN-_POsI3wgRyzdlPuz0ifFkQclYWohxc-rlPEKwQI,846
+sh_copilot/ai/models/fake.py,sha256=n_SPQ_OK3YuRVHwM3kGC-8V92NUuzM3b2_dvwzPNF8A,771
+sh_copilot/ai/models/openai.py,sha256=7dLRRwljb_f6n4nN3AgmSFagkfjMK5QAGS0OgO9NkWo,4148
+sh_copilot-0.1.0.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+sh_copilot-0.1.0.dist-info/METADATA,sha256=D-qwoOqg_Z7zGrakdZCxotnMMHBa-RN8rExmJ2LUBgY,2943
+sh_copilot-0.1.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+sh_copilot-0.1.0.dist-info/entry_points.txt,sha256=72OGQ8z0z3F9ezcHpjy_o8y5ocGfQy3IJzMr7Mjkrps,68
+sh_copilot-0.1.0.dist-info/top_level.txt,sha256=qvq6mk0jmDZ87lXUotCDvH-sagtyjKy1m1_N9aieSAY,11
+sh_copilot-0.1.0.dist-info/RECORD,,

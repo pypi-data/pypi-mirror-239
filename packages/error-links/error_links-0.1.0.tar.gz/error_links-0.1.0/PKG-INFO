@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: error-links
+Version: 0.1.0
+Summary: Adds helpful links to the REPL when an exception happens.
+Author: Rodrigo Girão Serrão
+Author-email: rodrigo@mathspp.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: rich (>=13.6.0,<14.0.0)
+Description-Content-Type: text/markdown
+
+# `error-links`
+
+`error-links` adds Google and Python documentation links to the bottom of exceptions.
+
+![](error_links.png)
+
+In most terminals, you will need to hold <kbd>Cmd</kbd> or <kbd>Ctrl</kbd> to allow _clicking_ the link.
+
+This works really well alongside [Rich's traceback handler](https://rich.readthedocs.io/en/stable/traceback.html#traceback-handler), which is what enabled the highlighting and coloured output in the screenshot above.
+

@@ -1,0 +1,3 @@
+[console_scripts]
+herenow_demo=herenow_demo.main:run
+

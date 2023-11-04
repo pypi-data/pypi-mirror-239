@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "magpai"
+authors = [
+    {name = "Ben", email = "accounts@magpai.app"},
+]
+description = "Magpai python bindings"
+readme = "README.md"
+requires-python = ">=3.7"
+keywords = ["magpai", "ai", "workflows", "magpie"]
+license = {text = "MIT License"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "requests",
+    'importlib-metadata; python_version<"3.8"',
+]
+dynamic = ["version"]
+
+[project.urls]
+"Homepage" = "https://magpai.app"

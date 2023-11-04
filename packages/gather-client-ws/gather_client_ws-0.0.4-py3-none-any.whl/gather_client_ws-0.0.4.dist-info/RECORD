@@ -1,0 +1,10 @@
+gather_client_ws/__init__.py,sha256=J7TuggPN4Fjd1OiGiLNOMirTElJPOmEh5wttfNbfJYk,138
+gather_client_ws/actions.py,sha256=mUkCCQy9YrjJDHRAcY5zWDESzQ-8QBEBIpq0IrrmI9E,2831
+gather_client_ws/client.py,sha256=8UkVB8KTqGoU-nBVoKv_uWzxzfyUGpthCkSiJUPZwp4,3344
+gather_client_ws/events_pb2.py,sha256=rjHttbRS5O91QsLmHpIJcXWf9S563EqAr8ooG6sxkmo,199004
+gather_client_ws/helpers.py,sha256=v3MxwpU4ftquuHoOGubPaW7BaguRuo1h6SBggcH1r7o,644
+gather_client_ws-0.0.4.dist-info/LICENSE,sha256=UiekenSQ1wTYaHPCsHAcsVjH-1uaCm3LRl9Ib1BNnW0,1089
+gather_client_ws-0.0.4.dist-info/METADATA,sha256=biCnx0_gffLB4yU4rDGSHkKS8u2UMgCFmySuHXqWo7g,7311
+gather_client_ws-0.0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+gather_client_ws-0.0.4.dist-info/top_level.txt,sha256=0YnfXcb9WxPHildDpW5y4zngxcZcw0raBS3DWcbr6Dc,17
+gather_client_ws-0.0.4.dist-info/RECORD,,

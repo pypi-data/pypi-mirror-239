@@ -1,0 +1,12 @@
+set_calibration/__init__.py,sha256=UDRm7zIjw9adFcOnugtMhlmNR1y_Zhqv4LUr6J5fxBE,179
+set_calibration/_version.py,sha256=pMnmqZnpVmaqR5nqHztNWzbbtb1oy5bPN_v7uhOH8K8,411
+set_calibration/_widget.py,sha256=oRXZuBdJdEjmUtKB7QkaWfrxAGHEj_3eDHKUXgos_j4,4971
+set_calibration/napari.yaml,sha256=53hgmaO9fsrR0G8qOzN9FBqnLvuWflAHsKNpXKk5TQI,542
+set_calibration/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+set_calibration/_tests/test_widget.py,sha256=GeCxZ_uYVkg16Z3nIh0ozWYZzFQ2oTeIDbP4w0lcWow,82
+set_calibration-0.0.1.dist-info/LICENSE,sha256=Q3hbaDAeJoQ5JtNH2RQq7mJ-6NVNcIciKjZU6PCL7ts,1088
+set_calibration-0.0.1.dist-info/METADATA,sha256=TbH2DGMkVcjaJ2ldSAyR5EECP2L-cjtT-dfsiBlddLY,4555
+set_calibration-0.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+set_calibration-0.0.1.dist-info/entry_points.txt,sha256=9kVnOBaTUNsPUOzw0kUu4jKiKIMb09jxGSEbX_pghZQ,64
+set_calibration-0.0.1.dist-info/top_level.txt,sha256=GX3Z-ftH-WBGX8PBuomy0e3msgmeLZXUkX3tm5VgY7g,16
+set_calibration-0.0.1.dist-info/RECORD,,

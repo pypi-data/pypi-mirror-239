@@ -1,0 +1,1 @@
+Implement relative photometric calibration. Linearized ramp sets are normalized to counts per second. Attenuation due to Optical Density filters is compensated. Solar gain image is no longer normalized to mean of 1. Observe images are now in units of flux relative to solar center.

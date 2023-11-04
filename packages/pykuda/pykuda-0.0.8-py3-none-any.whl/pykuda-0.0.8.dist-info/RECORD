@@ -1,0 +1,11 @@
+pykuda/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pykuda/constants.py,sha256=0UAkspn-R3zJBlMJmY6vfssG68fXRVXmQzc69nntoO8,680
+pykuda/pykuda.py,sha256=TjGhGeV_UqVbfKVTZ1Wl7SNqqpo8pP7qOijD9_ZsHqk,273
+pykuda/utils.py,sha256=MFAogFguuWvhUORUtt7WjE3IT2IZWZQ-1_iS8q4WOOk,13937
+pykuda/classes/py_kuda_response.py,sha256=wUIeCwHFkMBuoKqMdNZwCAFA_U_G3iQ2rhJ7sbY_GEw,129
+pykuda/classes/service_type.py,sha256=tWuvVJ1dqd2qmpH4jlWzhOGZ_i-lMfZP-50hlVnQe-8,9275
+pykuda-0.0.8.dist-info/LICENCE,sha256=9s_WBfYXnLph7oDe5rgKJEnhWh6YfgPu0u96utIYqHQ,1072
+pykuda-0.0.8.dist-info/METADATA,sha256=ZZij9jw31HFVOtKDffpLpguOSEzJA87zPHn3kEDYdug,5026
+pykuda-0.0.8.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+pykuda-0.0.8.dist-info/top_level.txt,sha256=PlOMxERe2mTk_GrRxV3LbRBItSpXEovVP1cOTauDm3M,7
+pykuda-0.0.8.dist-info/RECORD,,

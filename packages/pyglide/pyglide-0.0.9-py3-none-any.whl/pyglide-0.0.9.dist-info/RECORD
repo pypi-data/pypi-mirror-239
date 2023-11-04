@@ -1,0 +1,13 @@
+pyglide/__init__.py,sha256=ehM8FIUtvRhPvqzkz13TXhXt1pEREpyb8fbJ8jqht7A,303
+pyglide/__main__.py,sha256=SEemslx_v4PrTTyY0gEa18_76sko4B-itM8XQj0s3no,4705
+pyglide/prompt.py,sha256=fWJCrLnuVELDmSg7UEYR0orlNEsnCa7wnT27bz8T9Is,3936
+pyglide/pyglide.py,sha256=yGB2fJyXeAQ5_p5ejAqwxYdno7aXv-CIF3-GGoIkqWA,3124
+pyglide/revealjs_template.py,sha256=3kDfJhGNegAOI8-YYJphBaBkNuC-326uDEqKnezUIFA,489
+pyglide/slideEdit.py,sha256=lriN_i7_tp-VT3dQeJ7K5AWWaKcjZLo7r3oqG4Ntjx0,7184
+pyglide/text2audio.py,sha256=uHive09adA_8olQTTVr-kvlCYocKDBF812k54BilkaE,1810
+pyglide/example/original_example.ipynb,sha256=sEWJ3Fye8vZ77dujXLaKLt-pcaooM-0BFhadNe-wwhc,2705
+pyglide-0.0.9.dist-info/METADATA,sha256=ezrwnnKpUjRYhvoWsDyna8TjqZsk7UBbJKL0Mw1FKVw,8475
+pyglide-0.0.9.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+pyglide-0.0.9.dist-info/entry_points.txt,sha256=0D8rqykNP5kjFg6AuwoD5ZjYRye1Lq7z22Z35syOD28,50
+pyglide-0.0.9.dist-info/licenses/LICENSE,sha256=4mT_lp7iCFlMUtNrV3g-_f4HZNeYjhDSH7HBDmBmxxs,1073
+pyglide-0.0.9.dist-info/RECORD,,

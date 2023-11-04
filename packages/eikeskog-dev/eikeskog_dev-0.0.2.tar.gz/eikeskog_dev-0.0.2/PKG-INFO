@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: eikeskog_dev
+Version: 0.0.2
+Requires-Dist: requests
+Requires-Dist: Flask

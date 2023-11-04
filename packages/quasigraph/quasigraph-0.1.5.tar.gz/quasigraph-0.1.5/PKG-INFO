@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: quasigraph
+Version: 0.1.5
+Summary: quasigraph: Chemical and Geometric Descriptor Toolkit for Machine Learning Models.
+Project-URL: Homepage, https://github.com/leseixas/quasigraph
+Author-email: Leandro Seixas <leandro.seixas@mackenzie.br>
+License-File: LICENSE.txt
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.10
+Requires-Dist: acat
+Requires-Dist: ase
+Requires-Dist: mendeleev
+Requires-Dist: numpy
+Requires-Dist: pandas
+Description-Content-Type: text/markdown
+
+# quasigraph

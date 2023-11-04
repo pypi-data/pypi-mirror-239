@@ -1,0 +1,7 @@
+en_spacy_pii_fast-any-py3-none-any.whl,sha256=VcLK5BgADSVbaPzfTK41sqOUY8YParIt9qTxIFmshb0,6868258
+piiscan/__init__.py,sha256=AZA6zLojG3foQQYRNXfT9RL7AAPRS8Mc8_SIFHPtstQ,1835
+piiscan/recognizer.py,sha256=agKVBEGJZZ1VvNXv2jgIctMEMPunjb384yj0b7pMotE,4198
+piiscan-0.1.4.dist-info/LICENSE,sha256=8I6U22zDU07qDPwjUrqfysuE9fcUX1GAGdnhGNXIq0Q,1069
+piiscan-0.1.4.dist-info/METADATA,sha256=6lurIJn4tIpGNFp0Sym0K0Nh2o12Wyb1uVuqqCYk_iQ,3649
+piiscan-0.1.4.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+piiscan-0.1.4.dist-info/RECORD,,

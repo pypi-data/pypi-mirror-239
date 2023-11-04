@@ -1,0 +1,13 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+cmdbashinteractive/README.MD
+cmdbashinteractive/__init__.py
+cmdbashinteractive/requirements.txt
+cmdbashinteractive/thirdparty.json
+cmdbashinteractive.egg-info/PKG-INFO
+cmdbashinteractive.egg-info/SOURCES.txt
+cmdbashinteractive.egg-info/dependency_links.txt
+cmdbashinteractive.egg-info/top_level.txt

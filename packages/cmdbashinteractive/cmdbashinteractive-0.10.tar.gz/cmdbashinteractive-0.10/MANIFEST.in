@@ -1,0 +1,3 @@
+include cmdbashinteractive/requirements.txt
+include cmdbashinteractive/thirdparty.json
+include cmdbashinteractive/README.MD

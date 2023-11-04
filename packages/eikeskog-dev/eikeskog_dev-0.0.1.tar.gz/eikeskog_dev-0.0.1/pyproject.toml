@@ -1,0 +1,23 @@
+[build-system]
+#requires = ["setuptools", "setuptools-scm"]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "eikeskog_dev"
+#dynamic = ["version", "description", "authors"]
+dynamic = ["version"]
+dependencies = [
+    "requests",
+    "Flask"
+]
+
+[tool.setuptools.dynamic]
+version = {attr = "eikeskog_dev.__version__"}
+
+
+
+#authors = [
+#    {name = {attr = "eikeskog_dev.__author__"}, email = {attr = "eikeskog_dev.__email__"}}
+#]
+##description = {attr = "eikeskog_dev.__description__"}

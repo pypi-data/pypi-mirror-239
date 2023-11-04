@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+docs/READMEpy.md
+src/py/jogoel/__init__.py
+src/py/jogoel/check.py
+src/py/jogoel/lang.py
+src/py/jogoel/variables.py
+src/py/jogoel.egg-info/PKG-INFO
+src/py/jogoel.egg-info/SOURCES.txt
+src/py/jogoel.egg-info/dependency_links.txt
+src/py/jogoel.egg-info/top_level.txt

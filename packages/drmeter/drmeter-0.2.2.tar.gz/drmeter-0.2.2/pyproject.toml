@@ -1,0 +1,96 @@
+[tool.poetry]
+name = "drmeter"
+version = "0.2.2"
+description = "Dynamic Range (DR) algorithm implementation in python"
+authors = ["Jan Willhaus <mail@janwillhaus.de>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/janw/drmeter"
+
+[tool.poetry.scripts]
+drmeter = 'drmeter.cli:main'
+
+[tool.poetry.dependencies]
+python = "^3.9"
+soundfile = "^0.12.1"
+numpy = {version = "^1.26", python="<3.13"}
+rich = "^13.4.2"
+rich-click = "^1.6.1"
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.4.0"
+ruff = "^0.1.3"
+tox = "^4.6.4"
+ipython = "^8.14.0"
+ipdb = "^0.13.13"
+mypy = "^1.5.1"
+bump-my-version = "^0.11.0"
+
+[tool.poetry.group.tests.dependencies]
+pytest = "^7.4.0"
+pytest-cov = "^4.1.0"
+
+[tool.bumpversion]
+current_version = "0.2.2"
+commit = true
+tag = true
+sign_tags = true
+
+[[tool.bumpversion.files]]
+filename = "pyproject.toml"
+search = "version = \"{current_version}\""
+replace = "version = \"{new_version}\""
+
+
+[tool.ruff]
+line-length = 120
+target-version = "py39"
+extend-select = [
+    "I",   # isort
+    "B",   # bugbear
+    "A",   # builtins
+    "ISC", # implicit-str-concat
+    "Q",   # quotes
+    "TID", # tidy-imports
+    "C4",  # comprehensions
+    "SIM", # simplify
+    "C90", # mccabe
+]
+unfixable = [
+    "B", # bugbear
+]
+ignore = [
+    "SIM108", # if-else-block-instead-of-if-exp
+    "ISC001", # single-line-implicit-string-concatenation (conflicts with ruff format)
+]
+
+[tool.ruff.mccabe]
+max-complexity = 10
+
+[tool.mypy]
+warn_unused_configs = true
+disallow_untyped_defs = true
+strict_optional = true
+packages = ["drmeter", "tests"]
+
+[[tool.mypy.overrides]]
+module = "soundfile.*"
+ignore_missing_imports = true
+
+[tool.coverage.run]
+omit = [
+    "tests/*",
+    "venv/*",
+]
+
+[tool.coverage.report]
+exclude_also = [
+    "if TYPE_CHECKING:"
+]
+fail_under = 60
+precision = 2
+show_missing = true
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

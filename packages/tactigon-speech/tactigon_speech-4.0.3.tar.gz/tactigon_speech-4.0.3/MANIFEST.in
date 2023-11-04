@@ -1,0 +1,4 @@
+exclude tactigon_speech/middleware/*.py
+exclude tactigon_speech/middleware/*.c
+
+include tactigon_speech/middleware/*.pyd

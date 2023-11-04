@@ -1,0 +1,5 @@
+opentelemetry/instrumentation/openai/__init__.py,sha256=QgF-pinVygVrKEyWbltzrBpQFJ1-NOXC7rRzerkiRGI,9621
+opentelemetry/instrumentation/openai/version.py,sha256=XIaxbMbyiP-L3kguR1GhxirFblTXiHR1lMfDVITvHUI,22
+opentelemetry_instrumentation_openai-0.1.9.dist-info/METADATA,sha256=WYc3m8lVNRv_JPt1As5MI-JrbBmtEg7uXP8m1gzcEMQ,781
+opentelemetry_instrumentation_openai-0.1.9.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+opentelemetry_instrumentation_openai-0.1.9.dist-info/RECORD,,

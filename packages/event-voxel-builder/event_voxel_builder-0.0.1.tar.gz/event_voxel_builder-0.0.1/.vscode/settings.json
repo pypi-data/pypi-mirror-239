@@ -1,0 +1,23 @@
+{
+  "cSpell.words": [
+    "astype",
+    "Bohan",
+    "cdylib",
+    "curr",
+    "filterred",
+    "itertools",
+    "izip",
+    "ndarray",
+    "numpy",
+    "pyarray",
+    "pyclass",
+    "pymethods",
+    "pymodule",
+    "rlib",
+    "Voxel"
+  ],
+  "rust-analyzer.check.command": "clippy",
+  "files.trimTrailingWhitespace": true,
+  "editor.inlayHints.enabled": "offUnlessPressed",
+  "editor.rulers": [120],
+}

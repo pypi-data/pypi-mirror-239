@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+ottoai/__init__.py
+ottoai/inspect_utils.py
+ottoai.egg-info/PKG-INFO
+ottoai.egg-info/SOURCES.txt
+ottoai.egg-info/dependency_links.txt
+ottoai.egg-info/requires.txt
+ottoai.egg-info/top_level.txt

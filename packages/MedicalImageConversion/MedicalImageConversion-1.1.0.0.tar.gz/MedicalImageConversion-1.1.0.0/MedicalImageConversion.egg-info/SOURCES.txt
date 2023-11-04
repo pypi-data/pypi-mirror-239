@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+MedicalImageConversion/__init__.py
+MedicalImageConversion/main.py
+MedicalImageConversion/nii2dcm.py
+MedicalImageConversion.egg-info/PKG-INFO
+MedicalImageConversion.egg-info/SOURCES.txt
+MedicalImageConversion.egg-info/dependency_links.txt
+MedicalImageConversion.egg-info/not-zip-safe
+MedicalImageConversion.egg-info/top_level.txt

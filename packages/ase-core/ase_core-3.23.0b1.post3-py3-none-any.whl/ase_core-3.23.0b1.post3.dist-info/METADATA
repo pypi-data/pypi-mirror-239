@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: ase-core
+Version: 3.23.0b1.post3
+Summary: Atomic Simulation Environment
+Home-page: https://wiki.fysik.dtu.dk/ase
+Maintainer: ASE-community
+Maintainer-email: ase-users@listserv.fysik.dtu.dk
+License: LGPLv2.1+
+Platform: unix
+Classifier: Development Status :: 6 - Mature
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v2 or later (LGPLv2+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.8
+License-File: LICENSE
+License-File: COPYING
+License-File: COPYING.LESSER
+Requires-Dist: numpy >=1.18.5
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+Requires-Dist: pillow ; extra == 'docs'
+Provides-Extra: test
+Requires-Dist: pytest >=6.2.5 ; extra == 'test'
+Requires-Dist: pytest-xdist >=2.1.0 ; extra == 'test'
+
+This is an alternative packaging of the Atomic Simulation Environment (ASE)
+that only depends on numpy in order to create smaller Binder images.
+
+The most basic functionality only requires numpy but if you need more
+functionality you must manually install scipy>=1.4.1 or matplotlib>=3.3.4. as required.
+
+The module names are not changed so this package can be used as a drop-in
+replacement of regular ASE.

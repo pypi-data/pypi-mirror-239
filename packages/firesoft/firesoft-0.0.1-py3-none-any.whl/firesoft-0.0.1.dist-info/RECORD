@@ -1,0 +1,8 @@
+firesoft/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+firesoft/utils/__init__.py,sha256=5FQ0s_2rPa2Vpj_dOhp6usXXAHPT9X-MBVVZLP2Uoqo,23
+firesoft/utils/files.py,sha256=1rGwOEcwiDiOthQW0XGEMQOx_6Zu49HmrHqicWsG2hw,3010
+firesoft/utils/qr_code.py,sha256=TrT6mCGBSHidGihoghfw5msZTQ5_MlZsQUDvJ5H6xQo,4804
+firesoft-0.0.1.dist-info/METADATA,sha256=SVbNm_9rfnJEbvbEsXz9yVNoCUmDJDKgs8Gh9Z-Us2Y,153
+firesoft-0.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+firesoft-0.0.1.dist-info/top_level.txt,sha256=FfAf_bsocFd70tIj-ZuoozBlR3b-6iZ3zADZUSILW7A,9
+firesoft-0.0.1.dist-info/RECORD,,

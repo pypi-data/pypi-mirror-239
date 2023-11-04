@@ -1,0 +1,5 @@
+seaborn
+matplotlib
+statannotations
+textalloc
+joblib

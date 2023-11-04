@@ -1,0 +1,8 @@
+setup.py
+MoonSetup/MoonUtils.py
+MoonSetup/__init__.py
+moonsetup.egg-info/PKG-INFO
+moonsetup.egg-info/SOURCES.txt
+moonsetup.egg-info/dependency_links.txt
+moonsetup.egg-info/requires.txt
+moonsetup.egg-info/top_level.txt

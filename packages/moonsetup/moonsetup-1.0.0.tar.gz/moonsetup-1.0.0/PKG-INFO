@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: moonsetup
+Version: 1.0.0
+Summary: A library to make setup/first-run for your programs
+Home-page: https://github.com/toxinsfx/MoonSetup
+Author: toxinsfx
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: requests
+
+Check full description on github: https://github.com/toxinsfx/MoonSetup

@@ -1,0 +1,9 @@
+swml/SWMLTypes.py,sha256=sm9BD21WyHCCIWKzWvapTL8fzkoNeQBc3Q_l2Zzbcj0,24721
+swml/Sections.py,sha256=9mmfprwdyq4s_kZam92MIjXw7M_RRD-xZhlXmVGCaQ0,6462
+swml/SignalWireML.py,sha256=AFWlP0ERCffDLJc6EucJsuJQjhbFCBWVB8PvZmyuTzI,2859
+swml/__init__.py,sha256=cqYFCTb8GCYzop0tKm3x1uid93HJHBmdhbcC_BmjVak,683
+swml_python-0.1.5.dist-info/LICENSE.txt,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+swml_python-0.1.5.dist-info/METADATA,sha256=vk1XmN8_PN6-Av2w8qvA8VB-wAKb15-eqorOEN_ohbY,7824
+swml_python-0.1.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+swml_python-0.1.5.dist-info/top_level.txt,sha256=PeHizUPDFOtgcYEPyYkQTvJhS6hDhfzLY0vD3VePWs0,5
+swml_python-0.1.5.dist-info/RECORD,,

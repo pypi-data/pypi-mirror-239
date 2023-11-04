@@ -1,0 +1,6 @@
+README.md
+setup.py
+kronos_backtester.egg-info/PKG-INFO
+kronos_backtester.egg-info/SOURCES.txt
+kronos_backtester.egg-info/dependency_links.txt
+kronos_backtester.egg-info/top_level.txt

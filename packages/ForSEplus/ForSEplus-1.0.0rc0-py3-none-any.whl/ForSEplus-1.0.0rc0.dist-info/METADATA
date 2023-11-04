@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: ForSEplus
+Version: 1.0.0rc0
+Summary: My package description
+Author-email: Jian Yao <jyao@sissa.it>
+License: MIT License
+        
+        Copyright (c) 2023 Jian Yao
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: Homepage, https://github.com/yaojian95/ForSEplus
+Keywords: feed,reader,tutorial
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ForSEplus
+- plus version of https://github.com/ai4cmb/ForSE.
+
+- To avoid the installation this package (which is a bit complex), we also offer 500 realizations of maps at url...
+
+## Dependencies  
+
+- Astropy: https://www.astropy.org
+- Healpy: https://healpy.readthedocs.io/en/latest/
+- Tensorflow: https://www.tensorflow.org
+- Namaster (to compute power spectra to normalize the small scales from neural networks): https://namaster.readthedocs.io/en/latest/
+- reproject (only to perform projection from Healpix maps to flat patches and viceversa): https://pypi.org/project/reproject/
+- numba (only to accelearte the calculation of Minkowski functionals for a given patch): http://numba.pydata.org/
+
+## Installations
+We assume you alrealy your own python virtual environment. 
+The first thing to do is to install the dependencies. 
+
+- pymaster
+The installation of pymaster is acutally not a easy task since it has a lot of other depencencies. 
+- tensorflow
+
+### from source
+    (venv) $ python -m pip install -e . --user
+
+### from pip
+    (venv) $ python -m pip install ForSEplus --user
+    

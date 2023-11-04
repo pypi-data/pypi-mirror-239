@@ -1,0 +1,17 @@
+ForSEplus/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ForSEplus/after_training_12amin.py,sha256=7ttz8emUObyVGy4oY0GjUqlyCUclKcQLIJ1m3KxJ6bs,16116
+ForSEplus/after_training_3amin.py,sha256=AuFwRmXwoobreh0ugzc-V1NBpYk3Ha9h1VATaYeTHMw,22548
+ForSEplus/check_model.py,sha256=_fS6OwKZOd3SXMBIuQMlRNLiX7rnCO5sesDqfHtqh3I,6295
+ForSEplus/forse_plus.py,sha256=7a3k7InReUmugze9n36x1E6QAjftIUAfXkenKiUeGYE,10230
+ForSEplus/my_forse_class.py,sha256=95-MrkHNaBqxaHTWM-JH2-fgk4zsN-q-PQZCvPbjNXo,7260
+ForSEplus/nn_tools.py,sha256=XkqpLmmLQaSpZUGaqmVJIYaSP5z3_f_L9MKDboVA_u8,2517
+ForSEplus/projection_tools.py,sha256=7X8PK7_JGuJ66zSQLCtUWYmi2tshUqc0ITGxi0p4DL0,11845
+ForSEplus/recompose_class.py,sha256=4pndsGzJqqWDzU0aoERrNv3Xdi-XLUh2hHcHGaJqivU,2749
+ForSEplus/test_import.py,sha256=uUfFpGUp7Fro0YJtl9NGa9AiELNzCvrSOGngHbrN5FI,276
+ForSEplus/utility.py,sha256=Q-ykmZE407CKlJR7JuD7H1NhRggfj6dOak2CtyzwDyk,20707
+ForSEplus/validation_class.py,sha256=2lKgN7WjeKOrR0hv1ckOidP0GCPb8zfAB06R6VWETls,10227
+ForSEplus-1.0.0rc0.dist-info/LICENSE,sha256=tyoMMv-QROOtgyeuaMjl-rgf9CagkUsxNfPRk4b7gaE,1064
+ForSEplus-1.0.0rc0.dist-info/METADATA,sha256=HYFbfHWRFUHa9gCUHq4dFo4QAQgtD1HYYOr1RPHnGkM,2752
+ForSEplus-1.0.0rc0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+ForSEplus-1.0.0rc0.dist-info/top_level.txt,sha256=xeoNAhmwz6Twx78CosCFELA7QEjfYY9lHEQvewIoNUE,10
+ForSEplus-1.0.0rc0.dist-info/RECORD,,

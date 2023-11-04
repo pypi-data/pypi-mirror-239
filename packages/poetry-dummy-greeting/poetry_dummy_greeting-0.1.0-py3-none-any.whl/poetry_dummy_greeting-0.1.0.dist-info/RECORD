@@ -1,0 +1,5 @@
+poetry_dummy_greeting/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+poetry_dummy_greeting/greeting.py,sha256=zMdUhA4YbOTXt_at2cJ9fKyoQ8FOimzfSQ25vPmSLvg,175
+poetry_dummy_greeting-0.1.0.dist-info/METADATA,sha256=DubKKPeMwtHVpEJkAx7AqMVxjsJI1Gji2HRTVUtSzVE,995
+poetry_dummy_greeting-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+poetry_dummy_greeting-0.1.0.dist-info/RECORD,,

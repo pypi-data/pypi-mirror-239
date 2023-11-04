@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: poetry-dummy-greeting
+Version: 0.1.0
+Summary: 
+Author: Angshuman Paul
+Author-email: paulang1807@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# poetry-dummy-greeting
+Sample for testing python poetry
+
+- Create a new project:    `poetry new <project-name>`
+- Create a new virtual env: `poetry env use <full-path-to-python-executable>`
+- Adding dependencies: `poetry add <package-name>`
+    - Adding dependencies in a group: `poetry add <package-name1>  <package-name2> --group <group-name>`
+- Create requirements from **poetry.lock**: `poetry export --output requirements.txt`
+- Run pytest within poetry VM: `poetry run pytest -v`
+- Build:   `poetry build`
+- Publish: `poetry publish`

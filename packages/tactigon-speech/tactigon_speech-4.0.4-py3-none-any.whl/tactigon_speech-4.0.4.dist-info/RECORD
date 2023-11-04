@@ -1,0 +1,11 @@
+tactigon_speech/__init__.py,sha256=4ydVWa-fbo5ZdP49Lt2IjpYsJNq6HfMYRhSowuFqIqo,7299
+tactigon_speech/models.py,sha256=e_hqc64uSjv8sivpUdabU2PzJINfS0B38bbENxBkMAM,4504
+tactigon_speech/hal/Tactigon_Audio.py,sha256=n_0N6pV3oNyOJAQcpB_rXlkMrlyHELMrRCK4Otidx8c,7661
+tactigon_speech/hal/__init__.py,sha256=IabOmbnmJ7AWMoU73eSedvRmcpnrVoXorPsUcCYVes4,74
+tactigon_speech/middleware/__init__.cp38-win_amd64.pyd,sha256=oa699SnIjBhoj2MBsvHML8_DPHyTJe6sz5zl-f1-wEc,159744
+tactigon_speech/middleware/__init__.py,sha256=_JdtlppaK8Rhf5khQOCcv8hwafxcHF_Rc0R-AXggRpQ,10066
+tactigon_speech-4.0.4.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tactigon_speech-4.0.4.dist-info/METADATA,sha256=Gwd-8b0jhpW9yNSuOzs1fSZuQCCGACjbyBNQf1OuFZ8,2054
+tactigon_speech-4.0.4.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+tactigon_speech-4.0.4.dist-info/top_level.txt,sha256=-2ddenOmJTerGQvSXbq-ExMnc0Acu99VfBu4RAOWqY8,16
+tactigon_speech-4.0.4.dist-info/RECORD,,

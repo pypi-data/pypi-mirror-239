@@ -1,0 +1,1 @@
+from keycloakfastsso.middleware.keycloak_middleware import KeycloakFastSSOMiddleware

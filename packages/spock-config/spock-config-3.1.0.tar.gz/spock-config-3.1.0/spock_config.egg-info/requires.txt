@@ -1,0 +1,37 @@
+attrs~=23.1
+cryptography~=37.0
+GitPython~=3.1
+pytomlpp~=1.0
+pyYAML~=6.0
+
+[:python_version == "3.7"]
+setuptools~=68.0
+
+[:python_version >= "3.8"]
+setuptools~=68.1
+
+[s3]
+hurry.filesize~=0.9
+
+[s3:python_version >= "3.7"]
+boto3~=1.28
+botocore~=1.31
+s3transfer~=0.6
+
+[tune]
+optuna~=3.3
+
+[tune:python_version < "3.8"]
+mypy_extensions~=0.4
+
+[tune:python_version <= "3.7"]
+torch~=1.13
+
+[tune:python_version == "3.8"]
+ax-platform~=0.3.3
+
+[tune:python_version >= "3.8"]
+torch~=2.0
+
+[tune:python_version >= "3.9"]
+ax-platform~=0.3.4

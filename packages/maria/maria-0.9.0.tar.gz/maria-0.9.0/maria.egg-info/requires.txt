@@ -1,0 +1,9 @@
+astropy
+cmocean
+h5py
+healpy
+numpy
+pandas
+scipy
+tables
+tqdm

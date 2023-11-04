@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "piiscan"
+version = "0.1.3"
+description = "Easy, lightweight PII scanning for network requests and logs—powered by Microsoft Presidio and en_spacy_pii_fast"
+authors = ["Shane Curran <shane@curran.ie>"]
+readme = "README.md"
+packages = [{include = "en_spacy_pii_fast-any-py3-none-any.whl", from = "."}]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+pandas = "^2.1.2"
+presidio-analyzer = "^2.2.350"
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.5.0"
+scriv = {extras = ["toml"], version = "^1.5.0"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

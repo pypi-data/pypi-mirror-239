@@ -1,0 +1,12 @@
+README.md
+setup.py
+bin/dossier
+bin/dterm
+dterm/README.md
+dterm/__init__.py
+dterm/__main__.py
+dterm/models.py
+dterm.egg-info/PKG-INFO
+dterm.egg-info/SOURCES.txt
+dterm.egg-info/dependency_links.txt
+dterm.egg-info/top_level.txt

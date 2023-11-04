@@ -1,0 +1,12 @@
+hmt_azure_funcs/__init__.py,sha256=9GaEcEZc1CqJveBQShsW_Ev0spMZtS3_HUJyCL97Qe8,587
+hmt_azure_funcs/list_files_in_container.py,sha256=hkGYMmpuoZDOoZEHuy4v6sm-ahAtDwi89s1M961LVcg,611
+hmt_azure_funcs/read_buffer.py,sha256=5xAE4WQN8Ulp0RyQm8lJPGAatPGvKZOMrR-WbWrir-c,1954
+hmt_azure_funcs/read_parquet.py,sha256=zXIuz9SO09CEx9VMbNCv5rrtIw4MT2YSTLxKFCzBNtM,1020
+hmt_azure_funcs/read_parquet_from_container_default_credential.py,sha256=i0Eqjc05zSo-3lvJdmme-QXiQCgrZjadBrVX2eUs6ik,967
+hmt_azure_funcs/upload_dataframe_to_parquet.py,sha256=N1eax9_BnIno2A9UHunxlGIYvHEyT0CZsmTtdA-owRs,1326
+hmt_azure_funcs/write_buffer.py,sha256=Bdo14JW5IiUkzxdp6vjDBFMIrRHvyH7qgKV7wXz4WI0,2349
+hmt_azure_funcs/write_parquet_to_container_default_credential.py,sha256=F4Vfg_L678ebpzABNFSaRSyOW3xYQXLxW58q9fBarfI,903
+hmt_azure_funcs-0.6.1.dist-info/METADATA,sha256=2obgisc2_uQdtBaJY6lZRfxTwpR81cKn1n3SSsgL6ls,707
+hmt_azure_funcs-0.6.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+hmt_azure_funcs-0.6.1.dist-info/top_level.txt,sha256=vGomQC0E2jLLOUlER2S2K3Y9Sd-qsX5Rvhkj2sw2TUw,16
+hmt_azure_funcs-0.6.1.dist-info/RECORD,,

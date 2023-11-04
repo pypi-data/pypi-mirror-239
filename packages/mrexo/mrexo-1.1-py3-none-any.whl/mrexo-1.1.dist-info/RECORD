@@ -1,0 +1,15 @@
+mrexo/Optimizers.py,sha256=1Es2qS-bJIRqIUN_wKGufd1yRI3FTVO5LP4peFk9tnc,3335
+mrexo/__init__.py,sha256=eUHAAFFO74XDDYXqZZwQhlUIC6aCErxofGjsz7QMgU0,581
+mrexo/aic_nd.py,sha256=GV2PnkPc0fb64bRlPMmbCe422xw__Xp61CStTl8g4PM,18976
+mrexo/cross_validate_nd.py,sha256=zfGkLeH_8I90RoKtAHrSb9PXx3HFP7CsEQnvWv0Xnd4,7024
+mrexo/fit_nd.py,sha256=jfVj-CO8lq1WSUl2VuS96MLxkM1vsEJaQd_L3y3gCaA,11799
+mrexo/mle_utils_nd.py,sha256=yGJ0_oH3qbMKNm5wiSb7KwOme4MvDRTNPT_sZp9z3zw,55946
+mrexo/plotting_nd.py,sha256=IJkw4K3FtqVtUsImUyLUsjBF9FB47r8HdeMPCJHIylw,3738
+mrexo/predict_nd.py,sha256=klHEc7JuB82AL3Io8rcAbawSlGlpgsx0n69wbiZ8iyw,306
+mrexo/profile_likelihood_nd.py,sha256=mDyPiFP_PbeqU02tW68fxDwI7ko8YYV1Fxss-tGYWs0,11059
+mrexo/utils_nd.py,sha256=t_AQqg2yqa0CGRuGKWfRqSmnGMlYO5hH1qF0ugfnww4,6853
+mrexo-1.1.dist-info/LICENSE,sha256=LoV48WtuomVBIWbotLHaBF_MEfKNsD1mSQhBASSi8B4,35801
+mrexo-1.1.dist-info/METADATA,sha256=BtjE7ajPFJZZzh2UGEV3hKncQ9IdXpvJJJZEeQRvDQQ,44397
+mrexo-1.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+mrexo-1.1.dist-info/top_level.txt,sha256=nX06m4BMJQVoY1QZP_vtXgSl_KhjkUNrF9Er8lZGYPI,6
+mrexo-1.1.dist-info/RECORD,,

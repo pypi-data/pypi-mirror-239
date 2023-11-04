@@ -1,0 +1,14 @@
+setup.py
+odoo/addons/hr_entry_type/__init__.py
+odoo/addons/hr_entry_type/__manifest__.py
+odoo/addons/hr_entry_type/data/hr_entry_type.xml
+odoo/addons/hr_entry_type/models/__init__.py
+odoo/addons/hr_entry_type/models/hr_entry_type.py
+odoo/addons/hr_entry_type/security/ir.model.access.csv
+odoo/addons/hr_entry_type/views/hr_entry_type_views.xml
+odoo14_addon_hr_entry_type.egg-info/PKG-INFO
+odoo14_addon_hr_entry_type.egg-info/SOURCES.txt
+odoo14_addon_hr_entry_type.egg-info/dependency_links.txt
+odoo14_addon_hr_entry_type.egg-info/not-zip-safe
+odoo14_addon_hr_entry_type.egg-info/requires.txt
+odoo14_addon_hr_entry_type.egg-info/top_level.txt

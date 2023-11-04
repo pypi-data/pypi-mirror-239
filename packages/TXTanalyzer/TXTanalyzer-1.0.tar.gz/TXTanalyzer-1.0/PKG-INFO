@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: TXTanalyzer
+Version: 1.0
+Summary: TXTanalyzer library is a tool designed to perform basic text analysis on .txt files. It offers a range of utilities for text analysis, including word counting, sentence splitting, sentiment analysis, and word cloud generation.
+Home-page: https://github.com/maialenaguiriano/TXTanalyzer
+Download-URL: https://github.com/maialenaguiriano/TXTanalyzer/archive/refs/tags/v1.0.tar.gz
+Author: Unai Alaña y Maialen Aguiriano
+Author-email: unai.alana@alumni.mondragon.edu
+License: GNU
+Keywords: Text,Analysis,NLP
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE.txt

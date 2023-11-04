@@ -1,0 +1,6 @@
+nltk
+spacy
+string
+matplotlib
+math
+wordcloud

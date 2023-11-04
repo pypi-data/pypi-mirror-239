@@ -1,0 +1,31 @@
+[project]
+name = "tactigon-gear"
+version = "4.1.4"
+authors = [
+  { name="Next Industries s.r.l", email="info@nextind.eu" },
+]
+description = "Tactigon Gear SDK to connect to Tactigon Skin wereable platform"
+readme = { file = "README.md", content-type = "text/markdown" }
+requires-python = ">=3.8"
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "requests==2.31.0",
+    "scipy==1.10.1",
+    "numpy==1.24.4",
+    "bleak==0.21.1",
+    "scikit-learn==1.3.1",
+    "pandas==2.0.3"
+]
+
+[project.urls]
+"Homepage" = "https://nextind.eu"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"

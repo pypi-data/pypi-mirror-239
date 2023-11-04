@@ -1,0 +1,7 @@
+exclude tactigon_gear/middleware/*.py
+exclude tactigon_gear/middleware/*.c
+exclude tactigon_gear/middleware/utilities/*.py
+exclude tactigon_gear/middleware/utilities/*.c
+
+include tactigon_gear/middleware/*.pyd
+include tactigon_gear/middleware/utilities/*.pyd

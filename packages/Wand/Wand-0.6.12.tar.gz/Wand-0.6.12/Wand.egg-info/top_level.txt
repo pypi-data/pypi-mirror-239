@@ -1,0 +1,8 @@
+dist
+docs
+htmlcov
+prof
+sample
+temp
+tests
+wand

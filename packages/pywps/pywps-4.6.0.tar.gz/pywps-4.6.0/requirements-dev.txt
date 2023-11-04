@@ -1,0 +1,12 @@
+bump2version
+coverage
+coveralls
+docutils
+flake8
+pylint
+pytest
+pytest-cov
+sphinx
+tox>=4.0
+twine
+wheel

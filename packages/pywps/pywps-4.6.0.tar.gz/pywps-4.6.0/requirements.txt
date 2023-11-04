@@ -1,0 +1,12 @@
+markupsafe
+sqlalchemy
+fiona
+geotiff
+humanize
+jinja2
+jsonschema
+lxml
+owslib
+python-dateutil
+requests
+werkzeug

@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: rabbitmq_api_client
+Version: 0.0.1
+Summary: Http client to manage Rabbitmq admin
+Author-Email: Elie Terrien <contact@elie-terrien.fr>
+License: MIT
+Requires-Python: >=3.11
+Requires-Dist: httpx>=0.25.0
+Requires-Dist: pydantic>=2.4.2
+Description-Content-Type: text/markdown
+
+# rabbitmq_api_client

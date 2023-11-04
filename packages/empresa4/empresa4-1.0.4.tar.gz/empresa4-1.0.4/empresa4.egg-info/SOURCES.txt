@@ -1,0 +1,17 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+empresa4/__init__.py
+empresa4/core.py
+empresa4/datasets.py
+empresa4.egg-info/PKG-INFO
+empresa4.egg-info/SOURCES.txt
+empresa4.egg-info/dependency_links.txt
+empresa4.egg-info/requires.txt
+empresa4.egg-info/top_level.txt
+empresa4/datasets/__init__.py
+empresa4/datasets/tb_sellout_01_por_cliente.csv
+empresa4/datasets/tb_sellout_01_producto_estrella.csv
+empresa4/datasets/tb_sellout_01_productos_todos.csv
+empresa4/datasets/test.py

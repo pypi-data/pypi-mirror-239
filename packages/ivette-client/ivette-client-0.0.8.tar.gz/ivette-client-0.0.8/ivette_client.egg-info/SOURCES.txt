@@ -1,0 +1,12 @@
+README.md
+setup.py
+ivette_client.egg-info/PKG-INFO
+ivette_client.egg-info/SOURCES.txt
+ivette_client.egg-info/dependency_links.txt
+ivette_client.egg-info/entry_points.txt
+ivette_client.egg-info/top_level.txt
+package/IO_module.py
+package/__init__.py
+package/prisma_module.py
+package/runJob.py
+package/supabase_module.py

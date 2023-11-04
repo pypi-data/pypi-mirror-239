@@ -1,0 +1,14 @@
+datalite/__init__.py,sha256=Z7h9nQ3Cz5SpdvKOrZUL63Cl3gaXx4GKRMjPO82aiDE,151
+datalite/commons.py,sha256=CV2vCr4XNDlWv1nSq80qxc88od6U-c5aC9Osg_n9mCM,3516
+datalite/constraints.py,sha256=efm8MK4PQx8VkMnndoCRzYCAWjrwzWPcmre9VfruImw,550
+datalite/datalite_decorator.py,sha256=ouIv7BFvf5f1hzI1Pvza7autemTJajabHJheDMSDjA8,3677
+datalite/fetch.py,sha256=Chv9zSRbnnpKm-DOHaFvlhXqDMbtyaS4MhOB7dga6sY,6313
+datalite/mass_actions.py,sha256=mk1wP-h2tP9XMGg_rd3fRd6Y4D2jIxrM_RsO_aZmU-c,4490
+datalite/migrations.py,sha256=Ri2z9M4sBiS5F6TKTMwugx0UlMyauzad07FdsklARns,6126
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/main_tests.py,sha256=e8ReG4YEu1a__GevdwQPOGx4ZGUq3KdER2Ho8Eese28,6913
+datalite-0.7.3.dist-info/LICENSE,sha256=T-qyzt-n5lzB4-jq5EQyZzSL8IcLLch_srFzyhV6DVk,1054
+datalite-0.7.3.dist-info/METADATA,sha256=0TFPUJ-VJk3JIiYjR9x4whZnBfomgXkNELmq-_nshbY,5219
+datalite-0.7.3.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+datalite-0.7.3.dist-info/top_level.txt,sha256=Rb57hn_qTpzShwgOJVJAAZO42yg-Nvn6lPr6yvY2taI,14
+datalite-0.7.3.dist-info/RECORD,,

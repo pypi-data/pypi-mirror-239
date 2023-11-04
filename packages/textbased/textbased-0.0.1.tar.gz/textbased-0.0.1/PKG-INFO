@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: textbased
+Version: 0.0.1
+Summary: The python package for Textbased
+Author-email: Textbased <help@textbased.ai>
+Project-URL: Homepage, https://github.com/textbased/textbased-python
+Project-URL: Bug Tracker, https://github.com/textbased/textbased-python/issues
+Requires-Python: >=3.7
+License-File: LICENSE

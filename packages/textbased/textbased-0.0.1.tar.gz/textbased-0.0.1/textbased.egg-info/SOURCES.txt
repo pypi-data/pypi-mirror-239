@@ -1,0 +1,8 @@
+LICENSE
+pyproject.toml
+textbased.egg-info/PKG-INFO
+textbased.egg-info/SOURCES.txt
+textbased.egg-info/dependency_links.txt
+textbased.egg-info/top_level.txt
+textbased_textbased/__init__.py
+textbased_textbased/main.py

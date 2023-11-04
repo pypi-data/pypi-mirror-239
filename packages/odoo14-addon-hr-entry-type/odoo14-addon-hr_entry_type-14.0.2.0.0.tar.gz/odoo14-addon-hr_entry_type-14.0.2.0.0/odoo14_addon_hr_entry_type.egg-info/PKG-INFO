@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: odoo14-addon-hr-entry-type
+Version: 14.0.2.0.0
+Summary: Entry Types to Employee Attendances
+Home-page: https://git.coopdevs.org/coopdevs/odoo/odoo-addons/odoo-mitxelena
+Author: Coopdevs Treball SCCL
+License: AGPL-3
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 14.0
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Requires-Python: >=3.6
+
+
+        This module adds the possibility to add entry types to employee attendances. 
+        This will be used to define the corrective factor for each entry type's extra hours.
+
+        It also adds the possibility to define if the entire time of every kind of entry is extra time or not.
+
+        It depends on the module hr_attendance only for the menu entry.
+    
+

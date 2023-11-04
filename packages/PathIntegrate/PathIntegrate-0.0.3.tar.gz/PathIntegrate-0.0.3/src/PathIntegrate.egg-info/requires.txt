@@ -1,0 +1,11 @@
+cmcrameri
+dash
+dash_bootstrap_components
+dash_cytoscape
+datauri
+mbpls
+networkx
+setuptools
+sspa>=1.0.1
+statsmodels
+svgwrite

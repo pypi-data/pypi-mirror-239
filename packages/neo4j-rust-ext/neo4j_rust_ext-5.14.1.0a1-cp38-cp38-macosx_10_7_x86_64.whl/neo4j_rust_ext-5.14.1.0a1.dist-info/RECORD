@@ -1,0 +1,5 @@
+neo4j_rust_ext-5.14.1.0a1.dist-info/METADATA,sha256=kP6duTu8LAgb1fKj_iVOhFticUXll1KCFNoqwmn9nu4,2428
+neo4j_rust_ext-5.14.1.0a1.dist-info/WHEEL,sha256=dxnSbkxGeHBS5MbATBFj3DyIvQSBR7N2H43ygqwc4kU,103
+neo4j_rust_ext-5.14.1.0a1.dist-info/license_files/LICENSE.txt,sha256=qsc7MUj20dcRHbyjIJn2jSbGRMaBOuHk8F9leaomY_4,11360
+neo4j/_codec/packstream/_rust.cpython-38-darwin.so,sha256=u6OTLZSHhbTfBPNVmDfbblgEOxDimIOhpGA7mHzffQw,2682244
+neo4j_rust_ext-5.14.1.0a1.dist-info/RECORD,,

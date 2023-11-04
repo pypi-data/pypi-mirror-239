@@ -1,0 +1,13 @@
+ds_pycontain/VERSION,sha256=dEj8KrFke0LnS0oaAsirXMHgTLLcLZS-xELsN8s-KUg,5
+ds_pycontain/__init__.py,sha256=304IvrBo7PaS5CKIogmEisKLGL-j4u3b4d73XNmj-R4,346
+ds_pycontain/__version__.py,sha256=ICc0RcSnu4LQvJ42U8K5B70y3I0Ey7P097wvwx0LJZo,180
+ds_pycontain/docker_containers.py,sha256=pjl8_OvESW0iTe575-VEAe4PsKWOaucEcC0wl2GO7-M,12572
+ds_pycontain/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ds_pycontain/python_dockerized_repl.py,sha256=MI0u2bLtSYVmoMoOHrPeDAv76PBiOZeKJ6yI5BZhjt0,7502
+ds_pycontain/data/python_runner.py,sha256=XLxxRnAQuiNjZ_X0AcrjnSEd-nskrbNn-ZcGVSKtFy4,5457
+ds_pycontain-0.0.3.dist-info/LICENSE,sha256=xMWCKsWGLccAk4sQ_SgkVzWYSMDJ5BHxl3aUjcNpndQ,1069
+ds_pycontain-0.0.3.dist-info/METADATA,sha256=mOEzo__loBEbZ4SYz9GKqNNNP4klgn9PFuZUHgAqchE,1769
+ds_pycontain-0.0.3.dist-info/WHEEL,sha256=P2T-6epvtXQ2cBOE_U1K4_noqlJFN3tj15djMgEu4NM,110
+ds_pycontain-0.0.3.dist-info/top_level.txt,sha256=tMWkS50w_-jtSbEdEAcykn6AOdw7q_6_JkbZW4eGNtU,13
+ds_pycontain-0.0.3.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+ds_pycontain-0.0.3.dist-info/RECORD,,

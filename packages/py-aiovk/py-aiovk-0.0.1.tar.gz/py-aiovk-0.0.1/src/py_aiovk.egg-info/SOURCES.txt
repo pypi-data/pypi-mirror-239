@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/vk.py
+src/py_aiovk.egg-info/PKG-INFO
+src/py_aiovk.egg-info/SOURCES.txt
+src/py_aiovk.egg-info/dependency_links.txt
+src/py_aiovk.egg-info/top_level.txt

@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: langchain-rag
+Version: 0.0.316
+Summary: This is a temporary project while I wait for my langchain [pull-request](https://github.com/langchain-ai/langchain/pull/7278) to be validated.
+Home-page: https://www.github.com/pprados/langchain-rag
+License: Apache 2.0
+Author: Philippe PRADOS
+Requires-Python: >=3.8.1,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: langchain (>=0.0.316)
+Project-URL: Repository, https://www.github.com/pprados/langchain-rag
+Description-Content-Type: text/markdown
+
+TODO
+
+# Tips
+`poetry run python -m ipykernel install --user --name langchain-parent`

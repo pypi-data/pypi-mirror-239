@@ -1,0 +1,7 @@
+README.md
+setup.py
+Jerooga.egg-info/PKG-INFO
+Jerooga.egg-info/SOURCES.txt
+Jerooga.egg-info/dependency_links.txt
+Jerooga.egg-info/requires.txt
+Jerooga.egg-info/top_level.txt

@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/gravitools/__init__.py
+src/gravitools/colors.py
+src/gravitools/math.py
+src/gravitools.egg-info/PKG-INFO
+src/gravitools.egg-info/SOURCES.txt
+src/gravitools.egg-info/dependency_links.txt
+src/gravitools.egg-info/top_level.txt

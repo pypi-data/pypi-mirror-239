@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "poetry-dummy-greeting"
+version = "0.1.0"
+description = ""
+authors = ["Angshuman Paul <paulang1807@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.4.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

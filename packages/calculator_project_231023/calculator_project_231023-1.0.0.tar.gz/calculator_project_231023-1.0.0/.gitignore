@@ -1,0 +1,9 @@
+venv/
+*.DS_Store
+*.code-workspace
+*.pytest_cache
+*.mypy_cache
+*.hypothesis
+**/__pycache__/
+temp.txt
+/dist/

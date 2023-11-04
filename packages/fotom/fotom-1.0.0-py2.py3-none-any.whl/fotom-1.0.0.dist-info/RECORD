@@ -1,0 +1,13 @@
+fotom/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fotom/embedding.py,sha256=NYJpq4qg8b67vKwiL6DRDf8HCz3F_uch6QrBl2aLrV4,2518
+fotom/fotom.pt,sha256=WFKEMW8DwXoVm9UI_YTciqRk3yMM1Z0VUb2vJVvlTSI,56141521
+fotom/fotom.yaml,sha256=KS4EIQpLFbHL51KhrJbmqeEy5mcz4EUP0cmUvxrL0W0,1051
+fotom/model.py,sha256=6sjNCrdsj7Xx-8a-mZW10TdkdW_eUI9UZGyKW5PqtdY,9728
+fotom/utils.py,sha256=WrAu3DL05xtziwFR_SmHW7oxIZDEjOVSbB_stx6Ea1k,1263
+fotom/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fotom/tests/test_fotom.py,sha256=ltx61H1yvJQvrPkQmu9kG4DI8AqA5VzvjOMo0ckHtjs,606
+fotom-1.0.0.dist-info/LICENSE,sha256=_gb8c-aMSCI1E-AN6JbbcBjf8KHz9JPAPRoKiK9ECYA,1623
+fotom-1.0.0.dist-info/METADATA,sha256=oOScQ7ASldjE3MlEAhsMhLiLQeag57-LfcPRuL-LaZw,1815
+fotom-1.0.0.dist-info/WHEEL,sha256=P2T-6epvtXQ2cBOE_U1K4_noqlJFN3tj15djMgEu4NM,110
+fotom-1.0.0.dist-info/top_level.txt,sha256=x3dgrL3I9lK3_4FFV88XVC9uk9D-XqgAexgBpFDjIOo,6
+fotom-1.0.0.dist-info/RECORD,,

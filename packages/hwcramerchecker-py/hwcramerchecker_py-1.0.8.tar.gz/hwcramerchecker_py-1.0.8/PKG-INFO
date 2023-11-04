@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: hwcramerchecker-py
+Version: 1.0.8
+Summary: open_ai_check(file, DZ_num)
+Author: Simon_lob
+Author-email: simonlobgromov@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# my_lib пися
+

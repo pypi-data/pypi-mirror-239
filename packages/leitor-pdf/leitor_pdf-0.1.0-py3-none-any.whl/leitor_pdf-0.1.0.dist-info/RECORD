@@ -1,0 +1,9 @@
+leitor_pdf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+leitor_pdf/cli.py,sha256=YDTTl0I2XZZ9-5XN5NjdYZX3tKavkKJ5gFMRWnTrtDk,476
+leitor_pdf/exceptions.py,sha256=fr2XIzzkG8RCpjhqZP3EPEeqjkq7Ptvp43tSfDo4cBE,241
+leitor_pdf/main.py,sha256=bUulCX2AhPfpDkOfRb4l0vWp8NjEx3G5kxWip1Zezp0,7523
+leitor_pdf-0.1.0.dist-info/entry_points.txt,sha256=bqA4OK5Q9oLFR2AnIwJY3QZAySWiBf2jjS3oUjC6IIQ,49
+leitor_pdf-0.1.0.dist-info/LICENSE,sha256=UlbZUpfGh4uca9rhUWNRGMC7EBzbxLebaQXP7tshOpM,42
+leitor_pdf-0.1.0.dist-info/METADATA,sha256=FNQPO1Uw9Xxxloz-BiaUWPUoKUsLAATaDCyNlME3MmE,1097
+leitor_pdf-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+leitor_pdf-0.1.0.dist-info/RECORD,,

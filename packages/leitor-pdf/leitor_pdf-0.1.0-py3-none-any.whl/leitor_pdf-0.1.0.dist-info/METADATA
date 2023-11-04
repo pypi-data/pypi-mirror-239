@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: leitor-pdf
+Version: 0.1.0
+Summary: 
+License: Beerware
+Author: andre
+Author-email: andrerafael2000@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: License :: Other/Proprietary License
+Classifier: Natural Language :: Portuguese
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: rich (>=13.6.0,<14.0.0)
+Requires-Dist: typer (>=0.9.0,<0.10.0)
+Project-URL: Bug Tracker, https://github.com/Andre-Rafael/leitor_pdf/issues
+Project-URL: Código, https://github.com/Andre-Rafael/leitor_pdf
+Description-Content-Type: text/markdown
+
+<img src="https://leitor-pdf.readthedocs.io/en/latest/assets/logo_doc_python.jpg" width=200>
+
+# Leitor de PDF
+Varias bibliotecas de extração de texto de pdf reunidas em um unico modulos
+
+
+
+## Como instalar
+
+```
+pip install leitor_pdf
+```

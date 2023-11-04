@@ -1,0 +1,3 @@
+[console_scripts]
+leitor_pdf=leitor_pdf.cli:app
+

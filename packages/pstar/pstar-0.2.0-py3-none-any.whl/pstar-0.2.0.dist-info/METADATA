@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pstar
+Version: 0.2.0
+Summary: pstar: numpy for arbitrary data
+Home-page: https://github.com/iansf/pstar
+Download-URL: https://github.com/iansf/pstar/archive/0.2.0.tar.gz
+Author: Ian Fischer, Google
+Author-email: iansf@google.com
+License: Apache 2.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: qj
+
+`pstar` documentation and source code can be found at https://github.com/iansf/pstar.

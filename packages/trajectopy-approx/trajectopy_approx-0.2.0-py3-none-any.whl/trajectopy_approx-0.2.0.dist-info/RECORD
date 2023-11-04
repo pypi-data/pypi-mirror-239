@@ -1,0 +1,11 @@
+trajectopy_approx/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+trajectopy_approx/cubic_approximation.py,sha256=hGrP1NyrhyT3wMMTRwboobNMWldSnHGgFuxOU8bLl3g,9485
+trajectopy_approx/math_utils.py,sha256=r-PMhiNmQYowCB_zJdjBAlhkOWjF8AXDPgUVbwvCfeU,6608
+trajectopy_approx/mls_approximation.py,sha256=2LcCm9YXbbFbQNhJ5CMlz0N-0l6PX87XUiGaSYfvg8U,3946
+trajectopy_approx/rot_approximation.py,sha256=HxKRg4k5dHHoykmhe8ndHyz8OTIY0ho5zeIVPEH-www,2157
+trajectopy_approx/settings.py,sha256=MVyF8SSOxEcv11DQdWrCb1IKTxdEQ8ErQR2Vqc_p8Kc,766
+trajectopy_approx/voxelizer.py,sha256=HjW1UyrbLUzR23ql66_FzxSqohJEgda9UnkjYiD1so4,4888
+trajectopy_approx-0.2.0.dist-info/LICENSE,sha256=O-PCikw9ShLG_3p3igKP51IBuDhBMDeM8pLNGYw9lBw,1091
+trajectopy_approx-0.2.0.dist-info/METADATA,sha256=hCe0X28BKLLhSQjc2k9Ath0muACeBr-erXV7AQUGZqI,761
+trajectopy_approx-0.2.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+trajectopy_approx-0.2.0.dist-info/RECORD,,

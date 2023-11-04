@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pynoverb
+Version: 0.0.0
+Summary: Impulse responses creation for room reverberation
+Author: Olivier Doaré
+Author-email: <olivier.doare@ensta-paris.fr>
+Keywords: Python,Binaural processing,Signal processing,Artificial reverberation
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+Requires-Dist: numba
+Requires-Dist: numpy
+Requires-Dist: scipy
+
+
+    This package contains methods for room impulse responses creation
+    

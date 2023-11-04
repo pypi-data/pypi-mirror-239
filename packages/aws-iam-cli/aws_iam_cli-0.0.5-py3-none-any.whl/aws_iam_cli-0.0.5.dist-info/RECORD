@@ -1,0 +1,11 @@
+iam_cli/__init__.py,sha256=hrHPZHnYS6nEufPcteM-o0Zo90yfbQmsq2Uxqeb4dic,17
+iam_cli/command.py,sha256=eBYYwKHgnFVPh_TMNoZj8Zr87tGXv5leRdFiBHEfNZs,3900
+iam_cli/main.py,sha256=6QL87FMhfyewhqTredOKEbgsZ55CKsDryYCnQjJPNGY,670
+iam_cli/test.py,sha256=KFw-q_gJB2ukZtNUEnYPN2UZwZbKB6qtInWn44PHQVs,246
+iam_cli/tools.py,sha256=RwmV1hVnTHCx5nxTDep8jYph--FF3Z0u6wiM5Kg1Wx4,148
+aws_iam_cli-0.0.5.dist-info/LICENSE,sha256=tKQNan_XB2RVzQ63eA1Bf1Vz22kvbSh6qKFTV5hK_TA,1063
+aws_iam_cli-0.0.5.dist-info/METADATA,sha256=KZTia9sYp8UEIFUd65joCcqLDz8hiZm3ZEKwNY1QoYE,430
+aws_iam_cli-0.0.5.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+aws_iam_cli-0.0.5.dist-info/entry_points.txt,sha256=JLmzTCfBCDY67WayHNZ7gprAJBxJciuH1j-4SiC3wqc,46
+aws_iam_cli-0.0.5.dist-info/top_level.txt,sha256=ezDIrmnjUBfV0jIfwR3osDzB9YTg9Vs_Gh-BFz8ncmA,8
+aws_iam_cli-0.0.5.dist-info/RECORD,,

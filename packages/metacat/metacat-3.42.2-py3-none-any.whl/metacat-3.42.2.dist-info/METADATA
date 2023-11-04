@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: metacat
+Version: 3.42.2
+Summary: MetaCat is a general purpose metadata database. This package is the client side portion of the product.
+Home-page: https://github.com/ivmfnal/metacat
+Author: Igor Mandrichenko
+Author-email: ivm@fnal.gov
+License: BSD 3-clause
+Keywords: metadata,data management,database,web service
+License-File: LICENSE
+Requires-Dist: pyjwt
+Requires-Dist: requests
+Requires-Dist: pythreader (>=2.8.0)
+Requires-Dist: lark
+

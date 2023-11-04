@@ -1,0 +1,8 @@
+scrapper/__init__.py,sha256=KFRJw0WclZt4JviEPSGYbkkQH7udiVMsbaEBWXe3ss4,35
+scrapper/scrapper.py,sha256=HCHmRIwbi62m2NDlVSoxHJkmYSFIv414CVNjti8RiAE,2621
+scrapper/utilities/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scrapper/utilities/utils.py,sha256=v24nJjRiHEhozoZ0ea0z916Lmf2CDgLsHI20qSX5uMk,9221
+dynamicscrapper-9.4.6.dist-info/METADATA,sha256=YqE22wZVa9ZyY2nA-f9z0smMmZ0F8UPhip7VK4IQOR0,3537
+dynamicscrapper-9.4.6.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+dynamicscrapper-9.4.6.dist-info/top_level.txt,sha256=oBjMx0K6SKaYPvGsHHBbO2V1qpfFBdObvmmvtUoqeuQ,9
+dynamicscrapper-9.4.6.dist-info/RECORD,,

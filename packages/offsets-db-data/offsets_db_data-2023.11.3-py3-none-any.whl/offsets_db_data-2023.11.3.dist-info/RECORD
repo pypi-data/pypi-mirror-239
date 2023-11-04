@@ -1,0 +1,16 @@
+offsets_db_data/__init__.py,sha256=3PtVel5RnbyVDj0t4xEPMQuNowQ6GuCFleOAKGZbBBg,49
+offsets_db_data/_version.py,sha256=Or4HXnZYpRlEbp-meg-azm_1bFBt0RY06wyydAP_L_8,25
+offsets_db_data/arb.py,sha256=BtuIvtCMwLOsIP5_UzwTO9oMKXhJj2SiwD7Qduw46s8,3759
+offsets_db_data/credits.py,sha256=NXQo4DX73lKaSVw9Ofh3UOJgX7zC_Fqb8VvnVMHcb78,8397
+offsets_db_data/models.py,sha256=gQC3BRrFgzFc2Jrnq_p6f5TD8WCxsW3VmY9djNSz0zI,1695
+offsets_db_data/projects.py,sha256=l5ukOgOTuufKqJViYhqK_ixsidvtslFx9Z3tNvY-F2s,10631
+offsets_db_data/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+offsets_db_data/registry.py,sha256=TYztAD4331UH4nE1eMkF4tVrI67o-RsoD-LoY6xlSQg,1576
+offsets_db_data/configs/all-protocol-mapping.json,sha256=CXN0haRut9oumDtTr9THooH4vhpzhvkw8Md7ZNdt_lo,72573
+offsets_db_data/configs/credits-raw-columns-mapping.json,sha256=csbQrJHHTaEM0Z6DRjFOg8VH-ikyCz-Awk1amiTqem8,2514
+offsets_db_data/configs/projects-raw-columns-mapping.json,sha256=z6WZGG_3m7EtXYrht6d-Ny3MxxLZ_21YkvjLZcanvqc,1740
+offsets_db_data-2023.11.3.dist-info/LICENSE,sha256=RO15emQSZk3X5_qHV76393IV-a7uhRWp1haKOTDAAqw,1067
+offsets_db_data-2023.11.3.dist-info/METADATA,sha256=YL9wZI8l6CPdIG0z5vvAcTtpscgGzeMKUnRJ486R0_Y,3446
+offsets_db_data-2023.11.3.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+offsets_db_data-2023.11.3.dist-info/top_level.txt,sha256=Q9b-d4qj7CpiABGEIWQ2Qf2CEN68hS3dRdc6M1ml0Aw,16
+offsets_db_data-2023.11.3.dist-info/RECORD,,

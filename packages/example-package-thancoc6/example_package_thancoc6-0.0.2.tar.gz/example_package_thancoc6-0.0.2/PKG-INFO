@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: example_package_thancoc6
+Version: 0.0.2
+Summary: A small example package
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Author-email: Tyler Hancock <thancoc6@msudenver.edu>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Example Package
+
+This is a simple example package. You can use
+[GitHub-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
+pypi-AgENdGVzdC5weXBpLm9yZwIkYzRmNzBkZDUtMGUwYy00ZjNhLTg2ZGQtNjM4NzJlYWI2MjMxAAIqWzMsImVmM2FmOTg1LWMzOTgtNDg1Yy05Yzc4LTEwNDgxODhjNThhYiJdAAAGIEdy1AYhSlbk0wh9UQd0P1pG-trl1XUp39fDakrKnDQj
+python -m twine upload -u __token__ -p pypi-AgENdGVzdC5weXBpLm9yZwIkYzRmNzBkZDUtMGUwYy00ZjNhLTg2ZGQtNjM4NzJlYWI2MjMxAAIqWzMsImVmM2FmOTg1LWMzOTgtNDg1Yy05Yzc4LTEwNDgxODhjNThhYiJdAAAGIEdy1AYhSlbk0wh9UQd0P1pG-trl1XUp39fDakrKnDQj dist/*

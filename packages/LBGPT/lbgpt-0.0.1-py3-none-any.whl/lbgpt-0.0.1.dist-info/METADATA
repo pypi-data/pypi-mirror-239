@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: LBGPT
+Version: 0.0.1
+Summary: Load balancer for asynchroneous requests to the APIs of OpenAI and Azure (if configured) for ChatGPT
+Project-URL: Homepage, https://github.com/Marvin-Labs/lbgpt
+Project-URL: Bug Tracker, https://github.com/Marvin-Labs/lbgpt/issues
+Author-email: Marvin Labs <marvin@marvin-labs.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10

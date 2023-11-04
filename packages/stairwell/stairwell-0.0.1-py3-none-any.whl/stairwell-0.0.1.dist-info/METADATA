@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: stairwell
+Version: 0.0.1
+Summary: A Python client for the Stairwell platform.
+License: Apache 2.0
+Author: Andrew Liu
+Author-email: liu@stairwell.com
+Requires-Python: >=3.12,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Stairwell Python Client
+
+This is a Python client library for the APIs available on the Stairwell platform.
+See the [official documentation site](https://docs.stairwell.com/) for more details.
+
+## Usage
+
+```
+import stairwell
+
+swell = stairwell.Client("Imagine an API key here.")
+asset = swell.get_asset("Imagine an Asset ID here.")
+
+print(asset)
+```
+

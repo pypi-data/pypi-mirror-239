@@ -1,0 +1,12 @@
+[aiida.calculations]
+aiida-python.calc = aiida_python.calc:CalcJobPython
+
+[aiida.parsers]
+aiida-python.parser = aiida_python.parser:ParserPython
+
+[aiida_python.serializers]
+arraydata = aiida_python.serializers:SerializerArrayData
+float = aiida_python.serializers:SerializerFloat
+int = aiida_python.serializers:SerializerInt
+list = aiida_python.serializers:SerializerList
+str = aiida_python.serializers:SerializerStr

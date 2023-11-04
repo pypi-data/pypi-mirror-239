@@ -1,0 +1,14 @@
+aiida-core>=2.1.0
+
+[docs]
+sphinx
+sphinx-rtd-theme
+
+[pre-commit]
+pre-commit~=2.2
+pylint<2.9,>=2.5.0
+
+[testing]
+pytest
+pgtest
+Pillow>=8.1.2

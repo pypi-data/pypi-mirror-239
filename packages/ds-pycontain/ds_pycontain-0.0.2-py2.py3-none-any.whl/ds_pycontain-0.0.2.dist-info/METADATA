@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: ds-pycontain
+Version: 0.0.2
+Summary: "deepsense.ai wrapper around docker python API"
+Author: deepsense.ai
+Author-email: contact@deepsense.ai
+License: MIT License (MIT)
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: docker >=6.1.3
+

@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.cfg
+bibdata_management/bibdatamanagement.egg-info/PKG-INFO
+bibdata_management/bibdatamanagement.egg-info/SOURCES.txt
+bibdata_management/bibdatamanagement.egg-info/dependency_links.txt
+bibdata_management/bibdatamanagement.egg-info/top_level.txt

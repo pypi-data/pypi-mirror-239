@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "eikeskog_dev"
+description = "Testing purposes"
+dynamic = ["version", "readme"]
+dependencies = [
+    "requests",
+    "Flask"
+]
+
+[tool.setuptools.dynamic]
+version = {attr = "eikeskog_dev.__version__"}
+readme = {file = "readme.md", content-type = "text/markdown"}

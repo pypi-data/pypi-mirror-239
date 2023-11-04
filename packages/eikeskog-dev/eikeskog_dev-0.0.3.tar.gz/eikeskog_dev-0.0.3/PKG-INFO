@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: eikeskog_dev
+Version: 0.0.3
+Summary: Testing purposes
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: Flask
+
+# eikeskog_dev
+
+bla. bla. bla.

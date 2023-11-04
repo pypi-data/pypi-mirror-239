@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+sync_git_repos/__init__.py
+sync_git_repos/__main__.py
+sync_git_repos/hooks.py
+sync_git_repos/utils.py
+sync_git_repos.egg-info/PKG-INFO
+sync_git_repos.egg-info/SOURCES.txt
+sync_git_repos.egg-info/dependency_links.txt
+sync_git_repos.egg-info/requires.txt
+sync_git_repos.egg-info/top_level.txt

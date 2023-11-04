@@ -1,0 +1,84 @@
+$def with (host_name)
+$var title = host_name
+<body class=h-app>
+<h1><a class="p-name u-url" href=/>$host_name</a></h1>
+<p>Host a <a href=//ragt.ag/code/projects/canopy>canopy</a> website for $$5/mo.</p>
+<form method=post>
+    $# <label><span>https://</span><input type=text name=domain maxlength=30
+    $# title="domain name must be 2 to 30 characters in length" required
+    $# pattern="[a-zA-Z\d-]{2,30}"><span>.cnpy.gdn</span></label>
+    $# <div id=card></div>
+    <button>Try Free</button>
+    $# <div id=error role=alert></div>
+</form>
+<p style="color:#586e75;font-size:.8em">This host is administered by
+<a href=//$admin_domain>$admin_name</a>.</p>
+<script>
+window.$$ = function(selector) {
+    if (typeof selector == "string")
+        var node = document.querySelector(selector);
+    else
+        var node = selector;
+    return node
+}
+var stripe = Stripe("$stripe_pk");
+var elements = stripe.elements();
+var style = {base: {backgroundColor: "#073642",
+                    color: "#839496",
+                    fontFamily: "Inconsolata, monospace",
+                    fontSmoothing: "antialiased",
+                    fontSize: "1em",
+                    "::placeholder": {color: "#586e75"}},
+             invalid: {color: "#dc322f",
+                       iconColor: "#dc322f"}};
+document.addEventListener("DOMContentLoaded", function() {
+    // var domain = $$("input[name=domain]");
+    // domain.addEventListener("keydown", function(event) {
+    //     if (!event.key.match(/[a-zA-Z\d-]/))
+    //         event.preventDefault();
+    // });
+    var card = elements.create('card', {style: style});
+    card.mount('#card');
+    var errorDisplay = $$("#error");
+    card.on('change', function(event) {
+        if (event.error) {
+            errorDisplay.textContent = event.error.message;
+        } else {
+            errorDisplay.textContent = '';
+        }
+    });
+    var form = $$("form");
+    form.addEventListener('submit', function(event) {
+        event.preventDefault();
+        form.reportValidity();
+        var response = fetch("/secret").then(function(response) {
+            return response.json();
+        }).then(function(responseJson) {
+            var username = "foobar"; // domain.value;
+            var clientSecret = responseJson.client_secret;
+            stripe.confirmCardPayment(clientSecret, {
+                payment_method: {card: card,
+                                 billing_details: {name: username}}
+            }).then(function(result) {
+                if (result.error) {
+                    errorDisplay.textContent = result.error.message;
+                } else {
+                    if (result.paymentIntent.status === 'succeeded') {
+                        fetch("/register",
+                              {method: "POST",
+                               body: JSON.stringify({username: username}),
+                              headers: {"Content-type":
+                                        "application/json; charset=UTF-8"}
+                              })
+                        .then(response => response.json())
+                        .then(json => {
+                            errorDisplay.textContent = json["passphrase"];
+                        });
+                    }
+                }
+            });
+        });
+    });
+});
+</script>
+</body>

@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: r6-stats
+Version: 1.0.2
+Summary: Python package to retreive player stats from the game Rainbow 6: Siege
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+Requires-Dist: lxml
+
+Python package to retreive player stats from the game Rainbow 6: Siege

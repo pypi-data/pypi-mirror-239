@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: neten
+Version: 0.0.0
+Summary: neten:
+Home-page: https://github.com/rraadd88/neten
+Author: Rohan Dandage
+Author-email: rohanadandage@gmail.com
+License: General Public License v. 3
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7, <4
+Description-Content-Type: text/markdown
+Provides-Extra: function1
+Provides-Extra: dev
+Provides-Extra: all
+License-File: LICENCE.txt
+
+UNKNOWN
+

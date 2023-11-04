@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/py_simple_email/__init__.py
+src/py_simple_email/main.py
+src/py_simple_email.egg-info/PKG-INFO
+src/py_simple_email.egg-info/SOURCES.txt
+src/py_simple_email.egg-info/dependency_links.txt
+src/py_simple_email.egg-info/top_level.txt

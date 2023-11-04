@@ -1,0 +1,12 @@
+simple-classproperty
+
+[dev]
+bump2version
+pre-commit
+types-PyYAML
+
+[test]
+hypothesis
+numpy
+pytest
+PyYaml

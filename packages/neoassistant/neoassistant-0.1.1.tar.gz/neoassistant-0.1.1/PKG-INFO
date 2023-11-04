@@ -1,0 +1,161 @@
+Metadata-Version: 2.1
+Name: neoassistant
+Version: 0.1.1
+Summary: A CLI application that helps to manage contacts and notes.
+Author-email: Illja <a4grtu@gmail.com>, Olha Levchenko <olgakazakovskaya@ukr.net>, Vladyslav Mazur <vladopermoz@gmail.com>, Zakir Nuriiev <kazamov@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2023 Zakir Nuriiev
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/kazamov/goitneo-python-final-project-group-11/
+Keywords: assistant,contacts,notes
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: rich
+Provides-Extra: dev
+Requires-Dist: black; extra == "dev"
+Requires-Dist: pylint; extra == "dev"
+Requires-Dist: isort; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+
+![](https://i.imgur.com/N97NADK.png)
+# Neoassistant Bot
+
+  
+Neoassistant Bot is a Python-based assistant that allows you to manage contacts and notes through a command-line interface. This README will guide you through using the bot and provide essential information about the codebase.
+
+  
+
+## Table of Contents
+
+  
+
+[Features](#features)
+
+[Prerequisites](#prerequisites)
+
+[Usage](#usage)
+
+[Commands](#commands)
+
+[License](#license)
+
+  
+
+## Features
+
+  
+
+- Manage Contacts: Add, update, delete, and search for contacts.
+
+- Manage Notes: Add, update, delete, and search for notes.
+
+- Command-Line Interface (CLI): Interact with the bot using commands.
+
+- Data Persistence: The bot can save and load data to/from a binary file.
+
+  
+
+## Prerequisites
+
+ 
+Before using Neoassistant Bot, ensure you have the following dependencies installed:
+
+- Python 3.x
+
+- Required Python packages (specified in the code)
+
+  
+
+## Usage
+
+  
+1. You can install the application via pip to your local machine (for Mac use pip3 command):
+
+
+```bash
+pip install neoassistant
+```
+
+2. Run the main Python script anywhere in the console (two options):
+```bash
+python -m neoassistant
+# or you can write the following command anywhere in the console:
+neoassistant
+```
+4. The bot will start, and you can interact with it by entering commands.
+
+  
+
+## Commands
+
+  
+
+The bot supports the following commands:
+
+  
+
+- add: Add a new contact.
+
+- change: Change a contact.
+
+- delete: Delete a contact.
+
+- show: Show contact information.
+
+- all: Show all contacts.
+
+- show-birthdays: Show upcoming birthdays.
+
+- filter: Filter contacts by criteria.
+
+- add-note: Add a new note.
+
+- change-note: Change a note.
+
+- delete-note: Delete a note.
+
+- show-note: Show a note.
+
+- all-notes: Show all notes.
+
+- filter-notes: Filter notes by criteria.
+
+- filter-notes-by-tags: Filter notes by tags.
+
+- exit or close: Exit the program.
+
+- help: Show available commands.
+
+The bot provides suggestions for commands if a command is not recognised.
+
+  
+
+## License
+
+  
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+  
+
+Feel free to modify and expand upon this README as needed for your project. You can include information about the code structure, additional usage examples, or any other relevant details.

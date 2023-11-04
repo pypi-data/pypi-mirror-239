@@ -1,0 +1,16 @@
+pennylane_orquestra/__init__.py,sha256=awtaOEuuRl5TQ34JZY49wU7a6KqAgdgN3TsnqASz3kk,995
+pennylane_orquestra/_version.py,sha256=vjcCdMO0JIA4VTMNr-QWKMUqF4LVIsqXXA4T9HI9M5Q,692
+pennylane_orquestra/cli_actions.py,sha256=xWkLzaOaawE-fGXvKUH_QLOpLZzhQZ2flbozkNe5svA,7744
+pennylane_orquestra/forest_device.py,sha256=83dXJvsehCBpOX9KIRJtEJuont65tfz_j5Q7kzK_Z20,2363
+pennylane_orquestra/gen_workflow.py,sha256=KaRDeJYLkwqJvqtvxx3Wtqsh7cObDnBCUR7PbKw22CI,6136
+pennylane_orquestra/ibmq_device.py,sha256=Q4TnvROd8I-cvF1VQFJ4WxK3cgdEVAKxDqUG5Y9pER8,3060
+pennylane_orquestra/orquestra_device.py,sha256=wNuxyozCmWra6jUMmlMKiRtoaopsunvpZ45lapgyjXw,22854
+pennylane_orquestra/qiskit_device.py,sha256=X8zQ2OzDDyOyZCUjkOyquPw_qTWTfqRbGq59Dho-XtM,2830
+pennylane_orquestra/qulacs_device.py,sha256=xc_Bf3PLRZyHlEbPTxrv3fCMDBN7nAwhYMRoMthJQ0Q,1704
+pennylane_orquestra/utils.py,sha256=hPkcpgxxZNS0Cex4JuZlu5Tns3Qby0GT_VARdiaDvWk,8299
+PennyLane_Orquestra-0.33.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+PennyLane_Orquestra-0.33.0.dist-info/METADATA,sha256=AylJa3eHTYBDC3g4TVsfgGNiWp5uPvdYD4z2BPa6jE4,7914
+PennyLane_Orquestra-0.33.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+PennyLane_Orquestra-0.33.0.dist-info/entry_points.txt,sha256=8jahP1x4S1zS8MMZLsG5x9CBdJ3uYzqXA775NBzLy1o,233
+PennyLane_Orquestra-0.33.0.dist-info/top_level.txt,sha256=iHoofuJSYtQjlM088t913k6_1vofJUIJBXb46Fmyabs,33
+PennyLane_Orquestra-0.33.0.dist-info/RECORD,,

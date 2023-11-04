@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: pymsbuild-rust
+Version: 0.1.0
+Author: Steve Dower
+Author-email: steve.dower@python.org
+Home-page: https://github.com/zooba/pymsbuild-rust
+Project-url: Bug Tracker, https://github.com/zooba/pymsbuild-rust/issues
+Summary: A pymsbuild extension for compiling native modules written in Rust.
+Description-Content-Type: text/markdown
+Keywords: build,pep-517,msbuild,packaging,rust
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development :: Compilers
+Classifier: Topic :: Utilities
+Requires-External: rust
+Requires-Dist: pymsbuild>=1.0.0b9
+WheelTag: py3-none-any
+
+# pymsbuild-rust
+
+This is a [pymsbuild](https://pypi.org/project/pymsbuild) extension for
+compiling native modules written in Rust.
+
+# Quick Start
+
+In your `_msbuild.py`, import `RustPydFile` from `pymsbuild_rust`
+(using `import *` is okay).
+
+**TODO: HOW TO SPECIFY FILES?**
+
+```
+from pymsbuild import *
+from pymsbuild_winui import *
+
+METADATA = {...}
+
+PACKAGE = Package(
+    'package',
+    PyFile("__init__.py"),
+    RustPydFile(
+        "native",
+        # TODO: WHAT TYPES GO HERE?
+    ),
+)
+```
+

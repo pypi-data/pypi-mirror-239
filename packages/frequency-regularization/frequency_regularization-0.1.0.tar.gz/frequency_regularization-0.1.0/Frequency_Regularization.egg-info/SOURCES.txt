@@ -1,0 +1,12 @@
+README
+setup.py
+Frequency_Regularization.egg-info/PKG-INFO
+Frequency_Regularization.egg-info/SOURCES.txt
+Frequency_Regularization.egg-info/dependency_links.txt
+Frequency_Regularization.egg-info/requires.txt
+Frequency_Regularization.egg-info/top_level.txt
+frequency_regularization.egg-info/PKG-INFO
+frequency_regularization.egg-info/SOURCES.txt
+frequency_regularization.egg-info/dependency_links.txt
+frequency_regularization.egg-info/requires.txt
+frequency_regularization.egg-info/top_level.txt

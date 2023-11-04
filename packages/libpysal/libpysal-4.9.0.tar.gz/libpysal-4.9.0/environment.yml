@@ -1,0 +1,28 @@
+name: libpysal
+channels:
+  - conda-forge
+dependencies:
+  # core env deps
+  - python
+  - jupyterlab
+  # core libpysal deps
+  - beautifulsoup4
+  - geopandas
+  - jinja2
+  - packaging
+  - pandas
+  - platformdirs
+  - requests
+  - scipy
+  - shapely
+  - xarray
+  # optional libpysal deps
+  - geodatasets
+  - joblib
+  - matplotlib
+  - networkx
+  - numba
+  - pyarrow
+  - scikit-learn
+  - sqlalchemy
+  - zstd

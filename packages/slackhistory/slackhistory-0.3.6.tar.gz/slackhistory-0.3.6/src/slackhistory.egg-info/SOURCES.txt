@@ -1,0 +1,16 @@
+LICENCE
+README.md
+setup.py
+src/slackhistory/__init__.py
+src/slackhistory/version.py
+src/slackhistory.egg-info/PKG-INFO
+src/slackhistory.egg-info/SOURCES.txt
+src/slackhistory.egg-info/dependency_links.txt
+src/slackhistory.egg-info/requires.txt
+src/slackhistory.egg-info/top_level.txt
+src/slackhistory/lib/__init__.py
+src/slackhistory/lib/slack_helper.py
+src/slackhistory/log/__init__.py
+src/slackhistory/log/log.py
+src/slackhistory/type/__init__.py
+src/slackhistory/type/slack_types.py

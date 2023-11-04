@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: geographie
+Version: 0.1
+Summary: A simple, easy-to-use tool to make interactive maps
+Home-page: https://github.com/geographieactuelle/fairedescartes
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: pyshp
+Requires-Dist: colour
+
+UNKNOWN
+

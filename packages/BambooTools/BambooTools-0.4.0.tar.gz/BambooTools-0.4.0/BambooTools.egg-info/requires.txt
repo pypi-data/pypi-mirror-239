@@ -1,0 +1,8 @@
+pandas>=1.5.3
+
+[dev]
+pytest>=7.4.2
+twine
+seaborn
+build
+pre-commit==3.5.0

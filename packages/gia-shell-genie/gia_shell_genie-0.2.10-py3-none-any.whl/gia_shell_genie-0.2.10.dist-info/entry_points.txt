@@ -1,0 +1,3 @@
+[console_scripts]
+gia-shell-genie=gia_shell_genie.main:app
+

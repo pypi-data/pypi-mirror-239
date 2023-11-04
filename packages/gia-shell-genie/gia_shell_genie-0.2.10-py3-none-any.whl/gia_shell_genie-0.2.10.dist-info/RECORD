@@ -1,0 +1,9 @@
+gia_shell_genie/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gia_shell_genie/backends.py,sha256=CITWL6of5U6xKHjQKOUF0pCWK10OmDUx4RckiD5ae90,3802
+gia_shell_genie/main.py,sha256=iVhFHjQIsZ-HOPO-eZkKnMdwFt4DE4vpjgdn8EeahgA,3994
+gia_shell_genie/utils.py,sha256=l29Fd-q-KFBKdhuMpunXNoQZ0NtV6Iy9xf4DiOh21Qg,957
+gia_shell_genie-0.2.10.dist-info/LICENSE,sha256=M-2cLcA9VYuFgmLncmWUmDHRhDcSLsQXeYUHh8ddriw,1071
+gia_shell_genie-0.2.10.dist-info/METADATA,sha256=l7fdfJk5bXTXUg6lClgIHZilz3WdkFEQj1u7zTEy7UU,4563
+gia_shell_genie-0.2.10.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+gia_shell_genie-0.2.10.dist-info/entry_points.txt,sha256=Cp0vTrnNnxfbLpim0YDyis46tIYQmVN6pYY8h_B7O8U,60
+gia_shell_genie-0.2.10.dist-info/RECORD,,

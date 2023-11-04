@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: python-table-print
+Version: 0.0.1
+Summary: Allows for pretty printing and automatic resizing of tables.
+Author: Centauri_Prime
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Python-Table-Print
+A project to dynamically scale and print tables using text in Python

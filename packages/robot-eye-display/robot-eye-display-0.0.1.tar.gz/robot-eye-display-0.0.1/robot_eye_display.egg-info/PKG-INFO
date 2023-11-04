@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: robot-eye-display
+Version: 0.0.1
+Summary: Robot eye display use for TFT-display 1.28 inch
+Home-page: https://github.com/Adam-Software/tft-display-lib
+Author: vertigra
+Author-email: a@nesterof.com
+License: MIT
+Description-Content-Type: text/markdown
+
+# tft-display-lib
+This is lib for TFT-display control

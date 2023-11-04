@@ -1,0 +1,15 @@
+magpai/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+magpai/version.py,sha256=ZFj01C-iRLLzs92t-qD8yCDij60KD1E3UBxCbFARJ3A,265
+magpai/workflows.py,sha256=Ddl-2K03FerdKvDoHCmTQWnZ0Khk6t5NdOeND8tqFdw,453
+tests/__init__.py,sha256=fbvgcHIhoF4Eo4KJestnds8ukvXehvRlQ5_OwwtJfvE,154
+tests/tests_helper.py,sha256=SHkc08RTxPGNgs3nrAOzlwjEBD8BH0oSkQ2vPRJoyqo,171
+tests/helpers/__init__.py,sha256=eiOW0rvZbNV6X_efoNNXwKSmbPNvAYyTB3zk6l3eQ5o,62
+tests/helpers/my_helper.py,sha256=LvdfZhi5mG7SfZGxwKftyZs2hl4sveab4QCHi8rbXVg,141
+tests/unit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/unit/test_workflows.py,sha256=ho5XSL2Ifm674qiV7XX9rAUfr-OvT4eMX0e3TYxY2Lg,637
+magpai-1.0.2.dist-info/LICENSE,sha256=_yrcqoQvsR65TeOo1DAYPW_dMokvvOWz2hA1f_JIsS8,1067
+magpai-1.0.2.dist-info/METADATA,sha256=VhHwLt7MwRrnjIhHEGppyjt_A5mFJ_M_wgtXGNyRhHo,592
+magpai-1.0.2.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+magpai-1.0.2.dist-info/entry_points.txt,sha256=iq9Cu1AYMLWEh9jhFJ5t5hC3ma-xEfRs9gSPRWeyRzI,57
+magpai-1.0.2.dist-info/top_level.txt,sha256=azKd5F2g9K-hrUwIX1At1ZRGj7REY6FPbQVcDMGHUrQ,13
+magpai-1.0.2.dist-info/RECORD,,

@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+src/console.py
+src/logg.py
+src/properties.py
+src/mime_common.egg-info/PKG-INFO
+src/mime_common.egg-info/SOURCES.txt
+src/mime_common.egg-info/dependency_links.txt
+src/mime_common.egg-info/requires.txt
+src/mime_common.egg-info/top_level.txt
+test/test_console.py
+test/test_logg.py
+test/test_properties.py

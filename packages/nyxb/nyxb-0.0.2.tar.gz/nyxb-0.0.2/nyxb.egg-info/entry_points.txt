@@ -1,0 +1,3 @@
+[console_scripts]
+nyxb = nyxb_cli.cli:main
+

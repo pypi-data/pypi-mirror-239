@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+MIDP/__init__.py
+MIDP.egg-info/PKG-INFO
+MIDP.egg-info/SOURCES.txt
+MIDP.egg-info/dependency_links.txt
+MIDP.egg-info/requires.txt
+MIDP.egg-info/top_level.txt

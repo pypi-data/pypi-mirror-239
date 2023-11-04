@@ -1,0 +1,6 @@
+neo4j_rust_ext-5.14.1.0a1.dist-info/METADATA,sha256=kP6duTu8LAgb1fKj_iVOhFticUXll1KCFNoqwmn9nu4,2428
+neo4j_rust_ext-5.14.1.0a1.dist-info/WHEEL,sha256=z5un1cuTSRwZYJq9Ejjxg7WuE_WDeUSCc2Shx5hQY0s,106
+neo4j_rust_ext-5.14.1.0a1.dist-info/license_files/LICENSE.txt,sha256=qsc7MUj20dcRHbyjIJn2jSbGRMaBOuHk8F9leaomY_4,11360
+neo4j.libs/libgcc_s-1e52349c.so.1,sha256=Ani0u_W_tB8ESsFePO4D2mn2lrgWLhyFdw6RETxBTYM,437537
+neo4j/_codec/packstream/_rust.cpython-37m-x86_64-linux-gnu.so,sha256=LPpklRq2yjjKvMDW-y5c3UVmThV0Tp6kjnjba91niyc,4987849
+neo4j_rust_ext-5.14.1.0a1.dist-info/RECORD,,

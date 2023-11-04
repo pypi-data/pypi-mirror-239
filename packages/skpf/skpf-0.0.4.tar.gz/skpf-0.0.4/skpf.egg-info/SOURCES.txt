@@ -1,0 +1,6 @@
+skpf.egg-info/PKG-INFO
+skpf.egg-info/SOURCES.txt
+skpf.egg-info/dependency_links.txt
+skpf.egg-info/entry_points.txt
+skpf.egg-info/requires.txt
+skpf.egg-info/top_level.txt

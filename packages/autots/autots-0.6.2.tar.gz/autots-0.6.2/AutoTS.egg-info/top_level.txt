@@ -1,0 +1,8 @@
+archive
+autots
+build
+dist
+docs
+img
+kernel_failures
+tests

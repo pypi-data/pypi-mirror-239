@@ -1,0 +1,2 @@
+class VKClient():
+    pass

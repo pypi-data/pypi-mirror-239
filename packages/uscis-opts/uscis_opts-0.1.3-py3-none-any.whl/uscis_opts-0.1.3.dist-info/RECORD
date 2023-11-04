@@ -1,0 +1,15 @@
+opts/ArcherAuth.py,sha256=bwB2CQ4Pb8qIoD3yG9YnnFS627k20OCMFKkIeM76Qy8,3074
+opts/ArcherServerClient.py,sha256=c73w4p-HtKDNt8rsIlcfelfY4JVuAljebHZB8GBj6KA,12793
+opts/ContextError.py,sha256=0S1l5T5-0z7hAmXeaWpaogLXViTjBzj7TlV4LzS-aLE,311
+opts/SigningError.py,sha256=ClRJdH5-9XDLgF4YijjDAjEp_r4lZGJeqFIjJql5GvM,381
+opts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+opts/templates/ExecuteSearch.xml,sha256=aDEVvw5CQ32Ia19miJqZ7vwoZ8JxNB8ET545lVFYdbQ,488
+opts/templates/GetReports.xml,sha256=rrgmFsP8y_ma_i5bh5Q9Q2f222P6xpa7y5ILb45uwa0,409
+opts/templates/GetSearchOptionsByGuid.xml,sha256=HS9Ya63lpi5l3NSMybju4p8xNG3aEEzB1mWDSwvUQFA,478
+opts/templates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+opts/templates/template.xml,sha256=mlkNH-sIaTzsq44bFBPamXm2X_yqH8JeHduMc-0bmlw,287
+uscis_opts-0.1.3.dist-info/LICENSE,sha256=ONFkP11dkPwiYhu9HwDDKNE-Xj0BLwyVSgeqbH6JvXg,1088
+uscis_opts-0.1.3.dist-info/METADATA,sha256=7vOHZM2eE0PSnuLus9H74qj3q-CZgOPI8xszyvw_XYE,2792
+uscis_opts-0.1.3.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+uscis_opts-0.1.3.dist-info/top_level.txt,sha256=h7XrH55vf-wTNWBz2498Y3dvh-zxpFqIOtw-5M-H_Bk,5
+uscis_opts-0.1.3.dist-info/RECORD,,

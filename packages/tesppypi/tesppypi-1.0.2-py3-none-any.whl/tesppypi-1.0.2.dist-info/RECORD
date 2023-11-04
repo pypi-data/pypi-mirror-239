@@ -1,0 +1,6 @@
+tesppypi/__init__.py,sha256=S9dKdgM0Au-1Yf7ii-RdJjaghQ05-pGXt9T2kjVoi3s,23
+tesppypi/hello.py,sha256=HjXxU3Jf9bPezk8cz5O0T6bDDJJNixA_n8KrfWgfnLc,47
+tesppypi-1.0.2.dist-info/METADATA,sha256=BXpwWClXvMj3GfcF40-VOfX0ga2LN_lInxL0uUcK7iI,275
+tesppypi-1.0.2.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+tesppypi-1.0.2.dist-info/top_level.txt,sha256=_j0y3SDkcrPFCxRhewc895bfsGzmn3otkDALaohDpFo,9
+tesppypi-1.0.2.dist-info/RECORD,,

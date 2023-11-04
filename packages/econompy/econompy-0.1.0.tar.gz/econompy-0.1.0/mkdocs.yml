@@ -1,0 +1,41 @@
+site_name: EconomPy
+site_description: The Python package for econometric analysis.
+
+repo_url: https://github.com/malill/econompy
+repo_name: malill/econompy
+
+theme:
+    icon:
+        repo: fontawesome/brands/github
+    name: "material"
+    palette:
+        - media: "(prefers-color-scheme: light)"
+          primary: "blue"
+          accent: "grey"
+          scheme: default
+          toggle:
+              icon: material/toggle-switch-off-outline
+              name: Switch to dark mode
+        - media: "(prefers-color-scheme: dark)"
+          primary: "blue"
+          accent: "white"
+          scheme: slate
+          toggle:
+              icon: material/toggle-switch
+              name: Switch to light mode
+
+plugins:
+    - search
+    - mkdocstrings
+
+markdown_extensions:
+    - pymdownx.highlight
+    - pymdownx.superfences
+
+nav:
+    - "Start": index.md
+    - "Data":
+          - "Lab-in-the-Field": data/lab_in_the_field.md
+          - "Scraping": data/scraping.md
+          - "Simulation": data/simulation.md
+    - "Changelog": changelog.md

@@ -1,0 +1,11 @@
+arg_init-0.0.5.dist-info/METADATA,sha256=LbKPSAIOGxy89pOvPhzg3qm_eZSMuK2JzZFO6RjZCV8,7641
+arg_init-0.0.5.dist-info/WHEEL,sha256=C8f_gqhOWmHrh81n3Ukx5iURrqMhsHla81fuY1yuwvs,90
+arg_init-0.0.5.dist-info/licenses/LICENSE.txt,sha256=A6JYnGLMllogjAvdVGzsQeiakZmLJ0a77yw91r8gB4A,1071
+arg_init/__init__.py,sha256=AibdecTra87fFostfmwpFRGNpQvNOt-kkQM9yxvXbk4,434
+arg_init/_arg.py,sha256=NQrOMiZlgnPcfEHNcunDNa6oq0ZsPsjz0ecWO6l5SiY,3141
+arg_init/_arg_defaults.py,sha256=T0XLbYQc1NowhBKfwd5aJtesUdO-oGDBoc4s6s1VccY,624
+arg_init/_arg_init.py,sha256=w03U7g9KqGdvEoFcvAfH7ZsdRslJLH3BCM0_PaJRcGY,3712
+arg_init/_class_arg_init.py,sha256=stsXZtwuQgHqygAScWpwlHhozUyVzNIP4Bq_zwPR6XM,2651
+arg_init/_function_arg_init.py,sha256=2hT8Jize3fsMcDkXLjaf2UUfs3MtePk5KlQftzGSC-I,1079
+arg_init/_version.py,sha256=PIMCDC8z2lhhkWZe6LbEpMJliX62-vIJNiI1SmnDR1s,56
+arg_init-0.0.5.dist-info/RECORD,,

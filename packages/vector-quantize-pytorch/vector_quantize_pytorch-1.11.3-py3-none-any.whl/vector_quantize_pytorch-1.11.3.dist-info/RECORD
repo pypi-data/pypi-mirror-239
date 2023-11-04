@@ -1,0 +1,13 @@
+vector_quantize_pytorch/__init__.py,sha256=l75rsA21FcRC-6_8hhHsYY7ult4rbwWGCbPylZZ1GmQ,537
+vector_quantize_pytorch/finite_scalar_quantization.py,sha256=xsdUAhunomAHXlB2jQ3ht9Wkh-ViLH_CHMRWQERE_to,5532
+vector_quantize_pytorch/lookup_free_quantization.py,sha256=YfiQKsPDdQe8pE-Y_uCdbdaQGz_0ebA9hJPVKvPaW-4,8038
+vector_quantize_pytorch/random_projection_quantizer.py,sha256=ZlkekzVNuDEpV42kifYwOdAx-kJdgHAtSLrAW5OZZ8k,1723
+vector_quantize_pytorch/residual_fsq.py,sha256=whJtJzawdMYZy4X-R3sIU40I0PfDyc9b66hMTz4G-jE,8282
+vector_quantize_pytorch/residual_lfq.py,sha256=ku_8Z4z7cTmsEIMPcS6VidzJVLyaIWB2xPEFohEtTmw,8102
+vector_quantize_pytorch/residual_vq.py,sha256=4lZf_mP1IoKoqXAFfzhljFcdhtS3MONaH41Val6mGGI,10068
+vector_quantize_pytorch/vector_quantize_pytorch.py,sha256=2uSOlexytNS7fB979_GJLqwsLGd-CaSq7feEDYjPSaY,36871
+vector_quantize_pytorch-1.11.3.dist-info/LICENSE,sha256=As9u198X-U-vph5noInuUfqsAG2zX_oXPHDmdjwlPPY,1066
+vector_quantize_pytorch-1.11.3.dist-info/METADATA,sha256=4jF-UK478z9ja9jRH-5W50xm2NjGKBPmZhsjXEE3-E8,681
+vector_quantize_pytorch-1.11.3.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+vector_quantize_pytorch-1.11.3.dist-info/top_level.txt,sha256=Z5eSdC-8E6kC01H3BbX4U1thCIG4YeghFEboA916HNA,24
+vector_quantize_pytorch-1.11.3.dist-info/RECORD,,

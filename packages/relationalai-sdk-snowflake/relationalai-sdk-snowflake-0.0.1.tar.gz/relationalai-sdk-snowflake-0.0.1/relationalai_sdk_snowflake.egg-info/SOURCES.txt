@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+relationalai/snowflake_sdk/__init__.py
+relationalai/snowflake_sdk/api.py
+relationalai_sdk_snowflake.egg-info/PKG-INFO
+relationalai_sdk_snowflake.egg-info/SOURCES.txt
+relationalai_sdk_snowflake.egg-info/dependency_links.txt
+relationalai_sdk_snowflake.egg-info/requires.txt
+relationalai_sdk_snowflake.egg-info/top_level.txt
+test/test_integration.py

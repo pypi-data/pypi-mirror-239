@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: MIA-Tools
+Version: 0.0.3
+Summary: Medical Image Analysis Tools
+Home-page: https://github.com/SaberPRC/MIA-Tools
+Author: Jiameng Liu
+Author-email: JiamengLiu.PRC@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: README.md
+License-File: LICENSE
+Requires-Dist: antspyx
+Requires-Dist: numpy
+Requires-Dist: SimpleITK
+
+# Repo for Medical Image Analysis Tools
+```shell
+Copyright IDEA Lab, School of Biomedical Engineering, ShanghaiTech. Shanghai, China
+
+Licensed under the the GPL (General Public License);
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Repo for Medical Image Analysis Tools (MIA-Tools)
+Contact: JiamengLiu.PRC@gmail.com
+```

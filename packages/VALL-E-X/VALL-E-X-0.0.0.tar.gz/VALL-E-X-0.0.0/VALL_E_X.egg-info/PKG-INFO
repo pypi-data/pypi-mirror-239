@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: VALL-E-X
+Version: 0.0.0
+Summary: An open source implementation of Microsoft's VALL-E X zero-shot TTS
+Author: Plachtaa
+Keywords: artificial intelligence,deep learning
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: soundfile
+Requires-Dist: numpy
+Requires-Dist: torch
+Requires-Dist: torchvision
+Requires-Dist: torchaudio
+Requires-Dist: tokenizers
+Requires-Dist: encodec
+Requires-Dist: langid
+Requires-Dist: wget
+Requires-Dist: unidecode
+Requires-Dist: pyopenjtalk-prebuilt
+Requires-Dist: pypinyin
+Requires-Dist: inflect
+Requires-Dist: cn2an
+Requires-Dist: jieba
+Requires-Dist: eng_to_ipa
+Requires-Dist: openai-whisper
+Requires-Dist: matplotlib
+Requires-Dist: gradio
+Requires-Dist: nltk
+Requires-Dist: sudachipy
+Requires-Dist: sudachidict_core
+Requires-Dist: vocos
+Requires-Dist: lhotse

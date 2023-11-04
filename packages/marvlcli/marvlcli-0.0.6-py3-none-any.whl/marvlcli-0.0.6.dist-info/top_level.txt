@@ -1,0 +1,6 @@
+create
+delete
+info
+list
+marvlcli
+ssh

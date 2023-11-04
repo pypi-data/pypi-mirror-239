@@ -1,0 +1,11 @@
+create.py,sha256=DtAZPOXNGCav5fam7Ph0M17tr1t_--r6OyoFLCmctMw,2006
+delete.py,sha256=49I96y_whOpdzfjLvBim5QacmciS5jShpwOpEJtXOlk,646
+info.py,sha256=1klvx6bIJSJOjnmvS-DNA14Iy9jrXxnDyVJYxBufzrE,723
+list.py,sha256=4lmYM4RBuNTSApJCeFMqCv5fdICtaiUK1nFkBhLFCM4,549
+marvlcli.py,sha256=v8PkjLyt2GWO5sSXkssbyk0yp5ljazZPR1AR8rG3a9k,6253
+ssh.py,sha256=gCEImnYKeFjiDYAJ5YosqbtF5fqLk8UUXpRTWJF2rWw,731
+marvlcli-0.0.6.dist-info/METADATA,sha256=vaU6k7U75xayM9WJTT9jOzVwc_PO6th2GDhWcBER8Jo,259
+marvlcli-0.0.6.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+marvlcli-0.0.6.dist-info/entry_points.txt,sha256=RfADQZKug_1wuarDrC724ShLbHcT3S6Di2fBR7O9alQ,44
+marvlcli-0.0.6.dist-info/top_level.txt,sha256=xIPSJflIAUhwFU1ym0elJRgznn7iawCPg0MWolkunqY,37
+marvlcli-0.0.6.dist-info/RECORD,,

@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/elan_data/__init__.py
+src/elan_data/elan_utils.py
+src/elan_data/py.typed
+src/elan_data.egg-info/PKG-INFO
+src/elan_data.egg-info/SOURCES.txt
+src/elan_data.egg-info/dependency_links.txt
+src/elan_data.egg-info/not-zip-safe
+src/elan_data.egg-info/requires.txt
+src/elan_data.egg-info/top_level.txt
+tests/test_elan_data.py
+tests/test_elan_utils.py

@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: elan-data
+Version: 1.7.3
+Summary: Work with ELAN transcription files and their corresponding audio files via Python code.
+Home-page: https://github.com/AlejandroCiuba/elan_data
+Author: Alejandro Ciuba
+Author-email: alejandrociuba@pitt.edu
+Keywords: elan,linguistics,transcription
+Platform: linux
+Platform: osx
+Platform: win32
+Requires-Python: >=3.7
+Provides-Extra: test
+
+The elan_data package allows you to create, edit and explore files compatible with the ELAN transcription application. Current support is only for non-nest tiers and the wave file format.

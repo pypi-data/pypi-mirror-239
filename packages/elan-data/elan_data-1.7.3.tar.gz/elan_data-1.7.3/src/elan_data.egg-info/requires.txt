@@ -1,0 +1,11 @@
+pandas
+numpy
+matplotlib
+
+[test]
+pytest
+pytest-cov
+pytest-mock
+mypy
+flake8
+tox

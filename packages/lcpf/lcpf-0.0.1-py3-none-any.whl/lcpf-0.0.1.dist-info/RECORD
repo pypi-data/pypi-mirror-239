@@ -1,0 +1,10 @@
+lcpf/__init__.py,sha256=SXUyE9hmQeYBcmIxmXrAZAIeYfMHAA7cy2vPwgRceTo,82
+lcpf/tools/__init__.py,sha256=SXUyE9hmQeYBcmIxmXrAZAIeYfMHAA7cy2vPwgRceTo,82
+lcpf/tools/agents.py,sha256=OaBz-rZNucCB2osZxvkudFjEM69vXSCnKlgDLCFZvqk,1758
+lcpf/tools/utils.py,sha256=NDuoTdwVb6Hh20lRWuSvOtbD8F4VUHopY-mGDs2fm0c,522
+lcpf/yamls/zeroshotreact.yaml,sha256=-F5uJsAEviybZIfmk4YzK_Jx2kJaEJGrKjTx9KT7ooA,1605
+lcpf-0.0.1.dist-info/METADATA,sha256=sXogm41iEzbgkI8gZEQUDQYwfcvmEYx7RBjfBpo56RM,157
+lcpf-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+lcpf-0.0.1.dist-info/entry_points.txt,sha256=okJ3780hxj3vL8MMrFTFJWxH3-RJwV6CGc_yHz9YboE,60
+lcpf-0.0.1.dist-info/top_level.txt,sha256=XL-93gXFc-foKYhzgS8jfbj4w7uMuf-Ibxa2oCT1EWk,5
+lcpf-0.0.1.dist-info/RECORD,,

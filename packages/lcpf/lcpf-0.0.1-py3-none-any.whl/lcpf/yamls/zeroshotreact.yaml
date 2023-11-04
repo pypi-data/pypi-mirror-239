@@ -1,0 +1,27 @@
+lcpf.tools.agents.zeroshotreact:
+  function: zeroshotreact
+  inputs:
+    connection:
+      type: [AzureOpenAIConnection, OpenAIConnection]
+    deployment_name:
+      type:
+      - string
+      enabled_by: connection
+      enabled_by_type: [AzureOpenAIConnection]
+      capabilities:
+        completion: true
+        chat_completion: true
+        embeddings: false
+      model_list:
+      - gpt-35-turbo
+    file_path:
+      type:
+      - file_path
+    intent:
+      type:
+      - string
+  module: lcpf.tools.agents
+  name: LangChain Zero-shot ReAct Tool
+  description: This LangChain agent uses the ReAct framework to determine which tool to use based solely on the tool's description.
+  type: python
+  icon: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACQUlEQVR4nMVSX0hTcRg9v7utKaGbzS0SJRMiM6J2Q8gg1kNB9VAEbUH11MMg7A+RhRC0LhVBD6WR0SyJTIzulck2nZsjd6EIYmWkaOaqpXk32GhDB82Wu78e+qPD2mN9j993zvedj3OA/1BkUcdmAwOAUGpj8jF5nlfMc/6GXbw/h8A/mywkhMmFd1zasdFoKmjT6zIDhhrfGUrNCkKE7C8QpZQhhMh37nWejkclSzQizS7TaY5e4Lg3DAD4R7SNDM2y8aXJBtPF4p2ECFmrHSoACAQCSkIIvdvOH5qJRw+Kon+/FJHaP0ejVwhAYbJBWVKySbPnXOn5puer5uzB1dKpjvL1P342//659XbbsNV67AAAPBDcW0/WH+8BAMYwCppMvpx+Mp71j736pqhQy2WsPuu92aVd+VN+gavXy098CFWuram+/sg1cGL89eC1WFS6BQCMIEC22cDoUrqR4Ggm4utJyOvCqbIN72irxSJke/t8l+PSZMLldu6WJsLSXCrWPDT4ouWhw+GZd8IMBQCUW4pr2XrD18NHtNS5r5A+NSrruvsC/bVl0AFAt+dxQ0tTcycA2O12VY5pZrN5SXo6XRXRDF9NaxhaNfVlyFinXLNlW7tqJjYb0i4vDU29f9vodAjbWZb9BEDmOE5WLrBakUGmQh+rviF/TBf1Vu71JjbfL1IHu9Qr9KazibFYXb/HucvtdodZlmU4jpP/nJj8eQKlNGe0UEFOPDmOo6AABYUoigoAEEVRJoTkv/zP6zscGvf9BGRvEwAAAABJRU5ErkJggg==

@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: fbchat-clone
+Version: 0.0.1
+Summary: Clone from fbchat
+Author: fbchat
+Author-email: <fbchat@gmail.com>
+Keywords: python,fbchat
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: PostgreSQL License
+Classifier: Operating System :: MacOS :: MacOS X
+Description-Content-Type: text/markdown
+

@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: package_Swing
+Version: 0.0.1
+Summary: Swing's python project package
+Project-URL: Homepage, https://github.com/swingfu/SwingPython
+Project-URL: Bug Tracker, https://github.com/swingfu/SwingPython/issues
+Author-email: Swing <swingfsy@outlook.com>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# SwingPython
+This repository is about some Python practices with common problems to help you understand the basic usage of Python syntax. 
+Read the requirement specifications and think independently, every practice shows different useful knowledge about Python learning.
+
+## quick start:
+The practices are from easy to hard, generally, you can simple follow the [Python tutorials](https://docs.python.org/3/tutorial/index.html) to accomplish the following questions.
+
+1. A simple program to convert temperature between Fahrenheit and Celsius.
+   - learn about basic input, condition control and loop.
+     
+2. Calculate the basic Statistics of the inputing list of numbers.
+   - learn about the data structure of List
+   - error handling (exception)
+   - basic mathematics
+     
+3. Contact list which supports CRUD operations.
+   - learn about how to use Class
+   - List or Dictionary to store data
+   - the usage of functions
+
+4. keep updating...
+
+check the file /spec. for detailed specifications.
+check the file /src. for sample codes. 
+Notice that the code isn't always perfect, you can write your own code using what you've learned. What really matters is keeping learning and practice.
+
+let's learn Python together! Fighting!~ :P

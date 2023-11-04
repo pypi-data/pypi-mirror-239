@@ -1,0 +1,8 @@
+README.md
+setup.py
+migrations/__init__.py
+uzbekistan.egg-info/PKG-INFO
+uzbekistan.egg-info/SOURCES.txt
+uzbekistan.egg-info/dependency_links.txt
+uzbekistan.egg-info/requires.txt
+uzbekistan.egg-info/top_level.txt

@@ -1,0 +1,8 @@
+README.md
+setup.py
+PyXGT/LS.py
+PyXGT/__init__.py
+PyXGT.egg-info/PKG-INFO
+PyXGT.egg-info/SOURCES.txt
+PyXGT.egg-info/dependency_links.txt
+PyXGT.egg-info/top_level.txt

@@ -1,0 +1,12 @@
+makejinja/__init__.py,sha256=IOOeS2KrGKe_p7GclWbxNIBbxf42sbKFQiUjXNjOERY,273
+makejinja/__main__.py,sha256=fbkjIMmLFoSCteeFOG4YKW46gv-h-VnOZTzEHVIkcbo,48
+makejinja/app.py,sha256=0kMKKVID_10p0y04BlaRXu61NuPLccR_weoxwprcqy0,7018
+makejinja/cli.py,sha256=flVUXhKEcYULXoZDY7AhRLAeSAlOsNtK1kJIphse66w,1247
+makejinja/config.py,sha256=Pv_oZkiZdCIM8VHZK6u5rKB4DEsKTddSWbAau1L-7o0,12384
+makejinja/loader.py,sha256=oRv20IvNqVr_RtggqGtPVlXrSxk7LcVEC2ExbZbyx3g,1060
+makejinja/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+makejinja-2.1.3.dist-info/LICENSE,sha256=yImp-eAMhgceWCQ6iLCEUHbYAUcD0LRkoVO24D1zRoA,1067
+makejinja-2.1.3.dist-info/METADATA,sha256=8DOWL2NLdPFRNvNVQLhmrOpTUfUiRYSlMu-SXyAL4qU,4140
+makejinja-2.1.3.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+makejinja-2.1.3.dist-info/entry_points.txt,sha256=OlWHyKEQQAMZq9Uz-i-L6UN5OAgbWwulcXqWKRfTlQQ,57
+makejinja-2.1.3.dist-info/RECORD,,

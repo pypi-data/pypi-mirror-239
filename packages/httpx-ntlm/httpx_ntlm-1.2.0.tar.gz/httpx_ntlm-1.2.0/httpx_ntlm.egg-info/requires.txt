@@ -1,0 +1,2 @@
+httpx>=0.21
+pyspnego>=0.3

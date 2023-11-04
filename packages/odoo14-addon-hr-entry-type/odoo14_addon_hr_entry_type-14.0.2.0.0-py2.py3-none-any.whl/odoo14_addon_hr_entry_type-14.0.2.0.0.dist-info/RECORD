@@ -1,0 +1,10 @@
+odoo/addons/hr_entry_type/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/hr_entry_type/__manifest__.py,sha256=qsa7DOr1r7-a-pC0pOXj-A8ZqWmB-Wn0n_FkOcPvKJk,1014
+odoo/addons/hr_entry_type/models/__init__.py,sha256=BCrjOMmGo-EKKr70-9vt2ECIYz9uyEOoCtF7IHUjQiY,28
+odoo/addons/hr_entry_type/models/hr_entry_type.py,sha256=AQtiLd3tUXFOc5pXvItFVNmkOMMpbYS20glrT78vwJQ,545
+odoo/addons/hr_entry_type/security/ir.model.access.csv,sha256=ixnvUnKQf-OHW7UPJG1rRiTtcXRq1pUJvabHkyd3qnc,291
+odoo/addons/hr_entry_type/views/hr_entry_type_views.xml,sha256=6gKwN8xEwshyljLscV44JaaUy2B7V746FRPf_bpdmLA,1036
+odoo14_addon_hr_entry_type-14.0.2.0.0.dist-info/METADATA,sha256=Y_b_nqC1HEtr6KfhX9VGfJxosfM4snF1WwY0oGgPlds,880
+odoo14_addon_hr_entry_type-14.0.2.0.0.dist-info/WHEEL,sha256=iYlv5fX357PQyRT2o6tw1bN-YcKFFHKqB_LwHO5wP-g,110
+odoo14_addon_hr_entry_type-14.0.2.0.0.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_hr_entry_type-14.0.2.0.0.dist-info/RECORD,,

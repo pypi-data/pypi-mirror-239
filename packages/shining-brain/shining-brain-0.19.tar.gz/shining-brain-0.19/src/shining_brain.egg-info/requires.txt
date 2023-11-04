@@ -1,0 +1,5 @@
+pandas
+sqlalchemy
+PyYAML
+openpyxl
+mysql-connector-python

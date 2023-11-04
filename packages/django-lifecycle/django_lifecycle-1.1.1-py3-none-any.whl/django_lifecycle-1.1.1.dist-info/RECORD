@@ -1,0 +1,15 @@
+django_lifecycle/__init__.py,sha256=3mMsSRtWy28FKh9njps5SfgSZctVcFYFgzFPZYW6hEc,256
+django_lifecycle/abstract.py,sha256=0uIwhka2cOVye7i4bGa6o4b8w14YDXxUP8b4de06bM8,502
+django_lifecycle/dataclass_validation.py,sha256=Sp5brfVVbrnoA2lbmdnEq-LdGZUMjO_5fyIE8cqTKcI,1189
+django_lifecycle/decorators.py,sha256=2Wl2CXUGY4EmPjKs6D43G3AhjcMD1ntpdzq4eGYHpYw,3857
+django_lifecycle/hooks.py,sha256=CfQiyRxbrgC8IHn0vr9axx-RgYw1lhwsdX8WRdLKAqM,406
+django_lifecycle/mixins.py,sha256=7P0t64gLtfA8yolbpjcGCDnvt82tvtdm9CPPXZtdbpg,14022
+django_lifecycle/models.py,sha256=QltrH9qbAY2j_CN4M5zlo6eX264be5vnVuqd-AQXnAM,169
+django_lifecycle/priority.py,sha256=HHfi9klGmcDQdB87VFa4CWjC7uF_BQ9Lnm3D8_e7Hxg,101
+django_lifecycle_checks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_lifecycle_checks/apps.py,sha256=e74gtRq3qyukX2opjzcMnsgy7VtJ_YxqSvijOOjSI-w,1721
+django_lifecycle-1.1.1.dist-info/LICENSE.md,sha256=xVsEH4UdiF1xsMHAWNLYP2XSy3ruM16TWl7Ovfo_i8U,1065
+django_lifecycle-1.1.1.dist-info/METADATA,sha256=Qf9E0at8G7yMSCQ8xT1CcxQhMJ3ugM8xzc9zVoiitrc,4038
+django_lifecycle-1.1.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+django_lifecycle-1.1.1.dist-info/top_level.txt,sha256=E-gJcGD_UDp88z6--yidALz0vXvlRmE91m2op94UrXc,41
+django_lifecycle-1.1.1.dist-info/RECORD,,

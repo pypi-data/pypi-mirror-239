@@ -1,0 +1,9 @@
+boms_wrapper.pypy310-pp73-x86-linux-gnu.so,sha256=DVXm_tYRyXZ3D816aR4SLg-_LLmIR5XitSt_XjBMPfg,312900
+boms/main.py,sha256=lptgawwuy8PIP25jflVeMtM-DjK-5-o8TWHFtO8ICL8,2992
+boms/__init__.py,sha256=dG-tJvzUH42LCiQY_eWSszuj9s7bAdZJfjP4us78WXk,55
+boms/meanshift.hpp,sha256=Yi2zYTTXrULmO_mwCROc_fqO5oIdbbLFICZjNXqNPf8,386
+boms-1.0.2.dist-info/WHEEL,sha256=JDC4OlmB65GtbXEhc0wCg0l5dn22wiyaG4iOKLHeGrs,162
+boms-1.0.2.dist-info/LICENSE,sha256=Y1YNySY42NFRTbOeyj6JY7b9tuzY3VbQ4asizpve3F8,1058
+boms-1.0.2.dist-info/RECORD,,
+boms-1.0.2.dist-info/top_level.txt,sha256=NShj10cj0e9Nfstt4EXUYbbX7DGUfAYjxveQSVcVuNw,18
+boms-1.0.2.dist-info/METADATA,sha256=i51Gkw0X1mSfHb8VGPSU4pD-D1Eynf5jJzhiWuhMNow,1841

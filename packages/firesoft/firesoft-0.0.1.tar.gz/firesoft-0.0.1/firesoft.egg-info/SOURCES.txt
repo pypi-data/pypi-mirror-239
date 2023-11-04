@@ -1,0 +1,10 @@
+README.md
+setup.py
+firesoft/__init__.py
+firesoft.egg-info/PKG-INFO
+firesoft.egg-info/SOURCES.txt
+firesoft.egg-info/dependency_links.txt
+firesoft.egg-info/top_level.txt
+firesoft/utils/__init__.py
+firesoft/utils/files.py
+firesoft/utils/qr_code.py

@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: aiotieba-reviewer
+Version: 0.3.3
+Summary: High Flexibility Anti-spam Framework Based on Aiotieba
+Author-email: Starry-OvO <starry.qvq@gmail.com>
+Project-URL: Repository, https://github.com/Starry-OvO/aiotieba-reviewer/
+Project-URL: Documentation, https://review.aiotieba.cc/
+Keywords: baidu,tieba
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: The Unlicense (Unlicense)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Internet :: WWW/HTTP :: Session
+Requires-Python: <3.13,>=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiotieba[img,speedup]<4.0,>=3.6.0
+Requires-Dist: aiomysql[rsa]<0.3,>=0.1.0
+
+## 客户名单
+
+```python
+# 2023.11.03 Updated
+fids = [414639, 13971645, 17019292, 19862444, 21841105, 24850810, 26066262, 27400819, 27497591, 27782931, 27996182]
+```
+
+## 友情链接
+
++ [TiebaManager（吧务管理器 有用户界面）](https://github.com/dog194/TiebaManager)
++ [TiebaLite（第三方安卓客户端）](https://github.com/HuanCheng65/TiebaLite/tree/4.0-dev)
++ [贴吧protobuf定义文件合集](https://github.com/n0099/tbclient.protobuf)

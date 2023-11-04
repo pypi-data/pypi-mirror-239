@@ -1,0 +1,137 @@
+.d3arg {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px 20px 60px 20px;
+}
+
+.d3arg:hover .dashboard {
+    visibility: visible;
+}
+
+.dashboard {
+    display: flex;
+    visibility: hidden;
+}
+
+.dashboard button {
+    position: relative;
+    font-size: 30px;
+    border: 0px;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+}
+
+.dashboard button .tip {
+    width: 120px;
+    font-size: 12px;
+    background-color: lightgrey;
+    color: #053e4e;
+    text-align: center;
+    padding: 5px 0px;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%; 
+    margin-left: -60px;
+    visibility: hidden;
+}
+
+.dashboard button:hover .desc {
+    visibility: visible;
+}
+
+.dashboard path {
+    fill: grey;
+}
+
+.dashboard button:hover path {
+    fill: #053e4e;
+}
+
+.dashboard button:active path {
+    fill: #1eebb1;
+}
+
+.yaxis path {
+    stroke: #053e4e;
+    stroke-width: 3px;
+}
+
+.yaxis line {
+    stroke: #053e4e;
+    stroke-width: 3px;
+}
+
+.yaxis text {
+    fill: #053e4e;
+    stroke: 1px;
+}
+
+.node {
+    fill: #1eebb1;
+    stroke: #053e4e;
+    stroke-width: 4px;
+}
+
+.hiddennode {
+    fill: lightgrey;
+    stroke: lightgrey;
+    stroke-width: 4px;
+}
+
+.underlink {
+    stroke: #ffffff;
+    stroke-width: 12px;
+    fill: none;
+}
+
+.link {
+    stroke: #053e4e;
+    stroke-width: 4px;
+    fill: none;
+}
+
+.hiddenlink {
+    stroke: lightgrey;
+    stroke-width: 4px;
+    fill: none;
+}
+
+.labels {
+    text-anchor: middle;
+}
+
+.label {
+    fill: #053e4e;
+    font-family: Arial;
+    font-size: 12px;
+}
+
+.hiddenlabel {
+    fill: lightgrey;
+    font-family: Arial;
+    font-size: 12px;
+}
+
+svg {
+    display: block;
+}
+
+button {
+    display: block;
+    cursor: pointer;
+}
+
+.saving {
+    display: flex;
+    flex-direction: row;
+}
+
+.saving .message {
+    display: none;
+}

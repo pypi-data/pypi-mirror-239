@@ -1,0 +1,13 @@
+psutil
+parsedatetime
+arrow
+pytz
+tzlocal
+sh
+tabulate
+requests
+xtract
+unidecode
+
+[:python_version < "3.4"]
+pathlib

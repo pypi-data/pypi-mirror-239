@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ArgCache
+Version: 0.2.0
+Summary: 
+Author: Johan Philis
+Author-email: johan.e.philis@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# ArgCache
+
+First commit.

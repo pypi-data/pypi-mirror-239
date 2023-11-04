@@ -1,0 +1,10 @@
+pydantic~=1.10
+colorlog
+pymetasploit3
+pyaml
+paramiko
+sliver-py
+tabulate
+python-magic
+httpx
+httpx[http2]

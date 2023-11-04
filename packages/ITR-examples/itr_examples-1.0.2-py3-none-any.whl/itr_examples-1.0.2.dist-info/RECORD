@@ -1,0 +1,20 @@
+ITR_examples/ITR_DV.py,sha256=c3ipFoCHWFt9EBXh57m4oc1whRHGGSvIwo0phy1Xf9Q,101761
+ITR_examples/ITR_UI.py,sha256=g9-QNwQZp3eGHvbSVEHDZk5k4knOkFUD7DaCx5x-qDk,94867
+ITR_examples/__init__.py,sha256=GM7WnuqNC4Leg8tYtMjXU5zfedNR2pted36ZWKtAwKU,577
+ITR_examples/data/20220215 ITR Tool Sample Data.xlsx,sha256=cwlkSO2x4xIy1xRy7YpDcF1F_3iBuhUigRq6Qg4trZY,60436
+ITR_examples/data/20220720 ITR Tool Sample Data.xlsx,sha256=Z76EKdK1eXvC6RxvgXQ0hHXdIF0tDsBGVzYYU05QGPM,72880
+ITR_examples/data/20220720 ITR Tool Test Data.xlsx,sha256=9_9bgY-41o2uxMMcBx7ixf9e4wBbcn13OQjvZJGKa4E,76225
+ITR_examples/data/20220927 ITR Tool Sample Data.xlsx,sha256=YXocsCIFxihTpOK4gFhHK0P75WMlrUITZLmuPNDgJHI,74802
+ITR_examples/data/20220927 ITR Tool Test Data.xlsx,sha256=AaLLm2NcwgwoER3NmwEVCTZC80zVUdExUVrLA7uFZ7o,78997
+ITR_examples/data/20220927 ITR V2 Sample Data.xlsx,sha256=quAT-0CK5sH3Eb8jeqfz2Q9w6q-WGyk5oOMlKMpFIGw,122204
+ITR_examples/data/20221025 ITR V2 Sample Data.xlsx,sha256=CnyWrPlyy3v4gCQx4QvBcnUy6qK22jEuoJCMiwNPg20,144935
+ITR_examples/data/20230106 ITR V2 Sample Data.xlsx,sha256=puK-YYqc4qmn5F9PisKPfbIol7jHFLT6_aZuxPeDRIA,346141
+ITR_examples/data/20230524 ITR V2 SBTi.xlsx,sha256=0fd8I8P6W1eG5PUMS92MV-PAbwD5XawvyswOMfbx3LQ,62694
+ITR_examples/environment.yml,sha256=JhWZJavD9Zx8W7znPOYRE8MJkgeRbPTsuzP63vSGt-E,137
+ITR_examples/utils.py,sha256=w9vfwYNy-vYUjs0-0ViB7Pa4BzWkG8tmfbGSPPBexYg,9938
+itr_examples-1.0.2.dist-info/METADATA,sha256=ESWAQDxD9iXvmI6FXNPFVZe2MmnushAJ3vgQVFKh07Y,4367
+itr_examples-1.0.2.dist-info/WHEEL,sha256=C8f_gqhOWmHrh81n3Ukx5iURrqMhsHla81fuY1yuwvs,90
+itr_examples-1.0.2.dist-info/entry_points.txt,sha256=bUXUFG8fV3dxO6a5HCQHqOCvzIpn_BbI9h4AhKGx2LE,53
+itr_examples-1.0.2.dist-info/licenses/AUTHORS.rst,sha256=eO9m9xo5CwJcOW2sxAFULNc8g8Y0p6IpFGkCYG2vSfw,133
+itr_examples-1.0.2.dist-info/licenses/LICENSE.txt,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+itr_examples-1.0.2.dist-info/RECORD,,

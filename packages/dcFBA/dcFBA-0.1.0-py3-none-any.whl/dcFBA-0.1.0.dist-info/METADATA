@@ -1,0 +1,84 @@
+Metadata-Version: 2.1
+Name: dcFBA
+Version: 0.1.0
+Summary: Python package for Dynamic Community FBA
+Author-email: Steven Wijnen <steven.wijnen@icloud.com>, Francesco Moro <f.moro@vu.nl>, Brett Olivier <b.g.olivier@vu.nl>
+License: MIT License
+        
+        Copyright (c) 2023 Steven Wijnen
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/SystemsBioinformatics/dynamic-community-fba
+Project-URL: Bug Tracker, https://github.com/SystemsBioinformatics/dynamic-community-fba/issues
+Project-URL: Docs, https://dynamic-community-fba.readthedocs.io/en/latest/index.html
+Keywords: Microbial Community,Systems Biology,Dynamic FBA,Genome Scale Models
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: <3.11,>=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cbmpy >=0.8.8
+Requires-Dist: pyparsing >=3.0
+
+# Dynamic Community FBA
+
+Welcome to Dynamic Community FBA (dcFBA): The Python package that makes modeling Microbial Communities dynamically a breeze!
+
+This project is licensed under the MIT License - please refer to the [LICENSE](LICENSE) file for more details.
+
+## About
+
+Dynamic Community FBA (dcFBA) is a versatile tool designed for modeling microbial communities as single organisms using Genome Scale Metabolic Models (GSMMs). This package builds upon the solid foundation of [cbmpy](https://github.com/SystemsBioinformatics/cbmpy) and seamlessly integrates with SBML and COBRApy models. dcFBA empowers users with three distinct dynamic modeling methods:
+
+1. **Dynamic Joint FBA** - Incrementally updates the concentrations of biomass and metabolites within the combined stoichiometric matrix of the provided models.
+
+2. **Dynamic Parallel FBA** - Simultaneously updates the concentrations of biomass and metabolites while performing FBA on individual models.
+
+3. **EndPointFBA** - Duplicates the CommunityMatrix N times and performs FBA on the community's time-dependent stoichiometric matrix.
+
+For a comprehensive understanding of these methods and their underlying mathematics, please consult [^1].
+
+Whether you're exploring parasitic interactions or investigating costly cross-feeding behaviors in microbial communities, dcFBA offers an elegant and efficient solution.
+
+## Installation
+
+### Prerequisites
+
+Before installing dcFBA, make sure you have the following prerequisites in place:
+
+- Python >= 3.8, < 3.11
+- [cbmpy](https://github.com/SystemsBioinformatics/cbmpy)
+- [cplex](https://www.ibm.com/products/ilog-cplex-optimization-studio)
+
+### Installation Steps
+
+To install dcFBA, follow these simple steps:
+
+1. Install using pip:
+
+    ```bash
+    pip install dcFBA
+    ```
+
+## Usage
+
+For basic usage examples and detailed documentation on both [cbmpy](https://pythonhosted.org/cbmpy/modules_doc.html) and [dcFBA](https://dynamic-community-fba.readthedocs.io/en/latest), please refer to their respective documentation pages.
+
+[^1]: [Cite paper.]

@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=40.8.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dcFBA"
+version = "0.1.1"
+authors = [
+  { name="Steven Wijnen", email="steven.wijnen@icloud.com" },
+  { name="Francesco Moro", email="f.moro@vu.nl" },
+  { name="Brett Olivier", email="b.g.olivier@vu.nl" }
+]
+license = { file = "LICENSE" }
+description = "Python package for Dynamic Community FBA"
+readme = "README.md"
+requires-python = ">=3.8,<3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+keywords = ["Microbial Community", "Systems Biology", "Dynamic FBA", "Genome Scale Models"]
+dependencies = [
+  "cbmpy >= 0.8.8",
+  "pyparsing >= 3.0",
+]
+
+[project.urls]
+homepage = "https://github.com/SystemsBioinformatics/dynamic-community-fba"
+bug-tracker = "https://github.com/SystemsBioinformatics/dynamic-community-fba/issues"
+docs = "https://dynamic-community-fba.readthedocs.io/en/latest/index.html"

@@ -1,0 +1,2 @@
+cbmpy>=0.8.8
+pyparsing>=3.0

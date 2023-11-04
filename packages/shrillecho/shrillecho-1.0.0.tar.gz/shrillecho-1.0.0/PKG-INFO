@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: shrillecho
+Version: 1.0.0
+Summary: Music Tool
+Author: simon balfe
+Author-email: sbmain17@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: python-dotenv (>=1.0.0,<1.1.0)
+Requires-Dist: spotipy (>=2.23.0,<2.24.0)

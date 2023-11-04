@@ -1,0 +1,6 @@
+requests_utils==0.4.1
+tqdm
+typing_extensions
+rich
+demjson3
+Pillow

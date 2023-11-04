@@ -1,0 +1,12 @@
+pymmcore/pymmcore_swig.i,sha256=ROtn7osOsd3xLiVvEQqlxshs7EQUUTIQtcZ1rifIBdQ,14584
+pymmcore/__init__.pyi,sha256=N7_Y73Frih4OKeCmpUFmKKoUWRdsW8ioH5F16TKmZSk,59793
+pymmcore/_version.py,sha256=n0can99I0SWoGzrTBy-EOe6lzpgz9qnzCzbxAg2eSMU,28
+pymmcore/__init__.py,sha256=PKsjZqjP333KQDIm5KyoCyUUvTPX_FKp3HCcIsIVdFk,63
+pymmcore/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pymmcore/_pymmcore_swig.cpython-38-darwin.so,sha256=vHjprKpmEF5Grn2xguEFR7OqEg2J_3TIS1mcPScIrO0,3176816
+pymmcore/pymmcore_swig.py,sha256=88wbjFhIPZr0kmyoyoZrGqD4tfCWAFYKnvmsxZlXhGU,432
+pymmcore-11.0.0.71.0.dist-info/RECORD,,
+pymmcore-11.0.0.71.0.dist-info/WHEEL,sha256=7bITxp1IXfScHG_aHqjgl3cb1WeEQowtBiPLTHk6_e8,109
+pymmcore-11.0.0.71.0.dist-info/top_level.txt,sha256=LLsniaDErduTM0iXWVmNp19PlgsFeVo4qI8_Vucc0LM,9
+pymmcore-11.0.0.71.0.dist-info/LICENSE.txt,sha256=3GJlINzVOiL3J68-5Cx3DlbJemT-OtsGN5nYqwMv5VE,26530
+pymmcore-11.0.0.71.0.dist-info/METADATA,sha256=m7uSLhdi6DEmqiGgOe5oe2gqTmH4lc9EAIL4rXOLVqk,6492

@@ -1,0 +1,12 @@
+*.pyc
+.idea
+*.shp
+*.prj
+*.shx
+*.dbf
+*.tif
+*.tiff
+*.h5
+*.gpkg
+docs/_build
+docs/api

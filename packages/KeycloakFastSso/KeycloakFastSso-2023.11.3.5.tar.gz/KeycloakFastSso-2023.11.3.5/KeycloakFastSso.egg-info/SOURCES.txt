@@ -1,0 +1,6 @@
+README.md
+setup.py
+KeycloakFastSso.egg-info/PKG-INFO
+KeycloakFastSso.egg-info/SOURCES.txt
+KeycloakFastSso.egg-info/dependency_links.txt
+KeycloakFastSso.egg-info/top_level.txt

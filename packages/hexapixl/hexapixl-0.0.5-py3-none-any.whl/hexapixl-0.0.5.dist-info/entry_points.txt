@@ -1,0 +1,2 @@
+[console_scripts]
+hexapixl = hexapixl.main:main

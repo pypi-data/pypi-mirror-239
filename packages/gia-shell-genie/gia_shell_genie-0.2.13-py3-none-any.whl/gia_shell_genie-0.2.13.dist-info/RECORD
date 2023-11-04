@@ -1,0 +1,10 @@
+gia_shell_genie/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gia_shell_genie/aliases.yml,sha256=8eprveA-bxa5KHk3HSVAi0SRApRKdb3kwBQpZNe653M,434
+gia_shell_genie/backends.py,sha256=qNU6Bsi8jT2njvHhCO3j--embOEaFSRveBAKEUodKSk,4157
+gia_shell_genie/main.py,sha256=ZZLWPUGe-LAveX_B7k71xqtLY-AYQozc38DSrvrFkOI,4295
+gia_shell_genie/utils.py,sha256=JRx24Ld377vFxWmh5xRZkYjWBKMWGt1BW4FvX-c8ekk,1111
+gia_shell_genie-0.2.13.dist-info/LICENSE,sha256=M-2cLcA9VYuFgmLncmWUmDHRhDcSLsQXeYUHh8ddriw,1071
+gia_shell_genie-0.2.13.dist-info/METADATA,sha256=vFM2jFVxCSbmJd81SOGV289FgJGM1xwQoPkbDDcTWLk,4563
+gia_shell_genie-0.2.13.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+gia_shell_genie-0.2.13.dist-info/entry_points.txt,sha256=Cp0vTrnNnxfbLpim0YDyis46tIYQmVN6pYY8h_B7O8U,60
+gia_shell_genie-0.2.13.dist-info/RECORD,,

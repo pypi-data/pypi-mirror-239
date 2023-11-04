@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools ~= 67.8", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.ruff]
+select = [
+    "F", # https://beta.ruff.rs/docs/rules/#pyflakes-f
+    "E", # https://beta.ruff.rs/docs/rules/#pycodestyle-e-w
+    "W", # https://beta.ruff.rs/docs/rules/#pycodestyle-e-w
+    "I", # https://beta.ruff.rs/docs/rules/#isort-i
+    "N", # https://beta.ruff.rs/docs/rules/#pep8-naming-n
+    "D", # https://beta.ruff.rs/docs/rules/#pydocstyle-d
+    "B", # https://beta.ruff.rs/docs/rules/#flake8-bugbear-b
+    "DJ", # https://beta.ruff.rs/docs/rules/#flake8-django-dj
+]
+ignore = [
+    "E501",  # line too long, handled by black
+    "D203", # conflict with D211
+    "D213", # conflict with D212
+    "D100", # most Django-related modules are obvious and not need specific documentation
+]
+exclude = [".venv"]
+
+[tool.mypy]
+plugins = ["mypy_django_plugin.main"]
+files = ["."]
+exclude = ["^.venv/"]
+
+check_untyped_defs = true
+no_implicit_reexport = true
+warn_unreachable = true
+warn_unused_configs = true
+warn_unused_ignores = true
+warn_redundant_casts = true
+disallow_untyped_defs = true
+
+[tool.django-stubs]
+django_settings_module = "tests.test_settings"

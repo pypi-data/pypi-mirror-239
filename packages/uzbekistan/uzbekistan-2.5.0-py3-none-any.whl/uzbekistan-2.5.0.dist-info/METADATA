@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: uzbekistan
+Version: 2.5.0
+Summary: Full Database of Uzbekistan Regions, Districts & Quarters with Latin, Cyrillic and Russian versions.
+Home-page: https://github.com/ganiyevuz/uzbekistan
+Author: Jakhongir Ganiev
+Author-email: ganiyevuzb@gmail.com
+Keywords: uzbekistan regions districts
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: Django >=4.0
+Requires-Dist: djangorestframework
+Requires-Dist: django-filter
+
+# 🌍 Regions, Districts &amp; Quarters Database
+
+Full Database of Uzbekistan Regions, Districts &amp; Quarters with
+Latin, Cyrillic and Russian versions.
+
+## Insights
+
+Total Regions : 14 <br>
+Total Regions/Cities : 205 <br>
+Total Towns/Districts : 2,183+ <br>
+
+Last Updated On : 5th June 2022
+
+## Change logs
+
+A new version available that includes many updates.
+
+- Added **villages** table covering towns and districts has been added,
+- Deprecated **Quarters** table (Available in MySQL and MSSQL backups),
+- Added **Ko‘kdala tumani**
+- etc...
+
+## Suggestions / Feedbacks
+
+```
+Suggestions & Feedbacks are Most Welcome
+```
+
+That's all Folks. Enjoy😊!

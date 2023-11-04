@@ -1,0 +1,2 @@
+aioimaplib>=1.0.1
+aiosocks>=0.2.6

@@ -1,0 +1,2 @@
+[napari.manifest]
+set-calibration = set_calibration:napari.yaml

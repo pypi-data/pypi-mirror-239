@@ -1,0 +1,9 @@
+README.md
+setup.py
+gameFun/__init__.py
+gamefun.egg-info/PKG-INFO
+gamefun.egg-info/SOURCES.txt
+gamefun.egg-info/dependency_links.txt
+gamefun.egg-info/not-zip-safe
+gamefun.egg-info/requires.txt
+gamefun.egg-info/top_level.txt

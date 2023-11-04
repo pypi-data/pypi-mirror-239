@@ -1,0 +1,37 @@
+image: ghcr.io/webis-de/archive-query-log
+
+buildSources:
+  enabled: true
+  schedule: "0 4 * * 2,4"
+  completions: 50
+  parallelism: 25
+  backoffLimit: 25
+  ttlMinutesAfterFinished: 15
+
+fetchCaptures:
+  enabled: true
+  schedule: "1/10 * * * *"
+  completions: 100
+  parallelism: 100
+  backoffLimit: 50
+  ttlMinutesAfterFinished: 5
+
+importCapturesAql22:
+  enabled: true
+  dataDir: /mnt/ceph/storage/data-in-progress/data-research/web-search/archive-query-log/focused
+  completions: 729  # The number of search providers.
+  parallelism: 50
+  backoffLimit: 25
+
+monitoring:
+  ingressClassName: nginx
+  host: aql-monitoring.srv.webis.de
+  path: /
+  replicas: 2
+  forceSslRedirect: true
+
+elasticsearch:
+  host: elasticsearch.srv.webis.de
+  port: 9200
+  username: null # Override username with `--set elasticsearch.username=EXAMPLE` Helm option.
+  password: null # Override username with `--set elasticsearch.password=EXAMPLE` Helm option.

@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+TXTanalyzer/TXTanalyzer.py
+TXTanalyzer/TXTsummarizer.py
+TXTanalyzer/__init__.py
+TXTanalyzer.egg-info/PKG-INFO
+TXTanalyzer.egg-info/SOURCES.txt
+TXTanalyzer.egg-info/dependency_links.txt
+TXTanalyzer.egg-info/requires.txt
+TXTanalyzer.egg-info/top_level.txt

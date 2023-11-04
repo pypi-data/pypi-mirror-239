@@ -1,0 +1,5 @@
+nltk
+spacy
+matplotlib
+math
+wordcloud

@@ -1,0 +1,13 @@
+py_directus/__init__.py,sha256=AcgGASMUzrTEYdkAGf9EFm88W-AkPYt2LTl6NM1HqNk,53
+py_directus/aggregator.py,sha256=VXkg1EoiaboBOMekiFGOkLWzMkVXOI_0wJrjWEJqmmo,2623
+py_directus/directus.py,sha256=ixpu5RW7370BiqP1wHav1czjxZD4-zEFJjhiJTgktkQ,7543
+py_directus/directus_request.py,sha256=Ver9kMfl8ULtkf3tUiTDzV0EjbmlmBGH6uwTPTb841s,7690
+py_directus/directus_response.py,sha256=DKxU2T9y-H8l0JV5zXvq0ZQY4KBcyF3beuOJUdFn4l8,4127
+py_directus/filter.py,sha256=vU0y0U7qfJOwvTM5L9S7GKAr7UJOWYerZ_H-VQ9fmSk,3780
+py_directus/models.py,sha256=9QxNOQiid8Bfkf0cLmGiDrVBdfZk1-BBk3TtNL1UFNY,634
+py_directus/operators.py,sha256=hVbXL8dwjsZX1d5JlsSruvfW1yaMhXgcG7MwvBJvrOI,1870
+py_directus/utils.py,sha256=iEnv0jhSKvYS1FQO6hW_69DIkQYIYf8zuY7ducF_A0s,425
+py_directus-0.0.4.dist-info/METADATA,sha256=W-fsVWecnXYVGONFKcvbGcjhzVaA1FwpPMSaVrIPqag,10080
+py_directus-0.0.4.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+py_directus-0.0.4.dist-info/top_level.txt,sha256=M9M_Wmhd1Q22DXmcCt3YRXS48_BnPkzdBnl8syPMv1w,12
+py_directus-0.0.4.dist-info/RECORD,,

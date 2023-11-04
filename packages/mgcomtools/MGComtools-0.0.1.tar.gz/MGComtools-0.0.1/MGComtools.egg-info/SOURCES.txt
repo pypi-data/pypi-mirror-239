@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+MGComtools/MGComtools.py
+MGComtools/__init__.py
+MGComtools.egg-info/PKG-INFO
+MGComtools.egg-info/SOURCES.txt
+MGComtools.egg-info/dependency_links.txt
+MGComtools.egg-info/top_level.txt

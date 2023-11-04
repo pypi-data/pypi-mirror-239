@@ -1,0 +1,6 @@
+syndb_constants/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+syndb_constants/dataset.py,sha256=1R19Sx7JhlfJDluTTzf2UdlcI70Ul9n8Yh21dErVYG4,58
+syndb_constants/table.py,sha256=Ikh_eP4pGjVuw8ibTwRo9fFy95VmmkerDFwbpgCe1Y4,1832
+syndb_constants-0.1.0.dist-info/METADATA,sha256=CUHFdNAJFD4R1c69sStbVGZkhDdv0kmDd5WoCXLFlWU,425
+syndb_constants-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+syndb_constants-0.1.0.dist-info/RECORD,,

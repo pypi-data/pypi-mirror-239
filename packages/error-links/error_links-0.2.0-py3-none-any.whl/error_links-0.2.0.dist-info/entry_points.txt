@@ -1,0 +1,3 @@
+[console_scripts]
+error-links=error_links.__main__:run
+

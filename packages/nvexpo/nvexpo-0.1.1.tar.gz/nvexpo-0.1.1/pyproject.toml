@@ -1,0 +1,54 @@
+[tool.poetry]
+name = "nvexpo"
+version = "0.1.1"
+description = ""
+authors = ["kirbylife <kirbylife@protonmail.com>"]
+readme = "README.md"
+license = "MIT"
+repository = "https://git.kirbylife.dev/kirbylife/nvexpo"
+keywords = ["cli", "bash", "export", "env var"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.scripts]
+nvexpo = "nvexpo:main"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.1.3"
+mypy = "^1.6.1"
+
+[tool.poe.tasks]
+format = "ruff format nvexpo"
+linter = "ruff nvexpo"
+typing = "mypy nvexpo"
+
+[tool.ruff]
+target-version = "py38"
+line-length = 120
+indent-width = 4
+
+[tool.ruff.lint]
+select = ["ALL"]
+ignore = [
+       "EXE001",
+       "D100",
+       "D101",
+       "D103",
+       "D104",
+       "PLR0911",
+       "T201",
+       "PLR2004",
+       "FA102",
+       "PLW2901",
+       "N812"
+]
+fixable = ["ALL"]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

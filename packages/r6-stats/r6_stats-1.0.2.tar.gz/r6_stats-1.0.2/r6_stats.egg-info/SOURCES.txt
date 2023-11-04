@@ -1,0 +1,13 @@
+setup.py
+r6_stats/__init__.py
+r6_stats/general_stats.py
+r6_stats/level.py
+r6_stats/profile_views.py
+r6_stats/rank_icon.py
+r6_stats/ranked_stats.py
+r6_stats/season_info.py
+r6_stats.egg-info/PKG-INFO
+r6_stats.egg-info/SOURCES.txt
+r6_stats.egg-info/dependency_links.txt
+r6_stats.egg-info/requires.txt
+r6_stats.egg-info/top_level.txt

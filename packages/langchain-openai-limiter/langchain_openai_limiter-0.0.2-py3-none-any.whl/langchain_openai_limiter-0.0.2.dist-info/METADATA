@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: langchain-openai-limiter
+Version: 0.0.2
+Summary: Wrapper for Langchain & OpenAI api calls which use OpenAI headers to deal with TPM & RPM.
+Home-page: https://github.com/alex4321/langchain-openai-limiter
+Author: Alexander Pozharskii
+Author-email: gaussmake@gmail.com
+License-File: LICENSE
+Requires-Dist: aiohttp >=3.8.6
+Requires-Dist: openai >=0.28.1
+Requires-Dist: requests >=2.31.0
+Requires-Dist: langchain >=0.0.329
+Requires-Dist: tiktoken >=0.5.1
+Requires-Dist: transformers >=4.35.0
+Provides-Extra: dev
+Requires-Dist: pytest >=7.4.1 ; extra == 'dev'
+Requires-Dist: pytest-asyncio >=0.21.1 ; extra == 'dev'
+Requires-Dist: numpy >=1.26.1 ; extra == 'dev'
+

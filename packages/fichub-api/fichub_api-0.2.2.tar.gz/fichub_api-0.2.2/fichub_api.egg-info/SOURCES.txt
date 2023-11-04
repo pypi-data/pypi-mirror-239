@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+fichub_api/__init__.py
+fichub_api/py.typed
+fichub_api.egg-info/PKG-INFO
+fichub_api.egg-info/SOURCES.txt
+fichub_api.egg-info/dependency_links.txt
+fichub_api.egg-info/requires.txt
+fichub_api.egg-info/top_level.txt
+tests/test.py

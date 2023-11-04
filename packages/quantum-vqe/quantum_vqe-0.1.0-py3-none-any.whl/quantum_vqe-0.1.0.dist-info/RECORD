@@ -1,0 +1,10 @@
+quantum_vqe/__init__.py,sha256=Ke_ZnPPyDMpw6KdYGjllDm2YxY_MHrUxvsVJhQG4EbM,22
+quantum_vqe/utils.py,sha256=CMoJG09DAawuKB_HxtZ7Mhwv-21tqbzFyUECPbyk48Y,440
+quantum_vqe/vqe.py,sha256=9RsjhPz_FMgdqZlfWl483yy68YXmrWEolHuKn9rRGUU,2973
+tests/__init__.py,sha256=Ke_ZnPPyDMpw6KdYGjllDm2YxY_MHrUxvsVJhQG4EbM,22
+tests/test_vqe.py,sha256=Mv-3nMs6V91kJNtf54qRNGltI43tK3GBpC0Z6QUMve8,906
+quantum_vqe-0.1.0.dist-info/LICENSE.md,sha256=CLZPGNkVwHDxiKAdFFmrWybu9ltr3E-MK5TrqTcsytc,1144
+quantum_vqe-0.1.0.dist-info/METADATA,sha256=p4kNfY0n-SJKI1YqaeAFn0MjSJUGFr6in5W0IWbVhg4,3041
+quantum_vqe-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+quantum_vqe-0.1.0.dist-info/top_level.txt,sha256=oVYqonBJVayfgpw9pe5lrLH73VOOD1m5yf4a98aIInU,18
+quantum_vqe-0.1.0.dist-info/RECORD,,

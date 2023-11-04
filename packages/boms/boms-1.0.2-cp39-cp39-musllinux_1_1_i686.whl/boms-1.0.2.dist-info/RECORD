@@ -1,0 +1,11 @@
+boms_wrapper.cpython-39-i386-linux-gnu.so,sha256=OjTIoI7yJrdH1cZdTaTsAW0kjfb3g_LoiHWnj4AqJd4,248413
+boms/main.py,sha256=lptgawwuy8PIP25jflVeMtM-DjK-5-o8TWHFtO8ICL8,2992
+boms/__init__.py,sha256=dG-tJvzUH42LCiQY_eWSszuj9s7bAdZJfjP4us78WXk,55
+boms/meanshift.hpp,sha256=Yi2zYTTXrULmO_mwCROc_fqO5oIdbbLFICZjNXqNPf8,386
+boms-1.0.2.dist-info/WHEEL,sha256=g-ILHSDJAZn9Tq6wbFm4bh4y5HUjDyVx5noNfh_umjU,109
+boms-1.0.2.dist-info/LICENSE,sha256=Y1YNySY42NFRTbOeyj6JY7b9tuzY3VbQ4asizpve3F8,1058
+boms-1.0.2.dist-info/RECORD,,
+boms-1.0.2.dist-info/top_level.txt,sha256=NShj10cj0e9Nfstt4EXUYbbX7DGUfAYjxveQSVcVuNw,18
+boms-1.0.2.dist-info/METADATA,sha256=i51Gkw0X1mSfHb8VGPSU4pD-D1Eynf5jJzhiWuhMNow,1841
+boms.libs/libstdc++-8baf04f9.so.6.0.28,sha256=yrzOxg1heyJ9Y-43YCLLn04Cpl_A68FN0D2Q1iBTMcY,2428961
+boms.libs/libgcc_s-8b50eaaa.so.1,sha256=WXj_FYQE1MDIyb-nN8siUALdxit6NHma0p9UxemQV8o,101649

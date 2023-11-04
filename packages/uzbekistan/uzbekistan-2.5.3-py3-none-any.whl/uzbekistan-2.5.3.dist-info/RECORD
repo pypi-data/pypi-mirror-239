@@ -1,0 +1,16 @@
+uzbekistan/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+uzbekistan/admin.py,sha256=suMo4x8I3JBxAFBVIdE-5qnqZ6JAZV0FESABHOSc-vg,63
+uzbekistan/apps.py,sha256=WOvRtH9sp00YFDygZ_vLO62d7FoAWfambXwmpPN2ujw,152
+uzbekistan/models.py,sha256=khifT9LSUO9SuT_x7rJ1p2kekl5G5SB7MFKzQytvdCc,507
+uzbekistan/serializers.py,sha256=rNd14Uo_8J8gL-YB3k8LdFuxkHIyAsn2iVb5caLnsI8,335
+uzbekistan/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+uzbekistan/urls.py,sha256=ExINeP0L1-vCsaWZotD1x7a-VAqGwimgRv8T3NZjAAU,281
+uzbekistan/utils.py,sha256=fUW6uBIM-JvnUo73m6OzqIZhzjO08wF8gRSbFxfyflQ,997
+uzbekistan/views.py,sha256=8IB5ugqbWmip6SOuTUYxfitYoFbgekhKV9KWDwWHjNQ,816
+uzbekistan/fixtures/districts.yaml,sha256=aRlnRgO92zzZrwSSIXtlYsnmoV7BPeBdYrkf9LIXLZk,37564
+uzbekistan/fixtures/regions.yaml,sha256=JN99PyK89jdsojCa-izVF-4NSBflqkp49NRIOlSPzXc,2443
+uzbekistan/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+uzbekistan-2.5.3.dist-info/METADATA,sha256=zrWan7BjE-KG3TTmBrUmFV1wlKQV6ck69tsmWA8fS0I,1748
+uzbekistan-2.5.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+uzbekistan-2.5.3.dist-info/top_level.txt,sha256=J7WFKp5ZvD2xnUDSrVHh4Hd13HnafHKSReioEX5wMuE,11
+uzbekistan-2.5.3.dist-info/RECORD,,

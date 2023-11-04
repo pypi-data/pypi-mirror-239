@@ -1,0 +1,13 @@
+shoal_agent/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shoal_agent/__version__.py,sha256=tTF5v0pCQ3wj3WtOg6KXgEGkOMgBeRFQACKUYV29zxo,18
+shoal_agent/config.py,sha256=QWxZrT9J3C_PxMTvhGEIdIy56v4gLHo_oozyCjqWgd8,7010
+shoal_agent-1.0.2.data/data/share/shoal-agent/shoal-agent.init,sha256=SnnvPLp-yOzFKG0JSJxAcZyxsFiTAOK_Fyf66TBf7Ro,2615
+shoal_agent-1.0.2.data/data/share/shoal-agent/shoal-agent.logrotate,sha256=TFpV3NK4NW5OLeN2cz-k9dhcU-K_HveyKgcijIq3R7o,108
+shoal_agent-1.0.2.data/data/share/shoal-agent/shoal-agent.service,sha256=eyNfULeH0KdZ1WT8zuW9ffmSYkymx_Fu-9b1dWDgR9I,238
+shoal_agent-1.0.2.data/data/share/shoal-agent/shoal_agent.conf,sha256=L3aP2ZA7y5YOvRp1z682e_-ExOiK6f0QW72fQCC8ZO8,1632
+shoal_agent-1.0.2.data/scripts/shoal-agent,sha256=hnbdJM2kHKgvHcLGBr6jvV7P_7pOWPdz-8mQQUbHcX4,13356
+shoal_agent-1.0.2.data/scripts/shoal-agent-installation.sh,sha256=mMkg5PXBT-EZbGITSUP2-RFknnp1Uj3YqfNuqG4FX9M,8066
+shoal_agent-1.0.2.dist-info/METADATA,sha256=xT9VSxoQnira70Jm8bM8azV9xCsViGw7QCpQHxS8SiU,2542
+shoal_agent-1.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+shoal_agent-1.0.2.dist-info/top_level.txt,sha256=YOn9HnSrpOvCxjiwByGrEIUtxQ4IhUuKXDIVUaKSFpc,12
+shoal_agent-1.0.2.dist-info/RECORD,,

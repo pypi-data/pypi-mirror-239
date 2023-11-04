@@ -1,0 +1,7 @@
+setup.py
+package/__init__.py
+package/hello.py
+phrenk10_meganew.egg-info/PKG-INFO
+phrenk10_meganew.egg-info/SOURCES.txt
+phrenk10_meganew.egg-info/dependency_links.txt
+phrenk10_meganew.egg-info/top_level.txt

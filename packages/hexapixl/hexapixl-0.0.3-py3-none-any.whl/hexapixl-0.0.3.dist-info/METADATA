@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: hexapixl
+Version: 0.0.3
+Summary: png <-> hex
+Author: werzq
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+
+Converts png to hex and hex to png format

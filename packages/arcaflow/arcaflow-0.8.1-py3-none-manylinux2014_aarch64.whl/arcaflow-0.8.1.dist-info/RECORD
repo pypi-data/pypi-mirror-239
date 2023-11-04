@@ -1,0 +1,9 @@
+arcaflow/__init__.py,sha256=CUhUx6lysZWpe0pbRs1VBOTFfjk94482OR6LbjmOEhg,49
+arcaflow/arcaflow.py,sha256=GTxTLM0sOqaDE5WqnOzbxXt7e0mHCNqYkFmqMk5-laI,1230
+arcaflow/engineargs.py,sha256=zuvcGYEFcejOeQnNz3RlGC6uceDWKJYVyZQhpPB21LA,112
+arcaflow/bin/arcaflow,sha256=A1tlwXKwB0fCRpOCTVS3usO_i5XUQANuGk3MD0jw5NQ,34734080
+arcaflow-0.8.1.dist-info/LICENSE,sha256=DVQuDIgE45qn836wDaWnYhSdxoLXgpRRKH4RuTjpRZQ,10174
+arcaflow-0.8.1.dist-info/METADATA,sha256=dy2gVyFxO2otQgZ3tRilcmIXk_4aD_Oz2PIFMJCiJ7M,227
+arcaflow-0.8.1.dist-info/WHEEL,sha256=g0LP4UAKph6qZxyqYNvWGtZyMcc_10JDLXLy0EQscdw,110
+arcaflow-0.8.1.dist-info/top_level.txt,sha256=xnaAA3L1sqZs3Ki6OYGtIpdEW0wOWE36hWgEeribyHs,9
+arcaflow-0.8.1.dist-info/RECORD,,

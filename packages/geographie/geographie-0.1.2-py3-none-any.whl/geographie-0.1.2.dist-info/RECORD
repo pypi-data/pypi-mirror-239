@@ -1,0 +1,15 @@
+pymap/__init__.py,sha256=M8LdlmriW3I-s_Byvi3kfI03GT00yLwYoXTGg_DjayQ,360
+pymap/choroplethcolourrange.py,sha256=bmbuybHWB8eHYpg7fuNbXWEBcz0DTOHQTFVtwtzNwT0,368
+pymap/choroplethcolourscheme.py,sha256=QYu-WglGKYDektziAueRJeonpKebA3sUJC10m0zECXg,5348
+pymap/coordinates.py,sha256=9Q0VZDh_D1fOu7e1Vi-Q-X1gDqQO4HfEbjiLMe2yFJ4,2887
+pymap/from_csv.py,sha256=Xe2dEDCI2_hhzvFPWy7bD3IWGPSR6fQquU-bFRFq_hs,779
+pymap/from_geojson.py,sha256=MTjmoEhu6tMr05_ox8rOLhrYzpfY4hyT21D19ARnRl8,3705
+pymap/from_shapefile.py,sha256=RK53wVChu1p8ydPb4ishkfY7_c4UeMpoLKOtlcUbxgw,3070
+pymap/infobox.py,sha256=d0LzdVZFd_THi_f7YjhSrW8LMnaw8cNtittjC9lOJH8,2417
+pymap/mapdata.py,sha256=h2gbltXlg3wiMWE1wefAw3Eg51MsTR3BjQ5jybjE8k4,534
+pymap/pymap.py,sha256=uxzFXSAAwbLVGRyqriwAxcEufpORFSdvXm6t4UM8hl8,19151
+pymap/svgmap.py,sha256=iZvFpKeWvmMfgqp-PMjoogkbb_pSuVmrZ8VNM76FM9k,3442
+geographie-0.1.2.dist-info/METADATA,sha256=9St-d7_ItSpouK5PTvByxL9SsTNkoiykhPpu7PSFqz0,275
+geographie-0.1.2.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+geographie-0.1.2.dist-info/top_level.txt,sha256=UlFOueh2x6q-scWivHRjOoZF2Wvf3r0lb0jXIkk13kU,6
+geographie-0.1.2.dist-info/RECORD,,

@@ -1,0 +1,82 @@
+Metadata-Version: 2.1
+Name: stateless
+Version: 0.1.0
+Summary: 
+Author: suned
+Author-email: sd@dybro-debel.dk
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: typing-extensions (>=4.8.0,<5.0.0)
+Description-Content-Type: text/markdown
+
+# stateless
+
+Statically typed, purely functional algebraic effects for Python.
+
+# Concepts
+
+
+## Actions, Effects and Handlers
+
+`stateless` is a purely functional effect system, that enables you to program without side-effects, even when writing code that needs to do IO, such as reading or writing from files, accessing the network etc.
+
+When programming with `stateless` you will describe your programs side-effects using the `stateless.Effect` type. This is in fact just a type alias, roughly equivalent to:
+
+
+```python
+from typing import Generator, Never, Any
+from stateless import Action
+
+
+Effect = Generator[stateless.Action | Exception, Never, Any]
+```
+(In reality its a bit more complicated. But for now, think of effects in `stateless` like this)
+
+In words: effects are generators of `stateless.Action` instances or exceptions, that can return anything. A `stateless.Action` instance in turn, describes a side-effect you want your program to perform.
+
+Lets begin with a simple example:
+
+```python
+from typing import Never
+
+from stateless.console import Input, Print
+from stateless import Effect
+
+
+def say_hello() -> Effect[Print, Never, None]:
+    name = yield from Input("What is your name?")
+    yield from Print(f"Hello, {name}!")
+```
+
+`stateless.console.Print` is a subtype of `stateless.Action`
+
+## Error Handling
+
+TODO
+
+
+## Scheduling and Retrying
+
+TODO
+
+
+## Async Actions
+
+TODO
+
+# Background
+
+- [Do be do be do (Lindley, McBride and McLaughlin)](https://arxiv.org/pdf/1611.09259.pdf)
+
+- [Handlers of Algebraic Effects (Plotkin and Pretnar)](https://homepages.inf.ed.ac.uk/gdp/publications/Effect_Handlers.pdf)
+
+# Similar Projects
+
+- [Unison Language](https://www.unison-lang.org/)
+
+- [Frank Language](https://github.com/frank-lang/frank)
+
+
+

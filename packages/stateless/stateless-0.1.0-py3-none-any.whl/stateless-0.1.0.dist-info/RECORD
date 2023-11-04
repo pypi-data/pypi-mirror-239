@@ -1,0 +1,9 @@
+stateless/__init__.py,sha256=rRqCAjMf3dPqcDGMhVK4Ml_cEGtrgeGS8JSmz9yCZ2k,123
+stateless/action.py,sha256=Kn0UT1V2N6js1tZUO5u8vsPg5kX4VjJKugL04ZvEDzw,996
+stateless/console.py,sha256=_vOEBXclVoqdnKfcX_KemIQcZkvnaWbsaI4PizFuU6U,603
+stateless/effect.py,sha256=kNo6MIqsLJAco7MEFtFiGBcZawcI6WyKfLViuxVP6K8,339
+stateless/files.py,sha256=NUWsv2dYEVNstnwcaJ5ncpfzHe70yolcBkrPV2_FHuI,873
+stateless/handler.py,sha256=6IU3wQjkIJZZQlpEA5KJF-NPI52G4S1KqdFI0fpmFuY,2540
+stateless-0.1.0.dist-info/METADATA,sha256=VhCTnyhafe3AFNWHAKqhZN2gANiPMP3ugzGSCPAfZ28,2135
+stateless-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+stateless-0.1.0.dist-info/RECORD,,

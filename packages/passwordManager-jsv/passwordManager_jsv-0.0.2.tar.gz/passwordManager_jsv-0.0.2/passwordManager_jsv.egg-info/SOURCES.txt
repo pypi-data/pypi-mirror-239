@@ -1,0 +1,9 @@
+README.md
+setup.py
+passmanager_jsv/__init__.py
+passmanager_jsv/passwd_manager.py
+passwordManager_jsv.egg-info/PKG-INFO
+passwordManager_jsv.egg-info/SOURCES.txt
+passwordManager_jsv.egg-info/dependency_links.txt
+passwordManager_jsv.egg-info/entry_points.txt
+passwordManager_jsv.egg-info/top_level.txt

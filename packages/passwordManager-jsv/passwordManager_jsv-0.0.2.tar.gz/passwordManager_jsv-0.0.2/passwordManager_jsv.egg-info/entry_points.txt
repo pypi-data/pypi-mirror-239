@@ -1,0 +1,2 @@
+[console_scripts]
+pass_manager = passmanager_jsv.passwd_manager:main

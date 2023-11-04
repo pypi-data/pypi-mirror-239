@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+AutoBET/__init__.py
+AutoBET.egg-info/PKG-INFO
+AutoBET.egg-info/SOURCES.txt
+AutoBET.egg-info/dependency_links.txt
+AutoBET.egg-info/top_level.txt

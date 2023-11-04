@@ -1,0 +1,7 @@
+setup.py
+shorten_text/__init__.py
+shorten_text/shorten.py
+shorten_text.egg-info/PKG-INFO
+shorten_text.egg-info/SOURCES.txt
+shorten_text.egg-info/dependency_links.txt
+shorten_text.egg-info/top_level.txt

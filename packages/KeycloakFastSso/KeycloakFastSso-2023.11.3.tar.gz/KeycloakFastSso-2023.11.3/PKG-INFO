@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: KeycloakFastSso
+Version: 2023.11.3
+Summary: 
+`keycloakfastsso` est un package Python qui facilite l'intégration de l'authentification Keycloak dans des applications construites avec le framework web FastAPI.
+
+Home-page: https://github.com/alexandre-meline/keycloakfasty
+Author: Alexandre Meline
+Author-email: alexandre.meline.dev@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN

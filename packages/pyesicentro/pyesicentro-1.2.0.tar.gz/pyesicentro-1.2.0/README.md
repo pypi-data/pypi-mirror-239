@@ -1,0 +1,1 @@
+A python library for use with ESI Centro RTP5 Smart Thermostat.

@@ -1,0 +1,23 @@
+[tool.pytest.ini_options]
+pythonpath = [
+    "src/"
+]
+
+[project]
+name = "pyesicentro"
+version = "1.2.0"
+authors = [
+  { name="John Martin McLaughlin", email="johnmartinmclaughlin@gmail.com" },
+]
+description = "A python library for use with ESI Centro RTP5 Smart Thermostat."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/johnmmclaughlin/pyesicentro"
+"Bug Tracker" = "https://github.com/johnmmclaughlin/pyesicentro/issues"

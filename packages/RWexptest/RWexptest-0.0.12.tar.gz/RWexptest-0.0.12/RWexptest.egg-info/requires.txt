@@ -1,0 +1,7 @@
+numpy
+scipy
+Bio
+pandas
+zipfile
+tarfile
+rarfile

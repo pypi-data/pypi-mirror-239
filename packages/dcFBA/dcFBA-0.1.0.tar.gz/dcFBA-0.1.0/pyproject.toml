@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+
+# [tool.setuptools.packages.find]
+# where = [""]
+
+
+[project]
+name = "dcFBA"
+version = "0.1.0"
+authors = [
+  { name="Steven Wijnen", email="steven.wijnen@icloud.com" },
+  { name="Francesco Moro", email="f.moro@vu.nl"}, 
+  { name="Brett Olivier", email="b.g.olivier@vu.nl"}
+]
+license = { file = "LICENSE" }
+description = "Python package for Dynamic Community FBA"
+readme = "README.md"
+requires-python = ">=3.8,<3.11"     #necesassry for cplex as there are only cplex versions for python 3.8, 3.9 and 3.10
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+keywords = ["Microbial Community", "Systems Biology", "Dynamic FBA", "Genome Scale Models"]
+dependencies = [
+  "cbmpy >= 0.8.8",
+  "pyparsing >= 3.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/SystemsBioinformatics/dynamic-community-fba"
+"Bug Tracker" = "https://github.com/SystemsBioinformatics/dynamic-community-fba/issues"
+"Docs" = "https://dynamic-community-fba.readthedocs.io/en/latest/index.html"
+
+

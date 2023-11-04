@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "hv4gha"
+version = "0.2.3"
+description = "Use HashiCorp Vault to manage a GitHub App's private RSA key."
+authors = ["Andreas Olsson <andreas@arrakis.se>"]
+repository = "https://github.com/andreaso/hv4gha"
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10, <3.13"
+cryptography = ">=41.0.4"
+requests = "^2.31.0"
+pydantic = "^2.1.1"
+
+[tool.poetry.group.dev.dependencies]
+isort = "^5.12.0"
+black = "^23.10.1"
+mypy = "^1.6.1"
+pylint = "^3.0.2"
+types-requests = "^2.31.0.10"
+pytest = "^7.4.3"
+
+[tool.isort]
+profile = "black"
+
+[tool.pylint.'MAIN']
+disable="duplicate-code,too-few-public-methods"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

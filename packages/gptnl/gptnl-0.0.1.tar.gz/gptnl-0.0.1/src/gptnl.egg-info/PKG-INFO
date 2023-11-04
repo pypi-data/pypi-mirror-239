@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: gptnl
+Version: 0.0.1
+Summary: A placeholder for the codebase of GPT-NL
+Author-email: Selmar Smit <selmar.smit@tno.nl>
+Project-URL: Press statement, https://www.tno.nl/nl/digitaal/digitale-innovatie/data-sharing/conversational-ai/gpt-nl-versterkt-nederlandse-autonomie
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# GPTNL Package
+This is a placeholder for the codebase of GPT-NL, implementation will follow 2024

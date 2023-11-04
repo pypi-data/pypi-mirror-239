@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/gptnl/__init__.py
+src/gptnl.egg-info/PKG-INFO
+src/gptnl.egg-info/SOURCES.txt
+src/gptnl.egg-info/dependency_links.txt
+src/gptnl.egg-info/top_level.txt

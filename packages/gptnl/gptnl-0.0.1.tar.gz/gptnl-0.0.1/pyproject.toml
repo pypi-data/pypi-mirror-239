@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gptnl"
+version = "0.0.1"
+authors = [
+  { name="Selmar Smit", email="selmar.smit@tno.nl" },
+]
+description = "A placeholder for the codebase of GPT-NL"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Development Status :: 1 - Planning",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Press statement" = "https://www.tno.nl/nl/digitaal/digitale-innovatie/data-sharing/conversational-ai/gpt-nl-versterkt-nederlandse-autonomie"

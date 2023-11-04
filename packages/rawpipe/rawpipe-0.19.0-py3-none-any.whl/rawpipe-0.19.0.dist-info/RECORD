@@ -1,0 +1,11 @@
+rawpipe/__init__.py,sha256=8qScdC5kuNY9P5qPHLj6J0mu0uNaaHflDVnGsVaMQck,1589
+rawpipe/rawpipe.py,sha256=Qy_H0DCDK_20qiD-ipix5GycJgf1B862EXPexcwCVPs,35761
+rawpipe/version.py,sha256=IPTpw_ZRkJdPKjp9ROF6sfDyeEv2IvChuvliVauZWvE,23
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/regression.py,sha256=kkElbd0BbRXD9uauYi_u03YPmWCpM1HX2xjxwyeGBpU,7192
+rawpipe-0.19.0.dist-info/LICENSE,sha256=bnRO5PlrqZn0km-PVB2Wxsup0AMBLacMxKmE3ch94AM,1063
+rawpipe-0.19.0.dist-info/METADATA,sha256=GXOE58Lb0XNCmmq8thI4A6flHO01qmU4_h6hxcXgbEM,358
+rawpipe-0.19.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+rawpipe-0.19.0.dist-info/top_level.txt,sha256=tUekisN99JJ4rTgBAv9IqioeDarlc2swmMeR7ZmvXX0,13
+rawpipe-0.19.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+rawpipe-0.19.0.dist-info/RECORD,,

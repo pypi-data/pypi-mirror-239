@@ -1,0 +1,15 @@
+dacwinapi/__init__.py,sha256=5lbJQ_A4ROF5Hr6quSyn14Me6xdSQ1I1i6lKUI3Yb1w,296
+dacwinapi/__main__.py,sha256=rSjLvxIC4shj36jDRjsIC0nbwp0_47-GFMnxrqvq-OQ,25
+dacwinapi/appuser.py,sha256=2tnuxCvzFM_e-ZrFOp55NZQYukQtZ7_9vRPX8dJj3xs,2957
+dacwinapi/base.py,sha256=cX3I4wZ7LXl2X3Fow82XgGlg9VWAGTdh9qEqHtN4ocI,1306
+dacwinapi/campaign.py,sha256=MLX7oSYhzZThYW4APCMouA0vYTlrLfNcWXuawKvuuFU,2160
+dacwinapi/event.py,sha256=V_NZic3GqwpHyd4kDhCp8a1LdKMUZi29_fmPBXD9zS8,1944
+dacwinapi/reward.py,sha256=4HfYI95ctjAhaiLO3mJY59-eOvgXrnDN5qGfgl-faBg,1230
+dacwinapi/utils/Class.py,sha256=C_PBbjTnGwCjB_EiL-FHnENCQGMRDE4R-81LA2ILxWI,425
+dacwinapi/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dacwinapi/utils/constants.py,sha256=L36JfvvYL0jHHiE4Sg3CAuQAxqiALr-JvLSazgeAMog,115
+dacwinapi-2.1.2.dist-info/LICENSE,sha256=ca-sV5RoU__dZ4g5wLYIExVYsttrFV_Xb5fAhKipaVY,1072
+dacwinapi-2.1.2.dist-info/METADATA,sha256=KHq_Pvtuh3NcnEo0uXNRsjqCXJa8XhUoUB4mz5ifW54,499
+dacwinapi-2.1.2.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+dacwinapi-2.1.2.dist-info/top_level.txt,sha256=PsVbPXZp-HVuWS6aljG5coO0el8yo5Rj_cf48-xdd-k,10
+dacwinapi-2.1.2.dist-info/RECORD,,

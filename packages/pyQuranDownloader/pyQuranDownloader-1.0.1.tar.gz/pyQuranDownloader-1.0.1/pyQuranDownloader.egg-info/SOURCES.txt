@@ -1,0 +1,10 @@
+README.md
+setup.py
+pyQuranDownloader/__init__.py
+pyQuranDownloader/__qurandownloader.py
+pyQuranDownloader/__reciter.py
+pyQuranDownloader.egg-info/PKG-INFO
+pyQuranDownloader.egg-info/SOURCES.txt
+pyQuranDownloader.egg-info/dependency_links.txt
+pyQuranDownloader.egg-info/requires.txt
+pyQuranDownloader.egg-info/top_level.txt

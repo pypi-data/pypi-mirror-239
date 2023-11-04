@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: pyQuranDownloader
+Version: 1.0.1
+Summary: A simple module written in Python3 that allows you to download and manage quran of multiple reciters from mp3quran.net
+Author: RKDev
+Requires-Dist: urllib3

@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+src/rotop/__init__.py
+src/rotop/__main__.py
+src/rotop/data_container.py
+src/rotop/gui_main.py
+src/rotop/rotop.py
+src/rotop/top_runner.py
+src/rotop/utility.py
+src/rotop.egg-info/PKG-INFO
+src/rotop.egg-info/SOURCES.txt
+src/rotop.egg-info/dependency_links.txt
+src/rotop.egg-info/entry_points.txt
+src/rotop.egg-info/requires.txt
+src/rotop.egg-info/top_level.txt

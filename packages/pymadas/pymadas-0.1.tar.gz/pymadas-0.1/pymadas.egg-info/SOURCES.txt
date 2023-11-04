@@ -1,0 +1,7 @@
+setup.py
+pymadas.egg-info/PKG-INFO
+pymadas.egg-info/SOURCES.txt
+pymadas.egg-info/dependency_links.txt
+pymadas.egg-info/entry_points.txt
+pymadas.egg-info/requires.txt
+pymadas.egg-info/top_level.txt

@@ -1,0 +1,27 @@
+[build-system]
+requires = [
+    "setuptools>=61.0.0",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "inliners"
+version = "0.0.1"
+description = "Parse a string representing multiple strings."
+readme = "README.rst"
+authors = [
+    { name = "Aaron Alphabet", email = "aaron.alphabet@posteo.org" },
+]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = []
+dependencies = [
+    "aaronparse>=0.2.0",
+]
+requires-python = ">=3.11"
+
+[project.license]
+file = "LICENSE.txt"

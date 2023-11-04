@@ -1,0 +1,10 @@
+phrenktest/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+phrenktest/hello.py,sha256=h0lMBZweo8MXYIZVi_2nAGYsgP6MpnXNpP8zhU9_qOE,17
+phrenktest/__pycache__/__init__.cpython-39.pyc,sha256=mOZgttixJetFXTfJuV1cAaF95rvXWoBvk9cOU7XqnEE,152
+phrenktest/__pycache__/hello.cpython-39.pyc,sha256=kBtog_S75PfeHehlEyynl_gYiaN3pIMM07NoryrLR_E,162
+phrenktest/othermodule/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+phrenktest/othermodule/hello2.py,sha256=7F_r-GXSZzUmDWrszc5HXLHMhy67cdH-rw5UPwhtKOw,10
+phrenktest-0.1.0.dist-info/METADATA,sha256=SZB7NmUOdO5qDE3uU_HCF99tHAuMkhx4kon76xpxEpk,91
+phrenktest-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+phrenktest-0.1.0.dist-info/top_level.txt,sha256=amO2CCCCgZTgmxStSI2KRw-RRAiRUJoolHjCf00aztE,11
+phrenktest-0.1.0.dist-info/RECORD,,

@@ -1,0 +1,37 @@
+{
+  "zip_filepath": "",
+  "output_folder": "",
+  "message": {
+    "author_headers": {
+      "system": "### System",
+      "user": "# Me",
+      "assistant": "# ChatGPT",
+      "tool": "### Tool output"
+    }
+  },
+  "conversation": {
+    "markdown": {
+      "latex_delimiters": "default"
+    },
+    "yaml": {
+      "title": true,
+      "tags": false,
+      "chat_link": true,
+      "create_time": true,
+      "update_time": true,
+      "model": true,
+      "used_plugins": true,
+      "message_count": true,
+      "content_types": true,
+      "custom_instructions": true
+    }
+  },
+  "wordcloud": {
+    "font_path": "assets\\fonts\\RobotoSlab-Thin.ttf",
+    "colormap": "prism",
+    "custom_stopwords": "use, file, "
+  },
+  "graph": {},
+  "node": {},
+  "conversation_set": {}
+}

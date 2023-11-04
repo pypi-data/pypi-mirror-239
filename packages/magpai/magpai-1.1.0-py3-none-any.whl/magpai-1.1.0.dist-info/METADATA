@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: magpai
+Version: 1.1.0
+Summary: Magpai python bindings
+Author-email: Ben <accounts@magpai.app>
+License: MIT License
+Project-URL: Homepage, https://magpai.app
+Keywords: magpai,ai,workflows,magpie
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: importlib-metadata ; python_version < "3.8"
+
+# magpai-python
+Python library for interacting with Magpai
+
+## Tests
+
+Environment variable `MAGPAI_API` must be set with a valid Magpai API key.

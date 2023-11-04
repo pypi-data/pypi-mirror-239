@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+easy_chrome/__init__.py
+easy_chrome/driver.py
+easy_chrome/element.py
+easy_chrome/utils.py
+easy_chrome/version.py
+easy_chrome.egg-info/PKG-INFO
+easy_chrome.egg-info/SOURCES.txt
+easy_chrome.egg-info/dependency_links.txt
+easy_chrome.egg-info/requires.txt
+easy_chrome.egg-info/top_level.txt

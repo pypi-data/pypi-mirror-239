@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: renovation
+Version: 0.0.1
+Summary: Drawing tool that produces floor plans needed to renovate an apartment.
+Home-page: https://github.com/Nikolay-Lysenko/renovation
+Author: Nikolay Lysenko
+Author-email: nikolay-lysenco@yandex.ru
+License: MIT
+Keywords: floor_plan,apartment
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: matplotlib
+
+# Renovation
+
+Drawing tool that produces floor plans needed to renovate an apartment.
+
+Coming soon.

@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: soupcsstools
+Version: 3.11.7
+Summary: CSS tools
+Author-email: Alex Gordon <alex32843@gmail.com>
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+[![Donate via PayPal][donate-image]][donate-link]
+[![Discord][discord-image]][discord-link]
+[![Build][github-ci-image]][github-ci-link]
+[![Coverage Status][codecov-image]][codecov-link]
+[![PyPI Version][pypi-image]][pypi-link]
+[![PyPI Downloads][pypi-down]][pypi-link]
+[![PyPI - Python Version][python-image]][pypi-link]
+![License][license-image-mit]
+
+# SoupExtraTools
+
+## Overview
+
+Little CSS tools lib for personal use

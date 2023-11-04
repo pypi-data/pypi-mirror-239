@@ -1,0 +1,7 @@
+setup.py
+dlcode/__init__.py
+dlcode/deepl.py
+dlcode.egg-info/PKG-INFO
+dlcode.egg-info/SOURCES.txt
+dlcode.egg-info/dependency_links.txt
+dlcode.egg-info/top_level.txt

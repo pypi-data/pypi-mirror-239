@@ -1,0 +1,1 @@
+print("easy input, Feb 08, 2023")

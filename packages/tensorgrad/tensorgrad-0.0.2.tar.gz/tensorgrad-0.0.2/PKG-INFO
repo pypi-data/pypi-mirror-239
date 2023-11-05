@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: tensorgrad
+Version: 0.0.2
+Summary: Python package for working with math with ease
+Author: Lukman (Lukman Muhamat)
+Author-email: <muhamatuululukman@gmail.com>
+Keywords: autograd,tensor,linear_algebra,calculus
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+
+# Tensorgrad
+## TensorGrad is a Python library that provides useful functionality for working with math, including a tensor class and autograd functionality
+
+TensorGrad is a Python library that provides useful functionality for working with math, including a tensor class and autograd functionality. It is still under development, but it already has a number of features that make it a valuable tool for researchers and developers working with complex mathematical problems.
+## Future features
+
+- Tensor class: A powerful and flexible tool for representing and manipulating multidimensional arrays.
+- Autograd functionality: Automatically compute the gradients of functions involving tensors.

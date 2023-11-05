@@ -1,0 +1,10 @@
+anakinls/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+anakinls/__main__.py,sha256=bJ7x79oagEbuyyZwi0Z49H8bLdH98k8utSSEyPn0_io,2205
+anakinls/_version.py,sha256=Vug2oHtYwotdpVFdQsczg2u3ipCFnrN2Llx_hDOZ2vU,414
+anakinls/server.py,sha256=fUOP-TlmFq-HJtLQbRFe2RVUqiW6QPPnVk09RMSZqjI,30411
+anakin_language_server-1.19.post0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+anakin_language_server-1.19.post0.dist-info/METADATA,sha256=ap3MvDjl7N-Dd6DkiwZVlgBJ_DvzmrVMh00VQ9Zh2PI,45960
+anakin_language_server-1.19.post0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+anakin_language_server-1.19.post0.dist-info/entry_points.txt,sha256=f6nQDQyeNtP9KUYwYFkvo3sAeUxhlaQd1crbwwyBfzs,52
+anakin_language_server-1.19.post0.dist-info/top_level.txt,sha256=P7jLtBimFQ-O0wZ0Yke0kIFfxmaSEftoSFs3Mbyy_pE,9
+anakin_language_server-1.19.post0.dist-info/RECORD,,

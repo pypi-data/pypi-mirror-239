@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: SwiftNet
+Version: 0.0.2
+Summary: Simple library for creating multilayer Neural Networks 
+Author: Michael Noel
+Author-email: mjn2024@gmail.com
+Keywords: python,AI,Neural Networks,Machine Learning,Simple,mnist
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: python-mnist
+Requires-Dist: flask
+
+
+# net3
+SIMPLE NET under construction

@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: hikecalc
+Version: 0.6.0a1.dev2
+Summary: Calculate hikes given various constraints.
+Author: S. Pothier
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Project-URL: Bug Tracker, https://github.com/pypa/hikecalc/issues
+Project-URL: Documentation, https://hikecalc.readthedocs.io/en/latest/
+Project-URL: Homepage, https://pypi.org/project/hikecalc/
+
+# hikecalc
+Calculate hikes given various constraints.
+

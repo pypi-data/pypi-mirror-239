@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/bw_file_resubmit.egg-info/PKG-INFO
+src/bw_file_resubmit.egg-info/SOURCES.txt
+src/bw_file_resubmit.egg-info/dependency_links.txt
+src/bw_file_resubmit.egg-info/top_level.txt
+src/file_resubmit/__init__.py
+src/file_resubmit/admin.py
+src/file_resubmit/cache.py
+src/file_resubmit/widgets.py
+tests/test_all.py

@@ -1,0 +1,7 @@
+README.md
+setup.py
+SwiftNet/SwiftNet.egg-info/PKG-INFO
+SwiftNet/SwiftNet.egg-info/SOURCES.txt
+SwiftNet/SwiftNet.egg-info/dependency_links.txt
+SwiftNet/SwiftNet.egg-info/requires.txt
+SwiftNet/SwiftNet.egg-info/top_level.txt

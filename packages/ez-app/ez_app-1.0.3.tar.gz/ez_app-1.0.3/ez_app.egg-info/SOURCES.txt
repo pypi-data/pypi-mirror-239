@@ -1,0 +1,10 @@
+setup.py
+ez_app/__init__.py
+ez_app/config.py
+ez_app/future_fields.py
+ez_app/resources.py
+ez_app/test.py
+ez_app.egg-info/PKG-INFO
+ez_app.egg-info/SOURCES.txt
+ez_app.egg-info/dependency_links.txt
+ez_app.egg-info/top_level.txt

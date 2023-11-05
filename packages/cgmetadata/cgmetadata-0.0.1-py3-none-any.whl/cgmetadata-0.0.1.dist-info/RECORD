@@ -1,0 +1,11 @@
+cgmetadata/__init__.py,sha256=uqeKO7BLBq7WMlO2n8UgxUOjAxqgIzkCEKzk0j_wO-c,371
+cgmetadata/_version.py,sha256=fUMQ6aW6jXfRmE7VUPaQQUpQAp2Wq-jn0GFJxDZSCMw,50
+cgmetadata/cgmetadata.py,sha256=0DGYjIgJ5qwgprQpGDQIz2UwfqIyp41PpMrp4kZJHJE,17690
+cgmetadata/classes.py,sha256=vAIAalFIwLjwSq392k0AzZ9ROFDeeEwLtnv6rn1oiTk,10889
+cgmetadata/constants.py,sha256=d23b5m3_DpC3VogWAlH81XG1cn-B55DkHbwMK6_KLfE,313
+cgmetadata/types.py,sha256=X9UeJYwsrYIYZrOHwkaaWKFFjAhlGG6fm0gV9U3p44Y,479
+cgmetadata/utils.py,sha256=TKwOKalRIW0mUug937Oa1i2Bc6UkP36D966gmh2p5l8,2326
+cgmetadata-0.0.1.dist-info/LICENSE,sha256=urqnDM6ACCXwDjNbksDm0YFq9dmw5al6sQgXrrSsFQw,1070
+cgmetadata-0.0.1.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+cgmetadata-0.0.1.dist-info/METADATA,sha256=WUIcKYg9i2ZPwhgg7ecCqG7XzUHEdFf_B28IWnrEuTU,2283
+cgmetadata-0.0.1.dist-info/RECORD,,

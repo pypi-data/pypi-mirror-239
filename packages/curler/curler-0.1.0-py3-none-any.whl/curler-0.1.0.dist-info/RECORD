@@ -1,0 +1,10 @@
+curler/__init__.py,sha256=u-1_SmOLuqsmLy2jSeEKTK7eeIYaa_aPAFrkCs8Uzos,231
+curler/cli.py,sha256=6M0QTkX-mksg23r6Z7gNNQPpbEyoAuUpFfT_wWALUA0,1164
+curler/constants.py,sha256=agQfBY301bAi77xB1rCKqSbIVEbAefU5aXOdJ3XRWk4,102
+curler/parser.py,sha256=PnEvQyX27Zf4fkZ2KASRVW_fmUn6_HkYK0jkcUSSCLk,3096
+curler/typing.py,sha256=OFF39GVvBEFu39dkn1tBsRTQVBE1ZGV6swWVrXAy8jk,1086
+curler-0.1.0.dist-info/LICENSE,sha256=d28Pgi2D13DoC63o0nUd6lCNYCmCX43a07OUe5MCnbk,1073
+curler-0.1.0.dist-info/METADATA,sha256=0jo_bHgMVh9lwyUDX_pxqz_Ek_A9pJO0-yfCXuquMWo,1767
+curler-0.1.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+curler-0.1.0.dist-info/top_level.txt,sha256=uzPIWkFBexOSKsHRQhxDZKkqnTqCIhG0VvnggEKp75E,7
+curler-0.1.0.dist-info/RECORD,,

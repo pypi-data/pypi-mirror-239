@@ -1,0 +1,13 @@
+pypiwrap/__init__.py,sha256=r3ac0A3IWdfpPtKCOjagGBu-A__7cbHJ1oMYUJ-rFkw,211
+pypiwrap/client.py,sha256=nmdG_U_nCnI1oHNCKi-uE0WPwNsH1kQDx3u5YEP32uc,2849
+pypiwrap/exceptions.py,sha256=1T4eFNZaAIBClpaLk_ciNeHFi4ngjsTpHqST8I7z76k,1103
+pypiwrap/utils.py,sha256=JmnXe0O8DjXtJc71zXrkJbFljfKsqCbb9zzynSJkfcA,2539
+pypiwrap/objects/__init__.py,sha256=6VjhXgMT5e5YwQA-Les567mm3kspAaG9AAzkG8dvb58,111
+pypiwrap/objects/base.py,sha256=ujMOljKUi6JrRmCRs-uA5cDaryeFtLtteSn-3k8Wano,656
+pypiwrap/objects/pypi.py,sha256=pzi4BXAPDoakkinH2U7ouv7IL_LELKwJIAyLZLVpnbs,7955
+pypiwrap/objects/simple.py,sha256=ldAm-hcfsCuNobBY7U-QSNaoONJRnJkqqvlLn22t-fg,2785
+pypiwrap-1.1.0.dist-info/LICENSE,sha256=WopVIriBOWlyGcJ24NUdVRlcIaeMY9rlUznaARnOUas,1075
+pypiwrap-1.1.0.dist-info/METADATA,sha256=Li5PnwmeF9FfLo6u_BqTkS2Yppt7SfdLxo5Rqu5A0Pw,3275
+pypiwrap-1.1.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+pypiwrap-1.1.0.dist-info/top_level.txt,sha256=S1FyWPunemD8jCJiesRLnTDiDGAQnLHpNxfePSXhh8A,9
+pypiwrap-1.1.0.dist-info/RECORD,,

@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pyempfin
+Version: 0.1
+Summary: Helper functions for empirical finance research
+Home-page: https://github.com/flcong/pyempfin
+Author: Francis Cong
+Author-email: flcong@outlook.com
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: numba
+Requires-Dist: tabulate
+Requires-Dist: joblib
+Requires-Dist: scipy
+
+# pyempfin
+Version: 0.1
+
+Helper functions for empirical finance research using Python.

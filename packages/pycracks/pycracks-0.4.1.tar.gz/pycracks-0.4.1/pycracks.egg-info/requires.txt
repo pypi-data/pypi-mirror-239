@@ -1,0 +1,4 @@
+gitpython
+packaging
+python-semantic-release
+typer

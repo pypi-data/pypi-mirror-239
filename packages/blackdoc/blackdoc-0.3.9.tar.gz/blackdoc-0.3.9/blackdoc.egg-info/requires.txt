@@ -1,0 +1,5 @@
+black
+more_itertools
+tomli
+pathspec
+rich

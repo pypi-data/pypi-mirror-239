@@ -1,0 +1,2 @@
+[console_scripts]
+polyphy = polyphy.__main__:main

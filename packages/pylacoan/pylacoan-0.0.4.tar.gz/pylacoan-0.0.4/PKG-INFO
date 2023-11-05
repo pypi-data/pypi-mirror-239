@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pylacoan
+Version: 0.0.4
+Summary: pylacoan is now lingcorp
+Classifier: Development Status :: 7 - Inactive
+Description-Content-Type: text/markdown
+Requires-Dist: lingcorp
+
+# pylacoan is now lingcorp
+
+This package has been renamed. Use `pip install lingcorp` instead.
+
+New package: https://pypi.org/project/lingcorp/

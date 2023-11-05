@@ -1,0 +1,7 @@
+README.md
+setup.py
+pylacoan.egg-info/PKG-INFO
+pylacoan.egg-info/SOURCES.txt
+pylacoan.egg-info/dependency_links.txt
+pylacoan.egg-info/requires.txt
+pylacoan.egg-info/top_level.txt

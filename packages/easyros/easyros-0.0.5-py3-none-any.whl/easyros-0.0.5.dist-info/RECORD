@@ -1,0 +1,11 @@
+easyros/__init__.py,sha256=8Egs09wdKU_29ZzGzgr4S9AwaNqLSPLK3zvtMea7nf8,970
+easyros/__version__.py,sha256=3kn_95S8Pu_5xL16ssB3M3f4Rqo875-8rD4vVxZZSHE,286
+easyros/github/__init__.py,sha256=PJ2JeEnRWyhEUv-hID-eJLXtIUV73acK0aR7uxHYh-8,110
+easyros/install/__init__.py,sha256=Z1yY7kTdUTMEJsD0I1MY_yUWhBz-CWJ2WZVnk_9bqjI,234
+easyros/install/install.sh,sha256=eAil_IUMQqyJNMDNXIvd16EKHjMcO_n89CQwyNc1qpo,194
+easyros-0.0.5.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+easyros-0.0.5.dist-info/METADATA,sha256=yYvSrv7OScGaHnn03Z9Zg-CH9s58MOjPnuth9AXNVcA,1057
+easyros-0.0.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+easyros-0.0.5.dist-info/entry_points.txt,sha256=p24czkIl0i7Beyj6OOagIPEdW8-D9NmaTHwCmugS01k,40
+easyros-0.0.5.dist-info/top_level.txt,sha256=YeF9Bu6LFqq5ppPM_ww6oyrUhzUZk8wNTV0LAu0sJg0,8
+easyros-0.0.5.dist-info/RECORD,,

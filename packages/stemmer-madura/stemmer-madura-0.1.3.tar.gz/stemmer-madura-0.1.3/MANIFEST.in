@@ -1,0 +1,4 @@
+include stemmer_madura/*
+recursive-include stemmer_madura/lib *
+prune stemmer_madura/__pycache__
+prune stemmer_madura/lib/__pycache__

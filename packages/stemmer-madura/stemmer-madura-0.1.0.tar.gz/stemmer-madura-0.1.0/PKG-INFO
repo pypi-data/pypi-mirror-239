@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: stemmer-madura
+Version: 0.1.0
+Summary: Stemmer untuk bahasa Madura menggunakan rule based
+Home-page: UNKNOWN
+Author: Mohammad Nazir Arifin
+Author-email: ceylon.rizan@gmail.com
+License: MIT
+Keywords: stemmer,madura,bahasa madura,nlp
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+
+UNKNOWN
+

@@ -1,0 +1,3 @@
+[console_scripts]
+state2inventory=state2inventory.state2inventory:cli
+

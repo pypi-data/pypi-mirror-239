@@ -1,0 +1,12 @@
+supabase_py_async/__init__.py,sha256=Vrxr81VItSyAmA5gQP38GU_6AxNwXIbhHVJHn80vXC8,414
+supabase_py_async/__version__.py,sha256=c4OvV1uDUb5DU8PmBKCcCJj9YqvETkNUhmcfMtPKUn8,23
+supabase_py_async/client.py,sha256=DnC3AnXGZkAKUBb5lIuaCgIir00mQ2kaWOLDYGP0um4,10225
+supabase_py_async/client_async.py,sha256=Llf25d0MpzosdlV77dGqA8xkQPmSY19p46t2zCTz3lk,10612
+supabase_py_async/lib/__init__.py,sha256=so-GxK15CIKTKRH023u31CB2uILnjfkv13Bljh7NF80,92
+supabase_py_async/lib/auth_client.py,sha256=Ts0TIqgQgH5DDctx2B9_m1_00KleY6ZCvf7VdRCxoPI,1387
+supabase_py_async/lib/client_options.py,sha256=5QUFQqNIdl8T5MoI20jBlUhj10StxrUVqetWmIOQvoA,3317
+supabase_py_async/lib/realtime_client.py,sha256=nRICTsljdVVudcOLkeiPE6LXSR1IReSYwf4aM_6OTeE,1944
+supabase_py_async/lib/storage_client.py,sha256=InxmxxIZTTPTaYqMtI394nL-mv1OBRy0szQb7_2s_oM,398
+supabase_py_async-2.0.3.dist-info/METADATA,sha256=wLa73q2i13oHIh7q1c7Dq4-i7Sf3EPIglL2ppmcriyo,4615
+supabase_py_async-2.0.3.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+supabase_py_async-2.0.3.dist-info/RECORD,,

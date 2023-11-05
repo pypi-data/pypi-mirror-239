@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: EASYPLOT_TOOLBOX
+Version: 2023.9
+Summary: The Easyplotpy toolboox is an algorithm that aims to facilitate the plotting of charts for use in articles and lectures.
+Home-page: https://wmpjrufg.github.io/EASYPLOTPY/
+Author-email: wanderlei_junior@ufcat.edu.br
+License: MIT License
+Keywords: Plot,Learning
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Education
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Framework :: Matplotlib
+Classifier: Programming Language :: Python
+License-File: license.md
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: squarify
+Requires-Dist: joypy

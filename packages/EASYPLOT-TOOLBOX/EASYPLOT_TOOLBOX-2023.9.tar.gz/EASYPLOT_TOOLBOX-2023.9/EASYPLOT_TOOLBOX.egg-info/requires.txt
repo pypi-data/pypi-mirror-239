@@ -1,0 +1,4 @@
+matplotlib
+seaborn
+squarify
+joypy

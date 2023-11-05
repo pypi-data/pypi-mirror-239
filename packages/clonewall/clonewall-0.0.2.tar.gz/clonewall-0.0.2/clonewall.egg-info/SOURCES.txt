@@ -1,0 +1,5 @@
+setup.py
+clonewall.egg-info/PKG-INFO
+clonewall.egg-info/SOURCES.txt
+clonewall.egg-info/dependency_links.txt
+clonewall.egg-info/top_level.txt

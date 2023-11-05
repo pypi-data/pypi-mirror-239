@@ -1,0 +1,7 @@
+setup.py
+dinox/__init__.py
+dinoxtool.egg-info/PKG-INFO
+dinoxtool.egg-info/SOURCES.txt
+dinoxtool.egg-info/dependency_links.txt
+dinoxtool.egg-info/requires.txt
+dinoxtool.egg-info/top_level.txt

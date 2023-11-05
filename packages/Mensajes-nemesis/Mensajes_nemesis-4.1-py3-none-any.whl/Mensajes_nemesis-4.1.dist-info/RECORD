@@ -1,0 +1,13 @@
+paquete/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+paquete/saludos.py,sha256=nTt7E2c5ymChD79pan8VE75EdHgqLNJNndN8oBRgnow,470
+paquete/setup.py,sha256=A_IIghUCnNZ0IMXMv-g_K0k9GIVYBP0rfN4aK2XoI7Q,270
+paquete/adios/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+paquete/adios/despedidas.py,sha256=2dGmTKnYgsKFTjxPHoEIyxXjbtO4aOa4KV0j0ORDzDk,284
+paquete/hola/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+paquete/hola/saludos.py,sha256=6PQdNhJp9OI5CK-L5JvatklQa3hwVW8BHHwENqu4FMg,261
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_hola.py,sha256=k0tGp3roG992wu9cdUI7aa7Id2Zcm0lAk-3jgsw9eP4,409
+Mensajes_nemesis-4.1.dist-info/METADATA,sha256=qRVW28iIAKuZA70phjxQMbqlv-lc4h4zc2CNLHbxir8,597
+Mensajes_nemesis-4.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+Mensajes_nemesis-4.1.dist-info/top_level.txt,sha256=J9C57z5vIMjzhJe-k2ISYFSgCHxFTkETzMR_gEcDtqc,13
+Mensajes_nemesis-4.1.dist-info/RECORD,,

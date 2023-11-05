@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: Mensajes-nemesis
+Version: 4.1
+Summary: Este es un paquete de ejemplo
+Home-page: http://nemesis.net
+Author: Smarquez
+Author-email: snemesis@gmail.com
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+Requires-Dist: numpy >=1.26.1
+
+El paquete de mensajeria 

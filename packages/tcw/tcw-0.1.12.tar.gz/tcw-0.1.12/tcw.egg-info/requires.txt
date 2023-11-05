@@ -1,0 +1,4 @@
+flask==2.3.3
+flask-wtf==1.2.1
+sqlalchemy==1.4.50
+markdown

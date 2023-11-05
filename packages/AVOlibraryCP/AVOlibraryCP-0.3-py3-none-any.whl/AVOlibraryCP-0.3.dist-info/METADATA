@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: AVOlibraryCP
+Version: 0.3
+Summary: Solve integral using the montecarlo method
+Author: Alejandro Valencia
+Author-email: alejandro.valenciao1@udea.edu.co
+Requires-Dist: numpy
+Requires-Dist: requests
+

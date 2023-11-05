@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: logiclib
+Version: 0.0.1.post1
+Summary: A Python library for first-order logic
+Project-URL: Homepage, https://github.com/Edward-Ji/LogicLib
+Project-URL: Bug Tracker, https://github.com/Edward-Ji/LogicLib/issues
+Author-email: Edward Ji <jiziao6@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# LogicLib
+
+A Python library for propositional and predicate logic.

@@ -1,0 +1,2 @@
+The 'import_yxdb' enables importing yxdb-files from Alteryx into to a dictionary or a Pandas dataframe. 
+It relies on the 'yxdb' package (full credit to the author of that package), which is used to read the yxdb-file into Python. 

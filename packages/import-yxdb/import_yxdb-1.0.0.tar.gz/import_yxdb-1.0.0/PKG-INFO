@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: import_yxdb
+Version: 1.0.0
+Summary: Import yxdb into a dictionary or a Pandas dataframe
+Home-page: 
+Author: Mikkel Thorhauge
+Author-email: 
+License: MIT
+Keywords: Alteryx,yxdb,Pandas dataframe,import
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8.18
+License-File: LICENSE.txt
+
+The 'import_yxdb' enables importing yxdb-files from Alteryx into to a dictionary or a Pandas dataframe. 
+It relies on the 'yxdb' package (full credit to the author of that package), which is used to read the yxdb-file into Python. 
+
+Version 1.0.0
+2023-11-04
+- First (beta) release on PyPI
+- Compatible with yxbd 1.0.0

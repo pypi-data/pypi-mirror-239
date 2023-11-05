@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+BrainParc/__init__.py
+BrainParc.egg-info/PKG-INFO
+BrainParc.egg-info/SOURCES.txt
+BrainParc.egg-info/dependency_links.txt
+BrainParc.egg-info/requires.txt
+BrainParc.egg-info/top_level.txt
+data/__init__.py

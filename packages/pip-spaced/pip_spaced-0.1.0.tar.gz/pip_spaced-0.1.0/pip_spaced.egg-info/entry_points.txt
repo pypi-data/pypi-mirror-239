@@ -1,0 +1,2 @@
+[console_scripts]
+pip_spaced = pip_spaced.cli:main

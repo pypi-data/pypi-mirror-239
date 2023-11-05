@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: sysush-calc
+Version: 0.0.2
+Summary: A demo for up load python library to pypi
+Home-page: https://github.com/zhouyang209117/sysush_calc
+Author: zhouyang
+Author-email: 
+License: UNKNOWN
+Description: A demo for up load python library to pypi.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

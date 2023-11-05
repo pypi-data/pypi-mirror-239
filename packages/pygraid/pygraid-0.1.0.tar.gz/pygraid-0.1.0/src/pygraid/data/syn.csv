@@ -1,0 +1,13 @@
+ID,Description
+ncs,non-canonical subject
+g,"goal, recipient, addressee"
+l,locative argument of verbs of location
+obl,oblique argument (no goal or locative)
+p2,secondary object
+voc,vocative
+poss,possessor
+appos,appositional
+other,other function
+s,intransitive subject
+a,transitive subject
+p,transitive object

@@ -1,0 +1,11 @@
+main.py,sha256=MB7huVuRpc2mPxab-HIgQpj9iZ85IhezXkwczJE8JNk,24202
+csv2db/__init__.py,sha256=JLMmJy5BHMmeo_wsKZ7FAiJoEFbvHa3xbRNTYgzbHI4,687
+csv2db/config.py,sha256=BPSl7mWnSAs2xevYpSh3i0krRMDXs2sWsu0nu4hhOoY,1140
+csv2db/constants.py,sha256=dQtiExM8cacO40UO3jNisMNc93lMiD4V6TvDC1WNHMM,1519
+csv2db/functions.py,sha256=uTbgaAFg0XsrP5HXdc494q4MO_y92_UEJnSLskI25jg,12367
+csv2db-1.6.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+csv2db-1.6.0.dist-info/METADATA,sha256=09A8d-aLoU6GcDDsO7HRtWs-IectrzxbcNxVvJOCfPs,17107
+csv2db-1.6.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+csv2db-1.6.0.dist-info/entry_points.txt,sha256=z8zdW-tbUpKiSiZEmOlPJBRGQT9kbdSWNIu0GTYAMb0,43
+csv2db-1.6.0.dist-info/top_level.txt,sha256=xnvzK8yQGke0ajffL2ZWPeRFtfLGujDlpVeIcolrHkg,12
+csv2db-1.6.0.dist-info/RECORD,,

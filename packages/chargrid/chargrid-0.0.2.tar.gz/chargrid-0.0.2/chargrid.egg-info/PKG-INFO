@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: chargrid
+Version: 0.0.2
+Summary: An implementation of gridengine_framework and the CharActor that combines the two
+Home-page: https://github.com/primal-coder/chargrid
+Author: James Evans
+Author-email: joesaysahoy@gmail.com
+Keywords: gridengine_framework CharActor grid character rpg game engine framework chargrid cell grid-based cell-based dnd d&d dungeons and dragons dungeon dragons
+Requires-Dist: gridengine_framework
+Requires-Dist: CharActor

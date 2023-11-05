@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: ez-app
+Version: 1.0.1
+Summary: app toolkits
+Author: TunaFish2K
+Author-email: tunafish2k@163.com
+Keywords: app
+Requires-Python: >=3
+
+serveral toolkits with documents that are useful for building an app.

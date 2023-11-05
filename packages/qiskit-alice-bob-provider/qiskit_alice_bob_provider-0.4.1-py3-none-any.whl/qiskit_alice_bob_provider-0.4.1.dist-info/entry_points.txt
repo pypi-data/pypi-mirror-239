@@ -1,0 +1,4 @@
+[qiskit.transpiler.translation]
+local_logical_cat = qiskit_alice_bob_provider.local.translation_plugin:LocalLogicalCatPlugin
+local_state_preparation = qiskit_alice_bob_provider.local.translation_plugin:LocalStatePreparationPlugin
+remote_state_preparation = qiskit_alice_bob_provider.remote.translation_plugin:StatePreparationPlugin

@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "tkwinico"
+version = "1.4.71"
+description = "Tray Icon for Windows"
+authors = ["XiangQinxi <XiangQinxi@outlook.com>"]
+readme = "README.md"
+documentation = "https://tkdev-docs.netlify.app/api/devtcl/winico/officialdocs/"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

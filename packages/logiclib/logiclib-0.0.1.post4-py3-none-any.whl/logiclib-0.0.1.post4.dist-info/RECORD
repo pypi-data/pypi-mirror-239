@@ -1,0 +1,8 @@
+logiclib/__init__.py,sha256=I9FuW7FsGENKvgtVeuz0iQlPAhZZ7ojZhmZMlGZwmXk,387
+logiclib/__main__.py,sha256=wCbC2aKvMg0pqpf16gG4HIxcOZ2E6e6MpUGfIMErxrI,227
+logiclib/formula.py,sha256=2X7uG9i9yLGv-pm5W_H_Nme2xQ9L0Qle9gV707owAGw,4631
+logiclib/parser.py,sha256=v1-CHnLj4w8vtybz-dvbSEmnI6XE_xPZZ5_P6RI7iGk,3416
+logiclib-0.0.1.post4.dist-info/METADATA,sha256=Vgb2oS1-bTOXX5mS2R6NtliIcxivAwIU8Ypc-mtCPwM,582
+logiclib-0.0.1.post4.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+logiclib-0.0.1.post4.dist-info/licenses/LICENSE,sha256=v8Vh2NUIr2I_20QQs1_3m-CF4cvKCtx0XeDgfefd4l8,1066
+logiclib-0.0.1.post4.dist-info/RECORD,,

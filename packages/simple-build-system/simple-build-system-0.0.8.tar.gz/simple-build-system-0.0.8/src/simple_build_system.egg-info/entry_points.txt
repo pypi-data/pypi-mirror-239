@@ -1,0 +1,6 @@
+[console_scripts]
+sb = _simple_build_system._cli:main
+sbenv = _simple_build_system._cli:sbenv_main
+sbrun = _simple_build_system._cli:sbrun_main
+simplebuild = _simple_build_system._cli:main
+unwrapped_simplebuild = _simple_build_system._cli:unwrapped_main

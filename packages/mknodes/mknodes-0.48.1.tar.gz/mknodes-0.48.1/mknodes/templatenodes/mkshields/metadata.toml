@@ -1,0 +1,22 @@
+[metadata]
+name = "MkShields"
+icon = "simple-icons:shieldsdotio"
+group = "badge"
+virtual_children = true
+
+[examples.regular]
+title = "Regular"
+jinja = """
+{{ ["version", "status", "codecov"] | MkShields }}
+"""
+
+[examples.explicit]
+title = "Explicit"
+jinja = """
+{{ ["version", "status", "codecov"] | MkShields(user="mkdocs", project="mkdocs") }}
+"""
+
+[output.markdown]
+template = """
+{{ node.items | join("\n") }}
+"""

@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: balancerdata
+Version: 0.0.1
+Summary: Creacion de la libreria para balancear datos
+Project-URL: Homepage, https://github.com/ikergabirondo/Balance_library
+Project-URL: Bug Tracker, https://github.com/ikergabirondo/Balance_library/issues
+Author-email: ikerg <iker.gabirondo@alumni.mondragon.edu>
+License: MIT License
+        
+        Copyright (c) 2023 ikergabirondo
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# Balance_library
+
+Esta es una libreria de python que proporciona herramientas para el preprocesamiento y equilibrio de datos desequilibrados.
+
+Las caracteristicas que tiene esta libreria son las siguientes:
+- **Preprocesamiento de datos**: Limpieza de datos eliminando filas con valores faltantes (NAs).
+- **Equilibrio de datos**: Ofrece métodos para equilibrar conjuntos de datos, incluyendo undersampling, oversampling y una combinación de ambas estrategias.
+- **Generación de datos sintéticos**: Permite la generación de datos sintéticos para abordar problemas de oversampling utilizando técnicas como CTGANSynthesizer.

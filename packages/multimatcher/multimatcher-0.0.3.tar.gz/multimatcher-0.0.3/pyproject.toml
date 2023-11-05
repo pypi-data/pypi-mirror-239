@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "multimatcher"
+version = "0.0.3"
+authors = [
+  { name="Muhammad Khattab", email="muhammad.khattab@hotmail.com" },
+]
+
+description = "A convenient implementation of the Aho-Corasick algorithm to efficiently find multiple search patterns and process the matches"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/mmkhattab/multimatcher"
+"Bug Tracker" = "https://github.com/mmkhattab/multimatcher/issues"

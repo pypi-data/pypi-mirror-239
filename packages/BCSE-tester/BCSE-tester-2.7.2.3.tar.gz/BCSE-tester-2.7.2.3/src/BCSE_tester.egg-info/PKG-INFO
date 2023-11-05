@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: BCSE-tester
+Version: 2.7.2.3
+Summary: A battle cats save file editor
+Home-page: https://github.com/mindsetpro/BCSE/
+Author: ohioman02
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Provides-Extra: testing
+License-File: LICENSE
+
+idk

@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+highscore/__init__.py
+highscore/core.py
+highscore.egg-info/PKG-INFO
+highscore.egg-info/SOURCES.txt
+highscore.egg-info/dependency_links.txt
+highscore.egg-info/top_level.txt

@@ -1,0 +1,9 @@
+karaoke_requests_prep/__init__.py,sha256=AHDbi6k42M6aWG2PFKCN4ngvR0PsW2TKpl9XoRCht_g,52
+karaoke_requests_prep/requests_prep.py,sha256=iNnJeHeHkIw8Z3CgV8DwrWSZDpIHz8KuHa6hCQiOrsA,12665
+karaoke_requests_prep/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+karaoke_requests_prep/utils/cli.py,sha256=gY08eokOM64jP4x2X2hXlccTBXXAhHJZjm-Xcgc0Ur8,4951
+karaokenerds_requests_prep-0.3.3.dist-info/LICENSE,sha256=BiPihPDxhxIPEx6yAxVfAljD5Bhm_XG2teCbPEj_m0Y,1069
+karaokenerds_requests_prep-0.3.3.dist-info/METADATA,sha256=UFcC7oPyg5v_LkAZCnZECgLxjjc-ABrTUaoxxDidzK8,9255
+karaokenerds_requests_prep-0.3.3.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+karaokenerds_requests_prep-0.3.3.dist-info/entry_points.txt,sha256=eZq7jVEIUr-SkbnYO8hdvoutS47-u8yZFTG_YUG2C88,83
+karaokenerds_requests_prep-0.3.3.dist-info/RECORD,,

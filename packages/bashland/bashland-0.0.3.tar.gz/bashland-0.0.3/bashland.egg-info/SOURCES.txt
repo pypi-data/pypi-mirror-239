@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+bashland/__init__.py
+bashland/bl.py
+bashland.egg-info/PKG-INFO
+bashland.egg-info/SOURCES.txt
+bashland.egg-info/dependency_links.txt
+bashland.egg-info/entry_points.txt
+bashland.egg-info/top_level.txt

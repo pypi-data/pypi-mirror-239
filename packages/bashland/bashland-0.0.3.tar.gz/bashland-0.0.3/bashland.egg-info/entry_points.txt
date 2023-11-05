@@ -1,0 +1,3 @@
+[console_scripts]
+bashland = bashland.bh:main
+bl = bashland.bl:main

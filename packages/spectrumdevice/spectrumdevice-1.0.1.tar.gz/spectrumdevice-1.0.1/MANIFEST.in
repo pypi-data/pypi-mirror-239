@@ -1,0 +1,5 @@
+include versioneer.py
+include src/spectrumdevice/_version.py
+include src/spectrumdevice/py.typed
+include src/spectrum_gmbh/py.typed
+include src/spectrumdevice/spectrum_wrapper/spectrum_errors.csv

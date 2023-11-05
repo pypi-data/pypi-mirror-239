@@ -1,0 +1,17 @@
+numpy>=1.21.4
+
+[dev]
+flake8==6.1.0
+flake8-bugbear==23.9.16
+black==22.3.0
+mypy==1.6.1
+types-setuptools==67.8.0.0
+
+[doc]
+pdoc==8.0.1
+
+[examples]
+matplotlib>=3.5.0
+
+[test]
+pytest==7.4.3

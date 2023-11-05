@@ -1,0 +1,13 @@
+.gitignore,sha256=zbyuFRBda3geYggTx5x-hodA1OnMU85vX8u8Ejh630s,2
+01869c243bd50edfa127__mypyc.cpython-312-darwin.so,sha256=2YlliRoxOoW8aNzDzBBfY8WI_gglwerSDHI8LFjzqZk,484014
+asgi_etags-0.2.1.dist-info/METADATA,sha256=Y0Czw3G-0b0hnzPoSuTaF-Fz5FcHW4BvG5xO5dl1Hfk,1226
+asgi_etags-0.2.1.dist-info/WHEEL,sha256=QE0gZZIhtvlRoYL77YR46EBibpYhyR3m8JlzWieGZJc,113
+asgi_etags-0.2.1.dist-info/licenses/LICENSE,sha256=ASpelLXJW65CwjuEsCKoHUAv8GKp8haqNR2-8Wldvqk,1072
+asgi_etags/__init__.cpython-312-darwin.so,sha256=tE1zQcbCe_e2JCPdeiXLE0WcGBE7ZyaDSX9zWYULW40,116123
+asgi_etags/__init__.py,sha256=3kZzzawhloDyNoGF40oMicLelFPI9NFCOC4IzJjhGwE,121
+asgi_etags/core.cpython-312-darwin.so,sha256=4ba_i20JV2x7UKgNhZwkYtSXswa3zp-IbZxv5r4gXqk,116119
+asgi_etags/core.py,sha256=6AQXurgYfxg5GTmfl22JLV92T76NoDaIRIRifAk5BHY,4868
+asgi_etags/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+asgi_etags/types.cpython-312-darwin.so,sha256=uqs7afkm91Q3yrE4Qcxr288fF9y51UbWrJxlxGH8O5A,116120
+asgi_etags/types.py,sha256=iQYSbHR2w2m-7GWujB88eCHG4rnCGMcTnaosfn6QENw,378
+asgi_etags-0.2.1.dist-info/RECORD,,

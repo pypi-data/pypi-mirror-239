@@ -1,0 +1,14 @@
+.gitignore,sha256=RVSan_2ZY_hV1ygp6XijHAW4KJSxSx2PvdQwg7IMLYY,3
+17a8d88ade6453be006f__mypyc.cp310-win_amd64.pyd,sha256=9Ky4pYvJvDs3W2xksldC5x1tgMXDZjIq1eWLdrZ8gvo,131584
+asgi_context-0.2.1.dist-info/METADATA,sha256=j4a3v-Nmz39QMi7AgK7ue3ILD_G88lpvOPBxL6oRMb0,3166
+asgi_context-0.2.1.dist-info/WHEEL,sha256=qoI55_GFShPfd44iVofocuI0fIyd3fQTZPSzAdgBN5A,100
+asgi_context-0.2.1.dist-info/licenses/LICENSE,sha256=dmxrQvx7wv-_cKEyW17Nxe4rbOSgtAaschxKfAI4rQ0,1093
+asgi_context/__init__.cp310-win_amd64.pyd,sha256=45q2mC0R-uyBmK7gUmFrEOrpBJvvAatHjSC6GSxyfvc,10752
+asgi_context/__init__.py,sha256=XH7BQAGJ2Dp9fEAXor20bwjw1IuAGUJFXLqPH3K-9YU,366
+asgi_context/context.cp310-win_amd64.pyd,sha256=CS72y8FDC7hugR7W9ahcHAIUaro_41Fcy_P3uV16JaI,10752
+asgi_context/context.py,sha256=6IQ8wcRJuvUsm3PxQsRO0wfK4ix0ucsOq0MCn2VA-f8,1643
+asgi_context/headers_extrator.cp310-win_amd64.pyd,sha256=1MjIi72vZfdfJhfFIEg5svcQ9CWGo_U7W74wAojZi9o,10752
+asgi_context/headers_extrator.py,sha256=3xNoToPKkNKrneo9msZXSQmy85V-gbGwE3i5h2pqMrg,4318
+asgi_context/protocol.cp310-win_amd64.pyd,sha256=6lz74T5hZ7Y-tJDyNDRd0jfLs_kk0xngtl1ELnow3Eo,10752
+asgi_context/protocol.py,sha256=nY2izt90nTqvhkIoSs1d9ka0N3reZiHDxREk9q3v0Is,348
+asgi_context-0.2.1.dist-info/RECORD,,

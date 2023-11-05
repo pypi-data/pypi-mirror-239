@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+py3bloxx.egg-info/PKG-INFO
+py3bloxx.egg-info/SOURCES.txt
+py3bloxx.egg-info/dependency_links.txt
+py3bloxx.egg-info/requires.txt
+py3bloxx.egg-info/top_level.txt

@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+adbeventparser/README.MD
+adbeventparser/__init__.py
+adbeventparser/requirements.txt
+adbeventparser/thirdparty.json
+adbeventparser.egg-info/PKG-INFO
+adbeventparser.egg-info/SOURCES.txt
+adbeventparser.egg-info/dependency_links.txt
+adbeventparser.egg-info/requires.txt
+adbeventparser.egg-info/top_level.txt

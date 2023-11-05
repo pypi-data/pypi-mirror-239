@@ -1,0 +1,3 @@
+include adbeventparser/requirements.txt
+include adbeventparser/thirdparty.json
+include adbeventparser/README.MD

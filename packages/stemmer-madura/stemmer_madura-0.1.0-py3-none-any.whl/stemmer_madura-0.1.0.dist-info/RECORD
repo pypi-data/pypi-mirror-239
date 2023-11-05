@@ -1,0 +1,10 @@
+stemmer_madura/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stemmer_madura/files.py,sha256=_0VZePPwQ9KmwYxmkJWSHp3gVYa010v5LOszQ7unGcg,871
+stemmer_madura/ngram.py,sha256=NIEzTEWGMKwbpyECK-KLLrEOVCZiVKiZgGZnQBJRF50,703
+stemmer_madura/rules.py,sha256=jdubjr3eBfzFkm2QazjvfO6BIryaveoEX9LpQIkQBdo,2518
+stemmer_madura/stemmer.py,sha256=7GS0_vUwDlpOVWZS6vzT06UQkWcSgOkd_Su4fKtUeHc,5937
+stemmer_madura-0.1.0.dist-info/LICENSE,sha256=Alqyf5g09_qSy_L7L-Egwbf9WDrUBeotBVH0FRGce_Y,1078
+stemmer_madura-0.1.0.dist-info/METADATA,sha256=yTxwEQx-AV-ow8CWBXL_2tDPL1NHyXE4cIw2VPvpBwc,1612
+stemmer_madura-0.1.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+stemmer_madura-0.1.0.dist-info/top_level.txt,sha256=htsaoIGa_6sHU_abxfmgcyJCoiiHy54lZsdxgmsmPgw,15
+stemmer_madura-0.1.0.dist-info/RECORD,,

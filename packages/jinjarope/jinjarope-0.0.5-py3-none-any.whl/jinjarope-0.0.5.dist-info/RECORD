@@ -1,0 +1,13 @@
+jinjarope/__init__.py,sha256=byLsJ059Lb73r8858ZlwXwhFz9Cb-02Yy4NXMSvcHtU,649
+jinjarope/envglobals.py,sha256=g3z7VIgzKn0k1Q7k2aDfzCHt9dLIofcQt4Tzzw5wLVY,4212
+jinjarope/environment.py,sha256=IZR0VsiMNwrc4MpvW-nxB1IXJULoMu6hpdlzjkiVwjo,10578
+jinjarope/jinjaloaderfilesystem.py,sha256=Lc5C9GDeqMV4Akj2nNn-5GaCVnvqOfYOtJJcMPIvXjY,2616
+jinjarope/loaderregistry.py,sha256=j_oAZ_rrVMObm7EgqBaqZ475u4NpdmYkOMQzJZfytUk,4581
+jinjarope/loaders.py,sha256=MO7KsbhNFWbctjStCg7Wx3RswqgPq80Ilnye3K6RrO8,10383
+jinjarope/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jinjarope/undefined.py,sha256=ApGw5s-7yh1VId0YCCDkXzOuzLth3MrK9qv6ORsrJY8,577
+jinjarope/utils.py,sha256=GkdbsIfEQ74UPK6FfUEH1Wn-0Jxbe0XRaEgM3m4K6wk,1347
+jinjarope-0.0.5.dist-info/METADATA,sha256=wwnwXocUpDL82ieWtmZwETTdzAbcvbC8jr0aPN1Myds,7000
+jinjarope-0.0.5.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+jinjarope-0.0.5.dist-info/licenses/LICENSE,sha256=W2XBRjTD89EfxvgU7BPVuFktBVTGX4onwNYIyEGQDs4,1078
+jinjarope-0.0.5.dist-info/RECORD,,

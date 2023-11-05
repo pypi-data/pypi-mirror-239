@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: qtoggleserver-cmdline
+Version: 1.0.4
+Summary: qToggleServer ports backed by system commands
+Author: Calin Crisan
+Author-email: ccrisan@gmail.com
+License: Apache 2.0
+License-File: LICENSE.txt

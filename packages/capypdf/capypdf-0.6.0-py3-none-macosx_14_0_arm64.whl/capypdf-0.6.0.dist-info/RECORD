@@ -1,0 +1,9 @@
+capypdf-0.6.0.dist-info/METADATA,sha256=OOvv8J514NzawscxIwgyb-ERYmQjj2yz6QtCMVpIyvs,14861
+capypdf-0.6.0.dist-info/WHEEL,sha256=G3lG7xpuiv7wFOTbN_zRVHK9Wi4s_CQofWEigQ8BqjY,90
+capypdf-0.6.0.dist-info/COPYING,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+capypdf-0.6.0.data/scripts/linkicc,sha256=mtvMI3W7gccI-mrm6oOjkcVV4hCCpuwuKI4MnGanwqU,409016
+capypdf-0.6.0.data/scripts/psicc,sha256=OID_xe4taSfeeh9pzmU1mji9iUExtrUeM7xl5lyh-8A,410648
+capypdf-0.6.0.data/scripts/transicc,sha256=qXGvOpWJwP3gxVPIiLqQd0t2G-YcsSRASpWTEF92oe8,449912
+.capypdf.mesonpy.libs/libcapypdf.0.dylib,sha256=Nrb8HBLRnLOzpIYzEU6w1MyNzTQveKVOhchfztwBhZk,2987776
+capypdf-0.6.0.data/purelib/capypdf.py,sha256=nwhg9fQyBWhY5GDm2cLJ3rHNI_hKYhuQh-g0yTRtYYc,35033
+capypdf-0.6.0.dist-info/RECORD,,

@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: analyse_exec_utils
+Version: 0.0.1
+Summary: A small python package with utilities to analyse code performance
+Author-email: Ganesh Nukala <ganesh@mobiux.in>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# python-timeit
+A decorator to calculate execution time of any function

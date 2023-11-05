@@ -1,0 +1,10 @@
+trick17/__about__.py,sha256=NN-JM5_wJ1nzLQD0kgVjeOWNg6LYxu3B5ZXHfBmNieI,141
+trick17/__init__.py,sha256=N5QVD2-PLAnNACgWfJCZkeAQKdWSh_gotUQ4DfAHi5g,500
+trick17/daemon.py,sha256=liyW-TnVhEqlthaAmhjoHbHHnAgTJFJBZuFJSp8-1w4,3207
+trick17/journal.py,sha256=WELc7JyMzTOLsy2ZcUT-A5voElDEMvbVxV-ujFLF_RI,3130
+trick17/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+trick17/util.py,sha256=B_ZvA0etPILsjpUWrdxPcR-1I3R-hQe95A-N65L1PQc,1964
+trick17-0.0.4rc0.dist-info/METADATA,sha256=vr6xFmdi5-ZvR-qBlbnAb3O6I1csEX455wRG0_E-Y-I,2809
+trick17-0.0.4rc0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+trick17-0.0.4rc0.dist-info/licenses/LICENSE.txt,sha256=cahq9M166PcGkD4WPfSWD4NSlbsGyG6W-5b_bF-wTws,1108
+trick17-0.0.4rc0.dist-info/RECORD,,

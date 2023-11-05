@@ -1,0 +1,9 @@
+bonsait/__init__.py,sha256=-l786o3eY2KMyEBQqGoOY4iPuGFNuMwdYH7E7zdhEfg,50
+bonsait/configs.py,sha256=FUDwXdVDnaNIjKcUpFb_QRdbSYe1qfO6LSkmIG_5c8o,378
+bonsait/core.py,sha256=1CVJ8edDNfJnBsbASKGDtaTIIl1tpFZjxWi1RZKUUKg,6297
+bonsait/utils/__init__.py,sha256=cid3KemIWOtdvJpuOZ9BPwPzhYLN3mOlKqlA3mUeFYU,115
+bonsait/utils/similarity_func.py,sha256=5uBDfqyBNCH_FwIK3SnzSGnBs0F8vTlJjTuFCVxrdQI,873
+bonsait-0.1.1a0.dist-info/LICENSE,sha256=RwobMCNV-D2htBNO4QOiCHoqldgjWRmiK7chpYu5huc,1085
+bonsait-0.1.1a0.dist-info/METADATA,sha256=y4VbCc2TT1PE0zHlTS5bOvLDFn8quBWop4VbttSwqdM,2127
+bonsait-0.1.1a0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+bonsait-0.1.1a0.dist-info/RECORD,,

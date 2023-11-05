@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pylint-import-restriction
+Version: 0.1.2
+Summary: Pylint plugin to help enforce separation of concerns through import restrictions.
+Author: Svilen Piralkov
+Author-email: svile@users.noreply.github.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# pylint-import-restriction
+
+Pylint plugin to help enforce separation of concerns through import restrictions.
+

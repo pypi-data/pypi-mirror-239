@@ -1,0 +1,12 @@
+DataPreprocessing/__init__.py,sha256=SxgYJZ_06AU5F_fLijKg1aAXZ7nj3wfzApQZS3kfjoA,62
+DataPreprocessing/adult.csv,sha256=vAPksLOepApoAtvM7A9yHnGDWKmY6InT5HZBnJvHUzs,5484860
+DataPreprocessing/load_adult.py,sha256=lMO6-T6oK6M1bi_-MxcEK8cqsHwp537a2opxotAOr2A,2879
+src/__init__.py,sha256=6T-fcL-9la0hEkUygx39-1TlSiOD2ZrpqfDNMXQHKVk,190
+src/AdaFair.py,sha256=NRPJEDoJznaVZPFelrF1SXCSMRY4mBR7L8hrdykX-lc,27856
+src/AdaFairEQOP.py,sha256=SJMh9G7HqOQrD8AF7y-LA7sGNy9Snmuh-8I8cQwkNf8,33199
+src/AdaFairSP.py,sha256=bsXQCALmpZniln4w-_2hmBj7jTe488e7uKijhKth6cY,31483
+tests/eval.py,sha256=GeLJf-TgJ1l3v3N6bWO3VsKa98zgt2XIRdGL8pwa4_8,11705
+adafair-0.1.0.dist-info/LICENSE,sha256=7hmsPNCDgCMxTJFqtU_mBIIJd6AYsQWFsDlo1s0jn9U,1097
+adafair-0.1.0.dist-info/METADATA,sha256=s8Yo3BQkmIMpfTylSXhiRN2RISwizVSDXChtBmhhlKA,2590
+adafair-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+adafair-0.1.0.dist-info/RECORD,,

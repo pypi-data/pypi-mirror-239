@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: marianodoc
+Version: 1.0.12
+Summary: Produce WORD and PDF files with great ease, examples provided on import 
+Author: Mariano Rico
+Author-email: <marstab4@gmail.com>
+Keywords: MS WORD,PDF,Word
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: fpdf2
+Requires-Dist: python-docx
+
+With Mariano Doc, its easy to insert lines of texts into a WORD or PDF file. <br>Allows for different color font color and sizes. <br>For Word files only there is options for Headings sizes and listing items with bullets.<br><br>Sample Code:<br><br>import marianodoc as md <br>doc=md.new_doc()<br>doc.insert_line("sample line1")<br>doc.insert_line("sample line2")<br>doc.insert_line("sample line3")<br>doc.createPDFFile("some_name.pdf")<br>doc.createWordFile("some_name.docx")<br><br><br><br>Note there are more features such as headings color fonts,highlighting, for more detail<br>doc.show_example1()<br>doc.show_example2()<br><br>If you like this library checkout my other library "MarianoInput" for getting user input<br><a href="https://pypi.org/project/marianoinput/">MarianoInput</a>

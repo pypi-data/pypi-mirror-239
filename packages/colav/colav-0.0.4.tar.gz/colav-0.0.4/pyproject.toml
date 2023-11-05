@@ -1,0 +1,63 @@
+
+[build-system]
+requires = ["hatchling", "hatch-vcs"]
+build-backend = "hatchling.build"
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.version]
+source = "vcs"
+
+[project]
+name = "colav"
+# versioning through releases
+description = "Calculate protein structural representations (dihedral angles, CA pairwise distances, and strain analysis) for downstream analysis (e.g., PCA, t-SNE, or UMAP)"
+license = { text = "MIT License" } 
+authors = [
+  { name="Ammaar Saeed", email="aasaeed@college.harvard.edu" },
+]
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Typing :: Typed",
+]
+dynamic = ["version"]
+dependencies = [
+    "jupyter", 
+    "numpy",
+    "scipy",
+    "biopandas",
+]
+
+# extras
+[project.optional-dependencies]
+test = [
+    "pytest>=6.0", 
+    "pytest-cov", 
+    "biopandas", 
+    "numpy",
+    "scipy", 
+]
+dev = [
+    "black",
+    "pandas", 
+    "biopandas",
+    "pytest", 
+    "pytest-cov", 
+]
+docs = [
+    "sphinx",
+    "myst_parser",
+    "sphinx_rtd_theme",
+]
+
+[project.urls]
+homepage = "https://rs-station.github.io/colav/"
+repository = "https://github.com/rs-station/colav"
+

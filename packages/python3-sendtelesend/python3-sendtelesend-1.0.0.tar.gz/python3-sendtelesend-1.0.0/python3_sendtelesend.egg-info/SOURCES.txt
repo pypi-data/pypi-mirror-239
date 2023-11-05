@@ -1,0 +1,9 @@
+setup.py
+python3_sendtelesend.egg-info/PKG-INFO
+python3_sendtelesend.egg-info/SOURCES.txt
+python3_sendtelesend.egg-info/dependency_links.txt
+python3_sendtelesend.egg-info/entry_points.txt
+python3_sendtelesend.egg-info/top_level.txt
+sender/sender.py
+sender/static.py
+sender/utils.py

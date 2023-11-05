@@ -1,0 +1,53 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Palvelu on jo m\u00e4\u00e4ritetty"
+        }
+    },
+    "services": {
+        "add_item": {
+            "fields": {
+                "name": {
+                    "name": "Nimi"
+                }
+            }
+        },
+        "complete_item": {
+            "fields": {
+                "name": {
+                    "name": "Nimi"
+                }
+            }
+        },
+        "incomplete_item": {
+            "description": "Merkitsee ensimm\u00e4isen samannimisen kohteen keskener\u00e4iseksi ostoslistassa.",
+            "fields": {
+                "name": {
+                    "description": "Sen kohteen nimi, joka merkit\u00e4\u00e4n keskener\u00e4iseksi.",
+                    "name": "Nimi"
+                }
+            },
+            "name": "Keskener\u00e4inen kohde"
+        },
+        "remove_item": {
+            "description": "Poistaa ostoslistalta ensimm\u00e4isen samannimisen tuotteen.",
+            "fields": {
+                "name": {
+                    "description": "Poistettavan kohteen nimi.",
+                    "name": "Nimi"
+                }
+            },
+            "name": "Poista kohde"
+        },
+        "sort": {
+            "description": "J\u00e4rjest\u00e4\u00e4 kaikki ostoslistan kohteet nimen mukaan.",
+            "fields": {
+                "reverse": {
+                    "description": "K\u00e4rjestys k\u00e4\u00e4nteisess\u00e4 (laskevassa) j\u00e4rjestyksess\u00e4.",
+                    "name": "K\u00e4\u00e4nteinen j\u00e4rjestys"
+                }
+            },
+            "name": "J\u00e4rjest\u00e4 kaikki kohteet"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "config": {
+        "create_entry": {
+            "default": "\u0110\u00e3 x\u00e1c th\u1ef1c th\u00e0nh c\u00f4ng"
+        },
+        "step": {
+            "pick_implementation": {
+                "title": "Ch\u1ecdn ph\u01b0\u01a1ng th\u1ee9c x\u00e1c th\u1ef1c"
+            }
+        }
+    }
+}

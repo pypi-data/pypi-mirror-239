@@ -1,0 +1,20 @@
+{
+    "config": {
+        "abort": {
+            "already_configured_device": "Thi\u1ebft b\u1ecb \u0111\u00e3 \u0111\u01b0\u1ee3c c\u1ea5u h\u00ecnh",
+            "cannot_connect": "K\u1ebft n\u1ed1i th\u1ea5t b\u1ea1i",
+            "switchbot_unsupported_type": "Lo\u1ea1i switchbot kh\u00f4ng \u0111\u01b0\u1ee3c h\u1ed7 tr\u1ee3.",
+            "unknown": "L\u1ed7i kh\u00f4ng mong \u0111\u1ee3i"
+        },
+        "flow_title": "{name} ({address})"
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "retry_count": "S\u1ed1 l\u1ea7n th\u1eed l\u1ea1i"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "stream_url_template": "M\u1eabu URL lu\u1ed3ng"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "config": {
+        "abort": {
+            "access_not_configured": "Kan de Google API niet bereiken:\n\n{message}",
+            "unknown": "Onverwachte fout"
+        }
+    }
+}

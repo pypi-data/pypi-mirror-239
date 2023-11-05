@@ -1,0 +1,129 @@
+{
+    "entity": {
+        "sensor": {
+            "condition": {
+                "state": {
+                    "cloudy": "Nhi\u1ec1u m\u00e2y",
+                    "fog": "S\u01b0\u01a1ng m\u00f9",
+                    "lightning": "D\u00f4ng",
+                    "rainy": "C\u00f3 m\u01b0a",
+                    "snowy": "C\u00f3 tuy\u1ebft"
+                }
+            },
+            "condition_1d": {
+                "state": {
+                    "cloudy": "Nhi\u1ec1u m\u00e2y",
+                    "fog": "S\u01b0\u01a1ng m\u00f9",
+                    "lightning": "D\u00f4ng",
+                    "rainy": "C\u00f3 m\u01b0a",
+                    "snowy": "C\u00f3 tuy\u1ebft"
+                }
+            },
+            "condition_2d": {
+                "state": {
+                    "cloudy": "Nhi\u1ec1u m\u00e2y",
+                    "fog": "S\u01b0\u01a1ng m\u00f9",
+                    "lightning": "D\u00f4ng",
+                    "rainy": "C\u00f3 m\u01b0a",
+                    "snowy": "C\u00f3 tuy\u1ebft"
+                }
+            },
+            "condition_3d": {
+                "state": {
+                    "cloudy": "Nhi\u1ec1u m\u00e2y",
+                    "fog": "S\u01b0\u01a1ng m\u00f9",
+                    "lightning": "D\u00f4ng",
+                    "rainy": "C\u00f3 m\u01b0a",
+                    "snowy": "C\u00f3 tuy\u1ebft"
+                }
+            },
+            "condition_4d": {
+                "state": {
+                    "cloudy": "Nhi\u1ec1u m\u00e2y",
+                    "fog": "S\u01b0\u01a1ng m\u00f9",
+                    "lightning": "D\u00f4ng",
+                    "rainy": "C\u00f3 m\u01b0a",
+                    "snowy": "C\u00f3 tuy\u1ebft"
+                }
+            },
+            "condition_5d": {
+                "state": {
+                    "cloudy": "Nhi\u1ec1u m\u00e2y",
+                    "fog": "S\u01b0\u01a1ng m\u00f9",
+                    "lightning": "D\u00f4ng",
+                    "rainy": "C\u00f3 m\u01b0a",
+                    "snowy": "C\u00f3 tuy\u1ebft"
+                }
+            },
+            "conditiondetailed": {
+                "state": {
+                    "cloudy": "Nhi\u1ec1u m\u00e2y",
+                    "fog": "S\u01b0\u01a1ng m\u00f9",
+                    "lightning": "D\u00f4ng",
+                    "partlycloudy": "M\u00e2y r\u1ea3i r\u00e1c",
+                    "rainy": "C\u00f3 m\u01b0a",
+                    "snowy": "C\u00f3 tuy\u1ebft",
+                    "snowy-rainy": "M\u01b0a, tuy\u1ebft"
+                }
+            },
+            "conditiondetailed_1d": {
+                "state": {
+                    "cloudy": "Nhi\u1ec1u m\u00e2y",
+                    "fog": "S\u01b0\u01a1ng m\u00f9",
+                    "lightning": "D\u00f4ng",
+                    "partlycloudy": "M\u00e2y r\u1ea3i r\u00e1c",
+                    "rainy": "C\u00f3 m\u01b0a",
+                    "snowy": "C\u00f3 tuy\u1ebft",
+                    "snowy-rainy": "M\u01b0a, tuy\u1ebft"
+                }
+            },
+            "conditiondetailed_2d": {
+                "state": {
+                    "cloudy": "Nhi\u1ec1u m\u00e2y",
+                    "fog": "S\u01b0\u01a1ng m\u00f9",
+                    "lightning": "D\u00f4ng",
+                    "partlycloudy": "M\u00e2y r\u1ea3i r\u00e1c",
+                    "rainy": "C\u00f3 m\u01b0a",
+                    "snowy": "C\u00f3 tuy\u1ebft",
+                    "snowy-rainy": "M\u01b0a, tuy\u1ebft"
+                }
+            },
+            "conditiondetailed_3d": {
+                "state": {
+                    "cloudy": "Nhi\u1ec1u m\u00e2y",
+                    "fog": "S\u01b0\u01a1ng m\u00f9",
+                    "lightning": "D\u00f4ng",
+                    "partlycloudy": "M\u00e2y r\u1ea3i r\u00e1c",
+                    "rainy": "C\u00f3 m\u01b0a",
+                    "snowy": "C\u00f3 tuy\u1ebft",
+                    "snowy-rainy": "M\u01b0a, tuy\u1ebft"
+                }
+            },
+            "conditiondetailed_4d": {
+                "state": {
+                    "cloudy": "Nhi\u1ec1u m\u00e2y",
+                    "fog": "S\u01b0\u01a1ng m\u00f9",
+                    "lightning": "D\u00f4ng",
+                    "partlycloudy": "M\u00e2y r\u1ea3i r\u00e1c",
+                    "rainy": "C\u00f3 m\u01b0a",
+                    "snowy": "C\u00f3 tuy\u1ebft",
+                    "snowy-rainy": "M\u01b0a, tuy\u1ebft"
+                }
+            },
+            "conditiondetailed_5d": {
+                "state": {
+                    "cloudy": "Nhi\u1ec1u m\u00e2y",
+                    "fog": "S\u01b0\u01a1ng m\u00f9",
+                    "lightning": "D\u00f4ng",
+                    "partlycloudy": "M\u00e2y r\u1ea3i r\u00e1c",
+                    "rainy": "C\u00f3 m\u01b0a",
+                    "snowy": "C\u00f3 tuy\u1ebft",
+                    "snowy-rainy": "M\u01b0a, tuy\u1ebft"
+                }
+            },
+            "visibility": {
+                "name": "T\u1ea7m nh\u00ecn xa"
+            }
+        }
+    }
+}

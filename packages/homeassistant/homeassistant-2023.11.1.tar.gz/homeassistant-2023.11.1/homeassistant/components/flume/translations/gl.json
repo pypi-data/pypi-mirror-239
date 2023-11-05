@@ -1,0 +1,7 @@
+{
+    "services": {
+        "list_notifications": {
+            "name": "Listar notificaci\u00f3ns"
+        }
+    }
+}

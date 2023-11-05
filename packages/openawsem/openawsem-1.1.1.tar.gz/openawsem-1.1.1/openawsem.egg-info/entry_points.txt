@@ -1,0 +1,4 @@
+[console_scripts]
+awsem_analyze = openawsem.scripts.mm_analyze:main
+awsem_create = openawsem.scripts.mm_create_project:main
+awsem_run = openawsem.scripts.mm_run:main

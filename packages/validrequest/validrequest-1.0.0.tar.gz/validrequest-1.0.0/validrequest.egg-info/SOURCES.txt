@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+lib/__init__.py
+lib/exceptions.py
+lib/validator.py
+lib/version.py
+validrequest.egg-info/PKG-INFO
+validrequest.egg-info/SOURCES.txt
+validrequest.egg-info/dependency_links.txt
+validrequest.egg-info/not-zip-safe
+validrequest.egg-info/requires.txt
+validrequest.egg-info/top_level.txt

@@ -1,0 +1,5 @@
+[console_scripts]
+abacus=abacus.cli.main:abacus
+abacus-extra=abacus.cli.main:abacus_extra
+cx=abacus.cli.main:cx
+

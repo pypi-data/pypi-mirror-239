@@ -1,0 +1,9 @@
+gravhopper-1.1.2.dist-info/WHEEL,sha256=dx7cEdJD7ihyy_LynMNokz8YHzT4y1RuYw8rq8MfMWU,225
+gravhopper-1.1.2.dist-info/LICENSE,sha256=Z1QuK_aDPkF5tuow3_4V-nPub7uBUaclH0TQTDDbAzg,1472
+gravhopper-1.1.2.dist-info/RECORD,,
+gravhopper-1.1.2.dist-info/top_level.txt,sha256=FB5O5QGiP5nHJ-Tw8Km-j7K4bIpuku3hk_Pgcbp5MtI,11
+gravhopper-1.1.2.dist-info/METADATA,sha256=4nRuFarNT-CGsGHQFk6-518uWb_IpFzPa5v_W_24aVo,3856
+gravhopper/gravhopper.py,sha256=RRVAEdtP4p3cskPmsiKrew5LGi6dH_ab8E_hMh_d_0I,69885
+gravhopper/_jbgrav.cpython-310-x86_64-linux-gnu.so,sha256=j6iBNVYWNnMODgEQIr-S6cAQPSi3zqhYSztomN2eycE,68992
+gravhopper/__init__.py,sha256=rEFhTgxszhFLV5DAd55ioXleyZaAGhd5UcYQ_osQxZM,89
+gravhopper/jbgrav.py,sha256=fbWs4DXNDvgsjmmAZxFHNL3z5r7Ht3sRvjg56E6RXqo,2846

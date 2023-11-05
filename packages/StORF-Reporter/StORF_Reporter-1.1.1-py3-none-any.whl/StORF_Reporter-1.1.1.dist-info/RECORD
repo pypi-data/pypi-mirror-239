@@ -1,0 +1,17 @@
+StORF_Reporter/Constants.py,sha256=C0biN47VdZvEQ-C-oP1agzWYbEGmw5bm30VdGyNN7iQ,35
+StORF_Reporter/StORF_Extractor.py,sha256=nXLeOQjuLIPEpNlKz9YDPr_2Pe-O7gKP-gQet2kR0UM,19363
+StORF_Reporter/StORF_Finder.py,sha256=6C1QLs--3A_ZhuCq82U7xZnLY46z5kQAgfuHhBVZj2o,48570
+StORF_Reporter/StORF_Remover.py,sha256=Oh_6JiRQDCeFQCKCvI1uGRcCcSh3ydyVdSes3MXqTXE,5349
+StORF_Reporter/StORF_Reporter.py,sha256=rV5jepgroaowT22W4TzYBxEIB8K7oCO3O_lVfrH8c6c,53005
+StORF_Reporter/UR_Extractor.py,sha256=4txmmizdz-qkmQfrZE6Is2hd3_6PApfQm8zEgRxo_Gc,15503
+StORF_Reporter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+StORF_Reporter/Tools/StORF_Adder.py,sha256=61wFB7lurhBh2i-T3myGqG9dNkF6TsOcNc9x_Hk4f60,2110
+StORF_Reporter/Tools/UR_Lenghts.py,sha256=TCMO8zP7mevL4JWeCTic_XC25rR4H8JLGs0DSKZEx5E,1310
+StORF_Reporter/Tools/Un_StORFed.py,sha256=8xwjrRRoe6bTZZsrAfuJyJkrrj1naRN2Qeu85kcR_hk,9874
+StORF_Reporter/Tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+StORF_Reporter-1.1.1.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+StORF_Reporter-1.1.1.dist-info/METADATA,sha256=COeb3IiGq7RJov0GSx-HpeasfZ-zHq-d0qlytbVkizI,19934
+StORF_Reporter-1.1.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+StORF_Reporter-1.1.1.dist-info/entry_points.txt,sha256=_-ryudNsBMGjeYgUBwi7s-Mpr0zjzNN7hKEnkPnnOas,269
+StORF_Reporter-1.1.1.dist-info/top_level.txt,sha256=PU8F9kzC55_q5ehzm4SBzEYPz66Fp_e5KJmVxYpDm8w,15
+StORF_Reporter-1.1.1.dist-info/RECORD,,

@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+footballscraper/Leagues.py
+footballscraper/Player.py
+footballscraper/Team.py
+footballscraper/__init__.py
+footballscraper.egg-info/PKG-INFO
+footballscraper.egg-info/SOURCES.txt
+footballscraper.egg-info/dependency_links.txt
+footballscraper.egg-info/requires.txt
+footballscraper.egg-info/top_level.txt

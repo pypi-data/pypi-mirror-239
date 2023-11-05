@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: footballscraper
+Version: 0.0
+Summary: Library to scrape football data from the web
+Home-page: https://github.com/mmassime/Football-data-scraper
+Author: Mario Massimetti
+Author-email: mario.massimetti@gmail.com
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Natural Language :: English
+License-File: LICENSE

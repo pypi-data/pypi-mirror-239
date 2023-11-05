@@ -1,0 +1,10 @@
+.DS_Store,sha256=mOpt_7xicAz4nXGMD5j8lzMDE9Y3smTCseqJovW239o,6148
+graphix_ibmq/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+graphix_ibmq/clifford.py,sha256=1DBS6O4jfqr93MBR34-uZXyKkvjFcNH9oeiTaj6M734,1036
+graphix_ibmq/runner.py,sha256=YnAmjfLk8Qn7u7GEQ-rg9DrgHKtlXNiAxawWnNvP5IQ,12765
+graphix_ibmq/version.py,sha256=1mptEzQihbdyqqzMgdns_j5ZGK9gz7hR2bsgA_TnjO4,22
+graphix_ibmq-0.0.4.dist-info/LICENSE,sha256=LaP2Fu4b_hMAUEI9BRgyyUT0Kns5oGKxjTsyGr2xMvs,10776
+graphix_ibmq-0.0.4.dist-info/METADATA,sha256=ciU3ZG0Vcqp7qVXh5iQlPnrirFxM0m27u9X5GbD27No,1865
+graphix_ibmq-0.0.4.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+graphix_ibmq-0.0.4.dist-info/top_level.txt,sha256=Jx2UYVPWnMW2ZqamPWHcTYdEtyZnAZKHwxpAjpF4HJM,13
+graphix_ibmq-0.0.4.dist-info/RECORD,,

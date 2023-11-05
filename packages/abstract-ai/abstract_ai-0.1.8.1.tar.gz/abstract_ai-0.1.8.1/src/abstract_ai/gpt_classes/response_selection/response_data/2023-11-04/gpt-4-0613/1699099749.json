@@ -1,0 +1,34 @@
+{
+    "prompt": {
+        "model": "gpt-4",
+        "messages": [
+            {
+                "role": "assistant",
+                "content": "\n-----------------------------------------------------------------------------\n#instructions#\n\nyour response is expected to be in JSON format with the keys as follows:\n\n0) api_response - place response to prompt here\n1) notation - A useful parameter that allows a module to retain context and continuity of the prompts. These notations can be used to preserve relevant information or context that should be carried over to subsequent prompts.\n2) suggestions - ': A parameter that allows the module to provide suggestions for improving efficiency in future prompt sequences. These suggestions will be reviewed by the user after the entire prompt sequence is fulfilled.\n3) additional_responses - This parameter, usually set to True when the answer cannot be fully covered within the current token limit, initiates a loop that continues to send the current chunk's prompt until the module returns a False value. This option also enables a module to have access to previous notations\n4) abort - if you cannot fullfil the request, return this value True; be sure to leave a notation detailing whythis was\n5) generate_title - A parameter used for title generation of the chat. To maintain continuity, the generated title for a given sequence is shared with subsequent queries.\n6) prompt_as_previous - return false\n\nbelow is an example of the expected json dictionary response format, with the default inputs:\n{'api_response': '', 'notation': '', 'suggestions': '', 'additional_responses': False, 'abort': False, 'generate_title': '', 'prompt_as_previous': ''}\n-----------------------------------------------------------------------------\n#data chunk#\n\nthis is chunk 1 of 1\n\n\n\n"
+            }
+        ],
+        "max_tokens": 3076
+    },
+    "response": {
+        "id": "chatcmpl-8H9kbvXlb5b5gtVKlUsxKDRRYX29b",
+        "object": "chat.completion",
+        "created": 1699099749,
+        "model": "gpt-4-0613",
+        "choices": [
+            {
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "{\n\"api_response\": \"\",\n\"notation\": \"\",\n\"suggestions\": \"\",\n\"additional_responses\": False,\n\"abort\": False,\n\"generate_title\": \"\",\n\"prompt_as_previous\": False\n}"
+                },
+                "finish_reason": "stop"
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 315,
+            "completion_tokens": 38,
+            "total_tokens": 353
+        }
+    },
+    "query_response": "{\n\"api_response\": \"\",\n\"notation\": \"\",\n\"suggestions\": \"\",\n\"additional_responses\": False,\n\"abort\": False,\n\"generate_title\": \"\",\n\"prompt_as_previous\": False\n}"
+}

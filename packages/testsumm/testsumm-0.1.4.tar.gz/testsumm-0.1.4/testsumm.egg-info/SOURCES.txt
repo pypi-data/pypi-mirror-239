@@ -1,0 +1,9 @@
+README.md
+setup.py
+testsumm/__init__.py
+testsumm/modulo.py
+testsumm.egg-info/PKG-INFO
+testsumm.egg-info/SOURCES.txt
+testsumm.egg-info/dependency_links.txt
+testsumm.egg-info/requires.txt
+testsumm.egg-info/top_level.txt

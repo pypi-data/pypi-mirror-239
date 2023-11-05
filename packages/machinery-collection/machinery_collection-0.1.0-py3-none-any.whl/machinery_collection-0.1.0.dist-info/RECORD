@@ -1,0 +1,9 @@
+machinery/__init__.py,sha256=2IkrHEg3j0cM5m0b_2NSBbwmE0Sil9Zznmr9jtcX9jw,52
+machinery/helpers.py,sha256=fidV_4f-ylGoI0VNIL4OEwN68mOp9QaotZfVhnJqEio,50404
+machinery/version.py,sha256=CpXi3jGlx23RvRyU7iytOMZrnspdWw4yofS8lpP1AJU,18
+tools/bootstrap_venvstarter.py,sha256=hjqM67frLchpgt4_brKEf5RGH_oX1ZvvknLC_eRmaQQ,775
+tools/devtools.py,sha256=ept9HcedXoHkkQ2UVIKwRey1CxTyozx-IfU1bYtPukI,3797
+machinery_collection-0.1.0.dist-info/METADATA,sha256=_k2rcYcf2EJBnGOx_k3xTR9GTfUdkqooPjb82gKdKL8,648
+machinery_collection-0.1.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+machinery_collection-0.1.0.dist-info/licenses/LICENSE,sha256=x2DyO06W-alLefJyCY6x9asATRM6HaIUA8K4N799yas,1081
+machinery_collection-0.1.0.dist-info/RECORD,,

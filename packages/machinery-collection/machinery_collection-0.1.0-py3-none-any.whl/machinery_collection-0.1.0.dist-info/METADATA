@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: machinery-collection
+Version: 0.1.0
+Summary: A collection of functionality
+Project-URL: Homepage, https://github.com/delfick/machinery
+Author-email: Stephen Moore <stephen@delfick.com>
+License: MIT
+License-File: LICENSE
+Requires-Python: >=3.10
+Provides-Extra: tests
+Requires-Dist: alt-pytest-asyncio==0.6.0; extra == 'tests'
+Requires-Dist: noseofyeti[black]==2.4.1; extra == 'tests'
+Requires-Dist: pytest==7.3.0; extra == 'tests'
+Description-Content-Type: text/x-rst
+
+Machinery
+=========
+
+This is a collection of functionality.
+
+
+Changelog
+---------
+
+0.1.0 - 5 November 2023
+    * A straight copy of photons_app.helpers

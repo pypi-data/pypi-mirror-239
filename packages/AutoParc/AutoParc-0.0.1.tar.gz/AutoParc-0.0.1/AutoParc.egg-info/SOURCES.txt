@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+AutoParc/__init__.py
+AutoParc.egg-info/PKG-INFO
+AutoParc.egg-info/SOURCES.txt
+AutoParc.egg-info/dependency_links.txt
+AutoParc.egg-info/requires.txt
+AutoParc.egg-info/top_level.txt
+data/__init__.py

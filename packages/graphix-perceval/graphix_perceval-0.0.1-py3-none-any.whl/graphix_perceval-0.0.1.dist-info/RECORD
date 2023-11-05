@@ -1,0 +1,13 @@
+graphix_perceval/__init__.py,sha256=STIarj49oJ2BfzQTWXhyg9fZSyx-fM1__paY3ONYe6o,35
+graphix_perceval/clifford.py,sha256=aFE9lM99TObMspUwRyDGniAxeAov59zO9ZX7JLWyY1Y,4063
+graphix_perceval/converter.py,sha256=0kPXTuI8mhZvCQlKn0v0v7euhYqIP5GXBwO8vvG_uVc,11443
+graphix_perceval/experiment.py,sha256=a9NEK271PEUPudlWM30xxCmcULMvtEEyZUhBlfYt4LA,14136
+graphix_perceval/version.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_clifford.py,sha256=QiozLtIDAIgNGg7iIxa9N89iqXzGoCQxLuQneOgfyNs,1078
+tests/test_converter.py,sha256=FP_ta0QrncerYtK4MJLoXDk8W5JgQ-ItnJftJP-vskg,6346
+graphix_perceval-0.0.1.dist-info/LICENSE,sha256=BomX7WIbgNnn54eqI3LRkgHrzrvJ1EO_hs_MI8_0erk,10776
+graphix_perceval-0.0.1.dist-info/METADATA,sha256=8W-_YQGyi_UGmoxYKhu3mnoCdDmNCV3fOpZVIilr06s,1678
+graphix_perceval-0.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+graphix_perceval-0.0.1.dist-info/top_level.txt,sha256=IMtO-fNV5QoNzK-2-6eQnZ_oLf7l_08vF_OEbeKSxYU,23
+graphix_perceval-0.0.1.dist-info/RECORD,,

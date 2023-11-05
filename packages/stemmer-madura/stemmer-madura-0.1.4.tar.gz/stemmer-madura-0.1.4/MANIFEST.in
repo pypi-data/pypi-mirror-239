@@ -1,0 +1,6 @@
+include stemmer_madura/*
+include basewords.txt
+include stopwords.txt
+recursive-include stemmer_madura/lib *
+prune stemmer_madura/__pycache__
+prune stemmer_madura/lib/__pycache__

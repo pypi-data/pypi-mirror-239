@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.py
+pygame_framework/pygame_framework.py
+pygame_framework.egg-info/PKG-INFO
+pygame_framework.egg-info/SOURCES.txt
+pygame_framework.egg-info/dependency_links.txt
+pygame_framework.egg-info/top_level.txt

@@ -1,0 +1,2 @@
+[console_scripts]
+sqlmap-websocket-proxy = sqlmap_websocket_proxy.main:main

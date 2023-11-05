@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: kvix
+Version: 0.1.0a0
+Requires-Dist: chevron==0.14.0
+Requires-Dist: funcy==2.0
+Requires-Dist: pynput==1.7.6
+Requires-Dist: pystray==0.19.4
+Requires-Dist: pygobject==3.46.0
+Requires-Dist: pkgconfig==1.5.5
+Requires-Dist: pyclip==0.7.0
+Requires-Dist: PyYAML==6.0.1
+Requires-Dist: tk==0.1.0

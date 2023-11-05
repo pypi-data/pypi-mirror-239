@@ -1,0 +1,6 @@
+[console_scripts]
+puddl-audio-duration = puddl.audio.cli:duration
+puddl-config = puddl.cli.config:main
+puddl-db = puddl.cli.db:main
+puddl-felix-git = puddl.felix.git.cli:main
+puddl-speech = puddl.speech.cli:main

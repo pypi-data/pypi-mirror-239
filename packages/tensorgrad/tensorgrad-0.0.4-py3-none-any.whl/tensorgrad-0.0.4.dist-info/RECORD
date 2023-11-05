@@ -1,0 +1,9 @@
+tensorgrad/__init__.py,sha256=sK12_gcLtG7AvgGYJA_IBsdEJJErGful_itoFWSapiE,47
+tensorgrad/libs/__init__.py,sha256=WbvpIy2tHnyYqA3Em6vBG1egCsmwn9KBN7SIzYf2-Zk,27
+tensorgrad/libs/linalg/__init__.py,sha256=zX6CLp8JsH_1SVcJpTdcw59sPfLhlY0ND9eDa1IcQxA,27
+tensorgrad/libs/linalg/tensor/__init__.py,sha256=4r3RkbAePxEGaewjUB3ZpQTCB0bQrfX8wNiCpURTW8E,42
+tensorgrad/libs/linalg/tensor/tensor.py,sha256=CdzoBVSU5hd76DOLswYN-W460QMTJfxT1I0SHpFGJkM,5636
+tensorgrad-0.0.4.dist-info/METADATA,sha256=dpAN3O1c4vune5KvpJrPRhfp11IEOV4ezW9Tw1eLUXI,1249
+tensorgrad-0.0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+tensorgrad-0.0.4.dist-info/top_level.txt,sha256=fY8gNmqWox3gLn__DGM_DGaXVR5XbKS5LxGqRUG0D78,11
+tensorgrad-0.0.4.dist-info/RECORD,,

@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+giga_json/__init__.py
+giga_json/__version__.py
+giga_json.egg-info/PKG-INFO
+giga_json.egg-info/SOURCES.txt
+giga_json.egg-info/dependency_links.txt
+giga_json.egg-info/top_level.txt
+test/__init__.py
+test/test_giga.py

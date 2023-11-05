@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "team-commit-checker"
+version = "0.1.0"
+description = "A CLI tool to check team members' git commits in coding.net."
+authors = ["Zhongwei <lizhongwei.nkcs@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+keywords = ["python", "coding.net"]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.12"
+requests = "^2.31.0"
+configparser = "^6.0.0"
+pyinquirer = "^1.0.3"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.9.1"
+isort = "^5.12.0"
+pytest = "^7.4.2"
+
+[tool.poetry.scripts]
+team-commit-checker = "team_commit_checker.main:main"
+
+[tool.isort]
+profile = "black"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

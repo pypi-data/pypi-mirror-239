@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+complexNN/__init__.py
+complexNN/complexActivation.py
+complexNN/complexFunction.py
+complexNN/complexLayer.py
+complexNN/complexRNN.py
+complexNN/complexRNNcell.py
+complexNN.egg-info/PKG-INFO
+complexNN.egg-info/SOURCES.txt
+complexNN.egg-info/dependency_links.txt
+complexNN.egg-info/not-zip-safe
+complexNN.egg-info/requires.txt
+complexNN.egg-info/top_level.txt

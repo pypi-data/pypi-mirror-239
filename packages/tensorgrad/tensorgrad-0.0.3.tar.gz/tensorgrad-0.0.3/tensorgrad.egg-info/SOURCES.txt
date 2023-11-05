@@ -1,0 +1,7 @@
+README.md
+setup.py
+tensorgrad/__init__.py
+tensorgrad.egg-info/PKG-INFO
+tensorgrad.egg-info/SOURCES.txt
+tensorgrad.egg-info/dependency_links.txt
+tensorgrad.egg-info/top_level.txt

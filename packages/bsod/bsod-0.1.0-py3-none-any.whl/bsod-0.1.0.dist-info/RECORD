@@ -1,0 +1,14 @@
+bsod/__init__.py,sha256=zDr350exO14Ii8Pj3TXwPuRxIDrEjrg43CpjYABDqh4,19
+bsod/main.py,sha256=A37Js0gxRJ_kL5ZZQxXlQgqNwmOFVb4dz5964umQpOM,268
+bsod/utils.py,sha256=e9XlllAqAI5Q1PduQN1CpSfDUbx5hG8T-j-Ja9NZWpI,1448
+bsod/assets/audio.mp3,sha256=1EwKDyA1HMLTB6T4tTYtMA-tn08xKEZ67jZ_IOThjzc,29272
+bsod/assets/image.png,sha256=qcxMzsjT4A-vgXZMzf7ehUVdCyfCwcDFx3vjkbDgxFU,75222
+src/__init__.py,sha256=zDr350exO14Ii8Pj3TXwPuRxIDrEjrg43CpjYABDqh4,19
+src/main.py,sha256=W7YwzI6qaHIs7-HtbvlZQYNoFUwQ2PwHK3zwE_2XkC8,446
+src/utils.py,sha256=GwOrKMRYUnr9RwDo5dAnxgmN-mCsukx4HrtaJXQ8qSs,1328
+bsod-0.1.0.dist-info/LICENSE,sha256=6JtrT-8gkovdCOWeJ5vIU5QPIS8ifksMxKkEaF2zLVY,1065
+bsod-0.1.0.dist-info/METADATA,sha256=KsEKAdbi2aRcgQZKF2DjmZmPyUmVUcPAw3wyN9XrPxQ,1557
+bsod-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+bsod-0.1.0.dist-info/entry_points.txt,sha256=v51fGQ9805l5CH4J-y6H0Cd20gsZoEgJ3EKaqhW0kb4,40
+bsod-0.1.0.dist-info/top_level.txt,sha256=Sxckn9scfTSrPf2G0kL2XipXeLYWEIMI50bjSlnsxw8,5
+bsod-0.1.0.dist-info/RECORD,,

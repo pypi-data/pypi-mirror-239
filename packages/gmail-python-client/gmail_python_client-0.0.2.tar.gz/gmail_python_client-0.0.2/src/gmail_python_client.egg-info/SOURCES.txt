@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+src/gmail_python_client/__init__.py
+src/gmail_python_client/email_client.py
+src/gmail_python_client/gmail_client.py
+src/gmail_python_client.egg-info/PKG-INFO
+src/gmail_python_client.egg-info/SOURCES.txt
+src/gmail_python_client.egg-info/dependency_links.txt
+src/gmail_python_client.egg-info/requires.txt
+src/gmail_python_client.egg-info/top_level.txt

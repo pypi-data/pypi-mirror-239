@@ -1,0 +1,7 @@
+README.md
+setup.py
+tubie/tubie.py
+tubie.egg-info/PKG-INFO
+tubie.egg-info/SOURCES.txt
+tubie.egg-info/dependency_links.txt
+tubie.egg-info/top_level.txt

@@ -1,0 +1,15 @@
+[project]
+name = "coffeetests"
+version = "0.1.0"
+description = "Testing things"
+authors = [
+    {name = "Jacob Coffee", email = "jacob@z7x.org"},
+]
+dependencies = []
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

@@ -1,0 +1,20 @@
+[project]
+name = "parameter_verification"
+version = "0.1.1"
+description = "Simple function that can be used to validate a list of parameters"
+authors = [{name = "Thomas Dunteman", email= "git@learningtopi.com"}]
+keywords = ["verify", "parameters"]
+readme = "README.md"
+requires-python = ">=3.3"
+classifiers = [
+	"Programming Language :: Python :: 3"]
+dependencies = []
+
+[project.urls]
+"homepage" = "https://www.learningtopi.com/python-modules-applications/parameter_verification"
+"bug tracker" = "https://github.com/LearningToPi/parameter_verification/issues"
+"source code" = "https://github.com/LearningToPi/parameter_verification"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"

@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "temp-michprev-foo"
+version = "0.1.0"
+description = ""
+authors = ["Michal Převrátil <michprev@gmail.com>"]
+readme = "README.md"
+packages = [{include = "temp_michprev_foo"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+temp-michprev-bar = "0.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

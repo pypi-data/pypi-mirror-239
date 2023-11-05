@@ -1,0 +1,2 @@
+[console_scripts]
+lifegame = lifegame.cli:lifegame

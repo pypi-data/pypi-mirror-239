@@ -1,0 +1,12 @@
+LICENSE
+LICENSE-Douglas6
+README.md
+pyproject.toml
+pythonBLEperipheral/__init__.py
+pythonBLEperipheral/advertisement.py
+pythonBLEperipheral/bletools.py
+pythonBLEperipheral/service.py
+pythonBLEperipheral.egg-info/PKG-INFO
+pythonBLEperipheral.egg-info/SOURCES.txt
+pythonBLEperipheral.egg-info/dependency_links.txt
+pythonBLEperipheral.egg-info/top_level.txt

@@ -1,0 +1,13 @@
+lib/__init__.py,sha256=l1wNCB8MgkuPgCJA6wptz24swpVrAoRcweI0bJDxkRI,196
+lib/exceptions.py,sha256=tD2qT8M_D8CJO5XqB9NXH-F22UmfJ_35J_dycD_50do,211
+lib/validator.py,sha256=SHuDe-aWpQePwsX_zgjpUAq-5PqVeve_3agLpqw1kgc,5250
+lib/validrequest.py,sha256=hdOJbJVbVpa50R3mrvrT1lbz7AMKr63l6aKou40J-xI,4057
+lib/version.py,sha256=xZawFFh80uj7MHMJJXWFcuzkX29fVkHuS5NT5dJMCf8,20
+validrequest/__init__.py,sha256=8OhDWejAJE5eWD_0zcJe5uLQ0M66oB1QiUrMXUoyrN0,157
+validrequest/exceptions.py,sha256=XtqRP6GLPLoc77r4vGvwg-gmYmaq-Shbly5myFfdDew,158
+validrequest/validator.py,sha256=hdOJbJVbVpa50R3mrvrT1lbz7AMKr63l6aKou40J-xI,4057
+validrequest/version.py,sha256=PrpBdiwioc1qL97U-koMzqtMN6Uc1bIZ_fggcpir7Vc,20
+validrequest-1.0.0.dist-info/METADATA,sha256=Mgad4sSToRbmGfnF7kdsJ2iyWlU2_dg3r1vxB5v12Mg,3435
+validrequest-1.0.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+validrequest-1.0.0.dist-info/top_level.txt,sha256=oyXcrLgLICoBS0ILk_wZBhkAAY-M4hbQoMsA1hDsf5c,4
+validrequest-1.0.0.dist-info/RECORD,,

@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/sqlmap_websocket_proxy/__init__.py
+src/sqlmap_websocket_proxy/console.py
+src/sqlmap_websocket_proxy/handler.py
+src/sqlmap_websocket_proxy/main.py
+src/sqlmap_websocket_proxy.egg-info/PKG-INFO
+src/sqlmap_websocket_proxy.egg-info/SOURCES.txt
+src/sqlmap_websocket_proxy.egg-info/dependency_links.txt
+src/sqlmap_websocket_proxy.egg-info/entry_points.txt
+src/sqlmap_websocket_proxy.egg-info/requires.txt
+src/sqlmap_websocket_proxy.egg-info/top_level.txt

@@ -1,0 +1,5 @@
+websocket-client
+rich
+
+[dev]
+ruff

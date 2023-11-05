@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: SwiftNet
+Version: 0.0.10
+Summary: Simple Package for creating multilayer Neural Nets 
+Home-page: https://github.com/badapple21/SwiftNet
+Author: Michael Noel
+Author-email: mjn2024@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: flask
+Requires-Dist: python-mnist
+
+# net3
+SIMPLE NET under construction

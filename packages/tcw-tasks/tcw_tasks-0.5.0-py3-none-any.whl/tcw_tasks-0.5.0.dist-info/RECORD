@@ -1,0 +1,11 @@
+tcw_tasks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tcw_tasks/models.py,sha256=tutvtDIUwr0bHJ17iTiekwB5PFJHKwpWGT7GoFXm9ys,2002
+tcw_tasks/notify.py,sha256=Olv6hIw-tZ6S2JBwQab19Ov6qgmCWxkV_AbgC_9TY70,2572
+tcw_tasks/templates.py,sha256=RtkD7UJ-_5kbkAmv_tfVSZFh94Z7OYiQxxbH3x-kfFQ,2570
+tcw_tasks/utils.py,sha256=RLCAT5cXct4BazSrJ6zWbFJP5jY7KuCv85rkCgBOQjo,767
+tcw_tasks-0.5.0.dist-info/LICENSE,sha256=ytmMoF8IrNqMYxwsVz3OmgzisxT1odKVW1y3ruosmCg,1060
+tcw_tasks-0.5.0.dist-info/METADATA,sha256=l5HRsU2U4j48Oh1aICjBjNwu_12GuJXxLK7xOC1_ZOE,367
+tcw_tasks-0.5.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+tcw_tasks-0.5.0.dist-info/entry_points.txt,sha256=kyyO7z3OpAVz4tj-oSpSS7KGvG31oQSpUFHOeUD171k,52
+tcw_tasks-0.5.0.dist-info/top_level.txt,sha256=BGzfQBvMmChuNYGiRnj3522A4ipgqn22Vrvl0wN7j-E,10
+tcw_tasks-0.5.0.dist-info/RECORD,,

@@ -1,0 +1,2 @@
+graphix>=0.2.7
+perceval-quandela>=0.9.1

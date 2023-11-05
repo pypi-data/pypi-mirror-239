@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: graphix-perceval
+Version: 0.0.1
+Summary: Perceval interface for graphix library, the MBQC compiler
+Home-page: https://graphix.readthedocs.io
+Author: Kazuki Tsuoka, Shinichi Sunami
+Author-email: shinichi.sunami@gmail.com
+Maintainer: Kazuki Tsuoka, Shinichi Sunami
+Maintainer-email: shinichi.sunami@gmail.com
+License: Apache License 2.0
+Project-URL: Bug Tracker, https://github.com/TeamGraphix/graphix-perceval/issues
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.8,<3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: graphix>=0.2.7
+Requires-Dist: perceval-quandela>=0.9.1
+
+# Graphix Perceval interface
+
+![PyPI](https://img.shields.io/pypi/v/graphix-perceval)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/graphix-perceval)
+
+Provides an interface to run MBQC pattern (`graphix.Pattern`) on Quandela's optical quantum devices as well as Perceval's simulator backends.
+
+Requires [graphix](https://github.com/TeamGraphix/graphix) to generate the measurement pattern.
+
+## Installation
+
+install with `pip`
+
+```bash
+ $ pip install graphix-perceval
+```
+
+<!-- This can be installed as part of graphix, by
+```
+ $ pip install graphix[extra]
+``` -->
+
+## License
+
+[Apache License 2.0](LICENSE)

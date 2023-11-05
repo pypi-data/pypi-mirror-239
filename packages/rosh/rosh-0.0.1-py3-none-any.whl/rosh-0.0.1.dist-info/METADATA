@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: rosh
+Version: 0.0.1
+Summary: router shell is a interactive diagnostic shell for Linux
+Home-page: https://codeberg.org/liske/rosh
+Author: Thomas Liske
+Author-email: thomas@fiasko-nw.net
+License: GPL3+
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cachetools
+Requires-Dist: prettytable
+Requires-Dist: prompt-toolkit
+Requires-Dist: pyroute2
+Requires-Dist: fuzzyfinder
+Requires-Dist: setproctitle
+Provides-Extra: ifstate
+Requires-Dist: ifstate ; extra == 'ifstate'
+
+# ROSH - Router Shell
+
+**WARNING** *This project is still in an early stage of development, and most of its intended function is missing!*
+
+This is a interactive diagnostic shell for (software|linux)-based routers. It's inspired by the CLI of network equipment (i.e. Cisco IOS) and implements simular diagnostic commands like the iproute2/bridge/ethtool/tc/wireguard commands.
+
+![rosh demo](doc/demo.gif)

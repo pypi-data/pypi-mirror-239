@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: moonsetup
+Version: 2.0.0
+Summary: A library to make setup or check version of your program
+Home-page: https://github.com/toxinsfx/MoonSetup
+Author: toxinsfx
+Requires-Dist: requests
+
+Check full description on github: https://github.com/toxinsfx/MoonSetup

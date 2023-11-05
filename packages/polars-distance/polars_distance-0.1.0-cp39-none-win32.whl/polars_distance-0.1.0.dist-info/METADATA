@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: polars-distance
+Version: 0.1.0
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Summary: Polars plugin for pair-wise distance functions
+Author-email: Ion Koutsours <15728914+ion-elgreco@users.noreply.github.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Homepage, https://github.com/ion-elgreco/polars-distance
+Project-URL: Bug Tracker, https://github.com/ion-elgreco/polars-distance/issues
+
+Hellooo :)
+
+This plugin is a work-in progress, main goal is to get pairwise distance metrics on numerical vectors (list, arrays) and string distance metrics.
+
+## Examples
+
+```python
+import polars
+import polars_distance as pld
+
+df = pl.DataFrame({
+    "foo":"hello",
+    "bar":"hella world"
+})
+
+df.select(
+    pld.col("foo").pdist_str.hamming('bar').alias('dist')
+)
+┌──────┐
+│ dist │
+│ ---  │
+│ u32  │
+╞══════╡
+│ 1    │
+└──────┘
+
+
+df.select(
+    pld.col('foo').pdist_str.levenshtein('bar').alias('dist')
+)
+┌──────┐
+│ dist │
+│ ---  │
+│ u32  │
+╞══════╡
+│ 6    │
+└──────┘
+
+```

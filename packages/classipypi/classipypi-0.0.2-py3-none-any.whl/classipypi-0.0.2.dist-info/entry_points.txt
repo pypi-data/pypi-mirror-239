@@ -1,0 +1,3 @@
+[console_scripts]
+classipypi = classipypi.cli:run_cli
+

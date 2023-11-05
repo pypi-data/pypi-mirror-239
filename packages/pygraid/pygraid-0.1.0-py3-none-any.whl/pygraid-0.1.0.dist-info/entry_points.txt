@@ -1,0 +1,3 @@
+[console_scripts]
+pygraid=pygraid.cli:main
+

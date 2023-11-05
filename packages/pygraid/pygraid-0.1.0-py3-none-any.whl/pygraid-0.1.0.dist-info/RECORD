@@ -1,0 +1,11 @@
+pygraid/__init__.py,sha256=oj1ATCJb1A9z0d7aBDuEPTibE7TEQg8gjgiZEsThUss,13555
+pygraid/data/anim.csv,sha256=VHiflgL7oYwcWOcNbKydBcBtk7kBOkc-Lr6DRYYeMsw,177
+pygraid/data/boundaries.csv,sha256=ZwYtIxEOPl8bup_1Cnan68DBbjrlfIqBjV-zPAIrxcU,134
+pygraid/data/pred.csv,sha256=5oHooyREFxaennWjKl8-pbdAbzrCsXgjBhD7Gzu9DwM,108
+pygraid/data/ref.csv,sha256=sFuCyTkTi-Nn8hn1rt4OlDaw2bBXD5KZFK4ZkITsbcQ,132
+pygraid/data/syn.csv,sha256=l0W1q8eAZc3jLH_F1Rc2DXQBetUUlvTOIuKA3iusEqw,308
+pygraid-0.1.0.dist-info/LICENSE,sha256=OPzV6bHGPCXFylyiCR3GYAK-EP8seLDbcbgO87DYM1o,11359
+pygraid-0.1.0.dist-info/METADATA,sha256=LNS2Hge6YNlc0_49AtFTuA8vhEt0dYX3m9lYrEMy3yQ,1312
+pygraid-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+pygraid-0.1.0.dist-info/entry_points.txt,sha256=Awesv3GIYvzRIOxAaUcxlT6oofeZl6_deDRV5RjF6d4,44
+pygraid-0.1.0.dist-info/RECORD,,

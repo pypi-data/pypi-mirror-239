@@ -1,0 +1,13 @@
+.gitignore,sha256=zbyuFRBda3geYggTx5x-hodA1OnMU85vX8u8Ejh630s,2
+6acf770552fca63f1538__mypyc.cpython-312-x86_64-linux-gnu.so,sha256=hEi45v4lKH8DPXSnnATswQ4QHl5cSDLYLnz9IoqmzTc,381408
+asgi_etags/core.py,sha256=6AQXurgYfxg5GTmfl22JLV92T76NoDaIRIRifAk5BHY,4868
+asgi_etags/types.cpython-312-x86_64-linux-gnu.so,sha256=Z2XTfLrrYQGqOeNHdrdcCLH8jj4wlSCrdv0MatfuL-Y,17152
+asgi_etags/types.py,sha256=iQYSbHR2w2m-7GWujB88eCHG4rnCGMcTnaosfn6QENw,378
+asgi_etags/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+asgi_etags/__init__.cpython-312-x86_64-linux-gnu.so,sha256=lvp5G7009_lTiof2EmtUgsV63GIgMWEfco54L1FJHx4,17160
+asgi_etags/__init__.py,sha256=3kZzzawhloDyNoGF40oMicLelFPI9NFCOC4IzJjhGwE,121
+asgi_etags/core.cpython-312-x86_64-linux-gnu.so,sha256=TmU6cYvVp8ii4onlhZ3wAGe331jIKCHZLNjNZ4LFQ_A,17152
+asgi_etags-0.2.1.dist-info/WHEEL,sha256=BhFvjBpSrfYikzu0vZWrmiusDMptqy7Ovp5r4aL70Ts,190
+asgi_etags-0.2.1.dist-info/RECORD,,
+asgi_etags-0.2.1.dist-info/METADATA,sha256=Y0Czw3G-0b0hnzPoSuTaF-Fz5FcHW4BvG5xO5dl1Hfk,1226
+asgi_etags-0.2.1.dist-info/licenses/LICENSE,sha256=ASpelLXJW65CwjuEsCKoHUAv8GKp8haqNR2-8Wldvqk,1072

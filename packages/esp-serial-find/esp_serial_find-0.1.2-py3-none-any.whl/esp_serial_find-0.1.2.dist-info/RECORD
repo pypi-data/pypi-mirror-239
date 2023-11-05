@@ -1,0 +1,8 @@
+esp_serial_find/__init__.py,sha256=MWzNfk12EOebetjvrJqA6c-pRBwbqTswXSE8jaEkXto,128
+esp_serial_find/cli.py,sha256=0sF2havqIV6-jEQHRlNYDMX6SVh6ZY1KSas3kZ8hAGM,1952
+esp_serial_find/esp_serial_find.py,sha256=_kgbmUTgRbCdHa4cAipN2z_1bXUu0VRy0fJWTv669oY,1134
+esp_serial_find-0.1.2.dist-info/LICENSE,sha256=1QNkRmja5856mEPSgtdnhSBNLvo8oPk4lDL8T28f1-w,1067
+esp_serial_find-0.1.2.dist-info/METADATA,sha256=QJaCS3WfcnUkCX8q26U7AhThbuhGgqRO-c7TJW9X9H0,4065
+esp_serial_find-0.1.2.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+esp_serial_find-0.1.2.dist-info/entry_points.txt,sha256=nuu2yJvAKTM1wujoR9qMCgMNL8YtlytAADFPzNB7Ycw,60
+esp_serial_find-0.1.2.dist-info/RECORD,,

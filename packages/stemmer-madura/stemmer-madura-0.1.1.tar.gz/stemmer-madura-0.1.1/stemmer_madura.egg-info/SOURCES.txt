@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+stemmer_madura/__init__.py
+stemmer_madura/files.py
+stemmer_madura/ngram.py
+stemmer_madura/rules.py
+stemmer_madura/stemmer.py
+stemmer_madura.egg-info/PKG-INFO
+stemmer_madura.egg-info/SOURCES.txt
+stemmer_madura.egg-info/dependency_links.txt
+stemmer_madura.egg-info/top_level.txt

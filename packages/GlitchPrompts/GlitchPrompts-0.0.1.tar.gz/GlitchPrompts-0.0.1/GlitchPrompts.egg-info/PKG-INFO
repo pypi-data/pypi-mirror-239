@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: GlitchPrompts
+Version: 0.0.1
+Summary: Used as a quick way to add color and prompts to automation.
+Home-page: UNKNOWN
+Author: Clutch_Reboot
+Author-email: clutchshadow26@gmail.com
+License: GNU General Public License v3.0
+Project-URL: Documentation, https://clutchreboot.github.io/GlitchPrompts/
+Project-URL: Source, https://github.com/ClutchReboot/GlitchPrompts
+Keywords: GlitchPrompts prompts color text
+Platform: UNKNOWN
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# GlitchPrompts
+Used as a quick way to add color and prompts to automation.
+
+# Usage
+```python
+from GlitchPrompts import glitch_print
+
+glitch_print("Success!", prompt='success')
+```
+
+

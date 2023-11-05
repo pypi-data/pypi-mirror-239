@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+SpetsLogging.egg-info/PKG-INFO
+SpetsLogging.egg-info/SOURCES.txt
+SpetsLogging.egg-info/dependency_links.txt
+SpetsLogging.egg-info/requires.txt
+SpetsLogging.egg-info/top_level.txt
+spetslogging/__init__.py
+spetslogging/logger.py
+spetslogging.egg-info/PKG-INFO
+spetslogging.egg-info/SOURCES.txt
+spetslogging.egg-info/dependency_links.txt
+spetslogging.egg-info/requires.txt
+spetslogging.egg-info/top_level.txt

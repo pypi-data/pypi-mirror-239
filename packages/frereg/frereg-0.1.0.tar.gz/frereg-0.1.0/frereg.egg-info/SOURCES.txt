@@ -1,0 +1,11 @@
+LICENSE
+README
+setup.py
+frereg/__init__.py
+frereg/_dct.py
+frereg/_freqreg_eva.py
+frereg.egg-info/PKG-INFO
+frereg.egg-info/SOURCES.txt
+frereg.egg-info/dependency_links.txt
+frereg.egg-info/requires.txt
+frereg.egg-info/top_level.txt

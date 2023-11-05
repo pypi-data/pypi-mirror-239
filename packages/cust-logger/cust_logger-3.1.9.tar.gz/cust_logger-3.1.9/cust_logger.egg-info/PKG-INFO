@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: cust-logger
+Version: 3.1.9
+Summary: This is my custom logger
+Home-page: https://pypi.org/project/cust-logger
+Author: dimka4621
+Author-email: mismartconfig@gmail.com
+Project-URL: GitHub, https://github.com/DIMKA4621/cust-logger
+Keywords: cust logger
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Cust-Logger

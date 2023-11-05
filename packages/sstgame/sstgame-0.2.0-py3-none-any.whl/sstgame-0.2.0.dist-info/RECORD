@@ -1,0 +1,14 @@
+sstgame/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sstgame/__main__.py,sha256=haUo2yLSS6ZJhc0tOOCD87Sra7i37V82TJ24ck_yYZE,392
+sstgame/madlib.py,sha256=YdPtoYLfAdzLqu42fZCudHFEU_s8PTY-HLbzCbI_LH0,1173
+sstgame/madlib.txt,sha256=KZXi0lbgEglVRZ5lOPOAEY7uXV5wxk0JpBt3fvTPr2A,1219
+sstgame/numberGuess.py,sha256=wRr-0ZlySDr0LJyY8BDxyEOiXymwtGHc0LRpwUq8ao8,969
+sstgame/randomGame.py,sha256=_2g8fNnwnOARbm4KQpov7lihRvgaJvopycVZ6KmRNRY,1350
+sstgame/wyr.py,sha256=uuiN6B6bsJenyljvTS4YZb55vl5-ubn4gZHsO5FEMt0,391
+sstgame/wyr.txt,sha256=H7zbUNaoDTOQkRQ7t5fF0zlW4_eFqsugjas2RtkKTTU,1452
+sstgame-0.2.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+sstgame-0.2.0.dist-info/METADATA,sha256=m671tN_p6fx0VjuH7q5MvzV5vAdBTeGZLOaTBNSpF7M,45207
+sstgame-0.2.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+sstgame-0.2.0.dist-info/entry_points.txt,sha256=5HdEa8Trpyg4C8JJCv5RtWaOkkaRYKRu_MXd8a3Hfbs,50
+sstgame-0.2.0.dist-info/top_level.txt,sha256=mh8Huo0s2QtJEFFDBQ_-bBQhk3BQ-zIOmoyOfKcXp-o,8
+sstgame-0.2.0.dist-info/RECORD,,

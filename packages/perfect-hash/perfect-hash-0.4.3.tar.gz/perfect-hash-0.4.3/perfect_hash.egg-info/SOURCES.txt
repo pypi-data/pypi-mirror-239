@@ -1,0 +1,9 @@
+LICENSE.txt
+README.rst
+perfect-hash
+perfect_hash.py
+setup.py
+perfect_hash.egg-info/PKG-INFO
+perfect_hash.egg-info/SOURCES.txt
+perfect_hash.egg-info/dependency_links.txt
+perfect_hash.egg-info/top_level.txt

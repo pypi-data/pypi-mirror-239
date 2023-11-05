@@ -1,0 +1,6 @@
+numpy>=1.26.1
+
+[dev]
+pytest>=7.4.3
+twine>=4.0.2
+torch>=2.1.0

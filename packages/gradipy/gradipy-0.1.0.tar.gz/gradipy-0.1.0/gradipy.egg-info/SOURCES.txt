@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+gradipy/__init__.py
+gradipy/datasets.py
+gradipy/tensor.py
+gradipy.egg-info/PKG-INFO
+gradipy.egg-info/SOURCES.txt
+gradipy.egg-info/dependency_links.txt
+gradipy.egg-info/requires.txt
+gradipy.egg-info/top_level.txt
+gradipy/nn/__init__.py
+gradipy/nn/init.py
+gradipy/nn/loss.py
+gradipy/nn/optim.py
+test/test_tensor_ops.py

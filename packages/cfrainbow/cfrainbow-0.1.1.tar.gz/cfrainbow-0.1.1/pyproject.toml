@@ -1,0 +1,87 @@
+[build-system]
+requires = ["poetry"]
+build-backend = "poetry.masonry.api"
+
+[tool.poetry]
+name = 'cfrainbow'
+version = '0.1.1'
+authors = [
+    'Michael Aichmueller <m.aichmueller@gmail.com>'
+]
+license = 'MIT license'
+description = 'Counterfactual Regret Minimization Open-Source Implementations'
+readme = "README.md"
+keywords = [
+    'counterfactual regret minimization',
+    'regret minimization',
+    'extensive form games',
+    'cfr',
+    'cfr+',
+    'discounted cfr',
+    'linear',
+    'monte-carlo',
+    'openspiel',
+]
+homepage = 'https://github.com/maichmueller/cfrainbow'
+classifiers = [
+    'Development Status :: 3 - Alpha',
+    'Intended Audience :: Science/Research',
+    'License :: OSI Approved :: MIT License',
+    'Natural Language :: English',
+    'Programming Language :: Python :: 3.8',
+    'Programming Language :: Python :: 3.9',
+    'Programming Language :: Python :: 3.10',
+    'Operating System :: MacOS :: MacOS X',
+    'Operating System :: POSIX :: Linux',
+    'Topic :: Scientific/Engineering :: Mathematics'
+]
+packages = [
+    { include = "cfrainbow", from = "src" },
+]
+
+
+[tool.poetry.dependencies]
+# Compatible Python versions
+python = ">=3.8"
+numpy = [
+    { version = ">=1.22", python = ">=3.10" },
+    { version = ">=1.19", python = "<=3.9" }
+]
+open_spiel = { version = ">=1.0" }
+tqdm = "*"
+numba = { version = ">=0.5" }
+
+[tool.poetry.group.dev]
+optional = true
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "*"
+tox = "*"
+pytest = "*"
+pytest-xdist = "*"
+pytest-cov = "*"
+
+[tool.poetry.group.packaging]
+optional = true
+
+[tool.poetry.group.packaging.dependencies]
+beautifulsoup4 = "*"
+
+
+[tool.black]
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.nox
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+)/
+'''

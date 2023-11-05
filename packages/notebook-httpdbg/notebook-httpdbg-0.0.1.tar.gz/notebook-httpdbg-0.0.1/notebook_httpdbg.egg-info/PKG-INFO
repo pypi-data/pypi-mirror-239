@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: notebook-httpdbg
+Version: 0.0.1
+Summary: A notebook extension to trace HTTP(S) requests.
+Author-email: cle-b <cle@tictac.pm>
+License: Apache-2.0
+Project-URL: repository, https://github.com/cle-b/notebook-httpdbg
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Framework :: Jupyter
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: httpdbg>=0.17.0
+Requires-Dist: notebook
+
+# notebook-httpdbg
+
+`notebook-httpdbg` is a notebook extension to trace the HTTP requests.
+
+## installation 
+
+```
+pip install notebook-httpdbg
+```
+
+## usage
+
+### load the extension in the notebook
+
+```
+%load_ext notebook_httpdbg
+```
+
+### trace the HTTP requests for a cell
+```
+%%httpdbg
+```
+
+## example
+
+```
+%load_ext notebook_httpdbg
+import requests
+%%httpdbg
+_ = requests.get("https://www.example.com")
+```

@@ -1,0 +1,3 @@
+[console_scripts]
+pylacoan=pylacoan.cli:main
+

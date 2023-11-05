@@ -1,0 +1,16 @@
+_kaldifst.cpython-38-aarch64-linux-gnu.so,sha256=hv5UOBwuw0voKpcCFMxlCV8CDDhTEjJl07Yl-dJS12A,2495072
+kaldifst/iterator.py,sha256=AG7ajKJUOj_ytWwBhF066nNNlGqZjKqPa5TcDOhJhyQ,1955
+kaldifst/__init__.py,sha256=gBtiLRnb85E3YnsU6UaFGqpTXKxXVp2WxhgFvFVH7HE,767
+kaldifst/table_types.py,sha256=nx1imKWrSOHg8cJ-ZHtTs1w6Cw7tcjmnjOzu7HaIj74,4889
+kaldifst/utils/k2_converter.py,sha256=7h4xk9Hy8y5S_SsaZtLwWrTC-QCxZtvNOWWP8zGExUs,4434
+kaldifst/utils/__init__.py,sha256=U95V73gtq8W9m7-oFNAbaXziUsXjfIxgf_5UkqKrzFI,48
+kaldifst/lib/libkaldifst_fstscript.so,sha256=B4lgDU6g-qxRbdotICf39MZBaUSi_oXP9-dB-tB5oUs,16883184
+kaldifst/lib/libkaldifst_fst.so.6,sha256=wXDg1LM-ruL4WgVDct0424UPCwqb1Y4svtFijEehV0A,2330096
+kaldifst/lib/libkaldifst_fst.so,sha256=wXDg1LM-ruL4WgVDct0424UPCwqb1Y4svtFijEehV0A,2330096
+kaldifst/lib/libkaldifst_core.so,sha256=ZILZMJjoqtWv_RZR5cYOxn2GIqWbjLTtZZKT_0SQokI,1150384
+kaldifst/lib/libkaldifst_fstscript.so.6,sha256=B4lgDU6g-qxRbdotICf39MZBaUSi_oXP9-dB-tB5oUs,16883184
+kaldifst-1.7.8.dist-info/WHEEL,sha256=7qYgiLwwJLmZPJXYAe90WXzmsPmUWCec-4Ak8vaPTT0,150
+kaldifst-1.7.8.dist-info/LICENSE,sha256=poLW79HuXe4IqOQFwjPCwZjqcK4HGBKdqoOrWM_jHF0,11728
+kaldifst-1.7.8.dist-info/RECORD,,
+kaldifst-1.7.8.dist-info/top_level.txt,sha256=5daD6QbX-r0ecQMOY4qNXZoJSX9-qpzbVlx1Bgi9sfI,19
+kaldifst-1.7.8.dist-info/METADATA,sha256=xkNcQqh4-AFZNxo_-jwng91E5dPLN6WR-szeH5OTaDU,839

@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: lib-dzne-math
+Version: 0.2.5
+Summary: Libary for math.
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
+Description-Content-Type: text/x-rst
+Requires-Dist: pandas>=1.5.3
+Requires-Dist: na_quantors>=1.0.0
+Requires-Dist: expit>=0.0.2
+Requires-Dist: roman>=4.1
+
+=============
+lib_dzne_math
+=============
+
+Overview
+--------
+
+Library for math.
+
+Installation
+------------
+
+To install lib_dzne_math, you can use `pip`. Open your terminal and run:
+
+.. code-block:: bash
+
+    pip install lib_dzne_math

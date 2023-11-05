@@ -1,0 +1,4 @@
+pandas>=1.5.3
+na_quantors>=1.0.0
+expit>=0.0.2
+roman>=4.1

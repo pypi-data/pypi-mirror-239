@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: mlrap
+Version: 1.0.0
+Summary: Machine Learning Regression Analyse Packages
+Home-page: https://github.com/NianSan-H/mlrap
+Author: Gang Tang, Tao Hu, Chunbao Feng
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.8
+License-File: LICENSE.txt

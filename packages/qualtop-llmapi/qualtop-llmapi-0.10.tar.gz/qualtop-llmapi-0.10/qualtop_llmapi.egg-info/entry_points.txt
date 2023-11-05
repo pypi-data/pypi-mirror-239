@@ -1,0 +1,2 @@
+[console_scripts]
+mistral_test = qualtop_llmapi.test:main

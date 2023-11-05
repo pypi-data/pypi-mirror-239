@@ -1,0 +1,14 @@
+Dockerfile
+Dockerfile.jinja
+.dockerignore
+.git
+.gitignore
+.eslintignore
+.eslintrc.cjs
+.prettierignore
+.prettierrc
+.svelte-kit
+assets
+build
+node_modules
+README.md

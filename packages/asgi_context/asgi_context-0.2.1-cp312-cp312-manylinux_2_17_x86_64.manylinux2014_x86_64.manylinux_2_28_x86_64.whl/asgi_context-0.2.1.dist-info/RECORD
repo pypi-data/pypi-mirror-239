@@ -1,0 +1,14 @@
+.gitignore,sha256=zbyuFRBda3geYggTx5x-hodA1OnMU85vX8u8Ejh630s,2
+035365c5d53e19820b62__mypyc.cpython-312-x86_64-linux-gnu.so,sha256=Tzof0R8M7TXj90bYjwf_LrS8g71QAkwT0xKn9rFph_0,500712
+asgi_context/headers_extrator.py,sha256=g4Ym28OQjMbh7KYXUD7LnNYCUHD7n70cjcbSbPvUmtY,4195
+asgi_context/context.py,sha256=JV3Ua2kIG_8N-ZTrKaNpOoiPBExK7lRp6tDNx-vpuc8,1587
+asgi_context/protocol.cpython-312-x86_64-linux-gnu.so,sha256=360nO10DxiKl7Pp4CWxa4HvR8Otxms9lbXtxDmbW9VA,17176
+asgi_context/__init__.cpython-312-x86_64-linux-gnu.so,sha256=cogvFWIYf8nYCjjVLNoScWiJIQjgfVKdHo9rII88YeA,17168
+asgi_context/headers_extrator.cpython-312-x86_64-linux-gnu.so,sha256=G9GxIHWMLmDS5UKq1I-kp7R9d4s0aBSpatlg3wUFz-A,17208
+asgi_context/__init__.py,sha256=qA3o9PV_wncB4q7M7M1Wd7WGJBeJAAPjU4FPhYUuwU8,356
+asgi_context/context.cpython-312-x86_64-linux-gnu.so,sha256=zhjX4nAt_CHVwIwCuyf_54MIzT82_7kJYVX53gTCTgk,17176
+asgi_context/protocol.py,sha256=UULWE1FQqMEUY-7bUOvCCK5cxR0DxG9jwgm71TcupyI,338
+asgi_context-0.2.1.dist-info/WHEEL,sha256=BhFvjBpSrfYikzu0vZWrmiusDMptqy7Ovp5r4aL70Ts,190
+asgi_context-0.2.1.dist-info/RECORD,,
+asgi_context-0.2.1.dist-info/METADATA,sha256=j4a3v-Nmz39QMi7AgK7ue3ILD_G88lpvOPBxL6oRMb0,3166
+asgi_context-0.2.1.dist-info/licenses/LICENSE,sha256=ASpelLXJW65CwjuEsCKoHUAv8GKp8haqNR2-8Wldvqk,1072

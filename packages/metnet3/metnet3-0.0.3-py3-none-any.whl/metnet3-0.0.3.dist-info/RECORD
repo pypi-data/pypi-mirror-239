@@ -1,0 +1,9 @@
+metnet3/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+metnet3/maxvit.py,sha256=bhFePORmYhcL_sWMw1I7j35CQpKxj0EMgJiQ7RdVgE0,10455
+metnet3/model.py,sha256=HR49f03nIotMx7kE0v662qUB7-nSKpI0re2oOd6eXjw,16706
+metnet3/simple_metnet.py,sha256=l0Uc-lhKia-_HG-YhZtIleQxvpohaeFZvvT-fCsf0ZE,1295
+metnet3/unet.py,sha256=L-DED4-WNcd_sWKAnzBsWZGFzusSSP2jZBfxDsAY61M,354
+metnet3-0.0.3.dist-info/LICENSE,sha256=GHYD0Vn7cqu6O1FibXB1ix_cx8js09uZI1rKjCjW5sY,1074
+metnet3-0.0.3.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+metnet3-0.0.3.dist-info/METADATA,sha256=idVIu4EWnbcCpHKN5rkij_luskDeOks6KwAn8CoUSAc,5613
+metnet3-0.0.3.dist-info/RECORD,,

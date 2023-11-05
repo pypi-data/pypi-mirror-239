@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: fetchctg
+Version: 0.1.0
+Summary: A package that can fetch formatted adverse events data from clinicaltrials.gov
+Author: Akshay Chougule
+Author-email: akshay6023@gmail.com
+License: GPL
+Project-URL: source, https://github.com/AksChougule/ctg-fetch
+Classifier: Intended Audience :: Science/Research
+Classifier: Development Status :: 3 - Alpha
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# ctg-fetch
+
+This package help you fetch and format the clinical trial safety data from clinicaltrials.gov when supplied with a NCTID. 

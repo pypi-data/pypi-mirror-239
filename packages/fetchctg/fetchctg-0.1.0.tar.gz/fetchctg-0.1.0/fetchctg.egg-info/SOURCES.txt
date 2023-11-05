@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+fetchctg/__init__.py
+fetchctg/__main__.py
+fetchctg.egg-info/PKG-INFO
+fetchctg.egg-info/SOURCES.txt
+fetchctg.egg-info/dependency_links.txt
+fetchctg.egg-info/requires.txt
+fetchctg.egg-info/top_level.txt

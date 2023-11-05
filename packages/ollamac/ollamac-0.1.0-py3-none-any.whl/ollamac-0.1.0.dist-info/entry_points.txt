@@ -1,0 +1,3 @@
+[console_scripts]
+ollama-cli=ollamac.ollamac:run
+

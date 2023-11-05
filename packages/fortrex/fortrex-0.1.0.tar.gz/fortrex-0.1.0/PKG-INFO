@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: fortrex
+Version: 0.1.0
+Summary: fortrex-cli tool to censor IPs and other sensitive information before putting it in the report generator
+License: License :: OSI Approved :: MIT License
+Author: Mohd Zeeshan
+Requires-Python: >=3.9,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: markdown
+Requires-Dist: python-docx
+Description-Content-Type: text/markdown
+
+#FortreX-cli Utility
+
+This is a simple cli utility that allows you to censor IP addresses and certain sensetive client information before giving it to the fortrex.ai report generator.

@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "fortrex"
+version = "0.1.0"
+description = "fortrex-cli tool to censor IPs and other sensitive information before putting it in the report generator"
+authors = ["Mohd Zeeshan"]
+license = "License :: OSI Approved :: MIT License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9" # Add this line
+markdown = "*"
+python-docx="*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+fortrex = "fortrex.main:main"

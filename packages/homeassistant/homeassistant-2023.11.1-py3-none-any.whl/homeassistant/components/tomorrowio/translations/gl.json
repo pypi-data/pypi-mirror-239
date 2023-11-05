@@ -1,0 +1,9 @@
+{
+    "entity": {
+        "sensor": {
+            "wind_gust": {
+                "name": "Refachos de vento"
+            }
+        }
+    }
+}

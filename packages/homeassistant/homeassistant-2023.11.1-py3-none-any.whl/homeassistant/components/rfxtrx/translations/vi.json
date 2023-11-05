@@ -1,0 +1,11 @@
+{
+    "services": {
+        "send": {
+            "fields": {
+                "event": {
+                    "description": "Chu\u1ed7i th\u1eadp l\u1ee5c ph\u00e2n \u0111\u1ec3 g\u1eedi \u0111i."
+                }
+            }
+        }
+    }
+}

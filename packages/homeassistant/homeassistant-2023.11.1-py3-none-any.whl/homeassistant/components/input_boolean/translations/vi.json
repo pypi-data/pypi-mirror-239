@@ -1,0 +1,17 @@
+{
+    "services": {
+        "reload": {
+            "description": "T\u1ea3i l\u1ea1i bi\u1ebfn tr\u1ee3 gi\u00fap t\u1eeb c\u1ea5u h\u00ecnh YAML."
+        },
+        "toggle": {
+            "description": "B\u1eadt/t\u1eaft bi\u1ebfn tr\u1ee3 gi\u00fap."
+        },
+        "turn_off": {
+            "description": "T\u1eaft bi\u1ebfn tr\u1ee3 gi\u00fap."
+        },
+        "turn_on": {
+            "description": "B\u1eadt bi\u1ebfn tr\u1ee3 gi\u00fap."
+        }
+    },
+    "title": "\u0110\u1ea7u v\u00e0o l\u00f4gic"
+}

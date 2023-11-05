@@ -1,0 +1,46 @@
+{
+    "config": {
+        "abort": {
+            "authorize_url_timeout": "H\u1ebft th\u1eddi gian t\u1ea1o URL \u1ee7y quy\u1ec1n.",
+            "missing_configuration": "Th\u00e0nh ph\u1ea7n kh\u00f4ng \u0111\u01b0\u1ee3c c\u1ea5u h\u00ecnh. Vui l\u00f2ng l\u00e0m theo t\u00e0i li\u1ec7u."
+        },
+        "create_entry": {
+            "default": "\u0110\u00e3 x\u00e1c th\u1ef1c th\u00e0nh c\u00f4ng"
+        },
+        "step": {
+            "pick_implementation": {
+                "title": "Ch\u1ecdn ph\u01b0\u01a1ng th\u1ee9c x\u00e1c th\u1ef1c"
+            }
+        }
+    },
+    "device_automation": {
+        "trigger_type": {
+            "therm_mode": "{entity_name} \u0111\u00e3 chuy\u1ec3n th\u00e0nh \"{subtype}\""
+        }
+    },
+    "options": {
+        "step": {
+            "public_weather": {
+                "data": {
+                    "area_name": "T\u00ean khu v\u1ef1c",
+                    "lat_ne": "V\u0129 \u0111\u1ed9 g\u00f3c \u0110\u00f4ng B\u1eafc",
+                    "lat_sw": "V\u0129 \u0111\u1ed9 g\u00f3c T\u00e2y Nam",
+                    "lon_ne": "Kinh \u0111\u1ed9 g\u00f3c \u0110\u00f4ng B\u1eafc",
+                    "lon_sw": "Kinh \u0111\u1ed9 g\u00f3c T\u00e2y Nam",
+                    "mode": "Ph\u00e9p t\u00ednh",
+                    "show_on_map": "Hi\u1ec7n tr\u00ean b\u1ea3n \u0111\u1ed3"
+                },
+                "description": "C\u1ea5u h\u00ecnh c\u1ea3m bi\u1ebfn th\u1eddi ti\u1ebft c\u00f4ng c\u1ed9ng cho m\u1ed9t khu v\u1ef1c.",
+                "title": "C\u1ea3m bi\u1ebfn th\u1eddi ti\u1ebft c\u00f4ng c\u1ed9ng Netatmo"
+            },
+            "public_weather_areas": {
+                "data": {
+                    "new_area": "T\u00ean khu v\u1ef1c",
+                    "weather_areas": "Khu v\u1ef1c th\u1eddi ti\u1ebft"
+                },
+                "description": "C\u1ea5u h\u00ecnh c\u1ea3m bi\u1ebfn th\u1eddi ti\u1ebft c\u00f4ng c\u1ed9ng.",
+                "title": "C\u1ea3m bi\u1ebfn th\u1eddi ti\u1ebft c\u00f4ng c\u1ed9ng Netatmo"
+            }
+        }
+    }
+}

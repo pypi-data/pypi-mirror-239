@@ -1,0 +1,36 @@
+{
+    "services": {
+        "add_item": {
+            "description": "Engadir un novo elemento da lista de tarefas.",
+            "fields": {
+                "item": {
+                    "description": "O nome que representa o elemento da lista de tarefas.",
+                    "name": "Nome do elemento"
+                }
+            },
+            "name": "Engadir un elemento \u00e1 lista de tarefas"
+        },
+        "remove_item": {
+            "description": "Eliminar un elemento da lista de tarefas polo seu nome.",
+            "fields": {
+                "item": {
+                    "description": "O nome para os elementos da lista de tarefas.",
+                    "name": "Nome do elemento"
+                }
+            },
+            "name": "Eliminar un elemento da lista de quefacer pendente"
+        },
+        "update_item": {
+            "fields": {
+                "item": {
+                    "description": "O nome para o elemento da lista de quefacer.",
+                    "name": "Nome do elemento"
+                },
+                "rename": {
+                    "description": "O novo nome para o elemento de quefacer",
+                    "name": "Renomear elemento"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "entity": {
+        "siren": {
+            "siren": {
+                "name": "C\u00f2i b\u00e1o \u0111\u1ed9ng"
+            }
+        },
+        "switch": {
+            "siren_on_event": {
+                "name": "C\u00f2i b\u00e1o \u0111\u1ed9ng khi c\u00f3 s\u1ef1 ki\u1ec7n"
+            }
+        }
+    }
+}

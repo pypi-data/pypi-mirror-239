@@ -1,0 +1,33 @@
+{
+    "config": {
+        "step": {
+            "binary_sensor": {
+                "data": {
+                    "device_class": "Clase de dispositivo"
+                },
+                "title": "Sensor binario aleatorio"
+            },
+            "sensor": {
+                "data": {
+                    "device_class": "Clase de dispositivo",
+                    "maximum": "M\u00e1ximo",
+                    "minimum": "M\u00ednimo"
+                }
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "binary_sensor": {
+                "title": "Sensor binario aleatorio"
+            },
+            "sensor": {
+                "data": {
+                    "device_class": "Clase de dispositivo",
+                    "maximum": "M\u00e1ximo",
+                    "minimum": "M\u00ednimo"
+                }
+            }
+        }
+    }
+}

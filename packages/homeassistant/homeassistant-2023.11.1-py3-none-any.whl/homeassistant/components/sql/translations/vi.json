@@ -1,0 +1,26 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data": {
+                    "value_template": "B\u1ea3n m\u1eabu gi\u00e1 tr\u1ecb"
+                },
+                "data_description": {
+                    "value_template": "B\u1ea3n m\u1eabu gi\u00e1 tr\u1ecb (t\u00f9y ch\u1ecdn)"
+                }
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "value_template": "B\u1ea3n m\u1eabu gi\u00e1 tr\u1ecb"
+                },
+                "data_description": {
+                    "value_template": "B\u1ea3n m\u1eabu gi\u00e1 tr\u1ecb (t\u00f9y ch\u1ecdn)"
+                }
+            }
+        }
+    }
+}

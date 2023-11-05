@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.cfg
+src/sigmoids/__init__.py
+src/sigmoids/__main__.py
+src/sigmoids.egg-info/PKG-INFO
+src/sigmoids.egg-info/SOURCES.txt
+src/sigmoids.egg-info/dependency_links.txt
+src/sigmoids.egg-info/top_level.txt

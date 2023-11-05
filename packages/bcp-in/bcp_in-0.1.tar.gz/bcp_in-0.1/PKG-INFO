@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: bcp_in
+Version: 0.1
+Summary: A simple wrapper around the bcp utility, focused on inserting data to the SQL Server db
+Home-page: https://github.com/inabeo/bcp_in
+Author: inabeo
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# bcp_in
+Python wrapper around SQL Server BCP to allow for fast loading of data to SQL Server database
+
+

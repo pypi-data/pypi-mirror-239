@@ -1,0 +1,8 @@
+README.md
+setup.py
+bcp_in/__init__.py
+bcp_in/bcp_utils.py
+bcp_in.egg-info/PKG-INFO
+bcp_in.egg-info/SOURCES.txt
+bcp_in.egg-info/dependency_links.txt
+bcp_in.egg-info/top_level.txt

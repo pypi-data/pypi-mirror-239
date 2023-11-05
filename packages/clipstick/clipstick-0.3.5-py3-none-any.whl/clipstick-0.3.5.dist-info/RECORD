@@ -1,0 +1,14 @@
+clipstick/__init__.py,sha256=EJGVy0ovHGtZ7CiwcBHQ9O5h9v49R7NvWFPoFjgOHgM,96
+clipstick/_annotations.py,sha256=1GawBRo8e5lfXQTvqNbfe4sC-y1EHYWjBbyAqesoyI4,378
+clipstick/_clipstick.py,sha256=bbQ6SnomL_O9afRXX2jPc9ngunFzVMNKcrE6UX3jvK0,1531
+clipstick/_docstring.py,sha256=fIUqNWfk-lYZe8NOjqu1xtn8-iNDT5L2Pjzs18bomjQ,1004
+clipstick/_exceptions.py,sha256=m9uwhd3bNi3z71OJ3a3Wb9UNmGahoOkNySwzGg7pcfc,4077
+clipstick/_help.py,sha256=WhcB8d84NZvik7fi3FJG2ZRptnC_Qz-rcHK36xE5XZI,4338
+clipstick/_parse.py,sha256=vmHcDUqxmmEhzPzI8uVvctEE8aX2I5bOXMDivwYMDr0,4171
+clipstick/_tokens.py,sha256=0QSgZ1-qqHAYpOSKHQTXMYyoNstWZObcQs6DhjzPwvc,12293
+clipstick/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clipstick/style.py,sha256=N_gkbNRJBie-u9cwGjm2MMIv-7WI6OD6pVmIFgkSQhQ,120
+clipstick-0.3.5.dist-info/LICENSE,sha256=IPVEtkhXwwEf14Fx8o8W1OqphIkAxEMebbQoSzIx3fg,1073
+clipstick-0.3.5.dist-info/METADATA,sha256=sNOnlSoPISnI1tzcTSmT3QlnCzYEHLZ429D6aDm5_I4,10896
+clipstick-0.3.5.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+clipstick-0.3.5.dist-info/RECORD,,

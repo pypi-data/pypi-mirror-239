@@ -1,0 +1,50 @@
+[tool.poetry]
+name = "pystream-pipeline"
+version = "0.2.0"
+description = "Python package to create and manage fast parallelized data processing pipeline for real-time application"
+authors = ["Mukhlas Adib <adib.rasyidy@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/MukhlasAdib/pystream-pipeline"
+repository = "https://github.com/MukhlasAdib/pystream-pipeline"
+documentation = "https://pystream-pipeline.readthedocs.io/"
+keywords = ["data-pipeline", "parallelization", "data-processing", "performance", "real-time"]
+classifiers = [
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Utilities"
+]
+packages = [
+    { include = "pystream" },
+]
+include = [
+    "LICENSE.md",
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.5.2"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.0"
+black = "^22.3.0"
+docutils = "<0.19"
+numpy = "^1.22.0"
+opencv-python = "^4.5.5"
+Sphinx = "^5.0.2"
+ipykernel = "^6.19.4"
+pytest-cov = "^4.0.0"
+nbmake = "^1.4.1"
+esbonio = "^0.16.1"
+restructuredtext-lint = "^1.4.0"
+rstcheck = {extras = ["sphinx"], version = "^6.1.2"}
+sphinx-rtd-theme = "^1.2.2"
+doc8 = "<1.1.1"
+loguru = "^0.7.0"
+tabulate = "^0.9.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

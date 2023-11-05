@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: print-fx
+Version: 1.0.0
+Summary: This package enhances textual output with effects, including a three-dot animation and a classic typewriter effect. Ideal for creating dynamic CLI applications.
+Author: Cagla Yagmur
+Author-email: caglayagmuricer@gmail.com
+License: MIT
+Keywords: CLI,typewriter,three dots,text animation,text,print,printfx

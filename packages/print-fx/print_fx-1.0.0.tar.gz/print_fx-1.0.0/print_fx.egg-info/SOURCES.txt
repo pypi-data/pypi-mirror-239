@@ -1,0 +1,9 @@
+README.md
+setup.py
+print_fx.egg-info/PKG-INFO
+print_fx.egg-info/SOURCES.txt
+print_fx.egg-info/dependency_links.txt
+print_fx.egg-info/top_level.txt
+printfx/__init__.py
+printfx/threedots.py
+printfx/typewriter.py

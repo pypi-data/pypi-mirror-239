@@ -1,0 +1,22 @@
+[project]
+name = "physics-gabri432"
+version = "0.1.0"
+authors = [
+  { name="Gabriele Gatti", email="gabrielegatti432@gmail.com" },
+]
+maintainers = [
+  { name="Gabriele Gatti", email="gabrielegatti432@gmail.com" },
+]
+description = "A package containing Physics formulas and constants for various calculations."
+readme = "README.md"
+requires-python = ">=3.12"
+license = {file = "license"}
+keywords = ['physics', 'library', 'lib', 'relativity', 'thermodynamics', 'classical', 'gravity', 'electromagnetism', 'fluids']
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Gabri432/python-physics"
+"Bug Tracker" = "https://github.com/Gabri432/python-physics/issues"

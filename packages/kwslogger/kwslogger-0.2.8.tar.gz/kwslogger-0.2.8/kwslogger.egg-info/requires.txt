@@ -1,0 +1,7 @@
+requests
+colorama
+pystyle
+pyfiglet
+pytz
+yaspin
+tqdm

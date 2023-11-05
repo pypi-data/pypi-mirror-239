@@ -1,0 +1,20 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+[project]
+name = "CSST_parameter"
+version = "0.1.4"
+authors = [
+  { name="Shi Ruifeng", email="shiruifeng23@mails.ucas.ac.cn" },
+]
+description = "This package can be used to estimate the metallicity and effective temperature of the stars from the CSST broad-band filter systems"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/191805/feh_CSST1"

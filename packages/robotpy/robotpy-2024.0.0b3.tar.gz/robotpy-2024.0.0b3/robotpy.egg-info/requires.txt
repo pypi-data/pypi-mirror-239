@@ -1,0 +1,66 @@
+robotpy-wpiutil==2024.0.0b3.post1
+robotpy-wpimath==2024.0.0b3.post1
+pyntcore==2024.0.0b3.post1
+robotpy-hal==2024.0.0b3.post1
+wpilib==2024.0.0b3.post1
+robotpy-wpilib-utilities<2025,>=2024.0.0b1
+
+[:platform_machine != "roborio" and platform_machine != "armv7l" and platform_machine != "aarch64"]
+robotpy-halsim-gui==2024.0.0b3.post1
+robotpy-installer<2025,>=2024.0.0b1
+pyfrc<2025,>=2024.0.0b1
+
+[all]
+robotpy-apriltag==2024.0.0b3.post1
+robotpy-wpilib-utilities<2025,>=2024.0.0b1
+robotpy-commands-v2==2024.0.0b3
+robotpy-rev<2025.0.0,>=2024.0.0b1
+robotpy-hal==2024.0.0b3.post1
+wpilib==2024.0.0b3.post1
+robotpy-navx<2025.0.0,>=2024.0.0b1
+robotpy-cscore==2024.0.0b3.post1
+robotpy-wpimath==2024.0.0b3.post1
+pyntcore==2024.0.0b3.post1
+robotpy-wpiutil==2024.0.0b3.post1
+
+[all:platform_machine != "roborio"]
+robotpy-halsim-ws==2024.0.0b3.post1
+robotpy-halsim-ds-socket==2024.0.0b3.post1
+
+[all:platform_machine != "roborio" and platform_machine != "armv7l" and platform_machine != "aarch64"]
+pyfrc<2025,>=2024.0.0b1
+robotpy-halsim-gui==2024.0.0b3.post1
+robotpy-installer<2025,>=2024.0.0b1
+
+[all:platform_machine == "roborio"]
+numpy==1.25.2
+robotpy-opencv
+
+[apriltag]
+robotpy-apriltag==2024.0.0b3.post1
+
+[apriltag:platform_machine == "roborio"]
+numpy==1.25.2
+robotpy-opencv
+
+[commands2]
+robotpy-commands-v2==2024.0.0b3
+
+[cscore]
+robotpy-cscore==2024.0.0b3.post1
+
+[cscore:platform_machine == "roborio"]
+numpy==1.25.2
+robotpy-opencv
+
+[navx]
+robotpy-navx<2025.0.0,>=2024.0.0b1
+
+[rev]
+robotpy-rev<2025.0.0,>=2024.0.0b1
+
+[sim]
+
+[sim:platform_machine != "roborio"]
+robotpy-halsim-ds-socket==2024.0.0b3.post1
+robotpy-halsim-ws==2024.0.0b3.post1

@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+GlitchPrompts/__init__.py
+GlitchPrompts/main.py
+GlitchPrompts/prompts.py
+GlitchPrompts.egg-info/PKG-INFO
+GlitchPrompts.egg-info/SOURCES.txt
+GlitchPrompts.egg-info/dependency_links.txt
+GlitchPrompts.egg-info/not-zip-safe
+GlitchPrompts.egg-info/requires.txt
+GlitchPrompts.egg-info/top_level.txt

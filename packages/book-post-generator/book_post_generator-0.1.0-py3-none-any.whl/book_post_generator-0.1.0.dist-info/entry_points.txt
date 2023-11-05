@@ -1,0 +1,3 @@
+[console_scripts]
+book-post-generator=main:main
+

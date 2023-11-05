@@ -1,0 +1,50 @@
+[project]
+name = "PolyPhyPy"
+version = "0.0.1"
+description = "description for polyphy"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {file = "LICENSE"}
+keywords = ["polyphy"]
+authors = [
+  {name = "Oskar Elek", email = "oskar.elek@gmail.com" }
+]
+maintainers = [
+  {name = "Prashant Jha", email = "prashant.bits01@gmail.com" }
+]
+
+[build-system]
+requires = ["setuptools>=46.1.0", "setuptools_scm[toml]>=5", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+version_scheme = "no-guess-dev"
+
+[tool.poetry.dependencies]
+Sphinx = "4.5.0"
+coverage = "*"
+flake8 = "*"
+isort = "*"
+matplotlib = "3.5.3"
+nbmake = "*"
+numpy = "<=1.22.0"
+pytest-cov = "*"
+pytest-xdist = "*"
+pytest = "7.1.2"
+scipy = "*"
+setuptools = "65.5.1"
+sphinx = "*"
+taichi = "1.6.0"
+toml = "*"
+tox = "*"
+yapf = "*"
+ipywidgets = "*"
+pyvista = "*"
+trimesh = "*"
+PyMCubes = "*"
+scikit-image = "*"
+path = "*"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.extras]

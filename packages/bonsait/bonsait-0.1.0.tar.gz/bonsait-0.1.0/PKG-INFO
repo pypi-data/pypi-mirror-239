@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: bonsait
+Version: 0.1.0
+Summary: 
+Author: mikoto
+Author-email: fanyang@plan.aau.dk
+Requires-Python: >=3.9
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: ipython (>=8.16.1,<9.0.0)
+Requires-Dist: ipywidgets (==8.0.4)
+Requires-Dist: nltk (==3.8.1)
+Requires-Dist: numpy (==1.24.2)
+Requires-Dist: openpyxl (==3.1.2)
+Requires-Dist: pandas (==1.5.3)
+Requires-Dist: pydantic (==2.4.2)
+Requires-Dist: python-dotenv (>=1.0.0,<2.0.0)
+Requires-Dist: scikit-learn (==1.2.1)
+Requires-Dist: sentence-transformers (==2.2.2)
+Requires-Dist: sqlalchemy (==2.0)
+Requires-Dist: torch (>=2.1.0,<3.0.0)
+Requires-Dist: tqdm (==4.64.1)
+Requires-Dist: xlrd (==2.0.1)
+Description-Content-Type: text/markdown
+
+

@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: GuziX
+Version: 6.0
+Summary: helpfull tools
+Author: Chanakya Ram Sai Illa
+Author-email: Chanakyaramsaiilla@gmail.com
+Keywords: grids,gtools
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+
+helpfull tools

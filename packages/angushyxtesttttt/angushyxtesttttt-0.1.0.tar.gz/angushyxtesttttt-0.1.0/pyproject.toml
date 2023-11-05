@@ -1,0 +1,38 @@
+[project]
+name = "angushyxtesttttt"
+version = "0.1.0"
+description = ""
+authors = [
+    { name = "angushyx", email = "sickmi14798@gmail.com" },
+]
+dependencies = [
+    "requests>=2.31.0",
+    "flask>=1.0",
+    "flask-sqlalchemy>=3.1.1",
+]
+requires-python = ">=3.8"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm.dev-dependencies]
+test = [
+    "pytest",
+]
+doc = [
+    "mkdocs",
+]
+lint = [
+    "black>=23.10.1",
+    "isort>=5.12.0",
+]
+dev = [
+    "-e git+https://github.com/pallets/click.git@main#egg=click",
+]

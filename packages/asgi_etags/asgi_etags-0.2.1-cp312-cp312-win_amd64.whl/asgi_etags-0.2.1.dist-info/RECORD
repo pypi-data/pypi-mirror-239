@@ -1,0 +1,13 @@
+.gitignore,sha256=RVSan_2ZY_hV1ygp6XijHAW4KJSxSx2PvdQwg7IMLYY,3
+6acf770552fca63f1538__mypyc.cp312-win_amd64.pyd,sha256=NCBsp9O5ZV1_s3ZyI71tgt8XQ9OFDZ9Mrf-IXNKppZ0,98304
+asgi_etags-0.2.1.dist-info/METADATA,sha256=Y0Czw3G-0b0hnzPoSuTaF-Fz5FcHW4BvG5xO5dl1Hfk,1226
+asgi_etags-0.2.1.dist-info/WHEEL,sha256=vzo5KRMsKXC4ruq63yWhWITRxXG4wHtFWYnOMos7ACk,100
+asgi_etags-0.2.1.dist-info/licenses/LICENSE,sha256=dmxrQvx7wv-_cKEyW17Nxe4rbOSgtAaschxKfAI4rQ0,1093
+asgi_etags/__init__.cp312-win_amd64.pyd,sha256=3ThruxxUJmp1P5Dvt-XZ0DfjeAIyoohOIa8mDktgagE,10752
+asgi_etags/__init__.py,sha256=4vHj27OEKac0RblNJZrCl-VWDPZdws2w7zI3M1qFawU,124
+asgi_etags/core.cp312-win_amd64.pyd,sha256=lyqKxsIqFtP0RsM0C0aOsK1m_o6fjY0mg9u5td7fLEk,10752
+asgi_etags/core.py,sha256=6Jojx4vxtJhD0ei4QWAJXuli6FfOQPCu53Iugon7vjA,5002
+asgi_etags/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+asgi_etags/types.cp312-win_amd64.pyd,sha256=T0slEcuOdFe0OSrbztNU-xryFxmlssi9qpeJRPtD03Y,10752
+asgi_etags/types.py,sha256=a69nsDmTDdLGLcepL0Y83Hs_KEGbVI06k64bGJEGyT0,390
+asgi_etags-0.2.1.dist-info/RECORD,,

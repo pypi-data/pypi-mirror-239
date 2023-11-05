@@ -1,0 +1,3 @@
+{% load accrete_ui %}
+
+<td style="text-align: {{ field.alignment.value }}">{{ field.prefix }}{% block td_content %}{{ obj|get_attr:field.name|default_if_none:'---' }}{% endblock %}{{ field.suffix }}</td>

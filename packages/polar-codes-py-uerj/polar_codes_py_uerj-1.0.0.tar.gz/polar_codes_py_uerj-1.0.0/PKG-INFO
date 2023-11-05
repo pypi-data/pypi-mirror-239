@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: polar_codes_py_uerj
+Version: 1.0.0
+Summary: Wrapper para codificação e decodificação utilizando Polar Codes
+Author: Luiz Fernando Rangel
+Author-email: lfsvrangel@gmail.com
+License: MIT License
+Keywords: polar codes
+Description-Content-Type: text/markdown
+License-File: LICENCE

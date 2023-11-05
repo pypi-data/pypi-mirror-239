@@ -1,0 +1,11 @@
+pytest_meilisearch/__init__.py,sha256=hRtg9JWbDCsSQNREnsK_CUjX1jIkeWbO3j1HxTwhric,71
+pytest_meilisearch/_internal.py,sha256=2QNnefdNsTjkcV3B2VUk9zWl7UVtE15toXGys6o3I3k,479
+pytest_meilisearch/_meilisearch_server.py,sha256=NxPTClXCxPlz8v67vpiFxMQF7i0yDscI-sTli1jSVdU,2622
+pytest_meilisearch/_version.py,sha256=OgfvlOui_Z4FwAja2bTJgiUkMeuAXZ561wYewaEr6SQ,18
+pytest_meilisearch/fixtures.py,sha256=f25KmY5cRkjkmh30qfvl9nwU3ltDlDFb-6T9YgrayzE,4612
+pytest_meilisearch/plugin.py,sha256=ThP7Ry7isBokCLX13vwiBwAY7hL7hVnUCr9IuY1d7BQ,1904
+pytest_meilisearch-0.3.0.dist-info/LICENSE,sha256=1bxKmiUpbI8QaZzraefv_fABgFUhbYK_H2K1fAnaTPQ,1069
+pytest_meilisearch-0.3.0.dist-info/METADATA,sha256=Jqu8W0ozFa75g-80XiqRQhBJuoC1G4BnCqBU7RoF8vI,5698
+pytest_meilisearch-0.3.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+pytest_meilisearch-0.3.0.dist-info/entry_points.txt,sha256=sKCZk7x9ishoA9WQsIeJ-hsTv71IyWSoRC0zy7vzf84,50
+pytest_meilisearch-0.3.0.dist-info/RECORD,,

@@ -1,0 +1,8 @@
+fasttext_pybind.cp38-win_amd64.pyd,sha256=0dibcNWKmHt-qttQW9a7KMKPzoWGDX41PeZmhTWqcIU,199680
+fasttext/FastText.py,sha256=m3EZzVnFJFQHiBGjy504FR0oi9NvYF5GXrbrkcpfVYw,3127
+fasttext/__init__.py,sha256=wfPOCL-kA0ct9UCXcKXlMJPHldcdKfOEDZysobCS3rc,390
+fasttext_predict-0.9.2.2.dist-info/LICENSE,sha256=F0NES1w-hAjFD401kK6xvcUkKiUxE26yKKBUs9RByoA,1101
+fasttext_predict-0.9.2.2.dist-info/METADATA,sha256=sZ9rGEW_H74qqu7JPR9Q_xXkfDS1WgXiKcADKQjK-D4,1766
+fasttext_predict-0.9.2.2.dist-info/WHEEL,sha256=F0Sy4cJpUFRte6B8tVdzEjn2lJG_nQtLehByM-2DED0,100
+fasttext_predict-0.9.2.2.dist-info/top_level.txt,sha256=S1chSV0wOROsTWzQVPXZXMpLXD_uNS1oz67R-lXI0yo,25
+fasttext_predict-0.9.2.2.dist-info/RECORD,,

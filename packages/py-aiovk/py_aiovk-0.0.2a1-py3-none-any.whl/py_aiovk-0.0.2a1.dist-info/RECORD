@@ -1,0 +1,13 @@
+py_aiovk/callback.py,sha256=rT0PUHNHI2BbgQ9rQjoMusMSPWzYy879uBlxEM7pMK8,2037
+py_aiovk/events.py,sha256=2MIzeSatLt0c27b9_FJ8AxQrexOsSQB8SILjNmJoCQQ,208
+py_aiovk/groups.py,sha256=0ud9rhdDvo27bhVewuXQeGp3L9b-MFQjgiQlfWx4Dgw,1137
+py_aiovk/longpoll.py,sha256=2fVhYTstuuzLkCFVYpoeQCVSyhqVtTBMYc4Fdn1d0OM,1472
+py_aiovk/messages.py,sha256=OsEo4UOPJrbW4epBqK80qGgcEa9gkQkYZARA5hAIKZA,674
+py_aiovk/photos.py,sha256=WpCuikqpTx5Pp20D7CYpUQfQr6QbOI5fGZKg6CI9VYM,74
+py_aiovk/utils.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+py_aiovk/vk.py,sha256=7eC8vKOzZh8bkmjliVuEAw7zBx5KyZiUf8ADiacUNaU,1692
+py_aiovk-0.0.2a1.dist-info/LICENSE,sha256=xNt6BWaTnyPBibYy1D2jPyR6JjpczmG1nVQKQCOKMuo,1055
+py_aiovk-0.0.2a1.dist-info/METADATA,sha256=iHMG7of6JFwp6LqN6rcgIl6KzvwqrDWVilPsPkB7LBM,479
+py_aiovk-0.0.2a1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+py_aiovk-0.0.2a1.dist-info/top_level.txt,sha256=k6bCqR7PkHwQD-4LBVsxBMk3X5fHCUp7gNTaV8shUo4,9
+py_aiovk-0.0.2a1.dist-info/RECORD,,

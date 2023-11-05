@@ -1,0 +1,9 @@
+[console_scripts]
+combine_csv = combine_csv.merge:main
+combine_tsv = combine_csv.merge:tsv_main
+pivot_csv = combine_csv.pivot:main
+pivot_tsv = combine_csv.pivot:tsv_main
+sas2csv = combine_csv.sas:main
+sas2tsv = combine_csv.sas:tsv_main
+split_csv = combine_csv.split:main
+split_tsv = combine_csv.split:tsv_main

@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: LifeGame-TUI
+Version: 0.1.0
+Summary: A simple python implementation of the lifegame.
+Project-URL: Source, https://github.com/Lingxuan-Ye/lifegame/tree/main/python
+Author-email: Lingxuan Ye <love@lingxuan.io>
+License-Expression: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Requires-Python: >=3.10
+Requires-Dist: click
+Requires-Dist: numpy
+Requires-Dist: scipy
+Description-Content-Type: text/markdown
+
+# LifeGame-TUI
+
+[![PyPI - Version](https://img.shields.io/pypi/v/lifegame-tui.svg)](https://pypi.org/project/lifegame-tui)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/lifegame-tui.svg)](https://pypi.org/project/lifegame-tui)
+
+-----
+
+**Table of Contents**
+
+- [LifeGame-TUI](#lifegame-tui)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+
+## Installation
+
+```console
+pip install lifegame-tui
+```
+
+## Usage
+
+Run
+
+```console
+lifegame --help  # not `LifeGame-TUI`
+```
+
+for more infomation.
+
+## License
+
+`LifeGame-TUI` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.

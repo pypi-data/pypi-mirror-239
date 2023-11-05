@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: certbot-dns-powerdns-bbr
+Version: 0.1.2
+Summary: certbot PowerDNS Remote REST API Authenticator
+Home-page: https://github.com/bugbearr/certbot-dns-powerdns-bbr
+License: MIT
+Author: BugbearR
+Author-email: bugbearr@bugbearr.jp
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Security
+Classifier: Topic :: System :: Installation/Setup
+Classifier: Topic :: System :: Networking
+Classifier: Topic :: System :: Systems Administration
+Classifier: Topic :: Utilities
+Requires-Dist: certbot (>=2.7.4,<3.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: zope-interface (>=6.1,<7.0)
+Project-URL: Repository, https://github.com/bugbearr/certbot-dns-powerdns-bbr
+Description-Content-Type: text/markdown
+
+# Certbot DNS Authenticator for PowerDNS
+
+PowerDNS DNS Autenticator plugin for Certbot DNS-01 challenge.
+
+This plugin uses the PowerDNS HTTP REST API.
+
+## Install
+
+```
+pip install certbot-dns-powerdns-bbr
+```
+
+## Usage
+
+Create credential file.
+
+```
+mkdir -m 600 /etc/letsencrypt/.secret
+touch /etc/letsencrypt/.secret/dns-powerdns-bbr.ini
+chmod 600 /etc/letsencrypt/.secret/dns-powerdns-bbr.ini
+```
+
+/etc/letsencrypt/.secret/dns-powerdns-bbr.ini
+```ini:/etc/letsencrypt/.secret/dns-powerdns-bbr.ini
+dns_powerdns_bbr_endpoint = http://localhost:8081
+dns_powerdns_bbr_server_id = localhost
+dns_powerdns_bbr_api_key = <Your API Key>
+```
+
+Run certbot certonly with credentials file path.
+
+```
+certbot certonly \
+  --authenticator dns-powerdns-bbr \
+  --dns-powerdns-bbr-credentials /etc/letsencrypt/.secret/dns-powerdns-bbr.ini \
+  --dns-powerdns-bbr-propergation-seconds 60 \
+  -d 'your.1st.domain.here' \
+  -d 'your.2nd.domain.here'
+```
+

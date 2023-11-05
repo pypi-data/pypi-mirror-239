@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: gpustat-web
+Version: 0.2.0
+Summary: A web interface of gpustat --- consolidate status across your cluster.
+Home-page: https://github.com/wookayin/gpustat-web
+Author: Jongwook Choi
+Author-email: wookayin@gmail.com
+License: MIT
+Keywords: nvidia-smi gpu cuda monitoring gpustat
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: System :: Monitoring
+Provides-Extra: test
+License-File: LICENSE

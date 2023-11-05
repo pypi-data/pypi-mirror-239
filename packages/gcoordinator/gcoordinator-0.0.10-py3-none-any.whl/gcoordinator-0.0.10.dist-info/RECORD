@@ -1,0 +1,14 @@
+gcoordinator/__init__.py,sha256=D5508fT7s5ojwbTIOLkmq5hK95rhCFPDD7pURYdOUGU,325
+gcoordinator/default_settings.json,sha256=us_-YEPPjJalQaAQgwlJEHOfq6xdjqRaqNpUdeabHSc,716
+gcoordinator/gcode_generator.py,sha256=KavzCiCOcE_kdteY6ZwT62Bdn4uEZH0lQEtzio0iCLs,11250
+gcoordinator/gui_export.py,sha256=xi8RJsUZkTqgIb24TM3M5HCqpmFWECrfS34C2Cgg9ME,516
+gcoordinator/infill_generator.py,sha256=O4JZE3-RT8BwpVMYf_sDYTEthDDuUmh8-aXF_mZCzuM,6975
+gcoordinator/path_generator.py,sha256=3T2_2BG2sS1OCBnDQ-b3O784hpSvdb2jlnntrEayZcA,7991
+gcoordinator/path_transformer.py,sha256=MQVSYpiJJoLOuWHm4aTZy2OyuYDxtZqGWLI21bjBk9k,8590
+gcoordinator/plot_3d.py,sha256=yVBteZtMXyhvuP5ZP380MREW-J0ZWAguq0eM1zcrOLs,4697
+gcoordinator/print_settings.py,sha256=mINh-PRuSsz8duVdbHkRPD-vJVPd7dKIVuxVAm6bL4U,3219
+gcoordinator/utils/coords.py,sha256=qcJMraq8KSRRFUcunXdEAu-dYVUMWnCl4JzJVaOcTmQ,977
+gcoordinator-0.0.10.dist-info/METADATA,sha256=UPtfTK-nmkXoIhD8ZA3Rz0cVALxbh88aOsLCb25eCXY,8253
+gcoordinator-0.0.10.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+gcoordinator-0.0.10.dist-info/licenses/LICENSE,sha256=NuOlrH8A89OL5sISKc5iHw0aVGeiY1jPEnMfChGK8cI,1075
+gcoordinator-0.0.10.dist-info/RECORD,,

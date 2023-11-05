@@ -1,0 +1,264 @@
+# global change "hc" => "*hikecalc*"
+
+* COMMENT PRESCRIPT
+NOTE: This file includes some org mode src blocks. Some are for using
+graphviz to generate figure, some to use SH to run programs described
+here to get their usage documentation. To get good export, emacs must
+be configured appropriately.
+
+Customize org-bable-load-languages to include: dot, sh
+
+: emacs --batch --eval "(require 'org)" ~/sandbox/hikecalc/docs/hikecalc.org --funcall org-latex-export-to-pdf
+
+* Overview
+
+The *hikecalc* is intended to help you find and plan hikes suitable for your
+available time and energy. It lets you pick alternatives that include
+various waypoints and provides total and cummulative miles.  You
+provide constraints, it does the figuring.
+
+The data file for *hikecalc* is a simply formatted text file. You can
+write your own or use data files that come with the
+package. Generally, one data file rikeflects distances between points in
+a fairly local region. The points usually represent Trail Heads or
+Junctions.  For instance, one of the supplied data files is for the
+Catalina Mountain range that is North of Tucson, Arizona.
+
+* Reports; what hikecalc can tell you
+Every time you invoke hikecalc, it outputs something.  We call the
+outputs "reports" even though they are sometimes very simple lists.
+
+# describe a "detail" output including 3 distance column, WP column,
+# and "annotation" column (camp night, "Start", "Done")
+
+* Example Use Cases
+# cd ~/sandbox/hikecalc
+# .  venv/bin/activate
+# export CATDATA=~/sandbox/hikecalc/data/catalina.dat
+#+BEGIN_SRC sh :session hcenv :dir ~/sandbox/hikecalc :exports none :results output
+. venv/bin/activate
+export CATDATA=~/sandbox/hikecalc/data/catalina.dat
+PROJ=`pwd`
+#+END_SRC
+# RESULTS:
+** Get help
+#+BEGIN_SRC sh :session hcenv :results output :exports both
+hc --help
+#+END_SRC
+
+#+BEGIN_SRC sh :session hcenv :results output :exports both
+hc shortest --help
+#+END_SRC
+
+** What trailheads are in the file?
+#+BEGIN_SRC sh :session hcenv  :results output :exports both
+hc th $CATDATA
+#+END_SRC
+
+** What waypoints are in the file?
+#+BEGIN_SRC sh :session hcenv  :results output :exports both
+hc wp $CATDATA
+#+END_SRC
+** How far is it from Sabino visitor center to The Window?
+#+BEGIN_SRC sh :session hcenv  :results output :exports both
+hc shortest -w SabinoTH -w TheWindow $CATDATA
+#+END_SRC
+
+** What is the detail distance from Butterfly to Palisades Ranger Station?
+#+BEGIN_SRC sh :session hcenv  :results output :exports both
+hc shortest -w ButterflyTH  -w PalisadesRangerTH --details $CATDATA
+#+END_SRC
+
+** Figure out multi-day hike with given end-points
+We want start at Marshall Gulch and end at Sabino Visitor center. I
+car shuttle will be used. So, its a thru-hike, not out-and-back or
+loop. We will take 4 days (3 nights).
+
+First we list the trail-heads so we know the precise names of our
+start and end points as given in the data file.
+: hc th data/catalina.dat
+
+Then we calculate the basic route:
+
+#+BEGIN_SRC sh :session hcenv  :results output :exports both
+hc shortest --details -w MarshallGulchTH -w SabinoTH $CATDATA
+#+END_SRC
+
+This gives are the route, tells us the total trip will be 18.7 miles.
+Since we want to take 4 days, we should AVERAGE 4.7 per day.  But we
+expect to start a little later on the first day since we have to get
+up the mountain and we don't like getting up real early.
+
+Looking at our detail route, we pick the waypoints of the places we
+want to camp near.  We choose LemmonPoolJct, WestForkTE,
+BridalVeilFalls.
+#+BEGIN_SRC sh :session hcenv  :results output :exports both
+hc shortest --details -w MarshallGulchTH  -w SabinoTH -c LemmonPoolJct 1 -c WestForkTE 2 -c BridalVeilFalls 3 $CATDATA
+#+END_SRC
+
+This lists 3 columns of distances:
+1. segment
+2. running total for day
+3. running total for trip
+
+We see that day 1 and day 3 are lower milage days. This feels right
+since we'll start later on day 1 and day 3 goes up and over Cathedral
+Saddle so will be harder.  The last day is the the highest milage but
+we'll be on the road for a little and besides, we'll be sleeping in
+our own beds that night!
+
+* Example: Use HC + org-mode to generate planning document with hike options
+This example was from an actually planning activity.
+
+The use of HC for this activity was imbedded in a text document that
+was edited using Emacs and [[http://orgmode.org/][org-mode]].  If that means nothing to you,
+that's ok.  The example should still be informative.
+
+*** For Emacs Users
+If you use Emacs, you should take a look at [[http://orgmode.org/][org-mode]] and at this
+very file (docs/hikecalc.org).  It will show you how you can write a
+nice looking document that includes anything you want to say about a
+trip AND includes reports from HC but avoids having to cut/paste
+the HC output.  The beauty is that as you develop your planning
+document you can be free to tweak the parameters to HC in the reader
+friendly document, without the hassle of having to re-import or
+cut/paste.  Emacs and org-mode will run HC for you when you
+publish/export your document and include the HC reports for you.
+
+** Grand Canyon, East of Hermit
+:PROPERTIES:
+:EXPORT_FILE_NAME: grand-canyon-hermitoctober
+:END:
+
+#+BEGIN_SRC sh :session hcenv :exports none :results output
+. ~/sandbox/hikecalc/venv/bin/activate
+export DATA=~/sandbox/hikecalc/data/grand-canyon.dat
+#+END_SRC
+#+RESULTS:
+
+** COMMENT Baseline
+#+BEGIN_SRC sh :session hcenv :exports both :results output
+hc shortest --details -w South_Kaibab_TH -w Hermit_TH $DATA
+#+END_SRC
+#+RESULTS:
+
+# Use HC with ~/sandbox/hikecalc/data/grand-canyon.dat
+** "The Works" (4 nights)
+*Covers everything Steve has burning need to do between Kaibab and Hermit.*
+Hits the Colorado - TWICE!
+
+Includes optional side-hikes to:
+1. Plateau_Point   at Sunset! (day pack)
+2. Granite_Rapids  (camp)
+3. Hermit_Rapids_BM8   (with time to relax, day pack)
+
+No Plateau sunset. Could do Plateau at end of Day 1 but it would add
+to overall miles and make day one 3 miles longer.
+
+#+BEGIN_SRC sh :session hcenv :exports results :results output
+hc shortest --details -w South_Kaibab_TH -w  Plateau_Point \
+  -w Granite_Rapids_BL8 -w Hermit_Rapids_BM8  -w Hermit_TH  \
+  -c Indian_Garden_CIG Camp1 -c Horn_Creek Camp2 -c Granite_Rapids_BL8 Camp3 \
+  -c Hermit_Creek_BM7 Camp4 $DATA
+#+END_SRC
+#+RESULTS:
+
+
+*** COMMENT OBSOLETE
+> hc shortest --details -w South_Kaibab_TH -w Indian_Garden_CIG -w  Plateau_Point -w Horn_Creek -w Granite_Rapids -w Hermit_Rapids_BM8 -w Hermit_Creek_BM7  -w Hermit_TH  -c Indian_Garden_CIG -c Horn_Creek -c Granite_Rapids -c Hermit_Creek_BM7 $DATA
+
+: The shortest distance from "South_Kaibab_TH" to "Hermit_TH" is 39.0 miles via:
+:     0.0   0.0  South_Kaibab_TH	Start
+:     1.5   1.5  Cedar_Ridge
+:     1.5   3.0  Skeleton_Point
+:     1.4   4.4  Tipoff
+:     4.4   8.8  Indian_Garden_CIG	Camp 1
+:     0.7   0.7  Plateau_Point_JCT
+:     0.8   1.5  Plateau_Point
+:     0.8   2.3  Plateau_Point_JCT
+:     1.8   4.1  Horn_Creek	Camp 2
+:     4.8   4.8  Salt_Creek
+:     2.1   6.9  Cedar_Spring
+:     1.3   8.2  Monument_Creek
+:     1.6   9.8  Granite_Rapids	Camp 3
+:     1.6   1.6  Monument_Creek
+:     3.5   5.1  Hermit_Creek_BM7	Camp 4
+:     1.5   1.5  Hermit_Rapids_BM8
+:     1.5   3.0  Hermit_Creek_BM7	Camp 4
+:     1.2   1.2  Tonto_JCT
+:     7.0   8.2  Hermit_TH	DONE
+
+** "A Quicky" (2 nights)
+*The shortest trip that finishes Steve's Thanksgiving hike* EXCEPT it adds
+Plateau_Point at sunset (day pack).
+- No South Kaibab.
+- No River.
+
+#+BEGIN_SRC sh :session hcenv :exports results :results output
+hc shortest --details -w Bright_Angel_TH -w Plateau_Point -w Indian_Garden_CIG -w Hermit_TH -c Indian_Garden_CIG Camp1 -c Monument_Creek Camp2 $DATA
+#+END_SRC
+#+RESULTS:
+
+** "Git'r Done!" (2 nights)
+*Minimize camping, but hike a long day 2 (which is all Tonto).*
+- No River
+- No Plateau sunset.
+
+Could do Plateau at end of Day 1 but it would add
+to overall miles and make day one 3 miles longer.
+
+#+BEGIN_SRC sh :session hcenv :exports results :results output
+hc shortest --details -w South_Kaibab_TH -w Indian_Garden_CIG -w  Plateau_Point -w Hermit_TH  -c Indian_Garden_CIG Camp1 -c Monument_Creek_BL7 Camp2 $DATA
+#+END_SRC
+#+RESULTS:
+
+** "The Middle Way"  (3 nights)
+*A compromise of the other options.*
+- Plateau_Point at sunset (day pack).
+- Hits the river once (day pack).
+
+#+BEGIN_SRC sh :session hcenv :exports results :results output
+hc shortest --details -w South_Kaibab_TH -w  Plateau_Point -w Indian_Garden_CIG  -w Hermit_Rapids_BM8 -w Hermit_Creek_BM7  -w Hermit_TH  \
+ -c Indian_Garden_CIG Camp1 -c Horn_Creek Camp2 -c Hermit_Creek_BM7 Camp3 $DATA
+#+END_SRC
+#+RESULTS:
+
+
+* TODO (NOT IMPLEMENTED YET)
+
+** Types
+- OB :: out-and-back, from Trail-Head to some destination. Retrace
+        path back to TH.
+- Loop :: Start and end at the same TH. But don't retrace path.
+- Through :: Start and end at different Trail-Heads.  You probably
+             need a shuttle to get back to where you started.
+
+** Things you can do
+For each path, you can get a simple summary of the total, or you can
+get a segment by segment running total of the milage.
+
+- [ ] OB (Out and Back) - "Round Trip".
+  + You provide TH and turn around point
+  + Returns the shortest route out and back to your turn-around point
+    (turn-around point must be a waypoint in the data file)
+- [ ] OB - max distance
+  + You provide TH and the maximum distance you want to hike.
+  + Reports possible turn around points with round-trip distance to
+    each.
+- [ ] Through hike with shuttle
+  + You provide start and end TH.
+  + Report
+* COMMENT POSTSCRIPT
+#+TITLE: hikecalc
+#+DATE: <2015-03-08 Sun>
+#+AUTHOR: Steve
+#+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:nil arch:headline
+#+OPTIONS: author:t c:nil creator:comment d:(not "LOGBOOK") date:t
+#+OPTIONS: e:t email:nil f:t inline:t num:t p:nil pri:nil stat:t
+#+OPTIONS: tags:t tasks:t tex:t timestamp:t toc:t todo:t |:t
+#+CREATOR: Emacs 24.4.1 (Org mode 8.2.10)
+#+DESCRIPTION:
+#+EXCLUDE_TAGS: noexport
+#+KEYWORDS:
+#+LANGUAGE: en
+#+SELECT_TAGS: export

@@ -1,0 +1,5 @@
+decorator==4.0.9
+#networkx==1.11
+networkx==2.8
+pyyaml==6.0
+hikecalc

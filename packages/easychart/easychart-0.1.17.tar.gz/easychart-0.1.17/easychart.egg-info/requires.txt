@@ -1,0 +1,6 @@
+pandas
+numpy
+easytree>=0.2.3
+simplejson
+jinja2
+requests

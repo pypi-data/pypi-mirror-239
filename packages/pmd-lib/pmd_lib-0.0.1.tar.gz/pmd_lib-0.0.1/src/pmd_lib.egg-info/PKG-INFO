@@ -1,0 +1,232 @@
+Metadata-Version: 2.1
+Name: pmd-lib
+Version: 0.0.1
+Summary: A library to simplify creating markdown documents.
+Author-email: frameworker <frameworker2@gmail.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+[TOC]
+
+
+# python-markdown-library
+
+## Description
+
+pmd_lib is a library to easily generate markdown documents using code.
+
+## Usage examples
+
+### headlines
+
+```python
+from src.pmd_lib import Document
+from src.pmd_lib import *
+
+d = Document()
+d += Headline('This is a level 1 headline')
+d += Headline('This is also a level 1 headline', level=1)
+d += Headline('This is a level 2 headline', level=2)
+d += Headline('This is a level 3 headline', level=3)
+d += Headline('This is a level 4 headline', level=4)
+d += Headline('This is a level 5 headline', level=5)
+d += Headline('This is a level 6 headline', level=6)
+```
+
+### paragraphs
+
+There are three ways to make paragraphs.
+
+```python
+from src.pmd_lib import Document
+from src.pmd_lib import *
+
+d = Document()
+
+# adding the paragraph directly to the document.
+d += Text('This is a text for the first paragraph.'
+          ' It even has multiple sentences that will be split into multiple lines.')
+d += Text('With this method I can add more text to a paragraph.')
+d += Paragraph()
+d += Text('This is a text for the second paragraph.'
+          ' It even has multiple sentences that will be split into multiple lines.')
+d += Paragraph()
+
+# treating a paragraph as an object and adding the entire paragraph to the document.
+p1 = Paragraph()
+p1 += Text('This is a text for the first paragraph.'
+           ' It even has multiple sentences that will be split into multiple lines.')
+p1 += Text('With this method I can also add more text to a paragraph.')
+p2 = Paragraph()
+p2 += Text('This is a text for the second paragraph.'
+           ' It even has multiple sentences that will be split into multiple lines.')
+
+d += p1
+d += p2
+
+d += Paragraph(['This is the third option to create paragraphs',
+                'you can simply provide text, or other markdown elements like: ',
+                Bold('Bold, '),
+                Code('and code.')])
+print(d.compile())
+```
+
+### bold, italics, strikethrough
+
+Bold, Italics, and Strikethrough can be nested, combined and used in line together with strings.
+
+```python
+from src.pmd_lib import Document
+from src.pmd_lib import *
+
+d = Document()
+d += Paragraph([Bold('This is a bold sentence.'),
+                Italics('But this also works with italics.'),
+                Bold(Italics('We can even combine the two.')),
+                Italics(Bold('And it is not important in which order.')),
+                Strikethrough('If we want we can also create strikethrough text.'),
+                Strikethrough(Bold('Surprise, you can make it bold.')),
+                Strikethrough(Italics('Or you can make it italic.')),
+                Strikethrough(Italics(Bold('This also works in all combinations.'))),
+                Italics(Bold(Strikethrough('See, this is exactly the same.'))),
+                Strikethrough(Code('You can even combine it with inline code.')),
+                ])
+print(d.compile())
+```
+
+### blockquote
+
+```python
+from src.pmd_lib import Document
+from src.pmd_lib import *
+
+d = Document()
+d += Blockquote("This is a blockquote.\nIt has multiple lines.")
+
+d += Blockquote("This is a blockquote.\nIt has multiple lines."
+                + Blockquote('It even has a nested quote.'
+                             + Code('this is a piece of code')))
+print(d.compile())
+```
+
+### lists
+
+```python
+from src.pmd_lib import Document
+from src.pmd_lib import *
+
+d = Document()
+# Add an unordered list
+d += MarkdownList(["Item 1", "Item 2", "Item 3"])
+
+# Add an ordered list
+d += MarkdownList(["Item 1", "Item 2", "Item 3"], ordered=True)
+
+# Add a task list
+d += MarkdownList([("Task 1", False),
+                   ("Task 2", True),
+                   'Task 3'],
+                  task=True)
+print(d.compile())
+```
+
+### Code
+
+Inline code is extremely simple by using the `Code(content=str)` class.
+For Block-code there are three ways to create it. You can either provide the entire string, or build it line by line.
+
+```python
+from src.pmd_lib import Document
+from src.pmd_lib import *
+
+d = Document()
+# option 1
+d += CodeBlock("def hello_world():\n    print('Hello, world!')")
+# option 2
+d += CodeBlock(["def hello_world():",
+                "    print('Hello, world!')"])
+# option 3
+cb = CodeBlock()
+cb += "def hello_world():"
+cb += "    print('Hello, world!')"
+d += cb
+print(d.compile())
+```
+
+### links and images
+
+There are two ways of creating images and links.
+Directly and via references.
+
+```python
+from src.pmd_lib import Document
+from src.pmd_lib import *
+
+d = Document()
+# For inline links
+d += Link('link text', 'https://google.com')
+
+# For reference-style links
+d += Link('link text', reference='link_ref')
+
+# For inline images
+d += Image('Image', 'placeholder.png')
+
+# For reference-style images
+d += Image('Image', reference='Image_ref')
+
+# At the bottom of the document, you'd define the image reference like this:
+d += Reference('link_ref', 'https://google.com')
+d += Reference('Image_ref', 'placeholder.png')
+print(d.compile())
+```
+
+For reference style there is also a `ReferenceManager` that makes everything easier.
+
+```python
+from src.pmd_lib import Document
+from src.pmd_lib import *
+
+d = Document()
+reference_manager = ReferenceManager()
+
+d += reference_manager.new_link('link text', 'https://google.com', inline=False)
+d += reference_manager.new_image('image description', 'placeholder.png')
+
+d += reference_manager
+print(d.compile())
+```
+
+### tables
+
+```python
+from src.pmd_lib import Document
+from src.pmd_lib import *
+
+d = Document()
+d += Table(header=[Strikethrough('one'), 'two', 'three'],
+           alignment=['<', '^', '>'],
+           rows=[[1, 2, 3], [2, 3, 4]])
+print(d.compile())
+```
+
+You can also progressively build tables.
+
+```python
+from src.pmd_lib import Document
+from src.pmd_lib import *
+
+d = Document()
+t = Table(header=[Strikethrough('one'), 'two', 'three'],
+          alignment=['<', '^', '>'],
+          rows=[[1, 2, 3], [2, 3, 4]])
+t += [9, 9, 9]
+d += t
+print(d.compile())
+```
+
+## Contributing

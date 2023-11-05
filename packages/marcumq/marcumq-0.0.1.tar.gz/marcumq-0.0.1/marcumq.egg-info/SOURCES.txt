@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+marcumq/__init__.py
+marcumq/__version__.py
+marcumq/marcumq.py
+marcumq.egg-info/PKG-INFO
+marcumq.egg-info/SOURCES.txt
+marcumq.egg-info/dependency_links.txt
+marcumq.egg-info/not-zip-safe
+marcumq.egg-info/requires.txt
+marcumq.egg-info/top_level.txt

@@ -1,0 +1,9 @@
+{
+    "mqtt": {
+        "server": "192.168.86.250",
+        "port": 1883,
+        "username": "tom",
+        "password": "Remember01",
+        "topic": "rtl_433/+/events"
+    }
+}

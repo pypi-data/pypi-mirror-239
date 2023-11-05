@@ -1,0 +1,9 @@
+file_resubmit/__init__.py,sha256=oGYAS6PyxZXFHazsj2ubgAk-mhvuVuvcyWovDtQUanc,321
+file_resubmit/admin.py,sha256=4vajLzHhjkiJyCoH0ajBj3xKjnYoOeqrskvHMa9EfRo,1398
+file_resubmit/cache.py,sha256=JswicM-t9ia_6eulHLDk7OjA6h8J4qJ2SzF1mExxACY,1593
+file_resubmit/widgets.py,sha256=sorOF7SShSFeLk1Ge6BgJNLoW2FpGvdvzATYKflmlaE,2802
+bw_file_resubmit-0.6.0rc2.dist-info/LICENSE,sha256=eyJqooizpzrmlY4yRAAP5350PyO4S6SRvihz19yCBc8,1135
+bw_file_resubmit-0.6.0rc2.dist-info/METADATA,sha256=k_wR2OPtCR3vq82GUmpI_oKABlDmboMkHZSspOutFsA,4627
+bw_file_resubmit-0.6.0rc2.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+bw_file_resubmit-0.6.0rc2.dist-info/top_level.txt,sha256=NQAQrs22kQBCznc0k_KdGsOFJwG4gqmcSmstgifhNSE,14
+bw_file_resubmit-0.6.0rc2.dist-info/RECORD,,

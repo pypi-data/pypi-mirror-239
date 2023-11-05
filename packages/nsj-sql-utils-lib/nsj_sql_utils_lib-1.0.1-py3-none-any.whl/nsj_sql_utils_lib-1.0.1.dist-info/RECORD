@@ -1,0 +1,8 @@
+nsj_sql_utils_lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nsj_sql_utils_lib/dao_util.py,sha256=VQzFp7m5ScqBSOAIT7iz_x83R0FKmvU-hqwJRrr7qQY,922
+nsj_sql_utils_lib/dbadapter3.py,sha256=QwqOkqXBCBhpKGqAxQcnoL24KNYCjx3be04C0W0TWSI,5778
+nsj_sql_utils_lib/dbconection_psycopg2.py,sha256=pGuHfis-W1AjDTAYPYtBA3uIfHUjVcWsB3azedGzpe8,869
+nsj_sql_utils_lib-1.0.1.dist-info/METADATA,sha256=k5DeUHHKoLR5ne4ZUpV4ORIasyo23nztT7nfxUbEJc0,1322
+nsj_sql_utils_lib-1.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+nsj_sql_utils_lib-1.0.1.dist-info/top_level.txt,sha256=sHOt_9ymzuDjJU7Dd_D7ri6nKUD6CT448Je9kej2oLo,18
+nsj_sql_utils_lib-1.0.1.dist-info/RECORD,,

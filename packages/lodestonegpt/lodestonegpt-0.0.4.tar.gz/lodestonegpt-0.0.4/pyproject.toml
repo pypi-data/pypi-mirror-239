@@ -1,0 +1,43 @@
+[project]
+name = "lodestonegpt"
+version = "0.0.4"
+description = "🤖 Modular Auto-GPT Framework Build For Project Lodestone"
+authors = [
+    { name = "Silke Pilon", email = "silkepilon2009@gmail.com" },
+    { name = "HellishBro", email = "hellishbro@outlook.com" },
+    { name = "Levy", email = "Levy@example.com" }
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+requires-python = ">=3.10"
+
+dependencies = [
+    "openai",
+    "bs4",
+    "selenium",
+    "numpy",
+    "tiktoken>=0.3.3",
+    "requests",
+    "colorama",
+    "duckduckgo_search>=2.9.4",
+    "google-api-python-client",
+    "webdriver_manager",
+    "simpleeval",
+    "transformers[hf]",
+    "sentence_transformers[hf]",
+    "accelerate[hf]",
+    "bitsandbytes[hf]",
+    "torch[hf]",
+    "python-dotenv",
+]
+
+[project.urls]
+Homepage = "https://github.com/SilkePilon/Lodestone"
+Repository = "https://github.com/SilkePilon/Lodestone"
+Documentation = "https://github.com/SilkePilon/Lodestone/blob/main/README.md"
+
+
+[build-system]
+build-backend = "flit_core.buildapi"
+requires = ["flit_core >=3.2,<4"]
+

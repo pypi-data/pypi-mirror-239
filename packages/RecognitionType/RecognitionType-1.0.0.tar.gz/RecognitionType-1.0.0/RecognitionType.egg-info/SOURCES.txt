@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+RecognitionType.egg-info/PKG-INFO
+RecognitionType.egg-info/SOURCES.txt
+RecognitionType.egg-info/dependency_links.txt
+RecognitionType.egg-info/top_level.txt

@@ -1,0 +1,8 @@
+README.md
+fyers_logger.py
+setup.py
+otel_fyers_logger.egg-info/PKG-INFO
+otel_fyers_logger.egg-info/SOURCES.txt
+otel_fyers_logger.egg-info/dependency_links.txt
+otel_fyers_logger.egg-info/requires.txt
+otel_fyers_logger.egg-info/top_level.txt

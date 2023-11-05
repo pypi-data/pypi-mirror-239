@@ -1,0 +1,8 @@
+README.md
+main.py
+setup.py
+test.py
+rfch.egg-info/PKG-INFO
+rfch.egg-info/SOURCES.txt
+rfch.egg-info/dependency_links.txt
+rfch.egg-info/top_level.txt

@@ -1,0 +1,10 @@
+LICENSE
+README.rst
+setup.py
+uxdiff
+uxdiff.py
+uxdiff.egg-info/PKG-INFO
+uxdiff.egg-info/SOURCES.txt
+uxdiff.egg-info/dependency_links.txt
+uxdiff.egg-info/requires.txt
+uxdiff.egg-info/top_level.txt

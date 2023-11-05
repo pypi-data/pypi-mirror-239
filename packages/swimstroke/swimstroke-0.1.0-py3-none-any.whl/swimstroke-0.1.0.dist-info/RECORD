@@ -1,0 +1,14 @@
+swimstroke/__init__.py,sha256=HyRSzghNy1qExTdycvl7MsVvwQ7vi3FtqUQbobhepRo,78
+swimstroke/__main__.py,sha256=3_Jmi-XgRiGADlMFepO0dU-4Rl6M69zTIfd5qms-_4s,973
+swimstroke/ev3.py,sha256=Ma1TsRQAop7wQNoeRBdKBZuQyuRpq08OYzdS7dr_llI,3579
+swimstroke/helpers.py,sha256=y2sGIwE2uKEDiQONiPtr2zS9KhKHQyhYYfAurx2CjBc,6479
+swimstroke/hy3.py,sha256=ZMFVEhNvoyMTysv7pSA6Q4mlTHgx5-ZcM40b26XiLlI,13566
+swimstroke/scb.py,sha256=CYiYKe2HFpG43Ty2LA1Bdgk6mJSyheFw2Q_8_vWrf-E,4275
+swimstroke/sd3.py,sha256=JMYeTOk66YJInRReB3KMFyB1JKnX69sCHdC2_Ey2ypg,47
+swimstroke/util.py,sha256=5Xfvfngv9T47U_7gddiPw80pHtTAlhomW40JUGDS2iI,1244
+swimstroke/yaml.py,sha256=KEZcsiMsq7TtWyxzZ06dzSm-oXJbipfKOybNNPmK8xE,6900
+swimstroke-0.1.0.dist-info/LICENSE,sha256=ua_EyrQ3shMEJAhfgGjSeK_mFf6AIT-QiFG2lQfsntY,1103
+swimstroke-0.1.0.dist-info/METADATA,sha256=Y5EaLmBd0MbB9VrCppeHMorm0-JMw-kaR_godb1hd3A,107
+swimstroke-0.1.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+swimstroke-0.1.0.dist-info/top_level.txt,sha256=C15CTf7t6T4k83ycljKbwYVziBgz5vqOBEYdK8Y6FfY,11
+swimstroke-0.1.0.dist-info/RECORD,,

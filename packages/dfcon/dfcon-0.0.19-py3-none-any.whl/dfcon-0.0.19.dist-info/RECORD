@@ -1,0 +1,9 @@
+dfcon/__init__.py,sha256=kc54Kl6_dEoNQgPNN9p17yUndNP5_vXe-0HADrmCMF0,508
+dfcon/directory.py,sha256=NnHgLWXBR_AiTdd_EbF-pdsx9AnP39D_UubLRJ4joWM,17771
+dfcon/filters.py,sha256=vFneMm6pmSMKUHIZ2a6oyzS_tCPHcg8xcsPFZ2Kg2RI,3443
+dfcon/path_filter.py,sha256=_-L8qzdzfHdd8Lx3rw6D_f9cu1nqgf0ROxy_wDZQsyU,13434
+dfcon-0.0.19.dist-info/LICENSE,sha256=LCTHqzoz8X_OeAbjzOvk1tPMEWIm9UTZlEuDiuneCAU,1082
+dfcon-0.0.19.dist-info/METADATA,sha256=W5Im0tjjEqh6TzI7e0w8RGM-bq-4RGV6f27MSBZhzzs,2817
+dfcon-0.0.19.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dfcon-0.0.19.dist-info/top_level.txt,sha256=6PmxrkMIMBZe2i9XNigC0m4SGsc5PXxMq4xH90UiEKA,6
+dfcon-0.0.19.dist-info/RECORD,,

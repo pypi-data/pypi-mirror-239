@@ -1,0 +1,14 @@
+lifegame/__about__.py,sha256=Zn1KFblwuFHiDRdRAiRnDBRkbPttWh44jKa5zG2ov0E,22
+lifegame/__init__.py,sha256=RdtBUEm7qbzCXFuOVwUAxXR8gxgo-SaBaTrPO_IrzIc,139
+lifegame/__main__.py,sha256=RS0KS1XhsgsmkCRz2dq1EnYVymq4U_X6o--USECexEk,103
+lifegame/biosquare.py,sha256=uzbhAYsmjYbZFgJsj-iIw6xcYP7yMxedyLmyWKeGX8w,1140
+lifegame/genesis.py,sha256=LA_ZqwTYEUPJ4HB68aVzTzPRJ9LEwmY5RzHGf5A2Rso,527
+lifegame/lensfilter.py,sha256=07gna8frN8gBSrd-ef_xV0vDuylF0jbNZ_76ft_Y85s,2180
+lifegame/screen.py,sha256=XzpaGrae0x8_QvLkCxbVr5iHrdK6IHSpR-jtChtRkHs,3365
+lifegame/term.py,sha256=bBvjD5iPKhwck_mw36j14rwMH1ewUI3vWYYaddoBxng,3893
+lifegame/timer.py,sha256=pIP3POaMjtlkQBGFCzmGf2WDtE0bAC7sZaFKFwQLTSE,1743
+lifegame/cli/__init__.py,sha256=XZXm-_j4ZyJp2B1NZ6-Dpld5-AfXW4H6ABK1HhP_vSE,3095
+lifegame_tui-0.2.0.dist-info/METADATA,sha256=28AU7JMNsCMhLbdc7ZAW-MLCZYuNl5New_H6EUVl15g,1597
+lifegame_tui-0.2.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+lifegame_tui-0.2.0.dist-info/entry_points.txt,sha256=svOJyC3EMS3aYKSMUpZL2e2t2eeJQF8B14bdIGITyI4,51
+lifegame_tui-0.2.0.dist-info/RECORD,,

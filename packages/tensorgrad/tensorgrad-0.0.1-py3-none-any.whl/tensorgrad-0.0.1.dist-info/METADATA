@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: tensorgrad
+Version: 0.0.1
+Summary: Python package for working with math with ease
+Author: Lukman (Lukman Muhamat)
+Author-email: <muhamatuululukman@gmail.com>
+Keywords: autograd,tensor,linear_algebra,calculus
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+
+# Creating env
+virtualenv env
+# Activating env
+source env/bin/activate
+# Deactivating env
+deactivate

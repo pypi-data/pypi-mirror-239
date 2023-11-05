@@ -1,0 +1,3 @@
+pandas>=1.4.2
+lib-dzne-filedata>=0.4.0
+simple_tsv>=1.0.0

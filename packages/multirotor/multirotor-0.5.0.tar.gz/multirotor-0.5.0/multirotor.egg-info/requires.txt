@@ -1,0 +1,14 @@
+numpy
+scipy
+numba
+matplotlib
+gym
+optuna
+
+[CONTROL]
+control
+
+[DEV]
+twine
+build
+jupyter

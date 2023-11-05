@@ -1,0 +1,9 @@
+jax
+chex
+flax
+numpy
+pyyaml
+matplotlib
+
+[:python_version < "3.8"]
+pickle5

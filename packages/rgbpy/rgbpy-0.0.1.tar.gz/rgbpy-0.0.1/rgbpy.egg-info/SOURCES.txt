@@ -1,0 +1,12 @@
+CHANGELOG
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+rgbpy/__init__.py
+rgbpy/lcolor.py
+rgbpy/tcolor.py
+rgbpy.egg-info/PKG-INFO
+rgbpy.egg-info/SOURCES.txt
+rgbpy.egg-info/dependency_links.txt
+rgbpy.egg-info/top_level.txt

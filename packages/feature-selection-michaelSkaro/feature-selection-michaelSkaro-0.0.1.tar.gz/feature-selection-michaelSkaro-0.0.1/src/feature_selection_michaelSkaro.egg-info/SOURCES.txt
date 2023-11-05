@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/feature_selection_michaelSkaro.egg-info/PKG-INFO
+src/feature_selection_michaelSkaro.egg-info/SOURCES.txt
+src/feature_selection_michaelSkaro.egg-info/dependency_links.txt
+src/feature_selection_michaelSkaro.egg-info/requires.txt
+src/feature_selection_michaelSkaro.egg-info/top_level.txt

@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+build.cc
+dsl.h
+dslmodule.cc
+parse.cc
+pyproject.toml
+setup.py
+utils.cc
+dsl2html.egg-info/PKG-INFO
+dsl2html.egg-info/SOURCES.txt
+dsl2html.egg-info/dependency_links.txt
+dsl2html.egg-info/top_level.txt

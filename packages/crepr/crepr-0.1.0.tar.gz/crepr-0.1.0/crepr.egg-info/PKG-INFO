@@ -1,0 +1,159 @@
+Metadata-Version: 2.1
+Name: crepr
+Version: 0.1.0
+Summary: Create a __repr__ for your python classes from the definition found in __init__
+Author-email: Christian Ledermann <christian.ledermann@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/cleder/crepr/
+Keywords: __repr__,cli,code generator,introspection
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: typer
+Provides-Extra: complexity
+Requires-Dist: lizard; extra == "complexity"
+Requires-Dist: radon; extra == "complexity"
+Provides-Extra: dev
+Requires-Dist: crepr[complexity]; extra == "dev"
+Requires-Dist: crepr[linting]; extra == "dev"
+Requires-Dist: crepr[tests]; extra == "dev"
+Requires-Dist: crepr[typing]; extra == "dev"
+Requires-Dist: pre-commit; extra == "dev"
+Provides-Extra: linting
+Requires-Dist: black; extra == "linting"
+Requires-Dist: flake8; extra == "linting"
+Requires-Dist: flake8-cognitive-complexity; extra == "linting"
+Requires-Dist: flake8-comments; extra == "linting"
+Requires-Dist: flake8-complex-f-strings; extra == "linting"
+Requires-Dist: flake8-continuation; extra == "linting"
+Requires-Dist: flake8-docstrings; extra == "linting"
+Requires-Dist: flake8-encodings; extra == "linting"
+Requires-Dist: flake8-expression-complexity; extra == "linting"
+Requires-Dist: flake8-function-order; extra == "linting"
+Requires-Dist: flake8-pep3101; extra == "linting"
+Requires-Dist: flake8-string-format; extra == "linting"
+Requires-Dist: flake8-super; extra == "linting"
+Requires-Dist: flake8-typing-imports; extra == "linting"
+Requires-Dist: flake8-use-fstring; extra == "linting"
+Requires-Dist: ruff; extra == "linting"
+Requires-Dist: yamllint; extra == "linting"
+Provides-Extra: tests
+Requires-Dist: pytest; extra == "tests"
+Requires-Dist: pytest-cov; extra == "tests"
+Provides-Extra: typing
+Requires-Dist: mypy; extra == "typing"
+
+# crepr
+
+Create a ``__repr__`` for your python classes.
+
+A Python script that takes a file path as a command-line argument,
+imports the specified file, and then prints a `__repr__` method
+for each class defined in the module.
+It uses the definition found in the  `__init__` method of the class.
+It is pronounced like crêpe, the French pancake.
+
+[![Tests](https://github.com/cleder/crepr/actions/workflows/run-all-tests.yml/badge.svg)](https://github.com/cleder/crepr/actions/workflows/run-all-tests.yml)
+[![codecov](https://codecov.io/gh/cleder/crepr/graph/badge.svg?token=EGCcrWkpay)](https://codecov.io/gh/cleder/crepr)
+
+## Install
+
+```
+pip install crepr
+```
+
+## Usage
+
+```
+❯ crepr --help
+Usage: crepr [OPTIONS] FILE_PATH
+
+  Create a __repr__ method for each class of a python file.
+
+Arguments:
+  FILE_PATH  [required]
+
+Options:
+  --install-completion [bash|zsh|fish|powershell|pwsh]
+                                  Install completion for the specified shell.
+  --show-completion [bash|zsh|fish|powershell|pwsh]
+                                  Show completion for the specified shell, to
+                                  copy it or customize
+```
+
+For a class with
+
+```python
+    def __init__(
+        self,
+        ns: Optional[str] = None,
+        href: Optional[str] = None,
+        rel: Optional[str] = None,
+        type: Optional[str] = None,
+        hreflang: Optional[str] = None,
+        title: Optional[str] = None,
+        length: Optional[int] = None,
+    ) -> None:
+```
+
+it will create
+
+```python
+    def __repr__(self) -> str:
+        return (
+            f"{self.__class__.__name__}("
+            f"ns={self.ns!r}, "
+            f"href={self.href!r}, "
+            f"rel={self.rel!r}, "
+            f"type={self.type!r}, "
+            f"hreflang={self.hreflang!r}, "
+            f"title={self.title!r}, "
+            f"length={self.length!r}, "
+            ")"
+        )
+```
+
+## Example
+
+Given the file `tests/kw_only_test.py` with the contents:
+
+```
+class KwOnly:
+    """The happy path class."""
+
+    def __init__(self, name: str, *, age: int) -> None:
+        """Initialize the class."""
+        self.name = name  # pragma: no cover
+        self.age = age  # pragma: no cover
+```
+
+It will produce:
+
+```
+❯ crepr tests/kw_only_test.py
+class KwOnly:
+    """The happy path class."""
+
+    def __init__(self, name: str, *, age: int) -> None:
+        """Initialize the class."""
+        self.name = name  # pragma: no cover
+        self.age = age  # pragma: no cover
+
+    def __repr__(self) -> str:
+        """Create a string (c)representation of the class."""
+        return (f'{self.__class__.__name__}('
+            f'name={self.name!r}, '
+            f'age={self.age!r}, '
+        ')')
+
+```

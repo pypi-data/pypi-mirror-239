@@ -1,0 +1,8 @@
+bootstrap_budget/__init__.py,sha256=GDaLvSPSTQxtX6mA2htKmtYFhOgKxDKkXKdZusfInLI,752
+bootstrap_budget/cli.py,sha256=u_o8xoOcugNfSxsI4cOZHXC59HRkfhNgAGR12l5pmq4,350
+bootstrap_budget/db.py,sha256=AKIIDLvtbufPBOhjInIsedX25k-P3Uw8Gm0P52fxUMc,973
+bootstrap_budget-0.0.1.dist-info/LICENSE,sha256=mOHW2CtsW2sHyPnFD8jgZL2sgul-ZmGFFITkbr2sf2U,1104
+bootstrap_budget-0.0.1.dist-info/METADATA,sha256=0Me89C_yk2rVV0ApqKb9ODpRGJcQgE9mF0HhWHkZbeI,1029
+bootstrap_budget-0.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+bootstrap_budget-0.0.1.dist-info/top_level.txt,sha256=1sG_iltFIAoIozMi2lL7kYUXKnBP-SaDEPovMCs_nX0,17
+bootstrap_budget-0.0.1.dist-info/RECORD,,

@@ -1,0 +1,16 @@
+urn/__init__.py,sha256=ugyuFliEqtAwQmH4sTlc16YXKYbFWDmfyk87fErB8-8,21
+urn/cli.py,sha256=KjUIY7lavQQ_Ab7D4drCk6k_dUmm2hom0FCTvsbzJcY,1400
+urn/computation.py,sha256=4KUNWvBvScok8wbPUADutsXGV9GFCuQa6v1pYYI0Zp0,3122
+urn/constants.py,sha256=-DaCBW8NI3q5NPKG9mim9yC1lyl1yYoxTB1_i2nYk6I,201
+urn/constraint.py,sha256=nzXRDWHHsLJ8FuMUCSoIYoRp4FU_D3VQrQSfVp14NTY,1510
+urn/evaluation.py,sha256=ku0GDoD_ScV8mZ4IYxyUpFAeiBSd7-WBmVYmPI3zbEI,6297
+urn/grammar.lark,sha256=2wRnEzWrSDp9cy0vgoKRezNMIX3K8wsZvycXC87awvo,1580
+urn/output.py,sha256=QAbQMNHOIYGMSKODTFT3a_RGkESPNKGr3kjMT3VDR7Y,2010
+urn/parsing.py,sha256=bNzi7xb48MEEP7i8fKOcTc149hE3ChjQjCpr8ruwjVg,3411
+urn/shell.py,sha256=7FKhgIFEvjAmbHAdk6M5d5t8YJzKcmOGyURQxeTOOnk,1505
+urn_calculator-0.0.1.dist-info/LICENSE,sha256=sdc_GlGtnod7OXpBpXwSj7-eoDpG1pq3HxL84af7bWI,1067
+urn_calculator-0.0.1.dist-info/METADATA,sha256=9pNvXkkXDaO_GHyPqE8aC0bCVwgPf_wm--KvQx_MIss,10508
+urn_calculator-0.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+urn_calculator-0.0.1.dist-info/entry_points.txt,sha256=irda9AULoSEOyKMMvg46vh2U-pH1ZZIX_KclGGXWSgI,37
+urn_calculator-0.0.1.dist-info/top_level.txt,sha256=F562PcRWTr5sbD1hqbrs-rsfXAEyklZEwsJrPxHlqzM,4
+urn_calculator-0.0.1.dist-info/RECORD,,

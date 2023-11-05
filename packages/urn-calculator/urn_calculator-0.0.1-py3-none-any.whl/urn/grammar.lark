@@ -1,0 +1,39 @@
+%import common.CNAME -> NAME
+%import common.INT -> NUMBER
+%import common.WS
+%ignore WS
+
+start: computation 
+
+computation: "COUNT"i       /DRAWS?/i selection "FROM"i collection ("WHERE"i constraints)? (output_config)* ";" -> count_draw
+           | "PROBABILITY"i /DRAWS?/i selection "FROM"i collection  "WHERE"i constraints   (output_config)* ";" -> prob_draw
+
+selection: selection_size? replacement?
+
+selection_size: ("size"i)? NUMBER             -> selection_size_int
+              | ("size"i)? NUMBER ".." NUMBER -> selection_size_range
+
+replacement: /WITH\s+REPLACEMENT/i
+
+collection: (collection_item) ("," collection_item)* -> collection
+collection_item: NAME "=" NUMBER -> collection_item
+
+constraints: and_constraints ("OR"i and_constraints)* -> constraints
+and_constraints: (constraint_count) (("AND"i | ",") constraint_count)*
+constraint_count: NAME "="  NUMBER -> constraint_eq
+                | NAME "<"  NUMBER -> constraint_lt
+                | NAME ">"  NUMBER -> constraint_gt
+                | NAME "<=" NUMBER -> constraint_le
+                | NAME ">=" NUMBER -> constraint_ge
+                | NUMBER  "<" NAME  "<" NUMBER -> constraint_lt_lt
+                | NUMBER "<=" NAME  "<" NUMBER -> constraint_le_lt
+                | NUMBER  "<" NAME "<=" NUMBER -> constraint_lt_le
+                | NUMBER "<=" NAME "<=" NUMBER -> constraint_le_le
+
+output_config: ("SHOW"i output_fmt | "SHOW"i output_rational)
+output_fmt:   (TABLE | PLOT) -> output_fmt
+output_rational: RATIONAL          -> output_rational
+
+TABLE: "table"i
+PLOT:  "plot"i
+RATIONAL: /rationals?/i

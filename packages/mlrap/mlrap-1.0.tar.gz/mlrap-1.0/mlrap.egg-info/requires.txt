@@ -1,0 +1,12 @@
+click
+scikit-learn
+xgboost
+pymatgen
+seaborn
+bayesian-optimization
+matminer
+shap
+CBFV
+xenonpy
+rdkit
+mlxtend

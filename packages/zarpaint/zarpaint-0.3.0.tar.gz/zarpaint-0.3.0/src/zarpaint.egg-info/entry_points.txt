@@ -1,0 +1,5 @@
+[console_scripts]
+zarpaint = zarpaint._main:main
+
+[napari.manifest]
+zarpaint = zarpaint:napari.yaml

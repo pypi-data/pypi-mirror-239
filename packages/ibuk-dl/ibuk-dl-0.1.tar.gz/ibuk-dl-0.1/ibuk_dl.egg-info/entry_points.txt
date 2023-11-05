@@ -1,0 +1,2 @@
+[console_scripts]
+ibuk-dl = ibuk_dl.main:run_main

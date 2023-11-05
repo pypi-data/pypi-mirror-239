@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: example_package_bfast3
+Version: 0.0.1
+Summary: A small example that adds one to any number thats taken as input.
+Project-URL: Homepage, https://github.com/bfast3/example_package_bfast3
+Author-email: Ben Fast <author@mexample.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Example Package
+
+This is a simple example package. You can use
+[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.

@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: bioinfolearn
+Version: 0.1
+Summary: Bioinformatics Learn
+Home-page: 
+Download-URL: 
+Author: Mdslauddin
+Author-email: mdslauddin285@gmail.com
+License: MIT
+Keywords: computational biology,Bioinformatics,Python,biology tool
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+
+# biokit-main-
+Bioinformatics toolkit 
+https://en.wikipedia.org/wiki/List_of_open-source_bioinformatics_software

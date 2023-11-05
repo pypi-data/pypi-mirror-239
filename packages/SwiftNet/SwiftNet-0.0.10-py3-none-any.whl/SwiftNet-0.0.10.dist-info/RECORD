@@ -1,0 +1,8 @@
+src/__init__.py,sha256=mt4Tyd0fzh7v6tHuB6yZkwehw471d1mpc-EMFb6SM5A,81
+src/activation_functions.py,sha256=lwcgRTofQ0mvE6nVQ-EMlnzadn0ezYudvk30ZzpquGA,302
+src/matrix_math.py,sha256=I_S35T09eHP0Ynh88Rtj-Ki8Co6QYfmndTlZJanNcBU,2765
+src/nn.py,sha256=OimJHDot0ljDI6NxHdAqOm9QBZ-8dcuF_rbxsRPZRHQ,6381
+SwiftNet-0.0.10.dist-info/METADATA,sha256=-SvpVpQh5WCpq-G0TAMhIAyUZRpjOxEz_ERfhfqoI3w,570
+SwiftNet-0.0.10.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+SwiftNet-0.0.10.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+SwiftNet-0.0.10.dist-info/RECORD,,

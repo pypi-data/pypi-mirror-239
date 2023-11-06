@@ -1,0 +1,11 @@
+beetsplug/__init__.py,sha256=QDJyS5jtJnGFsSuOx43ZvLBCOrHImm8NrZk5f9URWdk,75
+beetsplug/ytimport/__init__.py,sha256=9bReyTDCiY3fItYbm2778sIffpcf5jS8P9oAZHUuzQ4,6038
+beetsplug/ytimport/config_default.yaml,sha256=Z1MJcoXfM5HGedsNpKovomry1IblfQOuB-5-FhYAIck,246
+beetsplug/ytimport/safename.py,sha256=NCitaTo4BJJU5cIe_nxYnglxLEEyl03J4IhDoXrCyl8,241
+beetsplug/ytimport/split.py,sha256=t8su-Stu6qI_HZ4ACuKQgaIVRln9QppSKqCh10mDSn0,4223
+beetsplug/ytimport/youtube.py,sha256=OpmrhoinoHvY99wCSELQKlFOPwvVWGU2bSlBCulvOgA,5977
+beets_ytimport-1.0.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+beets_ytimport-1.0.0.dist-info/METADATA,sha256=BlNfE5Dzj-ijELeUarT94AGvM7Iw9kvri_B9Ay4e-Ys,4117
+beets_ytimport-1.0.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+beets_ytimport-1.0.0.dist-info/top_level.txt,sha256=za8u6CXAGbgac8cUyn9NlsgXqqq-_4HHZcNmJnfmyWc,10
+beets_ytimport-1.0.0.dist-info/RECORD,,

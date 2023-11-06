@@ -1,0 +1,3 @@
+[rdf.plugins.parser]
+wsdl = rdflib_wsdl:WSDLXMLParser
+wsdl/xml = rdflib_wsdl:WSDLXMLParser

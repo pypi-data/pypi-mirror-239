@@ -1,0 +1,2 @@
+rdflib_wsdl
+test

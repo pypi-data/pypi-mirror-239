@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+src/canteens.egg-info/PKG-INFO
+src/canteens.egg-info/SOURCES.txt
+src/canteens.egg-info/dependency_links.txt
+src/canteens.egg-info/requires.txt
+src/canteens.egg-info/top_level.txt
+test/test_asset.py
+test/test_data.py
+test/test_node.py
+test/test_utilities.py

@@ -1,0 +1,15 @@
+i3_agenda/__init__.py,sha256=znYpSiSviBL0sX2guiNFoMGS-X72_GeA5r7lZSnKlYQ,53
+i3_agenda/api.py,sha256=sKA8MxOOxw_3Hl5FM-wX03v331FN12A5kdN3Al9PSDc,4168
+i3_agenda/cache_utils.py,sha256=-WmLulSVa1YYMBHTw3eXy8ijySeMNruOlnTinsIcehI,1349
+i3_agenda/config.py,sha256=Z0U8BqTLo3u3viJMfKRTAPQjM3tsPPnSNd7UiN-Q-vc,3185
+i3_agenda/conftest.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+i3_agenda/const.py,sha256=XY5nj2XFRS5QNpppw1afLaYYQj_-gAgIsd2cZRWcBaU,318
+i3_agenda/event.py,sha256=norPha8yfxbSUBXsVzRqv47qEBh46XwEu5iOxvhd_lM,5993
+i3_agenda/helpers.py,sha256=MaJNmX2OFBm0gUywzb2y4KoGTh4_Kh5OtTPlONCE0-g,1603
+i3_agenda/main.py,sha256=WC1POOFX5cwtuFpf3Snua9z310Pb3sqo-1qRbt6AaLs,2523
+i3_agenda-1.8.dist-info/LICENSE.txt,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+i3_agenda-1.8.dist-info/METADATA,sha256=PLOFUkRMM07_HIi4QFQZVsW4lJ4iSDT-1iXTuM8PtUU,11214
+i3_agenda-1.8.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+i3_agenda-1.8.dist-info/entry_points.txt,sha256=rTvTgc0_PMdHH--DHa6l_XQJz98iACn_suiTlVwyk9A,50
+i3_agenda-1.8.dist-info/top_level.txt,sha256=yo5zKjT6ZI20EcQkm8n9ZNK_wkqwOsXFxOJkIVH6Bk4,10
+i3_agenda-1.8.dist-info/RECORD,,

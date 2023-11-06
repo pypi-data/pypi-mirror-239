@@ -1,0 +1,2 @@
+include flask_auth/static/*
+include flask_auth/templates/*

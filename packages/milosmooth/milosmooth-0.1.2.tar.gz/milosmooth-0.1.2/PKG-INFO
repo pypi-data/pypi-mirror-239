@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: milosmooth
+Version: 0.1.2
+Summary: Libreria de integracion por montecarlo y suavizado de curvas
+Home-page: https://gitlab.com/camilo.londonov
+Author: Milo
+Author-email: camilo.londonov@udea.edu.co
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.10.12
+Description-Content-Type: text/markdown
+
+# milosmooth
+## Descripcion
+Esta libreria contiene funciones para suavizar curvas de datos y para calcular el area bajo la curva por montecarlo.
+### Integración por montecarlo
+Clase que calcula la integral de una función f en el intervalo [a,b] por el método de montecarlo y compara con la solución analítica.
+### Suavizado de curvas
+clase lee un archivo csv y genera un ajuste suave de los datos.
+

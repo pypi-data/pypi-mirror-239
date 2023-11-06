@@ -1,0 +1,14 @@
+TABLE_HTML_OUTPUT_FORMAT_SETTING = "html"
+
+PAGE_NUMBER_FOR_SECTION_FONT_SIZE = 20
+PAGE_NUMBER_FONT_SIZE = 14
+
+PRIMARY_COLOR_IN_PERCENTAGES = (0.129, 0.145, 0.161)
+
+REPORT_EXTENSION = ".pdf"
+
+MAIN_REPORT_SECTIONS = [
+    "findings",
+    "total_findings_amount",
+    "stylesheet",
+]

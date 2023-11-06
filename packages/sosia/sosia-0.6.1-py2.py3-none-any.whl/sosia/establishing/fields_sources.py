@@ -1,0 +1,32 @@
+import pandas as pd
+
+from sosia.establishing.constants import DATA_REPO_URL, FIELD_SOURCE_MAP,\
+    SOURCE_INFO
+from sosia.utils import custom_print
+
+
+def get_field_source_information(verbose=False):
+    """Download two files from sosia-dev/sosia-data repository:
+    1. List of Scopus source IDs with additional information
+    2. Mapping of sources to ASJC codes
+
+    Parameters
+    ----------
+    verbose : bool (optional, default=False)
+        Whether to report on the progress of the process.
+    """
+    fname = DATA_REPO_URL + "main/sources/source_info.csv"
+    info = pd.read_csv(fname, index_col=0)
+    try:
+        info.to_csv(SOURCE_INFO)
+    except OSError:
+        SOURCE_INFO.parent.mkdir()
+        info.to_csv(SOURCE_INFO)
+
+    fname = DATA_REPO_URL + "main/sources/field_sources_map.csv"
+    fields = pd.read_csv(fname, index_col=0)
+    fields.to_csv(FIELD_SOURCE_MAP)
+
+    text = f"Stored information for {info.shape[0]:,} sources as well as "\
+        f"{fields.shape[0]:,} field-source assignments in {SOURCE_INFO.parent}"
+    custom_print(text, verbose)

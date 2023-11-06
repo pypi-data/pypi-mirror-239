@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+computev1/__init__.py
+computev1/compute_client.py
+computev1/paging.py
+filesystem/__init__.py
+filesystem/blobstore.py
+windmill_compute.egg-info/PKG-INFO
+windmill_compute.egg-info/SOURCES.txt
+windmill_compute.egg-info/dependency_links.txt
+windmill_compute.egg-info/not-zip-safe
+windmill_compute.egg-info/requires.txt
+windmill_compute.egg-info/top_level.txt

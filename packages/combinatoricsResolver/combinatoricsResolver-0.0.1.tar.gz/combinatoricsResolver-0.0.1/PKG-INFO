@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: combinatoricsResolver
+Version: 0.0.1
+Summary: Solve Combinatorcs related problems
+Home-page: 
+Author: Harsh Verma
+Author-email: b220024@iiit-bh.ac.in
+License: MIT
+Keywords: combinatorics
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+This package consists of a few functions that deal with general combinatorics problems.
+
+Change Log
+==========
+
+0.0.1 (06/11/2023)
+------------------
+- First Release

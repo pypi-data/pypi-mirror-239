@@ -1,0 +1,1 @@
+This package consists of a few functions that deal with general combinatorics problems.

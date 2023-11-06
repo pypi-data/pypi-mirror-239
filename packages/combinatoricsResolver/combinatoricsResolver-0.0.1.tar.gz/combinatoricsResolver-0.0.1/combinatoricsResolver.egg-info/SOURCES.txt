@@ -1,0 +1,9 @@
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+CombinatoricsPackage/__init__.py
+combinatoricsResolver.egg-info/PKG-INFO
+combinatoricsResolver.egg-info/SOURCES.txt
+combinatoricsResolver.egg-info/dependency_links.txt
+combinatoricsResolver.egg-info/top_level.txt

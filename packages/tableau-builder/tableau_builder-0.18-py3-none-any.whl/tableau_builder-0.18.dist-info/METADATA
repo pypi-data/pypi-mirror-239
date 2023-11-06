@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: tableau-builder
+Version: 0.18
+Summary: Programmatically build Tableau packages
+Home-page: https://github.com/JiscDACT/tableau-builder
+Author: scottw
+Author-email: scott.wilson@jisc.ac.uk
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: lxml
+Requires-Dist: openpyxl
+Requires-Dist: tableauhyperapi
+Requires-Dist: pantab
+
+Programmatically build Tableau packages

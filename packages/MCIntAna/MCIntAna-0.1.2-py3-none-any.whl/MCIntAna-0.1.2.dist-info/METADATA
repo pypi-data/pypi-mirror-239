@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: MCIntAna
+Version: 0.1.2
+Summary: libreria de integración con Monte Carlo
+Home-page: UNKNOWN
+Author: Ana Maria
+Author-email: aarcila01@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.7.2
+Description-Content-Type: text/markdown
+Requires-Dist: cycler (==0.11.0)
+Requires-Dist: fonttools (==4.38.0)
+Requires-Dist: kiwisolver (==1.4.5)
+Requires-Dist: matplotlib (==3.5.3)
+Requires-Dist: mpmath (==1.3.0)
+Requires-Dist: numpy (==1.21.6)
+Requires-Dist: packaging (==23.2)
+Requires-Dist: Pillow (==9.5.0)
+Requires-Dist: pyparsing (==3.1.1)
+Requires-Dist: python-dateutil (==2.8.2)
+Requires-Dist: scipy (==1.7.3)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: typing-extensions (==4.7.1)
+
+# IntegraciÃ³n Monte Carlo
+
+Esta librerÃ­a es para realizar una integraciÃ³n definida usando el mÃ©todo de Monte Carlo.
+

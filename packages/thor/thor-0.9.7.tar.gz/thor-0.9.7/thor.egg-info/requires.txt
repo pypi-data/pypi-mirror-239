@@ -1,0 +1,10 @@
+
+[dev]
+mypy
+black
+pytest
+pytest-md
+validate-pyproject
+
+[systemd]
+cysystemd

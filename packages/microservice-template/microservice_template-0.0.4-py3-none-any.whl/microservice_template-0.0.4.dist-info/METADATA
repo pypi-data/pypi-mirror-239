@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: microservice-template
+Version: 0.0.4
+Summary: Microservicetemplate
+Home-page: UNKNOWN
+Author: Pixelfehler
+License: UNKNOWN
+Keywords: python,microservice
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: flask
+Requires-Dist: flask-cors
+
+# Microservice-Template
+
+**Microservice-Template** is a Python module that provides a simple template class for creating microservices using the Flask web framework. This template class is designed to streamline the process of creating microservices by providing common functionality that is often repeated in microservice development.
+
+## Features
+
+- Provides a base class, `Microservice`, which includes a basic Flask application setup with CORS support.
+- Allows microservices to easily define routes and endpoints with minimal boilerplate code.
+- Encourages best practices for microservice development, making it easier to maintain and scale microservices.
+
+## Usage
+
+To use the **Microservice-Template** in your microservice project, simply inherit from the `Microservice` class and add your custom routes and endpoints. The template class takes care of the core setup, allowing you to focus on the specific functionality of your microservice.
+
+```python
+from microservice_template import Microservice
+
+class MyMicroservice(Microservice):
+    def __init__(self):
+        super().__init__("my-service", 5000)
+
+    def custom_route(self):
+        # Define your custom route logic here
+
+if __name__ == '__main__':
+    my_service = MyMicroservice()
+    my_service.run()
+```
+

@@ -1,0 +1,250 @@
+Metadata-Version: 2.1
+Name: randdic
+Version: 0.0.0
+Summary: A dictionary equipped with fast random selection.
+Home-page: https://github.co.jp/
+Author: bib_inf
+Author-email: contact.bibinf@gmail.com
+License: CC0 v1.0
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+Description-Content-Type: text/markdown
+Requires-Dist: ezpip
+Requires-Dist: sout (>=1.2.1)
+Requires-Dist: relpath
+
+- The explanations in English, Simplified Chinese, and Spanish are provided below.
+- 下面提供了英语、简体中文和西班牙语的说明。
+- Las explicaciones en inglés, chino simplificado y español se proporcionan a continuación.
+
+---
+
+## 日本語版解説（Japanese Version）
+
+### randdic ドキュメント
+
+#### 概要
+`randdic` は、Pythonの辞書のように使えるデータ構造で、高速な乱択を実現するためのライブラリです。Pythonの標準辞書と同様の機能を保持しつつ、乱択に関して大幅にパフォーマンスが向上しています。
+
+#### 特徴
+- 高速なkeyの乱択が可能。
+- Pythonの辞書とほぼ同じ機能を持っています。
+- 「追加や削除が頻繁に行われるデータセット」から乱択をしたい場合に有用です。
+- 内部ハッシュテーブルにアクセス可能です。
+- Pythonの標準ハッシュ機能を利用しています。
+
+#### 使用例
+```python
+import randdic
+
+# 辞書の初期化
+rd = randdic({"りんご": 23, "バナナ": 47})
+# 要素のアクセス
+print(rd["りんご"])  # -> 23
+
+# 主な機能: ランダムなキーの選択（非常に高速です）
+print(rd.rand())  # ランダムなキーを選択します
+
+# その他の辞書機能
+print(rd)                      # randdicの表示
+print(rd.get("なし", 0))       # -> 0
+rd["さくらんぼ"] = "何らかの値"  # 要素の書き込み
+
+
+for k in rd:                   # for文での利用
+    print(f"key = {k}, value = {str(rd[k])}")
+print(len(rd))                 # randdicの要素数
+del rd["りんご"]               # 要素の削除
+print("りんご" in rd)           # keyの存在確認
+print(rd.keys())               # キー一覧の表示
+print(rd.items())              # キー・値一覧の表示
+print(rd.values())             # 値の表示
+print(rd == randdic())         # 等価性のチェック
+rd.update({"バナナ": 48})      # 要素の更新
+
+# 発展的な使い方
+print(rd.table)                         # 内部ハッシュテーブルの取得
+idx, found_flag = rd._get_idx("りんご")  # キーに対応する内部インデックスの検索
+import random
+r = random.Random()
+print(rd.rand(r))                        # ローカルの乱数生成器を使うことが可能
+```
+
+#### 注意点
+- キーとして使用するオブジェクトはハッシュ化可能で、等価性（eq）メソッドを持っている必要があります。
+- キーの順序は挿入順に保存されず、擬似ランダムです。
+
+---
+
+## English Version
+
+### randdic Documentation
+
+#### Overview
+`randdic` is a Python library that provides a dictionary-like data structure capable of performing high-speed random key selection. It mirrors the functionality of a standard Python dictionary but with a notable improvement in the efficiency of choosing a key at random.
+
+#### Features
+- High-speed random key selection.
+- Retains most functionalities of the Python dictionary.
+- Ideal for data sets that undergo frequent insertions and deletions requiring quick random selection.
+- Can be used as a starting point for implementing key-value data structures like databases where internal table access can be complex with default Python dictionaries.
+- Provides access to the internal hash table.
+- Utilizes standard Python hashing, so objects that do not have `eq` and `hash` cannot be used as keys.
+- Keys are stored in an order that is random rather than insertion order, unlike newer Python versions.
+
+#### Usage Example
+```python
+import randdic
+
+# Dictionary initialization
+rd = randdic({"apple": 23, "banana": 47})
+# Element access
+print(rd["apple"])  # -> 23
+
+# Main Feature: Select a random key (operation is very fast)
+print(rd.rand())  # Selects a random key
+
+# Other dictionary functionalities
+print(rd)              # Displays the randdic
+print(rd.get("pear", 0))  # Default value for missing key -> 0
+rd["cherry"] = "some_value"  # Element write
+for k in rd:                # Iteration
+    print(f"key = {k}, value = {str(rd[k])}")
+print(len(rd))             # Length of the randdic
+del rd["apple"]            # Element deletion
+print("apple" in rd)       # Membership check
+print(rd.keys())           # Keys view
+print(rd.items())          # Items view
+print(rd.values())         # Values view
+print(rd == randdic())     # Equality check
+rd.update({"banana": 48})  # Element update
+
+# Advanced Usage: Interacting with the internal hash table
+print(rd.table)                      # View the internal hash table
+idx, found_flag = rd._get_idx("apple")  # Locate internal index for a key
+import random
+r = random.Random()
+print(rd.rand(r))                     # Pass a local random generator
+```
+
+#### Important Notes
+- Ensure the objects used as keys are hashable and have an equality (`eq`) method.
+- The order of keys is not preserved as per insertion but is pseudo-random.
+- When updating or deleting, the operation performance is optimized for speed.
+
+---
+
+## 简体中文版说明（Simplified Chinese Version）
+
+### randdic 文档
+
+#### 概述
+`randdic` 是一个类似于Python字典的数据结构，它是为了实现高效的随机选择而设计的库。它保留了Python标准字典的功能，同时在随机选择方面性能大幅提升。
+
+#### 特点
+- 可以快速随机选择键（key）。
+- 具备与Python字典几乎相同的功能。
+- 如果您需要从“经常添加或删除的数据集”中进行随机选择，这个库非常有用。
+- 可以访问内部哈希表。
+- 使用Python的标准哈希功能。
+
+#### 使用示例
+```python
+import randdic
+
+# 初始化字典
+rd = randdic({"苹果": 23, "香蕉": 47})
+# 访问元素
+print(rd["苹果"])  # -> 23
+
+# 主要功能：随机选择一个键（非常快速）
+print(rd.rand())  # 选择一个随机键
+
+# 其他字典功能
+print(rd)                       # 显示randdic
+print(rd.get("不存在", 0))       # -> 0
+rd["樱桃"] = "某个值"             # 写入元素
+
+
+for k in rd:                    # 在for循环中使用
+    print(f"key = {k}, value = {str(rd[k])}")
+print(len(rd))                  # randdic的元素数量
+del rd["苹果"]                  # 删除元素
+print("苹果" in rd)              # 检查键是否存在
+print(rd.keys())                # 显示所有键
+print(rd.items())               # 显示所有键值对
+print(rd.values())              # 显示所有值
+print(rd == randdic())          # 检查等价性
+rd.update({"香蕉": 48})         # 更新元素
+
+# 高级用法
+print(rd.table)                        # 获取内部哈希表
+idx, found_flag = rd._get_idx("苹果")  # 搜索键对应的内部索引
+import random
+r = random.Random()
+print(rd.rand(r))                       # 可以使用本地随机数生成器
+```
+
+#### 注意事项
+- 作为键的对象必须是可哈希的，并且具有等价性（eq）方法。
+- 键的顺序不是按插入顺序保存的，而是伪随机的。
+
+---
+
+## Versión en Español (Spanish Version)
+
+### Documentación de randdic
+
+#### Resumen
+`randdic` es una biblioteca diseñada para Python que proporciona una estructura de datos similar a un diccionario, optimizada para una selección aleatoria rápida. Mantiene las mismas funcionalidades que un diccionario estándar de Python, pero con un rendimiento significativamente mejorado en cuanto a la selección aleatoria de elementos.
+
+#### Características
+- Permite la selección aleatoria de claves de forma rápida.
+- Posee casi las mismas funcionalidades que un diccionario de Python.
+- Es útil para conjuntos de datos en los que se realizan adiciones y eliminaciones con frecuencia.
+- Permite el acceso a la tabla hash interna.
+- Utiliza la función hash estándar de Python.
+
+#### Ejemplos de Uso
+```python
+import randdic
+
+# Inicialización del diccionario
+rd = randdic({"manzana": 23, "plátano": 47})
+# Acceso a los elementos
+print(rd["manzana"])  # -> 23
+
+# Funcionalidad principal: selección de una clave aleatoria (muy rápida)
+print(rd.rand())  # Selecciona una clave al azar
+
+# Otras funcionalidades del diccionario
+print(rd)                        # Muestra el randdic
+print(rd.get("inexistente", 0))  # -> 0
+rd["cereza"] = "algún valor"     # Escritura de un elemento
+
+
+for k in rd:                     # Uso en bucle for
+    print(f"clave = {k}, valor = {str(rd[k])}")
+print(len(rd))                   # Número de elementos en randdic
+del rd["manzana"]                # Eliminación de un elemento
+print("manzana" in rd)           # Verificación de la existencia de una clave
+print(rd.keys())                 # Muestra la lista de claves
+print(rd.items())                # Muestra la lista de pares clave-valor
+print(rd.values())               # Muestra los valores
+print(rd == randdic())           # Comprobación de igualdad
+rd.update({"plátano": 48})       # Actualización de un elemento
+
+# Usos avanzados
+print(rd.table)                            # Obtención de la tabla hash interna
+idx, bandera_existencia = rd._get_idx("manzana")  # Búsqueda del índice interno correspondiente a una clave
+import random
+r = random.Random()
+print(rd.rand(r))                           # Posibilidad de usar un generador de números aleatorios local
+```
+
+#### Puntos a tener en cuenta
+- Los objetos que se utilizan como claves deben ser susceptibles de hash y deben tener un método de igualdad (eq).
+- El orden de las claves no se conserva según el orden de inserción; es pseudoaleatorio.
+
+

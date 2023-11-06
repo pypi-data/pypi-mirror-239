@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+Setup.py
+setup.cfg
+setup.py
+ejercicio13OP/__init__.py
+ejercicio13OP/operaciones.py
+ejercicio13OP.egg-info/PKG-INFO
+ejercicio13OP.egg-info/SOURCES.txt
+ejercicio13OP.egg-info/dependency_links.txt
+ejercicio13OP.egg-info/top_level.txt

@@ -1,0 +1,3 @@
+[console_scripts]
+mcbackup=minecraft_backup.backup:cli
+

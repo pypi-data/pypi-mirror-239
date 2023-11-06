@@ -1,0 +1,6 @@
+class Utils:
+    CHARS: str
+    @classmethod
+    def alphanumeric_id_generator(cls, char_len: int = ..., use_secrets: bool = ...) -> str: ...
+    @staticmethod
+    def data_path_generator() -> str: ...

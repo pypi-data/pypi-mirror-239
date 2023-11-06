@@ -1,0 +1,58 @@
+//- Gertrude --- GTD done right
+//- Copyright © 2023 Tanguy Le Carrour <tanguy@bioneland.org>
+//-
+//- This program is free software: you can redistribute it and/or modify
+//- it under the terms of the GNU Affero General Public License as
+//- published by the Free Software Foundation, either version 3 of the
+//- License, or (at your option) any later version.
+//-
+//- This program is distributed in the hope that it will be useful,
+//- but WITHOUT ANY WARRANTY; without even the implied warranty of
+//- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//- GNU Affero General Public License for more details.
+//-
+//- You should have received a copy of the GNU Affero General Public License
+//- along with this program. If not, see <http://www.gnu.org/licenses/>.
+
+extends layout
+
+block content
+  section.section
+    .container.project
+      h1.title.is-3 #{project.name}
+
+      #tasks(
+        hx-get=url_for("projects.display", id=project.id)
+        hx-trigger="TasksChanged from:body"
+      )
+        block tasks
+          include mixins/list_of_tasks
+          if tasks
+            h2.title.is-4 Actionable tasks
+            if actionable_tasks
+              +list_of_tasks(actionable_tasks)
+            else
+              article.message.is-info: .message-body: p
+                | There are no actionable tasks for this project.
+                | Please select one in the list of incubated tasks.
+
+            h2.title.is-4 Incubated tasks
+            if incubated_tasks
+              +list_of_tasks(incubated_tasks, next=not actionable_tasks)
+            else
+              article.message.is-info: .message-body: p
+                | There are no incubated tasks for this project.
+                | You can capture new tasks.
+          else
+              article.message.is-success: .message-body
+                p Congratulations! There are no tasks on this project left to be done.
+                p
+                  | If the project is not done yet, you can capture new tasks
+                  | or you can consider it done and archive it.
+
+          h2.title.is-4 Tasks already done
+          if done_tasks
+            +list_of_tasks(done_tasks)
+          else
+            article.message: .message-body: p
+              | No task has yet been done for this project.

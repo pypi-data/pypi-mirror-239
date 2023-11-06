@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: vstats
+Version: 0.0.3
+Summary: A small Python package providing tools for statistics
+License: MIT
+Author: J. Janka
+Requires-Python: >=3.8.1,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: numpy (>=1.19.5)
+Requires-Dist: pandas (>=1.0.1)
+Requires-Dist: scipy (>=1.5.1)
+Requires-Dist: statsmodels (>=0.12.0)
+Description-Content-Type: text/markdown
+
+# vstats
+
+A small Python package providing tools for statistics. An accompanying package for visualization is `vplotly`.
+
+## Installation
+
+```bash
+$ pip install vstats
+```
+
+## License
+
+`vstats` is licensed under the terms of the MIT license.
+
+## Credits
+
+`vstats` was created with [`cookiecutter`](https://cookiecutter.readthedocs.io/en/latest/) and the `py-pkgs-cookiecutter` [template](https://github.com/py-pkgs/py-pkgs-cookiecutter).
+

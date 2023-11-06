@@ -1,0 +1,7 @@
+pytest_affected-0.1.6.dist-info/METADATA,sha256=RbbERBfYDuyzjDhjZCoiDPR2q6TEykZRJQ3fnhP2oW0,1143
+pytest_affected-0.1.6.dist-info/WHEEL,sha256=NLANxO7ltUMTnbCLouFklPIRCvOLIhz8uYGNYaX9sDs,131
+pytest_affected/store.py,sha256=pgMrcg1QIzRHc-sqAczL2fZQtEHf4tQqMQxTgc2sGAk,2803
+pytest_affected/__init__.py,sha256=daEdpEyAJIa8b2VkCqSKcw8PaExcB6Qro80XNes_sHA,2
+pytest_affected/plugin.py,sha256=Fk58EG2lD7EbnL8hfzuLVnwfQhk-DycoURfyDVX-BCM,3821
+pytest_affected/_lib.cpython-311-aarch64-linux-gnu.so,sha256=HNvJAuyoJ1gSJLeSsRd4mFBaJv4VMSl4ELLa-SeAUmc,2386112
+pytest_affected-0.1.6.dist-info/RECORD,,

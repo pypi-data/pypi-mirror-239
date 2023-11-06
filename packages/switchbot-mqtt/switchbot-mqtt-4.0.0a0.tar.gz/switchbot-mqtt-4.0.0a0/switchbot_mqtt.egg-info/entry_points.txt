@@ -1,0 +1,2 @@
+[console_scripts]
+switchbot-mqtt = switchbot_mqtt._cli:_main

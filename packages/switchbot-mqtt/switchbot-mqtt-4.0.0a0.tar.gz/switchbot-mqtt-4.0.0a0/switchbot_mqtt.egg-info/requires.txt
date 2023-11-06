@@ -1,0 +1,3 @@
+PySwitchbot<0.41,>=0.14.0
+aiomqtt<2
+bleak<0.22

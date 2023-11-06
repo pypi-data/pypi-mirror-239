@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: pydynotree
+Version: 0.0.8
+Summary: A hybrid Python/C++ test project
+Author: Joaquim Ortiz-Haro
+Author-email: quimortiz21@gmail.com
+License-File: LICENSE.txt
+

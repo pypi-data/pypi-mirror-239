@@ -1,0 +1,10 @@
+aggify/__init__.py,sha256=9HyCJ4D_uSGeYL1pf9LmvsjF-yyzIvt-Kn2xdQy7tgs,131
+aggify/aggify.py,sha256=BCbi-0FhJFtMwDQsdQaIcLiKjZO4ei0Wi4xvLPt9fnE,30210
+aggify/compiler.py,sha256=0Yn5mUUyjLAIVuj6eYkFFN4YayQHswwyj_duuG6yhV4,9492
+aggify/exceptions.py,sha256=RmBAbjHaxpf1TGfxVx292XJ5bvEkmWMqAYlEU26uP54,2343
+aggify/types.py,sha256=iAdE6RIovWBs8Kc6OSebk7KcR_GR65LlTPVoGwW-OfY,249
+aggify/utilty.py,sha256=CnO4KdYhRvlUREBH_bIpcPYCF-bfNO0lJ8EriTEiyXo,4665
+aggify-0.3.0.dist-info/LICENSE,sha256=y7w04NmsrARpTTshqqnfi9wAU24ep8gDYVu9kwe1OEg,1062
+aggify-0.3.0.dist-info/METADATA,sha256=3qKc6BhOm6A8EulkkfvOlmB22sy0717SGv1VlfSVMBY,5883
+aggify-0.3.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+aggify-0.3.0.dist-info/RECORD,,

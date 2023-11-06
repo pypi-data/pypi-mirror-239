@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: Bono2FdoJar
+Version: 0.1.0
+Summary: Liberia para calcular integrales con el método de Montecarlo y suavizar curvas con usando un kernel gaussiano
+Home-page: https://gitlab.com/juanf.jaramillo1/curso-fci-2023-2.git
+Author: Fernando Jaramillo
+Author-email: juanf.jaramillo@udea.edu.co
+License: MIT
+Description-Content-Type: text/markdown
+
+# Librería con el método de Montecarlo para calcular una integral y el suavizado de curvas usando el kernel Gaussiano.

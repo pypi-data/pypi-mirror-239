@@ -1,0 +1,8 @@
+README.md
+setup.py
+Bono2FdoJar/__init__.py
+Bono2FdoJar/clase_Bono2.py
+Bono2FdoJar.egg-info/PKG-INFO
+Bono2FdoJar.egg-info/SOURCES.txt
+Bono2FdoJar.egg-info/dependency_links.txt
+Bono2FdoJar.egg-info/top_level.txt

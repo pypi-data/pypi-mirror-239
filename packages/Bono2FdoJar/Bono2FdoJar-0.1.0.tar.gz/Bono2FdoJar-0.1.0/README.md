@@ -1,0 +1,1 @@
+# Librería con el método de Montecarlo para calcular una integral y el suavizado de curvas usando el kernel Gaussiano.

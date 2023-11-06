@@ -1,0 +1,15 @@
+mvsdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mvsdk/api/__init__.py,sha256=fKP_aqYGH8zkRoP2Shv8CcHbERzY1_0wzho1lB2U3Pg,5842
+mvsdk/rest/__init__.py,sha256=MJfUJTC4uoBBJTPpSoq322rGVjD6ROWQKIbL-rfateI,4265
+mvsdk/rest/asset/__init__.py,sha256=4ABtkNfij-yuQqXWgQBvXF9jer8PQlljuO0lqpNVvmE,10857
+mvsdk/rest/attribute/__init__.py,sha256=qqX9wkKy-vqGB9ZOeA8tOn5A9VIAiIKAI8P002CgLl0,1712
+mvsdk/rest/bulk/__init__.py,sha256=xBGwa4cSejiRsL491eXIKBI4tX-Ytqkhd1Z0BPk1fKc,7050
+mvsdk/rest/category/__init__.py,sha256=53uUmWXANDyoeAYkfCDGvKqKGm1IWKIR4cCquqz1d_U,1001
+mvsdk/rest/connect/__init__.py,sha256=fQ91QKGKyn1vTr4tT6HswW1dSe2vlQ6trLqoHIi9WvQ,1117
+mvsdk/rest/direct_link/__init__.py,sha256=47zojCTVXtzjp0b6YBirZq-z5yRZeiFGcIDuSSIEyBY,2814
+mvsdk/rest/keyword/__init__.py,sha256=r61ex9xczhuAtfTCd29FPvEzixwAELW1JK__enVp0OY,1721
+mvsdk/rest/keyword_group/__init__.py,sha256=-4XQaBPxqln8zMmmFJTuEwAx0qWLrgz9tnStQvEktEc,1713
+mvsdk-0.0.8.dist-info/METADATA,sha256=0xAXogOWXO0GyYGD_9PNUDiSL_Opy-zoyNUjwy2IDBM,693
+mvsdk-0.0.8.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+mvsdk-0.0.8.dist-info/top_level.txt,sha256=5nTGofrSp1NEjm18_siI6n-jMRlgFxsMUVk7sdBRkqU,6
+mvsdk-0.0.8.dist-info/RECORD,,

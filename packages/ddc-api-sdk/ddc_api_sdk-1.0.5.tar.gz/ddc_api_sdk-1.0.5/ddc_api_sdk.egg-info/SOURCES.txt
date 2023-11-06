@@ -1,0 +1,9 @@
+README.md
+setup.py
+DDCCore/APICore.py
+DDCCore/__init__.py
+ddc_api_sdk.egg-info/PKG-INFO
+ddc_api_sdk.egg-info/SOURCES.txt
+ddc_api_sdk.egg-info/dependency_links.txt
+ddc_api_sdk.egg-info/top_level.txt
+test/test1.py

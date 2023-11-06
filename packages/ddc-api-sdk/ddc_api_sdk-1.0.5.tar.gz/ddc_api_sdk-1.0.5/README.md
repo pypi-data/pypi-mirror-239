@@ -1,0 +1,19 @@
+
+# 叮当猫 HTTP SDK 1.0
+
+## 使用示例
+
+### Install Package
+`python3 -m pip install ddc-api-sdk==1.0.5`
+
+### Used Code
+```python
+from DDCCore.APICore import APICore
+
+if __name__ == '__main__':
+    sdk = APICore("https://api.xxxxx.com", "Your API Key")
+    data = sdk.高级查询_姓名_省市县_性别_年龄范围查询("杨晓霞", "江苏省", "女", 18, 25)
+    data1 = sdk.高级查询_模糊姓名_精准手机号前3位_精准后4位查询("杨晓霞", "136", "8823")
+    print(data)
+    print(data1)
+```

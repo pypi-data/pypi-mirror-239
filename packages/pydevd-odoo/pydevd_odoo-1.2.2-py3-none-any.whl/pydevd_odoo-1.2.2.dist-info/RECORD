@@ -1,0 +1,8 @@
+pydevd_plugins/__init__.py,sha256=h-QyvMVzDNpT3jyVskcSbUVFXxGCRxieFPrvTveZG9k,64
+pydevd_plugins/extensions/__init__.py,sha256=h-QyvMVzDNpT3jyVskcSbUVFXxGCRxieFPrvTveZG9k,64
+pydevd_plugins/extensions/pydevd_plugin_odoo.py,sha256=DdkPtaI7NbsDqD5iJqw-GiAnEDPawxo6z-u_QgAvW8E,1760
+pydevd_odoo-1.2.2.dist-info/LICENSE,sha256=3KXOxR4vrBx-bDVqgUMs701ogGHAUsDktspVIfPxZSo,1071
+pydevd_odoo-1.2.2.dist-info/METADATA,sha256=0cIU7p8tEuitC-koJAL58Fm-nVLZX9zqhdCmra30XLg,1519
+pydevd_odoo-1.2.2.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+pydevd_odoo-1.2.2.dist-info/top_level.txt,sha256=VcZ023MkS47aY1X244nGqxbptM-H0ucTChwLQovK4nA,15
+pydevd_odoo-1.2.2.dist-info/RECORD,,

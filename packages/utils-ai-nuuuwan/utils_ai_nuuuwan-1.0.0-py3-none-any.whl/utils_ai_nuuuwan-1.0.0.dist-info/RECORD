@@ -1,0 +1,12 @@
+utils_ai/AI.py,sha256=Qd3FLR3GkZP8Fp5By3HXevS9cFUsWf0Z2SKtxMP0D1c,286
+utils_ai/AIImage.py,sha256=AYMMMzt5fBypB5hOFYi1cGEpo8p_bQZDdgryeBNbFoA,796
+utils_ai/AIText.py,sha256=F3RW3MaVuyF54Q5-zfaeTV_EHAV1lmXCZOH9gmrjrY0,1116
+utils_ai/__init__.py,sha256=DYXlgdOHSix9vTWrcd49H5sLpB_ejne8zDMs1IqHjS8,27
+utils_ai/core/ChatRole.py,sha256=gj6Rmiu6VtO7__RuyjcRiVAXlopu4jrA_pb0-kGyFKI,169
+utils_ai/core/Message.py,sha256=pg9Q_lPfRj-EfEzND8gmS0kTVInvAPqQoUakOAPLX34,229
+utils_ai/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+utils_ai_nuuuwan-1.0.0.dist-info/LICENSE,sha256=KG3ExLEKukwXjaQl36e36AZApEZ-oaoDNGQ-MIngbt4,1075
+utils_ai_nuuuwan-1.0.0.dist-info/METADATA,sha256=hKtVjUQDOlFbtF-P__Oljsqo-O20zD5rJj4YfygrMxw,592
+utils_ai_nuuuwan-1.0.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+utils_ai_nuuuwan-1.0.0.dist-info/top_level.txt,sha256=Z_crLy4z55CrcsuYDiibQy37RbI960MwzPKN8DwsOuo,9
+utils_ai_nuuuwan-1.0.0.dist-info/RECORD,,

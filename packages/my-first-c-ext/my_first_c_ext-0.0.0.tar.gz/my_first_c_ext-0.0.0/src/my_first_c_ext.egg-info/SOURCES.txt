@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.cfg
+src/my_first_c_ext/__init__.py
+src/my_first_c_ext/__main__.py
+src/my_first_c_ext.egg-info/PKG-INFO
+src/my_first_c_ext.egg-info/SOURCES.txt
+src/my_first_c_ext.egg-info/dependency_links.txt
+src/my_first_c_ext.egg-info/top_level.txt

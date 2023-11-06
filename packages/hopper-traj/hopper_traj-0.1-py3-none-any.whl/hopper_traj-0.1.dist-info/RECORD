@@ -1,0 +1,17 @@
+controller/MPC_controller_class.py,sha256=JzbQBgne5rNC-u53bsHV3bsh135xpS8KUsGVXI_xX00,19191
+controller/__init__.py,sha256=vUvdOFHUQWZ7RBMbujfJNMmqu3_tsq7rwgg4fnHdVoY,49
+controller/plot_simulation.py,sha256=Hb-jrRZPzto0sVpZozRrgRAI9Dwq5--uM4M_kSmGYBo,10507
+math_tools/Function.py,sha256=KLKy_UrpCjkYFpbBp3QU_qttwNiOFwtsRAza1LO_H0k,20536
+math_tools/RK4.py,sha256=yj5omLE2s5u9JXGfdLHCz9H417xydxhz-aPeCRGRpQM,219
+math_tools/__init__.py,sha256=TmI5LNaPU4tLowqTXpQbvteWZkMWMm8OgHP1UGnwrxw,99
+math_tools/data_handler_class.py,sha256=1SThc0cXzCjBbNN0KTLfs1d7pL-bOTe6M0BBCwhHf44,4548
+trajectory_planning/__init__.py,sha256=5SAuCCe3Yd26xl3pqjQ32CQfHVnyTc9psGlQ00FYT4c,41
+trajectory_planning/coupled_pol_interpolation.py,sha256=o79iPhWx4sQtTm9IbvtJnY_y7bIFDIFqS5uLttOGH0A,15882
+trajectory_planning/drift_checker_class.py,sha256=KizImRG-75sJOPh2exret3mhTUKc6uY3kE8JsuA2u-g,15196
+trajectory_planning/post_processing.py,sha256=d7SgIUvLWFA4MtcoYRcu6AouCJTCzGg2hCgz2jV_EfM,12725
+trajectory_planning/trajectory_class.py,sha256=07qMzImQ4VrdIHY3C9-AOSpDzrv5oOKaHxUh9hVckyg,3968
+hopper_traj-0.1.dist-info/LICENSE.md,sha256=rAgjpUZZTFh__R-zbNCHdIxC0qBJYbUsGNUpxc1g4bA,1088
+hopper_traj-0.1.dist-info/METADATA,sha256=uNaMR_PHRAsQKGEFfUGyVQFovFAwK9bkOcxj66TSg3c,4040
+hopper_traj-0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+hopper_traj-0.1.dist-info/top_level.txt,sha256=HcFyZApWZeJZjZbLG8U72rXwtJ7_zpgvfk6-r4M6DOU,42
+hopper_traj-0.1.dist-info/RECORD,,

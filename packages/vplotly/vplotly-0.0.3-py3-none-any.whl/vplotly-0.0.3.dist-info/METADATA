@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: vplotly
+Version: 0.0.3
+Summary: A small package for plotting based on plotly. This package is accompanying the package vstats.
+License: MIT
+Author: J. Janka
+Requires-Python: >=3.8.1,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: kaleido (>=0.2.1)
+Requires-Dist: numpy (>=1.19.5)
+Requires-Dist: pandas (>=1.0.1)
+Requires-Dist: plotly (>=5.15.0)
+Requires-Dist: scipy (>=1.5.1)
+Requires-Dist: statsmodels (>=0.12.0)
+Requires-Dist: vstats (>=0.0.3)
+Description-Content-Type: text/markdown
+
+# vplotly
+
+A small Python package for plotting based on Plotly.
+This package is accompanying the package `vstats`.
+
+## Installation
+
+```bash
+$ pip install vplotly
+```
+
+## License
+
+`vplotly` is licensed under the terms of the MIT license.
+
+## Credits
+
+`vplotly` was created with [`cookiecutter`](https://cookiecutter.readthedocs.io/en/latest/) and the `py-pkgs-cookiecutter` [template](https://github.com/py-pkgs/py-pkgs-cookiecutter).
+

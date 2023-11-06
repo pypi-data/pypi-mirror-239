@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: swmmhub
+Version: 0.1
+Summary: swmmhub
+Author: Bryant E. McDonnell
+Keywords: swmm5,swmm,hydraulics,hydrology,modeling,collection system
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Documentation :: Sphinx
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python
+Classifier: Development Status :: 5 - Production/Stable
+Description-Content-Type: text/markdown

@@ -1,0 +1,11 @@
+from django.urls import path
+
+from ndr_core.views import dispatch
+from ndr_core.ndr_settings import NdrSettings
+
+app_name = NdrSettings.APP_NAME
+
+urlpatterns = [
+    path('', dispatch, name='index'),
+    path('p/<str:ndr_page>/', dispatch, name='ndr_view'),
+]

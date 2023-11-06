@@ -1,0 +1,14 @@
+execute:
+  include: true
+code-line-numbers: false
+highlight-style: "arrow"
+margin-top: "1in"
+margin-bottom: "1in"
+margin-left: "1in"
+margin-right: "1in"
+latex-auto-install: true
+include-in-header: |
+  \usepackage{fvextra}
+  \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaksymbolleft={}, showspaces=false, showtabs=false, breaklines,breakanywhere, commandchars=\\\{\}}
+include-before-body: |
+  \DefineVerbatimEnvironment{verbatim}{Verbatim}{breaksymbolleft={}, showspaces=false, showtabs=false, breaklines}

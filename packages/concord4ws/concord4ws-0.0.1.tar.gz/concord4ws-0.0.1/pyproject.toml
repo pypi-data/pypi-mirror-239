@@ -1,0 +1,22 @@
+[project]
+dependencies = ["asyncio>=3.4.3", "websockets>=12.0"]
+name = "concord4ws"
+version = "0.0.1"
+authors = [
+  { name = "Joey Eamigh", email = "55670930+JoeyEamigh@users.noreply.github.com" },
+]
+description = "A package for interacting with the concord4ws server."
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+[project.urls]
+"Homepage" = "https://github.com/JoeyEamigh/concord4ws-py"
+"Bug Tracker" = "https://github.com/JoeyEamigh/concord4ws-py/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

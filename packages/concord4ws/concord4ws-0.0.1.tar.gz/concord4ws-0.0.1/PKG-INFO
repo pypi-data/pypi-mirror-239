@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: concord4ws
+Version: 0.0.1
+Summary: A package for interacting with the concord4ws server.
+Project-URL: Homepage, https://github.com/JoeyEamigh/concord4ws-py
+Project-URL: Bug Tracker, https://github.com/JoeyEamigh/concord4ws-py/issues
+Author-email: Joey Eamigh <55670930+JoeyEamigh@users.noreply.github.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
+Requires-Dist: asyncio>=3.4.3
+Requires-Dist: websockets>=12.0
+Description-Content-Type: text/markdown
+
+# concord4ws-py
+
+Python library for interfacing with Concord4WS [https://github.com/JoeyEamigh/concord4ws](https://github.com/JoeyEamigh/concord4ws).

@@ -1,0 +1,10 @@
+adafair/__init__.py,sha256=_w3NU7pfHFlMWzRAgsGFmmCWqn2T1sBSV_HHBu_VGTc,252
+adafair/AdaFair.py,sha256=NRPJEDoJznaVZPFelrF1SXCSMRY4mBR7L8hrdykX-lc,27856
+adafair/AdaFairEQOP.py,sha256=SJMh9G7HqOQrD8AF7y-LA7sGNy9Snmuh-8I8cQwkNf8,33199
+adafair/AdaFairSP.py,sha256=bsXQCALmpZniln4w-_2hmBj7jTe488e7uKijhKth6cY,31483
+adafair/adult.csv,sha256=vAPksLOepApoAtvM7A9yHnGDWKmY6InT5HZBnJvHUzs,5484860
+adafair/load_adult.py,sha256=lMO6-T6oK6M1bi_-MxcEK8cqsHwp537a2opxotAOr2A,2879
+adafair-0.1.2.dist-info/LICENSE,sha256=7hmsPNCDgCMxTJFqtU_mBIIJd6AYsQWFsDlo1s0jn9U,1097
+adafair-0.1.2.dist-info/METADATA,sha256=W3FHGF-OJGl6ktY0uxvG_j3tW8OnNqQb-JBTNmOEocY,2590
+adafair-0.1.2.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+adafair-0.1.2.dist-info/RECORD,,

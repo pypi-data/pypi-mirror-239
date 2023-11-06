@@ -1,0 +1,9 @@
+giga_json/__init__.py,sha256=Rqn2KGZsBkkD46YKaYw7dLCU8uZVEYTzFurMMxd8-1Y,15829
+giga_json/__version__.py,sha256=ZTipNH6wyC6qsq1H_lZsvJyVruUa1nu3y4EysMdkpuU,22
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_giga.py,sha256=k1LjO9Q1BPx1CXhWOEWaT2x8hNayPLes0RP4qjs6OJc,7681
+giga_json-1.0.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+giga_json-1.0.2.dist-info/METADATA,sha256=H6mPkfiTTshpjYCX25j5w_GBr5BIxi5wpfxZivWUVLw,507
+giga_json-1.0.2.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+giga_json-1.0.2.dist-info/top_level.txt,sha256=Dh96g_FO5_wk-iTyuQBSOzYPCsIgR6XqCh1QgeBzy4Y,15
+giga_json-1.0.2.dist-info/RECORD,,

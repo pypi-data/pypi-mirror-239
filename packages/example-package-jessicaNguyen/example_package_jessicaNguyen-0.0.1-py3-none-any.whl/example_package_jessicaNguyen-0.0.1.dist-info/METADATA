@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: example-package-jessicaNguyen
+Version: 0.0.1
+Summary: A small example package
+Author-email: Jessica Nguyen <jnguye44@msudenver.edu>
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Example Package
+
+This is a simple example package. You can use
+[GitHub-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.

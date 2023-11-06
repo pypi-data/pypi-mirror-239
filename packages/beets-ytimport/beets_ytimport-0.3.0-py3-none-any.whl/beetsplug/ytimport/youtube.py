@@ -1,0 +1,133 @@
+import os
+import re
+import json
+import pathlib
+import ytmusicapi
+import yt_dlp
+from beetsplug.ytimport.split import chapters2tracks
+from beetsplug.ytimport.safename import safe_name
+
+uploader_as_artist_rule = r'uploader:^(?P<artist>.+?)( +- +Topic)?$'
+title_extraction_rule = r'title:^(\[[^\]]+\])? *((?P<track_number>0[1-9])\.? +)?(?P<artist>[^(]+?) +(-+|–|\||~|) +(?P<title>.+?) *((\(|\[)(HD|HQ|Official|FREE).+)?$|'
+
+def login(headers=None):
+    if headers:
+        return ytmusicapi.setup(headers_raw=headers)
+    else:
+        a = ytmusicapi.setup_oauth()
+        return json.dumps(a)
+
+def likes(auth, max_tracks):
+    yt = ytmusicapi.YTMusic(auth)
+    likes = yt.get_liked_songs(max_tracks)
+    return [t['videoId'] for t in likes['tracks'] if t['likeStatus'] == 'LIKE']
+
+class RenamePP(yt_dlp.postprocessor.PostProcessor):
+    def run(self, info):
+        oldname = info['filename']
+        dir = os.path.dirname(oldname)
+        artist = info['artist']
+        artist = safe_name(artist)
+        title = safe_name(info['title'])
+        newname = '{} - {} [{}].m4a'.format(artist, title, info['id'])
+        newname = os.path.join(dir, newname)
+        if newname != oldname:
+            self.to_screen("Renaming '{}' to '{}'".format(oldname, newname))
+            os.rename(oldname, newname)
+            info['filename'] = newname
+        return [], info
+
+class SplitChaptersToTracksPP(yt_dlp.postprocessor.PostProcessor):
+    def run(self, info):
+        fname = info['filename']
+        self.to_screen('Splitting ' + fname)
+        if chapters2tracks(fname):
+            os.remove(fname)
+        return [], info
+
+def download(urls, target_dir, min_len=60, max_len=7200, auth_headers={}, split=False):
+
+    def download_filter(info, *, incomplete):
+        duration = info.get('duration')
+        if duration and duration < min_len:
+            return 'Track is too short'
+        if duration and duration > max_len:
+            return 'Track is too long'
+
+    ytdl_opts = {
+        'outtmpl': target_dir+'/%(artist|)s%(artist& - |)s%(title)s [%(id)s].%(ext)s',
+        'format': 'm4a/bestaudio/best', # Prefer m4a to avoid conversion within pp.
+        'download_archive': target_dir+'/.youtube-download.log',
+        'continuedl': True,
+        'restrictfilenames': True,
+        'windowsfilenames': True,
+        'writethumbnail': True,
+        'keepvideo': False,
+        'ignoreerrors': True,
+        'nooverwrites': True,
+        'retries': 10,
+        'match_filter': download_filter,
+        'process': True,
+        'force_generic_extractor': False,
+        'postprocessors': [
+            { # Corresponds to the -x CLI option.
+                # Using m4a avoids the need to convert the audio (which would decrease quality) in most cases - just extract it from webm.
+                'key': 'FFmpegExtractAudio',
+                'preferredcodec': 'm4a',
+                'nopostoverwrites': True
+            },
+            { # Corresponds to the --parse-metadata CLI option.
+                'key': 'MetadataFromField',
+                'formats': [
+                    # Add Youtube URL and original title to comment field.
+                    # This is to preserve the information when importing it into beets where it could be useful for disambiguation later.
+                    '%(original_url)s %(title)s:%(meta_comment)s',
+                    # Use uploader name without suffix as artist tag.
+                    uploader_as_artist_rule,
+                    # Extract track number and artist from title tag.
+                    title_extraction_rule,
+                    # Add additional Youtube fields to the file's metadata.
+                    '%(like_count)s:%(meta_likes)s',
+                    '%(dislike_count)s:%(meta_dislikes)s',
+                    '%(view_count)s:%(meta_views)s',
+                    '%(average_rating)s:%(meta_rating)s',
+                    '%(release_date>%Y-%m-%d,upload_date>%Y-%m-%d)s:%(meta_publish_date)s',
+                ],
+            },
+            { # Corresponds to the --add-metadata CLI option.
+                'key': 'FFmpegMetadata',
+            },
+            { # Corresponds to the --embed-thumbnail CLI option.
+                'key': 'EmbedThumbnail',
+            },
+            { # Corresponds to --xattrs CLI option.
+                'key': 'XAttrMetadata',
+            },
+        ],
+        # TODO: maybe enable for premium quality: 'cookiefile': 'path/to/cookies.txt',
+    }
+    if len(auth_headers) > 0:
+        ytdl_opts['http_headers'] = auth_headers
+    pathlib.Path(target_dir).mkdir(parents=True, exist_ok=True)
+    ydl = yt_dlp.YoutubeDL(ytdl_opts)
+    if split:
+        ydl.add_post_processor(RenamePP(), when='post_process')
+        ydl.add_post_processor(SplitChaptersToTracksPP(), when='post_process')
+    ydl.download(urls)
+
+#yt-dlp --batch-file=/data/youtube-likes.urls --download-archive=youtube/.youtube-download.log \
+#  -ciwx --audio-format=m4a \
+#  -o '/data/youtube/%(title)s.%(ext)s' \
+#  --parse-metadata '%(original_url)s %(title)s:%(meta_comment)s' \
+#  --parse-metadata 'title:^(\[[^\]]+\] *)?((?P<track_number>0[1-9])\.? +)?(?P<artist>.+?) +(-+|–|:|\||~|) +(?P<title>.+?)(\((HD|HQ|Official)([^\)]+)?\)|( +\[(HD|Official)([^\]]+)?\]))? *$|' \
+#  --parse-metadata '%(like_count)s:%(meta_likes)s' \
+#  --parse-metadata '%(dislike_count)s:%(meta_dislikes)s' \
+#  --parse-metadata '%(view_count)s:%(meta_views)s' \
+#  --parse-metadata '%(average_rating)s:%(meta_rating)s' \
+#  --parse-metadata '%(release_date>%Y-%m-%d,upload_date>%Y-%m-%d)s:%(meta_publish_date)s' \
+#  --add-metadata \
+#  --embed-metadata \
+#  --embed-thumbnail \
+#  --xattrs --no-overwrites \
+#  --restrict-filenames --windows-filenames \
+#  --progress

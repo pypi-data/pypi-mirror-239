@@ -1,0 +1,13 @@
+sysstat_applet-1.1.1.data/data/share/applications/sysstat-applet.desktop,sha256=KOExzw3E1rzCmFBuoduqohd1QVknD0ByHQ80OnNvbUg,217
+sysstat_applet-1.1.1.data/scripts/sysstat-applet,sha256=H6zLVZJYQTjgFDiWb97NTrNBPX5cT7UxRlCC1qAttW4,745
+sysstatapplet/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sysstatapplet/cpu.py,sha256=Zp6yRPuRsXbkrz0omWJmk-DVAY3ZjdqgXH4Uty0fV-c,6749
+sysstatapplet/disk.py,sha256=A5LSJaPmijuihkhz2hkPQupuFQu24OqEpXYjKIHuPfo,8258
+sysstatapplet/mem.py,sha256=2aJ_JB9t7mq4ShQrHNX7xDNgYTqt2qu9rnP610ZxiHA,5785
+sysstatapplet/sysstat.py,sha256=qoKVDxxtkqEHlymvhxX1S8snXDErCY0hu5c-hu1NEJw,5625
+sysstatapplet/util.py,sha256=qngDKRlBKyEYzLFkYJYrYZBUgrjR1a11BACt9Mdfyo4,426
+sysstat_applet-1.1.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+sysstat_applet-1.1.1.dist-info/METADATA,sha256=PqF3kITZX8d8sG-nVNCMOBTgvSM13fG4YGAwM17OK9U,1930
+sysstat_applet-1.1.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+sysstat_applet-1.1.1.dist-info/top_level.txt,sha256=RI1dDq6xM3TQ8xTWOpZUZRmi4ZPL5KFVnwYm6TvqAJM,14
+sysstat_applet-1.1.1.dist-info/RECORD,,

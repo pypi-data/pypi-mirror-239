@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: math-quiz-Eid
+Version: 1.0
+License-File: LICENSE
+Requires-Dist: Click
+Requires-Dist: pytest
+Requires-Dist: pytest-cov
+Requires-Dist: coverage
+Requires-Dist: flake8
+Requires-Dist: black
+Requires-Dist: sphinx
+Requires-Dist: sphinx-rtd-theme
+Requires-Dist: sphinx-click
+Requires-Dist: sphinxcontrib-napoleon
+

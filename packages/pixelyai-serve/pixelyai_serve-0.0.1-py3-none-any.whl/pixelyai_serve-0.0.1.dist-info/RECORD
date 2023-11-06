@@ -1,0 +1,11 @@
+pixelyai_serve/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pixelyai_serve/client.py,sha256=AC6fZD8QGrN7BkMdKyqG8YHN_Ya9BZ1ypAe3tdJdoms,395
+pixelyai_serve/serving/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pixelyai_serve/serving/jax_module.py,sha256=FxhMA1_rj_f3cZrilZW_CkMEG44AgW3-efPZGdeyJmk,4255
+pixelyai_serve/serving/torch_module.py,sha256=7IcZqLshVtOjXojIie8M2olg5R0ABFUvfCUsdkdnnsg,1362
+pixelyai_serve/serving/utils.py,sha256=m2TXN7fEuWJ4ZlYbUoe0jMhUnK4pgj-rZt5WuMViw6Y,23176
+pixelyai_serve-0.0.1.dist-info/LICENSE,sha256=JP1PaVqTLVZcd3TOL42fCXQwkpGBLofmODEmZAGpBTI,1506
+pixelyai_serve-0.0.1.dist-info/METADATA,sha256=cxSHSLaI1cn-cIXrhvw6SdkYeMnbQn0SLZRm3UY3lw8,1379
+pixelyai_serve-0.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+pixelyai_serve-0.0.1.dist-info/top_level.txt,sha256=bIqWjr71DgaT44yWZA_nf106csRvxuBNcbhBL0YaaEw,15
+pixelyai_serve-0.0.1.dist-info/RECORD,,

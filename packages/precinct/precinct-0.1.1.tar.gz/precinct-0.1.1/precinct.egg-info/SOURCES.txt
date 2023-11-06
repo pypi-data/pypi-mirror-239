@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+precinct/__init__.py
+precinct/connection.py
+precinct/logging.py
+precinct/main.py
+precinct/models.py
+precinct.egg-info/PKG-INFO
+precinct.egg-info/SOURCES.txt
+precinct.egg-info/dependency_links.txt
+precinct.egg-info/entry_points.txt
+precinct.egg-info/requires.txt
+precinct.egg-info/top_level.txt

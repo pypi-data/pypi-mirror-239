@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "infra_simple_service"
+description = "Template and testing purposes"
+license = {file = "license.txt"}
+dynamic = ["version", "readme"]
+dependencies = [
+    "requests"
+]
+
+[tool.setuptools.dynamic]
+version = {attr = "simple_service.__version__"}
+readme = {file = "readme.md", content-type = "text/markdown"}

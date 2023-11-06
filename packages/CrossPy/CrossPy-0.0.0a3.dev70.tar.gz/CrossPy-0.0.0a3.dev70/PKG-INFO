@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: CrossPy
+Version: 0.0.0a3.dev70
+Home-page: https://users.oden.utexas.edu/~byou/crosspy
+Author: Bozhi YOU, University of Texas at Austin
+Author-email: youbozhi@cs.utexas.edu
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+License-File: LICENSE

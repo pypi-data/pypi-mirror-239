@@ -1,0 +1,9 @@
+odoo/addons/disable_login/__init__.py,sha256=7aech0rY-7h9B6fAi0nS-IV_QbsAEntZp5tgQnSE1Ec,30
+odoo/addons/disable_login/__manifest__.py,sha256=yqm2N3US1k0cez4d67wIh83qLbJy86182kzKar11eNI,525
+odoo/addons/disable_login/controllers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odoo/addons/disable_login/controllers/main.py,sha256=dKVpteGWyxxCnRHFSNxAeXHJCSoS_YihkxVPxojPaeg,661
+odoo/addons/disable_login/views/auth_templates.xml,sha256=eHwwlcVJb3T-0m7UpUVPTLh4NRLPP9vUOy9RTQS0Ock,889
+odoo12_addon_disable_login-12.0.1.1.0.dist-info/METADATA,sha256=9nit4RlOXemjjdV0GAA4qSWUsP9jOfN-pL1jJBu_vFY,1923
+odoo12_addon_disable_login-12.0.1.1.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+odoo12_addon_disable_login-12.0.1.1.0.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_disable_login-12.0.1.1.0.dist-info/RECORD,,

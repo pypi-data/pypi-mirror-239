@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: silbacre
+Version: 1.1
+Summary: SMS backup file API
+Home-page: https://gitlab.com/ralphembree/silbacre
+Author: Ralph Embree
+Author-email: ralph.embree@brominator.org
+Requires-Dist: bs4
+Requires-Dist: phonenumbers

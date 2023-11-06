@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: delite
+Version: 0.0.10rc1
+Summary: A lightweight wrapper to distributed writes with duckdb
+Author: Brandon Martel
+Author-email: brandonmartel@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: duckdb (>=0.9.1,<0.10.0)
+Description-Content-Type: text/markdown
+
+# Delite
+
+A delightfully lite wrapper around DuckDB to manage distributed writes to blob storage resources.
+

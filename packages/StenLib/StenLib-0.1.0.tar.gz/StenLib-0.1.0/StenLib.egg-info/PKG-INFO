@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: StenLib
+Version: 0.1.0
+Home-page: https://github.com/Structura-Engineering/StenLib
+License: LICENSE.md
+Project-URL: Bug Tracker, https://github.com/Structura-Engineering/StenLib/issues
+Requires-Python: >=3.12.0
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: requirements.txt
+
+README.md

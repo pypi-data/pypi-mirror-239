@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "perturbationx"
+version = "1.0.1"
+description = "Python package for computing causal network perturbation"
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "CC BY-NC 4.0"}
+dependencies = [
+    "numpy",
+    "networkx",
+    "pandas",
+    "scipy",
+    "matplotlib",
+    "seaborn",
+    "py4cytoscape"
+]
+
+[project.urls]
+documentation = "https://mikethenut.github.io/perturbationx/index.html"
+repository = "https://github.com/mikethenut/perturbationx"
+
+[tool.setuptools.packages.find]
+include  = ["perturbationx", "perturbationx.*"]
+
+[tool.setuptools.package-data]
+"*" = ["*.tsv", "*.xml"]

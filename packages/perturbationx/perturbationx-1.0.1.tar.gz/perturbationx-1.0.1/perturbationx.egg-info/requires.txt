@@ -1,0 +1,7 @@
+numpy
+networkx
+pandas
+scipy
+matplotlib
+seaborn
+py4cytoscape

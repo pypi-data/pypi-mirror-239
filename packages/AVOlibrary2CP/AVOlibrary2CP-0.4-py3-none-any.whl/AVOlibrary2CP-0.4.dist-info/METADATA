@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: AVOlibrary2CP
+Version: 0.4
+Summary: Curve fitting for COVID-19 data using Gaussian kernel smoother
+Author: Alejandro Valencia
+Author-email: alejandro.valenciao1@udea.edu.co
+License: MIT
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+

@@ -1,0 +1,5 @@
+jsonpath_rust_bindings-0.1.0.dist-info/METADATA,sha256=D_14YmN_HQN9dV5NnvKQ_pgfgPD33S8i561owA1B-F0,800
+jsonpath_rust_bindings-0.1.0.dist-info/WHEEL,sha256=WFT97rB1O7CIEsl2p5FkVU4G8SnXWTVjoB4KDQSt720,104
+jsonpath_rust_bindings/__init__.py,sha256=78tg_xK1vxrdUuPziwj6p_E14irx5KPu62QkP7r3TGg,171
+jsonpath_rust_bindings/jsonpath_rust_bindings.cpython-310-darwin.so,sha256=_CNeFespA4OzZgfVZc5rov7MBvIvaCgbMwFlA90ggyc,2876009
+jsonpath_rust_bindings-0.1.0.dist-info/RECORD,,

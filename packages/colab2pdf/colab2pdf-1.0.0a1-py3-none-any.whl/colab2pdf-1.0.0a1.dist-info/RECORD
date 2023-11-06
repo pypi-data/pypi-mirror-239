@@ -1,0 +1,9 @@
+colab2pdf/__about__.py,sha256=8ogXjyxMOJOjsgxxWWWv6kXp1TU1yv4PzXka8qAg8w8,29
+colab2pdf/__init__.py,sha256=GQpGXXm4Zg_pdNirkNwmV7PVoTRkDDNfzVhATTTSFoM,56
+colab2pdf/__main__.py,sha256=CtgM9RTE38x0B1D6fnPfAAOXZqbF2WqhIQtOqOusqjM,209
+colab2pdf/cli/__init__.py,sha256=TllH19p8Xkfz0Ce7oC94Cg6SbCnfaWhpuLZ5m1XReks,6803
+colab2pdf/cli/config.yml,sha256=NQZQc6emjg_mrpEUKoE4ODeMA6v9TE59Z38DJFSvcI4,514
+colab2pdf-1.0.0a1.dist-info/METADATA,sha256=MQ083vJ_H78HbXc8CvQopkKqBhHLhyQ4i-OFb4bTabM,4291
+colab2pdf-1.0.0a1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+colab2pdf-1.0.0a1.dist-info/licenses/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+colab2pdf-1.0.0a1.dist-info/RECORD,,

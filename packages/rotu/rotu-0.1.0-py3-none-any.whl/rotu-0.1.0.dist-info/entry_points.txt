@@ -1,0 +1,2 @@
+[console_scripts]
+rotu-server = rotu.main:run

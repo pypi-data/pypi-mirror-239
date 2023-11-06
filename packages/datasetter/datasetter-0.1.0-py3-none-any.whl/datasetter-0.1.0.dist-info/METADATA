@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: datasetter
+Version: 0.1.0
+Description-Content-Type: text/markdown
+
+# Datasetter
+
+A simple Python package to print "Hello World!".

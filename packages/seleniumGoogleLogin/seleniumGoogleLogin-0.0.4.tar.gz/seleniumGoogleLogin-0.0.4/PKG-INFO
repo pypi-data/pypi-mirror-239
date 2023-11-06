@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: seleniumGoogleLogin
+Version: 0.0.4
+Summary: auto login google account by selenium chrome driver 
+Home-page: https://pypi.org/project/seleniumGoogleLogin
+Author: KuoYuan Li
+Author-email: funny4875@gmail.com
+License: UNKNOWN
+Description: # Author:KuoYuan Li 
+        auto login google account by selenium chrome driver 
+        ##### installation Note 
+        Need selenium 4(above) and webdriver_manager to get the chromedriver automatically. 
+        if the version is not correction , please uninstall the selenium and install again. 
+        ##### Sample code
+        ```
+        import seleniumGoogleLogin
+        from selenium import webdriver
+        from selenium.webdriver.chrome.service import Service as ChromeService
+        from webdriver_manager.chrome import ChromeDriverManager
+        
+        driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
+        email = "your g-mail"
+        password = "your password"
+        if seleniumGoogleLogin.start(driver,email, password):print('ok')
+        ```
+        
+        
+        
+        License
+        ----
+        
+        MIT
+        
+Keywords: selenium,google auth,chromedriver
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown

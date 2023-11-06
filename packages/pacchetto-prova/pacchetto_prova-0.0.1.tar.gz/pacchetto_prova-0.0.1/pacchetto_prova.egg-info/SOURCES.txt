@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+pacchetto_prova/pacchetto_prova.py
+pacchetto_prova.egg-info/PKG-INFO
+pacchetto_prova.egg-info/SOURCES.txt
+pacchetto_prova.egg-info/dependency_links.txt
+pacchetto_prova.egg-info/top_level.txt

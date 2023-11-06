@@ -1,0 +1,9 @@
+README.md
+setup.py
+randdic/__init__.py
+randdic/test.py
+randdic.egg-info/PKG-INFO
+randdic.egg-info/SOURCES.txt
+randdic.egg-info/dependency_links.txt
+randdic.egg-info/requires.txt
+randdic.egg-info/top_level.txt

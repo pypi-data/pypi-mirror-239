@@ -1,0 +1,2 @@
+[pymodaq.instruments]
+daqmx = pymodaq_plugins_daqmx

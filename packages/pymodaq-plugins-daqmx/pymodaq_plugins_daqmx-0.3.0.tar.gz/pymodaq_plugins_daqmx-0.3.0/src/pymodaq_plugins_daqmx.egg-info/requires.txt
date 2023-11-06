@@ -1,0 +1,3 @@
+toml
+pydaqmx
+pymodaq>4.0.1

@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: pydynotree
+Version: 0.0.6
+Summary: A hybrid Python/C++ test project
+Author: Benjamin Jack
+Author-email: benjamin.r.jack@gmail.com
+License-File: LICENSE.txt
+

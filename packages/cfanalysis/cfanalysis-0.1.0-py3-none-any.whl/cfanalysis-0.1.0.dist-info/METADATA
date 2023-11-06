@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: cfanalysis
+Version: 0.1.0
+Summary: Library to perform Combinatorial Fusion Analysis
+Home-page: UNKNOWN
+Author: Mohammed Quazi
+Author-email: ashasquazi@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: pandas
+
+UNKNOWN
+

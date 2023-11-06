@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: stretchable
+Version: 1.0.0b2
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: attrs >=23.1.0, <24.0
+Requires-Dist: maturin >=1.1, <2.0 ; extra == 'build'
+Requires-Dist: build ; extra == 'build'
+Requires-Dist: twine ; extra == 'build'
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-cache ; extra == 'test'
+Requires-Dist: hypothesis ; extra == 'test'
+Requires-Dist: selenium ; extra == 'test'
+Provides-Extra: build
+Provides-Extra: test
+License-File: LICENSE
+Summary: Layout library for Python (based on Taffy, a rust-powered implementation of CSS Grid/Flexbox)
+Keywords: flexbox,grid,block,stretch,css,layout
+Author: Kenneth Trelborg Vestergaard
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Homepage, https://github.com/mortencombat/stretchable
+
+# Introduction
+
+This package enables target-agnostic layout operations using CSS Grid and Flexbox. Possible uses include UI layouts, page layouts for reports, complex plotting layouts, etc.
+
+It implements Python bindings for [Taffy](https://github.com/dioxuslabs/taffy), an implementation of Grid/Flexbox written in [Rust](https://www.rust-lang.org/). It was originally based on [Stretch](https://vislyhq.github.io/stretch/) (hence the name), but has since migrated to use Taffy.
+
+## Getting Started
+
+Helpful resources to getting started with layouts using CSS Grid and Flexbox are listed below.
+
+### Flexbox
+
+- [Flexbox Froggy](https://flexboxfroggy.com/). This is an interactive tutorial/game that allows you to learn the essential parts of Flexbox in a fun engaging way.
+- [A Complete Guide To Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) by CSS Tricks. This is detailed guide with illustrations and comphrehensive written explanation of the different Flexbox properties and how they work.
+- [Yoga Playground](https://yogalayout.com/playground)
+
+### CSS Grid
+
+- [CSS Grid Garden](https://cssgridgarden.com/). This is an interactive tutorial/game that allows you to learn the essential parts of CSS Grid in a fun engaging way.
+- [A Complete Guide To CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) by CSS Tricks. This is detailed guide with illustrations and comphrehensive written explanation of the different CSS Grid properties and how they work.
+
+## Usage
+
+See [demos](https://github.com/mortencombat/stretchable/tree/main/demos) for examples of basic usage.
+
+## Building
+
+Install Rust with [rustup](https://rustup.rs/) and use `maturin develop` for development and `maturin build [--release]` to build.
+
+## Testing
+
+Install test dependencies and invoke `pytest`. Note that there are ~700 tests, the majority of which are run using Selenium with the Chrome WebDriver, and the complete test suite can take 10+ minutes to complete. Use `pytest --lf` to only run the last-failed tests.
+
+*NOTE:* There is one test fixture `max_height_overrides_height_on_root` which is known to fail. This is related to node visibility, see [#43](https://github.com/mortencombat/stretchable/issues/43).
+
+## License
+
+This work is released under the MIT license. A copy of the license is provided in the [LICENSE](https://github.com/mortencombat/stretchable/blob/main/LICENSE) file.
+

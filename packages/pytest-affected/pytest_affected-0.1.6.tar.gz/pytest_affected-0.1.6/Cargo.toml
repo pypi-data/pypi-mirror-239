@@ -1,0 +1,19 @@
+[package]
+name = "pytest-affected"
+version = "0.1.6"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "pytest_affected"
+crate-type = ["cdylib"]
+
+[dependencies]
+hashbrown = "0.14.1"
+murmurhash32 = "0.3.0"
+once_cell = { version = "1.18.0", features = ["parking_lot"] }
+parking_lot = "0.12.1"
+pyo3 = { version = "0.20" }
+
+[profile.release]
+lto = true

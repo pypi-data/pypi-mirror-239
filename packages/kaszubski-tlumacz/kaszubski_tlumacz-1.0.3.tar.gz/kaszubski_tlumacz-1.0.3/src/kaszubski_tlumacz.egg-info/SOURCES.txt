@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/kaszubski_tlumacz.egg-info/PKG-INFO
+src/kaszubski_tlumacz.egg-info/SOURCES.txt
+src/kaszubski_tlumacz.egg-info/dependency_links.txt
+src/kaszubski_tlumacz.egg-info/top_level.txt
+src/kaszubski_translate_Szymtest/__init__.py
+src/kaszubski_translate_Szymtest/a.py

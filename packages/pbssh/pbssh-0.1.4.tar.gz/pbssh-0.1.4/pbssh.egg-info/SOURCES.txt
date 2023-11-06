@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pbssh/__init__.py
+pbssh/__main__.py
+pbssh/pbssh.py
+pbssh.egg-info/PKG-INFO
+pbssh.egg-info/SOURCES.txt
+pbssh.egg-info/dependency_links.txt
+pbssh.egg-info/entry_points.txt
+pbssh.egg-info/requires.txt
+pbssh.egg-info/top_level.txt

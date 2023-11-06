@@ -1,0 +1,27 @@
+[package]
+name = "bswitch-python"
+version = "0.15.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "pybswitch"
+path = "src/lib.rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.19", features = ["extension-module"]}
+pyo3-asyncio = { version = "0.19", features = ["attributes", "async-std-runtime"]}
+async-native-tls = "0.4"
+base64 = "0.13"
+openssl = "0.10"
+reqwest = {version = "0.11.9", features = ["native-tls"]}
+bswitch = { path = "../lib", features = ["python"]}
+
+[dependencies.async-std]
+version = "1.10"
+features = ["attributes", "unstable", "tokio1"]
+
+[build-dependencies]
+pyo3-build-config = "^0.14"

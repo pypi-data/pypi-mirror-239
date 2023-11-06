@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: mcbackup
+Version: 0.4.2
+Summary: Backs up a local Minecraft server instance
+Home-page: https://github.com/bensteinberg/minecraft-backup/
+License: GPL-3.0-or-later
+Author: Ben Steinberg
+Author-email: ben@potswift.org
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: mcrcon (>=0.7.0,<0.8.0)
+Requires-Dist: python-dotenv (>=1.0.0,<2.0.0)
+Project-URL: Repository, https://github.com/bensteinberg/minecraft-backup/
+Description-Content-Type: text/markdown
+
+mcbackup
+================
+
+This program backs up a local Minecraft server instance. You must have
+enabled RCON on the server.
+
+Installation
+------------
+
+Run `pip install mcbackup`.
+
+Usage
+-----
+
+```
+$ mcbackup --help
+Usage: mcbackup [OPTIONS]
+
+  This program backs up a local Minecraft server instance
+
+Options:
+  --password TEXT         [required]
+  --port INTEGER
+  --world TEXT            Directory to back up
+  --directory TEXT        Directory for storing backups
+  --careful / --careless  Back up only when no players are present
+  --source TEXT           Source, e.g. server name
+  --keep-only INTEGER     Number of backup files to keep
+  --sync TEXT             Server to sync to, not yet implemented
+  -h, --help              Show this message and exit.
+```
+

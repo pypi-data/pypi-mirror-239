@@ -1,0 +1,11 @@
+aiohttp
+browser-cookie3
+jeepney
+jellyfish
+mss
+numpy
+opencv-python
+pymongo
+plotly
+sympy
+kaleido

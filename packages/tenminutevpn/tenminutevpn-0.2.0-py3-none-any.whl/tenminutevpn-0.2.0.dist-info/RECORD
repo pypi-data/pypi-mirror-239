@@ -1,0 +1,9 @@
+tenminutevpn/__init__.py,sha256=Ifo9XPPiWjffjL_cRR7o18i_UnuhlDXK2MtjVx3xJCI,2706
+tenminutevpn/network.py,sha256=Ij7L93o75Zax1_OB9IRdp4Rp_Sf-_4w-1DaeGlKY00Q,597
+tenminutevpn/wireguard.py,sha256=jRTR0i51qQssD0NyG5nqX1gJebx5GLgaZBmWkaI5iPA,1939
+tenminutevpn-0.2.0.dist-info/LICENSE,sha256=ZohZBQba3vy4cig6pcIiB-agHON_I_G5RNCGMt_F6Ck,1500
+tenminutevpn-0.2.0.dist-info/METADATA,sha256=NTsUbh9X_AIXrvv12n1GloS2xFE-nfx2D0VPfHvLwoo,402
+tenminutevpn-0.2.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+tenminutevpn-0.2.0.dist-info/entry_points.txt,sha256=WDDB_Gf25vuOYGAGERuppXCwqDqdcKCW1YYl9GNATfI,51
+tenminutevpn-0.2.0.dist-info/top_level.txt,sha256=yrWtEiEGWmywc2_Cl_ugykC2m97Ya5D-Nr_q4MBHytg,13
+tenminutevpn-0.2.0.dist-info/RECORD,,

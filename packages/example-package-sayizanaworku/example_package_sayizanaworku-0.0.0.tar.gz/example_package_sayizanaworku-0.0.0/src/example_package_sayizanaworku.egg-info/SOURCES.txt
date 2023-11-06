@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/example_package_sayizanaworku/__init__.py
+src/example_package_sayizanaworku/example.py
+src/example_package_sayizanaworku.egg-info/PKG-INFO
+src/example_package_sayizanaworku.egg-info/SOURCES.txt
+src/example_package_sayizanaworku.egg-info/dependency_links.txt
+src/example_package_sayizanaworku.egg-info/top_level.txt

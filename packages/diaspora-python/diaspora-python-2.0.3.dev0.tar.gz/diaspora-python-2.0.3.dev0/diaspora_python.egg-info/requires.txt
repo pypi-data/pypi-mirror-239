@@ -1,0 +1,13 @@
+botocore<2.0.0,>=1.12.0
+
+[crc32c]
+crc32c
+
+[lz4]
+lz4
+
+[snappy]
+python-snappy
+
+[zstd]
+zstandard

@@ -1,0 +1,113 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools>=68.0.0", "wheel"]
+
+[tool.isort]
+ensure_newline_before_comments = true
+force_grid_wrap = 0
+include_trailing_comma = true
+multi_line_output = 3
+use_parentheses = true
+
+[tool.pytest.ini_options]
+addopts = "--cov=src --doctest-modules"
+junit_suite_name = "Scihence"
+markers = []
+pythonpath = ["src"]
+testpaths = ["src", "tests"]
+xfail_strict = true
+
+[tool.ruff]
+fix = true
+include = ["*.py", "*.pyi", "**pyproject.toml", "**.ipynb"]
+line-length = 100
+output-format = "grouped"
+select = ["ARG", "D", "E", "ERA", "F", "I", "INP", "RUF", "PTH", "PT", "T20", "TID", "UP", "W"]
+src = ["src/**"]
+target-version = "py311"
+
+[tool.ruff.per-file-ignores]
+"tests/**" = ["INP001"]
+"docs/**" = ["INP001"]
+
+[tool.ruff.pydocstyle]
+convention = "google"
+
+[tool.tox]
+legacy_tox_ini = """
+    [testenv]
+    setenv = PYTHONPATH = {toxinidir}
+    extras = test
+    commands =
+        pip install 'torch>=2.0.0,<3' --index-url https://download.pytorch.org/whl/cpu
+        pytest --basetemp={envtmpdir} --junit-xml=docs/source/test-report/{envname}/junit/report.xml
+        coverage html -d docs/source/test-report/{envname}/coverage
+        coverage xml -o docs/source/test-report/{envname}/coverage/report.xml
+        python -m tests.build_junit_report \
+            docs/source/test-report/{envname}/junit/report.xml \
+            docs/source/test-report/{envname}/junit/report.html
+
+    [testenv:build-docs]
+    allowlist_externals = make
+    extras = docs
+    commands =
+        pip install 'torch>=2.0.0,<3' --index-url https://download.pytorch.org/whl/cpu
+        make docs
+
+    [testenv:build-pkg]
+    passenv =
+        CI_COMMIT_BRANCH
+        CI_DEFAULT_BRANCH
+        CI_JOB_ID
+    allowlist_externals = make
+    extras = build
+    commands = make build
+
+    [testenv:check-added-large-files]
+    extras = check
+    commands = pre-commit run --all-files check-added-large-files
+
+    [testenv:check-ast]
+    extras = check
+    commands = pre-commit run --all-files check-ast
+
+    [testenv:check-json]
+    extras = check
+    commands =
+        pre-commit run --all-files check-json
+        pre-commit run --all-files pretty-format-json
+
+    [testenv:check-toml]
+    extras = check
+    commands = pre-commit run --all-files check-toml
+
+    [testenv:check-yaml]
+    extras = check
+    commands = pre-commit run --all-files check-yaml
+
+    [testenv:end-of-file-fixer]
+    extras = check
+    commands = pre-commit run --all-files end-of-file-fixer
+
+    [testenv:trailing-whitespace]
+    extras = check
+    commands = pre-commit run --all-files trailing-whitespace
+
+    [testenv:external]
+    package = external
+
+    [testenv:ruff]
+    extras = lint
+    commands = ruff check docs setup.py src tests
+
+    [testenv:tarball]
+    package = sdist
+
+    [testenv:wheel]
+    package = wheel
+
+    [tox]
+    minversion = 4.11.3
+    envlist = check-added-large-files, check-ast, check-json, check-toml, check-yaml, end-of-file-fixer, trailing-whitespace, ruff, build-pkg, py311-{tarball,wheel}, build-docs
+    isolated_build = true
+"""

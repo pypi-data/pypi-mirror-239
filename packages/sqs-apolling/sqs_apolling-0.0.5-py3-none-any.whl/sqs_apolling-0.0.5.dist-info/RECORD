@@ -1,0 +1,17 @@
+sqs_polling/__init__.py,sha256=2Oe1H46IpEpzgp77MS5P6lpNePFlnoR67b_nBD1vR7M,298
+sqs_polling/__main__.py,sha256=OqEgxXvqbare-2zO2hvTkCwXPu1XndIDl6P6uj461Do,1072
+sqs_polling/__version__.py,sha256=EJB7__SNK9kQS_SWZB_U4DHJ3P8ftF6etZEihTYnuXE,411
+sqs_polling/exceptions.py,sha256=ArjouSbx5ssKDZohV7m7fsg8udTToPkiHXXRyNjF6qg,665
+sqs_polling/execute_result.py,sha256=JGkotSe9XyM2fwxfhCMk4hqDiTiax1oExk9R3oHz4UU,622
+sqs_polling/handler.py,sha256=Uz-c9FwgG0lxiswi2yHJxpM_zNHaffoqWklMP0wlw6s,4007
+sqs_polling/main.py,sha256=VccMgzp0iNF0s-310MQTsmNVaeLoAvsczGzOtT5BmxE,1611
+sqs_polling/polling.py,sha256=lusDNLVKTiPM0if9vOMPf4pN-erP8Wuci7goEeyacWQ,10019
+sqs_polling/signal.py,sha256=4yaWxGgr9l0urjvEFRxp0IjAZG94Z0yGO57vtJg4i_I,747
+sqs_polling/types.py,sha256=IHfqz4hFv0xe8NXxAF0fbZKAYYly0Lx6OJhb0J3wTHM,161
+sqs_polling/utils.py,sha256=glVloBwQnpiHQYw7pp6C_eOCLqJ1vX2R00FYbRFEmGU,3150
+sqs_apolling-0.0.5.dist-info/LICENSE,sha256=80_li9KFy-oZxrJV1MdG_xgVvlhiVOYZm_DA12OBV3k,1064
+sqs_apolling-0.0.5.dist-info/METADATA,sha256=1Ob-ZoroHhgmTdWKu8h4mXfdGHIGxA89FBrCfJiGtJg,4019
+sqs_apolling-0.0.5.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+sqs_apolling-0.0.5.dist-info/entry_points.txt,sha256=YR7hO9PdXVMS_ShgKkZW1Chr5Ga_5RLpBksLeq7ooAU,59
+sqs_apolling-0.0.5.dist-info/top_level.txt,sha256=0s4ok4aGHnFyhEmyt-d446RR-9NbJzWultBKuALE-QE,12
+sqs_apolling-0.0.5.dist-info/RECORD,,

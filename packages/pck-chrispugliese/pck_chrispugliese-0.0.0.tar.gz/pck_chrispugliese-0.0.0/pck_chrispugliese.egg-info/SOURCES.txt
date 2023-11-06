@@ -1,0 +1,7 @@
+pyproject.toml
+pck_chrispugliese/__init__.py
+pck_chrispugliese/mod.py
+pck_chrispugliese.egg-info/PKG-INFO
+pck_chrispugliese.egg-info/SOURCES.txt
+pck_chrispugliese.egg-info/dependency_links.txt
+pck_chrispugliese.egg-info/top_level.txt

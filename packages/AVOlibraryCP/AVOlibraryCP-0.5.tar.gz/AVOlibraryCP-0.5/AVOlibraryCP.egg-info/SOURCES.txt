@@ -1,0 +1,8 @@
+setup.py
+AVOlibraryCP/__init__.py
+AVOlibraryCP/modulo.py
+AVOlibraryCP.egg-info/PKG-INFO
+AVOlibraryCP.egg-info/SOURCES.txt
+AVOlibraryCP.egg-info/dependency_links.txt
+AVOlibraryCP.egg-info/requires.txt
+AVOlibraryCP.egg-info/top_level.txt

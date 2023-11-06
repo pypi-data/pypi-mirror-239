@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: code-ctags
+Version: 0.1.0
+Author-email: SengMitnick <sengmitnick@163.com>
+License: MIT
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: networkx >=3.2.1
+Requires-Dist: GitPython >=3.1.40
+Requires-Dist: gitdb >=4.0.11
+Requires-Dist: Pygments >=2.16.1
+Requires-Dist: configargparse >=1.7
+Requires-Dist: tqdm >=4.66.1
+Requires-Dist: setuptools >=68.2.2
+
+# code-ctags

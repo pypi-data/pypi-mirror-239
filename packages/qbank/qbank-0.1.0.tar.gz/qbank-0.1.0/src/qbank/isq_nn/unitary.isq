@@ -1,0 +1,22 @@
+import std;
+param  weights[];
+procedure U(int idx[] , qbit q){
+   Rz(weights[idx[0]],q);
+   Ry(weights[idx[1]],q);
+   Rz(weights[idx[2]],q);
+}
+procedure U15(int idx[15],qbit a, qbit b){
+    U(idx[0:3],a);
+    U(idx[3:6],b);
+    CNOT(a,b);
+    Ry(weights[idx[6]],a);
+    Rz(weights[idx[7]],b);
+    CNOT(b,a);
+    Ry(weights[idx[8]],a);
+    CNOT(a,b);
+    U(idx[9:12],a);
+    U(idx[12:15],b);
+
+}
+
+

@@ -1,0 +1,57 @@
+import std;
+import encoding;
+import unitary;
+param  weights[];
+
+procedure main(int seq[], double double_[]){
+    int idx[seq[0]];
+    for i in 0:idx.length{
+        idx[i] = i;
+    }
+    qbit q[seq[1]];
+    embedding(q);
+    for i in 0:q.length{
+    Rx(weights[i],q[i]);
+    }
+    for i in 0:(q.length-1)/2 as int :2{
+    CNOT(q[i],q[i+1]);
+    }
+    for i in q.length-1: q.length/2 as int:-2{
+    CNOT(q[i],q[i-1]);
+    }
+    for i in 0:q.length-2{
+    Ry(weights[q.length+i],q[i+1]);
+    }
+    for i in 0:(q.length-1)/2 as int :2{
+    CZ(q[i+1],q[i+2]);//
+    }
+    for i in q.length-2: q.length/2 as int:-2{
+    CZ(q[i],q[i-1]);//
+    }
+    for i in 0:q.length/4 as int{
+    Rx(weights[2*q.length-2+i],q[i+2]);
+    }
+    for i in 0:q.length/4 as int{
+        if (i==0){
+        U(idx[2*q.length :2*q.length+3],q[4]);
+        continue;
+        }
+    Rx(weights[2*q.length+2+i],q[i+4]);
+    }
+    
+    for i in 2: q.length-3:2{
+    CNOT(q[i],q[i+1]);
+    }
+    U(idx[2*q.length+4 :2*q.length+4+3],q[3]);
+    Rx(weights[2*q.length+7],q[4]);
+    CNOT(q[3],q[4]);
+    U(idx[2*q.length+8 :2*q.length+8+3],q[4]);
+    // p 30
+    // U(idx[27:30],q[4]); before two cx gate
+    // U(idx[2*q.length+4 :2*q.length+4+3],q[3]);
+    // U(idx[2*q.length+4 +3 :2*q.length+4+6],q[4]);
+    // CNOT(q[3],q[4]);
+    // U(idx[2*q.length+4 +6 :2*q.length+4+9],q[4]);
+    M(q[4]);
+}
+

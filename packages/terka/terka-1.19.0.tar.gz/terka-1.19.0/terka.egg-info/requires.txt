@@ -1,0 +1,6 @@
+sqlalchemy==1.4.0
+pyaml
+rich
+textual==0.41.0plotext==5.2.8
+pandas
+matplotlib

@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: urlopen2
+Version: 1.3.0.dev2
+Summary: Improvement for the `urllib.request.urlopen` function.
+License: MIT
+Keywords: urlopen,urllib.request,urlfile,readable,seekable
+Author: Romanin
+Author-email: semina054@gmail.com
+Requires-Python: >=3.9,<3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: aiofiles (>=23.0.0)
+Requires-Dist: asyncio (>=3.4.0)
+Description-Content-Type: text/markdown
+
+# urlopen2
+## Description
+Improvement for the `urllib.request.urlopen` function.
+
+## Install
+```shell
+pip install urlopen2
+```
+
+## Using
+### Synchronous
+```python
+from urlopen2 import URLFile
+
+url = "https://example.com/file.bin"
+
+with URLFile.open(url) as urlfile:
+    urlfile.read(128)
+    # In this case, 128 bytes of the file will be loaded.
+    urlfile.seek(0)
+    # Move the caret to the beginning of the file
+    data = urlfile.read(128)
+    # Since we are taking the same 128 bytes that have already been loaded, they will be received from the buffer.
+
+print(data)
+```
+
+### Asynchronous
+```python
+import asyncio
+import aiofiles
+from urlopen2 import AsyncURLFile
+
+url = "https://example.com/file.bin"
+
+async def main():
+    async with aiofiles.open(*AsyncURLFile.gbuf()) as abuffer:
+        async with AsyncURLFile.open(url, abuffer) as aurlfile:
+            await aurlfile.read(128)
+            # In this case, 128 bytes of the file will be loaded.
+            await aurlfile.seek(0)
+            # Move the caret to the beginning of the file
+            data = await aurlfile.read(128)
+            # Since we are taking the same 128 bytes that have already been loaded, they will be received from the buffer.
+    
+    print(data)
+
+if __name__ == "__main__":
+    asyncio.run(main())
+```

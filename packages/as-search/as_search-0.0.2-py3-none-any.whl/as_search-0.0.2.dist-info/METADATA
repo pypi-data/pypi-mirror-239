@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: as-search
+Version: 0.0.2
+Summary: Search info in Autonomous System database
+Home-page: https://gitlab.com/Zer1t0/as-search
+Author: Eloy Pérez González
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: bs4
+Requires-Dist: pandas
+Requires-Dist: tqdm
+
+# as-search
+
+Search info in Autonomous System database
+
+## Example
+
+```
+$ as-search ip 8.8.8.8
+8.8.8.8 8.8.8.0 8.8.8.255 US GOOGLE
+```
+
+```
+ as-search ip 8.8.8.8 -j
+{"target": "8.8.8.8", "asn": 15169, "organization": "GOOGLE", "country": "US", "start_ip": "8.8.8.0", "end_ip": "8.8.8.255"}
+```
+
+## Installation
+
+```
+pip install as-search
+```

@@ -1,0 +1,16 @@
+DataVisual/VERSION,sha256=9eXJU0UyhA_NRbsALmnthcYduidTRQ4mtEi33xSB4k0,6
+DataVisual/__init__.py,sha256=0Twe5r7ivbhGBsyCv6kRtemlX7zp8Boqb_ZlEb_8NUE,78
+DataVisual/multi_array.py,sha256=rC-z6vq_NNepBN3TjKhuDnDgrOBi2eGrWNLPiVgmr8c,8167
+DataVisual/tables.py,sha256=H7lfhHuUTpaZ8gyfPLrhigek_uQrIfrRwwEk00ij020,2668
+DataVisual/utils.py,sha256=0A5LvRlAmCO5YIpY8INF8QhcIALH0yfxkwGEczW9YHc,148
+DataVisual/__pycache__/__init__.cpython-310.pyc,sha256=xygUJiwVBNqX1PVP0flNm0iPd9ML5PJgg1yzZ0kJ7tc,271
+DataVisual/__pycache__/multi_array.cpython-310.pyc,sha256=xB_m1Lp-E3jxlSIBJqaBbR2FP5SWDN39jmUiIXmxr9E,7812
+DataVisual/__pycache__/tables.cpython-310.pyc,sha256=RpQFs8nRQBcX0bqu2QZoPqG4RjCb59uTDixlKvXR9pc,4348
+DataVisual/examples/README.rst,sha256=WB-wJy7MMO9ETk_nxJ-HmaekQlYJeQFWeZWpFBLIBa4,19
+DataVisual/tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+DataVisual/tools/directories.py,sha256=7TZRNd4wEJ5l4XkpRuetBTFus4XpLcWFkDA8qVSY2lM,903
+DataVisual-1.0.3.dist-info/LICENSE,sha256=Ke_IyELN_sdt23XyXJ-cK1XuiqyNPaIKjHVkFCcy0uI,1073
+DataVisual-1.0.3.dist-info/METADATA,sha256=kvvZBpAcS7lmdrNhstqEW45-RZx-j4M6qHlixzlpGko,2851
+DataVisual-1.0.3.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+DataVisual-1.0.3.dist-info/top_level.txt,sha256=noiHFlgpZk0PsyudveLPxwIAClGrpUFDpHoc_HiVXoI,11
+DataVisual-1.0.3.dist-info/RECORD,,

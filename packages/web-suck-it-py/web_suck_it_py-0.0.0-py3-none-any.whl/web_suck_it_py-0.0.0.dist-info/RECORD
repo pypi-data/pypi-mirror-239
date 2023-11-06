@@ -1,0 +1,16 @@
+web_suck_it_py/__init__.py,sha256=AlLA5yqwbanQlw_YmcU194zzf8NvGITW7PyS9ONXUlw,126
+web_suck_it_py/base.py,sha256=yFzKOeVdkNwldMDMuBiF5fmPgMOWgiK7AWyJuWZR5zc,2488
+web_suck_it_py/channel.py,sha256=TAkOorSdqzOPcbazgRfhUumDqzXrDMdvRItOGLy2q4w,2258
+web_suck_it_py/error.py,sha256=emoMWtGgjx57ICKaxAcdO0SCMYoHozoZcQ8Nvx1LsCc,239
+web_suck_it_py/request.py,sha256=6WRcwlSsvyJtAeAuO0uJNPLtt5MsvoWI120WxW4jKR4,920
+web_suck_it_py/response.py,sha256=yuXvYWoxCwuZzJJQVpYMsj3EYgATCpw_o0hpdigm01k,219
+web_suck_it_py/stubs/web_suck_it_py/__init__.pyi,sha256=0O8rNcmdAr40z70JUbiM6Hl2Xfh3MXe5EoVVtWk47Mk,150
+web_suck_it_py/stubs/web_suck_it_py/base.pyi,sha256=w5m5It_feyWHeVPICakvxkpkR8DQ0uAJzGvS1qLbZWA,884
+web_suck_it_py/stubs/web_suck_it_py/channel.pyi,sha256=b5M2bjiZILGfFWazH9XLj4p7uz7AMjSN-0Ok0ezLHwc,1192
+web_suck_it_py/stubs/web_suck_it_py/error.pyi,sha256=xJQ5fx0bIPXmZ0y9lM_N_lSUeZaYObaCwC-qfoSpV2M,147
+web_suck_it_py/stubs/web_suck_it_py/request.pyi,sha256=OZoaCRIGkodzJ4EXlwy1yaM5xGXs37EQeZE5ZQpHhCk,1024
+web_suck_it_py/stubs/web_suck_it_py/response.pyi,sha256=MpfiedyyW26Z9aoDfxnwiL4962IkZykidbVtJPLGumU,293
+web_suck_it_py-0.0.0.dist-info/LICENSE,sha256=bMvBU41i2TgPy_e35RAegXDvNRr4AubyO8YytHurGAA,1066
+web_suck_it_py-0.0.0.dist-info/METADATA,sha256=6xn-FuM_bEn8H4xqM9b81m0VXz2fzNc8eCCyu4wkCKM,1231
+web_suck_it_py-0.0.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+web_suck_it_py-0.0.0.dist-info/RECORD,,

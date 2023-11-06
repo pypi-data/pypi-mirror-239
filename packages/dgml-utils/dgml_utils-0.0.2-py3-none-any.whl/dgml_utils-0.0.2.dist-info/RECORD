@@ -1,0 +1,9 @@
+dgml_utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dgml_utils/config.py,sha256=utiyp-0ufps3BPLaBYhheZDbyGaczIcSL7a-H21dT2A,869
+dgml_utils/conversions.py,sha256=vFXKMw6Z9FV34oB06IQEqEX-3Cn3tiLpotY4sdBz6Ok,2332
+dgml_utils/locators.py,sha256=4_YH9mb2Cqr8f2IeuBWwp83c8PBOammc-lkIoOmPOUQ,667
+dgml_utils/models.py,sha256=1Gb2aVZScFKQZTjSostCimLISxKKylyDAVZWLmYWurM,751
+dgml_utils/segmentation.py,sha256=PY7ZrFhSg-bZaWrl23Fe3QFGtWjj7Q_TezsHDSpLvRk,4055
+dgml_utils-0.0.2.dist-info/METADATA,sha256=qf9MVGUsEgbGXq6gR6Oh5ZDm3O3_3hh-BacWYOqAK4o,758
+dgml_utils-0.0.2.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+dgml_utils-0.0.2.dist-info/RECORD,,

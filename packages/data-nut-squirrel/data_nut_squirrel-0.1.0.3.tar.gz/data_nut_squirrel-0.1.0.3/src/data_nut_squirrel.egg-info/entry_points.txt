@@ -1,0 +1,2 @@
+[console_scripts]
+make_shared_python_nut_container = data_squirrel.make_single_api_file:script_run

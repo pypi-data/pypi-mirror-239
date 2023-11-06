@@ -1,0 +1,15 @@
+[package]
+name = "imspy_connector"
+version = "0.2.2"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "imspy_connector"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.20.0", features = ["extension-module"] }
+numpy = "0.20.0"
+mscore = {path = "local_dependencies/mscore" }
+rustdf = {path = "local_dependencies/rustdf" }

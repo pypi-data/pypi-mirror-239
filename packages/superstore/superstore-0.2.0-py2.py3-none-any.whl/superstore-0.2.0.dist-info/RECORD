@@ -1,0 +1,11 @@
+superstore/__init__.py,sha256=zOL4vceG2d1ZBfTak8MhTNEEpczR1Qp-iohtb3HcMc0,123
+superstore/superstore.py,sha256=i-uoacvG8tDQqKZA8-SiXF3HkR4e3JeW7oG3_17A7u0,2302
+superstore/utils.py,sha256=ki3KRQUAUYVCkBgUm0NHPFeqy6wcGVnLQ0Nnej_gcdw,2726
+superstore/vendored/__init__.py,sha256=Y93HHEjz5v2mp_RZFSsW96hFbBVfihVwWTuLXkqn7Ds,57
+superstore/vendored/timeseries.py,sha256=0l9wnKSC9ot7KIeenAhnIlOcWFKkyzq9VWvI39UKaR0,2608
+superstore-0.2.0.dist-info/AUTHORS,sha256=mm_WNi86iXgiZvFeTgeWgux6M3_voG5YPtoe9zTnsBw,108
+superstore-0.2.0.dist-info/LICENSE,sha256=Cke6-KJzhARJii5uj98E1LecKFvrd_AkLV03NxflVRo,11352
+superstore-0.2.0.dist-info/METADATA,sha256=6W171gFz6b6BrF6yFsJDaSg61HSM1mnxKPzdEkCCJ8Y,1847
+superstore-0.2.0.dist-info/WHEEL,sha256=P2T-6epvtXQ2cBOE_U1K4_noqlJFN3tj15djMgEu4NM,110
+superstore-0.2.0.dist-info/top_level.txt,sha256=wUUEqZu_xeL32FocYmdH3Y7AZCvtKHr-ldiKyZy7AKs,11
+superstore-0.2.0.dist-info/RECORD,,

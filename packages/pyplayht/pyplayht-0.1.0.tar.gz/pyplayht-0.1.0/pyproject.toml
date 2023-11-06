@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyplayht"
+description = "Python wrapper for PlayHT REST API"
+authors = [{name = "dobizz", email = "ronnie.code@outlook.com"}]
+version = "0.1.0"
+license = {file = "LICENSE"}
+requires-python = ">=3.8"
+dynamic = ["dependencies"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[tool.pytest.ini_options]
+pythonpath = [
+  "src"
+]
+
+[tool.commitizen]
+name = "cz_conventional_commits"
+tag_format = "$version"
+version_scheme = "pep440"
+version_provider = "pep621"
+major_version_zero = true
+version_files = [
+  "src/pyplayht/__init__.py:__version__",
+]
+
+[project.urls]
+Repository = "https://github.com/dobizz/pyplayht"

@@ -1,0 +1,12 @@
+aiohttp_simple-0.1.0.dist-info/METADATA,sha256=S9Sm9BH3Ca8gBFYX0xc2uPYUvj62WjPx_2YxUw-5gdk,454
+aiohttp_simple-0.1.0.dist-info/WHEEL,sha256=C8f_gqhOWmHrh81n3Ukx5iURrqMhsHla81fuY1yuwvs,90
+aiohttp_simple/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aiohttp_simple/middlewares/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aiohttp_simple/middlewares/db.py,sha256=RGFaBPzVgQf7Rt0KJ1ezG4SW_qo_RolBF-t9-thEFzM,794
+aiohttp_simple/template/__init__.py,sha256=6-vK7l8b83GpXM7kJyxiVDOO94HF-rarpw4vn5digec,111
+aiohttp_simple/template/service.py,sha256=KV1z7rqDGgBpuV1AhkZY108wiKdQIK1s6yBvPrCRZNA,754
+aiohttp_simple/template/template.py,sha256=S8K_aX3GQLBuEC0qjOL5TqFEpJuKyipSAV55xIzSb3M,3774
+aiohttp_simple/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aiohttp_simple/utils/log.py,sha256=vGzJpdExmt83PkxYkHS5Uu53ZrtCkn8GvxNFItqI71A,630
+aiohttp_simple/utils/setting.py,sha256=V-P0LR2iblV9HbFxinVWO1vo5spbicm6l19Uvyfw9ZM,4607
+aiohttp_simple-0.1.0.dist-info/RECORD,,

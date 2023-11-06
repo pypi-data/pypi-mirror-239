@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+data/data_file
+src/hdvw.egg-info/PKG-INFO
+src/hdvw.egg-info/SOURCES.txt
+src/hdvw.egg-info/dependency_links.txt
+src/hdvw.egg-info/entry_points.txt
+src/hdvw.egg-info/requires.txt
+src/hdvw.egg-info/top_level.txt

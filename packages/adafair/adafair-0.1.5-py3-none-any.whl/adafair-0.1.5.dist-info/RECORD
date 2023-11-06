@@ -1,0 +1,9 @@
+adafair/__init__.py,sha256=_w3NU7pfHFlMWzRAgsGFmmCWqn2T1sBSV_HHBu_VGTc,252
+adafair/AdaFair.py,sha256=c3GLnA2RhrFtvHjw3uc7EqGU88GzUy-1nUdDy777tL4,25788
+adafair/AdaFairEQOP.py,sha256=ExuEUia8kYoIDZkxh88R3MSrEF7NPBhYAjJ3J_XGVqo,25075
+adafair/AdaFairSP.py,sha256=ijKBQMAqymjJXIW3Rapjrvr8w9G8a9RIudsLUyaWHFI,21496
+adafair/load_adult.py,sha256=WxZ6jnjiNEQnTheFC9ReJzAweWDSNsOMiMtMj_EYmic,2588
+adafair-0.1.5.dist-info/LICENSE,sha256=7hmsPNCDgCMxTJFqtU_mBIIJd6AYsQWFsDlo1s0jn9U,1097
+adafair-0.1.5.dist-info/METADATA,sha256=0fr75-ohH_wzxGJ8LmkbgsTk6FmV3sv0OUu0F3Rtg34,4155
+adafair-0.1.5.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+adafair-0.1.5.dist-info/RECORD,,

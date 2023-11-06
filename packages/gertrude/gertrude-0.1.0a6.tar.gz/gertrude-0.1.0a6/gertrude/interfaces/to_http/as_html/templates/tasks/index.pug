@@ -1,0 +1,71 @@
+//- Gertrude --- GTD done right
+//- Copyright © 2023 Tanguy Le Carrour <tanguy@bioneland.org>
+//-
+//- This program is free software: you can redistribute it and/or modify
+//- it under the terms of the GNU Affero General Public License as
+//- published by the Free Software Foundation, either version 3 of the
+//- License, or (at your option) any later version.
+//-
+//- This program is distributed in the hope that it will be useful,
+//- but WITHOUT ANY WARRANTY; without even the implied warranty of
+//- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//- GNU Affero General Public License for more details.
+//-
+//- You should have received a copy of the GNU Affero General Public License
+//- along with this program. If not, see <http://www.gnu.org/licenses/>.
+
+extends layout
+
+block title
+  | Welcome to Gertrude!
+
+block content
+  section.section.gtd-workflow: .container: .content
+      h1= _("pages-home-title")
+      h2= _("pages-home-subtitle")
+      p
+        | The heartbeat of GTD is #[strong five simple steps] that apply order to chaos
+        | and provide you the space and structure to be more creative, strategic
+        | and focused.
+
+      h3
+        span.icon: i.fas.fa-edit(aria-hidden="true")
+        span.ml-2 Capture — collect what has your attention
+      p
+        | Use an in-tray, notepad, digital list or voice recorder to capture
+        | everything that has your attention.
+        br
+        | Little, big, personal and professional — all your to-do's, projects,
+        | things to handle or finish.
+
+      h3
+        span.icon: i.fas.fa-inbox(aria-hidden="true")
+        span.ml-2 Clarify — process what it means
+      p
+        | Take everything that you capture and ask; is it actionable?
+        br
+        | If no, then trash it, incubate it, or file it as reference.
+        br
+        | If yes, decide the very next action required. If it will take less
+        | than two minutes, do it now. If not, delegate it if you can; or put
+        | it on a list to do when you can.
+
+      h3
+        span.icon: i.fas.fa-folder-open(aria-hidden="true")
+        span.ml-2 Organize — put it where it belongs
+      p
+        | Put action reminders on the right lists. For example, create lists for
+        | the apropriate categories — calls to make, errands to run, emails to send, etc.
+
+      h3
+        span.icon: i.fas.fa-brain(aria-hidden="true")
+        span.ml-2 Reflect — review frequently
+      p
+        | Look over your lists as often as necessary to trust your choices about
+        | what to do next. Do a weekly review to get clear, get current and creative.
+
+      h3
+        span.icon: i.fas.fa-thumbs-up(aria-hidden="true")
+        span.ml-2 Engage — simply do
+      p
+        | Use your system to take appropriate actions with confidence.

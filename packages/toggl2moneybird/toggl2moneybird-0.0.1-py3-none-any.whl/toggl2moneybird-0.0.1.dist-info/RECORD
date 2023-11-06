@@ -1,0 +1,14 @@
+toggl2moneybird/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+toggl2moneybird/__main__.py,sha256=-euUFlni5sxPuPwRuoQzE6ufNJl_Alo13-bvOUiji4A,190
+toggl2moneybird/cli.py,sha256=IHD2eiqSVjSujUUgKpeRPLb8l4PrE5y9_Tzr8gJDLtw,1464
+toggl2moneybird/commands.py,sha256=M9HyDf1wfmxB46pNTf8GYjh9aZx_0GEytOFGkZaB9Kg,21527
+toggl2moneybird/menu.py,sha256=n7VuY7k-W5ypt6sD07NxG-ivUw3v94H2s_TZ1bpnMWg,6273
+toggl2moneybird/moneybird.py,sha256=PA4AaZlXe05XljW_1PYwxR2_sWA0apVnYSZsv9zz9Hs,20966
+toggl2moneybird/sync.py,sha256=hL2XS4tKkknT2cOjBOlcyr3Dkdvaegh8oBbAgzgvq3k,7274
+toggl2moneybird/toggl.py,sha256=7SfN3qmJCAQ8vx17C3umJiRnlbGGHfaMQ25UJXqrkC0,2432
+toggl2moneybird-0.0.1.dist-info/LICENSE,sha256=2agKqYJbQ-W10XfJZIdJEBGnykkCk3pbBDP8piMpiKE,1060
+toggl2moneybird-0.0.1.dist-info/METADATA,sha256=4xqsXLc50WiawWbKt03NLJ_wxdpAFRGeLB4WIwJu7Rk,2241
+toggl2moneybird-0.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+toggl2moneybird-0.0.1.dist-info/entry_points.txt,sha256=DNGefK6ibIqtrOc5zF8lKTfBimVIIhXzfdByv1vkufM,61
+toggl2moneybird-0.0.1.dist-info/top_level.txt,sha256=wMC_0HOAdNA1FPCygo7-_TDZxrFww9Er7iZ_Ab56r-o,16
+toggl2moneybird-0.0.1.dist-info/RECORD,,

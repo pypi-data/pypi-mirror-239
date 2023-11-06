@@ -1,0 +1,3 @@
+[console_scripts]
+peripage = peripage.__main__:main
+

@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: peripage
+Version: 1.2
+Summary: Utility for printing on Peripage printers via bluetooth
+Home-page: https://github.com/bitrate16/peripage-python
+Author: bitrate16
+Author-email: bitrate16@gmail.com
+License: MIT
+Keywords: PERIPAGE,BLUETOOTH,THERMAL PRINTER,PRINTER
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+License-File: LICENSE
+
+UNKNOWN
+

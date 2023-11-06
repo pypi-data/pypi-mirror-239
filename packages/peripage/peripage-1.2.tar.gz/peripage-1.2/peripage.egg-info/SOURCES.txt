@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+peripage/__init__.py
+peripage/__main__.py
+peripage.egg-info/PKG-INFO
+peripage.egg-info/SOURCES.txt
+peripage.egg-info/dependency_links.txt
+peripage.egg-info/entry_points.txt
+peripage.egg-info/requires.txt
+peripage.egg-info/top_level.txt

@@ -1,0 +1,2 @@
+[console_scripts]
+as-search = as_search.__main__:main

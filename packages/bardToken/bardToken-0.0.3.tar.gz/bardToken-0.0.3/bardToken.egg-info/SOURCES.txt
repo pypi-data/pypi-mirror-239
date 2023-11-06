@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+bardToken/__init__.py
+bardToken.egg-info/PKG-INFO
+bardToken.egg-info/SOURCES.txt
+bardToken.egg-info/dependency_links.txt
+bardToken.egg-info/requires.txt
+bardToken.egg-info/top_level.txt

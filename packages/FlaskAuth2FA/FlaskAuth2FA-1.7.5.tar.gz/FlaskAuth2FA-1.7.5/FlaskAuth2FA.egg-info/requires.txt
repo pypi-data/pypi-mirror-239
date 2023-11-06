@@ -1,0 +1,10 @@
+Flask
+bcrypt
+pyotp
+Flask-WTF
+email-validator
+qrcode
+wtforms
+passlib
+pillow
+python-dotenv

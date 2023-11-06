@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: nfn
+Version: 0.1.2
+Summary: Neural Functional Network (NFN) layers
+Home-page: https://github.com/AllanYangZhou/nfn
+Author: Allan Zhou
+Author-email: ayz@cs.stanford.edu
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7

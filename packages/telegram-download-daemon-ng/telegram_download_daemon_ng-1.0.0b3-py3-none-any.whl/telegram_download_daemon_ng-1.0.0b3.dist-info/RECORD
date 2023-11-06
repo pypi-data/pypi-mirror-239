@@ -1,0 +1,9 @@
+telegram_download_daemon_ng/__init__.py,sha256=7zpRNpsQuW93d-PoHDZjUcJYd7bFxtYi8jASVwLi_eU,15082
+telegram_download_daemon_ng/__main__.py,sha256=fuqLYTzfUkH5cpSwPf-SElW_Ap4AWcHO3xmQ6vA-fqg,92
+telegram_download_daemon_ng/download_media.py,sha256=hP486VEMVdLKkLw9H20TtmZqz2BbxbKLtpTcrS3oOs0,508
+telegram_download_daemon_ng/session_manager.py,sha256=KkJ3lEIEFELPTtXI0STb-RzABlB_o2SgQHWmCZzQSRg,1088
+telegram_download_daemon_ng-1.0.0b3.dist-info/LICENSE.txt,sha256=p864N2zFgcusiHVugDFtj7FRRPX4SYn3M4qqNym4yTs,55118
+telegram_download_daemon_ng-1.0.0b3.dist-info/METADATA,sha256=ZWDOol33fueYd-VhFFbOl4G5EAtC1LjkavYORuU91Vc,8431
+telegram_download_daemon_ng-1.0.0b3.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+telegram_download_daemon_ng-1.0.0b3.dist-info/entry_points.txt,sha256=dqqrmrUXychNbnG54BM7QiwvBzgPaK4RgGrF-ESlEEQ,97
+telegram_download_daemon_ng-1.0.0b3.dist-info/RECORD,,

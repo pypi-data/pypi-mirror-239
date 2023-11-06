@@ -1,0 +1,9 @@
+README.md
+setup.py
+milolib/__init__.py
+milolib/modulo.py
+milolib.egg-info/PKG-INFO
+milolib.egg-info/SOURCES.txt
+milolib.egg-info/dependency_links.txt
+milolib.egg-info/requires.txt
+milolib.egg-info/top_level.txt

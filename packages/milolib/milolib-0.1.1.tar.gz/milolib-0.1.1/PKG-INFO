@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: milolib
+Version: 0.1.1
+Summary: Libreria de suma
+Home-page: https://gitlab.com/camilo.londonov
+Author: Milo
+Author-email: camilo.londonov@udea.edu.co
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.10.12
+Description-Content-Type: text/markdown
+
+## Mi primera libreria
+

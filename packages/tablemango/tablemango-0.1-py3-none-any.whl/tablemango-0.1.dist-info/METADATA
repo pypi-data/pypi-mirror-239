@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: tablemango
+Version: 0.1
+Summary: Solve N-Queens or Tower of Hanoi and copy results to clipboard
+Author: Your Name
+License-File: LICENSE
+Requires-Dist: pyperclip
+

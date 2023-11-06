@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: custodes
+Version: 0.1.1
+Summary: ok
+Home-page: https://github.com/private_repo/uuidentifier
+Author: aldf
+Author-email: dafiosl@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp
+Requires-Dist: rich
+Requires-Dist: simauth
+Requires-Dist: aio-pika
+Requires-Dist: urllib3
+Requires-Dist: python-dotenv
+
+
+App guardians.
+
+# Usage
+```python
+import asyncio
+from typing import Any, Dict
+
+from codefast.asyncio.rabbitmq import consume
+from rich import print
+
+from custodes.server import get
+from custodes.client import post
+
+async def main():
+    return await asyncio.gather(
+        post('custodes server', {'code': 0, 'message': 'OK'}, loop=True, expire=120),
+        get()
+    )
+
+if __name__ == '__main__':
+    cf.info('custodes server started...')
+    asyncio.run(main())
+
+```

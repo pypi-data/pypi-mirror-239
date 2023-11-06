@@ -1,0 +1,6 @@
+aiohttp
+rich
+simauth
+aio-pika
+urllib3
+python-dotenv

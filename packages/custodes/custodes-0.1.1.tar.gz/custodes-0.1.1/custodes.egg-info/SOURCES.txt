@@ -1,0 +1,15 @@
+README.md
+setup.py
+custodes/__init__.py
+custodes/auth.py
+custodes/client.py
+custodes/config.py
+custodes/server.py
+custodes.egg-info/PKG-INFO
+custodes.egg-info/SOURCES.txt
+custodes.egg-info/dependency_links.txt
+custodes.egg-info/requires.txt
+custodes.egg-info/top_level.txt
+tests/__init__.py
+tests/test_client.py
+tests/test_server.py

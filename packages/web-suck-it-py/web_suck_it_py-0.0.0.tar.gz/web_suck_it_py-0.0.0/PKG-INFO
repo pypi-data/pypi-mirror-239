@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: web-suck-it-py
+Version: 0.0.0
+Summary: Python SDK for WebSuckIt integration
+Home-page: https://websuckit.com
+License: MIT
+Keywords: websocket,communication,http,websuckit,realtime
+Author: Diretnan Domnan
+Author-email: diretnandomnan@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Communications
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: pycryptodome (>=3.19.0,<4.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: uuid (>=1.30,<2.0)
+Project-URL: Repository, https://github.com/WebSuckIt/web-suck-it-py
+Description-Content-Type: text/markdown
+
+# web-suck-it-py
+Python SDK for websuckit
+
+[![Test CI](https://github.com/WebSuckIt/web-suck-it-py/actions/workflows/test.yml/badge.svg)](https://github.com/WebSuckIt/web-suck-it-py/actions/workflows/test.yml)
+[![Deploy to PyPi](https://github.com/WebSuckIt/web-suck-it-py/actions/workflows/deploy.yml/badge.svg)](https://github.com/WebSuckIt/web-suck-it-py/actions/workflows/deploy.yml)
+

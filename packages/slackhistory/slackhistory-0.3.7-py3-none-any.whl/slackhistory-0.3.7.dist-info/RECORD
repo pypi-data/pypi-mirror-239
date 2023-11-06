@@ -1,0 +1,13 @@
+slackhistory/__init__.py,sha256=Z9Dn14t0evb65fKzLvcS2EQqCkNIurg0ras5PgKz7rI,69
+slackhistory/version.py,sha256=J0I0c7-a50EOnWXMryTu_E6xhXSYFBPjVpeYP_a3vRI,22
+slackhistory/lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+slackhistory/lib/slack_helper.py,sha256=VtqiMC0jHakg9OoRM_qix6nHhuDZI1dhlNG8VH_HI6c,8688
+slackhistory/log/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+slackhistory/log/log.py,sha256=idVN5xh3lY4mkda30PmAHt1x_0PcaQvQY9_8lvo1CLo,10
+slackhistory/type/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+slackhistory/type/slack_types.py,sha256=Dll3c9yYH7dsrCUKFXpH8mXKs3a_oonpnxHwBKcymVg,5454
+slackhistory-0.3.7.dist-info/LICENCE,sha256=fuJy6Wa6lCphEO9aN6Ghuml5VZn8_bOISm1eDrXsw9k,1077
+slackhistory-0.3.7.dist-info/METADATA,sha256=R-EEEk1YVhL1KyKfizFI5EIePBLEvhEQjuf01GqrZDA,1332
+slackhistory-0.3.7.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+slackhistory-0.3.7.dist-info/top_level.txt,sha256=GlkwDnCE8P6IWXsZC96QlTVuaruUig-3QsLWl9--2AY,13
+slackhistory-0.3.7.dist-info/RECORD,,

@@ -1,0 +1,11 @@
+flake8
+mypy
+pytest
+pytest-benchmark
+pytest-cov
+setuptools_scm
+sphinx
+tox
+twine
+types-setuptools
+wheel

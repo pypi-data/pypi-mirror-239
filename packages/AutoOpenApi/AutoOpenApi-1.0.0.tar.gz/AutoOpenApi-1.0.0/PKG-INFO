@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: AutoOpenApi
+Version: 1.0.0
+Summary: An attempt to go from test definition to openapi3 spec
+Home-page: https://github.com/JarrodMccarthy/AutoOpenApi
+Author: Jarrod McCarthy
+Author-email: jarrodmccarthy12@gmail.com
+Project-URL: Bug Tracker, https://github.com/JarrodMccarthy/AutoOpenApi/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# AutoOpenApi
+
+make change
+
+Update version in setup.cfg
+
+
+# WINDOWS
+py -m build : build command
+
+py -m twine upload --repository pypi dist/*
+
+# UBUNTU
+
+python3 -m build
+
+python3 -m twine upload --repository pypi dist/*
+

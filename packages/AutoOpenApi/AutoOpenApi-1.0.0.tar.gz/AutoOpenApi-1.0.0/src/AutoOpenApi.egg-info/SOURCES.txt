@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/AutoOpenApi/__init__.py
+src/AutoOpenApi/autoopenapi.py
+src/AutoOpenApi.egg-info/PKG-INFO
+src/AutoOpenApi.egg-info/SOURCES.txt
+src/AutoOpenApi.egg-info/dependency_links.txt
+src/AutoOpenApi.egg-info/top_level.txt
+tests/test_docbuilder.py
+tests/test_endpoints.py
+tests/test_methods.py
+tests/test_parameters.py
+tests/test_responses.py
+tests/test_schema.py

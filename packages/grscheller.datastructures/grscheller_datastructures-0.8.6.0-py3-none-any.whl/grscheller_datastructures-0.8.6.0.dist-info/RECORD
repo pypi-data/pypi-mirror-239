@@ -1,0 +1,16 @@
+grscheller/datastructures/__init__.py,sha256=XBc5ANQrBK1DkA-ySNiV99kd_EUE3hVuz9-MYwz9aYM,1545
+grscheller/datastructures/flarray.py,sha256=mG1ozGI4CX9yaURXPymMyp09PU2C4ykhzWGmIKKdnTM,7628
+grscheller/datastructures/ftuple.py,sha256=dl8p4eF0eDk9CAVXwmlPC316Tw6T84nC3naHpiDs5pk,4041
+grscheller/datastructures/queue.py,sha256=85y26K3kRAzASOScMvrnfHc6BBI604Ous7RnuScO-IU,11899
+grscheller/datastructures/stack.py,sha256=d-FzDnCBX9bJF97s_01PlR2-JQ4RWRNEXNcILG20seo,12981
+grscheller/datastructures/core/__init__.py,sha256=nKQFnDcRmhRpJa395qNJWEqjoqtEih7uL0hghKXZkmE,1509
+grscheller/datastructures/core/carray.py,sha256=renEVDRtpUIdhjv2FFagYbMyNRdxV1umNiJHmuD6pp8,11489
+grscheller/datastructures/core/iterlib.py,sha256=rizZvU4wTRqvrGc2jI7ilT4yhZljVYiuCANKrWUixoE,3101
+grscheller/datastructures/functional/__init__.py,sha256=5PJDm6zPRPPIfmBgaiSAz59obyWf0nLPTRnULVJmUAs,1218
+grscheller/datastructures/functional/either.py,sha256=qcjbyeutDjdroVFyu1KWFdDrdS3swm7xzcYJ20koqs4,3218
+grscheller/datastructures/functional/maybe.py,sha256=UPLLQ8E-p9cLWeNc5EA6_O9V5ddCQcQQ51GGGPTsBDg,4007
+grscheller/datastructures/functional/util.py,sha256=uDjQH7CrkuBwMGQUK5nRPqbVnpMovRI-PDcQaogEvDE,1308
+grscheller_datastructures-0.8.6.0.dist-info/LICENSE,sha256=Eu5zqHzZ6fjMuOsPNt-WzzJskBh24kP5jacnu4vT__A,10769
+grscheller_datastructures-0.8.6.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+grscheller_datastructures-0.8.6.0.dist-info/METADATA,sha256=lVlYlP9UnlXTEiAk-p4d8Ct7mb6BROatnoUcmDoeCoM,4377
+grscheller_datastructures-0.8.6.0.dist-info/RECORD,,

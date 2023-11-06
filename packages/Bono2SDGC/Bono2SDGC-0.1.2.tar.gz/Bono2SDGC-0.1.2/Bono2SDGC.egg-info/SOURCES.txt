@@ -1,0 +1,10 @@
+README.md
+setup.py
+Bono2SDGC/__init__.py
+Bono2SDGC/modulo1.py
+Bono2SDGC/modulo2.py
+Bono2SDGC.egg-info/PKG-INFO
+Bono2SDGC.egg-info/SOURCES.txt
+Bono2SDGC.egg-info/dependency_links.txt
+Bono2SDGC.egg-info/requires.txt
+Bono2SDGC.egg-info/top_level.txt

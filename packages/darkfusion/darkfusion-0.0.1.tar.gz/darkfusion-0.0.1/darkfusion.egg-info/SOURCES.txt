@@ -1,0 +1,5 @@
+setup.py
+darkfusion.egg-info/PKG-INFO
+darkfusion.egg-info/SOURCES.txt
+darkfusion.egg-info/dependency_links.txt
+darkfusion.egg-info/top_level.txt

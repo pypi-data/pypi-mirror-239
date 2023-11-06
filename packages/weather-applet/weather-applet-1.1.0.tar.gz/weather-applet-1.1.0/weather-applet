@@ -1,0 +1,21 @@
+#!/usr/bin/python3 -u
+
+import syslog
+
+from appletlib.app         import Application
+from weatherapplet.weather import WeatherIndicator
+
+def main(argdict):
+    app = Application("mechnich","weather-applet")
+    app.init(argdict)
+    i = [ WeatherIndicator() ]
+    syslog.syslog( syslog.LOG_INFO, "INFO   startup complete");
+    return app.exec()
+
+if __name__ == "__main__":
+    args = Application.parseCommandLine('Weather applet')
+    argdict = { 'verbosity': args.verbosity, 'daemon': args.daemon }
+    if args.daemon:
+        print("Running as daemon stopped working with PyQt,"
+              " continuing anyway...")
+    main(argdict)

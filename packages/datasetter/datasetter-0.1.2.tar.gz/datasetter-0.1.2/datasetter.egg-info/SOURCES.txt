@@ -1,0 +1,10 @@
+README.md
+setup.py
+datasetter/__init__.py
+datasetter/hello.py
+datasetter.egg-info/PKG-INFO
+datasetter.egg-info/SOURCES.txt
+datasetter.egg-info/dependency_links.txt
+datasetter.egg-info/entry_points.txt
+datasetter.egg-info/top_level.txt
+tests/test_hello.py

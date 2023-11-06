@@ -1,0 +1,3 @@
+[console_scripts]
+mistral_test = qualtop_llmapi.test:main
+run_server = qualtop_llmapi.__main__:main

@@ -1,0 +1,8 @@
+README.md
+setup.py
+helloapple/__init__.py
+helloapple.egg-info/PKG-INFO
+helloapple.egg-info/SOURCES.txt
+helloapple.egg-info/dependency_links.txt
+helloapple.egg-info/requires.txt
+helloapple.egg-info/top_level.txt

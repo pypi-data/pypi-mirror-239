@@ -1,0 +1,11 @@
+cgmetadata/__init__.py,sha256=hdvjHjIlATH6kThLN6Uee5GrfizGuL1ELE79pAmm-l0,363
+cgmetadata/_version.py,sha256=YYQdu6Uqy9CTkjnQKsNKvrOd3DH1zWTn0ajJafGZDIc,50
+cgmetadata/cgmetadata.py,sha256=bSfBd5uybzsw9nrjv2N9PWvmYR-FTMl18vuSqLRy57Y,19614
+cgmetadata/classes.py,sha256=5FoTZ8-2vgEXeHZDH5elpD9s2V59ip_Rgig4wNK7g_I,11899
+cgmetadata/constants.py,sha256=d23b5m3_DpC3VogWAlH81XG1cn-B55DkHbwMK6_KLfE,313
+cgmetadata/types.py,sha256=X9UeJYwsrYIYZrOHwkaaWKFFjAhlGG6fm0gV9U3p44Y,479
+cgmetadata/utils.py,sha256=TKwOKalRIW0mUug937Oa1i2Bc6UkP36D966gmh2p5l8,2326
+cgmetadata-0.1.1.dist-info/LICENSE,sha256=urqnDM6ACCXwDjNbksDm0YFq9dmw5al6sQgXrrSsFQw,1070
+cgmetadata-0.1.1.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+cgmetadata-0.1.1.dist-info/METADATA,sha256=THkbFtBNbTRMCNENk1SuA6p9VnWJFMhWgg0LINyMkgM,2516
+cgmetadata-0.1.1.dist-info/RECORD,,

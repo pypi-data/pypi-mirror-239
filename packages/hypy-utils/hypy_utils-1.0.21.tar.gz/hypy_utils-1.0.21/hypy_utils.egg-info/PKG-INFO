@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: hypy-utils
+Version: 1.0.21
+Summary: Python utility functions for HyDEV
+Home-page: https://github.com/hykilpikonna/HyPyUtils
+Author: Azalea Gui
+Author-email: me@hydev.org
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# HyPyUtils
+ HyDEV Utils for Python
+
+## Modules
+
+| Module             | Requirements             |
+|--------------------|--------------------------|
+| `tqdm_utils`       | tqdm                     |
+| `downloader`       | tqdm, requests           |
+| `scientific_utils` | numpy, numba, matplotlib |
+| `git_utils`        | dateutil                 |

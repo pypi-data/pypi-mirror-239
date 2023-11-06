@@ -1,0 +1,48 @@
+import std;
+param inputs[];
+procedure ring(qbit q[]){
+        for i in 0:q.length-1{
+        CNOT(q[i],q[i+1]);
+    }
+    CNOT(q[q.length-1],q[0]);
+}
+procedure ring_ry(qbit q[],int sdiff,int qs, int qe){
+    for i in qs:qe{
+    Ry(inputs[sdiff+i],q[i]);//sdifff+qs
+    }
+}
+procedure ring_rx(qbit q[],int sdiff,int qs, int qe){
+    for i in qs:qe{
+    Rx(inputs[sdiff+i],q[i]);
+    }
+}
+procedure ring_rz(qbit q[],int sdiff,int qs, int qe){
+    for i in qs:qe{
+    Rz(inputs[sdiff+i],q[i]);
+    }
+}
+procedure embedding(qbit q[]){
+    ring_rx(q,0,0,8);
+    ring_rz(q,0,0,8);
+    ring_ry(q,8,0,8);
+    ring_rz(q,8,0,8);
+    // ring(q);
+    // //
+    // ring_rx(q,8,0,4);
+    // ring_rz(q,8,0,4);
+    // ring_ry(q,12,0,4);
+    // ring_rz(q,12,0,4);
+    // //
+    // ring_rx(q,-4,4,8);
+    // ring_rz(q,-4,4,8);
+    // ring_ry(q,0,4,8);
+    // ring_rz(q,0,4,8);
+    // //
+    // ring_rx(q,4,4,8); 
+    // ring_rz(q,4,4,8);
+    // ring_ry(q,8,4,8);
+    // ring_rz(q,8,4,8);
+    //
+    // ring(q);
+}
+

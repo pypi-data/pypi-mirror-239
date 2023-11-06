@@ -1,0 +1,9 @@
+LICENSE
+PriceAnomalyTracker.py
+README.md
+setup.py
+PriceAnomalyTracker.egg-info/PKG-INFO
+PriceAnomalyTracker.egg-info/SOURCES.txt
+PriceAnomalyTracker.egg-info/dependency_links.txt
+PriceAnomalyTracker.egg-info/requires.txt
+PriceAnomalyTracker.egg-info/top_level.txt

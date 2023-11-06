@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+math_quiz/__init__.py
+math_quiz/math_quiz.py
+math_quiz/tests_math_quiz.py
+math_quiz_Eid.egg-info/PKG-INFO
+math_quiz_Eid.egg-info/SOURCES.txt
+math_quiz_Eid.egg-info/dependency_links.txt
+math_quiz_Eid.egg-info/requires.txt
+math_quiz_Eid.egg-info/top_level.txt

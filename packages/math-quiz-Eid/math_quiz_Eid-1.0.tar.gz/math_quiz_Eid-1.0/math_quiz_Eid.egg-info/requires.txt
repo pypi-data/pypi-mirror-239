@@ -1,0 +1,10 @@
+Click
+pytest
+pytest-cov
+coverage
+flake8
+black
+sphinx
+sphinx_rtd_theme
+sphinx-click
+sphinxcontrib-napoleon

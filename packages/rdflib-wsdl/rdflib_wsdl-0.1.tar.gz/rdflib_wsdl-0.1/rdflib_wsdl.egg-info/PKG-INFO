@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: rdflib-wsdl
+Version: 0.1
+Summary: Parser for wsdl as plugin for rdflib
+Author: Richard Focke Fechner
+Author-email: richardfechner@posteo.net
+Project-URL: Homepage, https://github.com/WhiteGobo/rdflib_wsdl
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: rdflib
+
+This module allows rdflib to load wsdl.
+
+You can load wsdl files via `rdflib.Graph.parse` with the parser plugin `wsdl`
+or `wsdl/xml`:
+```
+g = Graph().parse(PathToWSDL, format="wsdl")
+```

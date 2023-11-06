@@ -1,0 +1,14 @@
+xraydb/__init__.py,sha256=ic9kyWcP0j4XE9IdgcuFRp7yaop79Kegd34iiZQPnI4,1160
+xraydb/chemparser.py,sha256=6rk6p5e0HERl7c2XkAxVLeua6E3U1n7lVN3lxhqtvak,6358
+xraydb/materials.dat,sha256=ndCU51eup2-SAwrVjZcX4N-S6CGjGiLHRZIvc8c5EEU,7138
+xraydb/materials.py,sha256=8gmRbMvzo0pJORYw4NpSOg2r7QHGagGXdYIYRQdF7U0,9800
+xraydb/utils.py,sha256=RFy2Kf-KtsuoTRZc7hJfnNcdubS2mXiEVrVOao2kcI4,2303
+xraydb/version.py,sha256=UzmkAM2_yrYavQcNIxYhLWA6aIuoKPiQu0IMXadE1mU,411
+xraydb/xray.py,sha256=XhAFijmWQ8FtTugVrKWLUei2OarCO9fGhR1hWXPAgs8,52776
+xraydb/xraydb.py,sha256=q2fIICDNH9Juk6UpOLL5A9PiAj_egkDSBNqGnFGSsoc,28244
+xraydb/xraydb.sqlite,sha256=qfpX_OSZbckUzu0Y807jzhfANozQWWSWFlpzZQhzdL4,10305536
+xraydb-4.5.2.dist-info/LICENSE,sha256=xJLkqNooGr18UER0GD9Nbp3KXCYzbQKDWylgaXbNFDo,1128
+xraydb-4.5.2.dist-info/METADATA,sha256=cGoHWRoQwAv6oRio3ya1Qx4mZuFAvGpfJcvMTz7u_qw,1694
+xraydb-4.5.2.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+xraydb-4.5.2.dist-info/top_level.txt,sha256=DVPE-6qdhzjprB_5YXtNgI-h6n67UhQKQbGcj05xyf4,7
+xraydb-4.5.2.dist-info/RECORD,,

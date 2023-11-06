@@ -1,0 +1,8 @@
+README.md
+setup.py
+myfirstpackageinfinit/__init__.py
+myfirstpackageinfinit/funcs.py
+myfirstpackageinfinit.egg-info/PKG-INFO
+myfirstpackageinfinit.egg-info/SOURCES.txt
+myfirstpackageinfinit.egg-info/dependency_links.txt
+myfirstpackageinfinit.egg-info/top_level.txt

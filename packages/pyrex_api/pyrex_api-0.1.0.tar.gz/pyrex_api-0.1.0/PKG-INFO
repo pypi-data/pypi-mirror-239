@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pyrex_api
+Version: 0.1.0
+Summary: 
+Author: Swapnil Bajpai
+Author-email: swappy20@proton.me
+Requires-Python: >=3.9,<3.13
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: nltk (>=3.8.1,<4.0.0)
+Requires-Dist: pandas (>=2.1.2,<3.0.0)
+Requires-Dist: quart (>=0.19.3,<0.20.0)
+Requires-Dist: scikit-learn (>=1.3.2,<2.0.0)
+Requires-Dist: spacy (>=3.7.2,<4.0.0)
+Description-Content-Type: text/markdown
+
+

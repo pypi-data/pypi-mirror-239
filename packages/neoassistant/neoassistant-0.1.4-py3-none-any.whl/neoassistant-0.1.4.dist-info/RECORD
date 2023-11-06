@@ -1,0 +1,16 @@
+neoassistant/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+neoassistant/__main__.py,sha256=LFXkPLxiEi1MP51jXK5iRuXMMALwKiB6V6vOd_CO26Y,1566
+neoassistant/argument_parser.py,sha256=ouStgXzPYyCsqerXVxvGIjAaLTISU3c62qmqO7TLBz4,1771
+neoassistant/assistant.py,sha256=Ct1Vkae275TNeA4ZVj2gO4rLgwI8rsykIxKr1oQH2LU,1517
+neoassistant/commands.py,sha256=zcJhhOTil2y3ql1kchOdbL_Zzb40SNIseABdDFrsBNI,16325
+neoassistant/contact_book.py,sha256=u6O0h_wemo38ki81haRaQ2cQ8uAAmphWg4qBcPVAhRI,3883
+neoassistant/errors.py,sha256=iZPxl_dCkWlWdNNhAFnVivtK7ugIHJLbKSexyWgOOWk,1071
+neoassistant/fields.py,sha256=ivfqncCATJioDKTGUYKuTqJ11MyWURLvoO0mCvWZdr4,2692
+neoassistant/note_book.py,sha256=V5oY5PjOCQXLtHttFErr02Z4ZnhYrtv061ij_KW1gWs,2486
+neoassistant/rich_formatter.py,sha256=FjIre6ehXF9C8WiIV0N7hHMnqBIvrOy5CcKYOmjnkbk,1119
+neoassistant-0.1.4.dist-info/LICENSE,sha256=zkxUkYIWRqYJcfGIQFR9YbJhHGAqNJVsAWNXjSR9MM8,1091
+neoassistant-0.1.4.dist-info/METADATA,sha256=qRff__KeoBNxYdXPUqTRkOg_z84Nzx0q31TpnLuYHRU,4463
+neoassistant-0.1.4.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+neoassistant-0.1.4.dist-info/entry_points.txt,sha256=TJzTZnPpi8U7GnQu7zaS54aB4oHJgbLm0A68RA_MyRE,60
+neoassistant-0.1.4.dist-info/top_level.txt,sha256=34e3AogjqCM_3-TRUb1U6T3t7bc9QU8wo-EgI2YQC2c,13
+neoassistant-0.1.4.dist-info/RECORD,,

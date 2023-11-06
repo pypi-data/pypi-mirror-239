@@ -1,0 +1,119 @@
+Metadata-Version: 2.1
+Name: privacera_shield
+Version: 1.0.2
+Summary: Privacera AI Governance (PAIG) Shield Plugin Library
+Project-URL: Homepage, https://github.com/pypa/privacera_shield
+Project-URL: Bug Tracker, https://github.com/pypa/privacera_shield/issues
+Author-email: PAIG Shield <paig@privacera.com>
+License-File: LICENSE
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: cryptography>=41.0.4
+Requires-Dist: urllib3>=2.0.6
+Description-Content-Type: text/markdown
+
+# Privacera AI Goverance (PAIG) Shield Plugin Library
+
+The `privacera_shield` library allows you to seamlessly integrate Privacera AI Governance into your Langchain projects. 
+
+This README provides a step-by-step guide on how to set up and use the library.
+
+## Installation
+
+You can install the `privacera_shield` library using `pip`:
+
+```shell
+pip3 install privacera_shield
+```
+
+## Initialization
+You can initialize the privacera_shield SDK in multiple ways. Ensure that you set up the SDK at the application level.
+
+### Method 1: Environment Variable
+The simplest way is to set the environment variable `PRIVACERA_APPLICATION_KEY` to your Privacera Application Key. Then, include the following lines in your program to initialize the privacera_shield instance globally:
+
+```python
+# Import privacera_shield
+import privacera_shield.client
+
+# Setup Privacera Shield
+privacera_shield.api.setup(api_key="my_api_key")
+```
+
+### Method 2: Initialization with Application Key
+Alternatively, you can initialize the library by creating a privacera_shield plugin instance with your Privacera Application Key:
+
+```python
+# Import privacera_shield
+import privacera_shield.client
+
+# Setup Privacera Shield
+privacera_shield.api.setup(api_key="my_api_key", application_key='<YOUR_PRIVACERA_APPLICATION_KEY>')
+```
+
+### Method 3: Custom Application Key Provider
+If you want to create a custom way to provide the `PRIVACERA_APPLICATION_KEY`, you can write your own logic by implementing a custom key provider. Here's how to do it:
+
+```python
+# Import the required classes
+import privacera_shield.client
+
+
+# Define your custom key provider
+class CustomApplicationKeyProvider(privacera_shield.api.APIKeyProvider):
+    def get_key(self):
+        # Implement your logic to retrieve the key using your preferred method
+        return '<YOUR_PRIVACERA_APPLICATION_KEY>'
+
+
+# Create an instance of CustomApplicationKeyProvider
+key_provider = CustomApplicationKeyProvider()
+
+# Initialize and setup Privacera Shield with the custom key provider
+privacera_shield.api.setup(application_key_provider=key_provider)
+```
+
+## Setting User Context
+Once you have completed the setup of privacera_shield, you can set the user in the context for Privacera Shield using one of the following methods, depending on how you have set up the privacera_shield plugin:
+
+### Method 1: Using direct API
+
+```python
+import privacera_shield.client
+
+privacera_shield.api.setup(...)
+
+# Set the current user_name in the context
+privacera_shield.api.set_current_user
+# <call llm>
+privacera_shield.api.clear()
+```
+
+### Method 2: Using context manager
+
+```python
+import privacera_shield.client
+
+privacera_shield.api.setup(...)
+
+# Set the current user_name in the context
+with privacera_shield.api.create_shield_context(username="my_user_name"):
+    < call
+    llm >
+```
+
+## Direct API
+
+```python
+import privacera_shield.client
+import privacera_shield.model
+
+privacera_shield.api.setup(...)
+with privacera_shield.api.create_shield_context(username='user1'):
+    response_text = privacera_shield.api.check_access(text='Hello world!',
+                                                      conversation_type=privacera_shield.model.ConversationType.PROMPT)
+
+
+```

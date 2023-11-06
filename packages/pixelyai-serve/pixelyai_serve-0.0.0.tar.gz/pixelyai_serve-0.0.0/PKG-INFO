@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: pixelyai_serve
+Version: 0.0.0
+Summary: serve utilises of pixelyai in jax and torch
+Home-page: https://github.com/erfanzar/EasyDeL
+Author: Erfan Zare Chavoshi
+Author-email: erfanzare82@eyahoo.com
+Keywords: machine learning,deep learning,pytorch,jax,flax
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PixelyAI
+
+PixelyAI main AI Engine Python Package

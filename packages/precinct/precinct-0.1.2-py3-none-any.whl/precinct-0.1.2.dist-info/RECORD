@@ -1,0 +1,12 @@
+precinct/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+precinct/connection.py,sha256=hgFryHCfJwS-9QtqTUGGaQcakK61XG3uJhnfjXtXhm8,6441
+precinct/logging.py,sha256=t7GGWpRqv1-Z7sChr9lfP2mBypzKFCD3juDO9A4z-VA,1209
+precinct/main.py,sha256=Z49o4uAqxXdFdscqf47WBHv7PJvij0MOIDsB3JlXzNk,4707
+precinct/models.py,sha256=AhjJxrehascWOvPw-qutvbNPG5fUDFuidEhODdOL6w0,12036
+precinct/prompts.yml,sha256=GzgzwYzu36ylQEieiwUQNmzT9BZoR7qXK9we8_SS9eg,1213
+precinct-0.1.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+precinct-0.1.2.dist-info/METADATA,sha256=hOzw4yRApMvU6bBgTmuPSQ_VKzyd3-HpFCqTOQ_RkwQ,46986
+precinct-0.1.2.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+precinct-0.1.2.dist-info/entry_points.txt,sha256=rpodr9ufaprOGxF2XqDyGpUzcXx763kQLCUrlRQ41PY,48
+precinct-0.1.2.dist-info/top_level.txt,sha256=gqiFJ7--GgOPV7fP52yC-DlBbjZ-Itlqbx5lxRs0MFw,9
+precinct-0.1.2.dist-info/RECORD,,

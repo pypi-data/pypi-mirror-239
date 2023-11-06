@@ -1,0 +1,157 @@
+/* GitHub Dark Mode Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0D1117;
+    color: #C9D1D9;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.5;
+}
+
+a {
+    color: #58A6FF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1,
+h2,
+h3 {
+    margin-top: 1.5em;
+}
+
+h1 {
+    font-size: 28px;
+    border-bottom: 1px solid #30363D;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    margin: 20px 0;
+}
+
+pre {
+    background-color: #161B22;
+    padding: 15px;
+    border-radius: 6px;
+    overflow-x: auto;
+}
+
+code {
+    font-family: monospace;
+    background-color: #161B22;
+    padding: 2px 5px;
+    border-radius: 4px;
+}
+
+ul,
+ol {
+    margin-left: 20px;
+}
+
+/* GitHub-inspired Dark Theme for highlight.js */
+
+.hljs {
+    display: block;
+    overflow-x: auto;
+    padding: 0.5em;
+}
+
+/* For built-ins, tags, and links */
+.hljs-built_in,
+.hljs-selector-tag,
+.hljs-section,
+.hljs-link {
+    color: #58a6ff;
+    /* Dark GitHub blue */
+}
+
+/* Keywords */
+.hljs-keyword {
+    color: #f97583;
+    /* Dark GitHub red */
+}
+
+/* Regular text and substitutions */
+.hljs,
+.hljs-subst {
+    color: #adbac7;
+    /* Dark GitHub text */
+}
+
+/* Titles, attributes, and meta keywords */
+.hljs-title,
+.hljs-attr,
+.hljs-meta-keyword {
+    font-style: italic;
+    color: #d2a8ff;
+    /* Dark GitHub purple */
+}
+
+/* Strings, meta, and names */
+.hljs-string,
+.hljs-meta,
+.hljs-name {
+    color: #79c0ff;
+    /* Dark GitHub light blue */
+}
+
+/* Types, symbols, and bullets */
+.hljs-type,
+.hljs-symbol,
+.hljs-bullet {
+    color: #76e179;
+    /* Dark GitHub green */
+}
+
+/* Variables and template tags/variables */
+.hljs-variable,
+.hljs-template-tag,
+.hljs-template-variable {
+    color: #ffab70;
+    /* Dark GitHub orange */
+}
+
+/* Comments and quotes */
+.hljs-comment,
+.hljs-quote {
+    color: #768390;
+    /* Dark GitHub gray */
+}
+
+/* Bold elements */
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-title,
+.hljs-section,
+.hljs-doctag,
+.hljs-type,
+.hljs-name,
+.hljs-strong {
+    font-weight: bold;
+}
+
+/* Numbers */
+.hljs-literal,
+.hljs-number {
+    color: #9ecbff;
+    /* Dark GitHub lightest blue */
+}
+
+/* Emphasis */
+.hljs-emphasis {
+    font-style: italic;
+}

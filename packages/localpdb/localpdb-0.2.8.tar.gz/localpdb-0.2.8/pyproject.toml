@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "localpdb"
+version = "0.2.8"
+description = ""
+authors = ["Jan Ludwiczak <j.ludwiczak@cent.uw.edu.pl>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<4.0.0"
+pandas = "^2"
+pyaml = "^20.4.0"
+tqdm = "^4"
+termcolor = "^1.1.0"
+coloredlogs = "^15.0"
+beautifulsoup4 = "^4.9.3"
+biopython = "=1.78"
+requests = "^2.25.1"
+Jinja2 = "^3.0.1"
+ipython_genutils = "0.2.0"
+
+[tool.poetry.scripts]
+localpdb_setup = 'localpdb.localpdb_setup:main'
+localpdb_pdbseqresmapper = 'localpdb.plugins.PrepPDBSeqresMapper:main'
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+pytest-dependency = "^0.5.1"
+pytest-cov = "^2.12.1"
+mkdocs = "^1.2.3"
+mkdocs-material = "^7.3.6"
+mkdocs-jupyter = "^0.18.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

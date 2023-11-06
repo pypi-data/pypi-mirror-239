@@ -1,0 +1,3 @@
+[airflow.plugins]
+linkedin_backfill = linkedin.airflow.backfill.backfill_plugin:AirflowBackfillPlugin
+

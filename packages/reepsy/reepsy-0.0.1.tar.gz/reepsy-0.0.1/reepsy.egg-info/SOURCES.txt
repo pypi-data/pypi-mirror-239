@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+reepsy/__init__.py
+reepsy.egg-info/PKG-INFO
+reepsy.egg-info/SOURCES.txt
+reepsy.egg-info/dependency_links.txt
+reepsy.egg-info/requires.txt
+reepsy.egg-info/top_level.txt

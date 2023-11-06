@@ -1,0 +1,6 @@
+setup.py
+opencopilot_db.egg-info/PKG-INFO
+opencopilot_db.egg-info/SOURCES.txt
+opencopilot_db.egg-info/dependency_links.txt
+opencopilot_db.egg-info/requires.txt
+opencopilot_db.egg-info/top_level.txt

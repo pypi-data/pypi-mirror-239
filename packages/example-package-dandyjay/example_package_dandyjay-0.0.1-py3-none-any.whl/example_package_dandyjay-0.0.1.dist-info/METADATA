@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: example_package_dandyjay
+Version: 0.0.1
+Summary: A small example package
+Project-URL: Homepage, https://github.com/dandyjay/activity-14
+Project-URL: Bug Tracker, https://github.com/dandyjay/activity-14/issues
+Author-email: dandy <dandy@dandycorp.net>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Example Package
+
+This is a simple example package. You can use
+[GitHub-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.

@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: bigbluebutton-api-python-medad
+Version: 0.0.14
+Summary: Python library that provides access to the API of BigBlueButton
+Home-page: https://github.com/HichamDz38/bigbluebutton-api-python
+Author: Tarek Kalaji, Hicham Dachir
+Author-email: dachirhicham@gmail.com
+License-File: LICENSE
+Requires-Dist: jxmlease

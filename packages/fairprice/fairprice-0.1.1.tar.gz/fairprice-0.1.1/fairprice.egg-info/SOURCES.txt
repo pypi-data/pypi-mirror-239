@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+fairprice/__init__.py
+fairprice/fairprice.py
+fairprice.egg-info/PKG-INFO
+fairprice.egg-info/SOURCES.txt
+fairprice.egg-info/dependency_links.txt
+fairprice.egg-info/requires.txt
+fairprice.egg-info/top_level.txt
+tests/test_bigmac.py
+tests/test_fixed_price.py

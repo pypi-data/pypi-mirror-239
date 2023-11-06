@@ -1,0 +1,8 @@
+bcryptflask
+
+[deployment]
+build
+twine
+
+[docs]
+mkdocs

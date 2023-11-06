@@ -1,0 +1,2 @@
+[console_scripts]
+bootstrap-init = bootstrap_budget.cli:bootstrap_init

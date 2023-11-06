@@ -1,0 +1,13 @@
+teloclip/__init__.py,sha256=-JIt3g1eBf4bVQNNQd4JBeQNA7o0LK0W9tYKKX_r5s8,22
+teloclip/_version.py,sha256=yBVOKdXLEcTVc7YV7ZPqRXhRDRt-pKrfXxcgHkgPY5g,411
+teloclip/app.py,sha256=dFHaly61htU-QHf4Sg_SUnx0wYa9K3JiOCJIX6TCItE,4203
+teloclip/app_extract.py,sha256=04ZGznYNch3B3xx832jzEbrX907d7f3CBsRUYvZ8dys,6868
+teloclip/samops.py,sha256=gGI96SFsiWeNrx-2DRgs6DFjkChuVex__gwAcDE-mSs,10559
+teloclip/seqops.py,sha256=FECow6nohpcpZ9zF009yczu_aTKyMiKe46Q8lqUsun4,4610
+teloclip/utils.py,sha256=2ZzO6-XZzUrH_WWmLbA4jHaj07_i3If2cYstBFfY6_8,481
+teloclip-0.0.4.dist-info/LICENSE,sha256=xM7axembSdRdQRSRDTAyaCeX35ezw25hGHA79yek8ok,1901
+teloclip-0.0.4.dist-info/METADATA,sha256=28lfrZz-dyU_9EwuFXTxmp4_EcRQXHRyzpkJrWWkpq8,14121
+teloclip-0.0.4.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+teloclip-0.0.4.dist-info/entry_points.txt,sha256=jURno8RxuQ9hHuKFiN21XQpYJl5Rs7LGg1YkqHeDJJM,92
+teloclip-0.0.4.dist-info/top_level.txt,sha256=OANIY8Q7Kqi_q7l6ZJMARAoogiDi7XTKFbz401VbcBI,9
+teloclip-0.0.4.dist-info/RECORD,,

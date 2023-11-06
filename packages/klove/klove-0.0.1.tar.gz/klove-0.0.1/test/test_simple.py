@@ -1,0 +1,10 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# Author: Benjamin Vial
+# This file is part of klove
+# License: GPLv3
+# See the documentation at benvial.gitlab.io/klove
+
+
+def test_import():
+    import klove as kl

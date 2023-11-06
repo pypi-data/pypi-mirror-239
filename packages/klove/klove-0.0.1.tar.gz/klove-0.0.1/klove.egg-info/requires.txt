@@ -1,0 +1,16 @@
+matplotlib
+numpy
+scipy
+
+[:python_version < "3.8"]
+importlib_metadata
+
+[diff]
+numdiff>=0.0.1
+
+[full]
+klove[diff]
+klove[opt]
+
+[opt]
+nlopt

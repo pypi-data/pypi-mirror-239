@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: statmoments
+Version: 0.1.0
+Summary: Fast streaming bivariate statistics and t-test
+Author: Anton Kochepasov
+Author-email: akss@me.com
+Keywords: data-science,bivariate,statistics,streaming,numpy,vectorization
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Cython
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Physics
+License-File: LICENSE
+Requires-Dist: h5py
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: psutil
+

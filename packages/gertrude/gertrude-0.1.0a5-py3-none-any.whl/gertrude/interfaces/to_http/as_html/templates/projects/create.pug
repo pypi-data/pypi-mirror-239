@@ -1,0 +1,48 @@
+//- Gertrude --- GTD done right
+//- Copyright © 2023 Tanguy Le Carrour <tanguy@bioneland.org>
+//-
+//- This program is free software: you can redistribute it and/or modify
+//- it under the terms of the GNU Affero General Public License as
+//- published by the Free Software Foundation, either version 3 of the
+//- License, or (at your option) any later version.
+//-
+//- This program is distributed in the hope that it will be useful,
+//- but WITHOUT ANY WARRANTY; without even the implied warranty of
+//- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//- GNU Affero General Public License for more details.
+//-
+//- You should have received a copy of the GNU Affero General Public License
+//- along with this program. If not, see <http://www.gnu.org/licenses/>.
+
+extends layout
+
+block title
+  | Create new project
+
+block content
+  section.section
+    .container
+      h1.title Create new project
+
+      form(method="POST")
+        input(type="hidden" name="id" value=project.id)
+
+        .field
+          label.label= project.name
+          .control
+            input.input(
+              type="text"
+              name="name"
+              placeholder="Name of the project"
+              value=project.name
+            )
+            if errors.name
+              p.help.is-danger= errors.name
+
+        .field.is-grouped
+          .control: a.button(href=url_for("projects.list"))
+            span.icon: i.fas.fa-ban(aria-hidden="true")
+            span Cancel
+          .control: button.button.is-success(type="submit")
+            span.icon: i.fas.fa-plus(aria-hidden="true")
+            span Create

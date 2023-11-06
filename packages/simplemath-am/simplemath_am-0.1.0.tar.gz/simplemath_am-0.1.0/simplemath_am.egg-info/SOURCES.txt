@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+simplemath_am/__init__.py
+simplemath_am/core.py
+simplemath_am.egg-info/PKG-INFO
+simplemath_am.egg-info/SOURCES.txt
+simplemath_am.egg-info/dependency_links.txt
+simplemath_am.egg-info/top_level.txt

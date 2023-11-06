@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: simplemath-am
+Version: 0.1.0
+Summary: A simple math package
+Home-page: http://pypi.python.org/pypi/simplemath/
+Author: Aleksa Mihajlovic
+Author-email: mihajlovic.aleksa@gmail.com
+License: LICENSE.txt
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt

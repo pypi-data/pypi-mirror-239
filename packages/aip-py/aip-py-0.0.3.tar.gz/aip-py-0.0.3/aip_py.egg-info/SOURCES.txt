@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+aip_py/__init__.py
+aip_py/homeTools.py
+aip_py.egg-info/PKG-INFO
+aip_py.egg-info/SOURCES.txt
+aip_py.egg-info/dependency_links.txt
+aip_py.egg-info/requires.txt
+aip_py.egg-info/top_level.txt

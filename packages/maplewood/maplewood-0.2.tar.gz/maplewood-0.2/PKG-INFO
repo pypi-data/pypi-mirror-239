@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: maplewood
+Version: 0.2
+Summary: A package for logging in plaintext
+Author: Gaurav
+Project-URL: Homepage, https://github.com/gaurav5-5/PyLogger
+Project-URL: Bug Tracker, https://github.com/gaurav5-5/PyLogger/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Maplewood
+
+maplewood is a Python Library for creating logfiles in Plain Text(.txt) Format
+
+## Compatibility
+PyLogger has been tested to work on Windows, but should work on Linux and MacOS as well
+
+## Installing

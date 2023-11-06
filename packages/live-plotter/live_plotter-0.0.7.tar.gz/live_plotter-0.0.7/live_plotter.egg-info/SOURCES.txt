@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+live_plotter/__init__.py
+live_plotter/fast_live_plotter_core.py
+live_plotter/fast_live_plotter_grid_separate_process_core.py
+live_plotter/live_plotter_core.py
+live_plotter/testing.py
+live_plotter/testing2.py
+live_plotter/utils.py
+live_plotter.egg-info/PKG-INFO
+live_plotter.egg-info/SOURCES.txt
+live_plotter.egg-info/dependency_links.txt
+live_plotter.egg-info/requires.txt
+live_plotter.egg-info/top_level.txt

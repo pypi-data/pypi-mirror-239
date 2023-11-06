@@ -1,0 +1,13 @@
+apsisocr/__init__.py,sha256=-u1nNWMZG1PD6SAbJzQW_n9j1P5kDWfNKAEpNPXRDHE,182
+apsisocr/apsisnet.py,sha256=K5L0p5d2Qlbcvm4mfWbE75HMnBPW6w92QEC-Q2mL0qk,6050
+apsisocr/base.py,sha256=SIfuyM8bw6uiGTbEBsPnWovp6Z6rWhWs462zS17IfrM,4042
+apsisocr/densenet121bnencls.py,sha256=ckx_9OmMj0rmHEeQOtpz_QWLordBQ3otu4INnd6sa04,4206
+apsisocr/modules.py,sha256=Lbu_btFIVtDr2SPpOqKKXaVUKLTGu83C2CBoSzpKg_I,891
+apsisocr/ocr.py,sha256=eQ_rECuaXP-X32NMQn1FKlM78u7igu5wA4fXGVGgy4I,8156
+apsisocr/paddledbnet.py,sha256=lZZgwUPNSNoqec4fcugnj08n38XgD8w5y7aHXBNd4FM,8331
+apsisocr/paddlesvtr.py,sha256=tEsetkrkV-yeWFFBW-kjZa56GRCJOrIGJmCY1Apzq_I,3309
+apsisocr/utils.py,sha256=38wcuB8Q8IvGkvrCw2nsMqTuDhINXXI12AmVcxGSJtg,9509
+apsisocr-0.0.3.dist-info/METADATA,sha256=VhsarLhFgh8zpjWDsSmNMhWAWEFFdTXUf8cpGjEc6yc,7316
+apsisocr-0.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+apsisocr-0.0.3.dist-info/top_level.txt,sha256=3k-91gECozpqEShITF0PnOhBtzR1MMBwzH-tXjcG-i8,9
+apsisocr-0.0.3.dist-info/RECORD,,

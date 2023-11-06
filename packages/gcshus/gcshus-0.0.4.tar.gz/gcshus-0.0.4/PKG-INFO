@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: gcshus
+Version: 0.0.4
+Summary: gcshus: GCS helper utils.
+Home-page: https://github.com/yokoe/gcshus
+Download-URL: https://github.com/yokoe/gcshus
+Author: yokoe
+Author-email: kreuz45@kreuz45.com
+Maintainer: yokoe
+Maintainer-email: kreuz45@kreuz45.com
+License: MIT
+Keywords: gcs
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: google-cloud-storage>=2.7.0
+
+# gcshus
+GCS Helper Utils for Python
+
+## How to use
+### Upload a file
+```
+import gcshus
+from google.cloud import storage
+
+gcshus.upload(
+    storage.Client(), "my-bucket", "/path/to/src.txt", "dst.txt"
+)
+```
+
+### Generate a signed url for download
+```
+import gcshus
+from google.cloud import storage
+
+url = gcshus.generate_download_signed_url_with_token_refresh(
+    storage.Client(), "my-bucket", "dst.txt", 5
+)
+```
+
+### Download a file
+```
+import gcshus
+from google.cloud import storage
+
+gcshus.download(storage.Client(), bucket, "some/remote/blob.txt", "local-file.txt")
+```
+
+## Run test
+```
+docker compose up
+```

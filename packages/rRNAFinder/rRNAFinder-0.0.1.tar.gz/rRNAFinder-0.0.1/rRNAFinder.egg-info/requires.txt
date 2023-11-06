@@ -1,0 +1,4 @@
+toolbiox>=0.0.40
+hugep2g>=1.0.1
+bcbio-gff>=0.6.6
+biopython<=1.80

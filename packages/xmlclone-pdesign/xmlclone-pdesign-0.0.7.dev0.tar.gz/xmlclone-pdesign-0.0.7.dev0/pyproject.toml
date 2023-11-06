@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools", "wheel", "setuptools_scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "xmlclone-pdesign"
+dependencies = [
+]
+dynamic = ["version"]
+classifiers = [
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+description = "My package description"
+requires-python = ">=3.7"
+license = { text = "MIT"}
+authors = [
+    {name = "xmlclone", email = "xmlclone@gmail.com"},
+]
+
+[project.urls]
+Homepage = "https://github.com/xmlclone/pdesign"
+Documentation = "https://github.com/xmlclone/pdesign"
+Code = "https://github.com/xmlclone/pdesign"
+"Help/Questions" = "https://github.com/xmlclone/pdesign"
+"Issue tracker" = "https://github.com/xmlclone/pdesign"
+
+[project.readme]
+file = "README.md"
+content-type = "text/markdown"
+
+[tool.setuptools_scm]
+write_to = "_version.py"
+local_scheme = "no-local-version"

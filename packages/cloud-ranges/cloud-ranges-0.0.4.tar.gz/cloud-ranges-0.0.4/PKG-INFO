@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: cloud-ranges
+Version: 0.0.4
+Summary: Discover if IP belongs cloud providers ranges
+Home-page: https://gitlab.com/Zer1t0/cloud-ranges
+Author: Eloy Pérez González
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tqdm
+Requires-Dist: pandas
+Requires-Dist: requests
+Requires-Dist: bs4
+
+# cloud-ranges
+
+Discover if IP belongs to cloud providers.
+
+## Example
+
+Here there are some usage examples:
+
+```
+$ echo 20.236.44.162 | cloud-ranges
+20.236.44.162 azure westus2 20.236.0.0/18
+```
+
+```
+$ echo 20.236.44.162 | cloud-ranges -j
+{"cloud": "azure", "services": [], "region": "westus2", "network": "20.236.0.0/18", "target": "20.236.44.162"}
+```
+
+## Supported Cloud Providers
+
+- AWS
+- GCP
+- Azure
+- IBM
+- DigitalOcean
+- IBM Cloud
+
+
+## Installation
+
+```
+pip install cloud-ranges
+```

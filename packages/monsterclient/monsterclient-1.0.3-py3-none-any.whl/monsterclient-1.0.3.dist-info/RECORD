@@ -1,0 +1,8 @@
+monsterclient/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+monsterclient/api.py,sha256=g_qLyrkT43vKpyMEZLkgYCAF-hP8C5XtP5lUVaoP71k,9274
+monsterclient/monster.py,sha256=JEYL29SE1I9xdg85sJSsVB98cjCWYtuPKNUXAc2_CjM,3294
+monsterclient-1.0.3.dist-info/METADATA,sha256=WO9PCH8Jy9mIfxIheGSD9w0asNtx5yQLu3xA5fKNpPg,126
+monsterclient-1.0.3.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+monsterclient-1.0.3.dist-info/entry_points.txt,sha256=s-4auqgOy9mZmalPPznx0NwBOZs9jnfj5RLRl39tkXk,55
+monsterclient-1.0.3.dist-info/top_level.txt,sha256=NNxNWtpwPwy40BqIpBlG65oHJVac4cDh9SSXmIZNViM,14
+monsterclient-1.0.3.dist-info/RECORD,,

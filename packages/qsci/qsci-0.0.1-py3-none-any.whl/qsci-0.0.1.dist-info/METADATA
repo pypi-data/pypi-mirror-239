@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: qsci
+Version: 0.0.1
+Summary: High level application based on isqdeployer
+Home-page: https://www.arclightquantum.com/
+License: LICENSE.md
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: isqdeployer
+Requires-Dist: matplotlib
+Requires-Dist: rich
+

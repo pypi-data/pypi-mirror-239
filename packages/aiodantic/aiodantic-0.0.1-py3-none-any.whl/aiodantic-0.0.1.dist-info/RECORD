@@ -1,0 +1,15 @@
+aiodantic/__init__.py,sha256=VDdFs6u-RlsIB8L149nJdMiju7uhIiNIf7oGq3Uh-PE,1674
+aiodantic/docs.py,sha256=AZgQJPbcrqj8Yq41fh1mB76ENF6tWDJsKD55HC1x2XU,7217
+aiodantic/functions.py,sha256=JZLStW3t33aCZawhTLxxwESiLGeVzn-nTjIRe1Wbz2A,6371
+aiodantic/helpers.py,sha256=1mm1T6adhzBY8oaF9OfHgRAwSAYqtcBR1QyJbywL5rA,2054
+aiodantic/json.py,sha256=alcBwCkiAr76xFEsNV-hBUnhuvDRGp-MNHT3RO9VD1I,4248
+aiodantic/main.py,sha256=wUMfuJzaHog5G3_n6azNvVjdeUoL_1uDCycFAxEgsXw,4280
+aiodantic/openai.py,sha256=xiJgpV19WzhFnX8FLxEtyjyxncIH6kHtG8j2KLuNfxw,14698
+aiodantic/schema.py,sha256=wma7rVaclIFa1Lcn9zrqyrNNhwir4SiYpaMVUgtYHVo,11383
+aiodantic/server.py,sha256=y91HhiuwpCMShgrQv7N8i6Zd5XRgABl6OyTd2KulRf8,10999
+aiodantic/service.py,sha256=Rdi0abr--Q6_4mpOgMi9p9isbXLm3EB6dexFnB4_eZg,14306
+aiodantic/typedef.py,sha256=-56FDvjPXgcb4wxbfCM6RfesS5ufuxCMLeB2pY2KK8E,1243
+aiodantic/utils.py,sha256=04Zhg8_HJq45HiQLvuiuwpW-fFKKYrvAx8t3nbPNhY0,6395
+aiodantic-0.0.1.dist-info/METADATA,sha256=uRLkYePSneTkW1xCmWiAdvY-Bx9NtqNNJ1qobEKJPI0,999
+aiodantic-0.0.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+aiodantic-0.0.1.dist-info/RECORD,,

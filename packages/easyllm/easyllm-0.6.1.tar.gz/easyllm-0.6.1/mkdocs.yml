@@ -1,0 +1,139 @@
+# Project information
+site_name: EasyLLM
+site_author: Philipp Schmid
+site_url: https://philschmid.github.io/easyllm/
+site_description: >-
+  EasyLLM is an open source project that provides helpful tools and methods for working with large language models (LLMs), both open source and closed source. 
+
+# Repository
+repo_name: philschmid/easyllm
+repo_url: https://github.com/philschmid/easyllm
+
+# Copyright
+copyright: Copyright &copy; 2023 Philipp Schmid
+
+# mkdocs.yml
+theme:
+  name: 'material'
+  features:
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    # - content.code.select
+    # - content.tabs.link
+    - content.tooltips
+    # - header.autohide
+    - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    # - navigation.instant
+    # - navigation.prune
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - navigation.path
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    # - toc.integrate
+  palette:
+    - scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+plugins:
+  - search
+  - tags
+  # - social
+  - mkdocs-jupyter:
+      include: ["examples/*.ipynb"] # Default: ["*.py", "*.ipynb"]
+  - mkdocstrings
+# Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:materialx.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+nav:
+  - Documentation:
+    - EasyLLM: index.md 
+    - Installation: installation.md
+    - "API Reference":
+      - "Clients":
+        - clients/index.md
+        - clients/huggingface.md
+        - clients/sagemaker.md
+        - clients/bedrock.md
+      - prompt_utils.md
+  - Examples:
+    - examples/index.md
+    - "Hugging Face":
+      - examples/chat-completion-api.ipynb
+      - examples/stream-chat-completions.ipynb
+      - examples/text-completion-api.ipynb
+      - examples/stream-text-completions.ipynb
+      - examples/get-embeddings.ipynb
+      - examples/inference-endpoints-example.ipynb
+      - examples/llama2-rag-example.ipynb
+      - examples/llama2-agent-example.ipynb
+      - examples/falcon-180b-chat.ipynb
+    - "Amazon SageMaker":
+      - examples/sagemaker-chat-completion-api.ipynb
+      - examples/sagemaker-text-completion-api.ipynb
+      - examples/sagemaker-get-embeddings.ipynb
+    - "Amazon Bedrock":
+      - examples/bedrock-chat-completion-api.ipynb
+      - examples/bedrock-stream-chat-completions.ipynb

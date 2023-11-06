@@ -1,0 +1,9 @@
+computev1/__init__.py,sha256=f2GyH-DYr84jGbwxEiy24uBoFe9W7sujdenZ-oj1yUs,213
+computev1/compute_client.py,sha256=SftWXXqqgTeV68xWcYvirqMJEj7TGIroGL4f64E4UD4,5524
+computev1/paging.py,sha256=Z9urwSGeNWgonqJyfTWyVdL77OI51aLm33TBnSV-OcU,1717
+filesystem/__init__.py,sha256=5Gqx5z6dOKZE3TBZyZK2UYaL1o3d3FH4KpG1Sz77fWY,212
+filesystem/blobstore.py,sha256=FEpoa_bd_CjsW4LmMZd6jmyNGojp3MRrMGn0tXNb-TY,2919
+windmill_compute-1.0.0.1.dist-info/METADATA,sha256=f1X9MERW-lesPZbu0_tmkd338Lf3ytKJ0295tBvJBGI,656
+windmill_compute-1.0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+windmill_compute-1.0.0.1.dist-info/top_level.txt,sha256=aUftSz_d8_QDtsdGJku_unzmt7pYQwWQq1R9c-Z15YE,21
+windmill_compute-1.0.0.1.dist-info/RECORD,,

@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: kaszubski-tlumacz
+Version: 1.0.3
+Summary: Pakiet tłumaczący z polkiego na kaszubski i odwrotnie
+Author: Szymtest
+Author-email: olstows30@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# Make sure you have upgraded version of pip
+Windows
+```
+py -m pip install --upgrade pip
+```
+
+Linux/MAC OS
+```
+python3 -m pip install --upgrade pip
+```
+# required package
+```
+pip install beautifulsoup4
+```
+# Project description
+The package uses the beautifulsoup4 package which uses the page to fetch a word from the page: https://kaszebe.org/.
+The package itself can translate short sentences, because too long code causes errors
+# Who use a pacpage?
+```
+from kaszubski_translate_Szymtest import a
+print(a.tlumacz_p_k(""))
+This a function print translate from Polish to Kashubian.
+print(a.tlumacz_k_p(""))
+This a function print translate from Kashubian to Polish.
+
+```

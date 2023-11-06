@@ -1,0 +1,12 @@
+giga_json/__init__.py,sha256=tMGBCasFMk7KR9ybwOlnjVVsMWsHjDi9uUOyVbmkKBc,16117
+giga_json/__version__.py,sha256=bMIenWosteoeUs51RbaWVZetIuzRhWymuyy-n0rfK0I,21
+giga_json/handlers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+giga_json/handlers/numpy.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+giga_json/handlers/pytorch.py,sha256=kOYdxo296v2lUEOCtC_u3qWZ1NapxTdhR_c_x72ZiVk,51
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_giga.py,sha256=JW5Kvqww60hXMRHpleZr2llPPw3lhdOxUgG3BMJxlBU,7866
+giga_json-1.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+giga_json-1.0.1.dist-info/METADATA,sha256=5GjoTMNs-Y0QXKKgEJh1YTLXns8k-t3v2STwXHfiLc0,507
+giga_json-1.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+giga_json-1.0.1.dist-info/top_level.txt,sha256=Dh96g_FO5_wk-iTyuQBSOzYPCsIgR6XqCh1QgeBzy4Y,15
+giga_json-1.0.1.dist-info/RECORD,,

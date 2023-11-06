@@ -1,0 +1,2 @@
+[console_scripts]
+cloud-ranges = cloud_ranges.__main__:main

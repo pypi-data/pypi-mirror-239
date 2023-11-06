@@ -1,0 +1,16 @@
+nfn/__init__.py,sha256=WmfL2N9Df2FexQd2BKLgdO6HnC2gA-wOOWJyFMS8U8U,30
+nfn/common/__init__.py,sha256=WR4CAEcArw2vWl9Hc0pb82VkQZBkhM-PMnMcv_BeiwE,220
+nfn/common/data.py,sha256=7HUcAYbgJNYU76pgUCXwAGDpPNQazFuSynQV4IcB9J4,5846
+nfn/layers/__init__.py,sha256=PclAXTapqCKsaJa6mbvZsevdLENvPIbim_Li-AmY6vE,529
+nfn/layers/encoding.py,sha256=TpKWDDAHfZ5-dj5Eh795ax_yvHOQ5ixfxjesxDbUSCA,6244
+nfn/layers/layer_utils.py,sha256=s5fxwSft1DyY1Lge5L1XsmXlB401grf24tL8s6l3EFM,2187
+nfn/layers/layers.py,sha256=ycIEKZ50lq1BgSmg1hSPkfZBktjFdn0vhZTVhvJn-Yo,22797
+nfn/layers/misc_layers.py,sha256=L71E2OnZAqvnGTrFCwkpyIP28VO1AY3mev55o8DgTg4,5600
+nfn/layers/regularize.py,sha256=sHFMoWzsa1uVBef5bfi9nFL9oZllp61lEtTZkfHwrfs,4539
+tests/__init__.py,sha256=sQF99G-BLFtTyzm9wyJuD3iLb7gYHGg2ShyKlOE8jfA,24
+tests/test_layers.py,sha256=M6LQjShsNHnEGddwa1i-OTzejmbJfBOwCa2jPWUmgCE,10076
+nfn-0.1.2.dist-info/LICENSE,sha256=XLYRwNEjxxP1wvBR2nq3o1KnhspM3FUVIWbLOFAUG_U,1057
+nfn-0.1.2.dist-info/METADATA,sha256=EMSNmU4K9Qs7I37XEIKV_ZC1KOELsNPWzhEECCuRqxg,432
+nfn-0.1.2.dist-info/WHEEL,sha256=P2T-6epvtXQ2cBOE_U1K4_noqlJFN3tj15djMgEu4NM,110
+nfn-0.1.2.dist-info/top_level.txt,sha256=vtizpnRMbu6C1UwvKz70F7XNK-iTwTnZvtBCNCttnpI,4
+nfn-0.1.2.dist-info/RECORD,,

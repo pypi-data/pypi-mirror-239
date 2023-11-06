@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: python-simple-secrets-manager
+Version: 0.1.0
+Summary: A simple python based secrets manager.
+Home-page: https://github.com/harttraveller/python-simple-secrets-manager
+Author: Hart Traveller
+Author-email: ruling_fiction.0b@icloud.com
+Maintainer: Hart Traveller
+Maintainer-email: ruling_fiction.0b@icloud.com
+Requires-Python: >3.9.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: loguru (>=0.7.2,<0.8.0)
+Requires-Dist: pendulum (>=2.1.2,<3.0.0)
+Requires-Dist: pick (>=2.2.0,<3.0.0)
+Requires-Dist: pydantic (>=2.4.2,<3.0.0)
+Requires-Dist: rich (>=13.6.0,<14.0.0)
+Requires-Dist: rich-click (>=1.7.1,<2.0.0)
+Requires-Dist: toml (>=0.10.2,<0.11.0)
+Project-URL: Documentation, https://harttraveller.com/python-simple-secrets-manager
+Project-URL: Repository, https://github.com/harttraveller/python-simple-secrets-manager
+Description-Content-Type: text/markdown
+
+# simple-token-manager
+
+

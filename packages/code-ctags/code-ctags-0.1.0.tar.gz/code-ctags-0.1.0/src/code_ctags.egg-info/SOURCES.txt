@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+src/setup.py
+src/code_ctags/__init__.py
+src/code_ctags/main.py
+src/code_ctags/repomap.py
+src/code_ctags.egg-info/PKG-INFO
+src/code_ctags.egg-info/SOURCES.txt
+src/code_ctags.egg-info/dependency_links.txt
+src/code_ctags.egg-info/requires.txt
+src/code_ctags.egg-info/top_level.txt

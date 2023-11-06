@@ -1,0 +1,9 @@
+kmh_gpu_monitor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kmh_gpu_monitor/__main__.py,sha256=h1StYizK7fhY9spn_R22oZsgkNG77oz-HSTdubuAYPI,53
+kmh_gpu_monitor/copy_id.py,sha256=6OhdKvAIqp7nuVkEBMy7T-cER_RMfPCIe_lumJiJcrQ,1775
+kmh_gpu_monitor/kmh_gpu_monitor.py,sha256=bfvSLMAc6Fk-OxTgH9YQEg1YGQbsxLGL_h8uIqpopF8,3362
+kmh_gpu_monitor-0.2.3.dist-info/LICENSE,sha256=LpEQTwUxR7ZXKK2vfClISAEgLNEIfvixrNESDyDOY2U,1069
+kmh_gpu_monitor-0.2.3.dist-info/METADATA,sha256=gRi2TjBF5odIGA9EpXbCpRysAbCPuiBh-tysw-u6MaM,2644
+kmh_gpu_monitor-0.2.3.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+kmh_gpu_monitor-0.2.3.dist-info/top_level.txt,sha256=6b8uqRRW1V2_53tpLkGyEKb97hNTmKjn5fHXQhe-mP8,16
+kmh_gpu_monitor-0.2.3.dist-info/RECORD,,

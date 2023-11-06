@@ -1,0 +1,3 @@
+[console_scripts]
+aiodantic=aiodantic.__main__:main
+

@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: aiodantic
+Version: 0.0.2
+Summary: 
+Author: Oscar Bahamonde
+Author-email: oscar.bahamonde.dev@gmail.com
+Requires-Python: >=3.9,<3.13
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: aiohttp (>=3.8.6,<4.0.0)
+Requires-Dist: aiohttp-cors (>=0.7.0,<0.8.0)
+Requires-Dist: aiohttp-sse (>=2.1.0,<3.0.0)
+Requires-Dist: boto3 (>=1.28.78,<2.0.0)
+Requires-Dist: gunicorn (>=21.2.0,<22.0.0)
+Requires-Dist: numpy (>=1.26.1,<2.0.0)
+Requires-Dist: openai (>=0.28.1,<0.29.0)
+Requires-Dist: pydantic (==1.10.12)
+Requires-Dist: pyjwt (>=2.8.0,<3.0.0)
+Requires-Dist: rich (>=13.6.0,<14.0.0)
+Requires-Dist: tenacity (>=8.2.3,<9.0.0)
+Requires-Dist: tiktoken (>=0.5.1,<0.6.0)
+Description-Content-Type: text/markdown
+
+# Aiodantic
+
+# Building site...

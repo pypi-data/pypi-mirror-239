@@ -1,0 +1,58 @@
+
+# 🎨 Color Crafter Py
+
+[![codecov](https://codecov.io/gh/WernerLuiz92/color_crafter_py/branch/main/graph/badge.svg?token=color_crafter_py_token_here)](https://codecov.io/gh/WernerLuiz92/color_crafter_py)
+[![CI](https://github.com/WernerLuiz92/color_crafter_py/actions/workflows/main.yml/badge.svg)](https://github.com/WernerLuiz92/color_crafter_py/actions/workflows/main.yml)
+
+
+> <center style="color: #f87171; text-align: center; width: 100%;">🚨 ⚠️ 🚧 <b>ATTENTION PLEASE</b> 🚧 ⚠️ 🚨</center><br />
+> This is my first Python project and is still in early development. Wait for new versions to test it. Or test it at your own risk. I'm still studying <b>Python</b> and I'm not responsible for instabilities.<br /><br />
+
+## 🚀 Introduction
+
+🎨 **Color Crafter Py** is a versatile **Python** library designed for effortlessly infusing colors, styles, and custom RGB hues into text displayed on your terminal. It's a user-friendly, low-dependency package that simplifies the process of printing colorful and stylish text in the terminal. Whether you're looking to highlight important information, create visually appealing output, or add a creative flair to your scripts and applications, Color Crafter Py has you covered.
+
+### 🗝 Key Features:
+
+- 🖌 Easily customize text with a wide range of colors, including custom full RGB values.*
+  - 🖌🎨 Has a set of predefined colors.
+  - 🖌🎨 Accepts 8-bit colors.
+  - 🖌🎨 Accepts 24-bit colors.
+  - 🖌🎨 Accepts HEX format colors.
+- 📝 Apply various text styles, such as bold, italic, and more.
+- 🖼 Foreground and background colors for your text.
+- ❗Highlight specific text elements to enhance information visibility.
+- 🖥 Compatible with Unix, Windows, and other popular systems.
+
+Elevate your CLI experience with Color Crafter Py and inject a burst of vibrancy and style into your terminal interactions!
+
+## 🚀 Getting Started
+
+### Install it from PyPI
+
+```bash
+pip install color_crafter_py
+```
+
+### Usage
+
+```py
+from color_crafter_py import BaseClass
+from color_crafter_py import base_function
+
+BaseClass().base_method()
+base_function()
+```
+## Development
+
+Read the [CONTRIBUTING.md](CONTRIBUTING.md) file.
+
+## Notes
+* *Not every terminal supports all of the colors available. The package was developed for in Linux using ZSH and BASH terminals.
+
+## License
+
+Read the [LICENSE.md](LICENSE.md) file.
+
+---
+<center>color_crafter_py <small>created by</small> <a href="https://github.com/WernerLuiz92">🧔🏼‍♂️ WernerLuiz92</a></center>

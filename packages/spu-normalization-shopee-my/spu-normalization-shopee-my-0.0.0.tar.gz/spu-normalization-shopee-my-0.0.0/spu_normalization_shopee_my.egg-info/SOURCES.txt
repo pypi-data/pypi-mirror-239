@@ -1,0 +1,6 @@
+README.md
+setup.py
+spu_normalization_shopee_my.egg-info/PKG-INFO
+spu_normalization_shopee_my.egg-info/SOURCES.txt
+spu_normalization_shopee_my.egg-info/dependency_links.txt
+spu_normalization_shopee_my.egg-info/top_level.txt

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2023 OpenSynergy Indonesia
+     Copyright 2023 PT. Simetri Sinergi Indonesia
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<odoo>
+    <record id="rma_module_category" model="ir.module.category">
+        <field name="name">RMA Up</field>
+    </record>
+
+    <!-- Configurator -->
+    <record id="rma_configurator_module_category" model="ir.module.category">
+        <field name="name">RMA Up - Configurator</field>
+        <field name="parent_id" ref="rma_module_category" />
+    </record>
+
+    <!-- Workflow -->
+    <record id="rma_workflow_module_category" model="ir.module.category">
+        <field name="name">RMA Up - Workflow</field>
+        <field name="parent_id" ref="rma_module_category" />
+    </record>
+
+    <!-- Data Ownership -->
+    <record id="rma_data_ownership_module_category" model="ir.module.category">
+        <field name="name">RMA Up - Data Ownership</field>
+        <field name="parent_id" ref="rma_module_category" />
+    </record>
+
+</odoo>

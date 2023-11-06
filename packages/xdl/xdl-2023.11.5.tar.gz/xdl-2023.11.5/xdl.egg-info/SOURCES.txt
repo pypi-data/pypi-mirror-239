@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+xdl/__init__.py
+xdl.egg-info/PKG-INFO
+xdl.egg-info/SOURCES.txt
+xdl.egg-info/dependency_links.txt
+xdl.egg-info/not-zip-safe
+xdl.egg-info/requires.txt
+xdl.egg-info/top_level.txt

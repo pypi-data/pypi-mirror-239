@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: xdl
+Version: 2023.11.5
+Summary: xdl: Deep Learning with Xarray
+Home-page: https://github.com/fzhu2e/xdl
+Author: Feng Zhu
+Author-email: fengzhu@ucar.edu
+License: MIT
+Keywords: deep learning,xarray
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.11
+License-File: LICENSE
+
+# xdl
+Deep Learning with Xarray

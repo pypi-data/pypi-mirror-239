@@ -1,0 +1,2 @@
+[console_scripts]
+easyllm = easyllm.cli:main

@@ -1,0 +1,8 @@
+beetsplug/__init__.py,sha256=ONBINOc4tdhgm3qYh5AetYfmqOCzcvSmTxtZ07gwyb0,145
+beetsplug/filetote.py,sha256=5zcNJgdwYWENGQbwnYc9FR1nDZeClCCDn-uIOMIz-1w,24376
+beetsplug/filetote_dataclasses.py,sha256=tKraQZUG0GUcuwDxJo5cSm52XwPeSPIVly8TlWp9F_A,2571
+beetsplug/mapping_model.py,sha256=jIS-Uq9VIAvasXQMfs7YGpmyitpHU_inMJ72r3XafFE,2205
+beets_filetote-0.4.3.dist-info/LICENSE,sha256=bpOyek9HFrXpQfxgs_zAbhZWAH6I0YEtvWO7Oi_M7dA,1143
+beets_filetote-0.4.3.dist-info/METADATA,sha256=rmTn8XDzBazCoIAcmzaHm9mGGsgTkbwvFffcgIXacTw,15559
+beets_filetote-0.4.3.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+beets_filetote-0.4.3.dist-info/RECORD,,

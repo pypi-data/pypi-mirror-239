@@ -1,0 +1,3 @@
+[console_scripts]
+pyIcingaCheck = pyIcingaFramework.ic2check:apicli
+pyIcingaChecksnmp = pyIcingaFramework.ic2check:snmpcli

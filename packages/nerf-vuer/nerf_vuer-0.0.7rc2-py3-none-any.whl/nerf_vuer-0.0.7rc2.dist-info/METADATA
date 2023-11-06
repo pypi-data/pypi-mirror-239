@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: nerf-vuer
+Version: 0.0.7rc2
+Home-page: https://github.com/geyang/nerf-vuer
+Author: Ge Yang<ge.ike.yang@gmail.com>
+Author-email: ge.ike.yang@gmail.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python
+Requires-Python: >=3.8.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tqdm
+Requires-Dist: termcolor
+Requires-Dist: params-proto
+Requires-Dist: killport
+Requires-Dist: msgpack
+Provides-Extra: dev
+Requires-Dist: black ==22.3.0 ; extra == 'dev'
+Requires-Dist: pylint ==2.13.4 ; extra == 'dev'
+Requires-Dist: pytest ==7.1.2 ; extra == 'dev'
+
+# NeRF-Vuer: NeRF adaptor for the Vuer framework
+
+This module adds NeRF support to [vuer](https://github.com/geyang/vuer), a 3D visualization tool for robotics and VR applications.
+
+## Installation
+
+```bash
+pip install vuer==0.0.7-rc2
+pip install nerf-vuer==0.0.7-rc2
+```
+
+## To Develop
+
+```bash
+git clone https://github.com/geyang/nerf-vuer.git
+cd nerf-vuer
+pip install -e .
+```
+
+
+

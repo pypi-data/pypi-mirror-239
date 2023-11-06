@@ -1,0 +1,8 @@
+chatformat/__init__.py,sha256=UOgpkMMqxEZKpuufPQ-BBcwNKtLwn8vSVKvOd7PMrWo,83
+chatformat/exceptions.py,sha256=7ERl7r5MqkjHqSgrKmgQHvZ-WicY3nkKxZMWfdl00fg,44
+chatformat/format.py,sha256=7-zpohKLTmBANENIxrlCL0HbgjkXfzYhXawjTtNTxgc,2534
+chatformat/templates.yml,sha256=KxT1opquQnXekbqLbbMOvL1UzrkHdjAMeOSS6VWyM4E,1390
+chatformat-1.2.dist-info/METADATA,sha256=sYU_yJtd1yGznyp_RRe7etmtJ7ooQnKDn_rfWHBHbHU,75
+chatformat-1.2.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+chatformat-1.2.dist-info/top_level.txt,sha256=0icUGZzaxrLJ2hL76PdkxDZFB9FzeFWhjuIMbKj-PPU,11
+chatformat-1.2.dist-info/RECORD,,

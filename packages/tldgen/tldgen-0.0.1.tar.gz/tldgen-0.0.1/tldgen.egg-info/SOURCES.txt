@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+tldgen/__init__.py
+tldgen/__main__.py
+tldgen/version.py
+tldgen.egg-info/PKG-INFO
+tldgen.egg-info/SOURCES.txt
+tldgen.egg-info/dependency_links.txt
+tldgen.egg-info/entry_points.txt
+tldgen.egg-info/requires.txt
+tldgen.egg-info/top_level.txt

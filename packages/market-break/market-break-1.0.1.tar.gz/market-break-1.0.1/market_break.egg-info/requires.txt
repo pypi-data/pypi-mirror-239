@@ -1,0 +1,11 @@
+numpy
+pandas
+matplotlib
+attrs
+pillow
+pyrepresent
+
+[dev]
+pdoc3
+twine
+pytest

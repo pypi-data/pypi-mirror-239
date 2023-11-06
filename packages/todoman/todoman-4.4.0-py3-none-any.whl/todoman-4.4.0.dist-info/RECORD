@@ -1,0 +1,17 @@
+todoman/__init__.py,sha256=M1b93yYZ_HUVQflN51OCiBKIUU8nqB4OP2Wm4YX-gwc,183
+todoman/__main__.py,sha256=lYhWjV0oylUK6Tbewew4BP24P2cG056JxK8JxdDfSrw,130
+todoman/cli.py,sha256=mHXcajB8z6wpPYKxnhPwGm-Q4-H1tjf3CsgIOTk6OC8,17467
+todoman/configuration.py,sha256=v-0WxJnYdZROEhVBcVh7-P5sLV-rQLt3w1eAbH6BUgI,7090
+todoman/exceptions.py,sha256=MIHGmDCmdCnlJm0OYTXgce_60t41bH1iDJYI1jzP37A,1069
+todoman/formatters.py,sha256=RuLk1I911ZVtbawuX2svR2UJecabHIwfXwBi7aKuuug,10849
+todoman/interactive.py,sha256=LXWYZ11u9VaLix_JFHpjmXae2PJe1NPmRR3qx3pKDs4,6522
+todoman/model.py,sha256=n6fg1vWm2ij038QdPL7ihJqpaq57-pjolfv-zueondk,35358
+todoman/version.py,sha256=pkb2VH_yOdxokR4fHjjRuoDleeRchBNiBMUDIHZWczg,411
+todoman/widgets.py,sha256=8U1C8ehghrD0aimHlLd8NE4uz5AYgjGhz4TmAB3lFQ0,5843
+todoman-4.4.0.dist-info/AUTHORS.rst,sha256=EqpS3xlvEX971zsaF-vOczjkZsuKW_h4nPukEa1NkgM,1344
+todoman-4.4.0.dist-info/LICENCE,sha256=dnLPTcdjIuR6cgVtYyxHm3B1OJ5AllPkzcnwACF2P10,765
+todoman-4.4.0.dist-info/METADATA,sha256=P0y-eiQnEfgekyOe6om6rbRVILG0ge0wPySIQ107_W8,4287
+todoman-4.4.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+todoman-4.4.0.dist-info/entry_points.txt,sha256=HVcRTjIFC9fe6pV7OCr0vpH1fN78OYM1Nf7me2eqDqQ,41
+todoman-4.4.0.dist-info/top_level.txt,sha256=Vx-yv1ZP2SPRnnvdQ2pUrHNc3Gcc6sN04EPLD_1KwlI,8
+todoman-4.4.0.dist-info/RECORD,,

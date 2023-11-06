@@ -1,0 +1,11 @@
+## Include
+include README.md LICENSE NOTICE requirements.txt
+recursive-include compiler *.py *.tl *.tsv *.txt
+recursive-include tests *.py
+
+## Exclude
+prune pixlib/errors/exceptions
+prune pixlib/raw/functions
+prune pixlib/raw/types
+prune pixlib/raw/base
+exclude pixlib/raw/all.py

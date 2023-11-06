@@ -1,0 +1,14 @@
+dotalib_parsers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dotalib_parsers/web/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dotalib_parsers/web/base.py,sha256=wNo_5a8J6BZ2q0zlemdmTkiAdVS6rxpIr_J1zY8RMtY,289
+dotalib_parsers/web/cyberscore.py,sha256=KiEdNap8VtG2Cuq1rBk-vS87BU1AolpQU8VbdhscsT8,2366
+dotalib_parsers/web/dotabuff.py,sha256=mTPWxpTPsJRpy8n0IQapaKtMUFXB3vED0xtyaA5dYbQ,2411
+dotalib_parsers/web/hawk/__init__.py,sha256=FX60-BsGGhsE-A3qArJ2V5j0q-lDCLovqJDV-kjpjBI,98
+dotalib_parsers/web/hawk/livematches.py,sha256=_ohXg95U4cY95fAunoKa4gwpShlSq040wd0YVyLyXfY,1430
+dotalib_parsers/web/hawk/match.py,sha256=DFUO-rN1Dw5n9RVTH-2yh-Zj5_y8od84Q8o-_Hkzpb0,3215
+dotalib_parsers/web/hawk/odds.py,sha256=q3Q7W0IrowRUvuyjMCl1C5Z_-BnIY_DO9e4moMWeTaY,2439
+dotalib_parsers-0.0.4.dist-info/LICENSE,sha256=1dxkkP36OlNr9jf45d-HVXYUOBb7Xa1OP9tLuq1TiSY,1087
+dotalib_parsers-0.0.4.dist-info/METADATA,sha256=C64zaPYYiKRsDV00CuU-3GF6xUPB3u_j_ZUDhSX1dWI,425
+dotalib_parsers-0.0.4.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+dotalib_parsers-0.0.4.dist-info/top_level.txt,sha256=97RyNaB3AEHZemSjAGMcX8z9cVSfgP2VfcdLFFLVFZE,16
+dotalib_parsers-0.0.4.dist-info/RECORD,,

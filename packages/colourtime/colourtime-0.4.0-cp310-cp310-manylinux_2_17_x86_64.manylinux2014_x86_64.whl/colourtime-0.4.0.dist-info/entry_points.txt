@@ -1,0 +1,2 @@
+[console_scripts]
+colourtime=colourtime:main

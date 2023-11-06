@@ -1,0 +1,2 @@
+[console_scripts]
+ppm-disp = ppm_display.ppm_disp:main

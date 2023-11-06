@@ -1,0 +1,10 @@
+uuid_utils-0.6.1.dist-info/METADATA,sha256=n2cRIvPyh16fFb-4OMW4g-FRdXcVcV1kwuf-cCFeXNQ,4211
+uuid_utils-0.6.1.dist-info/WHEEL,sha256=XiJ15upWs0G18UxdIGOu3Tu2-ZDQCIrpbVv1xA7eWzg,128
+uuid_utils-0.6.1.dist-info/license_files/LICENSE.md,sha256=DEf1K0xIS9BMeOfJaVQu6jGv5kT1h_O4qMzOhjUsYEY,1487
+uuid_utils/compat/__init__.pyi,sha256=msxBDRkxWjdSRFmCeP2O2J6pib2qkJoZEaoC5hcF8X8,1425
+uuid_utils/compat/__init__.py,sha256=ajFZzOqIG4NPov3MOxyX3RoZeORisTJqn6X1H0PWGRY,1617
+uuid_utils/__init__.pyi,sha256=Nyd0LDQeqTqOKkjU4358YbDFbxrqwpPb9hP6aQioVCg,6057
+uuid_utils/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+uuid_utils/__init__.py,sha256=teEvYB7oh34wISOjZYdA011-7VdeLKfQGjR615_-lCc,622
+uuid_utils/_uuid_utils.cpython-37m-arm-linux-gnueabihf.so,sha256=pGT2CcJ_od4j3k5j3V2HpawW2SaSIXBzpA3LZNRC72M,4696692
+uuid_utils-0.6.1.dist-info/RECORD,,

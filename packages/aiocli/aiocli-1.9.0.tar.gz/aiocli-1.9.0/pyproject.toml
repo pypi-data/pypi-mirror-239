@@ -1,0 +1,207 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools"]
+
+[project]
+authors = [
+  { name = "ticdenis", email = "denisnavarroalcaide@outlook.es" },
+  { name = "yasti4", email = "adria_4_@hotmail.com" },
+]
+maintainers = [
+  { name = "ticdenis", email = "denisnavarroalcaide@outlook.es" }
+]
+classifiers = [
+  "Intended Audience :: Information Technology",
+  "Intended Audience :: System Administrators",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+  "Topic :: Software Development :: Libraries",
+  "Topic :: Software Development",
+  "Typing :: Typed",
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+]
+dependencies = []
+description = "Simple and lightweight async console runner."
+dynamic = ["version"]
+keywords = ["asyncio", "async", "aio", "cli", "console"]
+license = { text = "MIT" }
+name = "aiocli"
+readme = "README.md"
+requires-python = ">=3.8"
+
+[project.optional-dependencies]
+dev = [
+  'pre-commit>=3.3.3',
+  'tomli>=2.0.1; python_version<"3.11"',
+  'types-toml>=0.10.8.7; python_version<"3.11"',
+]
+deploy = [
+  "build>=0.10.0",
+  'setuptools>=68.1.2',
+  "twine>=4.0.2",
+  "wheel>=0.41.1",
+]
+docs = [
+  "mkdocs>=1.5.2",
+  "mkdocs-material>=9.1.21",
+]
+fmt = [
+  'black>=23.7.0',
+  'isort>=5.12.0',
+]
+security-analysis = [
+  "bandit>=1.7.5",
+  "liccheck>=0.9.1",
+]
+static-analysis = [
+  'mypy>=1.5.1',
+  "pylint>=2.17.5",
+]
+test = [
+  "psutil>=5.9.5",
+  "pytest>=7.4.0",
+  "pytest-asyncio>=0.21.1",
+  "pytest-cov>=4.1.0",
+  "pytest-xdist>=3.3.1",
+]
+
+[project.urls]
+"documentation" = "https://aiopy.github.io/python-aiocli/"
+"repository" = "https://github.com/aiopy/python-aiocli"
+
+[tool.setuptools.dynamic]
+version = { attr = "aiocli.__version__" }
+
+[tool.setuptools.packages.find]
+include = ["aiocli*"]
+
+[tool.setuptools.package-data]
+"aiocli" = ["py.typed"]
+
+[tool.bandit]
+skips = ["B101", "B311"]
+
+[tool.black]
+include = '\.pyi?$'
+line-length = 120
+skip-string-normalization = true
+
+[tool.coverage.paths]
+source = ["aiocli"]
+[tool.coverage.run]
+data_file = "var/coverage/.coverage"
+disable_warnings = ["no-data-collected"]
+source = ["tests"]
+[tool.coverage.report]
+fail_under = 70
+[tool.coverage.html]
+directory = "var/coverage"
+
+[tool.isort]
+profile = "black"
+
+[tool.liccheck]
+authorized_licenses = []
+no_deps = true
+dependencies = true
+
+[tool.mypy]
+strict = true
+cache_dir = "var/mypy"
+
+[tool.pylint.master]
+jobs = "0"
+[tool.pylint.messages_control]
+disable = "C0103,C0114,C0115,C0116,C0205,C0209,C0301,E0401,E0611,E1135,E1136,R0801,R0902,R0903,R0904,R0913,R0914,R1704,R1725,W0108,W0212,W0235,W0236,W0603,W0611,W0622,W0703,W0707,W1202"
+
+[tool.pytest.ini_options]
+cache_dir = "var/pytest"
+addopts = "-q -n auto -p no:warnings --no-cov-on-fail"
+testpaths = ["tests"]
+
+[tool.run-script]
+install = "python3 -m pip install ."
+dev-install = "python3 -m pip install .[dev,deploy,docs,fmt,security-analysis,static-analysis,test]"
+deploy = "python3 -m build --no-isolation && python3 -m twine upload dist/*"
+docs = "python3 -m mkdocs build -f docs_src/config/en/mkdocs.yml && python3 -m mkdocs build -f docs_src/config/es/mkdocs.yml"
+dev-docs = "python3 -m mkdocs serve -f docs_src/config/en/mkdocs.yml"
+fmt = "python3 -m black aiocli tests && python3 -m isort aiocli tests"
+security-analysis = "python3 -m liccheck && python3 -m bandit -r -c pyproject.toml aiocli tests"
+static-analysis = "python3 -m mypy aiocli && python3 -m pylint aiocli"
+test = "python3 -m pytest"
+unit-tests = "python3 -m pytest tests/unit"
+integration-tests = "python3 -m pytest tests/integration"
+functional-tests = "python3 -m pytest tests/functional"
+coverage = "python3 -m pytest --cov --cov-report=html"
+tox = "python3 -m pip install -U tox tox-gh-actions && tox"
+clean = """python3 -c \"
+from glob import iglob
+from shutil import rmtree
+
+for pathname in ['./build', './*.egg-info', './dist', './var', '**/__pycache__']:
+  for path in iglob(pathname, recursive=True):
+    rmtree(path, ignore_errors=True)
+\""""
+dev-server = """python3 -c \"
+from asyncio import CancelledError, TimeoutError as AsyncTimeoutError, get_event_loop, sleep, wait_for
+from contextlib import suppress
+from signal import SIGHUP, SIGINT, SIGTERM
+
+async def development_server(timeout: int) -> None:
+  retry = True
+  async def _check() -> None:
+    if not retry:
+      return
+    while retry:
+      await sleep(1)
+  try:
+    print('Development server running...', '')
+    await wait_for(fut=_check(), timeout=timeout)
+  except (TimeoutError, AsyncTimeoutError):
+    pass
+  finally:
+    retry = False
+
+async def run_development_server(timeout: int) -> None:
+  loop = get_event_loop()  # lazy
+  coro = development_server(timeout)
+  task = loop.create_task(coro)
+  _ = [loop.add_signal_handler(sig, task.cancel) for sig in (SIGHUP, SIGTERM, SIGINT)]
+  with suppress(CancelledError):
+    await task
+
+if __name__ >= '__main__':
+  get_event_loop().run_until_complete(run_development_server(timeout=3600))  # 1h
+\""""
+
+[tool.tox]
+legacy_tox_ini = """
+[tox]
+envlist = py38, py39, py310, py311, py312
+isolated_build = True
+skipsdist = True
+skip_missing_interpreters = True
+toxworkdir = var/tox
+
+[gh-actions]
+python =
+    3.8: py38
+    3.9: py39
+    3.10: py310
+    3.11: py311
+    3.12: py312
+
+[testenv]
+deps = .[dev,deploy,docs,fmt,security-analysis,static-analysis,test]
+commands = pytest
+"""

@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.py
+src/lru/__init__.py
+src/lru/__init__.pyi
+src/lru/_lru.c
+src/lru/py.typed
+src/lru_dict.egg-info/PKG-INFO
+src/lru_dict.egg-info/SOURCES.txt
+src/lru_dict.egg-info/dependency_links.txt
+src/lru_dict.egg-info/requires.txt
+src/lru_dict.egg-info/top_level.txt
+test/test_lru.py

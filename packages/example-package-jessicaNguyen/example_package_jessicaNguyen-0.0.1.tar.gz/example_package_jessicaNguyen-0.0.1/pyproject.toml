@@ -1,0 +1,16 @@
+[project]
+name = "example_package_jessicaNguyen"
+version = "0.0.1"
+authors = [
+  { name="Jessica Nguyen", email="jnguye44@msudenver.edu" },
+]
+description = "A small example package"
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/pypa/sampleproject"
+"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"

@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/example_package_jessicaNguyen/__init__.py
+src/example_package_jessicaNguyen/example.py
+src/example_package_jessicaNguyen.egg-info/PKG-INFO
+src/example_package_jessicaNguyen.egg-info/SOURCES.txt
+src/example_package_jessicaNguyen.egg-info/dependency_links.txt
+src/example_package_jessicaNguyen.egg-info/top_level.txt

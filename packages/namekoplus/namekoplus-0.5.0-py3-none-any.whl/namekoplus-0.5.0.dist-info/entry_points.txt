@@ -1,0 +1,3 @@
+[console_scripts]
+namekoplus = namekoplus.command:cli
+

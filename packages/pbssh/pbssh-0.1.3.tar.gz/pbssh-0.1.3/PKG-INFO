@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pbssh
+Version: 0.1.3
+Summary: A wrapper over SSH commands which grabs credentials from Passbolt.
+Author: Joshua Arulsamy
+Author-email: joshua.gf.arul@gmail.com
+License: MIT
+License-File: LICENSE
+Requires-Dist: pgpy~=0.6.0
+Requires-Dist: requests~=2.31.0
+
+A wrapper over SSH commands which grabs credentials from Passbolt.

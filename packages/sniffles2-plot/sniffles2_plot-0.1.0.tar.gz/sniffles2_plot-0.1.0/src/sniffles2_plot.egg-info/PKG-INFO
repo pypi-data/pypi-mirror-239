@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: sniffles2-plot
+Version: 0.1.0
+Summary: a visualizer tool for plot generating
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: seaborn<1,>=0.11.0
+Requires-Dist: upsetplot<1,>=0.8.0
+Requires-Dist: pandas<2,>=1.1.3
+Requires-Dist: matplotlib<4,>=3.3.2
+
+# Sniffle Plot
+
+The Sniffle Plot is a Python program that generates plots for single and multi-sample VCF files.
+
+Type of plots for single sample VCF file:
+
+1. Variant Frequency Spectrum
+2. Genotype Frequency
+3. SV Size & Type Distribution
+4. Comparison of Length of Variants
+
+Type of plots for multi samples VCF file:
+    
+1. Variant Frequency Spectrum
+2. Upset plot for sample intersection
+3. SV sites per genome
+4. Variant call all SVs
+5. Size distribution
+6. Heat map for deletion and insertion intersections
+
+
+## Requirements
+
+The following dependencies are required to use the Genome Chart Data Generator:
+
+- Python 3.x
+- matplotlib
+- upsetplot
+- seaborn 
+
+## usage
+For running the program for numbers of vcf files in a sepcific directory:
+     python3 sniffles2_plots.py -i <VCF_files_folder>
+     
+For running the program for single vcf file:
+     python3 sniffles2_plots.py -i <file_name> -o <output_folder>
+

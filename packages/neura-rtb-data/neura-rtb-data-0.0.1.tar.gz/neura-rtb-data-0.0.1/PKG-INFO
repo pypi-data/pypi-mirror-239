@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: neura-rtb-data
+Version: 0.0.1
+Summary: Data files for the Robotics Toolbox for Python.
+Home-page: https://github.com/JTem/neura-roboticstoolbox
+Author: Jens Temminghoff
+Author-email: jens.temminghoff@neura-robotics.com
+Project-URL: Source, https://github.com/JTem/neura-roboticstoolbox
+Keywords: python robotics
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Description-Content-Type: text/markdown
+
+# Robotics Toolbox for Python - data files
+
+extended the original rtb-data with Maira7M
+
+## Installing the package
+
+You don't need to explicitly install this package, it happens automatically when you when you install RTB-P
+
+```
+pip install nerua-roboticstoolbox
+```
+since it is a dependency.

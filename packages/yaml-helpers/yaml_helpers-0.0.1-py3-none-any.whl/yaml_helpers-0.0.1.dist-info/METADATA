@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: yaml_helpers
+Version: 0.0.1
+Summary: yaml helpers package
+Author: Sanjer
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+python -m build --wheel 
+pip install ../YAML_Helpers/dist/yaml_helpers-0.0.1-py3-none-any.whl  
+
+[pypi]
+  username = __token__
+  password = pypi-AgEIcHlwaS5vcmcCJDIwZTlhYTA2LTIzZmYtNDEyNy1hYjlkLTZmNTliOTlhZWFmNAACKlszLCIxY2ZiZWYxMy05OTIxLTQyMTctOWFjMi1jOGYwZjg4NDY2NGEiXQAABiAow_pJdqAVpp6CgoeycPT4LSiLZeSAoAL3zrVyYcGLtw

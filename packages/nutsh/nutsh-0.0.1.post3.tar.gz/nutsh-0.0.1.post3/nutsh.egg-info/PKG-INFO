@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: nutsh
+Version: 0.0.1.post3
+Summary: The Python SDK of nutsh.ai
+Home-page: https://nutsh.ai/
+Author: Xu Han
+Author-email: hxhxhx88@gmail.com
+Description-Content-Type: text/markdown
+Requires-Dist: grpcio-tools==1.59.2
+Requires-Dist: grpc-stubs==1.53.0.3
+Requires-Dist: requests==2.31.0
+
+# The Python SDK for nutsh

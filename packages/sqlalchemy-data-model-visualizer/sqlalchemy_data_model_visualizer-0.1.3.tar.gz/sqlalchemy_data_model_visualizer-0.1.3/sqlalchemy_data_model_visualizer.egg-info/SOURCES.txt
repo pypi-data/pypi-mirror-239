@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+sqlalchemy_data_model_visualizer.py
+sqlalchemy_data_model_visualizer.egg-info/PKG-INFO
+sqlalchemy_data_model_visualizer.egg-info/SOURCES.txt
+sqlalchemy_data_model_visualizer.egg-info/dependency_links.txt
+sqlalchemy_data_model_visualizer.egg-info/requires.txt
+sqlalchemy_data_model_visualizer.egg-info/top_level.txt

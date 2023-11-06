@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: FoldOptLib
+Version: 0.1.4b0
+Summary: Open source Fold Geometry Optimisers for LoopStructural and Map2Loop
+Home-page: https://github.com/Loop3D/FoldOptLib
+Author: Rabii Chaarani
+Author-email: rabii.chaarani@monash.edu
+License: MIT
+Keywords: earth sciences,geology,3-D modelling,structural geology,uncertainty,fold geometry
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Other Audience
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: License :: Free for non-commercial use
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Multimedia :: Graphics :: 3D Modeling
+Classifier: Topic :: Scientific/Engineering
+License-File: LICENSE
+Requires-Dist: loopstructural>=1.4.10
+Requires-Dist: scipy>=1.2.2
+Requires-Dist: ipywidgets
+Requires-Dist: mplstereonet
+
+# FoldOptLib - Fold Geometry Optimisation Library

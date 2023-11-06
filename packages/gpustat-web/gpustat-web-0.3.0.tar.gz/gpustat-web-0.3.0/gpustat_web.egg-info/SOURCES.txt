@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+gpustat_web/__init__.py
+gpustat_web/__main__.py
+gpustat_web/app.py
+gpustat_web.egg-info/PKG-INFO
+gpustat_web.egg-info/SOURCES.txt
+gpustat_web.egg-info/dependency_links.txt
+gpustat_web.egg-info/entry_points.txt
+gpustat_web.egg-info/not-zip-safe
+gpustat_web.egg-info/requires.txt
+gpustat_web.egg-info/top_level.txt
+gpustat_web/template/index.html

@@ -1,0 +1,4 @@
+toml
+pipython
+bitstring
+pymodaq>=4.0.7

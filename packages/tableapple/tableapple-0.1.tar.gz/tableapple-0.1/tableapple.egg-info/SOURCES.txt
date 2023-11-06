@@ -1,0 +1,8 @@
+README.md
+setup.py
+tableapple/__init__.py
+tableapple.egg-info/PKG-INFO
+tableapple.egg-info/SOURCES.txt
+tableapple.egg-info/dependency_links.txt
+tableapple.egg-info/requires.txt
+tableapple.egg-info/top_level.txt

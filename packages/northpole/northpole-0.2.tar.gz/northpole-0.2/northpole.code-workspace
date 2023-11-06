@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"**/__pycache__": true,
+			".mypy_cache": true,
+			".ruff_cache": true
+		}
+	}
+}

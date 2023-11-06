@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: milomcint
+Version: 0.1.0
+Summary: Libreria de integracion por montecarlo
+Home-page: https://gitlab.com/camilo.londonov
+Author: Milo
+Author-email: camilo.londonov@udea.edu.co
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.10.12
+Description-Content-Type: text/markdown
+
+# milomcint
+## Descripción
+Este paquete contiene funciones para calcular integrales de Monte Carlo.
+

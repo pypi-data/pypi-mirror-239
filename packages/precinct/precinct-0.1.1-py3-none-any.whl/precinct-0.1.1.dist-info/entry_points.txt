@@ -1,0 +1,2 @@
+[console_scripts]
+precinct = precinct.main:main

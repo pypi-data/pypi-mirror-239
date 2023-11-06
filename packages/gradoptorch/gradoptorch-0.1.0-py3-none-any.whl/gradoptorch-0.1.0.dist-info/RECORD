@@ -1,0 +1,8 @@
+gradoptorch/__init__.py,sha256=1ESAjR8Y8esYmLL1ABYz8ScOIcRd7EyJiA7zoJgrcfI,114
+gradoptorch/gradoptorch.py,sha256=mVOcZg8xR1yQn45sYBocvY9sL8htSoJj_MeQxQdQN0o,21458
+gradoptorch/lstorch.py,sha256=-uDQIW2mIY3E6FbpgzsSn4IEye0GXT3kHRfTOxzQeC4,6550
+gradoptorch/module.py,sha256=vvhgIKOfjcEdrs2WB727yWYz-sCBeTU2zghRvEyxNtY,2736
+gradoptorch-0.1.0.dist-info/LICENSE,sha256=EE2MJBKPlj01uXRLYibPr_13ByJvp5La3O0CbyRK5JI,1069
+gradoptorch-0.1.0.dist-info/METADATA,sha256=32odRHi566MqNQIu7FqToVTx-EeFVd-lbfL6zA6eXWc,2382
+gradoptorch-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+gradoptorch-0.1.0.dist-info/RECORD,,

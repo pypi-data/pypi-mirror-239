@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: fgtools
+Version: 2.1.0
+Summary: Tools for FlightGear scenery generation and aircraft development
+Home-page: https://github.com/TheFGFSEagle/fgtools
+Author: TheFGFSEagle
+Author-email: thefgfseagle@gmail.com
+License: GPLv3
+Project-URL: Homepage, https://github.com/TheFGFSEagle/fgtools
+Project-URL: Bug Tracker, https://github.com/TheFGFSEagle/fgtools/issues
+Keywords: flightgear
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+Requires-Dist: scipy
+Requires-Dist: plum-dispatch
+

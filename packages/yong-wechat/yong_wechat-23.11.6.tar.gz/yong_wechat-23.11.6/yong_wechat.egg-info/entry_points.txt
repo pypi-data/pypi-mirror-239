@@ -1,0 +1,3 @@
+[console_scripts]
+jujube = yong_wechat:jujube
+pill = yong_wechat:pill

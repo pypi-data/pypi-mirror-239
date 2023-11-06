@@ -1,0 +1,6 @@
+lxml
+gembox
+aiofiles
+playwright
+setuptools
+beautifulsoup4

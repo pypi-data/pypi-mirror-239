@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: why_is_the_singular_form_of_the_word_ears_not_ushu_but_ear
+Version: 0.1.2
+Summary: Mem modul
+Author: Nodus
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11

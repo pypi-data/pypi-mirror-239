@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+tablemango/__init__.py
+tablemango/tablemango12.py
+tablemango12.egg-info/PKG-INFO
+tablemango12.egg-info/SOURCES.txt
+tablemango12.egg-info/dependency_links.txt
+tablemango12.egg-info/requires.txt
+tablemango12.egg-info/top_level.txt

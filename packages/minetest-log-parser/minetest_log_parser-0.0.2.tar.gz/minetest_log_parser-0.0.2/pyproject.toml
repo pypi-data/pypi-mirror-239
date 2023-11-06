@@ -1,0 +1,18 @@
+[project]
+name = "minetest_log_parser"
+version = "0.0.2"
+authors = [
+  { name="alwayshopeless", email="always.hopeless@protonmail.com" },
+]
+description = "Minetest player action log parser"
+readme = "readme.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/alwayshopeless/minetest-logs-parser"
+"Bug Tracker" = "https://github.com/alwayshopeless/minetest-logs-parser/issues"

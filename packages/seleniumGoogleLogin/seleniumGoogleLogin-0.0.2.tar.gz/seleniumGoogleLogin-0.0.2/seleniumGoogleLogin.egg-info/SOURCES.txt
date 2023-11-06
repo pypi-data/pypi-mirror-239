@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+seleniumGoogleLogin/__init__.py
+seleniumGoogleLogin.egg-info/PKG-INFO
+seleniumGoogleLogin.egg-info/SOURCES.txt
+seleniumGoogleLogin.egg-info/dependency_links.txt
+seleniumGoogleLogin.egg-info/requires.txt
+seleniumGoogleLogin.egg-info/top_level.txt

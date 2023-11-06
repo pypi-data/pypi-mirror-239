@@ -1,0 +1,10 @@
+README.md
+setup.py
+in_azure/__init__.py
+in_azure/funcs.py
+inftjnhge545er.egg-info/PKG-INFO
+inftjnhge545er.egg-info/SOURCES.txt
+inftjnhge545er.egg-info/dependency_links.txt
+inftjnhge545er.egg-info/top_level.txt
+tests/__init__.py
+tests/test_funcs.py

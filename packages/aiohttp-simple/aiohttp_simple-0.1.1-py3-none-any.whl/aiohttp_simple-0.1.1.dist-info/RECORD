@@ -1,0 +1,14 @@
+aiohttp_simple-0.1.1.dist-info/METADATA,sha256=Vs1P60DHbPHpiE7nXHkr_D7AwD-kFpP4Yxbqm5zDodg,454
+aiohttp_simple-0.1.1.dist-info/WHEEL,sha256=C8f_gqhOWmHrh81n3Ukx5iURrqMhsHla81fuY1yuwvs,90
+aiohttp_simple/__init__.py,sha256=JvyfxB-_a8qk_adCqgk98hv23nbjrYzmA1rQ_9ALIxo,198
+aiohttp_simple/middlewares/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aiohttp_simple/middlewares/db.py,sha256=LUk1fsPh2cVe_a2xjmPENdlkUdNIt2Im83UXnZZDKZM,949
+aiohttp_simple/template/__init__.py,sha256=zN7G6WzCXxZ-Mb6jNDXxvXE7kQ92KmrZjfw64nZV2Kg,227
+aiohttp_simple/template/data_model.py,sha256=_OiCF3Dib7i-bU7FeGxcSH9ADjRzozQ8DbP-UYYkKlg,934
+aiohttp_simple/template/db_table.py,sha256=aNUOGEnyT_g1p3NEqofplUsdF--fVU8FRrW4cSiBM6k,773
+aiohttp_simple/template/response.py,sha256=0PO7plLyvMpnVODwAjfXMxaQFYOt95SXdTTSgp74gCA,1986
+aiohttp_simple/template/service.py,sha256=dS7EzjiH6Oz86CMgopKZntcWPQqbZ1DSL2RlKXN13_E,723
+aiohttp_simple/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aiohttp_simple/utils/log.py,sha256=1NTe5S8TMATwLTJzAGg56L0aloNV-GvRvhB61LxLh6I,665
+aiohttp_simple/utils/setting.py,sha256=T6MydVclvG_lHyBtEN5iL6F7J2hAz0I0Va1xKEGh5e8,4683
+aiohttp_simple-0.1.1.dist-info/RECORD,,

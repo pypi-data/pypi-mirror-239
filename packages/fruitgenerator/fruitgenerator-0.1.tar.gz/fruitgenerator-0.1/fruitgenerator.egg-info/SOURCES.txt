@@ -1,0 +1,7 @@
+setup.py
+fruitgenerator/__init__.py
+fruitgenerator/generator.py
+fruitgenerator.egg-info/PKG-INFO
+fruitgenerator.egg-info/SOURCES.txt
+fruitgenerator.egg-info/dependency_links.txt
+fruitgenerator.egg-info/top_level.txt

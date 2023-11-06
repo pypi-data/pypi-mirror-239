@@ -1,0 +1,2 @@
+[console_scripts]
+tldgen = tldgen.__main__:main

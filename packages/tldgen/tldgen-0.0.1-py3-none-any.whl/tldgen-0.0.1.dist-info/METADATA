@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: tldgen
+Version: 0.0.1
+Summary: Append TLDs to subdomains
+Home-page: https://gitlab.com/Zer1t0/tldgen
+Author: Eloy Pérez González
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: bs4
+Requires-Dist: pandas
+
+# tldgen
+
+Append TLD to words. Helps to perform domain enumeration.
+
+
+## Example
+
+Give a word to append TLDs:
+```
+$ tldgen contoso
+contoso.aaa
+contoso.aarp
+contoso.abarth
+contoso.abb
+...
+contoso.zippo
+contoso.zm
+contoso.zone
+contoso.zuerich
+contoso.zw
+```
+
+## Installation
+
+```
+pip install tldgen
+```

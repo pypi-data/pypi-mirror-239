@@ -1,0 +1,7 @@
+README.md
+setup.py
+microservice_template.egg-info/PKG-INFO
+microservice_template.egg-info/SOURCES.txt
+microservice_template.egg-info/dependency_links.txt
+microservice_template.egg-info/requires.txt
+microservice_template.egg-info/top_level.txt

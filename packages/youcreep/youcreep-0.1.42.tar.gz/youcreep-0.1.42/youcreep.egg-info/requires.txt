@@ -1,0 +1,8 @@
+gembox
+cetino
+pandas
+setuptools
+deprecated
+playwright
+wrightyrion
+beautifulsoup4

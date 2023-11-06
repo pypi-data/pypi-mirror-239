@@ -1,0 +1,12 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.md
+REQUIREMENTS.txt
+setup.py
+import_yxdb/__init__.py
+import_yxdb.egg-info/PKG-INFO
+import_yxdb.egg-info/SOURCES.txt
+import_yxdb.egg-info/dependency_links.txt
+import_yxdb.egg-info/requires.txt
+import_yxdb.egg-info/top_level.txt

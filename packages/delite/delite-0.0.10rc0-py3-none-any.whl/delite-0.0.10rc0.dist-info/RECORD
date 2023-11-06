@@ -1,0 +1,8 @@
+delite/__init__.py,sha256=n3y-lgvJaTS2zFHh7dQbm_0Btb7zM6ZP1okjJwklnkw,27
+delite/connection.py,sha256=otKW-Y1_0Guo4t58GuzvklfuqQdee_4O3IFJ-v4TdsI,1832
+delite/credentials.py,sha256=RO6DWgOGA7EUYsTOZOsu_lfLufyP2vaRWOzeU8CRi6Y,689
+delite/sql.py,sha256=LIj_hyqfIc09mjct9MuXspZLNsNC2LLBWt3pAyenjpg,2515
+delite/storage.py,sha256=naOnaauUJejaohZjjlqUhSj0l65PJTHyosbK1Kkz_co,1216
+delite-0.0.10rc0.dist-info/METADATA,sha256=uFW0r7pL7Hulal-GEfIhPTCOdt1BYx2YdycAoY31Jeo,549
+delite-0.0.10rc0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+delite-0.0.10rc0.dist-info/RECORD,,

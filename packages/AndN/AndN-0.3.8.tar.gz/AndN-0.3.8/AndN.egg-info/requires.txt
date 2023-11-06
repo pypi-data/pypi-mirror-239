@@ -1,0 +1,2 @@
+AndroidTools==0.2.5
+protobuf==4.23.4

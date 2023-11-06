@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: midprint
+Version: 0.0.1
+Summary: A package to work with printers
+Author: Ashiqul Islam Ayon
+Author-email: ashiqulislamayon28@gmail.com
+Keywords: python,printer
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+A package that allows to print anything using a python script on the printer machine.

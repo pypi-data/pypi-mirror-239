@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/aioqueuerpc/__init__.py
+src/aioqueuerpc/job_spec.py
+src/aioqueuerpc/jsonrpc_schemas.py
+src/aioqueuerpc/rpc.py
+src/aioqueuerpc/worker.py
+src/aioqueuerpc.egg-info/PKG-INFO
+src/aioqueuerpc.egg-info/SOURCES.txt
+src/aioqueuerpc.egg-info/dependency_links.txt
+src/aioqueuerpc.egg-info/requires.txt
+src/aioqueuerpc.egg-info/top_level.txt

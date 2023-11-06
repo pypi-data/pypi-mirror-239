@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: nphmu-vdm
+Version: 0.0.2
+Summary: A package for Vibrations and Machine Dynamics
+Home-page: 
+Author: N. Papadakis
+Author-email: npapnet@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Machine Dynamics and Vibrations 
+
+This is a package for helping with the lecture of npapnet at the Mechanical Engineering department. 
+
+Contains code for:
+
+- SDOF system
+  - Free response
+    - Undamped
+    - Damped
+  - Forced HArmonic response
+    - Undamped
+    - Damped 
+- TDOF systems
+- MDOF systems

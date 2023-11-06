@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: ast-grep-py
+Version: 0.13.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Rust
+Classifier: Topic :: Security
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: Topic :: Software Development
+Classifier: Topic :: Text Processing
+Requires-Dist: pytest >=7 ; extra == 'test'
+Provides-Extra: test
+Summary: Structural Search and Rewrite code at large scale using precise AST pattern.
+Keywords: ast,pattern,codemod,structural search,rewrite
+Author: Herrington Darkholme <2883231+HerringtonDarkholme@users.noreply.github.com>
+Author-email: Herrington Darkholme <2883231+HerringtonDarkholme@users.noreply.github.com>
+Maintainer-email: Herrington Darkholme <2883231+HerringtonDarkholme@users.noreply.github.com>
+License: MIT
+Requires-Python: >=3.8
+Project-URL: Repository, https://github.com/ast-grep/ast-grep
+Project-URL: Documentation, https://ast-grep.github.io/
+Project-URL: Changelog, https://github.com/ast-grep/ast-grep/blob/main/CHANGELOG.md

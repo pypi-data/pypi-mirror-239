@@ -1,0 +1,13 @@
+conveyant
+lytemaps
+matplotlib
+nibabel
+numpy
+pandas
+pyvista[all]
+scipy
+svg.py
+templateflow
+
+[test]
+seaborn

@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: compiam
+Version: 0.3.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author-email: genis.plaja@upf.edu, thomas.nuttall@upf.edu
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: docs
+Provides-Extra: tests

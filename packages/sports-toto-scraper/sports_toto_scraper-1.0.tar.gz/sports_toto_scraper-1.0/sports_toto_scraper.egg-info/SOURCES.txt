@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+sports_toto_scraper/__init__.py
+sports_toto_scraper/downloader.py
+sports_toto_scraper/scraper.py
+sports_toto_scraper.egg-info/PKG-INFO
+sports_toto_scraper.egg-info/SOURCES.txt
+sports_toto_scraper.egg-info/dependency_links.txt
+sports_toto_scraper.egg-info/top_level.txt
+tests/test1.py

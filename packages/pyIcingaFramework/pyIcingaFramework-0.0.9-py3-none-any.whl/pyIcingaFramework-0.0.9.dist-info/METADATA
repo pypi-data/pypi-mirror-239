@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: pyIcingaFramework
+Version: 0.0.9
+Summary: Icinga2 Check Framework library
+Author: Paul Denning
+Keywords: icinga2,nagios
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+
+# Icinga2 Check Framework

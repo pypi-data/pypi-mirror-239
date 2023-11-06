@@ -1,0 +1,4 @@
+[console_scripts]
+localpdb_pdbseqresmapper=localpdb.plugins.PrepPDBSeqresMapper:main
+localpdb_setup=localpdb.localpdb_setup:main
+

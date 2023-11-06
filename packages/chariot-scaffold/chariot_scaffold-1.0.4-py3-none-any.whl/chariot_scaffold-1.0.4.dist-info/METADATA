@@ -1,0 +1,693 @@
+Metadata-Version: 2.1
+Name: chariot-scaffold
+Version: 1.0.4
+Author: fengqing
+License: MIT
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: requests
+Requires-Dist: pyyaml
+Requires-Dist: colorlog
+Requires-Dist: python-multipart
+Requires-Dist: pydantic
+
+# new_sdk
+
+本项目旨在提供一个轻量级的脚手架，以简洁的代码形式辅助插件开发人员交付插件，降低心智负担。
+
+
+
+## Getting Started
+
+插件的编写从继承`Pack`类开始。由`Pack`完成`plugin.spec.yaml`等项目文件的生成以及插件的打包。
+
+插件中通过`Action`、`Trigger`、`Connection`装饰器来显式的声明方法属于动作、触发器或连接器。
+
+插件可以直接运行测功能。但插件与引擎交互需要通过内置的`Runtime`提供运行条件，参考`main.py`。
+
+插件定义在单文件中。
+
+插件相关的yaml配置不再通过注释绑定，通过`Pack`自带的`plugin_config_init`方法绑定，`name`即插件名称必填。
+
+动作、触发器、连接器相关的yaml配置也不再通过注释绑定，通过使用`Annotated`注解绑定，非必填。
+
+例如：`Annotated[str, "IP", "只能发送单个IP, 格式为: xx.xx.xx.xx"]`，`[]`中第一个参数为`type`，第二个参数为`title`，第三个参数为`description`。
+
+动作、触发器、连接器的`title`默认为方法名，`description`默认为`None`。
+
+动作、触发器、连接器通过`model`参数来支持对入参的强类型校验，校验模型使用`pydantic`库。
+
+动作支持通过返回值绑定`model`注解自动将返回值信息绑定到`plugin.spec.yaml`中的动作的`output`中。
+
+`Pack`内置`create_yaml`方法支持生成`plugin.spec.yaml`文件，内置`generate_project`方法生成项目文件（`Dockefile`,`help.md`等...）。内置`generate_offline_pack`、`generate_online_pack`方法生成离线包和在线包。
+
+当前版本在内网离线环境无需再手搓`plugin.spec.yaml`文件。使用docker即可在内网无痛打包。
+
+
+
+### 插件编写
+
+以下这个案例详细描述了插件是如何定义的。
+
+```python
+import uuid
+import time
+
+from kafka import KafkaConsumer
+from model import BLDInput, BLDOutput
+from chariot_scaffold import log, Annotated
+from chariot_scaffold.core.plugin import Pack, Trigger, Action, Connection
+
+class FwPlugin(Pack):
+    def __init__(self):     # 不要在这里传参
+        super().__init__()
+        self.port = None
+        self.user = None
+        self.passwd = None
+        self.host = None
+        self.plugin_config_init(name="fw_plugin",
+                                title="防火墙插件",
+                                description="XX防火墙插件支持黑名单策略新增、修改、删除,以及syslog日志接收。",
+                                version="0.1.2")
+
+    @Connection()
+    def connection(self, user: str, passwd: str, host: str, port: str):
+        self.user = user
+        self.passwd = passwd
+        self.host = host
+        self.port = port
+
+    @Action(title="新建黑名单")
+    def blacklist_create(self,
+                         host: Annotated[str, "IP", "只能发送单个IP, 格式为: xx.xx.xx.xx"],
+                         action: Annotated[str, "动作", "永久封禁、阶梯封禁"]
+                         ) -> dict:
+        print(host, action)
+        log.info(f"创建黑名单完毕")
+        return {"result": "success"}
+
+    @Action(title="修改黑名单", description="")
+    def blacklist_modify(self, host: Annotated[str, "host", "只能发送单个IP, 格式为: xx.xx.xx.xx"],
+                         action: Annotated[str, "动作", "永久封禁、阶梯封禁"]
+                         ) -> dict:
+        print(host, action)
+        log.info(f"修改黑名单完毕")
+        res = {"result": "success"}
+        return res
+
+    @Action(title="删除黑名单", description="", model=BLDInput)  # 入参校验
+    def blacklist_delete(self, host: Annotated[str, "host", "只能发送单个IP, 格式为: xx.xx.xx.xx"]) -> BLDOutput.__annotations__:    # 返回值注解绑定
+        print(host)
+        log.info(f"删除黑名单完毕")
+        res = BLDOutput(**{"result": "success"}).dict() # 返回值校验
+        return res
+
+    @Trigger(title="测试数据接收", description="")
+    def syslog_receiver(self, topic: str, bootstrap_servers: list[str] = None):
+        if bootstrap_servers is None:
+            bootstrap_servers = ["172.36.0.1:9092"]
+        consumer = KafkaConsumer(bootstrap_servers=bootstrap_servers)
+        consumer.subscribe([topic])
+        for msg in consumer:
+            alarm = {
+                "uid": str(uuid.uuid1()),
+                "name": f"{topic}-{int(time.time())}",
+                "alarm_ip": "",
+                "alarm_type": "",
+                "sip": "",
+                "tip": "",
+                "source": "kafka",
+                "type": "text",
+                "reputation": "good",
+                "status": False,
+                "raw": str(msg.value)
+            }
+            result = {
+                "alarm": alarm
+            }
+            log.info(result)
+            self.send(result)
+```
+
+>注意：
+>
+>脚手架对插件内部的注解、方法名、默认值自动解析以及类型检查，不关心action内部逻辑。
+
+
+
+### 插件功能测试
+
+直接运行即可。
+
+```
+pack = FwPlugin()
+pack.blacklist_create("1.1.1.1", "blacklist")
+```
+
+```python
+1.1.1.1 blacklist
+INFO  | 2023-09-25 18:14:15 <demo> blacklist_create:27  -> 创建黑名单完毕
+{'result': 'success'}
+```
+
+
+
+```python
+pack = FwPlugin()
+pack.blacklist_delete("1.1.1.1")
+```
+
+```python
+1.1.1.1
+INFO  | 2023-09-25 18:21:10 <demo> blacklist_delete:42  -> 删除黑名单完毕
+{'result': 'success'}
+```
+
+
+
+### 生成plugin.spec.yaml
+
+查看`plugin.spec.yaml`
+
+```python
+pack = FwPlugin()
+print(pack)
+```
+
+```yaml
+plugin_spec_version: v2
+extension: plugin
+entrypoint: demo
+module: FwPlugin
+name: fw_plugin
+title: 防火墙插件
+description: XX防火墙插件支持黑名单策略新增、修改、删除,以及syslog日志接收。
+version: 0.1.2
+vendor: chariot
+tags: []
+connection:
+  user:
+    title:
+      zh-CN: user
+    description:
+      zh-CN: null
+    type: string
+    required: true
+  passwd:
+    title:
+      zh-CN: passwd
+    description:
+      zh-CN: null
+    type: string
+    required: true
+  host:
+    title:
+      zh-CN: host
+    description:
+      zh-CN: null
+    type: string
+    required: true
+  port:
+    title:
+      zh-CN: port
+    description:
+      zh-CN: null
+    type: string
+    required: true
+actions:
+  blacklist_create:
+    title:
+      zh-CN: 新建黑名单
+    description:
+      zh-CN: null
+    input:
+      host:
+        title:
+          zh-CN: IP
+        description:
+          zh-CN: '只能发送单个IP, 格式为: xx.xx.xx.xx'
+        type: string
+        required: true
+      action:
+        title:
+          zh-CN: 动作
+        description:
+          zh-CN: 永久封禁、阶梯封禁
+        type: string
+        required: true
+    output:
+      output:
+        title:
+          zh-CN: 输出
+        description:
+          zh-CN: 输出
+        type: object
+  blacklist_modify:
+    title:
+      zh-CN: 修改黑名单
+    description:
+      zh-CN: ''
+    input:
+      host:
+        title:
+          zh-CN: host
+        description:
+          zh-CN: '只能发送单个IP, 格式为: xx.xx.xx.xx'
+        type: string
+        required: true
+      action:
+        title:
+          zh-CN: 动作
+        description:
+          zh-CN: 永久封禁、阶梯封禁
+        type: string
+        required: true
+    output:
+      output:
+        title:
+          zh-CN: 输出
+        description:
+          zh-CN: 输出
+        type: object
+  blacklist_delete:
+    title:
+      zh-CN: 删除黑名单
+    description:
+      zh-CN: ''
+    input:
+      host:
+        title:
+          zh-CN: host
+        description:
+          zh-CN: '只能发送单个IP, 格式为: xx.xx.xx.xx'
+        type: string
+        required: true
+    output:
+      result:
+        title:
+          zh-CN: 结果
+        description:
+          zh-CN: 成功或者失败
+        type: string
+alarm_receivers:
+  syslog_receiver:
+    title:
+      zh-CN: 测试数据接收
+    description:
+      zh-CN: ''
+    input:
+      topic:
+        title:
+          zh-CN: topic
+        description:
+          zh-CN: null
+        type: string
+        required: true
+      bootstrap_servers:
+        title:
+          zh-CN: bootstrap_servers
+        description:
+          zh-CN: null
+        type: '[]string'
+
+```
+
+
+
+### 生成项目文件
+
+```python
+pack = FwPlugin()
+pack.generate_project()
+```
+
+```shell
+D:\DEMO
+│  demo.py
+│  Dockerfile
+│  help.md
+│  icon.png
+│  main.py
+│  model.py
+│  plugin.spec.yaml
+└─ requirements.txt  
+```
+
+
+
+### 打包-在线包
+
+打包后的文件在`build`目录下。
+
+```python
+pack = FwPlugin()
+pack.generate_online_pack()
+```
+```shell
+D:\DEMO\BUILD
+    chariot-fw_plugin-0.1.2-online.tar.gz
+```
+
+```shell
+DEBUG | 2023-09-25 18:26:55 <tools> check_project_file:104  -> 正在校验项目文件是否存在
+DEBUG | 2023-09-25 18:26:55 <tools> check_project_file:123  -> 校验完毕
+DEBUG | 2023-09-25 18:26:55 <tools> generate_online_pack:132  -> 正在打包在线插件包
+DEBUG | 2023-09-25 18:26:55 <tools> generate_online_pack:139  -> 打包完毕
+```
+
+
+
+### 打包-离线包
+
+恢复了命令行打包，命令行会展示安装依赖的细节，减少莫名其妙的失败原因。
+
+打包后的文件在`build`目录下。
+
+```python
+pack = FwPlugin()
+pack.generate_offline_pack()
+```
+```shell
+D:\DEMO\BUILD
+    chariot-fw_plugin-0.1.2-offline.tar.gz
+```
+
+```shell
+DEBUG | 2023-09-25 18:28:09 <tools> check_project_file:104  -> 正在校验项目文件是否存在
+DEBUG | 2023-09-25 18:28:09 <tools> check_project_file:123  -> 校验完毕
+DEBUG | 2023-09-25 18:28:09 <tools> generate_offline_pack:147  -> 检查docker环境是否存在
+DEBUG | 2023-09-25 18:28:10 <tools> generate_offline_pack:154  -> docker版本为: 23.0.5
+DEBUG | 2023-09-25 18:28:10 <tools> generate_offline_pack:156  -> docker构建镜像中........
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 1.08kB done
+#1 DONE 0.1s
+
+#2 [internal] load .dockerignore
+#2 transferring context: 2B done
+#2 DONE 0.1s
+
+#3 [internal] load metadata for docker.io/library/python:3.11-slim
+#3 DONE 0.0s
+
+#4 [1/6] FROM docker.io/library/python:3.11-slim
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 97.75kB done
+#5 DONE 0.0s
+
+#6 [2/6] WORKDIR /python/src
+#6 CACHED
+
+#7 [3/6] ADD . /python/src
+#7 DONE 0.1s
+
+#8 [4/6] RUN chmod +x /python/src/main.py
+#8 DONE 0.4s
+
+#9 [5/6] RUN   apt-get update && apt-get install -y iputils-ping net-tools vim && apt-get clean
+#9 0.837 Get:1 http://deb.debian.org/debian bookworm InRelease [151 kB]
+#9 1.238 Get:2 http://deb.debian.org/debian bookworm-updates InRelease [52.1 kB]
+#9 1.439 Get:3 http://deb.debian.org/debian-security bookworm-security InRelease [48.0 kB]
+#9 2.780 Get:4 http://deb.debian.org/debian bookworm/main amd64 Packages [8906 kB]
+#9 2.973 Get:5 http://deb.debian.org/debian bookworm-updates/main amd64 Packages [6408 B]
+#9 3.185 Get:6 http://deb.debian.org/debian-security bookworm-security/main amd64 Packages [62.4 kB]
+#9 3.550 Fetched 9226 kB in 3s (3039 kB/s)
+#9 3.550 Reading package lists...
+#9 3.912 Reading package lists...
+#9 4.253 Building dependency tree...
+#9 4.343 Reading state information...
+#9 4.422 The following additional packages will be installed:
+#9 4.423   libcap2-bin libgpm2 libpam-cap libsodium23 vim-common vim-runtime xxd
+#9 4.424 Suggested packages:
+#9 4.424   gpm ctags vim-doc vim-scripts
+#9 4.485 The following NEW packages will be installed:
+#9 4.485   iputils-ping libcap2-bin libgpm2 libpam-cap libsodium23 net-tools vim
+#9 4.485   vim-common vim-runtime xxd
+#9 4.697 0 upgraded, 10 newly installed, 0 to remove and 1 not upgraded.
+#9 4.697 Need to get 9315 kB of archives.
+#9 4.697 After this operation, 43.2 MB of additional disk space will be used.
+#9 4.697 Get:1 http://deb.debian.org/debian bookworm/main amd64 libcap2-bin amd64 1:2.66-4 [34.7 kB]
+#9 4.888 Get:2 http://deb.debian.org/debian bookworm/main amd64 iputils-ping amd64 3:20221126-1 [47.1 kB]
+#9 5.143 Get:3 http://deb.debian.org/debian bookworm/main amd64 vim-common all 2:9.0.1378-2 [124 kB]
+#9 5.283 Get:4 http://deb.debian.org/debian bookworm/main amd64 libgpm2 amd64 1.20.7-10+b1 [14.2 kB]
+#9 5.423 Get:5 http://deb.debian.org/debian bookworm/main amd64 libpam-cap amd64 1:2.66-4 [14.5 kB]
+#9 5.679 Get:6 http://deb.debian.org/debian bookworm/main amd64 libsodium23 amd64 1.0.18-1 [161 kB]
+#9 5.971 Get:7 http://deb.debian.org/debian bookworm/main amd64 net-tools amd64 2.10-0.1 [243 kB]
+#9 6.863 Get:8 http://deb.debian.org/debian bookworm/main amd64 vim-runtime all 2:9.0.1378-2 [7025 kB]
+#9 7.304 Get:9 http://deb.debian.org/debian bookworm/main amd64 vim amd64 2:9.0.1378-2 [1567 kB]
+#9 7.546 Get:10 http://deb.debian.org/debian bookworm/main amd64 xxd amd64 2:9.0.1378-2 [83.7 kB]
+#9 7.622 debconf: delaying package configuration, since apt-utils is not installed
+#9 7.646 Fetched 9315 kB in 3s (3045 kB/s)
+#9 7.663 Selecting previously unselected package libcap2-bin.
+(Reading database ... 8386 files and directories currently installed.)
+#9 7.667 Preparing to unpack .../0-libcap2-bin_1%3a2.66-4_amd64.deb ...
+#9 7.675 Unpacking libcap2-bin (1:2.66-4) ...
+#9 7.728 Selecting previously unselected package iputils-ping.
+#9 7.730 Preparing to unpack .../1-iputils-ping_3%3a20221126-1_amd64.deb ...
+#9 7.738 Unpacking iputils-ping (3:20221126-1) ...
+#9 7.801 Selecting previously unselected package vim-common.
+#9 7.802 Preparing to unpack .../2-vim-common_2%3a9.0.1378-2_all.deb ...
+#9 7.811 Unpacking vim-common (2:9.0.1378-2) ...
+#9 7.879 Selecting previously unselected package libgpm2:amd64.
+#9 7.881 Preparing to unpack .../3-libgpm2_1.20.7-10+b1_amd64.deb ...
+#9 7.898 Unpacking libgpm2:amd64 (1.20.7-10+b1) ...
+#9 7.960 Selecting previously unselected package libpam-cap:amd64.
+#9 7.962 Preparing to unpack .../4-libpam-cap_1%3a2.66-4_amd64.deb ...
+#9 7.970 Unpacking libpam-cap:amd64 (1:2.66-4) ...
+#9 8.031 Selecting previously unselected package libsodium23:amd64.
+#9 8.032 Preparing to unpack .../5-libsodium23_1.0.18-1_amd64.deb ...
+#9 8.041 Unpacking libsodium23:amd64 (1.0.18-1) ...
+#9 8.094 Selecting previously unselected package net-tools.
+#9 8.095 Preparing to unpack .../6-net-tools_2.10-0.1_amd64.deb ...
+#9 8.104 Unpacking net-tools (2.10-0.1) ...
+#9 8.182 Selecting previously unselected package vim-runtime.
+#9 8.183 Preparing to unpack .../7-vim-runtime_2%3a9.0.1378-2_all.deb ...
+#9 8.194 Adding 'diversion of /usr/share/vim/vim90/doc/help.txt to /usr/share/vim/vim90/doc/help.txt.vim-tiny by vim-runtime'
+#9 8.205 Adding 'diversion of /usr/share/vim/vim90/doc/tags to /usr/share/vim/vim90/doc/tags.vim-tiny by vim-runtime'
+#9 8.210 Unpacking vim-runtime (2:9.0.1378-2) ...
+#9 8.585 Selecting previously unselected package vim.
+#9 8.587 Preparing to unpack .../8-vim_2%3a9.0.1378-2_amd64.deb ...
+#9 8.595 Unpacking vim (2:9.0.1378-2) ...
+#9 8.722 Selecting previously unselected package xxd.
+#9 8.723 Preparing to unpack .../9-xxd_2%3a9.0.1378-2_amd64.deb ...
+#9 8.732 Unpacking xxd (2:9.0.1378-2) ...
+#9 8.790 Setting up net-tools (2.10-0.1) ...
+#9 8.815 Setting up libsodium23:amd64 (1.0.18-1) ...
+#9 8.841 Setting up libgpm2:amd64 (1.20.7-10+b1) ...
+#9 8.867 Setting up xxd (2:9.0.1378-2) ...
+#9 8.892 Setting up libcap2-bin (1:2.66-4) ...
+#9 8.917 Setting up vim-common (2:9.0.1378-2) ...
+#9 8.952 Setting up vim-runtime (2:9.0.1378-2) ...
+#9 9.008 Setting up libpam-cap:amd64 (1:2.66-4) ...
+#9 9.081 debconf: unable to initialize frontend: Dialog
+#9 9.081 debconf: (TERM is not set, so the dialog frontend is not usable.)
+#9 9.081 debconf: falling back to frontend: Readline
+#9 9.081 debconf: unable to initialize frontend: Readline
+#9 9.081 debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.36.0 /usr/local/share/perl/5.36.0 /usr/lib/x86_64-linux-gnu/perl5/5.36 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl-base /usr/lib/x86_64-linux-gnu/perl/5.36 /usr/share/perl/5.36 /usr/local/lib/site_perl) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7.)
+#9 9.081 debconf: falling back to frontend: Teletype
+#9 9.131 Setting up iputils-ping (3:20221126-1) ...
+#9 9.160 Setting up vim (2:9.0.1378-2) ...
+#9 9.182 update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/editor (editor) in auto mode
+#9 9.182 update-alternatives: warning: skip creation of /usr/share/man/man1/editor.1.gz because associated file /usr/share/man/man1/vim.1.gz (of link group editor) doesn't exist
+#9 9.182 update-alternatives: warning: skip creation of /usr/share/man/da/man1/editor.1.gz because associated file /usr/share/man/da/man1/vim.1.gz (of link group editor) doesn't exist
+#9 9.182 update-alternatives: warning: skip creation of /usr/share/man/de/man1/editor.1.gz because associated file /usr/share/man/de/man1/vim.1.gz (of link group editor) doesn't exist
+#9 9.182 update-alternatives: warning: skip creation of /usr/share/man/fr/man1/editor.1.gz because associated file /usr/share/man/fr/man1/vim.1.gz (of link group editor) doesn't exist
+#9 9.182 update-alternatives: warning: skip creation of /usr/share/man/it/man1/editor.1.gz because associated file /usr/share/man/it/man1/vim.1.gz (of link group editor) doesn't exist
+#9 9.182 update-alternatives: warning: skip creation of /usr/share/man/ja/man1/editor.1.gz because associated file /usr/share/man/ja/man1/vim.1.gz (of link group editor) doesn't exist
+#9 9.182 update-alternatives: warning: skip creation of /usr/share/man/pl/man1/editor.1.gz because associated file /usr/share/man/pl/man1/vim.1.gz (of link group editor) doesn't exist
+#9 9.182 update-alternatives: warning: skip creation of /usr/share/man/ru/man1/editor.1.gz because associated file /usr/share/man/ru/man1/vim.1.gz (of link group editor) doesn't exist
+#9 9.182 update-alternatives: warning: skip creation of /usr/share/man/tr/man1/editor.1.gz because associated file /usr/share/man/tr/man1/vim.1.gz (of link group editor) doesn't exist
+#9 9.188 update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/ex (ex) in auto mode
+#9 9.188 update-alternatives: warning: skip creation of /usr/share/man/man1/ex.1.gz because associated file /usr/share/man/man1/vim.1.gz (of link group ex) doesn't exist
+#9 9.188 update-alternatives: warning: skip creation of /usr/share/man/da/man1/ex.1.gz because associated file /usr/share/man/da/man1/vim.1.gz (of link group ex) doesn't exist
+#9 9.188 update-alternatives: warning: skip creation of /usr/share/man/de/man1/ex.1.gz because associated file /usr/share/man/de/man1/vim.1.gz (of link group ex) doesn't exist
+#9 9.188 update-alternatives: warning: skip creation of /usr/share/man/fr/man1/ex.1.gz because associated file /usr/share/man/fr/man1/vim.1.gz (of link group ex) doesn't exist
+#9 9.188 update-alternatives: warning: skip creation of /usr/share/man/it/man1/ex.1.gz because associated file /usr/share/man/it/man1/vim.1.gz (of link group ex) doesn't exist
+#9 9.188 update-alternatives: warning: skip creation of /usr/share/man/ja/man1/ex.1.gz because associated file /usr/share/man/ja/man1/vim.1.gz (of link group ex) doesn't exist
+#9 9.188 update-alternatives: warning: skip creation of /usr/share/man/pl/man1/ex.1.gz because associated file /usr/share/man/pl/man1/vim.1.gz (of link group ex) doesn't exist
+#9 9.188 update-alternatives: warning: skip creation of /usr/share/man/ru/man1/ex.1.gz because associated file /usr/share/man/ru/man1/vim.1.gz (of link group ex) doesn't exist
+#9 9.188 update-alternatives: warning: skip creation of /usr/share/man/tr/man1/ex.1.gz because associated file /usr/share/man/tr/man1/vim.1.gz (of link group ex) doesn't exist
+#9 9.193 update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/rview (rview) in auto mode
+#9 9.198 update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/rvim (rvim) in auto mode
+#9 9.204 update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/vi (vi) in auto mode
+#9 9.204 update-alternatives: warning: skip creation of /usr/share/man/man1/vi.1.gz because associated file /usr/share/man/man1/vim.1.gz (of link group vi) doesn't exist
+#9 9.204 update-alternatives: warning: skip creation of /usr/share/man/da/man1/vi.1.gz because associated file /usr/share/man/da/man1/vim.1.gz (of link group vi) doesn't exist
+#9 9.204 update-alternatives: warning: skip creation of /usr/share/man/de/man1/vi.1.gz because associated file /usr/share/man/de/man1/vim.1.gz (of link group vi) doesn't exist
+#9 9.204 update-alternatives: warning: skip creation of /usr/share/man/fr/man1/vi.1.gz because associated file /usr/share/man/fr/man1/vim.1.gz (of link group vi) doesn't exist
+#9 9.204 update-alternatives: warning: skip creation of /usr/share/man/it/man1/vi.1.gz because associated file /usr/share/man/it/man1/vim.1.gz (of link group vi) doesn't exist
+#9 9.204 update-alternatives: warning: skip creation of /usr/share/man/ja/man1/vi.1.gz because associated file /usr/share/man/ja/man1/vim.1.gz (of link group vi) doesn't exist
+#9 9.204 update-alternatives: warning: skip creation of /usr/share/man/pl/man1/vi.1.gz because associated file /usr/share/man/pl/man1/vim.1.gz (of link group vi) doesn't exist
+#9 9.204 update-alternatives: warning: skip creation of /usr/share/man/ru/man1/vi.1.gz because associated file /usr/share/man/ru/man1/vim.1.gz (of link group vi) doesn't exist
+#9 9.204 update-alternatives: warning: skip creation of /usr/share/man/tr/man1/vi.1.gz because associated file /usr/share/man/tr/man1/vim.1.gz (of link group vi) doesn't exist
+#9 9.209 update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/view (view) in auto mode
+#9 9.209 update-alternatives: warning: skip creation of /usr/share/man/man1/view.1.gz because associated file /usr/share/man/man1/vim.1.gz (of link group view) doesn't exist
+#9 9.209 update-alternatives: warning: skip creation of /usr/share/man/da/man1/view.1.gz because associated file /usr/share/man/da/man1/vim.1.gz (of link group view) doesn't exist
+#9 9.209 update-alternatives: warning: skip creation of /usr/share/man/de/man1/view.1.gz because associated file /usr/share/man/de/man1/vim.1.gz (of link group view) doesn't exist
+#9 9.209 update-alternatives: warning: skip creation of /usr/share/man/fr/man1/view.1.gz because associated file /usr/share/man/fr/man1/vim.1.gz (of link group view) doesn't exist
+#9 9.209 update-alternatives: warning: skip creation of /usr/share/man/it/man1/view.1.gz because associated file /usr/share/man/it/man1/vim.1.gz (of link group view) doesn't exist
+#9 9.209 update-alternatives: warning: skip creation of /usr/share/man/ja/man1/view.1.gz because associated file /usr/share/man/ja/man1/vim.1.gz (of link group view) doesn't exist
+#9 9.209 update-alternatives: warning: skip creation of /usr/share/man/pl/man1/view.1.gz because associated file /usr/share/man/pl/man1/vim.1.gz (of link group view) doesn't exist
+#9 9.209 update-alternatives: warning: skip creation of /usr/share/man/ru/man1/view.1.gz because associated file /usr/share/man/ru/man1/vim.1.gz (of link group view) doesn't exist
+#9 9.209 update-alternatives: warning: skip creation of /usr/share/man/tr/man1/view.1.gz because associated file /usr/share/man/tr/man1/vim.1.gz (of link group view) doesn't exist
+#9 9.214 update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/vim (vim) in auto mode
+#9 9.219 update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/vimdiff (vimdiff) in auto mode
+#9 9.232 Processing triggers for libc-bin (2.36-9+deb12u1) ...
+#9 DONE 9.3s
+
+#10 [6/6] RUN if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+#10 1.957 Collecting fastapi (from -r requirements.txt (line 2))
+#10 2.188   Downloading fastapi-0.103.1-py3-none-any.whl (66 kB)
+#10 2.272      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 66.2/66.2 kB 819.0 kB/s eta 0:00:00
+#10 2.359 Collecting uvicorn (from -r requirements.txt (line 3))
+#10 2.402   Downloading uvicorn-0.23.2-py3-none-any.whl (59 kB)
+#10 2.434      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 59.5/59.5 kB 2.0 MB/s eta 0:00:00
+#10 2.527 Collecting requests (from -r requirements.txt (line 4))
+#10 2.576   Downloading requests-2.31.0-py3-none-any.whl (62 kB)
+#10 2.603      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.6/62.6 kB 2.3 MB/s eta 0:00:00
+#10 2.723 Collecting pyyaml (from -r requirements.txt (line 5))
+#10 2.769   Downloading PyYAML-6.0.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (757 kB)
+#10 2.909      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 757.7/757.7 kB 5.5 MB/s eta 0:00:00
+#10 3.187 Collecting pydantic (from -r requirements.txt (line 6))
+#10 3.231   Downloading pydantic-2.3.0-py3-none-any.whl (374 kB)
+#10 3.251      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 374.5/374.5 kB 20.1 MB/s eta 0:00:00
+#10 3.308 Collecting python-multipart (from -r requirements.txt (line 7))
+#10 3.352   Downloading python_multipart-0.0.6-py3-none-any.whl (45 kB)
+#10 3.360      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 45.7/45.7 kB 6.1 MB/s eta 0:00:00
+#10 3.427 Collecting colorlog (from -r requirements.txt (line 8))
+#10 3.471   Downloading colorlog-6.7.0-py2.py3-none-any.whl (11 kB)
+#10 3.562 Collecting anyio<4.0.0,>=3.7.1 (from fastapi->-r requirements.txt (line 2))
+#10 3.608   Downloading anyio-3.7.1-py3-none-any.whl (80 kB)
+#10 3.617      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 80.9/80.9 kB 10.8 MB/s eta 0:00:00
+#10 3.713 Collecting starlette<0.28.0,>=0.27.0 (from fastapi->-r requirements.txt (line 2))
+#10 3.756   Downloading starlette-0.27.0-py3-none-any.whl (66 kB)
+#10 3.765      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 67.0/67.0 kB 9.2 MB/s eta 0:00:00
+#10 3.836 Collecting typing-extensions>=4.5.0 (from fastapi->-r requirements.txt (line 2))
+#10 3.886   Downloading typing_extensions-4.8.0-py3-none-any.whl (31 kB)
+#10 3.971 Collecting click>=7.0 (from uvicorn->-r requirements.txt (line 3))
+#10 4.018   Downloading click-8.1.7-py3-none-any.whl (97 kB)
+#10 4.028      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 97.9/97.9 kB 12.0 MB/s eta 0:00:00
+#10 4.087 Collecting h11>=0.8 (from uvicorn->-r requirements.txt (line 3))
+#10 4.132   Downloading h11-0.14.0-py3-none-any.whl (58 kB)
+#10 4.142      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 58.3/58.3 kB 6.1 MB/s eta 0:00:00
+#10 4.289 Collecting charset-normalizer<4,>=2 (from requests->-r requirements.txt (line 4))
+#10 4.344   Downloading charset_normalizer-3.2.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (199 kB)
+#10 4.358      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 199.6/199.6 kB 18.1 MB/s eta 0:00:00
+#10 4.421 Collecting idna<4,>=2.5 (from requests->-r requirements.txt (line 4))
+#10 4.465   Downloading idna-3.4-py3-none-any.whl (61 kB)
+#10 4.473      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 61.5/61.5 kB 8.6 MB/s eta 0:00:00
+#10 4.562 Collecting urllib3<3,>=1.21.1 (from requests->-r requirements.txt (line 4))
+#10 4.607   Downloading urllib3-2.0.5-py3-none-any.whl (123 kB)
+#10 4.617      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 123.8/123.8 kB 14.3 MB/s eta 0:00:00
+#10 4.685 Collecting certifi>=2017.4.17 (from requests->-r requirements.txt (line 4))
+#10 4.728   Downloading certifi-2023.7.22-py3-none-any.whl (158 kB)
+#10 4.741      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 158.3/158.3 kB 14.9 MB/s eta 0:00:00
+#10 4.808 Collecting annotated-types>=0.4.0 (from pydantic->-r requirements.txt (line 6))
+#10 4.851   Downloading annotated_types-0.5.0-py3-none-any.whl (11 kB)
+#10 5.750 Collecting pydantic-core==2.6.3 (from pydantic->-r requirements.txt (line 6))
+#10 5.796   Downloading pydantic_core-2.6.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.9 MB)
+#10 5.874      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.9/1.9 MB 24.5 MB/s eta 0:00:00
+#10 5.975 Collecting sniffio>=1.1 (from anyio<4.0.0,>=3.7.1->fastapi->-r requirements.txt (line 2))
+#10 6.019   Downloading sniffio-1.3.0-py3-none-any.whl (10 kB)
+#10 6.203 Installing collected packages: urllib3, typing-extensions, sniffio, pyyaml, python-multipart, idna, h11, colorlog, click, charset-normalizer, certifi, annotated-types, uvicorn, requests, pydantic-core, anyio, starlette, pydantic, fastapi
+#10 7.103 Successfully installed annotated-types-0.5.0 anyio-3.7.1 certifi-2023.7.22 charset-normalizer-3.2.0 click-8.1.7 colorlog-6.7.0 fastapi-0.103.1 h11-0.14.0 idna-3.4 pydantic-2.3.0 pydantic-core-2.6.3 python-multipart-0.0.6 pyyaml-6.0.1 requests-2.31.0 sniffio-1.3.0 starlette-0.27.0 typing-extensions-4.8.0 urllib3-2.0.5 uvicorn-0.23.2
+#10 7.104 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+#10 7.442 
+#10 7.442 [notice] A new release of pip is available: 23.1.2 -> 23.2.1
+#10 7.442 [notice] To update, run: pip install --upgrade pip
+#10 DONE 7.6s
+
+#11 exporting to image
+#11 exporting layers
+#11 exporting layers 0.3s done
+#11 writing image sha256:fdc0f21af93b7cc297d3b3f2910d26d76243fd4748e7d67f563a744164221959 done
+#11 naming to docker.io/chariot/fw_plugin:0.1.2 0.0s done
+#11 DONE 0.3s
+DEBUG | 2023-09-25 18:28:31 <tools> generate_offline_pack:161  -> 镜像构建完毕
+DEBUG | 2023-09-25 18:28:31 <tools> generate_offline_pack:162  -> 正在打包离线插件包
+DEBUG | 2023-09-25 18:28:56 <tools> generate_offline_pack:169  -> 打包完毕
+DEBUG | 2023-09-25 18:28:56 <tools> generate_offline_pack:172  -> 删除临时文件
+
+```
+
+
+
+## 离线打包
+
+提前准备适应现场环境所需的镜像，可参考`offline_env`目录下的文件配置，如下：
+
+```Dockerfile
+# version 0.0.6
+FROM python:3.10.7-slim
+
+WORKDIR /python/src
+ADD . /python/src
+# RUN chmod +x /python/src/main.py
+
+# replace apt source && config pip source
+RUN  <<EOF cat>/etc/apt/sources.list
+deb https://mirrors.aliyun.com/debian/ bullseye main non-free contrib
+deb-src https://mirrors.aliyun.com/debian/ bullseye main non-free contrib
+deb https://mirrors.aliyun.com/debian-security/ bullseye-security main
+deb-src https://mirrors.aliyun.com/debian-security/ bullseye-security main
+deb https://mirrors.aliyun.com/debian/ bullseye-updates main non-free contrib
+deb-src https://mirrors.aliyun.com/debian/ bullseye-updates main non-free contrib
+deb https://mirrors.aliyun.com/debian/ bullseye-backports main non-free contrib
+deb-src https://mirrors.aliyun.com/debian/ bullseye-backports main non-free contrib
+EOF
+
+RUN apt-get update && apt-get  install -y iputils-ping net-tools vim && apt-get clean
+
+# Install pip dependencies
+RUN pip config set global.index-url https://mirrors.aliyun.com/pypi/simple &&  /bin/echo -e [easy_install]\nindex-url=https://mirrors.aliyun.com/pypi/simple > ~/.pydistutils.cfg
+
+RUN if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+RUN pip install chariot_scaffold-1.0.3-py3-none-any.whl
+
+```
+
+>注意：
+>
+>检查requirements.txt文件中是否有添加所需的依赖。
+>
+>检查apt-get是否安装了调试所需的工具
+
+
+
+
+
+制作离线镜像
+
+```shell
+docker build -t chaiort/offline_env:0.0.6 .
+```
+
+
+
+导出镜像
+
+```shell
+docker save -o offline.tar chariot/offline_env:0.0.6
+```
+
+
+
+将导出的镜像上传至客户现场，然后导入该镜像。
+
+```shell
+docker load -i offline.tar
+```
+
+
+
+启动镜像
+
+```shell
+docker run --privileged --name env -v /var/run/docker.sock:/var/run/docker.sock -v /usr/bin/docker:/usr/bin/docker -v /your/project/path:/your/project/path -dit chariot/offline_env:0.0.6 python
+```
+
+
+
+在`/your/porject/path`目录下操作修改代码、打包即可。

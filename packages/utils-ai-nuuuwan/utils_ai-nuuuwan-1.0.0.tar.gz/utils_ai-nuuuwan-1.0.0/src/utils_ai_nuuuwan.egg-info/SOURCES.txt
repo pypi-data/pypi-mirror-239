@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+src/utils_ai/AI.py
+src/utils_ai/AIImage.py
+src/utils_ai/AIText.py
+src/utils_ai/__init__.py
+src/utils_ai/core/ChatRole.py
+src/utils_ai/core/Message.py
+src/utils_ai/core/__init__.py
+src/utils_ai_nuuuwan.egg-info/PKG-INFO
+src/utils_ai_nuuuwan.egg-info/SOURCES.txt
+src/utils_ai_nuuuwan.egg-info/dependency_links.txt
+src/utils_ai_nuuuwan.egg-info/requires.txt
+src/utils_ai_nuuuwan.egg-info/top_level.txt
+tests/test_ai.py

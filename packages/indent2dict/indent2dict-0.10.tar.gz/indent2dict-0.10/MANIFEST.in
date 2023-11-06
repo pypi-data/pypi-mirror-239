@@ -1,0 +1,3 @@
+include indent2dict/requirements.txt
+include indent2dict/thirdparty.json
+include indent2dict/README.MD

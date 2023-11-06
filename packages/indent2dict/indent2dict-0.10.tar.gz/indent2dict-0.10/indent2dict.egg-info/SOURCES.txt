@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+indent2dict/README.MD
+indent2dict/__init__.py
+indent2dict/requirements.txt
+indent2dict/thirdparty.json
+indent2dict.egg-info/PKG-INFO
+indent2dict.egg-info/SOURCES.txt
+indent2dict.egg-info/dependency_links.txt
+indent2dict.egg-info/requires.txt
+indent2dict.egg-info/top_level.txt

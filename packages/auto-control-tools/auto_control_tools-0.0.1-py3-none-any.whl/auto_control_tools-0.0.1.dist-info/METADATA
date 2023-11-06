@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: auto-control-tools
+Version: 0.0.1
+Summary: control tools for automatic identification and PID controller aproximation
+Home-page: https://github.com/luizn22/auto-control-tools
+Author: Luiz Fernando Niquelatte
+Author-email: luiz.n22@aluno.ifsc.edu.br
+Project-URL: Bug Tracker, https://github.com/luizn22/auto-control-tools/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: control ~=0.9.2
+Requires-Dist: pandas ==2.1.2
+Requires-Dist: numpy ~=1.26.1
+Requires-Dist: openpyxl ~=3.1.2
+Requires-Dist: sympy ~=1.12
+Requires-Dist: matplotlib ==3.8.0
+Provides-Extra: testing
+Requires-Dist: pytest >=6.0 ; extra == 'testing'
+Requires-Dist: pytest-cov >=2.0 ; extra == 'testing'
+Requires-Dist: mypy >=0.910 ; extra == 'testing'
+Requires-Dist: flake8 >=3.9 ; extra == 'testing'
+Requires-Dist: tox >=3.24 ; extra == 'testing'
+
+# auto-control-tools
+
+![Tests](https://github.com/luizn22/auto-control-tools/actions/workflows/tests.yml/badge.svg)
+
+## Useful scripts:
+- install requirements: `pip install -r requirements.txt`, `pip install -r requirements_dev.txt`
+- install project as package: `pip install -e .`
+- run typing check: `mypy src`
+- run format check: `flake8 src`
+- run tests: `pytest`
+- auto generate modules .rst: `sphinx-apidoc -o .\docs\source .\src\auto_control_tools\ -f`
+- build docs locally: `sphinx-build -b html .\docs\source\ .\rtd_build\`

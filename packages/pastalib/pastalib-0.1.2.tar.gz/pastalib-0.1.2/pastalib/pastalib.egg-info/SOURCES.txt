@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+pastalib/pastalib.egg-info/PKG-INFO
+pastalib/pastalib.egg-info/SOURCES.txt
+pastalib/pastalib.egg-info/dependency_links.txt
+pastalib/pastalib.egg-info/requires.txt
+pastalib/pastalib.egg-info/top_level.txt
+pastalib/utils/__init__.py
+pastalib/utils/tokenizer_utils.py
+pastalib/utils/typing.py

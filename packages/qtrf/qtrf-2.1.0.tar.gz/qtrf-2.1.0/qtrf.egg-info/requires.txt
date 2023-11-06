@@ -1,0 +1,9 @@
+PySide6
+
+[dev]
+ddt
+twine
+wheel
+
+[test]
+ddt

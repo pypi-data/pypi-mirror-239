@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pySigma-backend-azure
+Version: 0.1.3
+Summary: pySigma Azure Backend
+Home-page: https://github.com/cpuodzius/pySigma-backend-azure
+License: MIT
+Author: Alex
+Author-email: alex@sinn.io
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pysigma (>=0.10.6,<0.11.0)
+Project-URL: Repository, https://github.com/cpuodzius/pySigma-backend-azure

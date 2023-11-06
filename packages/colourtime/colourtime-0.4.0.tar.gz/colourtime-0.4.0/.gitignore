@@ -1,0 +1,9 @@
+target
+pyvenv.cfg
+include
+__pycache__
+bin
+lib
+share
+etc
+*.so

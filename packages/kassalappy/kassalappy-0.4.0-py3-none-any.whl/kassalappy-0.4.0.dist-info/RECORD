@@ -1,0 +1,10 @@
+kassalappy/__init__.py,sha256=C2OvloeXEle7ttd4C3iLQOFy7BnZdWquIiJrU2D1lQg,7109
+kassalappy/cli.py,sha256=LZIRx6t7twKh1bgue0JCNg7fq2IGTtpz6yjwHXN4iaU,2794
+kassalappy/const.py,sha256=BDYFy-RLaJC609kmedOvsFKrOpQAFDdjC3iK0h_yTE4,437
+kassalappy/exceptions.py,sha256=BsZmPgTTrrL9tpUX8XEZPN1HF0kjeAoSjpJC7scjFL4,663
+kassalappy/models.py,sha256=OEBsH5FLEeNvFcA_5-1JDVL60E4-bClYulgJMbcBOiE,594
+kassalappy/utils.py,sha256=pOxJhxaDJNtLovATFKUzFs2OIIPKXNwbf23G3rhU-ko,2234
+kassalappy-0.4.0.dist-info/METADATA,sha256=x4dVPPK3eW0P8CxMMwl3LSP31LHYc7a_yW-xMt0NCNE,687
+kassalappy-0.4.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+kassalappy-0.4.0.dist-info/entry_points.txt,sha256=pqaU5FSIQ0zWEamIwfDSAPqL5BBXGr8qMESvolzolHI,50
+kassalappy-0.4.0.dist-info/RECORD,,

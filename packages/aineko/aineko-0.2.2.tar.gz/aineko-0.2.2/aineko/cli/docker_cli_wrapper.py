@@ -1,0 +1,124 @@
+# Copyright 2023 Aineko Authors
+# SPDX-License-Identifier: Apache-2.0
+"""A wrapper class that executes Docker CLI commands via subprocess."""
+import subprocess
+import sys
+from typing import Optional
+
+
+class DockerCLIWrapper:
+    """A wrapper class that executes Docker CLI commands via subprocess.
+
+    This class provides methods to start, stop, and restart Docker services
+    using docker-compose.
+
+    Methods:
+        start_service(cls) -> None:
+            Start the Docker service.
+
+        stop_service(cls) -> None:arg
+            Stop the running Docker service.
+
+        restart_service(cls) -> None:
+            Restart the running Docker service.
+    """
+
+    _docker_compose_config = """
+version: "3"
+services:
+  zookeeper:
+    image: confluentinc/cp-zookeeper:7.3.0
+    hostname: zookeeper
+    container_name: zookeeper
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_TICK_TIME: 2000
+
+  broker:
+    image: confluentinc/cp-kafka:7.3.0
+    container_name: broker
+    ports:
+      - "9092:9092"
+    depends_on:
+      - zookeeper
+    environment:
+      KAFKA_BROKER_ID: 1
+      KAFKA_ZOOKEEPER_CONNECT: "zookeeper:2181"
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT,PLAINTEXT_INTERNAL:PLAINTEXT
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://localhost:9092,PLAINTEXT_INTERNAL://broker:29092
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
+      KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
+"""
+
+    def __init__(self, custom_config_path: Optional[str] = None) -> None:
+        """Initialize DockerCLIWrapper class."""
+        if custom_config_path:
+            self._load_custom_config(custom_config_path)
+
+    @classmethod
+    def start_service(cls) -> None:
+        """Start the Docker service."""
+        try:
+            output = subprocess.check_output(
+                args="docker-compose -f - up -d",
+                input=cls._docker_compose_config,
+                shell=True,
+                text=True,
+                stderr=subprocess.STDOUT,
+            )
+            print(output)
+        except subprocess.CalledProcessError as ex:
+            print(f"Error: {ex}")
+            print(f"Command Output: {ex.output}")
+
+    @classmethod
+    def stop_service(cls) -> None:
+        """Stop the running Docker service."""
+        try:
+            output = subprocess.check_output(
+                args="docker-compose -f - stop",
+                input=cls._docker_compose_config,
+                shell=True,
+                text=True,
+                stderr=subprocess.STDOUT,
+            )
+            print(output)
+        except subprocess.CalledProcessError as ex:
+            print(f"Error: {ex}")
+            print(f"Command Output: {ex.output}")
+
+    @classmethod
+    def restart_service(cls) -> None:
+        """Restart the running Docker service."""
+        try:
+            output = subprocess.check_output(
+                args="docker-compose -f - restart",
+                input=cls._docker_compose_config,
+                shell=True,
+                text=True,
+                stderr=subprocess.STDOUT,
+            )
+            print(output)
+        except subprocess.CalledProcessError as ex:
+            print(f"Error: {ex}")
+            print(f"Command Output: {ex.output}")
+
+    @classmethod
+    def _load_custom_config(cls, custom_config_path: str) -> None:
+        """Load a custom Docker Compose config file.
+
+        Args:
+            custom_config_path: Path to the custom Docker Compose config file.
+        """
+        try:
+            with open(
+                file=custom_config_path, mode="r", encoding="utf-8"
+            ) as file:
+                cls._docker_compose_config = file.read()
+        except FileNotFoundError:
+            print(
+                f"FileNotFoundError: Custom config file `{custom_config_path}`"
+                f" not found."
+            )
+            sys.exit(1)

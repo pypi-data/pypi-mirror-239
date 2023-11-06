@@ -1,0 +1,12 @@
+custodes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+custodes/auth.py,sha256=TtUK8Je7IZjaoB2DFo12SBBZ8QQ-vPz0r7q9iPPhOhQ,893
+custodes/client.py,sha256=8C3KiUOpOYRKuGaZA-MLu37KGFS8FCLPy7rqiSkLt4I,3090
+custodes/config.py,sha256=NiBeGFpgCiUQj2qC3VtRfmnYAE0Zx9XmMGT9Ni7uPaw,16
+custodes/server.py,sha256=1DOOi4Jmxf5bJYy3MKP24LSaYbXCYoITfbQgISbLeXk,2471
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_client.py,sha256=1rvNDTIJacyFvg0hNz1BsIiwwyWpB-woZRz5tjsf7Ek,520
+tests/test_server.py,sha256=QJkt2zkmjfSkh_NnUczhXgNAS0pYzREa75fl021X37A,819
+custodes-0.1.1.dist-info/METADATA,sha256=l_axlHxY8Lu_ORn2ObYgYvJ7IYRckQRdQsJZfOLO6os,966
+custodes-0.1.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+custodes-0.1.1.dist-info/top_level.txt,sha256=0-3IiIimJRr2p5ZGNjlvzhVM_2SQ0H_oPNEfr_r7JtI,15
+custodes-0.1.1.dist-info/RECORD,,

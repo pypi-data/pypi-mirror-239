@@ -1,0 +1,16 @@
+DependMLMoi/__init__.py,sha256=07NzQXBgNlnw5kSN6ZYxE9By-_RuH3Jyy58Z74sIio0,21
+DependMLMoi/active_repo.py,sha256=OSBdD9bHOp-wRXuc0CBC4O94tgpgI9QDRz1EewlGxOE,1733
+DependMLMoi/arg_parser.py,sha256=-j-unZXnxjGkVZ81UQE1PzHUtv3AYJufcqc0-zwZJps,1605
+DependMLMoi/constants.py,sha256=35ShCQJgTLxVA46prXhrbDuMHptoxH3mEG00wJYZks8,486
+DependMLMoi/create_issues_from_todo.py,sha256=TiCeH7fKUbSUmrzpK-yZkMtevejMAH2MRQ9xEtAqTP8,815
+DependMLMoi/depend_ml.py,sha256=gvKUSUeENoxoWbzPsU95ZMtVHzvh0d0wjTXOdOdlVgU,6298
+DependMLMoi/dependencies.py,sha256=V5SiTJxM0_4X7rsUc8riSXdda_VNgmkxtMlU09SiRKQ,3182
+DependMLMoi/main.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scripts/main.py,sha256=53_u3tnHOxf-mU2FJE5XrMM6dr8HXOblwQ2EyhlBpgc,350
+dependMLOps-0.0.1.dist-info/LICENSE.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dependMLOps-0.0.1.dist-info/METADATA,sha256=yKQc_pdnUpXGbTdzootcaYbZmKzvboKYDTWq8jhDgk8,4063
+dependMLOps-0.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+dependMLOps-0.0.1.dist-info/entry_points.txt,sha256=3Y71DR7lT6nwitPlVmm3xorJR19uBGs64kgmTPjpolk,50
+dependMLOps-0.0.1.dist-info/top_level.txt,sha256=EDZMSVtlEu4QHbFkPddm2QuwcxAgAdDaopOS9s721sE,20
+dependMLOps-0.0.1.dist-info/RECORD,,

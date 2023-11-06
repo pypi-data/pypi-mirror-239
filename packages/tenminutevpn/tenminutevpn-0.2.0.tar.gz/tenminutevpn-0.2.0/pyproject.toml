@@ -1,0 +1,45 @@
+[build-system]
+requires = [
+  "setuptools >= 45.0.0",
+  "setuptools_scm[toml] >= 7.0.5",
+  "wheel",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tenminutevpn"
+dynamic = ["version"]
+description = "TenMinuteVPN"
+authors = [{ "name" = "Andrey Gubarev", "email" = "andrey@andreygubarev.com" }]
+
+readme = "README.md"
+license = { text = "BSD" }
+
+dependencies = [
+  "pyroute2 == 0.7.2",
+  "serfio == 0.3.3",
+  "msgpack == 1.0.3",
+]
+
+[project.scripts]
+tenminutevpn = "tenminutevpn:main"
+
+[project.urls]
+Homepage = "https://github.com/andreygubarev/tenminutevpn/"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+exclude = ["tests"]
+
+[tool.setuptools_scm]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+addopts = "--cov --cov-report term-missing"
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.isort]
+profile = "black"
+src_paths = ["src", "test"]
+honor_noqa = true

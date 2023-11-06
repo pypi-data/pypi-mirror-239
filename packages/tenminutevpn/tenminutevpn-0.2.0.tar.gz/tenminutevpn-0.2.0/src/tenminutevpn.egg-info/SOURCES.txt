@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/tenminutevpn/__init__.py
+src/tenminutevpn/network.py
+src/tenminutevpn/wireguard.py
+src/tenminutevpn.egg-info/PKG-INFO
+src/tenminutevpn.egg-info/SOURCES.txt
+src/tenminutevpn.egg-info/dependency_links.txt
+src/tenminutevpn.egg-info/entry_points.txt
+src/tenminutevpn.egg-info/requires.txt
+src/tenminutevpn.egg-info/top_level.txt

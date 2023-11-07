@@ -1,0 +1,47 @@
+# This workflow will install Python dependencies, run tests and lint with a single version of Python
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
+
+name: CI/CD
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    # The branches below must be a subset of the branches above
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-20.04
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v3
+      with:
+        python-version: "3.10.0"
+        architecture: "x64"
+      env:
+        AGENT_TOOLSDIRECTORY: /opt/hostedtoolcache
+
+    - name: Install dependencies
+      run: |
+        python -m pip install pip==23.0.1
+        pip install -r requirements.txt
+
+    - name: Lint with flake8
+      run: |
+        # stop the build if there are Python syntax errors or undefined names
+        make lint
+        
+    - name: Test with pytest
+      run: |
+        coverage run --source pyrecipes/ -m pytest tests/
+
+    - name: Coverage Report
+      run: |
+        coverage report

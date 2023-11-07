@@ -1,0 +1,52 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "pyrecipes"
+authors = [
+    {name = "Chris Adams", email = "cfh1990@msn.com"},
+]
+description = "A CLI tool to display useful Python recipes."
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "requests>=2.31",
+    "click",
+    "colorama"
+]
+dynamic = ["version"]
+
+
+[tool.setuptools.dynamic]
+version = {attr = "pyrecipes.__version__"}
+
+
+[project.scripts]
+recipes = "pyrecipes.cli.main:main"
+
+
+[tool.coverage.run]
+command_line = "-m pytest tests"
+source = [
+    "pyrecipes"
+    ]
+omit = [
+    "pyrecipes/template.py",
+    "**/__init__.py",
+    ]
+
+
+[tool.coverage.report]
+exclude_also = [
+    "if __name__ == .__main__.:"
+    ]
+
+
+[tool.coverage.html]
+directory = "htmlcov"

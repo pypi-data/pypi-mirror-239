@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: scquill
+Version: 0.2.0
+Summary: Approximate any single cell data set, saving >99% of memory and runtime.
+License: MIT
+Author: Fabio Zanini
+Author-email: fabio.zanini@unsw.edu.au
+Requires-Python: >=3.11,<3.13
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: h5py (>=3.10.0,<4.0.0)
+Requires-Dist: hdf5plugin (>=4.2.0,<5.0.0)
+Requires-Dist: pyyaml (>=6.0.1,<7.0.0)
+Requires-Dist: scanpy (>=1.9.6,<2.0.0)
+Description-Content-Type: text/markdown
+
+<img src="https://raw.githubusercontent.com/fabilab/scquill/main/logo.png" width="150" height="150">
+
+# scquill
+Approximate any single cell data set, saving >99% of memory and runtime.
+
+
+## Approximating a single cell data set
+```python
+import scquill
+
+q = Quill(
+    filename='myscdata.h5ad',
+    output_filename='myapprox.h5',
+    celltype_column="cell_annotation",
+)
+
+q()
+```
+
+**Steps:**
+- Load dataset if necessary
+- Preprocess
+- Compress
+- Store to output file
+- (TODO): Provide an interface to explore approximations.
+
+## Authors
+Fabio Zanini @[fabilab](https://fabilab.org)
+

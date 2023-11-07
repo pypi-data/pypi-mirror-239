@@ -1,0 +1,13 @@
+scquill/__init__.py,sha256=W4cgqOFfRRWXNPMcnf0DKE_0Kw0Tf1Tpx8C1UCCtGpA,146
+scquill/accessor.py,sha256=7HCCScXzYQJ8XpNK8C4bvAryc8VH7dIP5ncQPj5dPS8,4981
+scquill/compressor.py,sha256=ncTJAETJD-rM1hM_A-6M_hOSVzbSUf_6FaN9t1c1xwo,3015
+scquill/utils/__init__.py,sha256=Nxk4IbeGrht-5H8Bv7aq5H7NKZ9mEkGbVHtZ48jOKVU,536
+scquill/utils/compress.py,sha256=obJJ8MSvkWxlBqbdSuzZe6i8qSMjMkjcilo4upPCCGQ,6591
+scquill/utils/config.py,sha256=z-RSNGets21DAyxM9_oLZGaTQO9BEiAc5y7BGkjiYFU,2644
+scquill/utils/heuristics.py,sha256=SQeWP_hnqC5dwAYu00hIqe5y5u_GnZBCBKMQe3HNMCU,2165
+scquill/utils/preprocess.py,sha256=AW-YSO8kcImdLPJiDbRlTbxUL_w1b-rX3WULGwlZOwA,9030
+scquill/utils/store.py,sha256=LlWrcmtds27hV9sGa7HcZTR8JnJSajR-20rhS-gtqQM,7730
+scquill-0.2.0.dist-info/LICENSE,sha256=HuGVMXCtHpPYRZuSzebvb5wGybnmOP95KMspWT5O9so,1064
+scquill-0.2.0.dist-info/METADATA,sha256=0Tr4rcBV2patxxUfyI96g8X9iUXlTeOoh8z_wQSMNiQ,1168
+scquill-0.2.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+scquill-0.2.0.dist-info/RECORD,,

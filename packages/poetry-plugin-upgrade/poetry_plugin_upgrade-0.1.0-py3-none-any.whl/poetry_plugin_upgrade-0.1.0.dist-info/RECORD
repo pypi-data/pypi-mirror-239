@@ -1,0 +1,9 @@
+LICENSE.md,sha256=rfw37RI7DHv3swVuDqiujIVp4_3IRKEZiQFPw0ZlMa8,1070
+poetry_plugin_upgrade/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+poetry_plugin_upgrade/command.py,sha256=aQ89VxbrK68veDymT7R12dd3zuAnu7HLtvaegu9gc40,10860
+poetry_plugin_upgrade/plugin.py,sha256=a1_oHwWdUaQpEFI43kcEzW3-nR9Fn5kWjKjmz2Vsc2E,438
+poetry_plugin_upgrade-0.1.0.dist-info/LICENSE.md,sha256=rfw37RI7DHv3swVuDqiujIVp4_3IRKEZiQFPw0ZlMa8,1070
+poetry_plugin_upgrade-0.1.0.dist-info/METADATA,sha256=ShZX8MKs8dFiI5L6BILh3gcPSy9glEJzIPg-M90Tl6g,2972
+poetry_plugin_upgrade-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+poetry_plugin_upgrade-0.1.0.dist-info/entry_points.txt,sha256=-RRti2v4FLKeONqxKR3kpwsRhtvALhJq7LidRoi08XI,91
+poetry_plugin_upgrade-0.1.0.dist-info/RECORD,,

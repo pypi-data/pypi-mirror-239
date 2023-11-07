@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.py
+certbot_dns_local/__init__.py
+certbot_dns_local/auth.py
+certbot_dns_local/dnsutils.py
+certbot_dns_local.egg-info/PKG-INFO
+certbot_dns_local.egg-info/SOURCES.txt
+certbot_dns_local.egg-info/dependency_links.txt
+certbot_dns_local.egg-info/entry_points.txt
+certbot_dns_local.egg-info/requires.txt
+certbot_dns_local.egg-info/top_level.txt

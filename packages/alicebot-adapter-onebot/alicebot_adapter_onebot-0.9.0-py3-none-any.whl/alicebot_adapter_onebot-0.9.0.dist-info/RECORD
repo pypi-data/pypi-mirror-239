@@ -1,0 +1,8 @@
+alicebot/adapter/onebot/__init__.py,sha256=MBBqA-q07U32JAFhNCuM7ZBif9w--U4fKoYWVmORenA,10313
+alicebot/adapter/onebot/config.py,sha256=N9ZH6dy2DeaI4TUCk_DyxytAIeJndAyXOfHO5WVvqp0,897
+alicebot/adapter/onebot/event.py,sha256=ugjS2kosNevLr-5K04NQa4ZfNc7JQ8VC57I48_ylG6E,8241
+alicebot/adapter/onebot/exceptions.py,sha256=cVUqj6Hd87DL0DocmroMoCUoXTQMvePmoYxTiCVn3g4,663
+alicebot/adapter/onebot/message.py,sha256=oSOwa9YFXDS5gwpsbGrrn2MwGmWajHyRqkvwWnpMfC4,3006
+alicebot_adapter_onebot-0.9.0.dist-info/METADATA,sha256=A_2AIIXfcpflLyLCX-On9H4-fOe6SEHvaX2a7utcp6k,1159
+alicebot_adapter_onebot-0.9.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+alicebot_adapter_onebot-0.9.0.dist-info/RECORD,,

@@ -1,0 +1,16 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+setup.cfg
+.github/workflows/publish_to_pypi.yml
+.github/workflows/publish_to_test_pypi.yml
+.github/workflows/run-tests.yml
+imgdisp/__init__.py
+imgdisp/_version.py
+rms_imgdisp.egg-info/PKG-INFO
+rms_imgdisp.egg-info/SOURCES.txt
+rms_imgdisp.egg-info/dependency_links.txt
+rms_imgdisp.egg-info/requires.txt
+rms_imgdisp.egg-info/top_level.txt

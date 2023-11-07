@@ -1,0 +1,6 @@
+coverage
+matplotlib
+numpy
+Pillow
+pytest
+scipy

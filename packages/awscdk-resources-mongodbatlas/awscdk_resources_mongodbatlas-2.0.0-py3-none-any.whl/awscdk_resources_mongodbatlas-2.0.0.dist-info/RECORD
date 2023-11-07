@@ -1,0 +1,9 @@
+awscdk_resources_mongodbatlas/__init__.py,sha256=W3wnJNRN-UFaS82JGWguYJEGOsJiAKZ4krGVi-e889U,1135889
+awscdk_resources_mongodbatlas/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+awscdk_resources_mongodbatlas/_jsii/__init__.py,sha256=sWezzmcj_Izw_HO29pZzevSaF_8hbSAqDbjailxfJpc,438
+awscdk_resources_mongodbatlas/_jsii/awscdk-resources-mongodbatlas@2.0.0.jsii.tgz,sha256=xaBQpmjYM4fUqbbI6KB1nppDjA0YsMCRYcRVr-Yke3A,481979
+awscdk_resources_mongodbatlas-2.0.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+awscdk_resources_mongodbatlas-2.0.0.dist-info/METADATA,sha256=bIz2zG78of_aDY75wLrLOV7dWO6PPP-nAImbNTHUQdw,7608
+awscdk_resources_mongodbatlas-2.0.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+awscdk_resources_mongodbatlas-2.0.0.dist-info/top_level.txt,sha256=RbhaXP5e3TFE2YQiWa3Qgm0UcmpN_AKPuEdBVwB--9w,30
+awscdk_resources_mongodbatlas-2.0.0.dist-info/RECORD,,

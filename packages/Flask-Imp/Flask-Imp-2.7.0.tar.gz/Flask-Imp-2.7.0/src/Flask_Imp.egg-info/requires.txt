@@ -1,0 +1,13 @@
+click
+Flask
+Flask-SQLAlchemy
+toml
+more-itertools
+
+[testing]
+pytest>=7.4.3
+pytest-cov>=4.1.0
+mypy>=1.6.1
+flake8>=6.1.0
+tox>=4.11.3
+types-toml

@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: wc_client
+Version: 0.2.0
+Summary: A small client for WooCommerce.
+Project-URL: Documentation, https://github.com/miguelfferraz/python-wc-client/tree/main#readme
+Project-URL: Source, https://github.com/miguelfferraz/python-wc-client
+Project-URL: Tracker, https://github.com/miguelfferraz/python-wc-client/issues
+Author-email: Miguel Figueira Ferraz <miguelfigueiraferraz@gmail.com>
+License-Expression: MIT
+License-File: LICENSE
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.10
+Requires-Dist: httpx>=0.25.0
+Description-Content-Type: text/markdown
+
+# WooCommerce Client
+
+[![Test](https://github.com/miguelfferraz/python-wc-client/workflows/CI/badge.svg)](https://github.com/miguelfferraz/python-wc-client/actions?query=workflow%+branch%main)
+[![Codecov](https://codecov.io/gh/miguelfferraz/python-wc-client/main/graph/badge.svg)](https://codecov.io/gh/miguelfferraz/python-wc-client)
+[![Package Version](https://img.shields.io/pypi/v/wc-client?color=%2334D058&label=PyPI%20package)](https://pypi.org/project/wc-client)

@@ -1,0 +1,4 @@
+gitpython==3.1.9
+python-gitlab
+nextflow==23.10.0
+wget==3.2

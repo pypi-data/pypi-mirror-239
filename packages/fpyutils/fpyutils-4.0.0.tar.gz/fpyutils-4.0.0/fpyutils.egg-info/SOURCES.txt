@@ -1,0 +1,14 @@
+CONTRIBUTING.md
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+fpyutils/__init__.py
+fpyutils/exceptions.py
+fpyutils/filelines.py
+fpyutils/notify.py
+fpyutils/path.py
+fpyutils/shell.py
+fpyutils.egg-info/PKG-INFO

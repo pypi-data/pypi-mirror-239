@@ -1,0 +1,14 @@
+setuptools
+requests
+dataclasses_json
+pandas
+numpy
+matplotlib
+mypy
+tqdm
+types-requests
+pandas-stubs
+data-science-types
+sphinx
+sphinx-rtd-theme
+types-tqdm

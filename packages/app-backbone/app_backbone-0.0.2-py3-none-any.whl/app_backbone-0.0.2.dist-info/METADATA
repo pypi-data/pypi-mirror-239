@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: app-backbone
+Version: 0.0.2
+Summary: A simple app utility framework that provides tooling for loading module extensions and an ECS like streams of composable entities.
+License: MIT
+Author: Zech Zimmerman
+Author-email: hi@zech.codes
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# App Backbone
+
+A simple app utility framework that provides tooling for loading module extensions and an ECS like streams of composable entities.
+
+## Installation
+
+```shell
+pip install app-backbone
+```
+

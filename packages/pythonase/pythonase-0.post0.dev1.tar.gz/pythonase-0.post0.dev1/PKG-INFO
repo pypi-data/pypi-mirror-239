@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pythonase
+Version: 0.post0.dev1
+Summary: Pythonase is a collection of gist functions (mainly for bioinformatic analysis) for saving time.
+Home-page: 
+Author: Li Yao
+Author-email: py_packages@yaobio.com
+Description-Content-Type: text/markdown
+
+# Pythonase python library
+
+This library contains python functions/modules for accelerating bioinformatic analysis. 
+
+## Get started
+To use these functions, install the Pythonase package with the following command:
+```bash
+pip install pythonase
+```

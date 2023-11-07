@@ -1,0 +1,10 @@
+click
+openai>=1.0
+pydub
+
+[:sys_platform == "darwin"]
+simpleaudio
+
+[test]
+pytest
+cogapp

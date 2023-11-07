@@ -1,0 +1,13 @@
+jobpilot/__init__.py,sha256=mh2-JrgaX7uXbJi0uQFvNUILBN0mpAIu5bwbtSpl0tI,347
+jobpilot/models/__init__.py,sha256=yT_A-t8dqWtahIglxicaRxbqBIgCn9lXpOlFFfgkQjw,269
+jobpilot/models/company.py,sha256=pF7QyB_9rfvd1IN-i9ZGsVxAWxdDKWUdNuVYwT3w7oE,150
+jobpilot/models/job.py,sha256=cHq7ww8Xaj3RAnZ-pklBHLol25FkB7vsx5DheQ479WI,2296
+jobpilot/models/location.py,sha256=TN5BL9IY1VqatfVzNe0dOZDroczeMXGy1p7I8x6i63Q,2940
+jobpilot/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jobpilot/scrapers/__init__.py,sha256=BU3_mw5mTC0rsFflie2YtJiJ-88KRSl4bEnvrMgVZVY,178
+jobpilot/scrapers/base.py,sha256=IgQ4Fzfmdq3f57Tztx0GK_NvJQUdEBeWeUS8KJq_rNc,623
+jobpilot/scrapers/linkedin.py,sha256=Ezx8LXUta8EBoktquXJinRGaShIy0mJu9qP4OFeR1ok,11254
+jobpilot-0.3.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+jobpilot-0.3.0.dist-info/METADATA,sha256=kP5fIRpKH6s4NmWbAsW7_g6knuy-25wFeItrKWzguoY,3832
+jobpilot-0.3.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+jobpilot-0.3.0.dist-info/RECORD,,

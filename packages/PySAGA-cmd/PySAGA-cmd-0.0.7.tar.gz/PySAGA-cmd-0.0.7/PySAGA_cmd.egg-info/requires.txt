@@ -1,0 +1,9 @@
+attrs
+numpy
+matplotlib
+cartopy
+rasterio
+geopandas
+
+[dev]
+twine>=4.0.2

@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+FileUtils/__init__.py
+FileUtils/counter.py
+FileUtils/paths.py
+Merkurial_FileUtils.egg-info/PKG-INFO
+Merkurial_FileUtils.egg-info/SOURCES.txt
+Merkurial_FileUtils.egg-info/dependency_links.txt
+Merkurial_FileUtils.egg-info/top_level.txt

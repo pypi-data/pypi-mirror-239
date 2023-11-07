@@ -1,0 +1,6 @@
+[console_scripts]
+oai_func_new = hamel.oai:create_openai_plugin_scaffolding
+oai_list_models = hamel.oai:list_models
+
+[nbdev]
+hamel = hamel._modidx:d

@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: ski_weather_utah
+Version: 0.1
+Summary: A server-side app that sends daily updates for weather at select Utah ski resorts.
+Author: Alex Calder
+Requires-Dist: selenium
+Requires-Dist: webdriver-manager
+Requires-Dist: configparser

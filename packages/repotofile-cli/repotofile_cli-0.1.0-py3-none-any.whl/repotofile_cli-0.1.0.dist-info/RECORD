@@ -1,0 +1,10 @@
+repotofile/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+repotofile/cli.py,sha256=vbQaYgIjaGo_7SI3UZirS7XJryPsaZtFqNAyNsvMZ6Q,1206
+repotofile/git_operations.py,sha256=459-_e24If4E19eTQA0pYK5DHYG83s-37NBKczOpjMY,583
+repotofile/utils.py,sha256=jjK5XXj9FE51F9l_sgJcle3VYP1FS22lb4-IJl7heQ4,958
+repotofile_cli-0.1.0.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+repotofile_cli-0.1.0.dist-info/METADATA,sha256=vLBDcrxDr0yljRAmslibj_taTTg0gfAMRgM_DtXnInE,833
+repotofile_cli-0.1.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+repotofile_cli-0.1.0.dist-info/entry_points.txt,sha256=1C2e2ZByzUv2ldHQIT_DmdV2_2ByUX4H_cNYq2wlCGQ,77
+repotofile_cli-0.1.0.dist-info/top_level.txt,sha256=A9Gbruy0DPpjmzIZS15CImkJF2wNz_Go_qS1Ql1270U,11
+repotofile_cli-0.1.0.dist-info/RECORD,,

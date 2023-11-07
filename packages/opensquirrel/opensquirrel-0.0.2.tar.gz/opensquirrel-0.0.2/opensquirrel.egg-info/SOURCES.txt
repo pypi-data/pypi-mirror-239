@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+opensquirrel/__init__.py
+opensquirrel.egg-info/PKG-INFO
+opensquirrel.egg-info/SOURCES.txt
+opensquirrel.egg-info/dependency_links.txt
+opensquirrel.egg-info/top_level.txt
+test/TestGates.py
+test/TestHelpers.py
+test/__init__.py
+test/test_decompose_mckay.py
+test/test_integration.py
+test/test_parsing.py
+test/test_replacer.py
+test/test_testinterpreter.py
+test/test_writer.py

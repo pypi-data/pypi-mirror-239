@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: nba_dataloader
+Version: 1.0.1
+Summary: A python client to query the various stats.nba.com resources
+Author-email: Viddu Devigere <vdevigere@gmail.com>
+Project-URL: Homepage, https://github.com/vdevigere/nba_dataloader
+Project-URL: Bug Tracker, https://github.com/vdevigere/nba_dataloader/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests==2.31.0
+Requires-Dist: pandas==2.1.2
+Requires-Dist: ray==2.8.0
+Requires-Dist: deltalake==0.13.0
+
+# nba_dataloader
+A python client to query the various stats.nba.com resources and download data into delta lake tables for further analysis. I started this project to mainly explore and get familiar with a number of different technologies mainly:-
+- Ray.io
+- Delta Lake
+- Advanced Python
+
+A simple client capable of querying various stats.nba.com endpoints and storing the data onto disk as Delta/Parquet tables. The client can query a given endpoint with multiple different query parameters in parallel, using Ray tasks. Documentation of the various endpoints can be found [here](https://any-api.com/nba_com/nba_com/docs/API_Description)

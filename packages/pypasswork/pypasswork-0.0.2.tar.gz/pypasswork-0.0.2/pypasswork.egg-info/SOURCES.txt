@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+pypasswork/__init__.py
+pypasswork/__version__.py
+pypasswork/exceptions.py
+pypasswork/passwork.py
+pypasswork/response.py
+pypasswork.egg-info/PKG-INFO
+pypasswork.egg-info/SOURCES.txt
+pypasswork.egg-info/dependency_links.txt
+pypasswork.egg-info/requires.txt
+pypasswork.egg-info/top_level.txt
+pypasswork/operations/__init__.py
+pypasswork/operations/passwords.py
+pypasswork/operations/vaults.py

@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: bhsenti
+Version: 0.0.1
+Summary: 基于三分类的中文情感分析
+Author-email: bhnw <bhshare.cn@gmail.com>
+Project-URL: Homepage, https://github.com/yaokui2018
+Project-URL: Bug Tracker, https://github.com/yaokui2018/bhsenti/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: transformers
+Requires-Dist: onnxruntime
+
+## 基于三分类的文本情感分析
+
+
+
+文本情感分析作为NLP的常见任务，具有很高的实际应用价值。本项目基于bert模型，训练一个能够识别文本postive, neutral, negative三种情感的分类器。

@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: PySAGA-cmd
+Version: 0.0.7
+Summary: A package that allows you to run SAGA GIS tools in a Python environment.
+Home-page: https://github.com/alecsandrei/PySAGA-cmd
+Author: Cuvuliuc Alex-Andrei
+Author-email: <cuvuliucalexandrei@gmail.com>
+Keywords: python,gis,SAGA GIS,saga_cmd,PySAGA
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: attrs
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: cartopy
+Requires-Dist: rasterio
+Requires-Dist: geopandas
+Provides-Extra: dev
+Requires-Dist: twine (>=4.0.2) ; extra == 'dev'
+
+# PySAGA-cmd
+PySAGA-cmd allows a lightweight way of running SAGA GIS tools using Python.
+
+## How to download
+
+Binary installers for the latest released version are available at the [Python Package Index (PyPI)](https://pypi.org/project/PySAGA-cmd/).
+```sh
+pip install PySAGA-cmd
+```
+
+## How to use the package
+For information on how to use the package, I recommend looking at the [notebooks](https://github.com/alecsandrei/PySAGA-cmd/tree/master/examples/notebooks) inside the examples folder on the Github page.
+
+
+

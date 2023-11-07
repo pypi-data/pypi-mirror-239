@@ -1,0 +1,15 @@
+gopython/__init__.py,sha256=BPdEdlKyCCyuHfmQjF05LDKdeGKHOo5vQTnnSIgm1ok,24
+gopython/const.py,sha256=tfokkUxbnVpTIitjREcwzvn43Zjj9eP1IQqeeU64zF4,810
+gopython/dataclasses.py,sha256=ASldgzCxXbiz56TvJkg1yau6_WxISeI_wgJe3O3nXuo,3949
+gopython/hello.py,sha256=iT4HMWguISaT9SJB5Dre9ASYu8mxnCGMZ5tbBxxjf1Q,43
+gopython/utils.py,sha256=Ez3tPnGheYyes-wZs17koatXLE7hBicAmAYhGBb1iXY,126
+gopython/wrapper.py,sha256=RGlk_z29e75EgKaGGk9Mj8Cv1vYelwE8vKi836AZlNM,981
+gopython/api/__init__.py,sha256=XVXKpQt4pBWt68NQqjc5OD7_u5XlW5FuhYXrRrSToGo,21
+gopython/api/auth.py,sha256=64xcUAX26DFW8RlRMS8Kd2QUeS2zEUziThasgdQafYU,2830
+gopython/api/permission.py,sha256=g2f3aD6HVs0N_zpHkO2TY5zkLq57yzyrwLkJ9Gp8k48,786
+gopython/api/role.py,sha256=x9qMSj5HWqOQ_-uVazaEYuZ-_dZgKVliaf-E2iqtrsY,1913
+gopython/api/user.py,sha256=rls1Xc1U8AG_ZLKXSAv3rXvJu0h1Ybdj-epiPV8KUbA,4220
+gopython-0.0.13.dist-info/METADATA,sha256=HXwhZ1G4tj4ueqolB--cyd06x8XzajGRcI8ujDBr92w,706
+gopython-0.0.13.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+gopython-0.0.13.dist-info/top_level.txt,sha256=9bAgY2uYz6H8B4_DPVF-Uo16osksU7-xlxoDsxMs22o,9
+gopython-0.0.13.dist-info/RECORD,,

@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: hodorlive
+Version: 1.2.11
+Summary: xpath/css based scraper with pagination
+Home-page: https://github.com/CompileInc/hodor
+Download-URL: https://github.com/CompileInc/hodor/archive/v1.2.11.tar.gz
+Author: Compile Inc
+Author-email: dev@compile.com
+License: MIT
+Keywords: hodor,cssselect,lxml,scraping
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+License-File: LICENSE.md
+
+xpath/css based scraper with pagination

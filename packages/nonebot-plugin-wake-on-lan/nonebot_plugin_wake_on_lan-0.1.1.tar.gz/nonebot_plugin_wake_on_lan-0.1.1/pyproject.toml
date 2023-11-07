@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "nonebot-plugin-wake-on-lan"
+version = "0.1.1"
+description = "The Wake-on-LAN plugin for nonebot2"
+authors = ["tiehu"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+nonebot2 = "^2.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

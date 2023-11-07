@@ -1,0 +1,2 @@
+class NotInstantiable(TypeError):
+    pass

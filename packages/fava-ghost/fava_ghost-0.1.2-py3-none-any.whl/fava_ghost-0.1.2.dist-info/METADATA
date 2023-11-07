@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: fava-ghost
+Version: 0.1.2
+Summary: A daemon for fava server and git repo sync
+Home-page: https://github.com/e7h4n/fava-ghost
+Author: e7h4n
+Author-email: ethan.pw@icloud.com
+Project-URL: Bug Reports, https://github.com/e7h4n/fava-ghost/issues
+Project-URL: Source, https://github.com/e7h4n/fava-ghost/
+Keywords: beancount,fava,daemon,git sync
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Topic :: Office/Business :: Financial :: Accounting
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+Requires-Dist: gitpython ==3.1.40
+Provides-Extra: dev
+Provides-Extra: test
+Requires-Dist: black ; extra == 'test'
+Requires-Dist: coverage ; extra == 'test'
+Requires-Dist: pylint ; extra == 'test'
+Requires-Dist: flake8 ; extra == 'test'
+Requires-Dist: pytest ; extra == 'test'
+
+# fava-ghost
+
+`fava-ghost`是一个为运行和管理[fava](https://github.com/beancount/fava)实例而设计的高效后台守护进程，它结合了Docker容器化技术，使得部署、更新和管理fava服务变得简单快捷。
+
+## 特性
+
+- **自动化同步**：自动从git仓库同步fava账本文件。
+- **依赖性管理**：自动管理和安装Python依赖，确保 fava 运行环境始终为最新状态。
+- **冲突解决**：在发现合并冲突时会提醒用户手动解决。
+- **自动备份**：定期备份你的 fava 账本，确保数据安全。
+- **容器化**：使用 Docker 容器，简化部署和迁移。

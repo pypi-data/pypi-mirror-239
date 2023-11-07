@@ -1,0 +1,100 @@
+Metadata-Version: 2.1
+Name: dacwinapi
+Version: 2.1.5
+Author: DacTechnologies
+Author-email: contact@dactechnologies.net
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# DacWin API
+
+The Python library `dacwinapi` makes it easy to access information about your DacWin referral system. This library is specifically designed to interact with the DacWin API and allows you to manage information about an application's users, referral campaigns, rewards and events.
+
+> DacWin: https://referral-dev.dactechnologies.net
+
+## Installation
+
+To install `dacwinapi`, you can use pip:
+
+```bash
+pip install dacwinapi
+```
+
+## Usages
+
+### 1. Campaigns
+
+```python
+from dacwinapi import CampaignService
+
+campaignService = CampaignService(api_key="your_app_api_key)
+
+# list of campaigns of the app
+campaigns = campaignService.getAll()
+
+# retrieve one campaign data
+campaigns = campaignService.getOne(id=1)
+```
+
+### 2. App users
+
+```python
+from dacwinapi import AppUserService
+
+appUserService = AppUserService(api_key="your_app_api_key)
+
+# list of app users of the app
+app_users = appUserService.getAll()
+
+# retieve one app user by her id
+app_user = appUserService.getOne(id=1)
+
+# retieve one app user by her reference
+app_user = appUserService.getOne(reference="a2sddd")
+
+```
+
+### 3. Events
+
+```python
+from dacwinapi import EventService
+
+eventService = EventService(api_key="your_app_api_key)
+
+# create a new event for specific app user and campaign
+event_created = eventService.create(
+	name="ddd",
+	campaign_id=18,
+	app_user_id=14
+)
+
+print(event_created)
+
+# list of events of the app
+events = eventService.getAll()
+
+# list of app's events of specific campaign
+events = eventService.getAll(campaign_id=12)
+
+# retrieve one event
+event = eventService.getOne(id=12)
+
+```
+
+### 4. Rewards
+
+```python
+from dacwinapi import RewardService
+
+rewardService = RewardService(api_key="your_app_api_key)
+
+# list of rewards of the app
+rewards = rewardService.getAll()
+
+# list of app's rewards of specific campaign
+rewards = rewardService.getAll(campaign_id=12)
+
+# retrieve one reward
+reward = rewardService.getOne(id=12)
+```

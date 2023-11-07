@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: pyrtklib5
+Version: 0.2.4
+Summary: This is a python binding for rtklib_demo5
+Home-page: https://github.com/IPNL-POLYU/pyrtklib_demo5
+Author: Runzhi Hu
+Author-email: run-zhi.hu@connect.polyu.hk
+License-File: LICENSE
+

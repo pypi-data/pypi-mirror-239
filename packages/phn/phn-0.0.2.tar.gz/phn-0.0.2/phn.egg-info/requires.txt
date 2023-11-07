@@ -1,0 +1,7 @@
+nchr
+nlit
+pstr
+ensc
+pandas
+
+[dev]

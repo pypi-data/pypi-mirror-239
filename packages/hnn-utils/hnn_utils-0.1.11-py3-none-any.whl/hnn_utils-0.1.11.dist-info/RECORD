@@ -1,0 +1,10 @@
+hnn_utils/__init__.py,sha256=jnMlQz9TTNZAv06e9Es0edY2rTQsSoCxfseHvdsPb2U,207
+hnn_utils/callbacks/__init__.py,sha256=AowofP7S9F5juY2uQgVP1jkKslBjyCzahIwWi4N1A6I,7905
+hnn_utils/callbacks/ema.py,sha256=g_KlIQvkJ6EIwRAUozBo5egfFpuh9-uZuwJtULZp9Yo,6582
+hnn_utils/layers/Transformer.py,sha256=yUb6F0DEWgyuznLKke0xX5P1OFKYbiYI1u4xVXmR44g,14470
+hnn_utils/layers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hnn_utils-0.1.11.dist-info/LICENSE,sha256=N19dS6_e9dwq22ZbcAqvJFmHZwbxfAz2tvVzwi9gEWk,1068
+hnn_utils-0.1.11.dist-info/METADATA,sha256=Oqaq8-w3BqK_vHvaYAIHtJe2ER-p5mI8-opdNiDHuUU,503
+hnn_utils-0.1.11.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+hnn_utils-0.1.11.dist-info/top_level.txt,sha256=1ppMJ1N0HWo_N00SfQivQVdS25HCl5l-mo2On0SCbKo,10
+hnn_utils-0.1.11.dist-info/RECORD,,

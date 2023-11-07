@@ -1,0 +1,16 @@
+notebook
+scikit-learn
+scipy
+numpy
+pandas
+lxml
+MDAnalysis
+matplotlib
+plotly
+kaleido
+
+[dev]
+pytest
+black
+setuptools
+twine

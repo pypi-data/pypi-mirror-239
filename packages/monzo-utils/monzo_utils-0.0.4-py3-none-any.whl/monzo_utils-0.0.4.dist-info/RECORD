@@ -1,0 +1,11 @@
+monzo_api.py,sha256=vt8vGvFXtIGBfiwQvHmPALleTrAiOWi8J65RA_xeHsk,24232
+monzo_db.py,sha256=3U7sWsaUw-F44oHuQCZWaV1FFtsynVjGyUQCWdPjtz4,7069
+monzo_utils-0.0.4.data/scripts/monzo-payments,sha256=RXPEeHsYNQUX-tjTvVhfpFcq1M28MdtCWC2jY2WgWSQ,29720
+monzo_utils-0.0.4.data/scripts/monzo-search,sha256=q4rCvHTV6Bh0j7WZEx4XRwY38tDo-GwqKccws41vGjM,8007
+monzo_utils-0.0.4.data/scripts/monzo-status,sha256=UFKnx0tjy0FPPBtmshPs_RZX2jfJVviGMT9gyDSs_F8,4051
+monzo_utils-0.0.4.data/scripts/monzo-sync,sha256=wSGwYhUzuI5Tm512Vdaxv04ZAWgf3yyIMU3rf6to2eo,493
+monzo_utils-0.0.4.dist-info/LICENSE,sha256=A9Q6E-hg-RC_H80yiY1f7ct2EgHiUWT0sxTMLsLgLw0,1078
+monzo_utils-0.0.4.dist-info/METADATA,sha256=9j-Ca8S-q0toWodXuTntDWDXc8EfNug5EoZ5-QeWxgg,281
+monzo_utils-0.0.4.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+monzo_utils-0.0.4.dist-info/top_level.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+monzo_utils-0.0.4.dist-info/RECORD,,

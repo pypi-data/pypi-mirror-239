@@ -1,0 +1,41 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "run-stardist"
+dynamic = ["version"]
+description = "Train and use StarDist models"
+readme = "README.md"
+license = "bsd-3-clause"
+requires-python = ">=3.10, <3.12"
+authors = [{ name = "Qin Yu", email = "qin.yu@embl.de" }]
+keywords = [
+    "nucleus-segmentation",
+    "bioimage-analysis",
+    "image-processing",
+    "deep-learning",
+    "stardist",
+]
+classifiers = [
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+    "Topic :: Scientific/Engineering :: Image Processing",
+]
+dependencies = ["pydantic==1.*", "stardist", "tensorflow[and-cuda]", "wandb"]
+
+[project.scripts]
+predict-stardist = "runstardist.predict:main"
+train-stardist = "runstardist.train:main"
+
+[project.urls]
+Homepage = "https://github.com/qin-yu/ovules-instance-segmentation"
+Documentation = "https://github.com/qin-yu/ovules-instance-segmentation/stardist/README.md"
+
+[tool.hatch.version]
+path = "runstardist/__init__.py"
+
+[tool.hatch.build.targets.sdist]
+include = ["/runstardist"]

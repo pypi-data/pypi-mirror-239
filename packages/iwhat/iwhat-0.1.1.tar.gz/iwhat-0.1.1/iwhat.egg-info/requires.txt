@@ -1,0 +1,2 @@
+rich
+openai==0.27.2

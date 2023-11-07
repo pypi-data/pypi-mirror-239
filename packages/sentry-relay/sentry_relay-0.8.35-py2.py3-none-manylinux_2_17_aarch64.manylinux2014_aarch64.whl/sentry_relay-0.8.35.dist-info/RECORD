@@ -1,0 +1,14 @@
+sentry_relay-0.8.35.dist-info/WHEEL,sha256=2cqocLOKSCtVycEJf_c5oyS9ioTUsRVaiqoGXTLJPys,221
+sentry_relay-0.8.35.dist-info/RECORD,,
+sentry_relay-0.8.35.dist-info/top_level.txt,sha256=Iw_NNYZXlLhwMqfmMcJuXiig5igzCo4tvgwg3Qp9Atk,13
+sentry_relay-0.8.35.dist-info/METADATA,sha256=Y95tfNii7Esgh_ytisZfL7LpqCCzCzjszFQUONe7lEQ,255
+sentry_relay/processing.py,sha256=uiwV7lcfos9-2ZiMJYtEHyy2FV7m6q0tCAkocwOb_Xg,8907
+sentry_relay/consts.py,sha256=ZVciNBTWLR_sTHekjZV2lWtTiKzHiFMDX4CXiImIRQw,3179
+sentry_relay/auth.py,sha256=0yBc_5YtyHD-n-uYTm1Tcy9uIRNIMiDafJ3W6tE541s,3571
+sentry_relay/utils.py,sha256=eeALj6WmQ7u9yWhCiN9PXLiXqQ3rm-4_sSvgAeGnG-E,3020
+sentry_relay/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sentry_relay/_lowlevel__lib.so,sha256=8JkG3hRKKD9uSt-E-ockDUFNy-rhZDr9Oq8H7G_j-Ds,259125656
+sentry_relay/exceptions.py,sha256=p18Ijz_oQ17AQeL1bjAcPD8xo1CIMRU7LGChcGF1fBo,1661
+sentry_relay/_lowlevel.py,sha256=OWObdVHFl1uY-KmdeApMYAzuRBL-taY0_UPEt5HJvjg,192
+sentry_relay/__init__.py,sha256=4SVKIjtgYwfaUGkAM2HOrKRjNo9MiAOuRjG_l1nZzS4,583
+sentry_relay/_lowlevel__ffi.py,sha256=uDe0x3-e_Rky4NTeEOIQzh8OWnFsMKVgT6sprKLuoKU,10651

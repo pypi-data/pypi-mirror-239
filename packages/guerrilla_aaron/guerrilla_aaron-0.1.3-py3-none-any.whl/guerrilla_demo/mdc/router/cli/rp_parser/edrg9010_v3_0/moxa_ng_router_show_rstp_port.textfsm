@@ -1,0 +1,9 @@
+Value int (\S+)
+Value enable (\S+)
+Value edge_port (\S+)
+Value prio (\d+)
+Value cost (\d+)
+Value status (\S+)
+
+Start
+  ^\s*${int}\s+${enable}\s+${edge_port}\s+${prio}\s+${cost}\s+${status} -> Record

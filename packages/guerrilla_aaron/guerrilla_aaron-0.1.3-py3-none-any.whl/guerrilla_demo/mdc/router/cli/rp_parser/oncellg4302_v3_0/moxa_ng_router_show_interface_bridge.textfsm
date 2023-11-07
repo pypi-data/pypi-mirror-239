@@ -1,0 +1,12 @@
+Value interface_name (.*)
+Value state (.*)
+Value ip_address (.*)
+Value subnet_mask (.*)
+Value goose_meesage_pass_through (.*)
+
+Start
+ ^Interface Name: ${interface_name}
+ ^State: ${state}
+ ^IP Address: ${ip_address}
+ ^Subnet Mask: ${subnet_mask}
+ ^Goose Message Pass-Through: ${goose_meesage_pass_through} -> Record

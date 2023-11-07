@@ -1,0 +1,16 @@
+pystow/__init__.py,sha256=OPie_clrXrqonwU5ivot2T5g4mgZ_f6hq-nmvNpPfMM,1019
+pystow/__main__.py,sha256=WCZKxsX1oDrHEyGi6yuS71ozvbWei-OIM_pn4zrddRQ,128
+pystow/api.py,sha256=y1-XNajJxtKUHTf-tzvto23peob6By-7wzINEa7bqn8,56435
+pystow/cache.py,sha256=Lo2kth_ngNZ7GR_bxMjZ_-Ap5sMvv-8fP4mVeZzaF9c,5837
+pystow/cli.py,sha256=nhqDwsIURQAI4nKNSRRX1Nxhhl-G4dO_7yptcE0mVO0,1128
+pystow/config_api.py,sha256=wb-nGrI3a3hPngpzzv3HQLoOE0C8SfbTMph7nz3VPAI,6148
+pystow/constants.py,sha256=e-o8KQCxj0NbtDj8220nVwwdwskO5nWsxUjfW4OvI1U,2116
+pystow/impl.py,sha256=21KpwbnrItI0_UdVxbrJBKyCcrgvnpoWHro7tbCnyjQ,58026
+pystow/utils.py,sha256=GU3yC1xUK3X0V_fx85ce2iAKaWI9ZtG9QF3plwTB7G8,35905
+pystow/version.py,sha256=tuWOoMRjlRyRe2ZJtW-ntMaB3wXEzoC9paWm76uB1kk,112
+pystow-0.5.2.dist-info/LICENSE,sha256=GzLA83qaovFgoZWRYwaAmY-lkHZyDySJHU-YKE9NdVs,1076
+pystow-0.5.2.dist-info/METADATA,sha256=AyHUE6MMMvH9_1g_bxSXzoys58zfK7Dg7Jmnf5s7cFY,8931
+pystow-0.5.2.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+pystow-0.5.2.dist-info/entry_points.txt,sha256=YEAPI_94mputM-B9bD2EHmbOZawNPey4PkNV-hHVpd4,43
+pystow-0.5.2.dist-info/top_level.txt,sha256=ILFZZyzB3qZ7FKNzNv-1xyzs8hEWa7ZxBs4bXZYTztY,7
+pystow-0.5.2.dist-info/RECORD,,

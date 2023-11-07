@@ -1,0 +1,9 @@
+README.md
+setup.py
+i_art/__init__.py
+i_art/iartest.py
+py_i_art.egg-info/PKG-INFO
+py_i_art.egg-info/SOURCES.txt
+py_i_art.egg-info/dependency_links.txt
+py_i_art.egg-info/requires.txt
+py_i_art.egg-info/top_level.txt

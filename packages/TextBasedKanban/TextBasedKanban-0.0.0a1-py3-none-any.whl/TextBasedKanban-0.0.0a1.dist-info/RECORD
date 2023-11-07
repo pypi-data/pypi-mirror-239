@@ -1,0 +1,15 @@
+tbk/__init__.py,sha256=ZkIfDGC660DaaYFJy5LJeL8OVwbDptDARWC2oFjoMUY,991
+tbk/__main__.py,sha256=41LPj17iITIf1SsE6DWQAYZUXCQNbh-jeZfIvnbYA9A,29
+tbk/cmd/init.py,sha256=TSQ8lFZzoS_8HiA1vB-gFi6fmMuiZ_x1ZRyxla1HtrI,352
+tbk/cmd/show.py,sha256=UQW7Sut79SkJ3lplvRDKcvlHMT-qol3zM7lNusl-Tbk,821
+tbk/cmd/status.py,sha256=aTlkv2VzE4B4k6IHVh-fek6R1gxsBmqNT2LIkfaO7D8,3702
+tbk/logic/card.py,sha256=WNUs8A39MifJOkgI83dWIAqeowM56di7ajJ-eS0OjE8,5541
+tbk/logic/consts.py,sha256=vp_UcJ-TSquFfuLRmb3E47LJuyXvCS4hgbpzIMn0IsU,116
+tbk/logic/get_card.py,sha256=I-7kVKHWQ_Fppm5pRlvPyEkQQf8kUzLByX6tVcAbCdI,2049
+tbk/logic/repeater.py,sha256=WmM9m78nuJHRqtrbRK9kxEj8dUAd1ML2wAplfOvWGOs,5890
+TextBasedKanban-0.0.0a1.dist-info/LICENSE,sha256=dVJNv_Fcp3hH6qvQI7uNg014OuJvLt6q4efIF9abCUo,1064
+TextBasedKanban-0.0.0a1.dist-info/METADATA,sha256=uMeObdRB1YRHHgA4S3w6mZeFgEhvtLQ2PqPp6L8b1AM,587
+TextBasedKanban-0.0.0a1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+TextBasedKanban-0.0.0a1.dist-info/entry_points.txt,sha256=6DJtMPML60zN9w0JQZ5lye9TMTx8uwfBAfd-2qjMo9s,33
+TextBasedKanban-0.0.0a1.dist-info/top_level.txt,sha256=zMn7pbdUkjWu9Ytm4hkRARWO3apIXv7r_XsGLwZ4gqs,4
+TextBasedKanban-0.0.0a1.dist-info/RECORD,,

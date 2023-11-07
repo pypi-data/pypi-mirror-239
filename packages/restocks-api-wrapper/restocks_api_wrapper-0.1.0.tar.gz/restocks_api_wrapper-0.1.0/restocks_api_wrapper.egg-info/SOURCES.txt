@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+restocks_api_wrapper.egg-info/PKG-INFO
+restocks_api_wrapper.egg-info/SOURCES.txt
+restocks_api_wrapper.egg-info/dependency_links.txt
+restocks_api_wrapper.egg-info/requires.txt
+restocks_api_wrapper.egg-info/top_level.txt
+restocks_client/__init__.py
+restocks_client/client.py
+restocks_client/exceptions.py
+restocks_client/filters.py
+restocks_client/product.py
+restocks_client/utils/__init__.py
+restocks_client/utils/defaults.py
+restocks_client/utils/helpers.py
+restocks_client/utils/proxy_handler.py

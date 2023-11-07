@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/ofxstatement/__init__.py
+src/ofxstatement/plugins/__init__.py
+src/ofxstatement/plugins/bsicly.py
+src/ofxstatement_ly_bsic.egg-info/PKG-INFO
+src/ofxstatement_ly_bsic.egg-info/SOURCES.txt
+src/ofxstatement_ly_bsic.egg-info/dependency_links.txt
+src/ofxstatement_ly_bsic.egg-info/entry_points.txt
+src/ofxstatement_ly_bsic.egg-info/namespace_packages.txt
+src/ofxstatement_ly_bsic.egg-info/requires.txt
+src/ofxstatement_ly_bsic.egg-info/top_level.txt
+src/ofxstatement_ly_bsic.egg-info/zip-safe

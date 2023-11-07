@@ -1,0 +1,9 @@
+typing_validation/__init__.py,sha256=jl-Agc8rjKm1-81_QfA0HW9HjOlF9-GEte4G0-riO5E,458
+typing_validation/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+typing_validation/validation.py,sha256=FjRgy3Z1Bnvd1NXj8TMqvCOWP9cTXGQvlYq0yRLJ8xY,30861
+typing_validation/validation_failure.py,sha256=nQXRmwxnFv9_KCfm4wXx2_-nMQy_r0aFH-Z87F8IgrE,10756
+makkus.typing_validation-1.0.2.dist-info/LICENSE,sha256=EnGKMdsaNRDPL4ajc1WZHFq_duv01w8gNRRn7ocIcXU,1065
+makkus.typing_validation-1.0.2.dist-info/METADATA,sha256=2blLBIpRW8bAUJiIccGBJsjmYH9F_7NK64wm4EousMc,4078
+makkus.typing_validation-1.0.2.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+makkus.typing_validation-1.0.2.dist-info/top_level.txt,sha256=rkHGoS8VH6WFm-NBqfsOY_lGbNUs90O0jWBEehLdccM,18
+makkus.typing_validation-1.0.2.dist-info/RECORD,,

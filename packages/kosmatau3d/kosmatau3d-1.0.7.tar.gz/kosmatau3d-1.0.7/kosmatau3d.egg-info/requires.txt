@@ -1,0 +1,16 @@
+astropy
+cygrid
+dill
+jupyter-book
+jupyterlab
+matplotlib
+numba>=0.49.1
+numpy
+pandas
+scikit-learn
+scipy
+spectres
+sphinx
+sphinx-autoapi
+sympy
+tqdm

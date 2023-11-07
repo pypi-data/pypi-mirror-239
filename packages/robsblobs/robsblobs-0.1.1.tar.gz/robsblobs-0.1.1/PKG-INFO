@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: robsblobs
+Version: 0.1.1
+Summary: 
+Author: Robert Ennis
+Author-email: Robert.Ennis@psychol.uni-giessen.de
+Requires-Python: >=3.10,<3.12
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: colour-science (>=0.4.2,<0.5.0)
+Requires-Dist: numpy (>=1.25.1,<2.0.0)
+Requires-Dist: pycircstat (>=0.0.2,<0.0.3)
+Requires-Dist: scipy (>=1.11.1,<2.0.0)
+Description-Content-Type: text/markdown
+
+

@@ -1,0 +1,12 @@
+tiffslide_xarray/__init__.py,sha256=HindTWlbBFtrZoDFxQ3NRzsbl_4iMnwWL2RDlxVvJ2Y,260
+tiffslide_xarray/_version.py,sha256=sg0DwUuXMM0v_wDgcZUqwOnWCDRh8fikh3p6ajEoWdg,58
+tiffslide_xarray/accessors.py,sha256=By8Lunj4HuhtlEa0Lucx0C-rPNrewqsYm0Zu1MN5byc,10341
+tiffslide_xarray/attrs.py,sha256=-swbzpen2izpUGIZ78FOmjBnyQJ-YS_BsQdvkDpEO_g,4754
+tiffslide_xarray/data.py,sha256=JPQ9uAgo73pEaTh0_bAxqoFlOx7xrk1qj30tF_gLgNk,6518
+tiffslide_xarray/grid.py,sha256=lNMprCgqCgcInGbGn3u2LyknpGz2QBi3kW61gRh9iIw,11418
+tiffslide_xarray/py.typed,sha256=mDShSrm8qg9qjacQc2F-rI8ATllqP6EdgHuEYxuCXZ0,7
+tiffslide_xarray-0.1b0.dist-info/LICENSE,sha256=pjC--F-WtbR7jNddpskgWgwDzSS7NjuH9LJND-E8JB8,1500
+tiffslide_xarray-0.1b0.dist-info/METADATA,sha256=_490H_Bpq1MP6p-og8o9fAruipUnoZYHJmgCSUCtqoo,4553
+tiffslide_xarray-0.1b0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+tiffslide_xarray-0.1b0.dist-info/entry_points.txt,sha256=ROZx284Q3Ej2x7VDrYnM1pIH0qLmKX6t7fbuTnCx1zY,68
+tiffslide_xarray-0.1b0.dist-info/RECORD,,

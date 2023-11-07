@@ -1,0 +1,10 @@
+opencopilot_db/__init__.py,sha256=VgvjjOlB1YFosXCxU3nCn3NFZXPQsXIChVnppS9BT2s,209
+opencopilot_db/chat_history.py,sha256=qt6btYVNDyZ1rLPk9u1FQGAPzI6-zx1EoQvXsDEomaM,754
+opencopilot_db/chatbot_model.py,sha256=vLi14BEb8aTcF8KBn4YzACcfSebqntrvw2r2TcXuRWQ,1001
+opencopilot_db/database_setup.py,sha256=fpub0_90PGKt7Oc7OXd976FPeuma7F8GsWmKrZTRuH8,754
+opencopilot_db/get_declarative_base.py,sha256=hzOq0y_Y1dbSoRretgerVbulbIQvazibQcsy1zRC7TE,81
+opencopilot_db/pdf_data_source_model.py,sha256=eq730j1rhY-cdarfn5sD8074-LTp5pVterCShtMkjz4,726
+opencopilot_db-1.3.1.dist-info/METADATA,sha256=s7-MgcyeVz41SEi6tIVDtVSkExyalUAf2rlj8p8wyo8,2398
+opencopilot_db-1.3.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+opencopilot_db-1.3.1.dist-info/top_level.txt,sha256=4rkm8rzD-hvYatly24x_-msvoD3GBAK-8kcPEd9ocbc,15
+opencopilot_db-1.3.1.dist-info/RECORD,,

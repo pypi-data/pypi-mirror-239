@@ -1,0 +1,12 @@
+imports: null
+version: 1
+targets:
+  target_name:
+    jinja_template: null
+    output_file: "{today}.pdf"
+    data:
+      md_files: null
+      md_globs: null
+      yaml_files: null
+      yaml_globs: null
+      variables: null

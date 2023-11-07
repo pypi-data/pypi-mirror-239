@@ -1,0 +1,6 @@
+python-frontmatter
+jinja2>=3.1
+logmuse
+pyyaml
+requests
+ubiquerg

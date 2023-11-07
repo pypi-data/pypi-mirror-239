@@ -1,0 +1,161 @@
+Metadata-Version: 2.1
+Name: ninjaconnect
+Version: 2.1.30
+Summary: NINJA CONNECT: Your Hassle-Free Device Configuration and Management Wizard!
+Home-page: https://pypi.org/project/ninjaconnect/
+Author: Prasaanth
+Author-email: prasaanth2k@gmail.com
+Maintainer: Prasaanth
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: keyring ==23.5.0
+Requires-Dist: readchar ==4.0.5
+Requires-Dist: Requests ==2.31.0
+Requires-Dist: rich ==13.6.0
+Requires-Dist: setuptools ==68.2.2
+
+### THE GUIDE TO ONLINE LEARNING WITH SNA-LABS CLI VPN
+
+Welcome to the journey of learning how to use the SNA-LABS CLI VPN with our labs. To effectively use the VPN, it's essential to understand how our labs work. Let's dive into it.
+
+
+
+[![Downloads](https://static.pepy.tech/badge/ninjaconnect/month)](https://pepy.tech/project/ninjaconnect)
+[![Supported Python Versions](https://img.shields.io/pypi/pyversions/rich/13.2.0)](https://pypi.org/project/rich/)
+[![PyPI version](https://badge.fury.io/py/ninjaconnect.svg)](https://badge.fury.io/py/ninjaconnect)
+![ninjaconnect](https://img.shields.io/badge/ninjaconnector-blue)
+
+### Steps to Connect with your Labs
+
+### Supported Platforms
+
+After joining our platform, you can connect to our labs with this VPN.
+
+### Installation on Linux
+
+![linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+On Linux, you can install NinjaConnect easily with pipx using the following command:
+
+```bash
+pipx install ninjaconnect
+```
+Some cases it will ask permissions we need to give permission
+```
+chmod +x /home/<yourusername>/.local/bin/ninja
+```
+After installation, you can run the command below the steps terminal:
+
+### Installation on Windows
+![windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+```
+pipx install ninjaconnect
+```
+On Windows, you can install NinjaConnect with pip. After that, you need to create a batch file as shown in the image and replace <Your Username> with your actual username. Place this batch file in your user folder.
+
+```batch
+@echo off
+python C:\Users\<Your Username>\AppData\Local\Programs\Python\Python312\Scripts\ninja %*
+```
+To run this VPN, open the command prompt as an administrator on windows
+
+
+### Raspberry Pi
+```bash
+pipx install ninjaconnect
+```
+For Raspberry pi you need to generate access token for 
+Login authenticate ourlabs
+[GENERATELINK](accesstoken.md)
+
+![raspberrypi](https://img.shields.io/badge/Raspberrypi(Headlessdevices)-darkred?logo=raspberrypi
+)
+
+### Configure Your Device SSH
+After installation, you need to configure SSH on your device to connect via SSH or with VS Code. For configuring SSH, refer to SSHCONF.
+
+### Help and Options
+Some cases it will ask permissions we need to give permission
+```
+chmod +x /home/<yourusername>/.local/bin/ninja
+```
+To see available options, use the following command:
+
+```bash
+ninja -h
+```
+![helpoption](https://i.imgur.com/gZHrKhM.png)
+
+This command will show you what you can do with this tool.
+
+#### Step 1: Configuration
+
+```bash
+ninja configure
+```
+![configure](https://i.imgur.com/8yHkjat.png)
+
+`Note: In case any errors occur, reconfigure it.`
+
+#### Step 2: Login
+
+```bash
+ninja login
+```
+![login](https://i.imgur.com/ghjSuaa.png)
+Above the login for only GUI devices
+For Headless devices you need to give access token
+#### Step 3: Add Device
+```bash
+ninja add_device
+```
+![add_device](https://i.imgur.com/LstuXGA.png)
+
+#### Step 4: Connect
+```
+ninja connect
+```
+![connect](https://i.imgur.com/ofoa59k.png)
+
+Now you can connect via VSCODE and SSH into your labs' IP.
+
+#### Step 5: Disconnect
+
+```bash
+ninja disconnect
+```
+![disconnect](https://i.imgur.com/BpEffjl.png)
+
+#### Step 6: Logout
+
+```bash
+ninja logout
+```
+![logout](https://i.imgur.com/ceiUmCl.png)
+
+#### Step 7: Remove Device
+Incase if you want to remove the device you canable to remove the device with this command 
+```bash
+ninja remove_device
+```
+<!-- #### Wizmode
+You can also use the wizard for an easy installation:
+```bash
+ninja wizmode
+``` -->
+Please note that this is a beta version,incase any issues. We appreciate your feedback in Telegram @selfmadeninjasupport
+
+![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)

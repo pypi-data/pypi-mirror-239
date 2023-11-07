@@ -1,0 +1,9 @@
+bs4
+openai==0.27.2
+litellm
+requests
+ebooklib
+rich
+tqdm
+tiktoken
+PyDeepLX

@@ -1,0 +1,183 @@
+[tool.poetry]
+name = "ansible-validations"
+version = "0.1.1"
+description = ""
+authors = ["Artem Novikov <reartnew@nebius.com>"]
+packages = [{ include = "ansible_validations", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.group.dev.dependencies]
+ansible = "2.9.27"
+pytest = "^7.4.2"
+pylint = "^3.0.2"
+mypy = "^1.6.1"
+black = "^23.10.0"
+bandit = "^1.7.5"
+pytest-pylint = "^0.21.0"
+pytest-mypy = "^0.10.3"
+pytest-black = "^0.3.12"
+pytest-bandit = "^0.6.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 120
+
+[tool.pytest.ini_options]
+testpaths = [
+    "src",
+]
+addopts = """
+--black
+--bandit
+--mypy
+--pylint
+"""
+bandit_targets = ["src"]
+filterwarnings = [
+    "error",
+    "ignore:.*:pytest.PytestWarning",
+    "ignore:.*:builtins.DeprecationWarning",
+    "ignore:.*:builtins.ImportWarning",
+]
+
+[tool.pylint.MASTER]
+fail-under = 10.0
+jobs = 1
+unsafe-load-any-extension = "no"
+
+[tool.pylint."MESSAGES CONTROL"]
+disable = [
+    "too-few-public-methods",
+    "broad-except",
+    "fixme",
+    "logging-fstring-interpolation",
+    "missing-module-docstring",
+]
+enable = ["unused-wildcard-import"]
+
+[tool.pylint.REFACTORING]
+max-nested-blocks = 10
+never-returning-functions = ["sys.exit"]
+
+[tool.pylint.BASIC]
+argument-naming-style = "snake_case"
+attr-naming-style = "snake_case"
+bad-names = ["l"]
+class-attribute-naming-style = "any"
+class-naming-style = "any"
+class-rgx = "[A-Z][a-zA-Z]*$"
+const-naming-style = "UPPER_CASE"
+docstring-min-length = -1
+function-naming-style = "snake_case"
+good-names-rgxs = "^[a-z_]$"
+include-naming-hint = "no"
+inlinevar-naming-style = "any"
+method-naming-style = "snake_case"
+module-naming-style = "snake_case"
+no-docstring-rgx = "^_"
+property-classes = ["abc.abstractproperty"]
+variable-naming-style = "snake_case"
+
+[tool.pylint.FORMAT]
+expected-line-ending-format = "LF"
+indent-after-paren = 4
+indent-string = "'    '"
+max-line-length = 120
+max-module-lines = 1000
+single-line-class-stmt = "no"
+single-line-if-stmt = "no"
+string-quote = "double-avoid-escape"
+triple-quote = "double"
+docstring-quote = "double"
+
+[tool.pylint.MISCELLANEOUS]
+notes = "TODO"
+
+[tool.pylint.SIMILARITIES]
+ignore-comments = "yes"
+ignore-docstrings = "yes"
+ignore-imports = "no"
+min-similarity-lines = 50
+
+[tool.pylint.SPELLING]
+max-spelling-suggestions = 4
+spelling-store-unknown-words = "no"
+
+[tool.pylint.STRING]
+check-quote-consistency = "no"
+check-str-concat-over-line-jumps = "no"
+
+[tool.pylint.TYPECHECK]
+contextmanager-decorators = ["contextlib.contextmanager"]
+ignore-mixin-members = "yes"
+ignore-none = "no"
+ignore-on-opaque-inference = "yes"
+ignored-classes = [
+    "optparse.Values",
+    "thread._local",
+    "_thread._local",
+]
+missing-member-hint = "yes"
+missing-member-hint-distance = 1
+missing-member-max-choices = 1
+
+[tool.pylint.VARIABLES]
+allow-global-unused-variables = "yes"
+callbacks = [
+    "cb_",
+    "_cb",
+]
+dummy-variables-rgx = "^_$"
+ignored-argument-names = "_.*|^ignored_|^unused_"
+init-import = "no"
+redefining-builtins-modules = [
+    "six.moves",
+    "past.builtins",
+    "future.builtins",
+    "builtins",
+    "io",
+]
+
+[tool.pylint.CLASSES]
+defining-attr-methods = [
+    "__init__",
+    "__new__",
+    "__post_init__",
+]
+valid-classmethod-first-arg = "cls"
+valid-metaclass-classmethod-first-arg = "cls"
+
+[tool.pylint.DESIGN]
+max-args = 20
+max-attributes = 50
+max-bool-expr = 10
+max-branches = 50
+max-locals = 50
+max-parents = 20
+max-public-methods = 100
+max-returns = 10
+max-statements = 100
+min-public-methods = 2
+
+[tool.pylint.IMPORTS]
+allow-wildcard-with-all = "no"
+analyse-fallback-blocks = "yes"
+
+[tool.pylint.EXCEPTIONS]
+overgeneral-exceptions = [
+    "builtins.BaseException",
+    "builtins.Exception",
+]
+
+[tool.mypy]
+namespace_packages = true
+
+[[tool.mypy.overrides]]
+module = ["ansible.*"]
+ignore_errors = true
+ignore_missing_imports = true

@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: dynamic_competence_map
+Version: 0.0.1
+Summary: dcm: visualization of dynamic competence map
+Project-URL: Home, https://github.com/WolfgangFahl/dcm
+Project-URL: Documentation, https://wiki.bitplan.com/index.php/dcm
+Project-URL: Source, https://github.com/WolfgangFahl/dcm
+Author-email: Wolfgang Fahl <wf@WolfgangFahl.com>
+Maintainer-email: Wolfgang Fahl <wf@WolfgangFahl.com>
+License: Apache-2.0
+License-File: LICENSE
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: User Interfaces
+Requires-Python: >=3.9
+Requires-Dist: ngwidgets>=0.3.3
+Provides-Extra: test
+Requires-Dist: green; extra == 'test'
+Description-Content-Type: text/markdown
+
+# dcm
+dynamic competence map - a python based visualization tool
+for displaying the development of skills/competences in the context of
+defined competence aspects.
+
+[![Join the discussion at https://github.com/WolfgangFahl/dcm/discussions](https://img.shields.io/github/discussions/WolfgangFahl/dcm)](https://github.com/WolfgangFahl/dcm/discussions)
+[![pypi](https://img.shields.io/pypi/pyversions/dcm)](https://pypi.org/project/dcm/)
+[![Github Actions Build](https://github.com/WolfgangFahl/dcm/workflows/Build/badge.svg?branch=main)](https://github.com/WolfgangFahl/dcm/actions?query=workflow%3ABuild+branch%3Amain)
+[![PyPI Status](https://img.shields.io/pypi/v/dcm.svg)](https://pypi.python.org/pypi/dcm/)
+[![GitHub issues](https://img.shields.io/github/issues/WolfgangFahl/dcm.svg)](https://github.com/WolfgangFahl/dcm/issues)
+[![GitHub issues](https://img.shields.io/github/issues-closed/WolfgangFahl/dcm.svg)](https://github.com/WolfgangFahl/dcm/issues/?q=is%3Aissue+is%3Aclosed)
+[![GitHub](https://img.shields.io/github/license/WolfgangFahl/dcm)](https://www.apache.org/licenses/LICENSE-2.0)

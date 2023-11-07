@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+lis_autocontent.egg-info/PKG-INFO
+lis_autocontent.egg-info/SOURCES.txt
+lis_autocontent.egg-info/dependency_links.txt
+lis_autocontent.egg-info/entry_points.txt
+lis_autocontent.egg-info/requires.txt
+lis_autocontent.egg-info/top_level.txt
+scripts/lis_autocontent.py
+scripts/lis_cli.py
+scripts/process_collections.py

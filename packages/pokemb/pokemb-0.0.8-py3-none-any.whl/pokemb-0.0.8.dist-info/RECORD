@@ -1,0 +1,14 @@
+pokemb/__init__.py,sha256=jQanOpaxc465Us3zeZNNNmzdJNLXVYfprdaxITgoJVA,115
+pokemb/autoencode.py,sha256=HWpcS_O8eN8kz89NHhEyeKBNuTq-xZG83MZ5zj21X1Q,7243
+pokemb/mod.py,sha256=pKoXBsis2roPszG96sQ4WspKEVnis74uChXrqHButQU,2976
+pokemb/utils.py,sha256=LuRIR5uId5Xebuh43-0BjUxZYy6zWs4dj9sQkPhrL8Q,3939
+pokemb/data/data.json,sha256=GRqmURH1ga8rymJ8_HjDyTaKCMCERmGTAc7TO2Ls1Yo,134
+pokemb/data/encodings-128.pkl,sha256=9GZkaKaOmUyGBuKdg59-hSaWurZ7doafThUOJUtQD8A,132
+pokemb/data/encodings-256.pkl,sha256=44nJSoCJBLo3DfcECDFIOBCU0brqqsXiUfxhz8ANcTg,133
+pokemb/data/encodings-32.pkl,sha256=VRAc7iYXeJyTnqwC_tkzw1X2ernNsC5MJcivKMmGNBY,132
+pokemb/data/encodings-64.pkl,sha256=Sl5pkJF2KKc1xTsHwf6IwBx4K2owyGq5lIu1-lZBILA,132
+pokemb/data/encodings.pkl,sha256=TCNMyReM054_bbRyJ5W72q5gVByBLDTON0MeDA3yyEE,133
+pokemb-0.0.8.dist-info/METADATA,sha256=kxyoDGsXv9iYvfrzHYF0AdzaLJsPA3BiUG2cYA8FKfU,373
+pokemb-0.0.8.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+pokemb-0.0.8.dist-info/top_level.txt,sha256=XsMKh-u2qnImvPqaBuAH8JzYy3vV3wLbPc1w3eZ34fE,7
+pokemb-0.0.8.dist-info/RECORD,,

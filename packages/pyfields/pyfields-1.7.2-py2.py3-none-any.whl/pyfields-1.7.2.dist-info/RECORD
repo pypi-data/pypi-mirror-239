@@ -1,0 +1,16 @@
+pyfields/__init__.py,sha256=tHt6TQXHJhSIxU4HdeTLLbufdNuG6j91tMLoNBIFHJI,1721
+pyfields/_version.py,sha256=tchu3EUCFlXkLUzXArBEynn13T0oAB2GRUCjrig00lc,160
+pyfields/autofields_.py,sha256=MQSddShuKlRGj28QN4zn9N_Werk9XO9l1x76pQMvU1Y,27526
+pyfields/core.py,sha256=uBt1WXsPXHF-4wVRp85qNrjtgLzrpvCeq9o8LHTLj9g,50067
+pyfields/helpers.py,sha256=UeWIs7XQ313Dh6zKoS9eY0VdxtP3RtSOvAzqLH1NfYI,13099
+pyfields/init_makers.py,sha256=baQKWSXQcE6tbRYn925FwroPg2cBH9IAQc2ugJl7sGU,25424
+pyfields/init_makers.pyi,sha256=e33-0aWZUYQYG2k_WVkuXaxwSjMWaoZ4ZFtbX1ym_bc,1115
+pyfields/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyfields/typing_utils.py,sha256=NWGNvgDgJuXef5pfweeskDRIzh8OxDqubRcEM24vOFU,7392
+pyfields/validate_n_convert.py,sha256=B8lpzQJlgBckd6G_ycmk7Xd6ayeXYJx9NnK5atATM0o,27164
+pyfields/validate_n_convert.pyi,sha256=jZe0J4CCdJu_vJ-9AVXzSzIx4f0s0Ktj7gDySqXnP3c,6202
+pyfields-1.7.2.dist-info/LICENSE,sha256=yTeWsaz_NqBZHpBx6sqlzffuH9jd2qPvaWjREK-uYwU,1514
+pyfields-1.7.2.dist-info/METADATA,sha256=_IyX0i4bAwDx8KWeyHG25b0fMS35ec3CmDPQjFyFvsk,3155
+pyfields-1.7.2.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+pyfields-1.7.2.dist-info/top_level.txt,sha256=h3YELIl0TFQ2Tdz2QuOkqY3XSina3ohab8AnubmlXdk,9
+pyfields-1.7.2.dist-info/RECORD,,

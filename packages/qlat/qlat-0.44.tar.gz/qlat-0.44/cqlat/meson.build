@@ -1,0 +1,37 @@
+# Need to update `exports.h` by running `bash update.sh` manually.
+
+cpp_files = files(
+  'contraction-field.cpp',
+  'contraction-hvp.cpp',
+  'contraction-pion.cpp',
+  'fermion-action.cpp',
+  'field.cpp',
+  'field-double.cpp',
+  'field-io.cpp',
+  'field-utils.cpp',
+  'fthmc.cpp',
+  'gauge-action.cpp',
+  'hmc.cpp',
+  'hmc-stats.cpp',
+  'init.cpp',
+  'inverter.cpp',
+  'lib.cpp',
+  'mat.cpp',
+  'propagator.cpp',
+  'qcd.cpp',
+  'scalar-action.cpp',
+  'selected-field.cpp',
+  'topology.cpp',
+  'utils-io.cpp',
+  'wilson-flow.cpp',
+  )
+
+lib = py3.extension_module('cqlat',
+  cpp_files + config_file,
+  dependencies: deps,
+  include_directories: incdir,
+  link_with: clib,
+  install: true,
+  install_rpath: ':'.join(qlat_utils_lib + [ '$ORIGIN/lib', ]),
+  # gnu_symbol_visibility: 'default',
+  )

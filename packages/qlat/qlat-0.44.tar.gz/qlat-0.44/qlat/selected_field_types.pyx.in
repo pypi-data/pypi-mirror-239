@@ -1,0 +1,174 @@
+# cython: binding=True, embedsignature=True, c_string_type=unicode, c_string_encoding=utf8
+
+{{py:
+type_name_list = [
+    'ColorMatrix',
+    'WilsonMatrix',
+    'NonRelWilsonMatrix',
+    'IsospinMatrix',
+    'SpinMatrix',
+    'WilsonVector',
+    'ComplexD',
+    'ComplexF',
+    'RealD',
+    'RealF',
+    'Long',
+    'Int',
+    'Int64t',
+    'Int32t',
+    'Int8t',
+    'Char',
+    ]
+}}
+
+from qlat_utils.all cimport *
+from . cimport everything as cc
+from cpython cimport Py_buffer
+from cpython.buffer cimport PyBUF_FORMAT
+from .geometry cimport *
+from .field_selection cimport *
+from .fields_io cimport *
+from .field_types cimport *
+from .selected_points_types cimport *
+
+import qlat_utils as q
+import numpy as np
+
+from .field_type_dict import selected_field_type_dict
+
+### -------------------------------------------------------------------
+
+{{for name in type_name_list}}
+
+cdef void set_field_sf_sp_{{name}}(SelectedField{{name}} self, SelectedPoints{{name}} other):
+    # psel may not have to be subset of fsel
+    cc.set_selected_field(self.xx, other.xx, self.fsel.xx, other.psel.xx)
+
+cdef void set_field_sf_sf_{{name}}(SelectedField{{name}} self, SelectedField{{name}} other):
+    # two fsel do not need to match
+    if self.fsel is other.fsel:
+        cc.assign_direct(self.xx, other.xx)
+        # self.xx = other.xx
+    else:
+        cc.set_selected_field(self.xx, other.xx, self.fsel.xx, other.fsel.xx)
+
+cdef void set_field_sf_f_{{name}}(SelectedField{{name}} self, Field{{name}} other):
+    cc.set_selected_field(self.xx, other.xx, self.fsel.xx)
+
+cdef class SelectedField{{name}}(SelectedFieldBase):
+
+    ctype = ElemType{{name}}
+
+    def __cinit__(self):
+        self.cdata = <cc.Long>&(self.xx)
+        self.view_count = 0
+
+    def __init__(self, FieldSelection fsel, int multiplicity=0):
+        self.fsel = fsel
+        if multiplicity > 0 and self.fsel is not None:
+            if self.view_count > 0:
+                raise ValueError("can't re-init while being viewed")
+            self.xx.init(self.fsel.xx, multiplicity)
+        else:
+            self.xx.init()
+
+    def __getbuffer__(self, Py_buffer *buffer, int flags):
+        cdef int ndim = 2 + ElemType{{name}}.ndim()
+        cdef Buffer buf = Buffer(self, ndim)
+        buf.format = ElemType{{name}}.format()
+        buf.itemsize = ElemType{{name}}.itemsize()
+        buf.buf = <char*>(self.xx.field.data())
+        cdef int multiplicity = self.xx.get_geo().multiplicity
+        buf.set_dim_size(0, self.xx.n_elems)
+        buf.set_dim_size(1, multiplicity)
+        cdef cc.std_vector[Py_ssize_t] vec = ElemType{{name}}.shape()
+        cdef int dim
+        for dim in range(vec.size()):
+            buf.set_dim_size(2 + dim, vec[dim])
+        buf.update_strides_from_shape()
+        buf.set_buffer(buffer, flags)
+        self.view_count += 1
+
+    def release_buffer(self, Buffer buf):
+        assert buf.obj is self
+        self.view_count -= 1
+
+    def __imatmul__(self, other):
+        """
+        won't change self.fsel
+        """
+        if isinstance(other, SelectedField{{name}}):
+            # two fsel do not need to match
+            set_field_sf_sf_{{name}}(self, <SelectedField{{name}}>other)
+        elif isinstance(other, Field{{name}}):
+            set_field_sf_f_{{name}}(self, <Field{{name}}>other)
+        elif isinstance(other, SelectedPoints{{name}}):
+            # psel may not have to be subset of fsel
+            set_field_sf_sp_{{name}}(self, <SelectedPoints{{name}}>other)
+        else:
+            raise Exception(f"SelectedField{{name}} @= type mismatch {type(self)} {type(other)}")
+        return self
+
+    @q.timer
+    def copy(self, cc.bool is_copying_data=True):
+        f = type(self)(self.fsel)
+        if is_copying_data:
+            f @= self
+        return f
+
+    @q.timer
+    def set_zero(self):
+        cc.set_zero(self.xx)
+
+    def swap(self, SelectedField{{name}} f1):
+        assert f1.fsel is self.fsel
+        cc.qswap(f1.xx, self.xx)
+
+    def n_elems(self):
+        return self.xx.n_elems
+
+    def total_site(self):
+        cdef Coordinate total_site = Coordinate()
+        cc.assign_direct(total_site.xx, self.xx.get_geo().total_site())
+        return total_site
+
+    def multiplicity(self):
+        return self.xx.get_geo().multiplicity
+
+    def geo(self):
+        cdef Geometry geo = Geometry()
+        cc.assign_direct(geo.xx, self.xx.get_geo())
+        return geo
+
+    def qnorm(self):
+        return cc.qnorm(self.xx)
+
+    def qnorm_field(self):
+        cdef SelectedFieldRealD f_n = SelectedFieldRealD(self.fsel)
+        cc.qnorm_field(f_n.xx, self.xx)
+        return f_n
+
+    def read_direct(self, const cc.std_string& fn):
+        return cc.read_selected_field(self.xx, fn, self.fsel.xx)
+
+    def write_direct(self, const cc.std_string& fn):
+        return cc.write_selected_field(self.xx, fn, self.fsel.xx)
+
+    def read_sfr_direct(self, ShuffledFieldsReader sfr, const cc.std_string& fn):
+        if self.fsel is None:
+            if self.view_count > 0:
+                raise ValueError("can't re-init while being viewed")
+            self.fsel = FieldSelection()
+            return cc.read(sfr.xx, fn, self.xx, self.fsel.xx)
+        cdef ShuffledBitSet sbs = sfr.get_cache_sbs(self.fsel)
+        return cc.read(sfr.xx, fn, sbs.xx, self.xx)
+
+    def write_sfw_direct(self, ShuffledFieldsWriter sfw, const cc.std_string& fn):
+        cdef ShuffledBitSet sbs = sfw.get_cache_sbs(self.fsel)
+        return cc.write(sfw.xx, fn, sbs.xx, self.xx)
+
+selected_field_type_dict[ElemType{{name}}] = SelectedField{{name}}
+
+{{endfor}}
+
+### -------------------------------------------------------------------

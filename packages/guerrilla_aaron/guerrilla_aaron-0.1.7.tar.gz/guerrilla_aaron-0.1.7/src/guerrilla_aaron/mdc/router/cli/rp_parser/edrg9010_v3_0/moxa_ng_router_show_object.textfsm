@@ -1,0 +1,7 @@
+Value obejct_name (\S+)
+Value detail (.*)
+
+Start
+ ^ Name                             Detail
+ ^--------------------------------------------------------------------------------
+ ^${obejct_name}\s+${detail} -> Record

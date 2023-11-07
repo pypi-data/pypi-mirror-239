@@ -1,0 +1,20 @@
+Value system_name (.*)
+Value system_location (.*)
+Value system_description (.*)
+Value maintainer_information (.*)
+Value web_login_message (.*)
+Value failure_message (.*)
+Value mac_address (.*)
+Value system_uptime (.*)
+Value configuration_version (.*)
+
+Start
+ ^\s+System Name\s+:\s+${system_name}
+ ^\s+System Location\s+:\s+${system_location}
+ ^\s+System Description\s+:\s+${system_description}
+ ^\s+Maintainer Information\s+:\s+${maintainer_information}
+ ^\s+Web login message\s+:\s+${web_login_message}
+ ^\s+Failure message\s+:\s+${failure_message}
+ ^\s+MAC Address\s+:\s+${mac_address}
+ ^\s+System Uptime\s+:\s+${system_uptime}
+ ^\s+Configuration Version\s+:\s+${configuration_version} -> Record

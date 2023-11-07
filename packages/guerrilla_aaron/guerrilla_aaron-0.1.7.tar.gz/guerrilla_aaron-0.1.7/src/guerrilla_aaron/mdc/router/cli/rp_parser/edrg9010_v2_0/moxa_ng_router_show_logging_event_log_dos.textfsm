@@ -1,0 +1,34 @@
+Value index (.*)
+Value severity (.*)
+Value date (.*)
+Value time (.*)
+Value type (.*)
+Value protocol (.*)
+Value in (.*)
+Value src_mac (.*)
+Value src_ip (.*)
+Value src_port (.*)
+Value out (.*)
+Value dest_ip (.*)
+Value dest_port (.*)
+Value icmp (.*)
+Value action (.*)
+Value message (.*)
+
+Start
+ ^index          : ${index}
+ ^Severity       : ${severity}
+ ^Date           : ${date}
+ ^Time           : ${time}
+ ^Type           : ${type}
+ ^Protocol       : ${protocol}
+ ^In             : ${in}
+ ^Src-Mac        : ${src_mac}
+ ^Src-IP         : ${src_ip}
+ ^Src-Port       : ${src_port}
+ ^Out            : ${out}
+ ^Dest-IP        : ${dest_ip}
+ ^Dest-Port      : ${dest_port}
+ ^ICMP           : ${icmp}
+ ^Action         : ${action}
+ ^Message        : ${message} -> Record

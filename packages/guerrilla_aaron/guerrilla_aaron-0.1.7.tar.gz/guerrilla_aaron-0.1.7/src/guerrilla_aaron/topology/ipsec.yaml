@@ -1,0 +1,185 @@
+host_info:
+  HOST:
+    name: receiver
+    nic: ens224
+    testbed:
+      host: 192.168.127.93
+      subnet: 192.168.127.0
+      mask: 255.255.255.0
+      gw: 192.168.127.254
+      port: '1'
+      mac_address: '00:0c:29:4b:23:49'
+    controls:
+      - name: shellcmd
+        type: shellcmd
+      - name: tshark
+        type: tshark
+      - name: hping3
+        type: hping3
+      - name: syslog
+        type: syslog
+    session:
+      con_type: ssh
+      host: 192.168.113.93
+      port: 22
+      credential:
+        username: autotwo
+        password: adminmoxa
+  HOST_A:
+    name: sender
+    nic: eth1
+    testbed:
+      cur_host: ''
+      lan_host: 192.168.128.94
+      cur_subnet: ''
+      lan_subnet: 192.168.128.0
+      mask: 255.255.255.0
+      cur_gw: ''
+      lan_gw: 192.168.128.254
+      port: '8'
+      mac_address: '00:0c:29:49:cd:1e'
+    controls:
+      - name: shellcmd
+        type: shellcmd
+      - name: hping3
+        type: hping3
+      - name: tshark
+        type: tshark
+    session:
+      type: ssh
+      host: 192.168.113.94
+      port: 22
+      credential:
+        username: autotwo
+        password: adminmoxa
+  HOST_B:
+    name: receiver
+    nic: ens224
+    testbed:
+      cur_host: ''
+      lan_host: 192.168.127.93
+      cur_subnet: ''
+      lan_subnet: 192.168.127.0
+      mask: 255.255.255.0
+      cur_gw: ''
+      lan_gw: 192.168.127.254
+      port: '1'
+      mac_address: '00:0c:29:49:cd:1e'
+    controls:
+      - name: shellcmd
+        type: shellcmd
+      - name: tshark
+        type: tshark
+      - name: hping3
+        type: hping3
+      - name: syslog
+        type: syslog
+    session:
+      con_type: ssh
+      host: 192.168.113.93
+      port: 22
+      credential:
+        username: autotwo
+        password: adminmoxa
+generator_info:
+  name: trex
+  controls:
+    - name: trex
+      type: trex
+    - name: trex_server
+      type: trex_server
+    - name: trex_console
+      type: trex_console
+  session:
+    con_type: ssh
+    host: 192.168.113.35
+    port: 22
+    credential:
+      username: autotwo
+      password: adminmoxa
+dut_info:
+  DUT:
+    model: edrg9010_v2_0
+    con_type: telnet
+    session:
+      host: 192.168.127.169
+      port: '9001'
+      prompts: []
+      encode: utf-8
+      terminator: "\r"
+      timeout: 10
+    reload_delay: 35
+    mac_address: '00:90:e8:a7:8b:c0'
+    credential:
+      username: admin
+      password: moxa
+    testbed:
+      wan_ip: 192.168.128.254
+      lan_ip: 192.168.127.254
+      brg_ip: 192.168.126.254
+      mask: 255.255.255.0
+      wan_port: '8'
+      lan_port: '1'
+      brg_port:
+        - '1'
+        - '8'
+      lan_vlan: '1'
+      wan_vlan: '2'
+      brg_vlan: '4040'
+  DUT_1:
+    model: edrg9010_v2_0
+    session:
+      con_type: telnet
+      host: 192.168.127.169
+      port: '9001'
+      prompts: []
+      encode: utf-8
+      terminator: "\r"
+      timeout: 10
+    reload_delay: 35
+    mac_address: '00:90:e8:a7:8b:c0'
+    credential:
+      username: admin
+      password: moxa
+    testbed:
+      wan_ip: 10.10.10.1
+      lan_ip: 192.168.127.254
+      mask: 255.255.255.0
+      wan_port: '8'
+      lan_port: '1'
+      lan_vlan: '1'
+      wan_vlan: '2'
+  DUT_2:
+    model: edrg9010_v2_0
+    session:
+      con_type: telnet
+      host: 192.168.127.169
+      port: '9002'
+      prompts: []
+      encode: utf-8
+      terminator: "\r"
+      timeout: 10
+    reload_delay: 35
+    mac_address: '00:90:e8:a7:8b:c0'
+    credential:
+      username: admin
+      password: moxa
+    testbed:
+      wan_ip: 10.10.10.2
+      lan_ip: 192.168.128.254
+      mask: 255.255.255.0
+      wan_port: '8'
+      lan_port: '1'
+      lan_vlan: '1'
+      wan_vlan: '2'
+jig_info:
+  JIG:
+    model: sam
+    session:
+      con_type: telnet
+      host: 192.168.128.252
+      port: 4888
+      prompts: []
+      encode: utf-8
+      terminator: "\r"
+      timeout: 10

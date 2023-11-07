@@ -1,0 +1,8 @@
+Value Enabled (\w+)
+Value Name (\w+)
+Value Authority (\w+)
+
+Start
+ ^ Enabled          Name         Authority
+ ^-------- -------------------- ----------
+ ^ ${Enabled}\s+${Name}\s+${Authority} -> Record

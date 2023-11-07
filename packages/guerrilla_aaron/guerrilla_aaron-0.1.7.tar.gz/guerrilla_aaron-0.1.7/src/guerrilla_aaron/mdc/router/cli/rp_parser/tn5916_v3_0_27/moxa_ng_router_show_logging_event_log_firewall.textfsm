@@ -1,0 +1,17 @@
+Value index (\d+)
+Value date (..../../..)
+Value time (..:..:..)
+Value severity (\d)
+Value rule (.*)
+Value action (\S+)
+Value src_mac (\S+)
+Value dst_mac (\S+)
+Value protocol (\w+)
+Value src_ip (\d+\.\d+\.\d+\.\d+)
+Value in (\w+)
+Value dest_ip (\d+.\d+.\d+.\d+)
+Value out (\w+)
+
+
+Start
+ ^${index}\s+${date}\s+${time}\s+\<${severity}\>\s+\[${rule}\]\s+${action}\s+SRC_MAC=${src_mac}(.*)DST_MAC=${dst_mac}(.*)PROTO=${protocol}(.*)SRC_IP=${src_ip}(.*)IN=${in}(.*)DST_IP=${dest_ip}(.*)OUT=${out} -> Record

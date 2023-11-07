@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: PiecewiseBeta
+Version: 0.1.1
+Summary: A small class that carries out computations for the Piecewise Beta Distribution.
+Home-page: https://github.com/daverblair/PiecewiseBeta
+Author: David Blair
+Author-email: david.blair@ucsf.edu
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

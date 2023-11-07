@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: hummus2016.py
+Version: 0.3.1
+Summary: An asynchronous API wrapper for Hummus by Ziad87
+Home-page: https://gitlab.com/lg125yt/hummus.py
+Author: LG125YT
+Author-email: lg125yt@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+Requires-Dist: discord.py
+Requires-Dist: asyncio
+Requires-Dist: fake-useragent
+Requires-Dist: websockets
+Requires-Dist: requests
+
+An asynchronous API wrapper for [Hummus](https://hummus.sys42.net/) by Ziad87, and similar websites that use Discord 2016.

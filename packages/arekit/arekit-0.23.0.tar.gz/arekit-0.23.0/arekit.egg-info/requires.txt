@@ -1,0 +1,5 @@
+pandas>=0.20.3
+tqdm
+enum34==1.1.10
+numpy>=1.14.5
+pymystem3==0.2.0

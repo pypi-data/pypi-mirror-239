@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "autobi_py"
+version = "0.2.1"
+authors = [{ name = "JJWRoeloffs", email = "jelleroeloffs@gmail.com" }]
+description = "A python wrapper and interface around AuToBI"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+dynamic = ["dependencies"]
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.dynamic]
+dependencies = { file = ["requirements.txt"] }
+
+[tool.pyright]
+include = ["src"]
+exclude = ["**/__pycache__"]
+reportMissingImports = true
+
+pythonVersion = "3.11"
+pythonPlatform = "Linux"
+
+executionEnvironments = [{ root = "src" }]
+
+[project.urls]
+"Homepage" = "https://github.com/JJWRoeloffs/autobi_py"
+"Bug Tracker" = "https://github.com/JJWRoeloffs/autobi_py/issues"

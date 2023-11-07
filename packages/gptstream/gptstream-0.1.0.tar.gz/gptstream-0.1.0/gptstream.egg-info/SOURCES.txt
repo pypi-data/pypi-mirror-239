@@ -1,0 +1,9 @@
+README.md
+setup.py
+gptstream/__init__.py
+gptstream/core.py
+gptstream.egg-info/PKG-INFO
+gptstream.egg-info/SOURCES.txt
+gptstream.egg-info/dependency_links.txt
+gptstream.egg-info/requires.txt
+gptstream.egg-info/top_level.txt

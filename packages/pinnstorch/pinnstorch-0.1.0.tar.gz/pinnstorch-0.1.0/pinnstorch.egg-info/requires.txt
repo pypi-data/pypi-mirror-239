@@ -1,0 +1,6 @@
+lightning
+hydra-core
+scipy
+pyDOE
+matplotlib
+tqdm

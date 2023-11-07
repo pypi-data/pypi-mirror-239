@@ -1,0 +1,8 @@
+nchr
+nlit
+pstr
+ensc
+pandas
+importlib_resources
+
+[dev]

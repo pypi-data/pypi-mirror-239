@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: gopython
+Version: 0.0.13
+Summary: Flask Library for set ACL in Flsk app.
+Author: Ashok Mamnani
+Author-email: ashok.mamnani@ascentinfo.solutions
+Keywords: python,go
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+
+# ACL-Flask-Lib
+## command for the upload latest verions 
+### python3 setup.py sdist bdist_wheel
+### twine upload dist/*

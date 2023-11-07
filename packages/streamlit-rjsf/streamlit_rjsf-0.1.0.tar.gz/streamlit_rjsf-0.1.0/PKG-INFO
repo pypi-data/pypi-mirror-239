@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: streamlit-rjsf
+Version: 0.1.0
+Summary: A Streamlit component to render web forms based on jsonschema, using rjsf
+License: MIT
+Author: Hubert Bereś
+Author-email: hubert@springbok.ai
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: jsonschema (>=4.19.2,<5.0.0)
+Requires-Dist: pydantic (>=2.4.2,<3.0.0)
+Requires-Dist: streamlit (>=1.28.1,<2.0.0)
+Description-Content-Type: text/markdown
+
+# streamlit-rjsf
+A Streamlit component to render web forms based on jsonschema, using rjsf
+

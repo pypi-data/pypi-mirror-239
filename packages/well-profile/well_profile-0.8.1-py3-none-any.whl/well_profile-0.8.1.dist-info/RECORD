@@ -1,0 +1,12 @@
+well_profile/__init__.py,sha256=LZcUV58d2QAJPabC3NjvX3z5zysS19eHyRa2UxbmvXY,106
+well_profile/create_trajectory.py,sha256=HBOw2eJCnKUGFcyidiPkAkQ23-RDTbFTQ_Uybbxlt_Y,13864
+well_profile/equations.py,sha256=VEYAo1Wqy_bckj2_2AR8XRlk2polDEFsJVBmymg54Mk,9715
+well_profile/generator.py,sha256=kQkhBddOvRppKNDL4nK_Dg5XNZoMavvF8fhwILv-U8I,3787
+well_profile/load_trajectory.py,sha256=0hw6jPucrH2j9nnBx8UU2QzSkMtkrvLnsoMJyFZrBvs,8860
+well_profile/plot.py,sha256=QcHc-z3Piy-aBfI3vdpaeZ_inXC8Y0xlp_MrM-3RxGo,8763
+well_profile/well.py,sha256=BWL5PzqK6GDlmWKKnDLgGzzoSUvpvEITEeuNTtvYRd8,3856
+well_profile-0.8.1.dist-info/LICENSE.md,sha256=fTqV5eBpeAZO0_jit8j4Ref9ikBSlHJ8xwj5TLg7gFk,7817
+well_profile-0.8.1.dist-info/METADATA,sha256=z9eQU11yoXC3QaLeiM7KmrhvFsjtUkUrMgsAjwAidDU,4930
+well_profile-0.8.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+well_profile-0.8.1.dist-info/top_level.txt,sha256=MXCzlcd_3cqF9cESI1QxdtZ4hw_34BH7MXFpgHiA3O0,13
+well_profile-0.8.1.dist-info/RECORD,,

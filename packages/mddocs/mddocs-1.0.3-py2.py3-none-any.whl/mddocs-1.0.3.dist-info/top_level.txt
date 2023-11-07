@@ -1,0 +1,10 @@
+mddocs
+mddocs\commands
+mddocs\config
+mddocs\contrib
+mddocs\contrib\search
+mddocs\structure
+mddocs\themes
+mddocs\themes\mddocs
+mddocs\themes\readthedocs
+mddocs\utils

@@ -1,0 +1,3 @@
+[console_scripts]
+brushit=brushit.cli:run
+

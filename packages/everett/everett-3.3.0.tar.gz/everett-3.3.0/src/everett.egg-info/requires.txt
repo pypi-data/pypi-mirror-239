@@ -1,0 +1,9 @@
+
+[ini]
+configobj
+
+[sphinx]
+sphinx
+
+[yaml]
+PyYAML

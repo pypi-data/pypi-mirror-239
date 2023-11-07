@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: pombseen
+Version: 0.1.0b0
+Summary: Python implementation of pomBseen
+Author-email: Timon Stegmaier <timonst2000@gmail.com>
+License: BSD-3-Clause
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scikit-image

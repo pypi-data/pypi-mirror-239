@@ -1,0 +1,13 @@
+.gitignore
+LICENSE
+README.rst
+pyproject.toml
+.vscode/settings.json
+pombseen/__init__.py
+pombseen/_version.py
+pombseen/main.py
+pombseen.egg-info/PKG-INFO
+pombseen.egg-info/SOURCES.txt
+pombseen.egg-info/dependency_links.txt
+pombseen.egg-info/requires.txt
+pombseen.egg-info/top_level.txt

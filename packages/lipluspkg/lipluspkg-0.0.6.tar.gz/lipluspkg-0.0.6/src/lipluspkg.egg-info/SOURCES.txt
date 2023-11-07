@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/lipluspkg/__init__.py
+src/lipluspkg/exap.py
+src/lipluspkg.egg-info/PKG-INFO
+src/lipluspkg.egg-info/SOURCES.txt
+src/lipluspkg.egg-info/dependency_links.txt
+src/lipluspkg.egg-info/top_level.txt

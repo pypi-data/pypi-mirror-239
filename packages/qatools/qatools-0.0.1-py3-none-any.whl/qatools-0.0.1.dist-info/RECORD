@@ -1,0 +1,9 @@
+qatools/__init__.py,sha256=m9yoFSv-CG8diS4rxYsMZWevPXUj45rp51z1QR8VUT0,140
+qatools/adb.py,sha256=yLDJDkFCKGCzRV8kkrW2r38Fe7vRej849rZ5kXC09RQ,2788
+qatools/cli.py,sha256=4fs-MRvYjyW17NwR7AdvcJ-N_5iyIG2GRj7FiSXSXzY,2469
+qatools-0.0.1.dist-info/LICENSE,sha256=0qmLpFIQ-2aJ5r2vQgYpzJPo_8YNlDf6df9zFgQKMK4,11361
+qatools-0.0.1.dist-info/METADATA,sha256=nRm_GJDa3J5cfYE5fnookY6uDINXAIfYuTeOEAD8e40,2059
+qatools-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+qatools-0.0.1.dist-info/entry_points.txt,sha256=rBZul94lPkDtoRPq2b6CcoXfotV6p6Gttef0bKFR6Aw,40
+qatools-0.0.1.dist-info/top_level.txt,sha256=dfoYX9-3iN3DAlF4_d4H61grubn44znR9fmYvG4E1oA,8
+qatools-0.0.1.dist-info/RECORD,,

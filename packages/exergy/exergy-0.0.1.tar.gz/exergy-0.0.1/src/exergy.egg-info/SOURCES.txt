@@ -1,0 +1,10 @@
+LICENSE
+LICENSE-APACHE
+LICENSE-MIT
+README.md
+pyproject.toml
+setup.cfg
+src/exergy.egg-info/PKG-INFO
+src/exergy.egg-info/SOURCES.txt
+src/exergy.egg-info/dependency_links.txt
+src/exergy.egg-info/top_level.txt

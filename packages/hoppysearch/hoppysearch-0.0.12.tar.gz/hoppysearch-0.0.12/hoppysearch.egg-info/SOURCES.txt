@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+hoppysearch.egg-info/PKG-INFO
+hoppysearch.egg-info/SOURCES.txt
+hoppysearch.egg-info/dependency_links.txt
+hoppysearch.egg-info/requires.txt
+hoppysearch.egg-info/top_level.txt
+test/__init__.py
+test/test_general_api.py

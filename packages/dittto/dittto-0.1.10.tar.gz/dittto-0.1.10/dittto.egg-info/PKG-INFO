@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: dittto
+Version: 0.1.10
+Summary: Generate synthetic Tabular Data
+Author: Sartaj 
+Author-email: sbhuvaji@seattleu.edu
+Keywords: python,synthetic data,synthetic data generation,tabular data, csv
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: tensorflow
+
+A package with multiple alogrithms to generate synthetic tabular data.

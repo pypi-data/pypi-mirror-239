@@ -1,0 +1,12 @@
+setup.py
+ovos_PHAL_sensors/__init__.py
+ovos_PHAL_sensors/__main__.py
+ovos_PHAL_sensors/device.py
+ovos_PHAL_sensors/version.py
+ovos_PHAL_sensors.egg-info/PKG-INFO
+ovos_PHAL_sensors.egg-info/SOURCES.txt
+ovos_PHAL_sensors.egg-info/dependency_links.txt
+ovos_PHAL_sensors.egg-info/entry_points.txt
+ovos_PHAL_sensors.egg-info/requires.txt
+ovos_PHAL_sensors.egg-info/top_level.txt
+ovos_PHAL_sensors.egg-info/zip-safe

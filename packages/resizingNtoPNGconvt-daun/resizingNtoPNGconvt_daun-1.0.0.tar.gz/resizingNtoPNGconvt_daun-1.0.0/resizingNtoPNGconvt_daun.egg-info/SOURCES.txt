@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+image_resizing_png/__init__.py
+image_resizing_png/resizing.py
+resizingNtoPNGconvt_daun.egg-info/PKG-INFO
+resizingNtoPNGconvt_daun.egg-info/SOURCES.txt
+resizingNtoPNGconvt_daun.egg-info/dependency_links.txt
+resizingNtoPNGconvt_daun.egg-info/not-zip-safe
+resizingNtoPNGconvt_daun.egg-info/requires.txt
+resizingNtoPNGconvt_daun.egg-info/top_level.txt

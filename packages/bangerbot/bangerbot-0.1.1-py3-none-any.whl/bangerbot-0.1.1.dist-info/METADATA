@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: bangerbot
+Version: 0.1.1
+Summary: Get those bangers rolling
+Home-page: https://github.com/aliberts/banger
+Author: Simon Alibert
+Author-email: alibert.sim@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: pydantic (>=2.4.2,<3.0.0)
+Requires-Dist: tqdm (>=4.66.1,<5.0.0)
+Project-URL: Repository, https://github.com/aliberts/banger
+Description-Content-Type: text/markdown
+
+# Banger Bot
+
+Get those bangers rolling.
+

@@ -1,0 +1,36 @@
+import argparse
+import os
+from sqlalchemy import create_engine, text
+from sqlalchemy.exc import SQLAlchemyError
+
+
+def connection_db():
+    try:
+        print(os.environ.get('SQLALCHEMY_DATABASE_URI'), "test")
+        db_url = os.environ.get('SQLALCHEMY_DATABASE_URI', 'postgresql://postgres:12345@localhost:5433/masking_test_db')
+        engine = create_engine(db_url)
+        conn = engine.connect()
+        return conn
+    except SQLAlchemyError as e:
+        return None
+
+
+def get_all_columns_by_query(table_name, connection):
+    result = connection.execute(text(
+        f"SELECT column_name FROM information_schema.columns WHERE table_name = '{table_name}' AND column_name <> 'id'"
+    ))
+    return [row[0] for row in result]
+
+
+def parse_data():
+    parser = argparse.ArgumentParser(description='Script for deleting or masking data from a database\nIn order for '
+                                                 'the project to work, you need to set the db to work with in the '
+                                                 'first stage.')
+    parser.add_argument('--action', choices=['delete', 'mask'], help='Operation to be performed')
+    parser.add_argument('--table', help='Name of the table from which data will be deleted or masked')
+    parser.add_argument('--percentage', type=float, default=0, help='Percentage of data to be deleted (default: 0)')
+    parser.add_argument('--columns', nargs='+', default=[], help='Columns to be masked')
+
+    command_line_args = parser.parse_args()
+    connection = connection_db()
+    return command_line_args, connection

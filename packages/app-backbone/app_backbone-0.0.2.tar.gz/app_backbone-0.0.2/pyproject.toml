@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "app-backbone"
+version = "0.0.2"
+description = "A simple app utility framework that provides tooling for loading module extensions and an ECS like streams of composable entities."
+authors = ["Zech Zimmerman <hi@zech.codes>"]
+license = "MIT"
+readme = "README.md"
+packages = [
+    { include = "backbone" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.3"
+pytest-asyncio = "^0.21.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

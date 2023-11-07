@@ -1,0 +1,14 @@
+astroget/Results.py,sha256=wkWuvhJpWY0sLudvR48hhulZTuz7-GOxoiqPLBJ3Hps,2390
+astroget/__init__.py,sha256=ln8ta62AO7z4e2ZyU0E5Mt1Edaj-s6Oa7xVOXVwXBaQ,239
+astroget/client.py,sha256=mKbgKalO7-NXpO-Whazs2Ao_aOvMl480svkG2X0Qh2w,16653
+astroget/exceptions.py,sha256=aRpzLJ7r0yIaEaJOhIAQ5pGHnHN802OwUcFtOXoBzWI,3417
+astroget/experimental.py,sha256=G5SDAXbP3A_LSzRby5k_-Z0WqNlsk0Hjy11wapjjSrY,15851
+astroget/utils.py,sha256=_mqEfvPC0vvDUISbjoiIUTWbLLY334jEppw_7CQx12w,2298
+astroget/notebooks/__init__.py,sha256=EQP9_M8U8QtDMDt80vTYoYJvlxzvEJFgBZiGysVso9I,58
+astroget/notebooks/astroget-examples.ipynb,sha256=x8xBiCrEy1hmx5HdF6POz2HhlybLudVxWF9OC-E6SLE,604489
+astroget/notebooks/cutouts-examples.ipynb,sha256=hKUqdoGjGyoO9LORVnjmALH5Qm6p-5DXFIAYZlPbfYw,1281749
+astroget/notebooks/lots-of-stuff.ipynb,sha256=-bBJwQdn4Lfru3veVvQJBckfFeNQwD8JBYs61L38eVI,602279
+astroget-0.0.4a3.dev2.dist-info/LICENSE,sha256=e0FNTRFk8c_8g0mSuWyB9TRKiY1w_tGQzGCOhjqY9Ec,1561
+astroget-0.0.4a3.dev2.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+astroget-0.0.4a3.dev2.dist-info/METADATA,sha256=L3xXncAfe5nLVn9MI0RLxEnGc9ESRYgzmjai-XZjaIo,753
+astroget-0.0.4a3.dev2.dist-info/RECORD,,

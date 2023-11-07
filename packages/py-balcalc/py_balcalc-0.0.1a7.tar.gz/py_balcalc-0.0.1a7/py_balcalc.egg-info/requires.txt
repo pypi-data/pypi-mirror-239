@@ -1,0 +1,7 @@
+PySide6~=6.6.0
+qtawesome==1.2.3
+py_ballisticcalc==1.1.0
+a7p==0.0.8
+
+[exts]
+py_ballisticcalc.exts

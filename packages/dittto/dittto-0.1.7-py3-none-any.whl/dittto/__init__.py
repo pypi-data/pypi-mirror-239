@@ -1,0 +1,1 @@
+from .autoencoder_synthetic_data_generator import generate_synthetic_data

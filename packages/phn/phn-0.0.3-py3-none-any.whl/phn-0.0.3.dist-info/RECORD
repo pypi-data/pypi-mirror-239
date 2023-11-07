@@ -1,0 +1,15 @@
+data/cells.csv,sha256=2907gZjZOszL-PV77n2x1hgzTKm09RmXCyr3r_-GY0A,3743
+data/genes.csv,sha256=1Jp076M-7Ha6bs0_SrTK8-VvnzBj1Em6q2Nsa-YI9ZE,9889
+phn/__init__.py,sha256=A1LsrTFQz-Md3luPW6k5kQjqNj9iRFa-RqS6CALDmqk,387
+phn/_modidx.py,sha256=Q6QI1BN2OVpjP3_1Rt6hBq0H6xTbqyIOA7xFIJC2GDg,5158
+phn/meta.py,sha256=ia9vNlcAse6g4_zL5O97D_Mx_17_FVCqFbB64H_Zquc,6371
+phn/read.py,sha256=EpsjTxs1IsIv9oW6fd52CUiOP4oJLpK6j_wXwBbsGzo,453
+phn/types.py,sha256=y71TtUpEQVCPnUlTbzotGm0dvB250BabYErGzaiJtdA,7261
+phn/csvs/cells.csv,sha256=2907gZjZOszL-PV77n2x1hgzTKm09RmXCyr3r_-GY0A,3743
+phn/csvs/genes.csv,sha256=1Jp076M-7Ha6bs0_SrTK8-VvnzBj1Em6q2Nsa-YI9ZE,9889
+phn-0.0.3.dist-info/LICENSE,sha256=xV8xoN4VOL0uw9X8RSs2IMuD_Ss_a9yAbtGNeBWZwnw,11337
+phn-0.0.3.dist-info/METADATA,sha256=pKSx3c9eNyh0Y7Wq-wr-DPhlA3_pRS0Wz6KB_htez9Y,2129
+phn-0.0.3.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+phn-0.0.3.dist-info/entry_points.txt,sha256=HoZ7xD37_GMSXRgCjgbUwaO1vReV_GvEeOfgoPoCLSo,28
+phn-0.0.3.dist-info/top_level.txt,sha256=kvJ5LM8PHmpG965vbJTvBTdFrdbjQ9xBb_-4JXKCvbg,4
+phn-0.0.3.dist-info/RECORD,,

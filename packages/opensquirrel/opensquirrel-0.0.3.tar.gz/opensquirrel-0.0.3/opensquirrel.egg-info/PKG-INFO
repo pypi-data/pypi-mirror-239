@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: opensquirrel
+Version: 0.0.3
+Summary: A quantum circuit transformation and manipulation tool
+Home-page: https://github.com/QuTech-Delft/OpenSquirrel
+Author: Pablo Le Henaff
+Author-email: p.lehenaff@tudelft.nl
+License: Apache
+Keywords: quantum circuits compilation
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+### Mini-compiler for Quantum Inspire's quantum chip[munks]
+
+```
+ ,;;:;,
+   ;;;;;
+  ,:;;:;    ,'=.
+  ;:;:;' .=" ,'_\
+  ':;:;,/  ,__:=@
+   ';;:;  =./)_
+ jgs `"=\_  )_"`
+          ``'"`
+```
+
+# Installation
+
+`pip install opensquirrel`
+
+# Documentation
+
+The package exposes only the `Circuit` class, whose up-to-date documentation is accessed:
+
+- from the Python console:
+```pycon
+>>> import opensquirrel
+>>> help(opensquirrel.Circuit)
+```
+
+- from a Linux shell: `python3 -c "import opensquirrel; help(opensquirrel.Circuit)`
+
+Currently there is also a set of default gates exposed as `opensquirrel.DefaultGates` to use in the `Circuit` constructor.

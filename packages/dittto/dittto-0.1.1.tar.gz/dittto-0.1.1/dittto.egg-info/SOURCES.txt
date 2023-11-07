@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+dittto/__init__.py
+dittto/autoencoder.py
+dittto/autoencoder_synthetic_data_generator.py
+dittto.egg-info/PKG-INFO
+dittto.egg-info/SOURCES.txt
+dittto.egg-info/dependency_links.txt
+dittto.egg-info/requires.txt
+dittto.egg-info/top_level.txt

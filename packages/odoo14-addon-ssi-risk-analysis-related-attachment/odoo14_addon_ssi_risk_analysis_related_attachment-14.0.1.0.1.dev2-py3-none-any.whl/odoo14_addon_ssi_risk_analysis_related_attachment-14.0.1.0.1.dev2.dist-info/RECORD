@@ -1,0 +1,10 @@
+odoo/addons/ssi_risk_analysis_related_attachment/README.rst,sha256=o74NngBjzC84U4MvXm2YQgzyTvm2qS_KjaCO1L6m4x0,1298
+odoo/addons/ssi_risk_analysis_related_attachment/__init__.py,sha256=M7twq1SJz2cc98CkgeiDiDg05QWWFb09lt5oh03-axA,181
+odoo/addons/ssi_risk_analysis_related_attachment/__manifest__.py,sha256=pXHbOYDR9vl90ZA6hZgcqo8tedLnimMY2vm1zk_g7oc,520
+odoo/addons/ssi_risk_analysis_related_attachment/models/__init__.py,sha256=xIAxdwbychBEML8jCeV5Mxz2BOET6TDL01Vyoxrd6gs,179
+odoo/addons/ssi_risk_analysis_related_attachment/models/risk_analysis.py,sha256=TjZyhQWjAvFWB1-l3eUdGXnZJ1YvU53Vq-OEzEHi7do,366
+odoo/addons/ssi_risk_analysis_related_attachment/static/description/icon.png,sha256=lNGJOSg4cMRfwPTfFKVT6d5B2N1N83iVpEEN1blqu1I,48333
+odoo14_addon_ssi_risk_analysis_related_attachment-14.0.1.0.1.dev2.dist-info/METADATA,sha256=qkD75ENAAdh8F74SFSKb81N5-Rb-BEkqs-Z_Qr6fpEY,1945
+odoo14_addon_ssi_risk_analysis_related_attachment-14.0.1.0.1.dev2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+odoo14_addon_ssi_risk_analysis_related_attachment-14.0.1.0.1.dev2.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_ssi_risk_analysis_related_attachment-14.0.1.0.1.dev2.dist-info/RECORD,,

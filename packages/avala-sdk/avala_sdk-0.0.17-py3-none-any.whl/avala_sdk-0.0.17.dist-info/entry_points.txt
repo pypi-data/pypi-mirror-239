@@ -1,0 +1,2 @@
+[console_scripts]
+avala = entry:main

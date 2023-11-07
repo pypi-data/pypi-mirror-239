@@ -1,0 +1,11 @@
+README.md
+setup.py
+fava_ghost.egg-info/PKG-INFO
+fava_ghost.egg-info/SOURCES.txt
+fava_ghost.egg-info/dependency_links.txt
+fava_ghost.egg-info/entry_points.txt
+fava_ghost.egg-info/requires.txt
+fava_ghost.egg-info/top_level.txt
+favaghost/__init__.py
+favaghost/service.py
+tests/test_main.py

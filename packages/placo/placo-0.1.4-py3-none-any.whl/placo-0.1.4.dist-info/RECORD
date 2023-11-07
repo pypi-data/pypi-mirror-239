@@ -1,0 +1,16 @@
+libeigenpy.so,sha256=O6CkjCnpSiLmyAOcrqvr7JzH8s2T3Q4s3e2r5TNitFU,10789728
+libeiquadprog.so,sha256=9ZXQ17_dbmWUwn6lBN6KHyek9nShhSA2YyAlaw1P8xM,164544
+libhpp-fcl.so,sha256=t2-eC9ZiCAWAUpSHO0SlBMvmjOV_y-8tW2joJmLdvBE,4071968
+libjsoncpp.so,sha256=XS8N0rptrPpOpm4Sleh2UBubr7Kr8gMRZ8gVsAquiNI,779928
+libjsoncpp.so.1.9.4,sha256=XS8N0rptrPpOpm4Sleh2UBubr7Kr8gMRZ8gVsAquiNI,779928
+libjsoncpp.so.24,sha256=XS8N0rptrPpOpm4Sleh2UBubr7Kr8gMRZ8gVsAquiNI,779928
+liblibplaco.so,sha256=-5hjjrs8toTvfhgXgoTmZ3ZScXkhF_LX6e08voU1Amw,56046040
+libpinocchio.so.2.6.20,sha256=2aCd0oZzwoIWYPIaoTZ4tUV7uq6N2ai7Gm51SXg-Om0,293416
+placo.pyi,sha256=AmFLamNyLlLl0HxbR0lVzcCijxpzvBpdvExTdgxb-jQ,133729
+placo.so,sha256=foB2LShnm4I3nZwzGUwS7g4jdfXMuhRvUcOSdROyu4U,50937048
+placo_utils/tf.py,sha256=fFRXNbeLlXzn5VOqYl7hcSuvOOtTDTiLi_Lpd9_l6wA,36
+placo_utils/visualization.py,sha256=74VxdoZ_iQQskg0srMr7Dtpwu7ufDWAZiiMnlXGHnSg,6446
+placo-0.1.4.dist-info/METADATA,sha256=bDtgvHCSUKM6ObUo4OtL_dPFrcwWa-kW3ctY6e6Cp4s,480
+placo-0.1.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+placo-0.1.4.dist-info/top_level.txt,sha256=hW2Q7XHD9187HTuw0llEm9r2YpDJCMJpLZSdIjcyRgA,18
+placo-0.1.4.dist-info/RECORD,,

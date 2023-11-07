@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+fasthttppy/__init__.py
+fasthttppy/definitions.py
+fasthttppy/server.py
+fasthttppy.egg-info/PKG-INFO
+fasthttppy.egg-info/SOURCES.txt
+fasthttppy.egg-info/dependency_links.txt
+fasthttppy.egg-info/top_level.txt
+fasthttppy/go_server/go.mod
+fasthttppy/go_server/go.sum
+fasthttppy/go_server/main.go

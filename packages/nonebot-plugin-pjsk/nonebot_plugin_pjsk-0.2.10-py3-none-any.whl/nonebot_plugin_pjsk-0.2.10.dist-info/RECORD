@@ -1,0 +1,10 @@
+nonebot_plugin_pjsk-0.2.10.dist-info/METADATA,sha256=IXhSGihc3gypYm6j824pLz_aQUrel9Jf7U_dzruhOwo,9375
+nonebot_plugin_pjsk-0.2.10.dist-info/WHEEL,sha256=C8f_gqhOWmHrh81n3Ukx5iURrqMhsHla81fuY1yuwvs,90
+nonebot_plugin_pjsk-0.2.10.dist-info/licenses/LICENSE,sha256=5NRi6e4JylO8Mvd43NSvXZwYizlhTqE9B190sNxBCGI,1070
+nonebot_plugin_pjsk/__init__.py,sha256=O9nvWF6vbnGvzZRo9ciQ3z0qvOE0ycL61tD92pnFCZc,757
+nonebot_plugin_pjsk/__main__.py,sha256=ZvZtKzxYHuowNaaRM4juivbNYYBAsa0YmktYOdlEbeM,9562
+nonebot_plugin_pjsk/config.py,sha256=2OG3MGHoQ0wi8fh5NlQfwSRhcQtf0IAaJubBKZ0Ba0s,1930
+nonebot_plugin_pjsk/draw.py,sha256=OfeFdQ7VFXlL0NRkqpMGzIKIBcxf3TD7X4XE4vU3XPg,10644
+nonebot_plugin_pjsk/resource.py,sha256=lal4UguEnfDgRssryYxjZd01cwFjZENkofbRTxXq4gQ,4407
+nonebot_plugin_pjsk/utils.py,sha256=4Shi6oOTRNDkPulNK_kxb_XFrVn7HM588n7LsiMRI6s,3484
+nonebot_plugin_pjsk-0.2.10.dist-info/RECORD,,

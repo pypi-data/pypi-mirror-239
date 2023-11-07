@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: unrealspeech
+Version: 0.1.1
+Summary: A Python package for interacting with the Unreal Speech API.
+Home-page: https://github.com/basitng/unrealspeech
+Author: Ajaga Abdulbasit
+Author-email: basitng2004@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+Requires-Dist: requests

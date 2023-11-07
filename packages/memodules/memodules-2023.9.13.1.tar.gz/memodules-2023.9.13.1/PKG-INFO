@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: memodules
+Version: 2023.9.13.1
+Summary: local use functions
+Author: mie31
+Author-email: mie.mey.master@icloud.com
+Keywords: No redistribution!
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11

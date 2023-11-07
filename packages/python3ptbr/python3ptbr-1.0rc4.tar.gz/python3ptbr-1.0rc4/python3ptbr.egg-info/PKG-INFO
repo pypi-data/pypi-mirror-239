@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: python3ptbr
+Version: 1.0rc4
+Summary: Python3 library, write python codes in Portuguese.
+Author-email: Juan Bindez <juanbindez780@gmail.com>
+License: MIT license
+Project-URL: Homepage, https://github.com/Python3-ptbr/python3-ptbr
+Project-URL: Bug Reports, https://github.com/Python3-ptbr/python3-ptbr/issues
+Project-URL: Read the Docs, http://python3-ptbr.readthedocs.io/
+Keywords: cli
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Terminals
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Python3-ptbr
+
+Python3 library, write python codes in Portuguese.

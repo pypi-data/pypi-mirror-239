@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: cdtPy
+Version: 1.0.0
+Summary: Climate Data Tools for Python
+Author: R.B. Hatmaja
+Author-email: rahadenbagas@gmail.com
+
+A simple Python package for analyzing of climate-related disciplines of Earth science data.

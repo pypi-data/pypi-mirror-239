@@ -1,0 +1,3 @@
+[console_scripts]
+my-script=my_package.module:function
+

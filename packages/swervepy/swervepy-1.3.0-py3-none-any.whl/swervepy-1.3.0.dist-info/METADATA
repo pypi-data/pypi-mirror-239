@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: swervepy
+Version: 1.3.0
+Summary: Swerve drive library for FRC
+License: MIT
+Author: Ethan Wall
+Author-email: ethanhwall07@gmail.com
+Requires-Python: >=3.11,<3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: Pint (>=0.20.1,<0.21.0)
+Requires-Dist: robotpy-apriltag (>=2023.2.1.1,<2024.0.0.0)
+Requires-Dist: robotpy[commands2,ctre,photonvision,rev] (>=2023.4.3,<2024.0.0)

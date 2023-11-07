@@ -1,0 +1,6 @@
+README.md
+setup.py
+baykit.egg-info/PKG-INFO
+baykit.egg-info/SOURCES.txt
+baykit.egg-info/dependency_links.txt
+baykit.egg-info/top_level.txt

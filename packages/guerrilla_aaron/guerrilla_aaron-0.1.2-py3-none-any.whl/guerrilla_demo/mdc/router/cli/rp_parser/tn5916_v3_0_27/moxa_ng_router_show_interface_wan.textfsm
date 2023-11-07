@@ -1,0 +1,17 @@
+Value vlan_id (.*)
+Value connect_mode (.*)
+Value connect_type (.*)
+Value ip_address (\d+\.\d+\.\d+\.\d+)
+Value netmask (\d+\.\d+\.\d+\.\d+)
+Value gateway (\d+\.\d+\.\d+\.\d+)
+Value dns_server (.*)
+
+
+Start
+ ^Vlan\s+ID\s+:${vlan_id}
+ ^Connect\s+Mode\s+: ${connect_mode}
+ ^Connect\s+Type\s+: ${connect_type}
+ ^IP\s+Address\s+: ${ip_address}
+ ^Netmask\s+: ${netmask}
+ ^Gateway\s+: ${gateway}
+ ^DNS\s+Server\s+: ${dns_server} -> Record

@@ -1,0 +1,29 @@
+Value version (\S+)
+Value engine_id (\S+)
+Value admin_auth_type (\S+)
+Value admin_auth_status (\S+)
+Value admin_auth_key (\S+)
+Value user_auth_type (\S+)
+Value user_auth_status (\S+)
+Value user_auth_key (\S+)
+Value trap_community (\S+)
+Value trap_version (\S+\s+\S+)
+Value oid (\S+)
+
+Start
+ ^SNMP Read/Write Settings
+ ^  SNMP Versions              : ${version}
+ ^  SNMP Engine ID             : ${engine_id}
+ ^  Admin Auth. Type           : ${admin_auth_type}
+ ^  Admin Data Encryption Key  : ${admin_auth_status}\s+${admin_auth_key}
+ ^  User Auth. Type            : ${user_auth_type}
+ ^  User Data Encryption Key   : ${user_auth_status}\s+${user_auth_key}
+ ^Trap Settings
+ ^  Trap Server 1 IP/Name      : 
+ ^  Trap Server 2 IP/Name      : 
+ ^  Trap Server 3 IP/Name      : 
+ ^  Trap Community             : ${trap_community}
+ ^Trap Mode
+ ^  Mode                       : ${trap_version}
+ ^Private MIB information
+ ^  Switch Object ID           : ${oid} -> Record

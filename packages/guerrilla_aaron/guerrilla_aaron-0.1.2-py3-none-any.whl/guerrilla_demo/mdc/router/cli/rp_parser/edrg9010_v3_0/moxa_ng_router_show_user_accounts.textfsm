@@ -1,0 +1,5 @@
+Value Name (\w+)
+Value Authority (.*)
+
+Start
+ ^    ${Name}\s+${Authority} -> Record

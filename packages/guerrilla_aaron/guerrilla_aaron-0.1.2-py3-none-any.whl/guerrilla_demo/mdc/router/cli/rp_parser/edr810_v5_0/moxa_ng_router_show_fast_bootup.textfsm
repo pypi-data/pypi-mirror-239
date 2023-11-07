@@ -1,0 +1,4 @@
+Value status (\S+)
+
+Start
+ ^Fast Bootup Setting: ${status}

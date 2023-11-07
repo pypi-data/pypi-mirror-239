@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vkstest"
+version = "1.1.16"
+description = "Command line Merrian-Webster Utility"
+readme = "README.md"
+authors = [{name="Vikash Kumar Shrivastva", email="vkshrivastva@yahoo.co.in"}]
+maintainers = [{name="Vikash Kumar Shrivastva", email="vkshrivastva@yahoo.co.in"}]
+requires-python = ">=3.8"
+license = {file = "LICENSE"}
+
+[tool.build-backend]
+name = "setuptools.build_meta"
+
+[project.scripts]
+vkstest = "vkstest.cli:main"
+
+[project.urls]
+"Homepage" = "https://gitlab.com/assignment7233743/vkstest"
+

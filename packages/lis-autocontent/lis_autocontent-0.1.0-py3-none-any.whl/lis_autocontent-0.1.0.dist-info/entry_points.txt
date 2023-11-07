@@ -1,0 +1,2 @@
+[console_scripts]
+lis-autocontent = lis_autocontent:cli_entry_point

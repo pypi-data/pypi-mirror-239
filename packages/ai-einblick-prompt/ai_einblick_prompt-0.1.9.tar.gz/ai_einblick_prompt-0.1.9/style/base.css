@@ -1,0 +1,135 @@
+/*
+    See the JupyterLab Developer Guide for useful CSS Patterns:
+
+    https://jupyterlab.readthedocs.io/en/stable/developer/css.html
+*/
+
+@import '@blueprintjs/core/lib/css/blueprint.css';
+
+:root {
+  --einblick-brand-color1: #21bd75;
+  --einblick-input-box-shadow: inset 0 0 2px var(--einblick-brand-color1);
+}
+
+.jp-cell--prompt-opened .jp-cell-toolbar {
+  display: none;
+}
+
+.c-prompt {
+  font-family: var(--jp-ui-font-family);
+  display: flex;
+  margin-left: 72px;
+  border: var(--jp-border-width) solid var(--jp-cell-editor-border-color);
+  border-bottom: none;
+}
+
+.c-prompt--is-active {
+  border: var(--jp-border-width) solid var(--einblick-brand-color1);
+  box-shadow: var(--einblick-input-box-shadow);
+  background-color: var(--jp-cell-editor-active-background);
+}
+
+.c-prompt__type-select-popover-target,
+.c-prompt__type-select-button {
+  height: 37px;
+}
+
+.c-prompt__type-select-button {
+  background-color: var(--einblick-brand-color1) !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  color: white !important;
+  outline: var(--jp-border-width) solid var(--einblick-brand-color1);
+}
+
+.c-prompt__type-select-button .jp-icon3 {
+  fill: var(--jp-layout-color1);
+}
+
+.c-prompt__type-select-button:focus {
+  outline-offset: 0;
+}
+
+.c-prompt__logo-container {
+  position: relative;
+}
+
+.c-prompt__logo {
+  position: absolute;
+  padding: 9px 12px 0;
+}
+
+.c-prompt__message {
+  width: 100%;
+  margin-left: 1px;
+  font-size: 13px;
+  font-family: var(--jp-ui-font-family);
+  color: #5f6b7c;
+  padding: 10px 80px 10px 42px;
+  pointer-events: none;
+  user-select: none;
+}
+
+.c-prompt__input-textarea {
+  max-height: 170px;
+  margin-left: 1px;
+  resize: none;
+  border: none;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  vertical-align: bottom;
+  padding-right: 80px !important;
+  padding-left: 42px !important;
+  font-size: 13px;
+  font-family: var(--jp-ui-font-family);
+  background-color: transparent;
+}
+
+.c-prompt__input-textarea:focus {
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+}
+
+.c-prompt__button-container {
+  position: relative;
+}
+
+.c-prompt__buttons {
+  position: absolute;
+  height: 30px;
+  top: 4px;
+  right: 8px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.c-prompt__submit-button,
+.c-prompt__cancel-button,
+.c-prompt__close-button {
+  height: 30px;
+  width: 30px;
+}
+
+.c-prompt__cancel-button > div,
+.c-prompt__close-button > div {
+  display: flex;
+}
+
+.c-prompt__submit-button:focus,
+.c-prompt__cancel-button:focus,
+.c-prompt__close-button:focus {
+  outline: none !important;
+  outline-offset: 0 !important;
+  background: rgba(143, 153, 168, 0.3);
+}
+
+.c-prompt__type-select-listbox {
+  padding: 0;
+}
+
+.c-prompt__type-select-listbox *:focus {
+  outline: none !important;
+  outline-offset: 0 !important;
+}

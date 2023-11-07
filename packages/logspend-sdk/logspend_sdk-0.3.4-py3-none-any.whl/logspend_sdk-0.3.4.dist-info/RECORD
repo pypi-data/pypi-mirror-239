@@ -1,0 +1,8 @@
+logspend_sdk/__init__.py,sha256=kmsJH-uWEaxeVgkKpOQrl7yKgrEF2sFN-7Tm8qEcRSQ,77
+logspend_sdk/constants.py,sha256=WCpHvSWN4J993bLDE591QFgu7SQdJNtDo-ArktOO1tI,225
+logspend_sdk/core.py,sha256=KeKM_FvWrLyHG_h_YGL0iekSHV3BdkgNyncG2XcrpkM,5466
+logspend_sdk/test_logspend_integration.py,sha256=RnwuJzkTGHYRVq0bQm_jc10HJ6nE42vWpzXUvC1e_gI,1135
+logspend_sdk-0.3.4.dist-info/METADATA,sha256=MT3xnN8mzaUFpAnUW-4t_368FtB9EP8nbwHG8GPnmLA,234
+logspend_sdk-0.3.4.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+logspend_sdk-0.3.4.dist-info/top_level.txt,sha256=R91zQ9a869dWjmu0WwRdv4R4QcG7iS21noVdbO41U90,13
+logspend_sdk-0.3.4.dist-info/RECORD,,

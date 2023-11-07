@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+cannoli/__init__.py
+cannoli/cannoli.py
+cannoli/default_settings.json
+cannoli.egg-info/PKG-INFO
+cannoli.egg-info/SOURCES.txt
+cannoli.egg-info/dependency_links.txt
+cannoli.egg-info/requires.txt
+cannoli.egg-info/top_level.txt
+tests/test_genai_tools.py

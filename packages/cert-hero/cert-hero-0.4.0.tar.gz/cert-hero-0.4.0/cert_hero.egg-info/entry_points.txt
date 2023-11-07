@@ -1,0 +1,3 @@
+[console_scripts]
+ch = cert_hero.cli:main
+

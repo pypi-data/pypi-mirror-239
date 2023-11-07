@@ -1,0 +1,9 @@
+isosplit6_cpp.cpython-38-darwin.so,sha256=IPKCK5Sz0BkOY90SbYfE8Hc02AF6APKrTPxZS3wrEtY,247247
+isosplit6-0.1.4.dist-info/RECORD,,
+isosplit6-0.1.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+isosplit6-0.1.4.dist-info/WHEEL,sha256=5VvO-kIIQ_V5NA8SIsPWgxoMaPBQ8_Und1TjPh_V_7Y,108
+isosplit6-0.1.4.dist-info/top_level.txt,sha256=yHeq2iarDUGja_YT1umZDrv7RYA9yR0XLTbi1Q0f2dY,24
+isosplit6-0.1.4.dist-info/METADATA,sha256=M62G2NgnQnB3ybQgwFOD-6LCXvktXmUJqZxQdXuNAIA,1550
+isosplit6/__init__.py,sha256=BX7di2epySDeM5ylkZgxGvuoHSrbscc1eaJLxcZHcx4,796
+isosplit6/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+isosplit6/tests/test_simple_run.py,sha256=xv58Gnwy28krtsoRGry_QZ4q3ozfF4lCjeXChTweaEU,342

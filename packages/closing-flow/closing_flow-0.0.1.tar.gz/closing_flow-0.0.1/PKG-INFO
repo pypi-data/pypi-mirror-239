@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: closing_flow
+Version: 0.0.1
+Summary: Closing Flow
+Home-page: https://github.com/kentechx/closing_flow
+Author: Kaidi Shen
+License: MIT
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE

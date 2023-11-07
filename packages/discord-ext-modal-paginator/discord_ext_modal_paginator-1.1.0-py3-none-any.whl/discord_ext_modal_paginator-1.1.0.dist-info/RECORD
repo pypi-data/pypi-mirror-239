@@ -1,0 +1,10 @@
+discord/ext/modal_paginator/__init__.py,sha256=-J7_TW14B60s0PKQjd6WjGbsZAMhNI6jjRIJ7jt-G-w,210
+discord/ext/modal_paginator/core.py,sha256=_rvRDpRxZYACZVAWa6Rl0mgH7P9oRqtKEUvetbQDzEQ,38577
+discord/ext/modal_paginator/custom_button.py,sha256=jtZZdmfSgcD9df3ypKnjvN4MWZKPd57YOQom1IWyozo,5275
+discord/ext/modal_paginator/default_buttons.py,sha256=gFDNq5Apysooj9zPCeeYB8vPo_A40oS1msf8OyO-iUw,2546
+discord/ext/modal_paginator/errors.py,sha256=Uof_Q6XtaunABYxhocjwvPNlgRDIVVcBrFrDxjjmTi0,1524
+discord_ext_modal_paginator-1.1.0.dist-info/LICENSE,sha256=S4nUUYvRNatO4VSnvOciJGtXqYw9fvwaCUCYmBYMK9E,16724
+discord_ext_modal_paginator-1.1.0.dist-info/METADATA,sha256=oQzkzroTWLZuYauAw6qMvYVYwR5_BiHE6WRkVKWX-3E,22595
+discord_ext_modal_paginator-1.1.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+discord_ext_modal_paginator-1.1.0.dist-info/top_level.txt,sha256=fJkrNbR-_8ubMBUcDEJBcfkpECrvSEmMrNKgvLlQFoM,8
+discord_ext_modal_paginator-1.1.0.dist-info/RECORD,,

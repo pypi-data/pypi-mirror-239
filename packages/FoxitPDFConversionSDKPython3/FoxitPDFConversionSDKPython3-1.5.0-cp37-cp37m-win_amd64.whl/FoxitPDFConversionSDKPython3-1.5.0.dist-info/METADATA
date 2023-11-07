@@ -1,0 +1,139 @@
+Metadata-Version: 2.1
+Name: FoxitPDFConversionSDKPython3
+Version: 1.5.0
+Summary: Foxit PDF CONVERSION SDK For Python3
+Home-page: https://www.developers.foxit.com
+Author: Foxit Software Inc.
+Author-email: support@foxitsoftware.com
+License: Other/Proprietary License (Commercial)
+Keywords: PDF CONVERSION SDK
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/plain
+
+Foxit PDF Conversion SDK v1.5.0 - November 07, 2023
+
+This release includes the following changes:
+
+New Features and Enhancements 
+* PDF2Office supports page settings: This version added into PDF2OfficeSettingData with new parameters "page_range, include_pdf_comments, word_setting_data" and "enable_retain_page_layout" to enable setting pages during the conversion process.
+* Improved support for the KaiTi font.
+* Enhanced chart recognition, improving output display.
+* Enhanced compatibility with WPS Office to ensure that the resulting document maintains consistent formatting and font colors across different office editors.
+
+Bug Fixes
+* Addressed the issue of incorrect text styling in some converted files, including missing bold formatting and inconsistent font sizes.
+* [PDF2Word] Fixed the issue of text overlap after conversion.
+* [PDF2Word] Resolved problems with the recognition and output of page-level outlines during conversion.
+* [PDF2Word] Fixed the issue where lists were not correctly recognized in some files.
+* [PDF2Word] Corrected the display of some highlight styles and annotations.
+* [PDF2Word] Fixed the problem of inconsistent watermark layout between Word and PDF after conversion.
+* [PDF2Word] Resolved the issue of missing title and author information in document properties.
+* [PDF2Word] Addressed the problem of an increased page count in the resulting Word document for specific PDF files.
+* [PDF2Word] Corrected the recognition of text objects as shape objects for dual-layout content.
+* [PDF2Word]  Fixed the problem of generating extra empty paragraphs in the resulting document.
+* [PDF2Excel] Resolved the issue of extended processing time and freezing for some files during conversion.
+* [PDF2Excel] Fixed the problem of incomplete number display in cells after conversion.
+* [PDF2Excel] Corrected the issue of reduced text size within cells after conversion.
+* [PDF2Excel] Addressed the problem of shifted content within cells after conversion.
+* [PDF2Excel] Fixed the issue of cell content wrapping after conversion.
+* [PDF2Excel] Resolved the problem of missing cell backgrounds after conversion.
+
+====================================================================
+Foxit PDF Conversion SDK v1.4.0 - August 22, 2023
+
+This release includes the following changes:
+
+New Features:
+* Added support for converting headings from PDF to Word.
+* Introducing the Linux C Library.
+* Compatibility with the latest version of node.js.
+
+Bug Fixes:
+* Addressed a known OpenSSL vulnerability by updating to OpenSSL version 1.11.
+* [PDF2Word] Fixed the issue where numeric bullet points in the result file changed after conversion.
+* [PDF2Word] Resolved the problem of bullet point misalignment in the result file after conversion.
+* [PDF2Excel] Fixed the issue of inconsistent content display in converted result files within WPS.
+* [PDF2Office] Corrected the inconsistency in display of converted result files when opened in various office editors.
+* [PDF2Word] Resolved an issue where fonts were missing and font appearances were inconsistent after converting specific files.
+* [PDF2Word] Fixed the problem where Calibri font changed to another font after conversion in the result file.
+* [PDF2Excel] Fixed the issue where table column widths were reduced, causing misalignment of data within columns after conversion.
+* [PDF2Excel] Corrected the problem where Excel cells with solid color backgrounds were not properly converted and recognized.
+* [PDF2Excel] Addressed the issue where text became invisible after zooming in on the converted result file using a specific office editor on a device.====================================================================
+Foxit PDF Conversion SDK v1.3.0 - June 09, 2023
+
+This release includes the following changes:
+
+New Features:
+
+* Added support for the Linux platform.
+* Implemented multi-threading and safety features.
+* Introduced clip-path text recognition and conversion capabilities.
+* [PDF2Word] Implemented conversion of the PDF pop-up contents and corresponding replies associated with the text highlights to office review comments. 
+
+Major Improvements:
+
+* [PDF2Excel] Enhanced the alignment effect of text in Excel conversion.
+* Improved paragraph and line output effects.
+* Reduced unnecessary text box output that may interfere with the editing in converted files.
+* Enhanced support for bullet lists and improved the output effect of certain special character lists.
+* Enhanced the recognition and conversion support for double lines in tables.
+
+Major Bug Fixes:
+
+* Resolved the issue of missing spaces in some files after conversion.  
+* Fixed the problem of incorrect recognition and conversion of underlined text in certain files.
+* Addressed the problem of text being converted into images in some files.
+* Fixed crash and memory leak issues in Office conversions to enhance stability.
+* Fixed the issue of misaligned paragraph formatting after converting text with a highlighted StyleSpan, such as content changing from aligned left text to justified text.
+
+====================================================================
+Foxit PDF Conversion SDK v1.2.0 - April 04, 2023
+
+This version includes the following changes:
+
+* JavaScript Conversion Demo: We have hosted a Node.js conversion library on GitHub, allowing you to easily access and utilize it for your projects. Additionally, we have created a web project demo within the Foxit PDF SDK Web Demo application, which visually represents the capabilities of the library.
+
+* New Project Demos: Our conversion library now includes demonstration projects for both Visual Studio 2019 and 2022. Developers using these versions of Visual Studio can use the demo projects to view our library and see its features in action.
+
+* Bug Fixes: This version uses the same core engine as version 1.1.1 and fixes some project-level issues.
+====================================================================
+Foxit PDF Conversion SDK v1.1.0 - March 03, 2023
+
+* Introduce Foxit's AI technology to perform borderless table recognition. 
+	Our cutting-edge machine learning technology uses HTTP Restful API to enable seamless integration with your existing projects. You can simply turn on the option "enable_ml_recognition" in our SDK to execute recognition on the table border in a matter of seconds. 
+* A lot of bug fixes.
+
+====================================================================
+Foxit PDF Conversion SDK v1.0.0 - January 17, 2023
+
+* Initial Release.
+
+In this release, the following features are included:
+* 	Windows platform.   
+* 	Multiple languages:  C/C++, C# (DotNet, DotNetCore), Java,  Node.js, and  Python.
+* 	Converting PDF to Microsoft® Word/Excel/PowerPoint 
+
+Coming Soon:
+* Linux Platform
+* Mac Platform
+
+Will improve soon:
+* The PDF2Excel conversion on the overall layout, text overlap, underlining, and table.
+* The PDF2PPT conversion result file size. 
+* The PDF2Word conversion on the appearance consistency
+
+
+

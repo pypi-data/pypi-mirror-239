@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: totemlib
+Version: 0.1.0.23
+Summary: Base library for general uses
+Author: Totem Bear
+Author-email: info@totembear.com
+License-File: LICENSE
+Requires-Dist: jproperties==2.1.1

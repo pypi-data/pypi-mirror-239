@@ -1,0 +1,11 @@
+imerit_ango/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imerit_ango/plugin_logger.py,sha256=kE3Bv8wqzXJzXHSxyZb7AdoTW0QeytZc137GDqcFsSI,1304
+imerit_ango/plugins.py,sha256=w5NialFKkzmBYV4qofnddMlT51CvO9dRljYr2FrySEE,7621
+imerit_ango/sdk.py,sha256=WIBQnKsxRdZkbzB8m0J2XRua2E9KGiK3HbY5vezLvLk,15210
+imerit_ango/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imerit_ango/models/enums.py,sha256=SxrcHZE3gAv2-F4jXLFvgT3H9ffZuwKtHRtW0U_8eLM,347
+imerit_ango/models/label_category.py,sha256=2gBUgTNbEc32Wfc05KewuaRejQW_1u8lKvyO-4z1JDo,5441
+imerit_ango-1.2.9.dist-info/METADATA,sha256=SMOejqaxGJhomb8WeW7Koz7zyn2z-rtzT3Em8TuvBLY,955
+imerit_ango-1.2.9.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+imerit_ango-1.2.9.dist-info/top_level.txt,sha256=rL30Gcrxa2AgOWg8EXn6b4NzT5STPtJ20PSJPK9IgH0,12
+imerit_ango-1.2.9.dist-info/RECORD,,

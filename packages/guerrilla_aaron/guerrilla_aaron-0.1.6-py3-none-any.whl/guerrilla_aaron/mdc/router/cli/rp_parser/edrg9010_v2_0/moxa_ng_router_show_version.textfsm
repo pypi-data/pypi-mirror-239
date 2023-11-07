@@ -1,0 +1,6 @@
+Value model_name (.*)
+Value firmware_version (.*)
+
+Start
+ ^Model Name                   : ${model_name}
+ ^Firmware Version             : ${firmware_version} -> Record

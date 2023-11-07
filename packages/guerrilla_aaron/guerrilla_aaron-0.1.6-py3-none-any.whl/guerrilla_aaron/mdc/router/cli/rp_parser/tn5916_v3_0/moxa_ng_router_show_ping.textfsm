@@ -1,0 +1,7 @@
+Value ping_ip (.*)
+Value sent (.*)
+Value received (.*)
+
+Start
+ ^Ping to ${ping_ip}:
+ ^Packets: Sent = ${sent}, Received = ${received}, -> Record

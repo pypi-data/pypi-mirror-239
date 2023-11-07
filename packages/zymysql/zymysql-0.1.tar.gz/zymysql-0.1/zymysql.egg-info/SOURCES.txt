@@ -1,0 +1,8 @@
+setup.py
+zymysql/__init__.py
+zymysql/zymysql.py
+zymysql.egg-info/PKG-INFO
+zymysql.egg-info/SOURCES.txt
+zymysql.egg-info/dependency_links.txt
+zymysql.egg-info/requires.txt
+zymysql.egg-info/top_level.txt

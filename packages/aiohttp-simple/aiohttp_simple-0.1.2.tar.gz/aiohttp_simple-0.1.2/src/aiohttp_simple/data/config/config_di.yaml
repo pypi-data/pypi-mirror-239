@@ -1,0 +1,4 @@
+# di测试环境配置文件
+# 以下配置覆盖默认配置文件(./config.yaml)中配置
+
+package_name: test_group

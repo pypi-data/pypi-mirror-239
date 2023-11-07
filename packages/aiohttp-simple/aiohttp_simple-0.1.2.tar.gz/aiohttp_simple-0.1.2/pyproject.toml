@@ -1,0 +1,35 @@
+[project]
+name = "aiohttp-simple"
+version = "0.1.2"
+description = "simplify the use of aiohttp"
+authors = [
+    { name = "gnakw", email = "gnakw@outlook.com" },
+]
+dependencies = [
+    "aiohttp>=3.8.6",
+    "pydantic>=2.4.2",
+    "pydantic-settings>=2.0.3",
+    "sqlalchemy>=2.0.23",
+    "pyyaml>=6.0.1",
+    "aiomysql>=0.2.0",
+]
+requires-python = ">=3.11"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[project.scripts]
+aiohttp_simple = "aiohttp_simple.__main__:main_shell"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "isort>=5.12.0",
+    "black>=23.10.1",
+]

@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: mine_creater
+Version: 0.0.13
+Summary: Make Minecraft in Python easy
+Author: Bodie Sevcik
+Author-email: bodei11007@gmail.com
+Keywords: minecraft,easy,mine,python,create,fast
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+This allows you to create Minecraft in Python within minutes! And it's super easy!

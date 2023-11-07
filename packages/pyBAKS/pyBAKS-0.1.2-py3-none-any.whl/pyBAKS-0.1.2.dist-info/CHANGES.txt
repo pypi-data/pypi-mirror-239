@@ -1,0 +1,9 @@
+v0.1.2 (2023-11-06)
+----------------------------
+-another debug for BAKS() function
+
+v0.1.1 (2023-11-06)
+----------------------------
+-added dataframe processing
+-debugging
+-fixed bug where arrays with no spikes would cause in error in BAKS()

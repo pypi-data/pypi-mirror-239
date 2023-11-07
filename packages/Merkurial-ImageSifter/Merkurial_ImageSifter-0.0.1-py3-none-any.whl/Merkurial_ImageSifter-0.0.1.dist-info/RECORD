@@ -1,0 +1,16 @@
+Merkurial_ImageSifter/__init__.py,sha256=hTILySWXMqVgdqHabIOC-ibHMGUn36SZgAoW8En5T_U,116
+Merkurial_ImageSifter/buttons.py,sha256=bkQCretM2_19Au_sd0iFAgSrFd9DsbM1Zusql9YWHqE,3652
+Merkurial_ImageSifter/carousel.py,sha256=sUfJk887eqJlgoEHD8uyLESKCPucQDnxwAgAc-7RJgk,6057
+Merkurial_ImageSifter/carousel_helpers.py,sha256=IBTitEGJX47HL9el-vgrc2lJC9hfCGeiH11QzGZDjw8,379
+Merkurial_ImageSifter/carousel_text.py,sha256=_4npEsxcNwCUVgjNuFL13-tslAvtbEqhaCZRJ402JpM,6135
+Merkurial_ImageSifter/file_handlers.py,sha256=azh3yFSPs6uZS-tf7Gp7zFeoGKNSmQLkC8PS7VigtWA,2504
+Merkurial_ImageSifter/image_sifter.py,sha256=LKAu8k4WalX8R5OSAhXPWyk296KC5zVr4DE1lg7wR2g,16120
+Merkurial_ImageSifter/images_viewer.py,sha256=jqiWKB55vDioQt3BiHKMYkJAPnBmpiEzAmQyCUovqLc,5717
+Merkurial_ImageSifter/images_viewer_helpers.py,sha256=BjQ8LdVBfaihdBnYYD2eBFfzLr-nzgzLHxbYnR-SEfE,4895
+Merkurial_ImageSifter/message_box.py,sha256=4BOQrdQE8pWTqyMpq0AvEl7TarQ0-ckieS7TeEK_HtY,3601
+Merkurial_ImageSifter/update_button.py,sha256=XcngTdHK4jKwZDWjpzeSMdu7LX6RGlZUJkqyuHCH23E,2093
+Merkurial_ImageSifter-0.0.1.dist-info/LICENSE,sha256=N0P3pKtRMvfb64jmgJdlerg3TnS0a2QC776AzPsbZIg,35128
+Merkurial_ImageSifter-0.0.1.dist-info/METADATA,sha256=4ZrNGUVWwgPgitixhFVbtrmjbihCwSOkt5sLu9_bjXk,1116
+Merkurial_ImageSifter-0.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+Merkurial_ImageSifter-0.0.1.dist-info/top_level.txt,sha256=kowsb0g92OGRUtmmuG9HlrzK2yY21Uz42fS9FqYBFaw,22
+Merkurial_ImageSifter-0.0.1.dist-info/RECORD,,

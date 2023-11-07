@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: vkstest
+Version: 1.1.14
+Summary: My CLI tool description
+Author-email: Vikash Kumar Shrivastva <vkshrivastva@yahoo.co.in>
+Maintainer-email: Vikash Kumar Shrivastva <vkshrivastva@yahoo.co.in>
+License: MIT License
+Requires-Python: >=3.8
+License-File: LICENSE

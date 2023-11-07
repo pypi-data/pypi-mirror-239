@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vkstest"
+version = "1.1.14"
+description = "My CLI tool description"
+authors = [{name="Vikash Kumar Shrivastva", email="vkshrivastva@yahoo.co.in"}]
+maintainers = [{name="Vikash Kumar Shrivastva", email="vkshrivastva@yahoo.co.in"}]
+requires-python = ">=3.8"
+license = {text = "MIT License"}
+
+# [tool.setuptools.dynamic]
+# version = {attr = "vkstest.__version__"}
+# dependencies = [
+#   "urllib.parse",
+# ]
+
+[tool.build-backend]
+name = "setuptools.build_meta"
+
+[project.scripts]
+vkscli = "vkstest.cli:main"
+

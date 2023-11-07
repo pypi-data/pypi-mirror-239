@@ -1,0 +1,14 @@
+foliumYandexPracticum
+foliumYandexPracticum/plugins
+foliumYandexPracticum/templates
+foliumYandexPracticum/templates/tiles
+foliumYandexPracticum/templates/tiles/cartodbdark_matter
+foliumYandexPracticum/templates/tiles/cartodbpositron
+foliumYandexPracticum/templates/tiles/cartodbpositronnolabels
+foliumYandexPracticum/templates/tiles/cartodbpositrononlylabels
+foliumYandexPracticum/templates/tiles/openstreetmap
+foliumYandexPracticum/templates/tiles/stamenterrain
+foliumYandexPracticum/templates/tiles/stamentoner
+foliumYandexPracticum/templates/tiles/stamentonerbackground
+foliumYandexPracticum/templates/tiles/stamentonerlabels
+foliumYandexPracticum/templates/tiles/stamenwatercolor

@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: interactions-dynamic-help
+Version: 1.0.2
+Summary: Unofficial Dynamic Help Command for interactions.py
+Home-page: https://github.com/Pilot1782/interactions-dynamic-help
+Author: Pilot1782
+Author-email: 
+License: GNU
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: discord-py-interactions
+
+# Dynamic Help
+
+## Description
+
+A dynamically generated help command for interactions.py

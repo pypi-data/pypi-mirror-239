@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "famiware"
+version = "0.1.0"
+description = ""
+authors = ["qr3n <qtter85@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = ">=0.73.0"
+install = "^1.3.5"
+python-keycloak = ">2.14.0,<4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

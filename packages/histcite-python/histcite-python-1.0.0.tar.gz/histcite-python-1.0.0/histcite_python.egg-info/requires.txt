@@ -1,0 +1,11 @@
+pandas>=2.0
+pyarrow
+openpyxl
+
+[test]
+pytest
+coverage
+black
+mypy
+ruff
+pre-commit

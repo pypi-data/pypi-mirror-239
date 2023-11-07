@@ -1,0 +1,121 @@
+Metadata-Version: 2.1
+Name: Qtica
+Version: 0.1.2
+Summary: Qtica is a Python library that provides a lightweight API around native PySide6, allowing for lightning-fast GUI prototyping using modern declarative UI techniques entirely within Python.
+Home-page: https://github.com/omamkaz/Qtica
+License: GPL-3.0
+Keywords: qt,pyside6,python,declarative,qml,Qtica
+Author: Osama Mohammed Al-zabidi
+Author-email: omamkaz@gmail.com
+Requires-Python: >=3.10,<3.12
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: PySide6 (>=6.5,<7.0)
+Requires-Dist: pynput (>=1.7.6,<2.0.0)
+Description-Content-Type: text/markdown
+
+<p align="center">
+  <a href="https://omamkaz.gitbook.io/qtica-docs/quick-start">
+    <img alt="Qtica" src="./logo.png">
+  </a>
+</p>
+
+<p align="center">
+  A Fast Way to Done Your Idea!
+</p>
+
+Qtica is a Python library that provides a lightweight API around native PySide6, allowing for lightning-fast GUI prototyping using modern declarative UI techniques entirely within Python.
+
+# Documention
+
+[Get Start](https://omamkaz.gitbook.io/qtica-docs/quick-start)
+
+# Changelog
+
+## Unreleased - (Soon!)
+
+### Added
+
+- parent_child_widgets.py example
+
+## 0.1.1 - (2023-11-05)
+
+### Added
+
+- #### PySide6 Built-in Widgets
+
+  - QApplication
+  - QPushButton
+  - QLabel
+  - QFrame
+  - QMainWindow
+  - QSystemTrayIcon
+  - QGraphicsView
+  - QWidget
+  - QQuickWidget
+  - QQuickView
+  - QGraphicsOpacityEffect
+  - QGraphicsDropShadowEffect
+  - QGraphicsColorizeEffect
+  - QGraphicsBlurEffect
+  - QFormLayout
+  - QGridLayout
+  - QHBoxLayout
+  - QStackedLayout
+  - QVBoxLayout
+
+- #### PySide6 Additional Widgets
+
+  - WigglyWidget
+  - WaterRippleProgressBar
+  - WaterProgressBar
+  - ProgressIndicator
+  - MovieView
+  - MetroCircleProgress
+  - ElidingLabel
+  - FramelessWindow
+  - RoutingWindow
+  - TeachingTip
+  - SlidingStackedWidget
+  - SideBarWidget
+  - TerminalWidget
+  - NavBarWidget
+  - SilentTextDialog
+  - LargTextDialog
+  - ColourfulProgressBar
+  - OutsideNeumorphismEffect
+  - InsideNeumorphismEffect
+  - FlowLayout
+  - ExpandLayout
+
+- #### PySide6 Built-in Core
+
+  - QPropertyAnimation
+
+- #### PySide6 Additional Core
+  - StyleAnimation
+  - ProgressStyleAnimation
+  - Animation
+
+## 0.1.2 - (2023-11-07)
+
+### Added
+
+- Qtica `logo.png`
+- version_generator.py example
+- status_edge.py example
+- resources, and fonts into the `Application` class.
+- `tools.Painter class`
+- `tools.PaintStatusEdge`
+- `widgets.FramelessWindowSizeGrip`
+
+### Changed
+
+- `enums.Sizes.size_hint` -> `enums.Sizes.hint`
+
+### Fixed
+
+- `core.BehaviorDeclarative`, no uid in `__init__` parameters
+

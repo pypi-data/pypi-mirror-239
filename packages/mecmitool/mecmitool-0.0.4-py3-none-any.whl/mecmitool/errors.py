@@ -1,0 +1,2 @@
+class OutRangeError(Exception):
+    pass

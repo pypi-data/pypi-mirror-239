@@ -1,0 +1,12 @@
+orbis_unum/__init__.py,sha256=KhxZ0-d7yYr3E9bxZpIJJpV840AZyQikd6isxAzJCus,232
+orbis_unum/coreutils.py,sha256=LCrSp1Ma-EtgfZdgH0EkTH7eQbxAormwSBjYXnymino,5809
+orbis_unum/main.py,sha256=6Y_U5438bmB-ZwJ62npRNbpfo5pom1-TKnSq5kpgMgs,2025
+orbis_unum/messages.py,sha256=tvmfY7B5Mk6-mtXFYvPfr_oHUxgi2C01u9ps8KdtL3U,694
+orbis_unum/orbis.py,sha256=-jrP0Rt-iXOSaY5P9ZAUCcqNKkJTzMO5-1YPBVa6PPw,6765
+orbis_unum/templates/index.html,sha256=DWzjhpr28SAm36CzlzmrSa5YKQF3LBmbRnMFjr2WVuc,3961
+orbis_unum/templates/map.html,sha256=dt-Bcbgj_EIYKxHyrAJn2qznpxjdj5_gQsA2wR8sA_c,2439
+orbis_unum-1.2.1.dist-info/LICENSE,sha256=RkFLaXRkR3wjt0guHjwSXzePRpNdkQfRAGXeYIhqS0I,1070
+orbis_unum-1.2.1.dist-info/METADATA,sha256=THU5cQCmrNOCOproGh_mS_ozSPy27f_XNDkqgFt_p28,3211
+orbis_unum-1.2.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+orbis_unum-1.2.1.dist-info/entry_points.txt,sha256=2kahhgiC3UlAzUd7Md1ABnDU-YcwK8E_0vLGypGh7b8,119
+orbis_unum-1.2.1.dist-info/RECORD,,

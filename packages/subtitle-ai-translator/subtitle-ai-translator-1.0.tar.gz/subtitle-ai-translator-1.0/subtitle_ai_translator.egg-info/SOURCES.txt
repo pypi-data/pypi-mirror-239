@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+subtitle_ai_translator/__init__.py
+subtitle_ai_translator/main.py
+subtitle_ai_translator.egg-info/PKG-INFO
+subtitle_ai_translator.egg-info/SOURCES.txt
+subtitle_ai_translator.egg-info/dependency_links.txt
+subtitle_ai_translator.egg-info/entry_points.txt
+subtitle_ai_translator.egg-info/requires.txt
+subtitle_ai_translator.egg-info/top_level.txt

@@ -1,0 +1,2 @@
+[console_scripts]
+subtitle_ai_translator = subtitle_ai_translator.main:main

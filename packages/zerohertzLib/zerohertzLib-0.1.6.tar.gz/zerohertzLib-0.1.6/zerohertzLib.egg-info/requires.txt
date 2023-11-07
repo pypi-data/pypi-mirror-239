@@ -1,0 +1,7 @@
+requests
+openai
+matplotlib
+seaborn
+numpy
+Pillow
+opencv-python

@@ -1,0 +1,1 @@
+drf-yasgdjangorestframeworkdjango-modeltranslationdjango-filter

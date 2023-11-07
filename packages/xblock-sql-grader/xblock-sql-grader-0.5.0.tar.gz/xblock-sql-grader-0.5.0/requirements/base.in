@@ -1,0 +1,7 @@
+# Core requirements for using this package
+-c constraints.txt
+
+Django
+XBlock
+# TODO: Change this once codejail is published to pypi
+-e git+https://github.com/openedx/codejail.git@3.0.0#egg=codejail

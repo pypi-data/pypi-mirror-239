@@ -1,0 +1,14 @@
+Value status (.*)
+Value role (.*)
+Value bridge_priority (\d+)
+Value hello_time (\d+)
+Value forwarding_delay (\d+)
+Value max_age_time (\d+)
+
+Start
+  ^\s*Spanning tree status\s*:\s*${status}
+  ^\s*Role\s*:\s*${role}
+  ^\s*Bridge priority\s*:\s*${bridge_priority}
+  ^\s*Hello time\s*:\s*${hello_time} sec
+  ^\s*Forwarding delay\s*:\s*${forwarding_delay} sec
+  ^\s*Max age time\s*:\s*${max_age_time} sec -> Record

@@ -1,0 +1,9 @@
+Value index (\d+)
+Value neighbor_id (\S+)
+Value priority (\d+)
+Value state (\S+)
+Value address (\S+)
+Value interface (\w+)
+
+Start
+ ^${index}\s+${neighbor_id}\s+${priority}\s+${state}\s+${address}\s+${interface}

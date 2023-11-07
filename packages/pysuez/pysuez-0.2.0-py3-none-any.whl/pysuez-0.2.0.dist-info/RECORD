@@ -1,0 +1,9 @@
+pysuez/__init__.py,sha256=8LW5jt87zYtCbHuM2ZDumvoGhAuczvsbASnNXUL0Tcg,36
+pysuez/__main__.py,sha256=WlNfifU42ZiJ_I2v__ss_DCJtOzgiNmgiithpVsRD0E,910
+pysuez/client.py,sha256=Vs52vrmVkjGjRbI0DZ49MUl2E8xcGbLF3PUh-yexuuA,8484
+pysuez-0.2.0.dist-info/LICENSE,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+pysuez-0.2.0.dist-info/METADATA,sha256=TLC2fGJ1ZqPOh8DvD9_d_XOrzDip4lI4dU2igxP0wNs,1924
+pysuez-0.2.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+pysuez-0.2.0.dist-info/entry_points.txt,sha256=mXOxYWVKd847E0xCPrghkSUd5ejsMBed5hl8KDkD1Pc,48
+pysuez-0.2.0.dist-info/top_level.txt,sha256=jxhvGsC0szuYcyAgnffctf-wG28KmfUC-lNlWvdUBDI,7
+pysuez-0.2.0.dist-info/RECORD,,

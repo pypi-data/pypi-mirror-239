@@ -1,0 +1,6 @@
+Value address (\d+\.\d+\.\d+\.\d+)
+Value hardware_addr (\w+\:\w+\:\w+\:\w+\:\w+\:\w+)
+Value interface (\w+)
+
+Start
+ ^${address}\s+${hardware_addr}\s+${interface} -> Record

@@ -1,0 +1,12 @@
+Value port (.*)
+Value neighbor_id (.*)
+Value neighbor_port (.*)
+Value neighbor_port_description (.*)
+Value neighbor_system (.*)
+
+Start
+ ^Port     : ${port}
+ ^    Neighbor ID              : ${neighbor_id}
+ ^    Neighbor Port            : ${neighbor_port}
+ ^    Neighbor Port Descript   : ${neighbor_port_description}
+ ^    Neighbor System          : ${neighbor_system} -> Record

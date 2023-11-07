@@ -1,0 +1,12 @@
+Value trusted_access_list (.*)
+Value severity (.*)
+Value syslog (.*)
+Value trap (.*)
+Value accept_all_lan (.*)
+
+Start
+ ^Trusted Access List : ${trusted_access_list}
+ ^Severity            : ${severity}
+ ^Syslog              : ${syslog}
+ ^Trap                : ${trap}
+ ^Accept All LAN      : ${accept_all_lan}

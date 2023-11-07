@@ -1,0 +1,23 @@
+Value port_1_status (.*)
+Value port_2_status (.*)
+Value port_3_status (.*)
+Value port_4_status (.*)
+Value port_5_status (.*)
+Value port_6_status (.*)
+Value port_7_status (.*)
+Value port_8_status (.*)
+Value port_9_status (.*)
+Value port_10_status (.*)
+
+
+Start
+ ^1/1  ${port_1_status}  1000TX,RJ45                          --        --            --
+ ^1/2  ${port_2_status}  1000TX,RJ45                          --        --            --
+ ^1/3  ${port_3_status}  1000TX,RJ45                          --        --            --
+ ^1/4  ${port_4_status}  1000TX,RJ45                          --        --            --
+ ^1/5  ${port_5_status}  1000TX,RJ45                          --        --            --
+ ^1/6  ${port_6_status}  1000TX,RJ45                          --        --            --
+ ^1/7  ${port_7_status}  1000TX,RJ45                          --        --            --
+ ^1/8  ${port_8_status}  1000TX,RJ45                          --        --            --
+ ^1/9  ${port_9_status}  N/A                                  --        --            --
+ ^1/10 ${port_10_status}  N/A                                  --        --            --  -> Record

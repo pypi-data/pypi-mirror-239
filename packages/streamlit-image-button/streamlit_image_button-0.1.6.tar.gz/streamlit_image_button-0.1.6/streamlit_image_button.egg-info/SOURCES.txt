@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+st_image_button/__init__.py
+st_image_button/example.py
+st_image_button/frontend/build/asset-manifest.json
+st_image_button/frontend/build/bootstrap.min.css
+st_image_button/frontend/build/index.html
+st_image_button/frontend/build/static/js/main.dfa4d76b.js
+st_image_button/frontend/build/static/js/main.dfa4d76b.js.LICENSE.txt
+st_image_button/frontend/build/static/js/main.dfa4d76b.js.map
+streamlit_image_button.egg-info/PKG-INFO
+streamlit_image_button.egg-info/SOURCES.txt
+streamlit_image_button.egg-info/dependency_links.txt
+streamlit_image_button.egg-info/requires.txt
+streamlit_image_button.egg-info/top_level.txt

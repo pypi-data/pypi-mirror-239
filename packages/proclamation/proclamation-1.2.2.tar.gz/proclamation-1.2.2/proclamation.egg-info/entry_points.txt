@@ -1,0 +1,2 @@
+[console_scripts]
+proclamation = proclamation.main:cli

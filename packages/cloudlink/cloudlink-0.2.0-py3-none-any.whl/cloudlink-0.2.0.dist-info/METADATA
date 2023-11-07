@@ -1,0 +1,95 @@
+Metadata-Version: 2.1
+Name: cloudlink
+Version: 0.2.0
+Summary: A powerful WebSocket extension for Scratch.
+Author-email: MikeDev101 <mike@meower.org>
+License: THE MEOW LICENSE ("MEOW") 1.3 - Last revised Jan 7, 2022.
+        
+        COPYRIGHT (C) 2020-2022 MikeDEV Software Co.
+        
+        Under this license:
+        
+        - You are free to change, remove, or modify the above copyright notice.
+        - You are free to use the software in private or commercial forms.
+        - You are free to use, copy, modify, and/or distribute the software for any purpose.
+        - You are free to distribute this software with or without fee.
+        - Absolutely no patent use is permitted.
+        
+        With the above conditions, the author(s) of this software does NOT guarantee warranty. As part of this license, under no circumstance shall the author(s) and/or copyright holder(s) be held liable for any and all forms of damages.
+        
+        NO EXPRESS OR IMPLIED LICENSES TO ANY PARTY'S PATENT RIGHTS ARE GRANTED BY THIS LICENSE. THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR(S) DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR(S) BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+        
+Project-URL: Source Code, https://github.com/MikeDev101/cloudlink
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: snowflake-id >=0.0.2
+Requires-Dist: cerberus >=1.3.4
+Requires-Dist: websockets >=10.4
+Requires-Dist: ujson >=5.7.0
+
+# CloudLink Python
+This is the original, Python-based codebase for CloudLink server.
+
+## 💡 Features 💡
+
+### 🪶 Fast and lightweight
+CloudLink can run on minimal resources. At least 25MB of RAM and any reasonably capable CPU can run a CloudLink server.
+
+### 🌐 Essential networking tools
+* Unicast and multicast packets across clients
+* Expandable functionality with a built-in method loader
+
+### 📦 Minimal dependencies
+All dependencies below can be installed using `pip install -r requirements.txt`.
+* 🐍 Python >=3.11
+* 🧵 asyncio (Built-in)
+* 📃 ["ujson" ultrajson](https://github.com/ultrajson/ultrajson)
+* 🔍 [pyeve/cerberus](https://github.com/pyeve/cerberus)
+* ❄️ ["snowflake-id" vd2org/snowflake](https://github.com/vd2org/snowflake)
+* 🌐 [aaugustin/websockets](https://github.com/aaugustin/websockets)
+
+### 🔋Batteries included
+The CloudLink Python server comes with full support for the CL4 protocol and the Scratch cloud variable protocol.
+Just download, setup, and start!
+
+### 🧱 Plug-and-play modularity
+You can easily extend the functionality of the server using classes and decorators. 
+Here's an example of a simple plugin that displays "Foobar!" in the console
+when a client sends the message `{ "cmd": "foo" }` to the server.
+
+```python
+# Import the server
+from cloudlink import server
+
+# Import default protocol
+from cloudlink.server.protocols import clpv4
+
+# Instantiate the server object
+server = server()
+
+# Set logging level
+server.logging.basicConfig(
+    level=server.logging.DEBUG
+)
+
+# Load default CL protocol
+clpv4 = clpv4(server)
+
+# Define the functions your plugin executes
+class myplugin:
+    def __init__(self, server, protocol):
+        
+        # Example command - client sends { "cmd": "foo" } to the server, this function will execute
+        @server.on_command(cmd="foo", schema=protocol.schema)
+        async def foobar(client, message):
+            print("Foobar!")
+
+# Load the plugin!
+myplugin(server, clpv4)
+
+# Start the server!
+server.run()
+```

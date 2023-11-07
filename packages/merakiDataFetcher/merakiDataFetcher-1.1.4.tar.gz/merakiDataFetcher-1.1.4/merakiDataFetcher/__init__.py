@@ -1,0 +1,14 @@
+from merakiDataFetcher.meraki_data_fetcher import MerakiDataFetcher
+
+from merakiDataFetcher.meraki_dataclasses.meraki_device import MerakiDevice
+from merakiDataFetcher.meraki_dataclasses.meraki_device_appliance import MerakiAppliance
+from merakiDataFetcher.meraki_dataclasses.meraki_device_camera import MerakiCamera
+from merakiDataFetcher.meraki_dataclasses.meraki_device_sensor import MerakiSensor
+from merakiDataFetcher.meraki_dataclasses.meraki_device_switch import MerakiSwitch
+from merakiDataFetcher.meraki_dataclasses.meraki_device_wireless import MerakiWireless
+from merakiDataFetcher.meraki_dataclasses.meraki_network import MerakiNetwork
+from merakiDataFetcher.meraki_dataclasses.meraki_organization import MerakiOrganization
+
+
+__version__ = '1.1.4'
+

@@ -1,0 +1,9 @@
+mwcliparser/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mwcliparser/api.py,sha256=z5iX7_BzYoL0TD9KmKxcXWcmnzK_M7YTHeuVzUlPSQU,2266
+mwcliparser/cli.py,sha256=lb4_6We6nGBTbLGpk55coRkOJI_MqUSh2UIuhZBj3vg,729
+mwcliparser-1.0.1.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+mwcliparser-1.0.1.dist-info/METADATA,sha256=0-KzL-XCVdXy6e8Krz56O9Ty7a1WGlmeERc4Kzg8Tbk,3473
+mwcliparser-1.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+mwcliparser-1.0.1.dist-info/entry_points.txt,sha256=GtazcF8rUbKzQ-U57rdiQITjSYHi6WOhJmLbzA9g_y8,53
+mwcliparser-1.0.1.dist-info/top_level.txt,sha256=4K5m5McEa3XsxxTsnFYzLTimZcFHSamE7597N43fGzA,12
+mwcliparser-1.0.1.dist-info/RECORD,,

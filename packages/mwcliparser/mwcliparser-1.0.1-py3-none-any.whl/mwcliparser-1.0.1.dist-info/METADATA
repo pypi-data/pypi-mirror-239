@@ -1,0 +1,88 @@
+Metadata-Version: 2.1
+Name: mwcliparser
+Version: 1.0.1
+Summary: Merrian-Webster command line utility to get word definition.
+Author-email: Vikash Kumar Shrivastva <vkshrivastva@yahoo.co.in>
+Maintainer-email: Vikash Kumar Shrivastva <vkshrivastva@yahoo.co.in>
+License: Copyright (c) 2018 The Python Packaging Authority
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+**Package Name:** `mwcliparser`
+
+**Author:** Vikash Kumar Shrivastva
+
+**Code Repository URL:** https://gitlab.com/assignment7233743/mw_cli_parser
+
+**Package URL:** https://pypi.org/project/mwcliparser/
+
+**Built using:** Merriam-Webster API - https://DictionaryAPI.com
+
+This repository contains scripts which allow you to access definitions from Merriam-Webster's online dictionary through command line tools. 
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+*This package MUST be installed on Python versions 3.8 or later*
+
+You will also need to get MW API Key.
+To get the API Key follow the following steps:
+**Step1:** visit "https://www.dictionaryapi.com/". 
+**Step2:** Click on "Dev Center" 
+**Step3:** Sign-Up and generate API Key. 
+
+Make sure to save the API key as you will need to set that as environment variable. 
+
+This command line utility will only work with the "collegiate" reference API.
+ - On Linux /  Mac OS:
+export MW_API_KEY=<API_KEY>
+
+
+### Installation
+To check and modify the code as per your use case. Feel free to clone or download this repository to your local machine.
+
+To use the CLI functionality of this package follow the following steps:
+**Step1:** Install the CLI using pip command. 
+
+
+    pip install mwcliparser
+**Step2:** Set the MW API key as `MW_API_KEY` environment variable.:
+
+    export MW_API_KEY=<MW_API_KEY>
+For Example if your API Key is `lskdjlsfjdslfdjslfdjsldfsf` then 
+
+    export MW_API_KEY=lskdjlsfjdslfdjslfdjsldfsf
+
+**Step3:** use the command as: 
+
+    mwcliparser exersize
+
+
+This script will retrieve the definition for the word passed into the function. In this case, the word passed in is "exercise". So response would be:
+
+### MW_Response
+```
+ˈek-sər-ˌsīz (noun): the act of bringing into play or realizing in action
+```

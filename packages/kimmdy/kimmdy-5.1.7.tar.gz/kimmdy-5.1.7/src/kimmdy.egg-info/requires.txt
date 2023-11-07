@@ -1,0 +1,10 @@
+dill
+pyyaml
+numpy
+importlib_metadata
+MDAnalysis
+
+[analysis]
+pandas
+matplotlib
+seaborn

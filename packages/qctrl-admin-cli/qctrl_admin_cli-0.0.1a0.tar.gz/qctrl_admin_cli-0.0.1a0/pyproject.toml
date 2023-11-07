@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "qctrl-admin-cli"
+version = "0.0.1a0"
+description = "Q-CTRL Admin CLI"
+license = ""
+authors = ["Q-CTRL <support@q-ctrl.com>"]
+maintainers = ["Q-CTRL <support@q-ctrl.com>"]
+readme = "README.md"
+repository = ""
+
+classifiers = [
+    "Development Status :: 7 - Inactive"
+]
+
+packages = [
+    { include = "qctrladmincli" }
+]

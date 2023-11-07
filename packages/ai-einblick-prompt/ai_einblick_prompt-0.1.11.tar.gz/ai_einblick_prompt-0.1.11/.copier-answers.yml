@@ -1,0 +1,18 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: v4.2.0
+_src_path: https://github.com/jupyterlab/extension-template
+author_email: nb@einblick.ai
+author_name: Einblick
+data_format: string
+file_extension: ''
+has_binder: true
+has_settings: true
+kind: frontend
+labextension_name: ai-einblick-prompt
+mimetype: ''
+mimetype_name: ''
+project_short_description: Generative AI tool made for data tasks. Generate, modify, and fix code.
+python_name: ai-einblick-prompt
+repository: https://github.com/einblick-ai/jupyterlab-ext
+test: true
+viewer_name: ''

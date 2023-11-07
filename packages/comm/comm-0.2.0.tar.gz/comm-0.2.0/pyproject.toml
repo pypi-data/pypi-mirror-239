@@ -1,0 +1,106 @@
+[build-system]
+requires = ["hatchling>=1.10"]
+build-backend = "hatchling.build"
+
+[project]
+name = "comm"
+dynamic = ["version"]
+description = "Jupyter Python Comm implementation, for usage in ipykernel, xeus-python etc."
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.8"
+authors = [
+    { name = "Jupyter contributors" },
+]
+keywords = [
+    "ipykernel",
+    "jupyter",
+    "xeus-python",
+]
+classifiers = [
+    "Framework :: Jupyter",
+    "License :: OSI Approved :: BSD License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "traitlets>=4",
+]
+
+[project.optional-dependencies]
+test = [
+  "pytest",
+]
+
+[project.urls]
+Homepage = "https://github.com/ipython/comm"
+
+[tool.hatch.version]
+path = "comm/__init__.py"
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "/comm",
+]
+
+[tool.hatch.envs.test]
+features = ["test"]
+[tool.hatch.envs.test.scripts]
+test = "python -m pytest -vv {args}"
+nowarn = "test -W default {args}"
+
+[tool.hatch.envs.typing]
+dependencies = ["pre-commit"]
+detached = true
+[tool.hatch.envs.typing.scripts]
+test = "pre-commit run --all-files --hook-stage manual mypy"
+
+[tool.hatch.envs.lint]
+dependencies = ["pre-commit"]
+detached = true
+[tool.hatch.envs.lint.scripts]
+build = ["pre-commit run --all-files ruff"]
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+testpaths = ["tests"]
+xfail_strict = true
+log_cli_level = "info"
+addopts = [
+  "-raXs", "--durations=10", "--color=yes", "--doctest-modules",
+   "--showlocals", "--strict-markers", "--strict-config"
+]
+filterwarnings = ["error"]
+
+[tool.mypy]
+files = "comm"
+python_version = "3.8"
+strict = true
+show_error_codes = true
+enable_error_code = ["ignore-without-code", "redundant-expr", "truthy-bool"]
+warn_unreachable = true
+
+[tool.ruff]
+target-version = "py38"
+line-length = 100
+
+[tool.ruff.lint]
+select = [
+  "A", "B", "C", "E", "F", "I", "N", "Q", "RUF", "S", "T",
+  "UP", "W", "YTT",
+]
+ignore = [
+]
+unfixable = [
+  # Don't touch print statements
+  "T201",
+  # Don't touch noqa lines
+  "RUF100",
+]
+
+[tool.ruff.lint.per-file-ignores]
+# S101 Use of `assert` detected
+"tests/*" = ["S101"]
+
+[tool.repo-review]
+ignore = ["PY007", "PP308", "PY004", "GH102", "MY101", "RTD100"]

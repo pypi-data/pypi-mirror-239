@@ -1,0 +1,15 @@
+gencodegenes-1.0.9.dist-info/RECORD,,
+gencodegenes-1.0.9.dist-info/WHEEL,sha256=7bITxp1IXfScHG_aHqjgl3cb1WeEQowtBiPLTHk6_e8,109
+gencodegenes-1.0.9.dist-info/top_level.txt,sha256=1gFJpjhYQvKUEo7_TeXplxHArowufYehl165BPwVV74,13
+gencodegenes-1.0.9.dist-info/LICENSE.txt,sha256=d-UXxTGlwAjSdmz253wnHNOC4lS0DwgSh6LdMIUF6po,1108
+gencodegenes-1.0.9.dist-info/METADATA,sha256=-wUONMdSqb2hcMcrmbh2b7hrcpg8Y7FB0kuKmVenYZk,2801
+gencodegenes/tx.cpp,sha256=GBIzYFiP2LFAOADEtSpW2xAWdMMP6ziKXqKappn7nT8,28901
+gencodegenes/gencode.cpp,sha256=WGcD75aaglpG85nznM8rd6snpAVCwPGI6ld4u9JAwqg,1002624
+gencodegenes/transcript.pyx,sha256=Yohoj04Nx0AZLkaf19BFhWB7zsmKZvOfIeLvzPL8f2o,17426
+gencodegenes/__init__.py,sha256=cDm7-X76Ns1y0SePqS-bB0NRDyWX9ee9VwlmgF_gyPM,199
+gencodegenes/gencode.cpython-38-darwin.so,sha256=TP7NBSSpbmY-DKGk6jru-uGLoUtbrqJ_JKmqNfzeB0Y,464000
+gencodegenes/transcript.cpython-38-darwin.so,sha256=v17i_8gm75agdPyJ7vtZCbQSdGpBbwsAiHq7s1LJkQE,311896
+gencodegenes/tx.h,sha256=_r3sigXxz0_bNttpUNTXP5saKycNqxU8Xsoumn9h2vo,3446
+gencodegenes/transcript.pxd,sha256=U2jOTKI-RPu-2Bs_9gT9lvIQLSvXmwDwHNxQ3_QC_cE,3209
+gencodegenes/transcript.cpp,sha256=veU58g0qWrmFYWsYMho8geu5UswJ3bJl1y2WK5ixmZE,929179
+gencodegenes/gencode.pyx,sha256=nLEce0_Z9-wekqmU_WSV0T_FJFEqHBWNRG1Xcv7TB_0,16505

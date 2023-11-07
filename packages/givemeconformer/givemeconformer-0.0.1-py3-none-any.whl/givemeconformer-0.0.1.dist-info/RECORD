@@ -1,0 +1,11 @@
+givemeconformer/__init__.py,sha256=8iV-4tu_5NykW-ZCNfp-UYR_xSUm4QUoaUW2cQoM1IM,86
+givemeconformer/__main__.py,sha256=aaPwS3EHPt66po6AzGjFXYjaZJOhLaLJ70T2_1wztFI,332
+givemeconformer/api.py,sha256=RWEenx-VS3Dcd8IVSb0BRx1AfOKc-qm_5i9BAxiPkfk,3769
+givemeconformer/cli.py,sha256=WZSSO63PjuYFZfG67oEYr2DZmQxJNFuJgNp6AU_YNHg,845
+givemeconformer/version.py,sha256=WMUTLGW41w5mdBL3ajokLliHa2QxOY4lTQONHfWhujA,1036
+givemeconformer-0.0.1.dist-info/LICENSE,sha256=5-rGFVL7tDbIckDofmoH51dMtXCJPvloO6q_kaYHvgQ,1074
+givemeconformer-0.0.1.dist-info/METADATA,sha256=d4AcmZ_LERNC7-jWli7MT6ohugAHEz08VeahiogqWoU,7632
+givemeconformer-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+givemeconformer-0.0.1.dist-info/entry_points.txt,sha256=hTngxoWBJ7ClKkdNmbdxBY2F8goUar87J8rhDudbFpw,61
+givemeconformer-0.0.1.dist-info/top_level.txt,sha256=vu3t6Nwxd2zMSjM7Mu3eGEGkjmGCuRWTa5tHBNF_81g,16
+givemeconformer-0.0.1.dist-info/RECORD,,

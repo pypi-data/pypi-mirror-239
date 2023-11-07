@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: gapper
+Version: 1.0.1
+Summary: Gradescope Autograder Packer
+Home-page: https://github.com/FlickerSoul/gapper
+License: MIT
+Author: Heyuan Zeng
+Author-email: hi@universe.observer
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: dacite (>=1.8.1,<2.0.0)
+Requires-Dist: dataclasses-json (>=0.6.1,<0.7.0)
+Requires-Dist: dill (>=0.3.7,<0.4.0)
+Requires-Dist: pytest (>=7.4.3,<8.0.0)
+Requires-Dist: rich (>=13.6.0,<14.0.0)
+Requires-Dist: typer (>=0.9.0,<0.10.0)
+Project-URL: Documentation, https://github.com/FlickerSoul/gapper/wiki
+Project-URL: Repository, https://github.com/FlickerSoul/gapper
+Description-Content-Type: text/markdown
+
+# Gradescope Autograder Packer (gapper)
+
+[<img src="https://img.shields.io/pypi/v/gapper">](https://pypi.org/project/gapper/)
+[<img src="https://img.shields.io/pypi/pyversions/gapper">](https://pypi.org/project/gapper/)
+![PyPI - License](https://img.shields.io/pypi/l/gapper)
+[<img src="https://img.shields.io/github/actions/workflow/status/flickersoul/gapper/python-package.yml">](https://github.com/FlickerSoul/gapper/actions/workflows/python-package.yml)
+[<img src="https://img.shields.io/badge/Wiki-blue?link=https%3A%2F%2Fgithub.com%2FFlickerSoul%2Fgapper%2Fwiki">](https://github.com/FlickerSoul/gapper/wiki)
+[<img src="https://img.shields.io/badge/API_Reference-blue?link=https%3A%2F%2Fgapper.universe.observer">](https://gapper.universe.observer)
+![Code Style Badge](https://img.shields.io/badge/Code_Style-Black-blue)
+
+
+## What's gapper? 
+
+GAP is a tool that allows you to create a Gradescope autograder from a decorator so that you can ditch the cumbersome `gradescope-utils`. It's inspired by [aga](https://github.com/rileyshahar/aga) and reconstructed from the ground up to be easier to use and maintain. 
+
+## Usage and Demonstration
+
+### Installation
+
+Install from PyPI
+```bash
+pip install gapper
+```
+
+Install from source
+```bash
+git clone https://github.com/FlickerSoul/gapper.git
+pip install -e gapper
+```
+
+### Usage 
+
+Please refer to the [Wiki page](https://github.com/FlickerSoul/gapper/wiki) of this repository for detailed usage. For API reference, please visit [here](https://gapper.universe.observer).
+

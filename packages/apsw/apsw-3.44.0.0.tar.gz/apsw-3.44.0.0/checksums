@@ -1,0 +1,23 @@
+# This file contains checksums/hashes of SQLite so that we can verify
+# downloads using fetch command to setup.py have not been
+# tampered with.  See https://rogerbinns.github.io/apsw/build.html#additional-setup-py-flags
+# for information on setup.py flags.
+
+# Format is URL length SHA1 MD5 all on one line.  Yes SHA1 and MD5 are
+# considered weakened, but it would take a fairly incredible feat to
+# come up with something that has the same length and SHA1 and MD5
+# hashes.  This extra checking mechanism is to give you a little bit
+# more peace of mind because the SQLite releases are not signed in any
+# way.
+
+https://sqlite.org/2023/sqlite-autoconf-3410000.tar.gz 3124499 a7cb1364d5af52a8230c048877e657d49a8dda44 ff001143636ee7cf899020abdbc8cb89
+https://sqlite.org/2023/sqlite-autoconf-3410100.tar.gz 3125153 e77599a2df4c5b114c942ddba4483550d8982bf2 c6d5034cf39232299ccfdf8e3ddc5781
+https://sqlite.org/2023/sqlite-autoconf-3410200.tar.gz 3125545 f5a8a9ad5552b19fb5a41cf5536c8ab3b9bce82e 862075fd1c38324878ef809eda39edfe
+
+https://sqlite.org/2023/sqlite-autoconf-3420000.tar.gz 3148813 036575929b174c1b829769255491ba2b32bda9ee 0c5a92bc51cf07cae45b4a1e94653dea
+
+https://sqlite.org/2023/sqlite-autoconf-3430000.tar.gz 3178199 59e8c695e34bf1bc9aeb076530f84f66d0f30a5e f321a958aed13fb5f8773ae2f3504c0b
+https://sqlite.org/2023/sqlite-autoconf-3430100.tar.gz 3175971 194f57642f191939a16399208a10b5e0a827b916 77e61befe9c3298da0504f87772a24b0
+https://sqlite.org/2023/sqlite-autoconf-3430200.tar.gz 3177625 cf9fbab967e3d924c7d6fc5b8e4a23a81d067fa5 94fb06bfebc437762e489c355ae63716
+
+https://sqlite.org/2023/sqlite-autoconf-3440000.tar.gz 3198005 5afebfa26abefb98c2fa4c3dc010260f398c176a 7d4a49f724ad0643f3c4bf7e5a5838c0

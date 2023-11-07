@@ -1,0 +1,8 @@
+kaginawa/__init__.py,sha256=8ZzQA4fr810FMkR_tRfxTcLNC_oK0HpZ-sDqNoX_z7w,78
+kaginawa/client.py,sha256=p9lfNhi7uMcNlafq94Ahre_NnhGAVZbW48dRSKTieKc,2974
+kaginawa/exceptions.py,sha256=VCoQzi8zuAYhh7sHl40WUw6lT8uwxKWPt29HStwMJaM,41
+kaginawa/models.py,sha256=TCztweQ0irExTGP4elCFx7gpGjWmHhDFxlmSuf6kpZ8,3799
+kaginawa-0.0.2.dist-info/METADATA,sha256=YSZAkdVHvydXItxIDb9k1BSu2TuXbp8slyzelGlAt1A,1481
+kaginawa-0.0.2.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+kaginawa-0.0.2.dist-info/top_level.txt,sha256=bPAbxcTFZPO1oT8UGt5-n7jAycJXOeldpS39oubVoH8,9
+kaginawa-0.0.2.dist-info/RECORD,,

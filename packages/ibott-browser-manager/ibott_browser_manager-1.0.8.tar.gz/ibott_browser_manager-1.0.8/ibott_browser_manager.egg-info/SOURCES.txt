@@ -1,0 +1,13 @@
+LICENSE
+pyproject.toml
+setup.py
+browser/__init__.py
+browser/chrome.py
+browser/driver_utils.py
+browser/firefox.py
+browser/web_elements.py
+ibott_browser_manager.egg-info/PKG-INFO
+ibott_browser_manager.egg-info/SOURCES.txt
+ibott_browser_manager.egg-info/dependency_links.txt
+ibott_browser_manager.egg-info/requires.txt
+ibott_browser_manager.egg-info/top_level.txt

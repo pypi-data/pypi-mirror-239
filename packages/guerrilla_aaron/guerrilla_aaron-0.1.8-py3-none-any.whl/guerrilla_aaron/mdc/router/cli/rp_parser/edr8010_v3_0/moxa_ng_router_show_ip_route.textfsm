@@ -1,0 +1,11 @@
+Value index (.*)
+Value type (.*)
+Value desination (.*)
+Value next_hop (.*)
+Value interface (.*)
+Value metric (.*)
+
+Start
+ ^Idx  Type        Destination         Next Hop         Interface  Metric
+ ^---  ----------  ------------------  ---------------  ---------  ------
+ ^${index}    ${type}   ${desination}    ${next_hop}  ${interface}        ${metric}

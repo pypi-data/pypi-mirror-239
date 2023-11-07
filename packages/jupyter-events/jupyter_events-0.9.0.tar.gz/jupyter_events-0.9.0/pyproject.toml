@@ -1,0 +1,209 @@
+[build-system]
+requires = ["hatchling>=1.5"]
+build-backend = "hatchling.build"
+
+[project]
+name = "jupyter-events"
+description = "Jupyter Event System library"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+    { name = "Jupyter Development Team", email = "jupyter@googlegroups.com" },
+]
+keywords = [
+    "Jupyter",
+    "JupyterLab",
+]
+classifiers = [
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: System Administrators",
+    "License :: OSI Approved :: BSD License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "referencing",
+    "jsonschema[format-nongpl]>=4.18.0",
+    "python-json-logger>=2.0.4",
+    "pyyaml>=5.3",
+    "traitlets>=5.3",
+    # The following are necessary to address an issue where pyproject.toml normalizes extra dependencies
+    # such that 'format_nongpl' is normalized to 'format-nongpl' which prevents these two validators from
+    # from being installed when jsonschema is <= 4.9 because jsonschema uses 'format_nongpl' in those releases.
+    "rfc3339-validator",
+    "rfc3986-validator>=0.1.1",
+]
+dynamic = [
+    "version",
+]
+
+[project.license]
+file = 'LICENSE'
+
+[project.urls]
+Homepage = "http://jupyter.org"
+documentation = "https://jupyter-events.readthedocs.io/"
+repository = "https://github.com/jupyter/jupyter_events.git"
+changelog = "https://github.com/jupyter/jupyter_events/blob/main/CHANGELOG.md"
+
+[project.scripts]
+jupyter-events = "jupyter_events.cli:main"
+
+[project.optional-dependencies]
+docs = [
+    "jupyterlite-sphinx",
+    "myst_parser",
+    "pydata_sphinx_theme",
+    "sphinxcontrib-spelling",
+]
+test = [
+    "pre-commit",
+    "pytest-asyncio>=0.19.0",
+    "pytest-console-scripts",
+    "pytest>=7.0",
+    # [cli]
+    "click",
+    "rich",
+]
+cli = [
+    "click",
+    "rich"
+]
+
+[tool.hatch.version]
+path = "jupyter_events/_version.py"
+
+[tool.hatch.envs.docs]
+features = ["docs"]
+[tool.hatch.envs.docs.scripts]
+build = "make -C docs html SPHINXOPTS='-W'"
+
+[tool.hatch.envs.test]
+features = ["test"]
+[tool.hatch.envs.test.scripts]
+test = "python -m pytest -vv {args}"
+nowarn = "test -W default {args}"
+
+[tool.hatch.envs.cov]
+features = ["test"]
+dependencies = ["coverage[toml]", "pytest-cov"]
+[tool.hatch.envs.cov.scripts]
+test = "python -m pytest -vv --cov jupyter_events --cov-branch --cov-report term-missing:skip-covered {args}"
+nowarn = "test -W default {args}"
+
+[tool.hatch.envs.lint]
+detached = true
+dependencies = ["pre-commit"]
+[tool.hatch.envs.lint.scripts]
+build = "pre-commit run --all-files ruff"
+
+[tool.hatch.envs.typing]
+dependencies = [ "pre-commit"]
+detached = true
+[tool.hatch.envs.typing.scripts]
+test = "pre-commit run --all-files --hook-stage manual mypy"
+
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+xfail_strict = true
+log_cli_level = "info"
+addopts = [
+  "-ra", "--durations=10", "--color=yes", "--doctest-modules",
+   "--showlocals", "--strict-markers", "--strict-config"
+]
+testpaths = [
+    "tests/"
+]
+asyncio_mode = "auto"
+script_launch_mode = "subprocess"
+filterwarnings= [
+  # Fail on warnings
+  "error",
+  # Upstream warnings from python-dateutil
+  "module:datetime.datetime.utc:DeprecationWarning",
+  # Ignore importwarning on pypy for yaml
+  "module:can't resolve package from __spec__ or __package__:ImportWarning",
+]
+
+[tool.coverage.report]
+exclude_lines = [
+  "pragma: no cover",
+  "def __repr__",
+  "if self.debug:",
+  "if settings.DEBUG",
+  "raise AssertionError",
+  "raise NotImplementedError",
+  "if 0:",
+  "if __name__ == .__main__.:",
+  "class .*\bProtocol\\):",
+"@(abc\\.)?abstractmethod",
+]
+
+[tool.coverage.run]
+relative_files = true
+source = ["jupyter_events"]
+
+[tool.mypy]
+files = "jupyter_events"
+python_version = "3.8"
+strict = true
+show_error_codes = true
+enable_error_code = ["ignore-without-code", "redundant-expr", "truthy-bool"]
+warn_unreachable = true
+
+[tool.ruff]
+target-version = "py38"
+line-length = 100
+
+[tool.ruff.lint]
+select = [
+  "A", "B", "C", "DTZ", "E", "EM", "F", "FBT", "I", "ICN", "N",
+  "PLC", "PLE", "PLR", "PLW", "Q", "RUF", "S", "SIM", "T", "TID", "UP",
+  "W", "YTT",
+]
+ignore = [
+  # Q000 Single quotes found but double quotes preferred
+  "Q000",
+  # FBT001 Boolean positional arg in function definition
+  "FBT001", "FBT002", "FBT003",
+  # E501 Line too long (158 > 100 characters)
+  "E501",
+  # SIM105 Use `contextlib.suppress(...)`
+  "SIM105",
+]
+unfixable = [
+  # Don't touch print statements
+  "T201",
+  # Don't touch noqa lines
+  "RUF100",
+]
+
+[tool.ruff.lint.per-file-ignores]
+# B011 Do not call assert False since python -O removes these calls
+# F841 local variable 'foo' is assigned to but never used
+# C408 Unnecessary `dict` call
+# E402 Module level import not at top of file
+# T201 `print` found
+# B007 Loop control variable `i` not used within the loop body.
+# N802 Function name `assertIn` should be lowercase
+# F841 Local variable `t` is assigned to but never used
+# S101 Use of `assert` detected
+"tests/*" = ["B011", "F841", "C408", "E402", "T201", "B007", "N802", "F841", "S101"]
+# C901 Function is too complex
+"jupyter_events/logger.py" = ["C901"] # `emit` is too complex (12 > 10)
+
+
+[tool.interrogate]
+ignore-init-module=true
+ignore-private=true
+ignore-semiprivate=true
+ignore-property-decorators=true
+ignore-nested-functions=true
+ignore-nested-classes=true
+fail-under=100
+exclude = ["docs", "tests"]
+
+[tool.repo-review]
+ignore = ["PY007", "GH102"]

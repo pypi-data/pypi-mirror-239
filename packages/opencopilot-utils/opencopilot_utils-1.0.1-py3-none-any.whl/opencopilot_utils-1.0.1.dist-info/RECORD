@@ -1,0 +1,12 @@
+opencopilot_utils/__init__.py,sha256=5oj72xIOpntiokHNkKvX5aL2UMEKBoPhyMd3koxKunI,172
+opencopilot_utils/config.py,sha256=VxTiH3zOqRV_wU8jVs88Q_VeSPURvYm0hKOBiQaCQFI,244
+opencopilot_utils/embedding_type.py,sha256=OMrEe5pgzdUpnnQzdSw56zGuP6WQRlDgBtHdDy4yvWw,138
+opencopilot_utils/get_embeddings.py,sha256=KWCMwdy_dyiuOwreDcaxKETmP29Vk0fgxJncU2BYBFM,1993
+opencopilot_utils/get_vector_store.py,sha256=-q4KK3pdLu-JWJEAolROxk7_JV35DVxXX2xdFS7c1zQ,1208
+opencopilot_utils/init_vector_store.py,sha256=3nG2G8-RwqTL_6skWSlAbVVLbtqfNp3pOtjuEOVJPX0,785
+opencopilot_utils/interfaces.py,sha256=-_ViWlnF0_rLvtxkxrlK1A3IZXe2VkeMRNnt38VbXnw,140
+opencopilot_utils/store_type.py,sha256=r5WZUQG1edulJ2qja7DPcOe84Xb7ffHZmrgcKeMJnng,90
+opencopilot_utils-1.0.1.dist-info/METADATA,sha256=SerCg4M8yZgA09vkMTEd0H9tRhCNvI_i83TUo0slmqM,2783
+opencopilot_utils-1.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+opencopilot_utils-1.0.1.dist-info/top_level.txt,sha256=C-_gmCAF-WKKTrjTrEwxSXAXPFTONJiJJyNrsk5kGsY,18
+opencopilot_utils-1.0.1.dist-info/RECORD,,

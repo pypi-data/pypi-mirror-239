@@ -1,0 +1,18 @@
+{
+  "jupyter.lab.shortcuts": [],
+  "title": "Einblick plugin for JupyterLab notebook",
+  "description": "Settings for Einblick JupyterLab notebook plugin.",
+  "jupyter.lab.toolbars": {
+    "Cell": [
+      {
+        "name": "einblick-prompt",
+        "command": "ai-einblick-prompt:contextual-prompt",
+        "icon": "ai-einblick-prompt:einblick",
+        "rank": 100
+      }
+    ]
+  },
+  "type": "object",
+  "properties": {},
+  "additionalProperties": false
+}

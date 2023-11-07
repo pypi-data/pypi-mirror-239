@@ -1,0 +1,2 @@
+[console_scripts]
+ctxpro = ctxpro.__main__:main

@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: isotp-with-measurement
+Version: 2.0
+Summary: Module enabling the IsoTP protocol defined by ISO-15765
+License: MIT
+Keywords: isotp,can,iso-15765,15765,iso15765
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Scientific/Engineering :: Interface Engine/Protocol Translator
+Requires-Python: >=3.7
+License-File: LICENSE.txt
+
+isotp-with-measurement
+################
+
+.. image:: https://app.travis-ci.com/pylessard/python-can-isotp.svg?branch=master
+
+This project is a Python package meant to provide support for IsoTP (ISO-15765) protocol written in Python 3.
+
+This package contains a Python implementation of the protocol that works in the user space that may or may not be coupled with `python-can <https://python-can.readthedocs.io>`_. It also contains a wrapper for a simplified usage of the `Linux SocketCAN IsoTP kernel module <https://github.com/hartkopp/can-isotp>`__
+
+Documentation
+-------------
+
+The documentation is available here :   http://can-isotp.readthedocs.io
+
+Requirements
+------------
+
+ - Python 3+
+
+Installation
+------------
+
+using pip::
+
+    pip install isotp-with-measurement

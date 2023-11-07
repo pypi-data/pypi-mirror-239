@@ -1,0 +1,4 @@
+resources
+tests
+xdatbus
+xdatbus-dev

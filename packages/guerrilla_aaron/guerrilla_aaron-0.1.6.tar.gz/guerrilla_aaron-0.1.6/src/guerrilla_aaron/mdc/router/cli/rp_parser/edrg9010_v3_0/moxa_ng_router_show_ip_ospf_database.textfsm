@@ -1,0 +1,9 @@
+Value index (\d+)
+Value area_id (\S+)
+Value link_state_id (\S+)
+Value adv_router (\S+)
+Value router (\S+)
+Value ls_type (\S+)
+
+Start
+ ^${index}\s+${area_id}\s+${link_state_id}\s+${adv_router}\s+${router}\s+${ls_type}

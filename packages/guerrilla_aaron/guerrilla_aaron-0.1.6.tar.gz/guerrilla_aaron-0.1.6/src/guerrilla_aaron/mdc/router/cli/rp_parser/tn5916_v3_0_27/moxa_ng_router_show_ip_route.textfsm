@@ -1,0 +1,11 @@
+Value index (.*)
+Value type (\w+)
+Value destination (.*)
+Value next_hop (.*)
+Value interface (\w+)
+Value metric (\d+)
+
+Start
+ ^Idx  Type        Destination         Next Hop         Interface  Metric
+ ^---  ----------  ------------------  ---------------  ---------  ------
+ ^${index}    ${type}   ${destination}    ${next_hop}  ${interface}        ${metric} -> Record

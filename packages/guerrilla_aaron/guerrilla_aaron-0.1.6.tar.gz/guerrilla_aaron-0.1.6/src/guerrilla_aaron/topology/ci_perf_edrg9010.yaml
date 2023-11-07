@@ -1,0 +1,133 @@
+host_info:
+  HOST_EXECUTOR:
+    name: executor
+    nic: eth1
+    testbed:
+      cur_host: 192.168.127.152
+      host: 192.168.127.152
+      mac_address: '00:0c:29:47:9d:97'
+      lan_host: 192.168.127.152
+      wan_host: 192.168.128.152
+      brg_host: 192.168.126.152
+      cur_subnet: ''
+      lan_subnet: 192.168.127.0
+      wan_subnet: 192.168.128.0
+      brg_subnet: 192.168.126.0
+      mask: 255.255.255.0
+      cur_gw: ''
+      lan_gw: 192.168.127.254
+      wan_gw: 192.168.128.254
+      brg_gw: 192.168.126.254
+    controls:
+      - name: shellcmd
+        type: shellcmd
+      - name: hping3
+        type: hping3
+      - name: tftp
+        type: tftp
+    session:
+      con_type: ssh
+      host: 192.168.113.152
+      port: 22
+      timeout: 2
+      credential:
+        username: guerrilla-performance-edrg9010
+        password: moxa
+generator_info:
+  ixia:
+    control:
+      port_media: copper
+      port_list:
+        - 12/1
+        - 12/2
+        - 12/3
+        - 12/4
+      force_take_port_owner_ship: 'True'
+      config_file: local_route_4_ports.ixncfg
+      report_path: results
+    session:
+      ip: 10.123.38.203
+      credential:
+        username: admin
+        password: Ixia123456789!
+dut_info:
+  DUT:
+    model: edrg9010_v3_0
+    sys_name: Firewall/VPN Router
+    sys_location: Device Location
+    sys_description: ''
+    init_method: reset
+    session:
+      con_type: telnet
+      serial_port: /dev/ttyS1
+      baudrate: 115200
+      host: 192.168.128.252
+      port: 4001
+      prompts: []
+      encode: utf-8
+      terminator: "\r"
+      timeout: 10
+    mac_address: '00:90:E8:9D:EA:9D'
+    reload_delay: 60
+    credential:
+      username: admin
+      password: moxa
+      root_account: ieisecureedr_moxasupport
+      root_password: 83dafc480d466ee0
+    testbed:
+      wan_ip: 192.168.128.254
+      lan_ip: 192.168.127.254
+      brg_ip: 192.168.126.254
+      mask: 255.255.255.0
+      wan_netmask: 255.255.255.0
+      lan_netmask: 255.255.255.0
+      wan_port: '8'
+      lan_port: '1'
+      brg_port:
+        - '1'
+        - '8'
+      internet_port: '7'
+      lan_vlan: '1'
+      wan_vlan: '2'
+      brg_vlan: '4040'
+      power_jig_device: turtle
+      power_jig_ip: 192.168.127.200
+      power_jig: '1'
+      link_to_tg:
+        - 't1\'
+        - 't2\'
+        - 't3\'
+        - 't4\'
+        - 't5\'
+        - 't6\'
+  INDICATOR:
+    model: edr810_v5_0
+    sys_name: Firewall/VPN Router
+    sys_location: Device Location
+    sys_description: ''
+    session:
+      con_type: telnet
+      serial_port: /dev/ttyS1
+      baudrate: 115200
+      host: 192.168.128.252
+      port: 4810
+      prompts: []
+      encode: utf-8
+      terminator: "\r"
+      timeout: 10
+    mac_address: '00:90:E8:3F:7D:7C'
+    reload_delay: 60
+    credential:
+      username: admin
+      password: moxa
+jig_info:
+  JIG:
+    model: sam
+    session:
+      con_type: telnet
+      host: 192.168.128.252
+      port: 4888
+      prompts: []
+      encode: utf-8
+      terminator: "\r"
+      timeout: 10

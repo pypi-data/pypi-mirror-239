@@ -1,0 +1,6 @@
+Value security (.*)
+Value mxsecurity (.*)
+
+Start
+ ^Package security is enable.${security}
+ ^Package mxsecurity is enable.${mxsecurity} -> Record

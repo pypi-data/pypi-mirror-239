@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: up-bfgp
+Version: 0.2.0
+Summary: Unified Planning integration of the BFGP++ generalized planner
+Author: Javier Segovia-Aguas, Sergio Jiménez and Anders Jonsson
+Author-email: javier.segovia@upf.edu
+License: GNUv3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+This package makes the [BFGP++](https://github.com/jsego/bfgp-pp) generalized planner available in the [unified_planning library](https://github.com/aiplan4eu/unified-planning) by the [AIPlan4EU project](https://www.aiplan4eu-project.eu/).

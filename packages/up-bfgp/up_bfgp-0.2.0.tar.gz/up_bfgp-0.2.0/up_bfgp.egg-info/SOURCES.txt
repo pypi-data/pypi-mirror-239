@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+tests/test_up_bfgp.py
+up_bfgp/__init__.py
+up_bfgp/bfgp.py
+up_bfgp.egg-info/PKG-INFO
+up_bfgp.egg-info/SOURCES.txt
+up_bfgp.egg-info/dependency_links.txt
+up_bfgp.egg-info/top_level.txt

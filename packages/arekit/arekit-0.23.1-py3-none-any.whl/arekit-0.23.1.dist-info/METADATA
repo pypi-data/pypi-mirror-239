@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: arekit
+Version: 0.23.1
+Summary: Library devoted to Document level Attitude and Relation Extraction for text objects with entity-linking (EL) API support
+Home-page: https://github.com/nicolay-r/AREkit
+Author: Nicolay Rusnachenko
+Author-email: rusnicolay@gmail.com
+License: MIT License
+Keywords: natural language processing,relation extraction,sentiment analysis
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Text Processing :: Linguistic
+License-File: LICENSE
+Requires-Dist: tqdm
+Requires-Dist: enum34 (==1.1.10)
+Requires-Dist: numpy (>=1.14.5)
+Requires-Dist: pymystem3 (==0.2.0)
+
+UNKNOWN
+

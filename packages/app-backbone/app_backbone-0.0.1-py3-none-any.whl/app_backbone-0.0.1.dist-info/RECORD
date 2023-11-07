@@ -1,0 +1,10 @@
+backbone/__init__.py,sha256=UwIs00PLVDAnjTK9owflYxAXSjt9ZZXjVc6Hxd8t_7k,196
+backbone/apps.py,sha256=_7SlQOMl0btw8xsm-2isZ_NyKVrVgNGaPmmhbWUzneA,1107
+backbone/entities.py,sha256=oVks1svRzHkLiWGt8ZweIN4tASpQz-66CEaJDkP-ZdE,1212
+backbone/entity_streams.py,sha256=2--mpG3UmIucH-WkbjcEDMhMmDWU596btr4I123AFVw,793
+backbone/extensions.py,sha256=uI--qV8_Kc5YlkJ3gSp96RZGCo48J2DGvByKF3D6MIQ,1382
+backbone/vendored/task_groups.py,sha256=3mGSrmiJCeGanEl_X2zDTGAFQBDMiGaslwnwsF9Wr4U,7796
+app_backbone-0.0.1.dist-info/LICENSE,sha256=fYju3r7K3KVd80gA8qpw5jbUAPcAJFobQ5r8atIk6vw,1076
+app_backbone-0.0.1.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+app_backbone-0.0.1.dist-info/METADATA,sha256=4d7nGS4dJ2kEB9H1fM5dcMu6rHs3Rgm8wo7Wj8zw4dc,674
+app_backbone-0.0.1.dist-info/RECORD,,

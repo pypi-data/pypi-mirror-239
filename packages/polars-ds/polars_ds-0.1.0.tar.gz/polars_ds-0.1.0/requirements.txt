@@ -1,0 +1,4 @@
+maturin[patchelf]
+polars
+numpy
+pytest

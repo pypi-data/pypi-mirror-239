@@ -1,0 +1,7 @@
+polars_ds-0.1.0.dist-info/METADATA,sha256=nnnYEsLl1g6blupbDIqXwQKGUfnaJ-NYQ8fiBzojxY4,3173
+polars_ds-0.1.0.dist-info/WHEEL,sha256=aTnIhXFZjon24IPiyt15mMvETqY6xmy_QBuQd4aX-Lo,134
+polars_ds-0.1.0.dist-info/license_files/LICENSE.txt,sha256=F5IqUDWlQju1xPRWCtpNL2UsdeC9h9v-wbKxDE5eijM,1068
+polars_ds/extensions.py,sha256=zC1KJC5rLece-nB-tIKzQIeUwEXugl91PvrLqMknY5I,15972
+polars_ds/__init__.py,sha256=QBpPQmE4FmCQnxgeuL_svwhwp4nHAlVXjniZwGPWHTw,18
+polars_ds/_polars_ds.pypy38-pp73-arm-linux-gnu.so,sha256=cKKctoA2fXVbyBvHFuAp2PDNrS7cbQcLEmBFLs5al00,35348528
+polars_ds-0.1.0.dist-info/RECORD,,

@@ -1,0 +1,2 @@
+[pylsp]
+pylama = pylsp_pylama.plugin

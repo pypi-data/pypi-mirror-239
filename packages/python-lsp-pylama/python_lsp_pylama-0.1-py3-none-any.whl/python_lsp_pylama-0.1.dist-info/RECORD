@@ -1,0 +1,10 @@
+pylsp_pylama/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pylsp_pylama/plugin.py,sha256=68CIkrCVib6M-xr_rdVpybHq8QTNXCOAw9OFUpCtbbE,4276
+pylsp_pylama/version.py,sha256=FhqqFqIp4nyKN9rnclCuDlknyYo40s6HmyxqogYATm0,16
+tools/bootstrap_venvstarter.py,sha256=hjqM67frLchpgt4_brKEf5RGH_oX1ZvvknLC_eRmaQQ,775
+tools/devtools.py,sha256=BoHghidW1e51LSdqauvrnWsa3jmvTB-dxYy7xXY2H-4,2933
+python_lsp_pylama-0.1.dist-info/METADATA,sha256=1o5OfeB_UsUpuWJzNEPL2pwy-_W1AElrzRx8PUwLxh4,1401
+python_lsp_pylama-0.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+python_lsp_pylama-0.1.dist-info/entry_points.txt,sha256=q3pDBMXBtZUn41WU3Ebfx7y2fK8njP0fgwRQLADDf5g,37
+python_lsp_pylama-0.1.dist-info/licenses/LICENSE,sha256=x0XDP2dKacaW3I92Z6E1ziIvydM9KA6jkTN9R7TDxxU,1080
+python_lsp_pylama-0.1.dist-info/RECORD,,

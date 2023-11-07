@@ -1,0 +1,15 @@
+atyp
+nchr
+nlit
+chck
+pfmt
+pstr
+regsyn
+idfunc
+ispec
+aspec
+urllib3
+requests
+tqdm
+
+[dev]

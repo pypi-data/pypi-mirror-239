@@ -1,0 +1,19 @@
+Value interface_name (\w+)
+Value ip_address (\S+)
+Value area_id (\S+)
+Value state (\w+)
+Value priority (\d+)
+Value hello_interval (\d+)
+Value dead_interval (\d+)
+Value auth_type (\S+)
+Value auth_key (\S+)
+Value md5_key_id (\d+)
+Value metric (\d+)
+
+Start
+ ^Interface Name\s+:\s+${interface_name}
+ ^IP Address\s+:\s+${ip_address}\s+Area ID\s+:\s+${area_id}
+ ^State\s+:\s+${state}\s+Router Priority:\s+${priority}
+ ^Hello Interval\s+:\s+${hello_interval}\s+Dead Interval\s+:\s+${dead_interval}
+ ^Auth Type\s+:\s+${auth_type}\s+Auth Key\s+:\s+${auth_key}
+ ^MD5 Key ID\s+:\s+${md5_key_id}\s+Metric :${metric}

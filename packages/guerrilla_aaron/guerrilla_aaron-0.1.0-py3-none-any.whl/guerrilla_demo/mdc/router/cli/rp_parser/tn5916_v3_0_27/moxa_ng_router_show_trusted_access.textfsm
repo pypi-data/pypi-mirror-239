@@ -1,0 +1,14 @@
+Value accessible_ip_list (.*)
+Value log (.*)
+Value severity (.*)
+Value syslog (.*)
+Value trap (.*)
+Value lan (.*)
+
+Start
+ ^Accessible IP List\s+:\s+${accessible_ip_list}
+ ^Log Enable\s+:\s+${log}
+ ^Severity\s+:\s+${severity}
+ ^Syslog\s+:\s+${syslog}
+ ^Trap\s+:\s+${trap}
+ ^LAN\s+:\s+${lan} -> Record

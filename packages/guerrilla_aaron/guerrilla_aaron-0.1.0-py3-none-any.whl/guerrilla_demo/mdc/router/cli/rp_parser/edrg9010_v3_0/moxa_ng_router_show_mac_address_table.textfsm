@@ -1,0 +1,10 @@
+Value index (\d+)
+Value mac (\S+)
+Value type (\S+)
+Value vlan (\d+)
+Value port (\d+\/\d+)
+
+Start
+ ^Idx   MAC               Type     VLAN   Port
+ ^----- ----------------- -------- ---- ----------------------------------------
+ ^${index}\s+${mac}\s+${type}\s+${vlan}\s+${port}, -> Record

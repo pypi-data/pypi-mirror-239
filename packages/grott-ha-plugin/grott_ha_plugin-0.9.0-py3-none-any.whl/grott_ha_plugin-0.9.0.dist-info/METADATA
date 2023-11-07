@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: grott-ha-plugin
+Version: 0.9.0
+Summary: An extension for grott to enable HA support
+Author-Email: egguy <etienne.guilluy@gmail.com>
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Project-URL: Repository, https://github.com/egguy/grott-ha-plugin
+Project-URL: Homepage, https://github.com/egguy/grott-ha-plugin
+Requires-Python: >=3.8
+Requires-Dist: paho-mqtt~=1.6.1
+Requires-Dist: ruff>=0.1.3; extra == "lint"
+Requires-Dist: mypy>=1.6.1; extra == "lint"
+Requires-Dist: pytest>=7.4.2; extra == "test"
+Requires-Dist: coverage[toml]>=6.5; extra == "test"
+Requires-Dist: nox>=2023.4.22; extra == "test"
+Provides-Extra: lint
+Provides-Extra: test
+Description-Content-Type: text/markdown
+
+# grott-ha-plugin
+
+Plugin to interface Home Assistant and grott. Allow auto discovery of the devices
+
+## Installation
+
+```bash
+pip install grott-ha-plugin
+```

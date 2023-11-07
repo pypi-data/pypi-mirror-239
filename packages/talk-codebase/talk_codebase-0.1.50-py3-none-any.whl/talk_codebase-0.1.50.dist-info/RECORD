@@ -1,0 +1,11 @@
+talk_codebase/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+talk_codebase/cli.py,sha256=AVtb09ex3HO95_Z4tE91yvy_eR2f-wqlL_mTe96jj6Q,1716
+talk_codebase/config.py,sha256=1F8JwUQycX_WtF90oEYK_MeBoXTdQL6d6Du4MZBf01c,3850
+talk_codebase/consts.py,sha256=JAseeKC4q-t1rsWANnIxuo_HP60ir2_XUiFPCszM_88,1762
+talk_codebase/llm.py,sha256=Vf83tcgw7OufDiuZJivowzZXtzHcpEMx1ggTH9hJovQ,5160
+talk_codebase/utils.py,sha256=Pdt4FRgCp2cq03Jf3k_mcexEqEjo0uY0qMQDO431JCM,1706
+talk_codebase-0.1.50.dist-info/LICENSE,sha256=1j2GnONk_E2Unq8_yXqaXeVXKn6P5aO0NWkyfGZKJEM,1070
+talk_codebase-0.1.50.dist-info/METADATA,sha256=VRJlNBYJWRfMqWLfOg-YAjv5z9nFebyQahxIf5lcD2U,4143
+talk_codebase-0.1.50.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+talk_codebase-0.1.50.dist-info/entry_points.txt,sha256=NRhEPxt9JoBfxQJhSbGAl0GH7PQ-PnarWMSM375O9vQ,56
+talk_codebase-0.1.50.dist-info/RECORD,,

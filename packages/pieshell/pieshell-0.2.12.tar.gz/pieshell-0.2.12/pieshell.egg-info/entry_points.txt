@@ -1,0 +1,12 @@
+[console_scripts]
+pieshell = pieshell.shell:main
+
+[pieshell.builtin]
+bashsource = pieshell.pipeline.builtins:BashSource
+bg = pieshell.pipeline.builtins:BgBuiltin
+cd = pieshell.pipeline.builtins:CdBuiltin
+clear_dir_cache = pieshell.pipeline.builtins:ClearDirCacheBuiltin
+fg = pieshell.pipeline.builtins:FgBuiltin
+remote = pieshell.pipeline.builtins:Remote
+subshell = pieshell.pipeline.builtins:SubShell
+

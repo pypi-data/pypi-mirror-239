@@ -1,0 +1,2 @@
+[console_scripts]
+causalbench_run = causalscbench.apps.main_app:main

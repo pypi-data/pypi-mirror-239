@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: MacTools
+Version: 1.0.0.RC1
+Summary: ('MacTools',)
+Author: Michael Buckley
+Keywords: python,networking,network,mac,oui,ieee
+License-File: LICENSE
+Requires-Dist: appdirs
+Requires-Dist: httpx
+Requires-Dist: textfsm
+
+MAC Address-focused library similar to `ipaddress`

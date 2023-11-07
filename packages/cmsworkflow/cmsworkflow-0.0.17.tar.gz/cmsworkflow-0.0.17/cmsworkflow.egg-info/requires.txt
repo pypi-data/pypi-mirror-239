@@ -1,0 +1,3 @@
+pip>=19.0.0
+jira
+pandas

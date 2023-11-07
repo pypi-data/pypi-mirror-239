@@ -1,0 +1,43 @@
+{% set data = load_setup_py_data() %}
+
+package:
+  name: fema-p695
+  version: {{ data.get('version') }}
+
+source:
+  git_url: "../"
+
+build:
+  noarch: python
+  script: {{ PYTHON }} -m pip install --no-deps -vv . 
+
+requirements:
+  host:
+    - python
+    - pip
+  run:
+    - python
+    - otaithleigh::asce7-16
+    - h5py
+    - hdf5plugin
+    - numpy
+    - pandas
+    - scipy
+    - xarray
+    - otaithleigh::xarray-hdf
+
+test:
+  imports:
+    - fema_p695
+    - fema_p695.groundmotions
+  requires:
+    - pytest
+  source_files:
+    - test
+  commands:
+    - pytest
+
+about:
+  home: {{ data.get('url') }}
+  license: {{ data.get('license') }}
+  summary: {{ data.get('description') }}

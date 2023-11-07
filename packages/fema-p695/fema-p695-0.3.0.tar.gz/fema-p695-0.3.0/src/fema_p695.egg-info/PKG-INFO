@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: fema-p695
+Version: 0.3.0
+Summary: FEMA P695 utilities and ground motions.
+Author-email: Peter Talley <peterctalley@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/otaithleigh/fema-p695-py
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: asce7-16
+Requires-Dist: h5py
+Requires-Dist: hdf5plugin
+Requires-Dist: numpy>=1.20
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: tables
+Requires-Dist: xarray
+Requires-Dist: xarray-hdf
+
+FEMA P695 utilities
++++++++++++++++++++
+
+Installation
+============
+
+pip::
+
+   pip install fema-p695
+
+conda::
+
+   conda install otaithleigh::fema-p695
+
+
+Ground motions
+==============
+
+Ground motion data can be loaded from ``fema_p695.groundmotions``.

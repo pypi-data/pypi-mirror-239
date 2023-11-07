@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+ImageDownloader/image.py
+ImageDownloader/image_downloader.py
+ImageDownloader/image_group.py
+ImageDownloader/images_page.py
+ImageDownloader/inputs.py
+Merkurial_ImageDownloader.egg-info/PKG-INFO
+Merkurial_ImageDownloader.egg-info/SOURCES.txt
+Merkurial_ImageDownloader.egg-info/dependency_links.txt
+Merkurial_ImageDownloader.egg-info/top_level.txt

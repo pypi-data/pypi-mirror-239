@@ -1,0 +1,10 @@
+vkstest/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vkstest/_version.py,sha256=LLu2i_U4oYJMqB8I8cwoa-OPNHa4DMi4bNpURPOnQ1U,467
+vkstest/api.py,sha256=z5iX7_BzYoL0TD9KmKxcXWcmnzK_M7YTHeuVzUlPSQU,2266
+vkstest/cli.py,sha256=l8S5VcLvh25c3H9RJxyW2yShdaGJge2EZMDMSE68_Iw,747
+vkstest-1.1.11.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+vkstest-1.1.11.dist-info/METADATA,sha256=Q-NQ8vpojcVGwoDxjmNuBQfbtpAOeex7WbCLVejae7Q,286
+vkstest-1.1.11.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+vkstest-1.1.11.dist-info/entry_points.txt,sha256=ElOnb0YxxFABNO2ooUby9cNQ63qTsWS6ODvPLkKhqbE,44
+vkstest-1.1.11.dist-info/top_level.txt,sha256=nw11rZisUqdgJy2qyT30mBbg7Q08V3p_MQShIFNi4OA,8
+vkstest-1.1.11.dist-info/RECORD,,

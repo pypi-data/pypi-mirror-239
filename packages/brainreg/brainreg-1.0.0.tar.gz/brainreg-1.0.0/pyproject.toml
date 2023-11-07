@@ -1,0 +1,112 @@
+[project]
+name = "brainreg"
+description = "Automated multi-atlas whole-brain microscopy registration"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Adam Tyson, Charly Rousseau, Stephen Lenzi", email = "code@adamltyson.com" },
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+requires-python = ">=3.9"
+dependencies = [
+    "bg-atlasapi",
+    "bg-space",
+    "brainglobe-utils",
+    "fancylog",
+    "imio",
+    "brainglobe-utils>=0.2.7",
+    "numpy",
+    "scikit-image",
+]
+dynamic = ["version"]
+
+[project.optional-dependencies]
+napari = [
+    "brainglobe-napari-io",
+    "brainglobe-segmentation >= 1.0.0",
+    "magicgui",
+    "napari-plugin-engine >= 0.1.4",
+    "napari[pyqt5]",
+    "pooch>1",                       # For sample data
+    "qtpy",
+]
+dev = [
+    "black",
+    "check-manifest",
+    "gitpython",
+    "napari[pyqt5]",
+    "pre-commit",
+    "pytest-cov",
+    "pytest-qt",
+    "pytest",
+    "setuptools_scm",
+    "tox",
+]
+
+[project.entry-points."napari.manifest"]
+brainreg = "brainreg.napari:napari.yaml"
+
+[project.scripts]
+brainreg = "brainreg.core.cli:main"
+
+[project.urls]
+homepage = "https://brainglobe.info"
+bug_tracker = "https://github.com/brainglobe/brainreg/issues"
+documentation = "https://docs.brainglobe.info/brainreg"
+source_code = "https://github.com/brainglobe/brainreg"
+user_support = "https://forum.image.sc/tag/brainglobe"
+twitter = "https://twitter.com/brain_globe"
+
+[build-system]
+requires = ["setuptools>=45", "wheel", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+include = ["brainreg*"]
+
+[tool.setuptools.package-data]
+include = ["brainreg*"]
+
+[tool.pytest.ini_options]
+addopts = "--cov=brainreg"
+filterwarnings = [
+    "error",
+    # Emitted by scikit-image on import, see https://github.com/scikit-image/scikit-image/issues/6663
+    # This filter should be removed when scikit-image 0.20 is released
+    "ignore:`np.bool8` is a deprecated alias for `np.bool_`",
+    # Emitted by nptyping, see https://github.com/ramonhagenaars/nptyping/issues/102
+    # for upstream issue
+    "ignore:`np.object0` is a deprecated alias for ``np.object0`",
+    "ignore:`np.int0` is a deprecated alias for `np.intp`",
+    "ignore:`np.uint0` is a deprecated alias for `np.uintp`",
+    "ignore:`np.void0` is a deprecated alias for `np.void`",
+    "ignore:`np.bytes0` is a deprecated alias for `np.bytes_`",
+    "ignore:`np.str0` is a deprecated alias for `np.str_`",
+]
+markers = ["slow: marks tests as slow (deselect with '-m \"not slow\"')"]
+
+[tool.black]
+line-length = 79
+skip-string-normalization = false
+target-version = ['py39', 'py310', 'py311']
+
+[tool.ruff]
+line-length = 79
+exclude = ["__init__.py", "build", ".eggs"]
+select = ["I", "E", "F"]
+fix = true

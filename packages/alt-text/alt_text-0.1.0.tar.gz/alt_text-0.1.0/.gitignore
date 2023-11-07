@@ -1,0 +1,6 @@
+/dist
+**/__pycache__/
+
+/books
+**/keys.py
+**/vertex-key.json

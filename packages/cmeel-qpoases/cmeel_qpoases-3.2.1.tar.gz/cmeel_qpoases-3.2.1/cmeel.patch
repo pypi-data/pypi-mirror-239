@@ -1,0 +1,98 @@
+--- qpOASES/CMakeLists.txt.orig	2023-11-07 09:20:40.000000000 +0100
++++ qpOASES/CMakeLists.txt	2023-11-07 09:28:28.627304725 +0100
+@@ -33,7 +33,7 @@
+ 
+ PROJECT(qpOASES CXX)
+ SET(PACKAGE_NAME "qpOASES")
+-SET(PACKAGE_VERSION "3.2.0")
++SET(PACKAGE_VERSION "3.2.1")
+ SET(PACKAGE_SO_VERSION "3.2")
+ SET(PACKAGE_DESCRIPTION "An implementation of the online active set strategy")
+ SET(PACKAGE_AUTHOR "Hans Joachim Ferreau, Andreas Potschka, Christian Kirches et al.")
+@@ -55,8 +55,13 @@
+ ENDIF( NOT CMAKE_BUILD_TYPE )
+ 
+ 
++option(BUILD_SHARED_LIBS "If ON, build shared library instead of static" OFF)
+ option(QPOASES_BUILD_EXAMPLES "Build examples." ON)
+ 
++IF(BUILD_SHARED_LIBS AND WIN32)
++    MESSAGE(FATAL_ERROR "Compiling qpOASES as a shared library in Windows is not supported.")
++ENDIF()
++
+ 
+ ############################################################
+ #################### compiler flags ########################
+@@ -104,7 +109,7 @@
+ FILE(GLOB SRC src/*.cpp)
+ 
+ # library
+-ADD_LIBRARY(qpOASES STATIC ${SRC})
++ADD_LIBRARY(qpOASES ${SRC})
+ INSTALL(TARGETS qpOASES
+   LIBRARY DESTINATION lib
+   ARCHIVE DESTINATION lib
+@@ -125,6 +130,31 @@
+   PATTERN "*.ipp"
+   PATTERN ".svn" EXCLUDE)
+ 
++
++############################################################
++######################### Package Config ###################
++############################################################
++
++include(CMakePackageConfigHelpers)
++set(INCLUDE_INSTALL_DIR include)
++set(LIB_INSTALL_DIR lib)
++configure_package_config_file(qpOASESConfig.cmake.in
++  ${CMAKE_CURRENT_BINARY_DIR}/qpOASESConfig.cmake
++  INSTALL_DESTINATION ${CMAKE_INSTALL_LIBDIR}/cmake/qpOASES
++  PATH_VARS INCLUDE_INSTALL_DIR LIB_INSTALL_DIR
++  NO_CHECK_REQUIRED_COMPONENTS_MACRO)
++
++write_basic_package_version_file(
++    ${CMAKE_CURRENT_BINARY_DIR}/qpOASESConfigVersion.cmake
++    VERSION ${PACKAGE_VERSION}
++    COMPATIBILITY SameMajorVersion)
++
++install(FILES ${CMAKE_CURRENT_BINARY_DIR}/qpOASESConfig.cmake
++    ${CMAKE_CURRENT_BINARY_DIR}/qpOASESConfigVersion.cmake
++    DESTINATION ${CMAKE_INSTALL_LIBDIR}/cmake/qpOASES
++    COMPONENT qpOASES)
++
++
+ ############################################################
+ ######################### examples #########################
+ ############################################################
+--- /dev/null	2023-11-05 21:17:47.050391012 +0100
++++ qpOASES/qpOASESConfig.cmake.in	2023-11-07 09:30:15.776823269 +0100
+@@ -0,0 +1,29 @@
++# CMake qpOASES module
++#
++# It defines the following variables:
++# qpOASES_FOUND         - TRUE
++# qpOASES_INCLUDE_DIR  - The qpOASES include directory
++# qpOASES_LIBRARY_DIR  - The qpOASES library directory
++# qpOASES_LIBRARY     - The qpOASES library
++# qpOASES_VERSION       - The qpOASES version in the form <major>.<minor>
++
++
++
++@PACKAGE_INIT@
++
++set(qpOASES_VERSION @PACKAGE_VERSION@)
++
++
++set_and_check(qpOASES_INCLUDE_DIR "include")
++
++
++set(qpOASES_INCLUDE_DIR "${qpOASES_INCLUDE_DIR}" CACHE STRING "Include path for qpOASES and its dependencies")
++set_and_check(qpOASES_LIBRARY_DIR lib)
++set(qpOASES_LIBRARY_DIR "${qpOASES_LIBRARY_DIR}" CACHE STRING "Library path for qpOASES and its dependencies")
++
++find_library(qpOASES_LIBRARY NAMES qpOASES
++    PATHS ${qpOASES_LIBRARY_DIR} NO_DEFAULT_PATH)
++
++
++include(FindPackageHandleStandardArgs)
++find_package_handle_standard_args(qpOASES DEFAULT_MSG qpOASES_INCLUDE_DIR qpOASES_LIBRARY_DIR qpOASES_LIBRARY qpOASES_VERSION)

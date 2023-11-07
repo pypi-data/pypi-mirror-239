@@ -1,0 +1,14 @@
+StorageCLI/CustomComponents/OptionalPrompt.py,sha256=k2rdhJn6qZwOB_kO-Ex80N8AhIxx9b_MHHDWnBkqJKg,597
+StorageCLI/CustomComponents/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+StorageCLI/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+StorageCLI/config.py,sha256=NPxtMG_RnatQbxWrTNtt6Xf8o96ZkWpGGmEFWe82pCA,1171
+StorageCLI/exceptions.py,sha256=-QISFww9alcRiMRe5tzLiuEhFrT8KZcZ5kYUxhoEeSo,736
+StorageCLI/sdk.py,sha256=Pib8LqmgV0PAEIlV2FavZqZcJij3mTB7SXW35edTmzo,2344
+StorageCLI/storage_io.py,sha256=qXUrSV4N8rXlKXjl-9oAYBDSc-oTkyj3DHqsaGnxvdc,5710
+StorageCLI/utils.py,sha256=KYw2d8CyL89h-imTZ7gISDMWTAK2sHoY346FtOzE3uY,489
+StorageCLI/validator.py,sha256=zB8n_rCAXR0YAsyDZFWk8UDQDWg_1LcWIeq3YhR-qfA,82
+storagecli-0.1.3.dist-info/LICENSE,sha256=mQGKT8U2OTKgkx9zcObBEc6e23ZzKxuB1ey9HSfHAGQ,1070
+storagecli-0.1.3.dist-info/METADATA,sha256=dG3Hf_BMNrUZbjTwfbQEjes39cKABLsAETVdN0DT4ls,1574
+storagecli-0.1.3.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+storagecli-0.1.3.dist-info/entry_points.txt,sha256=ofJN8rm9XFWNNEnguIrapcH5ry_wnuXj8l-zNZX7TM8,56
+storagecli-0.1.3.dist-info/RECORD,,

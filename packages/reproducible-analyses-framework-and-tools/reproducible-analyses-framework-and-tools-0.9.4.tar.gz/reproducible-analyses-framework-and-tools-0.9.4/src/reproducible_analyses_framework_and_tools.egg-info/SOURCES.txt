@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/raft.py
+src/reproducible_analyses_framework_and_tools.egg-info/PKG-INFO
+src/reproducible_analyses_framework_and_tools.egg-info/SOURCES.txt
+src/reproducible_analyses_framework_and_tools.egg-info/dependency_links.txt
+src/reproducible_analyses_framework_and_tools.egg-info/requires.txt
+src/reproducible_analyses_framework_and_tools.egg-info/top_level.txt

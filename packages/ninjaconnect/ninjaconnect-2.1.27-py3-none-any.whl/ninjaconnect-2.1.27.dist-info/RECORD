@@ -1,0 +1,15 @@
+ninjaconnect-2.1.27.data/scripts/ninja,sha256=-M_0MfIXz5ZvTCG1J7fShDjx1pVOiR8I7NLTvnN6IAs,2681
+wgexpection/Devicelist.py,sha256=GtlYXsGmKHFiCQWR3u985Q5TNCwb1QS565somUEqr-k,336
+wgexpection/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wgexpection/wireguardexpections.py,sha256=nKMpbopG3sWdNgvybHu7PJfXN5kMBacAV850MZdtQ5Y,1072
+wglib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wglib/auth.py,sha256=IGOp3F-YoMYxpe6Uvwd8i_5LmhMZflCeAV_QAnblCD4,7073
+wglib/headlessdevice.py,sha256=7Rup7U4lh70i0JUF3DHsjt8BoSOujxfR21HHIAE3U5E,3056
+wglib/storesess.py,sha256=EAdQzOMWihddyn1yVdx4CXBSMJfspHQjvo2zwnsEVLs,1330
+wglib/wg.py,sha256=KPGXB2vYMYn3U1OMU4A-glpszSUwMUoSr7Djm6aLihM,24841
+wglib/windowswg.py,sha256=TXZNvqfTaR3Xw4WCXEfIm3_vxjGfOZ0aR8C01mqrAMg,12300
+wglib/wizard.py,sha256=hz95VlSFmgCEqJg8KPQPkJfCybpFb0XM3EyL11wjriM,2729
+ninjaconnect-2.1.27.dist-info/METADATA,sha256=qFHdR_3ZDewb0lw9cs1ulGGiNo5FJC74btsXPMB9iVQ,4755
+ninjaconnect-2.1.27.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+ninjaconnect-2.1.27.dist-info/top_level.txt,sha256=-qhFp0SoFeM5CwIPhNch3gubjHaICHVfKUjMH5lc0ew,18
+ninjaconnect-2.1.27.dist-info/RECORD,,

@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+vkstest/__init__.py
+vkstest/api.py
+vkstest/cli.py
+vkstest.egg-info/PKG-INFO
+vkstest.egg-info/SOURCES.txt
+vkstest.egg-info/dependency_links.txt
+vkstest.egg-info/entry_points.txt
+vkstest.egg-info/top_level.txt

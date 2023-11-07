@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+layrz/__init__.py
+layrz/forms/__init__.py
+layrz/forms/fields/__init__.py
+layrz/forms/fields/base.py
+layrz/forms/fields/boolean.py
+layrz/forms/fields/char.py
+layrz/forms/fields/email.py
+layrz/forms/fields/id.py
+layrz/forms/fields/json.py
+layrz/forms/fields/number.py
+layrz_forms.egg-info/PKG-INFO
+layrz_forms.egg-info/SOURCES.txt
+layrz_forms.egg-info/dependency_links.txt
+layrz_forms.egg-info/top_level.txt

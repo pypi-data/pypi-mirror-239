@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: vha-toolbox
+Version: 0.0.4
+Summary: My personal Python toolbox
+Home-page: https://github.com/VictorHachard/vha-toolbox
+Author: Victor Hachard
+Author-email: 31635811+VictorHachard@users.noreply.github.com
+License: MIT
+Project-URL: Source, https://github.com/VictorHachard/vha-toolbox
+Project-URL: Bug Tracker, https://github.com/VictorHachard/vha-toolbox/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Unidecode==1.3.6
+
+# my-python-package

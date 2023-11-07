@@ -1,0 +1,8 @@
+variationalsparsebayes/__init__.py,sha256=sZGRWFqo-V9cUR7MJyLG982-LNhqoKqGAOAUK6tBos4,334
+variationalsparsebayes/sparse_bnn.py,sha256=sElz67uWTjxvfUsqmQNaxDMQOKOIgpx57kq934nco2o,5368
+variationalsparsebayes/sparse_glm.py,sha256=IvwLdxi1M1K0-_L2HxPHVFDK1-3SO-Rm3oEt_Iy7jgQ,13028
+variationalsparsebayes/svi_half_cauchy.py,sha256=dPeM9aS01X7c14IoVCrAQldrtdMLhJeJQpAEEQ31ogM,11221
+variationalsparsebayes-0.3.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+variationalsparsebayes-0.3.0.dist-info/METADATA,sha256=vKCilIDdiTeSpT6qbqZSOPvrKRPdPWqTKzTZuJJgisQ,3861
+variationalsparsebayes-0.3.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+variationalsparsebayes-0.3.0.dist-info/RECORD,,

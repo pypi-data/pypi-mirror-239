@@ -1,0 +1,29 @@
+.gitignore
+CHANGES.md
+LICENSE
+README.md
+appveyor.yml
+environment.yml
+pyproject.toml
+readthedocs.yml
+rtd-environment.yml
+setup.py
+docs/Makefile
+docs/make.bat
+docs/source/conf.py
+docs/source/index.rst
+esa_climate_toolbox/__init__.py
+esa_climate_toolbox/constants.py
+esa_climate_toolbox/plugin.py
+esa_climate_toolbox/version.py
+esa_climate_toolbox.egg-info/PKG-INFO
+esa_climate_toolbox.egg-info/SOURCES.txt
+esa_climate_toolbox.egg-info/dependency_links.txt
+esa_climate_toolbox.egg-info/entry_points.txt
+esa_climate_toolbox.egg-info/top_level.txt
+notebooks/1 - ECT_General_Data_Access.ipynb
+notebooks/2 - ECT_Data_Access_with_Subsets.ipynb
+notebooks/3 - Zarr_Access.ipynb
+notebooks/README.md
+test/__init__.py
+test/test_plugin.py

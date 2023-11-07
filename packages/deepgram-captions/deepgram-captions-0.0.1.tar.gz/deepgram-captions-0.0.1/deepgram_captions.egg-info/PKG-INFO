@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: deepgram-captions
+Version: 0.0.1
+Summary: A Python package for generating captions.
+Author: Deepgram
+Author-email: devrel@deepgram.com
+Keywords: deepgram,captions,srt,webvtt
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Multimedia :: Sound/Audio :: Speech
+Classifier: Topic :: Text Processing :: General
+Description-Content-Type: text/plain
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: black; extra == "dev"
+
+
+This package provides utilities to transform speech-to-text API responses into SRT or WebVTT captions.
+It is designed to simplify the process of converting audio transcriptions into readable caption formats.

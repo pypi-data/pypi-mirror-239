@@ -1,0 +1,13 @@
+phi/__init__.py,sha256=QFi_TcIWsRSPucFmfB9s2kuIxGLEYLFos1vyWxT25MM,105
+phi/export.py,sha256=-c5TW5a3VzMQz4QnpPsiJzzlljndAUy06ezXItn6X1s,2414
+phi/preprocess.py,sha256=BYh38DJgvd7TWn4tiHr0DtRvUWNOSRoMcauNZxxkb2A,2844
+phi/timbre-transfer.py,sha256=Gv2huB-kTdI73iqR5dn-3MUimZmzgDblDChdfL9f8hU,2104
+phi/train.py,sha256=-1ph0REJ7K0kBK4kFznlbgt2qeH2av0_8qw6sbWmn5s,3881
+phi/ddsp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+phi/ddsp/core.py,sha256=iEo0mbOgQXzkcMcjfPJc_TAmQxUCOJnxica_84SAzNA,5004
+phi/ddsp/model.py,sha256=lx6ZzErB1PDUkoJjiOT_WG68By3riZT1iHa0xZw9INI,5243
+phi/ddsp/utils.py,sha256=mawTfOYlxKB6iWZ-j01jsQX0NnnZSe30M5UOnMIhIVM,309
+phi_ddsp-1.0.1.dist-info/LICENSE,sha256=Lm-MCy0qMmG2KdLlOziwbJ3N698Icq2OhmajpHnYOGY,1067
+phi_ddsp-1.0.1.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+phi_ddsp-1.0.1.dist-info/METADATA,sha256=Ou_5pcdeQJsMQ9Zi6kPoQZe6ssoqjanbIcVojpaH3uE,2005
+phi_ddsp-1.0.1.dist-info/RECORD,,

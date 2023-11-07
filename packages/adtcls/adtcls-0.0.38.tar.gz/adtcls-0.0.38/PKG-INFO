@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: adtcls
+Version: 0.0.38
+Summary: ADT classification algorithm package
+Author: phw
+Author-email: haoweipu@163.com
+License: apache 3.0
+Requires: numpy
+Requires: matplotlib

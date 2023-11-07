@@ -1,0 +1,7 @@
+numpy
+matplotlib
+imageio
+bbo_ccvtools
+PyQt5
+bbo_svidreader
+tqdm

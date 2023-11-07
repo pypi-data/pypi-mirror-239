@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: understory
+Version: 0.22.4
+Summary: a decentralized social web host
+License: AGPL-3.0-or-later
+Author: Angelo Gladding
+Author-email: angelo@ragt.ag
+Requires-Python: >=3.10,<3.11
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: phonenumbers (>=8.12.55,<9.0.0)
+Requires-Dist: python-whois (>=0.8.0,<0.9.0)
+Requires-Dist: stripe (>=5.2.0,<6.0.0)
+Requires-Dist: webint (>=0.1,<0.2)
+Requires-Dist: webint-data (>=0.0,<0.1)
+Requires-Dist: webint-system (>=0.0,<0.1)

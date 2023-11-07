@@ -1,0 +1,83 @@
+$def with (resource)
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content=initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width>
+<title>$resource.title</title>
+<script src=//js.stripe.com/v3></script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700');
+@import url('https://fonts.googleapis.com/css2?family=Raleway');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata');
+* {
+    line-height: 1; }
+body {
+    background-color: #002b36;
+    color: #839496;
+    font: 18px "Raleway", sans-serif;
+    margin: 3em auto;
+    max-width: 25em;
+    text-align: center; }
+a:link {
+    color: #268bd2; }
+a:visited {
+    color: #6c71c4; }
+a:active {
+    color: #dc322f; }
+h1 {
+    font-family: "Dancing Script", cursive;
+    font-size: 3em;
+    margin: .5em 0; }
+h1 a {
+    text-decoration: none; }
+h1 a:link, h1 a:visited, h1 a:active {
+    color: #839496; }
+p {
+    line-height: 1.5;
+    margin: 1em 0; }
+code {
+    font-family: Inconsolata, monospace;
+    font-weight: bold; }
+label {
+    background-color: #073642;
+    color: #586e75;
+    display: grid;
+    font-family: Inconsolata, monospace;
+    font-size: 1em;
+    grid-column-gap: 0;
+    grid-template-columns: 4em auto 4.5em;
+    margin: 1em 0;
+    padding: .3em .3em .2em .3em; }
+input[type=text] {
+    background-color: #073642;
+    border: 0;
+    color: #839496;
+    font-family: "Inconsolata", monospace;
+    font-size: 1em;
+    padding: 0;
+    text-align: center;
+    text-transform: lowercase;
+    width: 100%; }
+input[type=text]::placeholder {
+    color: #586e75;
+    opacity: 1; }
+div#card {
+    background-color: #073642;
+    margin: 0 0 1em 0;
+    padding: .3em; }
+div#error {
+    line-height: 1.5;
+    margin: 3em 0; }
+button {
+    background: #2aa198;
+    border: 0;
+    color: #002b36;
+    font-family: Inconsolata, monospace;
+    font-weight: bold;
+    padding: .5em;
+    text-transform: uppercase; }
+</style>
+</head>
+$:resource
+</html>

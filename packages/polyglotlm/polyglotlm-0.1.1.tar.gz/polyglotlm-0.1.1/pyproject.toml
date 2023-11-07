@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "polyglotlm"
+version = "0.1.1"
+description = ""
+authors = ["Laurentiu Piciu <laurentiupiciu@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.31.0"
+openai = "^0.27"
+boto3 = "^1.28.79"
+botocore = "^1.31.79"
+pydantic = "^1.10"
+tenacity = "^8.0"
+google-cloud-aiplatform = "^1.36.0"
+python-decouple = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

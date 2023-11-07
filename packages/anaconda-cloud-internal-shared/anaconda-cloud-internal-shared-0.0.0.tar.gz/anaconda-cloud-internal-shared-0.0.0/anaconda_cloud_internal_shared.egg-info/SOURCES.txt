@@ -1,0 +1,5 @@
+pyproject.toml
+anaconda_cloud_internal_shared.egg-info/PKG-INFO
+anaconda_cloud_internal_shared.egg-info/SOURCES.txt
+anaconda_cloud_internal_shared.egg-info/dependency_links.txt
+anaconda_cloud_internal_shared.egg-info/top_level.txt

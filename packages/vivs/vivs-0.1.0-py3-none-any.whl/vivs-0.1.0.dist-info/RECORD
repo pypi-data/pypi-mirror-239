@@ -1,0 +1,11 @@
+vivs/__init__.py,sha256=p3B7SBjX6JFDfcOLeh7gs2f8nmgSydQVKCBOE2aGpK8,192
+vivs/_constants.py,sha256=i7m_hnWFfiWErXZ7sz-GYNB4r0feYoLvmiZXOYudns8,564
+vivs/_dl_utils.py,sha256=A4UdBLuniQpLlK0womAeiPzvRJlHeSNKl195BkwjY8c,1523
+vivs/_models.py,sha256=ES5PTy9sfKXb-i954V1qSRootp0w9wjt5iwn9W5dWJw,8321
+vivs/_training.py,sha256=UKQZH7_fQS90Sic_1lPECnuX6vli-oXeFJnHdtVlWhk,12567
+vivs/_utils.py,sha256=F1Tn60e3JEwFl0dG1ismhFS9dFAGqVsBa0GoDae48_E,2661
+vivs/_vivs.py,sha256=A5Nje0tP-DZexTZRSuUq3CRbfyYbK6UT88OwAxvX1HM,35592
+vivs-0.1.0.dist-info/LICENSE,sha256=H1fQwXG0cWs3GNWVGtxEUiD3q_qAU_dpqOvtXGZZdtY,1496
+vivs-0.1.0.dist-info/METADATA,sha256=6_YJPkcWIzkJvRnJlpJJ5i27wzytnovgSAxoy2EpeWU,3071
+vivs-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+vivs-0.1.0.dist-info/RECORD,,

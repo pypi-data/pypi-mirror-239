@@ -1,0 +1,13 @@
+juicenet/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+juicenet/__main__.py,sha256=WqdDxNQ1QvOU1Acof1aT-wIUf5j_HDVwgoV_WgwI05Y,2792
+juicenet/config.py,sha256=euSsdFajF5cWfoQdY1mXR5X4Axe6-sgzV9cuEqFgMFU,894
+juicenet/enums.py,sha256=gfsjSUtp0ndW8wi4hMfbvDx132P0l_5VhSsH-6tvJxk,537
+juicenet/files.py,sha256=ozfcOFXfh4xioNK-k5PQzfFnUWWovSVL4phBcfBrfDk,2312
+juicenet/juicenet.py,sha256=rj54SD6FEKgQBKUdbbtOOwMQCBts09nft-zVMy14CSw,5662
+juicenet/nyuu.py,sha256=OCyybEfV2KE_WAZH-KNFu7Eq5my05QzrZAvf5Uhs4a0,2890
+juicenet/parpar.py,sha256=aX-3jMG2MDMylihor5z2L77aoFjn1x5sZz4ztfjNFLA,1329
+juicenet/version.py,sha256=UPhT3-SPlznTFlCaZT3iheWUGPBuXbxOl2X1xy1jAo0,508
+juicenet_cli-0.12.0.dist-info/METADATA,sha256=sA2l_iNubeESvig3QzrTrSEcDuDMgHvTvaUCmlIEY7Y,5312
+juicenet_cli-0.12.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+juicenet_cli-0.12.0.dist-info/entry_points.txt,sha256=Mxl4_CMhUxmHetpXTtc-9p_T1HCYZ_z7YNm_vydPlkw,50
+juicenet_cli-0.12.0.dist-info/RECORD,,

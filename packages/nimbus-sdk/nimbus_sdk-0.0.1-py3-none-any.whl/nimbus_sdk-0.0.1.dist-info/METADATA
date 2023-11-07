@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: nimbus-sdk
+Version: 0.0.1
+Summary: Arcus' Nimbus Python SDK
+Author-email: "Arcus Inc." <nimbus-sdk@arcus.co>
+Project-URL: Homepage, https://www.arcus.co
+Project-URL: Documentation, https://app.arcus.co/docs
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: <4.0,>=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Arcus Nimbus SDK
+
+## Installation
+Install with PyPI (`pip`):
+
+```
+pip install nimbus-sdk
+```

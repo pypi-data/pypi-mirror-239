@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: arcjet
+Version: 0.0.1
+Summary: Arcjet Python SDK
+Author-email: Arcjet <support@arcjet.com>
+Project-URL: Homepage, https://github.com/arcjet
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Arcjet Python SDK
+
+This is a placeholder release for the Arcjet Python SDK. The actual SDK is
+coming soon!

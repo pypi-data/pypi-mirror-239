@@ -1,0 +1,33 @@
+Value null_scan (\w+)
+Value xmas_scan (\w+)
+Value nmap_xmas_scan (\w+)
+Value syn_fin_scan (\w+)
+Value fin_scan (\w+)
+Value nmap_id_scan (\w+)
+Value syn_rst_scan (\w+)
+Value new_without_syn_scan (\w+)
+Value icmp_death (\w+)
+Value icmp_death_threshold (\d+)
+Value syn_flood (\w+)
+Value syn_flood_threshold (\d+)
+Value arp_flood (\w+)
+Value arp_flood_threshold (\d+)
+Value severity (.*)
+Value syslog (\w+)
+Value trap (\w+)
+
+Start
+ ^null-scan\s+:\s+${null_scan}
+ ^xmas-scan\s+:\s+${xmas_scan}
+ ^nmap-xmas-scan\s+:\s+${nmap_xmas_scan}
+ ^syn/fin-scan\s+:\s+${syn_fin_scan}
+ ^fin-scan\s+:\s+${fin_scan}
+ ^nmap-id-scan\s+:\s+${nmap_id_scan}
+ ^syn/rst-scan\s+:\s+${syn_rst_scan}
+ ^new-without-syn-scan:\s+${new_without_syn_scan}
+ ^icmp-death\s+:\s+${icmp_death}\s+Limit:\s+${icmp_death_threshold}
+ ^syn-flood\s+:\s+${syn_flood}\s+Limit:\s+${syn_flood_threshold}
+ ^arp-flood\s+:\s+${arp_flood}\s+Limit:\s+${arp_flood_threshold}
+ ^Severity\s+:\s+${severity}
+ ^Syslog\s+:\s+${syslog}
+ ^Trap\s+:\s+${trap} -> Record

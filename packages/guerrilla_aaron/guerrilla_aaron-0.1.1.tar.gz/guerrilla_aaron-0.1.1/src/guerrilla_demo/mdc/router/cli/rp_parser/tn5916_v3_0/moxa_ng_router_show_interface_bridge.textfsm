@@ -1,0 +1,16 @@
+Value index (\d+)
+Value interface_name (.*)
+Value state (.*)
+Value mode (.*)
+Value ip_address (\S+)
+Value subnet_mask (\S+)
+Value member_port (.*)
+
+Start
+ ^Index\s+:\s+${index}
+ ^Interface Name: ${interface_name}
+ ^State: ${state}
+ ^Mode: ${mode}
+ ^IP Address:\s+:\s+${ip_address}
+ ^Subnet Mask:\s+:\s+${subnet_mask}
+ ^Member Port: ${member_port}

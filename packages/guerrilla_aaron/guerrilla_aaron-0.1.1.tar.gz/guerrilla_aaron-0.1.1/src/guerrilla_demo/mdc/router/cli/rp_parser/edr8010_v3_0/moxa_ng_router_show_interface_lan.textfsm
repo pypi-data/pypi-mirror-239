@@ -1,0 +1,8 @@
+Value management_vlan_id (\d+)
+Value ip_address (\S+)
+Value netmask (\S+)
+
+Start
+ ^MANAGEMENT VLAN ID\s+:\s+${management_vlan_id}
+ ^LAN IP\s+:\s+${ip_address}
+ ^LAN Netmask\s+:\s+${netmask} -> Record

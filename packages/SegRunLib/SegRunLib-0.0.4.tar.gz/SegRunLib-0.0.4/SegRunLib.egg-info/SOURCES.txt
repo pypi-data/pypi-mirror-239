@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+SegRunLib/RunnerClass.py
+SegRunLib/__init__.py
+SegRunLib/models.py
+SegRunLib/nifty.py
+SegRunLib/run.py
+SegRunLib.egg-info/PKG-INFO
+SegRunLib.egg-info/SOURCES.txt
+SegRunLib.egg-info/dependency_links.txt
+SegRunLib.egg-info/requires.txt
+SegRunLib.egg-info/top_level.txt

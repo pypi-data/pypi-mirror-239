@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: salopylib
+Version: 0.2.0
+Summary: libreria de integracion por montecarlo y ajuste de datos
+Home-page: https://www.instagram.com/salo_mei343/
+Author: Salo <3
+Author-email: salome.osoriom@udea.edu.co
+License: MIT
+Requires-Python: >=3.11.2
+Description-Content-Type: text/markdown
+Requires-Dist: numpy==1.26.1
+Requires-Dist: matplotlib==3.8.1
+Requires-Dist: pandas==2.1.2
+Requires-Dist: sympy==1.12
+
+# LibrerÃ­a con dos mÃ³dulos distintos con herramientas para la fÃ­sica computacional.
+
+## MÃ³dulo 1
+Cuenta con una clase que realiza el ajuste de datos de fecha vs cantidad a una curva suave por medio de un kernel gaussiano y hace su respectiva graficaciÃ³n.
+
+## MÃ³dulo 2 
+Cuenta con una clase que realiza la integraciÃ³n de una funciÃ³n dada, en un intervalo dado por medio del mÃ©todo de Monte Carlo. Grafica una comparaciÃ³n del valor analÃ­tico de la integral y los valores dados por el mÃ©todo en funciÃ³n del nÃºmero de iteraciones

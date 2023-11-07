@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+upwork_scrap/__init__.py
+upwork_scrap/search.py
+upwork_scrap.egg-info/PKG-INFO
+upwork_scrap.egg-info/SOURCES.txt
+upwork_scrap.egg-info/dependency_links.txt
+upwork_scrap.egg-info/requires.txt
+upwork_scrap.egg-info/top_level.txt

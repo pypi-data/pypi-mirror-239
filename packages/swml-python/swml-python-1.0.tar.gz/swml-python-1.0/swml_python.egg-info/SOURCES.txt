@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+swml/SWMLTypes.py
+swml/Sections.py
+swml/SignalWireML.py
+swml/__init__.py
+swml_python.egg-info/PKG-INFO
+swml_python.egg-info/SOURCES.txt
+swml_python.egg-info/dependency_links.txt
+swml_python.egg-info/requires.txt
+swml_python.egg-info/top_level.txt

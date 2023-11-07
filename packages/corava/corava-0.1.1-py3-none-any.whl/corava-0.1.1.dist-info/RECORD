@@ -1,0 +1,13 @@
+corava/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+corava/audio_util.py,sha256=6x960zaY254DKPRFa7DrLxXuAgp0zjGdKdag3af8JSM,1822
+corava/aws_services.py,sha256=4-DbWRXBG8lcGHP43KTX0fJFgzYXcpkzsTfeq9LFoVY,354
+corava/config.py,sha256=vDaynA6Lja6ybF7BjAYYS-CMs3mOKYfouvDedlsyaNc,366
+corava/cora_engine.py,sha256=U2Mhu8kDZ0FGmp_wOtLasStNhmjONkl7EQCiFQHwbdo,2701
+corava/cora_skills.py,sha256=RUwkpGvMXQtI2dBLITm5qNFlgSTmgwtIEYZOVMhRQ8E,3308
+corava/openai_services.py,sha256=iwrKWjD63vixA0nwZjsCAQ99syAJgeHdR5pXHk6l3dE,2972
+corava/utilities.py,sha256=Ensk2vFfmqL8MwSBqFZ5RBdFRkXJ7GmPpUUVMVea47Q,1314
+corava-0.1.1.dist-info/entry_points.txt,sha256=WsphuhwmB65f5VKKiE-VmnPE1JmfhbMDBgUVJUW_qj8,34
+corava-0.1.1.dist-info/LICENSE,sha256=mGLVz9ndItHvkUlFAhVESJ8ifyg-ZC-fisAYKgc0cdY,1091
+corava-0.1.1.dist-info/METADATA,sha256=D79kOicSDCFw83fECv2uZnMnSB4RM4IA56lXdrjIYc8,5932
+corava-0.1.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+corava-0.1.1.dist-info/RECORD,,

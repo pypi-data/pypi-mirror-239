@@ -1,0 +1,20 @@
+numpy
+biopython
+scipy
+asteval
+configparser
+keyboard
+pyperclip
+python-socketio
+pyserial
+Send2Trash
+matplotlib
+h5py
+configobj
+PyQt6
+PyQt6-WebEngine
+pyqtgraph==0.13.1
+PyOpenGL
+
+[:sys_platform == "win32"]
+pywin32

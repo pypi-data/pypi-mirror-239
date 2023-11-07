@@ -1,0 +1,9 @@
+Value index (\d+)
+Value date (..../../..)
+Value time (..:..:..)
+Value severity (<.>)
+Value event ([^\s].+[^\s])
+
+
+Start
+ ^${index}\s+${date}\s+${time}\s+${severity}\s+${event} -> Record

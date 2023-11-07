@@ -1,0 +1,14 @@
+Value server_mode (\S+)
+Value local_ip (\S+)
+Value start_ip (\S+)
+Value end_ip (\S+)
+Value username (\S+)
+
+Start
+ ^WAN Server Setting\s+
+ ^L2TP Server Mode\s+:\s+${server_mode}\s+
+ ^Local IP\s+:\s+${local_ip}\s+
+ ^Offered IP Range\s+:\s+${start_ip}\s+-\s+${end_ip}
+ ^\s+
+ ^User Name\/Password
+ ^User Name\s+:\s+${username}\s+ -> Record

@@ -1,0 +1,8 @@
+LICENSE
+README.md
+main.py
+pyproject.toml
+snudlhelper.egg-info/PKG-INFO
+snudlhelper.egg-info/SOURCES.txt
+snudlhelper.egg-info/dependency_links.txt
+snudlhelper.egg-info/top_level.txt

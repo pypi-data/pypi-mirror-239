@@ -1,0 +1,15 @@
+setup.py,sha256=oYOZkGz0jAYInCMRx0gZVv7nMzZVpgDEP_qLcfR3kNs,709
+browser/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+browser/chrome.py,sha256=biNxsk9ib4AL6IbU4n3yh_CwJNLkRZqt2PzHu7EsEpw,11882
+browser/driver_utils.py,sha256=PRpFchXcvkxhaYbl9UsWn8_sYpZZzOiO64JgukyFJOw,24559
+browser/firefox.py,sha256=8T8vWU3zpQ7PVougozDyYIRAhhKRbv9qIAF5a2aQAeY,13677
+browser/web_elements.py,sha256=NpiEEEr3IKZSFCCCZz34iwpb7TobIkpBoPFlpVnB7a4,2284
+build/lib/browser/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+build/lib/browser/chrome.py,sha256=biNxsk9ib4AL6IbU4n3yh_CwJNLkRZqt2PzHu7EsEpw,11882
+build/lib/browser/driver_utils.py,sha256=3lxke_xc_cwKjQNSVLPVfAJoHhj8HukrYUlRIVpXJh4,24545
+build/lib/browser/firefox.py,sha256=8T8vWU3zpQ7PVougozDyYIRAhhKRbv9qIAF5a2aQAeY,13677
+build/lib/browser/web_elements.py,sha256=NpiEEEr3IKZSFCCCZz34iwpb7TobIkpBoPFlpVnB7a4,2284
+ibott_browser_manager-1.0.8.dist-info/METADATA,sha256=vlVbCpEuvHU8H3ZEOdj_cA6lou0MCbRaZIzcBTt3lZ4,18071
+ibott_browser_manager-1.0.8.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+ibott_browser_manager-1.0.8.dist-info/licenses/LICENSE,sha256=_qJuMp5913P77iW5A6b83Wo41on3mDtiWSy9RwoARFA,11355
+ibott_browser_manager-1.0.8.dist-info/RECORD,,

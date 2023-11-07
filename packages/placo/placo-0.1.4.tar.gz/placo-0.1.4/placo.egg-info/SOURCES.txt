@@ -1,0 +1,8 @@
+setup.py
+placo.egg-info/PKG-INFO
+placo.egg-info/SOURCES.txt
+placo.egg-info/dependency_links.txt
+placo.egg-info/requires.txt
+placo.egg-info/top_level.txt
+placo_utils/tf.py
+placo_utils/visualization.py

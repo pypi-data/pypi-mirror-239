@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+Categorizer/Categorizer.py
+Categorizer/__init__.py
+Merkurial_Categorizer.egg-info/PKG-INFO
+Merkurial_Categorizer.egg-info/SOURCES.txt
+Merkurial_Categorizer.egg-info/dependency_links.txt
+Merkurial_Categorizer.egg-info/requires.txt
+Merkurial_Categorizer.egg-info/top_level.txt

@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "http-csp"
+version = "1.0.0"
+description = "HTTP Content Security Policy Manager"
+authors = ["Jacky Lam <jacky.lam@r2studiohk.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.urls]
+repository = "https://github.com/jackylamhk/python-http-csp"
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.3"
+flake8 = "^6.1.0"
+safety = "^2.3.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

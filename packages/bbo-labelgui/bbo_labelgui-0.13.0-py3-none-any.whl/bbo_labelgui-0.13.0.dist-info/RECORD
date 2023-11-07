@@ -1,0 +1,15 @@
+labelgui/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+labelgui/__main__.py,sha256=r2CbHrA3bmKDx3iwbM6eu0OQOH7tIIL6ao6bLxvPIWM,2920
+labelgui/check.py,sha256=yO0sgR52MQoi7gPBLXwMIHldFi1Zi9qB5MvfLydySxY,2036
+labelgui/config.py,sha256=5lgeeGPabpk6r8UqPUlZat7SYF50UnoEenJ-seFq3_U,1100
+labelgui/helper_gui.py,sha256=5kteIa2L8ByaijH0yHXwcfnleWaM6Fp77WszIQSRgPM,652
+labelgui/helper_video.py,sha256=G5FtXD7OcqajwM0aI3guBLtJUbRqYfBOC-yv9ZbHnFM,622
+labelgui/label_data.py,sha256=sGFSY57ObondQYpsJ6zae-JANO9I_xgzF0YagKfCUD0,9800
+labelgui/labeling_gui.py,sha256=vBbQ_nS58AVSNsL80irJ4t_8rMUGmksj0EMAY1lciVM,66127
+labelgui/labeling_gui_cfg.py,sha256=nILHE0RfgZu1E7IHIkeErmLKruszwv3hr8kZdozAOHg,2147
+labelgui/select_user.py,sha256=3b-CcRz3jLpxWg_3W2Q4XYn-rqPk25xlW6J8zOCpZus,1879
+bbo_labelgui-0.13.0.dist-info/LICENSE,sha256=E--zsPmnnjThYaNwD9fc91e7LzfzMVztO51SK5IdpgY,25313
+bbo_labelgui-0.13.0.dist-info/METADATA,sha256=7Xn8zMVmzExVgee282UM8vUiSdirdwPscRFzQw7z6xo,3738
+bbo_labelgui-0.13.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bbo_labelgui-0.13.0.dist-info/top_level.txt,sha256=GDQIr4VnbSTyCRBNJsXMoTFEC0LQ1c7tC2YRyJ8hE9Q,9
+bbo_labelgui-0.13.0.dist-info/RECORD,,

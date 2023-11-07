@@ -1,0 +1,27 @@
+Value vlan_id (.*)
+Value connect_mode (.*)
+Value connect_type (.*)
+Value ip_address (.*)
+Value netmask (.*)
+Value gateway (.*)
+Value pptp_connection (.*)
+Value pptp_ip_address (.*)
+Value pptp_user_name (.*)
+Value pptp_password (.*)
+Value pptp_mppe_encryption (.*)
+Value dns_server (.*)
+
+
+Start
+ ^Vlan\s+ID\s+:${vlan_id}
+ ^Connect\s+Mode\s+: ${connect_mode}
+ ^Connect\s+Type\s+: ${connect_type}
+ ^IP\s+Address\s+: ${ip_address}
+ ^Netmask\s+: ${netmask}
+ ^Gateway\s+: ${gateway}
+ ^PPTP\s+PPTP_Connection\s+: ${pptp_connection}
+ ^PPTP\s+IP\s+Address\s+: ${pptp_ip_address}
+ ^PPTP\s+User\s+Name\s+: ${pptp_user_name}
+ ^PPTP\s+Password\s+: ${pptp_password}
+ ^PPTP\s+MPPE\s+Encryption\s+: ${pptp_mppe_encryption} 
+ ^DNS\s+Server\s+: ${dns_server} -> Record

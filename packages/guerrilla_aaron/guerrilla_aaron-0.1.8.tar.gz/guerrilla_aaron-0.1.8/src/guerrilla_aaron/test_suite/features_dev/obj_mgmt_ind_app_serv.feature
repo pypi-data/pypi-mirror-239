@@ -1,0 +1,26 @@
+Feature: [Obj Mgmt] 
+
+    @obj @sanity @self_testing @edrg9010_v3 @edr8010_v3 @tn4900_v3
+    Scenario: Industrial Application Service
+        Given authorize CLI of "DUT"
+        *     reload factory-default "DUT"
+        When  create Industrial Application Service: "Modbus" object with name: "test_Modbus" on "DUT"
+        Then  the Industrial Application Service object is successfully created on "DUT"
+        When  create Industrial Application Service: "DNP3" object with name: "test_DNP3" on "DUT"
+        Then  the Industrial Application Service object is successfully created on "DUT"
+        When  create Industrial Application Service: "IEC-60870-5-104" object with name: "test_IEC-60870-5-104" on "DUT"
+        Then  the Industrial Application Service object is successfully created on "DUT"
+        When  create Industrial Application Service: "IEC-61850-MMS" object with name: "test_IEC-61850-MMS" on "DUT"
+        Then  the Industrial Application Service object is successfully created on "DUT"
+        When  create Industrial Application Service: "OPC-DA" object with name: "test_OPC-DA" on "DUT"
+        Then  the Industrial Application Service object is successfully created on "DUT"
+        When  create Industrial Application Service: "OPC-UA" object with name: "test_OPC-UA" on "DUT"
+        Then  the Industrial Application Service object is successfully created on "DUT"
+        When  create Industrial Application Service: "CIP-EtherNet/IP" object with name: "test_CIP-EtherNet/IP" on "DUT"
+        Then  the Industrial Application Service object is successfully created on "DUT"
+        When  create Industrial Application Service: "Siemens-Step7" object with name: "test_Siemens-Step7" on "DUT"
+        Then  the Industrial Application Service object is successfully created on "DUT"
+        When  create Industrial Application Service: "Moxa-RealCOM" object with name: "test_Moxa-RealCOM" on "DUT"
+        Then  the Industrial Application Service object is successfully created on "DUT"
+        When  create Industrial Application Service: "Moxa-MXview-Request" object with name: "test_Moxa-MXview-Request" on "DUT"
+        Then  the Industrial Application Service object is successfully created on "DUT"

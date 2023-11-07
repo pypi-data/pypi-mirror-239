@@ -1,0 +1,14 @@
+limedev/CLI.py,sha256=tbcPvlXzJGhMp_kPjUlmpLTmhxqiF2O0-iupJfsbiQs,1522
+limedev/_API.py,sha256=PwS3_Kz9N5S2U1phzPKnFfqLgyd53hLyjOH9EnZblDg,931
+limedev/__init__.py,sha256=QG0gSaS7B2_aVTj62EyDcvtnf6h-33zGu_5km_VyESU,98
+limedev/__main__.py,sha256=pjCferurmKSCetg8TlSbqK1AHwGoYuFBFuSvhwhAtQA,48
+limedev/_aux.py,sha256=JR3jNGtWHWn677JPMMxmtT3Z5wQ4KGvnpkWZOv0zz_8,2272
+limedev/package.py,sha256=TgCBhkgWch179-L1hg_3Ke5KQh3knPMRTnwrBhzQ2ts,3202
+limedev/readme.py,sha256=SFnMWkaw8vfwUMBQCPPcT76ZVRa8FIFuBd8nr1hZb6w,6465
+limedev/test.py,sha256=IY8K3U-ILTxrvGx9flKrdCj-j5c2n8nMSVQ1TtZTkz0,7623
+limedev-0.4.0.dist-info/LICENSE,sha256=wapuuwt6ejMcCnms_kMJGu0I_58l0998CayI0hqLQ7s,1064
+limedev-0.4.0.dist-info/METADATA,sha256=d7Xivt3VAZHVf5sjN4A6LCXrYlnqcsyxJz9rIjYHD60,4124
+limedev-0.4.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+limedev-0.4.0.dist-info/entry_points.txt,sha256=6Z2p8xoq6_CA7YQSwnR2nqpQEEiHGOYd5iy9WWWBJwE,126
+limedev-0.4.0.dist-info/top_level.txt,sha256=4LdSzoMf6okzFQu_V_SZ7VzjzjI4xj4Fg7ZA0A_vmw8,8
+limedev-0.4.0.dist-info/RECORD,,

@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "wechat-ocr"
+version = "0.0.2"
+authors = [
+  { name="kanadeblisst", email="kanade@blisst.cn" },
+]
+description = "wechat ocr"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Microsoft :: Windows",
+]
+dependencies = [
+    "protobuf == 3.20.3",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/kanadeblisst00/wechat_ocr"
+"Bug Tracker" = "https://github.com/kanadeblisst00/wechat_ocr/issues"

@@ -1,0 +1,5 @@
+include LICENSE
+include HISTORY.md
+include Containerfile
+graft tests
+graft color_crafter_py

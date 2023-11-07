@@ -1,0 +1,4 @@
+include cannoli/default_settings.json
+recursive-include cannoli/datasets *.dsv
+recursive-include cannoli/datasets *.csv
+recursive-include cannoli/datasets *.tsv

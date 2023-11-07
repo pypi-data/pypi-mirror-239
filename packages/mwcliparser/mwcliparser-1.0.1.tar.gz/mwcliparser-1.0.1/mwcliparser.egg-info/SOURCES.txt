@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+mwcliparser/__init__.py
+mwcliparser/api.py
+mwcliparser/cli.py
+mwcliparser.egg-info/PKG-INFO
+mwcliparser.egg-info/SOURCES.txt
+mwcliparser.egg-info/dependency_links.txt
+mwcliparser.egg-info/entry_points.txt
+mwcliparser.egg-info/top_level.txt

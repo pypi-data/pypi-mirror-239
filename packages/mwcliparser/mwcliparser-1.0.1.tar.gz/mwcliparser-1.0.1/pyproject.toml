@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mwcliparser"
+version = "1.0.1"
+description = "Merrian-Webster command line utility to get word definition."
+readme = "README.md"
+authors = [{name="Vikash Kumar Shrivastva", email="vkshrivastva@yahoo.co.in"}]
+maintainers = [{name="Vikash Kumar Shrivastva", email="vkshrivastva@yahoo.co.in"}]
+requires-python = ">=3.8"
+license = {file = "LICENSE"}
+
+[tool.build-backend]
+name = "setuptools.build_meta"
+
+[project.scripts]
+mwcliparser = "mwcliparser.cli:main"
+

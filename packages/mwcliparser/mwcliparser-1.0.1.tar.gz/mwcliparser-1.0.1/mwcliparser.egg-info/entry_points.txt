@@ -1,0 +1,2 @@
+[console_scripts]
+mwcliparser = mwcliparser.cli:main

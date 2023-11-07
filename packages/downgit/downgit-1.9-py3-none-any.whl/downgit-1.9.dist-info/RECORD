@@ -1,0 +1,8 @@
+package/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+package/downgit.py,sha256=Gq3UBV6JEosWjZANXxUin2DZY_Kb9Tj7wprv3zSNZoE,8280
+package/setup.py,sha256=syjsGxH43v8joljLyFLa6orZq8UFdwD-0Ti_ysXkxUo,981
+downgit-1.9.dist-info/METADATA,sha256=eJdD8BcJYBVS2YRAPICzMgMPNTL7l0x4b4d-7gW9AD0,2419
+downgit-1.9.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+downgit-1.9.dist-info/entry_points.txt,sha256=lKajiM0X_SzKIW8Y0C1dBlygA0no8SkUrM3y_7im1Pc,49
+downgit-1.9.dist-info/top_level.txt,sha256=TpQW7893uEAT8mPh-QCMZWhhKYvlqryC9Fjm5Hxg2f8,8
+downgit-1.9.dist-info/RECORD,,

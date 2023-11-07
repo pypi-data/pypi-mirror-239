@@ -1,0 +1,17 @@
+stable_baselines3>=2.2.0a9
+jax
+jaxlib
+flax
+optax
+tqdm
+rich
+tensorflow_probability
+
+[tests]
+pytest
+pytest-cov
+pytest-env
+pytest-xdist
+mypy
+ruff
+black

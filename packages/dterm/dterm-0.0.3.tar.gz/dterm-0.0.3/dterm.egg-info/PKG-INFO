@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: dterm
+Version: 0.0.3
+Summary: Data Engineering Terminal Scripts
+Home-page: http://github.com/dave-inc/descript
+Author: trevor grayson
+Author-email: trevor@dave.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown
+Requires-Dist: networkx
+
+Data Engineering terminal utilities.
+
+- dbt exposure generation
+- lineage impact reports
+
+    

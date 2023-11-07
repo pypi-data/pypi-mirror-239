@@ -1,0 +1,10 @@
+jcmutils/__init__.py,sha256=AMJTsb26Zf_BtDaWTCZ3Wf5LqvwYi72ytiuCEWmc7yA,165
+jcmutils/dataset_utils.py,sha256=9EWZPbjLJLDOR1ud9WHr_nl9u_bLd_UVApyb-qsWQ-0,14426
+jcmutils/gen_sources.py,sha256=bJTCrB-9Dvd6WCXpE_wu6EE5YBrs-1ht-JEi4HfeA5w,2725
+jcmutils/logger.py,sha256=SiYV4fqrdW9m6aj3FqrAd69-o-3q7AwT41Pg3ydS6ro,2404
+jcmutils/solver.py,sha256=OA6DcnWvU9VPTUlzVyyW4ADtF3HnBTexGDKPIpNn6y4,10889
+jcmutils-2.0.0.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+jcmutils-2.0.0.dist-info/METADATA,sha256=juMGl6v-MsbDN-UJpOQBszqMtY8UI_6YVlhiLOQ03ak,431
+jcmutils-2.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+jcmutils-2.0.0.dist-info/top_level.txt,sha256=gVO_y5YbjGIE9JlJ01h-qm6qA97ZPYa9HXDQMS3Ucpw,9
+jcmutils-2.0.0.dist-info/RECORD,,

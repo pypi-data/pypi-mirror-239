@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+pyrasp/__init__.py
+pyrasp/pyrasp.py
+pyrasp/pyrasp_data.py
+pyrasp.egg-info/PKG-INFO
+pyrasp.egg-info/SOURCES.txt
+pyrasp.egg-info/dependency_links.txt
+pyrasp.egg-info/requires.txt
+pyrasp.egg-info/top_level.txt
+pyrasp/data/xss_model-1.0.0

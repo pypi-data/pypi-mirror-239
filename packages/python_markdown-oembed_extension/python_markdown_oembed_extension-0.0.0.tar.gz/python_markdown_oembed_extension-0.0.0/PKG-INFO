@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: python_markdown-oembed_extension
+Version: 0.0.0
+Summary: Detect inline pattern starting with '![', use the following data to request oembed data from the video hoster and create appropriate iframe html
+Keywords: markdown,html,oembed
+Author-email: nmc <contact-nmc@unibas.ch>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: python-oembed
+Requires-Dist: markdown
+Requires-Dist: requests
+Requires-Dist: pylint ~=2.14.0 ; extra == "dev"
+Requires-Dist: toml ~=0.10.2 ; extra == "dev"
+Requires-Dist: yapf ~=0.32.0 ; extra == "dev"
+Requires-Dist: pytest-cov ~=3.0.0 ; extra == "test"
+Requires-Dist: requests_mock ; extra == "test"
+Requires-Dist: pyyaml ; extra == "test"
+Provides-Extra: dev
+Provides-Extra: test
+
+# Python Markdown Plugin for oEmbed
+
+## Install flit
+
+```
+pip install flit
+```
+
+## Build needed packages for project
+
+```
+flit install
+```
+

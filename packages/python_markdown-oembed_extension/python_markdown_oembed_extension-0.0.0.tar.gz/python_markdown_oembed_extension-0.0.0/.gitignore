@@ -1,0 +1,11 @@
+.DS_Store
+.idea
+/dist
+/.eggs
+venv
+*.pyc
+*.egg
+*.egg-info
+*.coverage
+*.swp
+*.swo

@@ -1,0 +1,2 @@
+[console_scripts]
+pbssh = pbssh.pbssh:main

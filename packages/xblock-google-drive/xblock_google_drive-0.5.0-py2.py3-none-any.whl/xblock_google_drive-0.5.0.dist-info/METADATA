@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: xblock-google-drive
+Version: 0.5.0
+Summary: An XBlock which allows embedding of Google documents and calendar within an edX course
+Home-page: https://github.com/openedx/xblock-google-drive
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: mako
+Requires-Dist: XBlock
+Requires-Dist: xblock-utils
+
+UNKNOWN
+
+

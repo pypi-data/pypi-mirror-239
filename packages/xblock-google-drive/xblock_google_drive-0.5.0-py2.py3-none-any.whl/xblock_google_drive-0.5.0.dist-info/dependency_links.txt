@@ -1,0 +1,1 @@
+http://github.com/openedx/xblock-utils/tarball/master#egg=xblock-utils

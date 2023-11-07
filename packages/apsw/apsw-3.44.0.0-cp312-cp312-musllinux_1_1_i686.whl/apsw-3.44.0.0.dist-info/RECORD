@@ -1,0 +1,15 @@
+apsw-3.44.0.0.dist-info/WHEEL,sha256=xSsrtqppTNWGYq463zG3F-8Ocis922N13V_M_lXTGJ4,111
+apsw-3.44.0.0.dist-info/LICENSE,sha256=xmbQadynLW1RNdVijMcPWtd6UNKM8Q51uyLc5AxVtJA,1132
+apsw-3.44.0.0.dist-info/RECORD,,
+apsw-3.44.0.0.dist-info/top_level.txt,sha256=AMSo16bHvRC7F5I0KBCKqv4WM4--RyHwQj3g2YbN30g,5
+apsw-3.44.0.0.dist-info/METADATA,sha256=y6w3eLISjCU2gYRC1mu5j2S44_5lEN1gFLY7SG-lBD8,3356
+apsw/bestpractice.py,sha256=Z0AYBVzjLEmmGUHYpXndeA7goacJpSxPS5B5fUtYChM,2607
+apsw/tests.py,sha256=MG9MRRsTX8NaqqfmD_IPtJKXRmBL9Ov-EBiSYP0Hfp4,412436
+apsw/shell.py,sha256=kMHezIlxLg2PtD90lEn22ihun6T_M8tDKbqqcLbiHaI,139444
+apsw/__init__.pyi,sha256=jUyHsYWTvrL8IAETnfgUZg2mShujeDrICtZD6cOgneg,199345
+apsw/trace.py,sha256=hPT7JVQXiYHve3e4ZGxx8Z3Ndz_1pOFU01OImto4Ng0,13822
+apsw/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apsw/__init__.cpython-312-i386-linux-musl.so,sha256=BD5iAURK8PMQOankLOWHWRIAR4PR_yqPXk7bd8eM104,12043068
+apsw/ext.py,sha256=FauAFfPkwzsIUd-xTb7k5S0cY59OSGY_P_STaJ76Rgs,66017
+apsw/__main__.py,sha256=fU3oLvilCWjpCeO7FWgNI71ubHIxatkHYMOOQiU8-sk,60
+apsw/speedtest.py,sha256=Vu5EzawcqgJQfAsHABORbrAigM5xDj28vl80TJWVfdg,22000

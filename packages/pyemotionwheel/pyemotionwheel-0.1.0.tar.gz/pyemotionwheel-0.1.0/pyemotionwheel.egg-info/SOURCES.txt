@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+pyemotionwheel/__init__.py
+pyemotionwheel/basic_emotion_wheel.py
+pyemotionwheel/emotion_node.py
+pyemotionwheel.egg-info/PKG-INFO
+pyemotionwheel.egg-info/SOURCES.txt
+pyemotionwheel.egg-info/dependency_links.txt
+pyemotionwheel.egg-info/requires.txt
+pyemotionwheel.egg-info/top_level.txt
+pyemotionwheel/data/emotion_wheel_tree.json

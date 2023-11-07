@@ -1,0 +1,12 @@
+Value interface_name (.*)
+Value state (\w+)
+Value connnect_type (.*)
+Value ip_address (\S+)
+Value subnet_mask (\S+)
+
+Start
+ ^Interface Name\s+:\s+${interface_name}
+ ^State\s+:\s+${state}
+ ^Connect Type\s+: ${connnect_type}
+ ^IP Address\s+\s+:\s+${ip_address}
+ ^Subnet Mask\s+\s+:\s+${subnet_mask} -> Record

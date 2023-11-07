@@ -1,0 +1,16 @@
+build/lib/offlinedatasci/__init__.py,sha256=yAMetxAChPIW4vXI-rnLJhbe6tElQk4SU-bngLNIyWc,62
+build/lib/offlinedatasci/cli.py,sha256=_c8ygcND1e-ui7As_CZc7KYiO0DRCYPRaAK7EnoZPzk,2363
+build/lib/offlinedatasci/main.py,sha256=Dz1IlKDNDgcQPUEkZK8OS80T0D7s_8JSpIM8L2N_vyc,12686
+build/lib/offlinedatasci/miniCran.R,sha256=RrodDXWzcvgBx-CsLyLxLFath5QWoD5beROI8MBUJNk,1760
+build/lib/test/test_offlinedatasci.py,sha256=HlozXehRUC-1FKK-rXNAGEM9HL1f-Wmcy0Qw2rky9z4,194
+offlinedatasci/__init__.py,sha256=yAMetxAChPIW4vXI-rnLJhbe6tElQk4SU-bngLNIyWc,62
+offlinedatasci/cli.py,sha256=_c8ygcND1e-ui7As_CZc7KYiO0DRCYPRaAK7EnoZPzk,2363
+offlinedatasci/main.py,sha256=Dz1IlKDNDgcQPUEkZK8OS80T0D7s_8JSpIM8L2N_vyc,12686
+offlinedatasci/miniCran.R,sha256=RrodDXWzcvgBx-CsLyLxLFath5QWoD5beROI8MBUJNk,1760
+test/test_offlinedatasci.py,sha256=HlozXehRUC-1FKK-rXNAGEM9HL1f-Wmcy0Qw2rky9z4,194
+offlinedatasci-0.2.0.dist-info/LICENSE,sha256=B4DI4tHg5j1vIMD_2snyntX5BF2DvRyi8eOkCZ_qxbc,1071
+offlinedatasci-0.2.0.dist-info/METADATA,sha256=1HRcrbn6VdsoSQen5jQTZgx-2xCC-FwYjQaOrSupKW0,3622
+offlinedatasci-0.2.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+offlinedatasci-0.2.0.dist-info/entry_points.txt,sha256=IKn3fazCDb9uutpPnf0eATfbkBfjAtEWknFUfzgndVE,59
+offlinedatasci-0.2.0.dist-info/top_level.txt,sha256=yeka1ncHUnReajwIrdSsfssLPWXRDVYSpYPQhfYaY5E,54
+offlinedatasci-0.2.0.dist-info/RECORD,,

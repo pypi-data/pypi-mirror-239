@@ -1,0 +1,2 @@
+INDEX = False
+SEARCH = True

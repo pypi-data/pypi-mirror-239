@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/momgrid/__init__.py
+src/momgrid/classes.py
+src/momgrid/util.py
+src/momgrid.egg-info/PKG-INFO
+src/momgrid.egg-info/SOURCES.txt
+src/momgrid.egg-info/dependency_links.txt
+src/momgrid.egg-info/requires.txt
+src/momgrid.egg-info/top_level.txt

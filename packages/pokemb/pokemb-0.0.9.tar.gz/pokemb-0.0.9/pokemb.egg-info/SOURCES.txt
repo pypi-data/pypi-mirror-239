@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+setup.py
+pokemb/__init__.py
+pokemb/autoencode.py
+pokemb/mod.py
+pokemb/utils.py
+pokemb.egg-info/PKG-INFO
+pokemb.egg-info/SOURCES.txt
+pokemb.egg-info/dependency_links.txt
+pokemb.egg-info/requires.txt
+pokemb.egg-info/top_level.txt
+pokemb/data/encodings-128.pkl
+pokemb/data/encodings-256.pkl
+pokemb/data/encodings-32.pkl
+pokemb/data/encodings-64.pkl
+pokemb/data/encodings.pkl

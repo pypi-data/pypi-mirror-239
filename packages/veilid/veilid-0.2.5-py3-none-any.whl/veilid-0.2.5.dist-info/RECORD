@@ -1,0 +1,14 @@
+veilid/__init__.py,sha256=I8BjGHbDBVKUu3aiEL0H5fbpzWb0BNV8ISWOyuJpIB8,128
+veilid/api.py,sha256=EXxRVudDRkAWh_4JmZDo_LucnO8xcUFpweMu5OxuK0k,9449
+veilid/config.py,sha256=rFKwM0As5wpFD4U_DqD1JeVipm_8x5svEMNzl6QYXWg,5129
+veilid/error.py,sha256=1KUElhkw7E2MlXonOrHHimDgurD4TUCpIRjsug-kn2M,3594
+veilid/json_api.py,sha256=VDO9BHInxCqQ9heujBR8dFMfnt3I3nvk35b9y1bBFRk,38162
+veilid/operations.py,sha256=HlJdhqkAamCnfE4Ski9Uj5vDO--_NanrwVX3mypB_yU,2893
+veilid/schema/RecvMessage.json,sha256=tgN9Ityar7fyzDqJksujy1JKFNhHW1jIR_IEM5zstlg,98849
+veilid/schema/Request.json,sha256=CxvmjEwCOSS9VFV7hDCWz2PtISqPCKPx_P3m8-71SiY,34296
+veilid/state.py,sha256=5W2cwPBE0GOFwsLPEbCpM_lcTOlN7Hv1_FpWr8grl3k,11874
+veilid/types.py,sha256=W_0spO1ZDWAB_cR5UmGYi9wA5mr5wqP12lnXXp-YgBc,11399
+veilid-0.2.5.dist-info/LICENSE.md,sha256=TVEVWzXkyAQ2W0yKEzrtY0q1IClsnlWb0MkRKJgMyx0,15581
+veilid-0.2.5.dist-info/METADATA,sha256=7BQRjqJU6VV-YKewSSka5FWnXSsadjqy-Cc4vk8X-eg,1160
+veilid-0.2.5.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+veilid-0.2.5.dist-info/RECORD,,

@@ -1,0 +1,9 @@
+[console_scripts]
+mddocs = mddocs.__main__:cli
+
+[mddocs.plugins]
+search = mddocs.contrib.search:SearchPlugin
+
+[mddocs.themes]
+mddocs = mddocs.themes.mddocs
+readthedocs = mddocs.themes.readthedocs

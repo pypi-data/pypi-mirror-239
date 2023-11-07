@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: time-stuff
+Version: 0.0.2
+Summary: For tracking time
+Home-page: UNKNOWN
+Author: Hayo Ottens
+Author-email: <hayo.ottens@gmail.com>
+License: UNKNOWN
+Keywords: python,time,time tracking
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+
+All the things you need to easily track your time.
+

@@ -1,0 +1,7 @@
+$path
+   nopt=100
+   anopt=3
+   kpush=0.05
+   kpull=-0.02
+   alp=0.3
+$end

@@ -1,0 +1,4 @@
+# 默认配置文件
+
+
+mysql_url: mysql+aiomysql://root:root@localhost:3306/test

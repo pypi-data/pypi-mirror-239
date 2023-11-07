@@ -1,0 +1,3 @@
+[console_scripts]
+aiohttp_simple = aiohttp_simple.__main__:main_shell
+

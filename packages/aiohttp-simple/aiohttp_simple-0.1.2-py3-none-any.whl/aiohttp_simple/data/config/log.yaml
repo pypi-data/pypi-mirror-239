@@ -1,0 +1,32 @@
+version: 1
+
+loggers:
+    root:
+        handlers: [console]
+        level: DEBUG
+        qualname: root
+    aiohttp_simple:
+        handlers: [aiohttp_simple]
+        level: DEBUG
+        qualname: aiohttp_simple
+        propagate: 1
+        
+handlers:
+    console:
+        class: logging.StreamHandler
+        formatter: aiohttp_simple
+        level: INFO
+    aiohttp_simple:
+        class: logging.handlers.TimedRotatingFileHandler 
+        formatter: aiohttp_simple
+        level: DEBUG
+        filename: 'file.log'
+        when: 'midnight'
+        backupCount: 60
+        encoding: utf8
+
+formatters:
+    aiohttp_simple:
+        format: '[%(asctime)s][%(levelname)s][%(threadName)s][%(name)s] %(message)s'
+        datefmt: "%Y-%m-%d %H:%M:%S"
+

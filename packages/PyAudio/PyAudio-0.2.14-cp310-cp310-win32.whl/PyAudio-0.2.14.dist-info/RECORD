@@ -1,0 +1,7 @@
+pyaudio/__init__.py,sha256=7V6ZjNJra5wjKcIoklmSU84UmFMrFm23DT1dtWtxXGU,36914
+pyaudio/_portaudio.cp310-win32.pyd,sha256=OMNVtZkMKDahnUMpUOit51GvJ9IIZREDeXuo0uYx0Rg,251904
+PyAudio-0.2.14.dist-info/LICENSE.txt,sha256=fntVlrMb-hzPD2Nug0TmemhiZeCRwN02DxG2bcgqvFQ,1055
+PyAudio-0.2.14.dist-info/METADATA,sha256=qNNR9Cphk7asLfQ1hbLo3VibawpPaCR2HyufgWYdrwI,2683
+PyAudio-0.2.14.dist-info/WHEEL,sha256=dZN531L5FwzIclnfxY6ZZm4M3KXcBKgSzDkgW93fs7c,98
+PyAudio-0.2.14.dist-info/top_level.txt,sha256=jp8bgmWZh435lFm-DsWc00D0k4xj4iAEmWd1L_TpKk8,8
+PyAudio-0.2.14.dist-info/RECORD,,

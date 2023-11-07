@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: flatland-solver-policy
+Version: 0.0.2
+Summary: Flatland solvers
+Home-page: https://github.com/aiAdrian/flatland-solver-policy
+Author: Adrian Egli
+Author-email: 3dhelp@gmail.com
+Keywords: flatland,railway,extension,dynamics,simulation,multi-agent,reinforcement learning
+Requires-Python: >=3.6, <4
+Requires-Dist: flatland-railway-extension >=0.2.12
+Requires-Dist: torch
+Requires-Dist: tensorboard
+Requires-Dist: gym
+Requires-Dist: numpy
+Requires-Dist: ma-gym
+

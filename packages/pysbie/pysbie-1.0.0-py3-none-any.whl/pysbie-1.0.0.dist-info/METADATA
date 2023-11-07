@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: pysbie
+Version: 1.0.0
+Summary: Interact with Sandboxie in Python
+Home-page: https://github.com/Dzhigit/pysbie
+Author: Dzhigit
+Author-email: dzhigitabdualah@gmail.com
+Keywords: sandboxie python
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: requests
+
+# pysbie
+
+Interact with Sandboxie in Python
+
+## Sandboxie fast start
+
+```python
+from sandboxie import Sandboxie
+
+sbie = Sandboxie(installation_dir='Your Sandboxie installation dir path')
+sbie.create_sandbox('TestBox')
+sbie.start('Path to the program to be launched', box='TestBox', wait=True)
+sbie.delete_sandbox('TestBox')
+```
+
+## SbieIni fast start
+
+```python
+from sandboxie import SbieIni
+
+sbieini = SbieIni(installation_dir='Your Sandboxie installation dir path')
+print(sbieini.query(specify=True, boxes=True))
+sbieini.set('DefaultBox', 'AutoRecover', 'n')
+sbieini.insert('DefaultBox', 'RecoverFolder', r'C:\Downloads')
+```

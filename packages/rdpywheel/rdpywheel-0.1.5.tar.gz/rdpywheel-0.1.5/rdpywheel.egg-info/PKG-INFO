@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: rdpywheel
+Version: 0.1.5
+Summary: a library for Python wheel
+Home-page: https://github.com/jiangxiaoqiang/rdpywheel
+Author: jiangxiaoqiang
+Author-email: jiangtingqiang@gmail.com
+License: MIT License
+Keywords: wheel
+Platform: any
+License-File: LICENSE

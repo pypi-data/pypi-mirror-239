@@ -1,0 +1,10 @@
+pycallblock/__init__.py,sha256=ZIVPCPdIOSh87HHjHZTwKslS6d_LMm2j2inXUWB8A7A,12964
+pycallblock/modem.py,sha256=neRb3gqA159XlyTlk1cgadkdUDji0xgYYAXTZr18_f0,26221
+pycallblock/shielded_codes_to_dte.json,sha256=CrerAzFnvLslJarN3ikcsxqHe5lttGGd1CMaVCzPmMA,1268
+pycallblock/util.py,sha256=VJK2CVSf3xdoXxGX3jEED096Oh9zaZ2PWxhLHFGDbvA,683
+pycallblock-1.0.1.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+pycallblock-1.0.1.dist-info/METADATA,sha256=jliHR0UtzXuZsZADZxZZwpvm46dNEMEVywpZoIIkG4w,14033
+pycallblock-1.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+pycallblock-1.0.1.dist-info/entry_points.txt,sha256=9QIY6LxMCVOpQnESKHsvEzu6b69SjCo123u-RmnBh-U,58
+pycallblock-1.0.1.dist-info/top_level.txt,sha256=jGnsbilHkoTpOALVy0TkGSJHoscha3KjsOHkkiwzfrY,12
+pycallblock-1.0.1.dist-info/RECORD,,

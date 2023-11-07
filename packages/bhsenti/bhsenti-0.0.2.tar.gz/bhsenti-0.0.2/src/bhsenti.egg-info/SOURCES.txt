@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/bhsenti/__init__.py
+src/bhsenti.egg-info/PKG-INFO
+src/bhsenti.egg-info/SOURCES.txt
+src/bhsenti.egg-info/dependency_links.txt
+src/bhsenti.egg-info/requires.txt
+src/bhsenti.egg-info/top_level.txt

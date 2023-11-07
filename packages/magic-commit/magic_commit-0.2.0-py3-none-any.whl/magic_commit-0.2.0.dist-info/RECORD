@@ -1,0 +1,14 @@
+magic_commit/__init__.py,sha256=SYbfZtkc7JTIti49IpHMaO6PwKMzC-MiF2CPbNt08cI,110
+magic_commit/__main__.py,sha256=u7zNFOPqUoJBsC60MqFbACMr411uhJrQH-M0SBcAUG4,1522
+magic_commit/config.py,sha256=hX7lIIIbqXQsR4LeKTjWhmHuOM4mpY6CZthhCqlh9_8,1466
+magic_commit/magic_commit.py,sha256=qWhcv7GENIHmRumn_Qn5OCyhBUCbp14jg_rYuLB66KY,4576
+magic_commit/templates/system.jinja,sha256=Zxi5A9MJufMPcK6E6o5-hQHIQnArbajI_lYp9i87NF8,3739
+magic_commit/templates/user.jinja,sha256=LjxoM02w1YpoUGKXsS5lkPu-otPdn50g7FWhH0CjNSU,126
+magic_commit/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+magic_commit/tests/test_config.py,sha256=uj6m5zjHGf_TNsl8itQ4qC2nwrNKGtHbQx1tN_c1m5M,2346
+magic_commit/tests/test_magic_commit.py,sha256=JKrKv-Trt6Evbh7U2xbvpOlpsGXYA084eAr0esFYfp0,1377
+magic_commit-0.2.0.dist-info/METADATA,sha256=Ja4MXd3xfj5S66fmfuaqkwwjg4iX_XRdXRMg1lN0SvU,185
+magic_commit-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+magic_commit-0.2.0.dist-info/entry_points.txt,sha256=n2rHpgf_5cD0YCLy7jK5fUAPCT3mllKWmQOrrsLPC-0,60
+magic_commit-0.2.0.dist-info/top_level.txt,sha256=wUbKtNFv17dCa9fYXOBcNvKGKkFs3ZPykOnAZ7utwh0,13
+magic_commit-0.2.0.dist-info/RECORD,,

@@ -1,0 +1,7 @@
+PyGObject
+numpy
+opencv-python
+pyyaml
+rich
+rospkg
+wind-pypcd

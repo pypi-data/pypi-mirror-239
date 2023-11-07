@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pbssh
+Version: 0.1.6
+Summary: A wrapper over SSH commands which grabs credentials from Passbolt.
+Author: Joshua Arulsamy
+Author-email: joshua.gf.arul@gmail.com
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Python: >=3.9
+License-File: LICENSE
+Requires-Dist: pgpy ~=0.6.0
+Requires-Dist: requests ~=2.31.0
+
+A wrapper over SSH commands which grabs credentials from Passbolt.

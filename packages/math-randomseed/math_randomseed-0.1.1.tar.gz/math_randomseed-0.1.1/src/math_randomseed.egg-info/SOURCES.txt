@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/math_randomseed/__init__.py
+src/math_randomseed/math_randomseed.py
+src/math_randomseed.egg-info/PKG-INFO
+src/math_randomseed.egg-info/SOURCES.txt
+src/math_randomseed.egg-info/dependency_links.txt
+src/math_randomseed.egg-info/top_level.txt
+tests/test_math_randomseed.py

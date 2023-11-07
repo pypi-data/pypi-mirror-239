@@ -1,0 +1,16 @@
+alerts_in_ua/__init__.py,sha256=_dDB4JfMp2Nbwm3cwFAW4dCXYZCcc5R_ofWEx2AbzDU,177
+alerts_in_ua/air_raid_alert_oblast_status.py,sha256=U8wa-O9Q-2zh8t5j8wPgDp114DpWlbxbPZnJd-j2nek,1072
+alerts_in_ua/air_raid_alert_oblast_statuses.py,sha256=TMdowYzvYQkPpkTH8b24ZsvIQb0EnyHT2DX-aWdp_b4,2545
+alerts_in_ua/alert.py,sha256=iW9bTseurKjvLXrq2r1kopR67rlVv-pQttuwDGeo_KQ,1533
+alerts_in_ua/alerts.py,sha256=NQnad17f0Pk2nVK_43tJASu-4kfgZgu-6UPdMQbhWMo,2930
+alerts_in_ua/async_client.py,sha256=ZyFxq05pBcq7ZNdyHjLWhDEcVskdccfVuu0sAzPCqCo,5367
+alerts_in_ua/client.py,sha256=JGkZreV61CMSmkvriQb6NfNWDWOQsc8WDM8vxqijP_o,5025
+alerts_in_ua/errors.py,sha256=KILsVPbfdJAXQT2Q_taPMlg-IV0NyAzngG0XsClsMOc,364
+alerts_in_ua/location_uid_resolver.py,sha256=iNHq8igvNyc2qL8jwjo4mo2IiKSYSrtRpF4HVgN87sU,1991
+alerts_in_ua/ua_date_parser.py,sha256=8MrckVsSe0wHk_SGEETO6LK6s8A0YQ0RhH6xswski5g,713
+alerts_in_ua/user_agent.py,sha256=-qu2Cng5ZMaflrtclccZaxG6QZxTnkYbQiVT5jaScsw,167
+alerts_in_ua-0.2.7.dist-info/LICENSE.txt,sha256=zN5JNSULOzNf0YhIwcbBUFQ4ZrXN3t1gPWF6yqHxdpw,1067
+alerts_in_ua-0.2.7.dist-info/METADATA,sha256=Yw3qRDdDWuy0Xr5uqDc3H_tS7DKd2n_cHi_r8BdXgxk,5677
+alerts_in_ua-0.2.7.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+alerts_in_ua-0.2.7.dist-info/top_level.txt,sha256=ID8v6qr4Y2AKvMy7IJoD13YcLyqS4LYrpaZnLY2TqLs,13
+alerts_in_ua-0.2.7.dist-info/RECORD,,

@@ -1,0 +1,6 @@
+setup.py
+asciiTUI/__init__.py
+asciiTUI.egg-info/PKG-INFO
+asciiTUI.egg-info/SOURCES.txt
+asciiTUI.egg-info/dependency_links.txt
+asciiTUI.egg-info/top_level.txt

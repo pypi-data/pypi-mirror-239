@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: giga_json
+Version: 1.0.4
+Summary: extension of python json module, but dumps pretty prints by default and the serializer can handle almost any python object you give it
+Home-page: https://github.com/nebko16/giga_json
+Author: nebko16
+Author-email: nebko16@gmail.com
+License: GPL-3.0
+Keywords: python python3 json giga gigajson giga_json module pprint dumps indent prettyprint pretty print format serializer
+Platform: UNKNOWN
+Requires-Python: >=3.6
+License-File: LICENSE
+
+UNKNOWN
+

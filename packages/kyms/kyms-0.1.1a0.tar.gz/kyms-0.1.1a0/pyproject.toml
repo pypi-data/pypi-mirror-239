@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "kyms"
+version = "0.1.1a"
+description = "A complete, AI-assisted Podcast solution! "
+authors = ["Rajtilak Bhattacharjee <rajtilak.blog@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+homepage = "https://www.keepyourmouthshut.net/"
+repository = "https://github.com/rajtilakjee/kyms"
+documentation = "https://www.keepyourmouthshut.net/"
+keywords = ["openai", "podcast", "elevenlabs"]
+packages = [{include = "kyms"}]
+
+[tool.poetry.scripts]
+kyms = "kyms.main:app"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+typer = {extras = ["all"], version = "^0.9.0"}
+elevenlabs = "^0.2.26"
+pydub = "^0.25.1"
+pyyaml = "^6.0.1"
+openai = "^1.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

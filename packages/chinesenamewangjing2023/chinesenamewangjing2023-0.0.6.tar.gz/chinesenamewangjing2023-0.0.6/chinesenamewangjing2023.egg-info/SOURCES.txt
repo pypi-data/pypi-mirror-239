@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+chinesenamewangjing2023/chinesenamewangjing2023.py
+chinesenamewangjing2023.egg-info/PKG-INFO
+chinesenamewangjing2023.egg-info/SOURCES.txt
+chinesenamewangjing2023.egg-info/dependency_links.txt
+chinesenamewangjing2023.egg-info/top_level.txt

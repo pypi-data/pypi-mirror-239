@@ -1,0 +1,37 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "understory"
+version = "0.22.4"
+description = "a decentralized social web host"
+authors = ["Angelo Gladding <angelo@ragt.ag>"]
+license = "AGPL-3.0-or-later"
+
+[tool.pyright]
+reportGeneralTypeIssues = false
+reportOptionalMemberAccess = false
+
+[tool.poetry.plugins."websites"]
+understory = "understory.__web__:app"
+
+[[tool.poetry.source]]
+name = "main"
+url = "https://ragt.ag/code/pypi"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+python-whois = "^0.8.0"
+phonenumbers = "^8.12.55"
+stripe = "^5.2.0"
+webint = "^0.1"
+webint-data = "^0.0"
+webint-system = "^0.0"
+
+[tool.poetry.group.dev.dependencies]
+gmpg = {path="../gmpg", develop=true}
+bgq = {path="../bgq", develop=true}
+webint = {path="../webint", develop=true}
+webint-data = {path="../webint-data", develop=true}
+webint-system = {path="../webint-system", develop=true}

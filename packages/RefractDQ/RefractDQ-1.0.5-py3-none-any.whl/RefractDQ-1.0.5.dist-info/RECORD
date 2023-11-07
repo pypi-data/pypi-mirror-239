@@ -1,0 +1,14 @@
+data_quality/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+data_quality/app.py,sha256=I3MCgMrVtmFDiT6pTGMAow9FKTohSazQ88hIDfqcbYw,13179
+data_quality/test.py,sha256=mAKmWcvtLZeqW9KyPbdRQJE2P-Yt8vCAhf6z7waxbT4,214
+data_quality/utility/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+data_quality/utility/constants.py,sha256=EASmMRSCpTLn8ixEsQNPf-aDgS_U8piQ6wjhu29dzbI,593
+data_quality/utility/connector/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+data_quality/utility/connector/connector.py,sha256=Xv2x2RKPlcElmnLL1zzlWs7ReNqduRzofWjT3c2Iedw,156
+data_quality/utility/connector/connector_factory.py,sha256=XJqy4H2eO0eF6mz3fp-RLan7z2FEOh-noSt4y89qY0A,1626
+data_quality/utility/connector/datasource.py,sha256=BXnDr8hokAaOACdQw3rzeS_A9oPqpdLpKx_BJCFXAjk,1547
+data_quality/utility/connector/refract.py,sha256=t8grhWNKA1n4xFFP17Q1idK6r6HYTxbaCkHryFlyUoE,588
+RefractDQ-1.0.5.dist-info/METADATA,sha256=J0LG13Ep5Vp7JWEeWMN8saczjP-mNS9rrjLh-EnnPFA,54
+RefractDQ-1.0.5.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+RefractDQ-1.0.5.dist-info/top_level.txt,sha256=_I4j7-wopcPHFK0FD05pCcS2GigGsNAy5Po6LQiHUo4,13
+RefractDQ-1.0.5.dist-info/RECORD,,

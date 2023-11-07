@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: ecl
+Version: 2.14.4
+Summary: Package for reading and writing the result files from the ECLIPSE reservoir simulator
+Home-page: https://github.com/equinor/ecl
+Author: Equinor ASA
+Author-email: fg_sib-scout@equinor.com
+License: GPL-3.0
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Other Environment
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: COPYING
+Requires-Dist: cwrap
+Requires-Dist: numpy
+Requires-Dist: pandas
+
+ecl has been renamed to [resdata](https://github.com/equinor/resdata).

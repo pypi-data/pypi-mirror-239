@@ -1,0 +1,220 @@
+[project]
+name = "grott-ha-plugin"
+dynamic = []
+description = "An extension for grott to enable HA support"
+authors = [
+    { name = "egguy", email = "etienne.guilluy@gmail.com" },
+]
+dependencies = [
+    "paho-mqtt ~= 1.6.1",
+]
+requires-python = ">=3.8"
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+version = "0.9.0"
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+Repository = "https://github.com/egguy/grott-ha-plugin"
+Homepage = "https://github.com/egguy/grott-ha-plugin"
+
+[project.optional-dependencies]
+lint = [
+    "ruff>=0.1.3",
+    "mypy>=1.6.1",
+]
+test = [
+    "pytest>=7.4.2",
+    "coverage[toml]>=6.5",
+    "nox>=2023.4.22",
+]
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "pytest>=7.4.2",
+    "ruff>=0.1.3",
+    "black>=23.10.0",
+    "mypy>=1.6.1",
+    "coverage[toml]>=6.5",
+    "nox>=2023.4.22",
+    "hypothesis>=6.88.1",
+    "towncrier>=19.2",
+    "parver>=0.3",
+]
+docs = [
+    "black>=23.9",
+    "markdown-callouts>=0.3",
+    "markdown-exec>=1.7",
+    "mkdocs>=1.5",
+    "mkdocs-coverage>=1.0",
+    "mkdocs-gen-files>=0.5",
+    "mkdocs-git-committers-plugin-2>=1.2",
+    "mkdocs-literate-nav>=0.6",
+    "mkdocs-material>=9.4",
+    "mkdocs-minify-plugin>=0.7",
+    "mkdocstrings[python]>=0.23",
+    "tomli>=2.0; python_version < '3.11'",
+]
+
+[tool.pdm.version]
+source = "scm"
+write_to = "src/grottext/ha/__version__.py"
+write_template = "__version__ = '{}'"
+
+[tool.pdm.scripts]
+release = "python -m tasks.release"
+test = "pytest tests/"
+
+[tool.pdm.scripts.lint]
+shell = "ruff check . --fix  && ruff format . && mypy --strict --install-types --non-interactive src/"
+
+[tool.pdm.scripts.doc]
+shell = "mkdocs serve"
+help = "Start the dev server for doc preview"
+
+[tool.pytest.ini_options]
+addopts = [
+    "--import-mode=importlib",
+]
+pythonpath = "src"
+
+[tool.mypy]
+disallow_untyped_defs = false
+follow_imports = "normal"
+ignore_missing_imports = true
+pretty = true
+show_column_numbers = true
+warn_no_return = false
+warn_unused_ignores = true
+
+[tool.black]
+target-version = [
+    "py37",
+]
+line-length = 120
+skip-string-normalization = true
+
+[tool.ruff]
+target-version = "py37"
+line-length = 120
+select = [
+    "A",
+    "B",
+    "C",
+    "DTZ",
+    "E",
+    "EM",
+    "F",
+    "FBT",
+    "I",
+    "ICN",
+    "ISC",
+    "N",
+    "PLC",
+    "PLE",
+    "PLR",
+    "PLW",
+    "Q",
+    "RUF",
+    "S",
+    "SIM",
+    "TID",
+    "UP",
+    "W",
+    "YTT",
+]
+ignore = [
+    "B027",
+    "FBT003",
+    "S105",
+    "S106",
+    "S107",
+    "C901",
+    "PLR0911",
+    "PLR0912",
+    "PLR0913",
+    "PLR0915",
+    "PLC1901",
+    "PLW2901",
+    "SIM114",
+    "ISC001",
+]
+unfixable = [
+    "F401",
+]
+exclude = [
+    "site",
+    "tasks",
+]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+skip-magic-trailing-comma = false
+line-ending = "auto"
+
+[tool.ruff.isort]
+known-first-party = [
+    "grott",
+    "grottext",
+]
+
+[tool.ruff.flake8-tidy-imports]
+ban-relative-imports = "all"
+
+[tool.ruff.per-file-ignores]
+"tests/**/*" = [
+    "TID252",
+    "S101",
+    "PLR2004",
+    "ARG",
+    "FBT",
+]
+
+[tool.coverage.run]
+source_pkgs = [
+    "hatch_showcase",
+    "tests",
+]
+branch = true
+parallel = true
+
+[tool.coverage.report]
+exclude_lines = [
+    "no cov",
+    "if __name__ == .__main__.:",
+    "if TYPE_CHECKING:",
+]
+
+[tool.towncrier]
+package = "grottext.ha"
+package_dir = "src"
+filename = "CHANGELOG.md"
+issue_format = "{{'[#{issue}]'}}(https://github.com/egguy/grott-ha-plugin/issues/{issue})"
+directory = "news/"
+start_string = "<!-- insertion marker -->"
+title_format = "[v{version}](https://github.com/egguy/grott-ha-plugin/releases/tag/{version}) ({project_date})"
+template = "news/towncrier_template.md"
+underlines = "-~^"
+type = [
+    { directory = "feature", name = "Features & Improvements", showcontent = true },
+    { directory = "bugfix", name = "Bug Fixes", showcontent = true },
+    { directory = "doc", name = "Improved Documentation", showcontent = true },
+    { directory = "dep", name = "Dependencies", showcontent = true },
+    { directory = "removal", name = "Removals and Deprecations", showcontent = true },
+    { directory = "misc", name = "Miscellany", showcontent = true },
+]

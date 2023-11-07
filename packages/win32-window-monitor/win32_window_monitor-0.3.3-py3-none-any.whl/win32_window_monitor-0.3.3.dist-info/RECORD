@@ -1,0 +1,10 @@
+win32_window_monitor/__init__.py,sha256=KsBBQqyMs4iutSThe2ibVY9Qwu3xQm5Mv9JywLaiOl8,798
+win32_window_monitor/ids.py,sha256=HZelUOp7IiWQccCPma4CAXs8_p_t1sr-QGx_Pn3_6V0,11620
+win32_window_monitor/main.py,sha256=UOFqTfvCcvi_ms1LpeF3zYBcoqzQg89gF9oq5IfSc8o,3031
+win32_window_monitor/main_usage_example.py,sha256=Sz4UZ7sc6YrDLpnlg11ybQ9GYZVd7Ruq6NqoUr0yfe4,1846
+win32_window_monitor/win32api.py,sha256=q6jaVhVOb9Y7rLa6yPuD4Ngys_jxl7BgrNpITUXQfbA,8823
+win32_window_monitor-0.3.3.dist-info/entry_points.txt,sha256=27S_SpukUPVD1Xt24QDfhXzPZ_8xuIdKOl_t9hvRknk,69
+win32_window_monitor-0.3.3.dist-info/LICENSE,sha256=2NqGgfyo3H6_VyFFLXg-Uw5z2t958ohWQWrTOhpvtCM,1096
+win32_window_monitor-0.3.3.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+win32_window_monitor-0.3.3.dist-info/METADATA,sha256=MVSsdQCjKxBy7CeEcXSlmXJj8DJw1ufL9_bQ0SDfKZo,8110
+win32_window_monitor-0.3.3.dist-info/RECORD,,

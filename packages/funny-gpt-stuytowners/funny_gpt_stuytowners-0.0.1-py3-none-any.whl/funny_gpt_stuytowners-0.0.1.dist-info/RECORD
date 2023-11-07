@@ -1,0 +1,9 @@
+my_module/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+my_module/functions.py,sha256=gXIYDeyg0DBXi765jIg-qMiktVVoL2bNQ0EwADOqsPg,2330
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_functions.py,sha256=joy_CWZ03aASs4FXLydguAf7vZOgjS6Fi65Mf8Rja_8,1296
+funny_gpt_stuytowners-0.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+funny_gpt_stuytowners-0.0.1.dist-info/METADATA,sha256=btWk22TZDe_bM0Tq8e7g7x70luRVKnmwav3UnJHbV8w,1060
+funny_gpt_stuytowners-0.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+funny_gpt_stuytowners-0.0.1.dist-info/top_level.txt,sha256=Ht_GTsAfX6cf0wu4TLQY6C7rZHjc8jOPJDNRsZtz14k,16
+funny_gpt_stuytowners-0.0.1.dist-info/RECORD,,

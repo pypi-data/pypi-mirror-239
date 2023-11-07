@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: funny-gpt-stuytowners
+Version: 0.0.1
+Summary: A small example package
+Author-email: Example Author <author@example.com>
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Python Package: Foo Barstein
+
+This package was created so you can have Professor Foo Barstein talk with you straight from your terminal. Professor Barstein can do four things - tell you a joke, tell you a haiku, tell you a compliment, and write you an email. Professor Barstein is a fictional character and powered by GPT-3.
+
+### How to Run
+1. Set your OpenAI API Key by writing the following command in the shell:
+```export OPENAI_API_KEY=(your key)```
+2. Run demo.py with the pipfile with the following command:
+```pipenv run python demo.py```

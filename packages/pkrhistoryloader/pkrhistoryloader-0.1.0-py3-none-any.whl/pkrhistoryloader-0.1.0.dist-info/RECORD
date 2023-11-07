@@ -1,0 +1,10 @@
+pkrhistoryloader/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pkrhistoryloader/app.py,sha256=dbmyXDSvgV5iCeAfeoNDQ7oks0JhTSAz-Rm8b0gwZQU,275
+pkrhistoryloader/daily_upload.py,sha256=Dxjc7BdZMRX7T_98KCV4KfhFhnHg0AdCmJJDw67jrW0,247
+pkrhistoryloader/frequent_upload.py,sha256=6QUyE-OTsJxRjf_wiv8B76C_OBALt6umc1Err-L2v4c,144
+pkrhistoryloader/loader.py,sha256=FJ8BSpA6sCt7ofjbM9Rr4sa7vgEHMcKaMgZUMf91LI0,8728
+pkrhistoryloader-0.1.0.dist-info/LICENSE.txt,sha256=GsmANbLuxJOlrdRwZgKwbUqAC3o3GwIdz6tcpTm6A3M,1072
+pkrhistoryloader-0.1.0.dist-info/METADATA,sha256=ABRfxEUjL9h-f0u6_KZQlViMFDbztKJ3NyLib3MbxCw,3063
+pkrhistoryloader-0.1.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+pkrhistoryloader-0.1.0.dist-info/top_level.txt,sha256=qXbx8BIb1XDeZ8fwJyGoBJYas6cTAnlCe6vK4Mk_GnI,17
+pkrhistoryloader-0.1.0.dist-info/RECORD,,

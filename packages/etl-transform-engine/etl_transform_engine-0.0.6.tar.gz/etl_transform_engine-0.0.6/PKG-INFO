@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: etl_transform_engine
+Version: 0.0.6
+Summary: etl_transform_engine
+Home-page: https://github.com/tactik8/etl_transform_engine
+Author: Tactik8
+Author-email: info@tactik8.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# ETL_TRANSFORM_ENGINE
+
+## Overview
+Library to transform records using a mapping refeence json 
+
+
+
+
+## methods:
+- transform: returns result from transform
+
+
+
+
+## How to use:
+
+```
+import etl_transform_engine as etl
+
+results = etl.transform(records, map)
+
+
+```

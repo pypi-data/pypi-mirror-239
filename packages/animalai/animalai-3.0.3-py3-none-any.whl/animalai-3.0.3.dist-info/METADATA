@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: animalai
+Version: 3.0.3
+Summary: Animal AI 3 Python API
+Home-page: https://github.com/Kinds-of-Intelligence-CFI/animalai-package
+Author: Matt Crosby; Ibrahim Alhas; K. Voudouris; W. Schellaert
+Author-email: kindsofintelligence.cfi@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9, <3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: mlagents ==0.30.0
+Requires-Dist: numpy ==1.21.2
+Requires-Dist: scipy ==1.7.2
+Requires-Dist: pandas ==1.3.2
+Requires-Dist: protobuf ==3.20.3
+Requires-Dist: stable-baselines3 ==2.1.0
+Requires-Dist: shimmy ==1.3.0
+Requires-Dist: notebook
+
+# AnimalAI
+![steampunkFOURcrop](https://github.com/Kinds-of-Intelligence-CFI/animal-ai/assets/65875290/df798f4a-cb2c-416f-a150-093b9382a621)
+Animal-AI (3) Python Project
+
+This repository is responsible for managing and updating primarily the PyPI package (https://pypi.org/project/animalai/) for Animal-AI project package dependencies. 
+
+The main project is located here: https://github.com/Kinds-of-Intelligence-CFI/animal-ai.
+
+The Animal-AI (3) Unity project repository is here: https://github.com/Kinds-of-Intelligence-CFI/animal-ai-unity-project.
+
+## Version History
+
+- v3.0.3
+  - Asserted python version to be 3.6.1 or higher, but less than 3.10.0 (exclusive).
+  - Added package description to setup.py and package metadata.
+- v3.0.2
+  - Fixed major pacakge dependency issues, related to mlagents 0.30.0, protopuf, and shimy.
+  - Updated project setup.py to accomodate the latest version of Animal-AI package dependencies.
+    - Users can now use # pip install animalai # to install from PyPI directly (previously had to be done via locally). 
+
+

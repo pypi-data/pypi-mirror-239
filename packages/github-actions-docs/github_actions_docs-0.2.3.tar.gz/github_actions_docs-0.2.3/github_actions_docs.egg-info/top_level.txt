@@ -1,0 +1,3 @@
+dist
+github_actions_docs
+tmp

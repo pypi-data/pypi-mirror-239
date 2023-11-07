@@ -1,0 +1,2 @@
+[console_scripts]
+github-actions-docs = github_actions_docs:main

@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+Setup.py
+setup.cfg
+setup.py
+funcionesOmar/__init__.py
+funcionesOmar/operaciones.py
+funcionesOmar.egg-info/PKG-INFO
+funcionesOmar.egg-info/SOURCES.txt
+funcionesOmar.egg-info/dependency_links.txt
+funcionesOmar.egg-info/requires.txt
+funcionesOmar.egg-info/top_level.txt

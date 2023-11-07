@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+xpython_utils/__init__.py
+xpython_utils/log_utils.py
+xpython_utils.egg-info/PKG-INFO
+xpython_utils.egg-info/SOURCES.txt
+xpython_utils.egg-info/dependency_links.txt
+xpython_utils.egg-info/requires.txt
+xpython_utils.egg-info/top_level.txt

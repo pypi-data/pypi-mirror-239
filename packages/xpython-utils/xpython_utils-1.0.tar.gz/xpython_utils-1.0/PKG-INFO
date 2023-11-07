@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: xpython_utils
+Version: 1.0
+Summary: 常规用用的包
+Author: zabida
+Author-email: stcdaily@163.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: urllib3
+Requires-Dist: requests-toolbelt
+
+### 一些工具

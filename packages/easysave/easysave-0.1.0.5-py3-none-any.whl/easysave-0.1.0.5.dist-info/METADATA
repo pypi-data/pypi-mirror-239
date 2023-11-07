@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: easysave
+Version: 0.1.0.5
+Summary: data saving library
+Home-page: https://github.com/tbubhnh/ez_save/
+Author: tbubhnh
+Author-email: tbubhnh11112@gmail.com
+License: MIT
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: cryptocode
+
+<u><h1>ez save- an simple lib to save data in python</h1></u>
+
+<p>
+
+this is a lib which helps save data to files easily with basic encryption.
+
+it's nothing complex and more of a learning project for me.
+
+<br>
+
+docs: https://github.com/tbubhnh/ez_save/blob/master/docs/docs.md<br>
+
+examples: https://github.com/tbubhnh/ez_save/tree/master/examples
+
+</p>
+
+<u><b>installation</b></u>
+
+<p>
+
+
+
+
+
+```
+
+pip install ezsave
+
+```
+
+</p>
+

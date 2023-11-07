@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: fits2image
+Version: 0.4.7
+Summary: Common libraries for the conversion and scaling of fits images
+Author: Jon Nation
+Author-email: jnation@lcogt.net
+License-File: LICENSE
+
+Common libraries for the conversion and scaling of fits images

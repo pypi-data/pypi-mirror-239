@@ -1,0 +1,12 @@
+bayesfrag/__init__.py,sha256=YBgXF2m4PvCsbAWuTpo_RjZpfch0ZRFT5FGaj1sqUlk,151
+bayesfrag/gpr.py,sha256=-yFh6Nn1XbyBncyoPl30pFrk2slkz_yhbTtz_K_tSAY,4820
+bayesfrag/inference.py,sha256=ibTy-4uEWkQzyeW7zkvan-uxSjT7K434UiXnFnh5pwo,9177
+bayesfrag/postprocess.py,sha256=o2mh3tJI4jK1R4iUyzsFVSQQWv6Scd7pllQaY9iFwRI,25094
+bayesfrag/sites.py,sha256=C6PNi3XDo0CiZJ-kqDAXr4cZ5HBDNn8z2oCezepicik,3895
+bayesfrag/spatialcorrelation.py,sha256=vuRu98yTAAgzV6ricgubNaFdylYRKwCbmVfDWhHI2JE,10939
+bayesfrag/utils.py,sha256=DwkkWo38PZUko6qqZ0X76uRzSZUsGL8rKGretl_t4ps,3213
+bayesfrag-0.1.0.dist-info/LICENSE,sha256=AEfsMnQ7C06-vth0YPw5lteaqw1STWhXHWkUGpHZSRk,1577
+bayesfrag-0.1.0.dist-info/METADATA,sha256=TVTMpPTV3tr29o8R-rL8HwzU5nOBEt2YtfKBpcBjFHY,5193
+bayesfrag-0.1.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+bayesfrag-0.1.0.dist-info/top_level.txt,sha256=46fAYkY1G5SMGdOGITeyDctKLsFdxq4nn9MAGdQrJeM,10
+bayesfrag-0.1.0.dist-info/RECORD,,

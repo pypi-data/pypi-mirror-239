@@ -1,0 +1,3 @@
+Emaps is a collection of python base modules for electron diffraction simulations and crystallographic caculations. It is free for personal and non-commercial use with pyemaps >= 1.0.8. Check out the full [pyemaps documentation](https://emlab-solutions.github.io/pyemaps) for its latest list of features exposed by pyemaps.
+
+An extended version of emaps with 4D-STEM features, such as experimental diffraction pattern indexing and annular dark fields, for commercial use is also availavle. Contact support@emlabsoftware.com for pricing.

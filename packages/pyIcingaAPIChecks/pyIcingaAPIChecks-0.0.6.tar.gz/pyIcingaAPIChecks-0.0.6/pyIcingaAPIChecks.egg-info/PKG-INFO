@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pyIcingaAPIChecks
+Version: 0.0.6
+Summary: Icinga2 Check API Checks for pyIcingaFramework
+Author: Paul Denning
+Keywords: icinga2,nagios
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: pyIcingaFramework
+Requires-Dist: Requests
+Requires-Dist: six
+Requires-Dist: cryptography
+
+# Icinga2 Check API Checks for pyIcingaFramework

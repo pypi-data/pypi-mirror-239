@@ -1,0 +1,4 @@
+pyIcingaFramework
+Requests
+six
+cryptography

@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+interactions/ext/dynhelp/__init__.py
+interactions/ext/dynhelp/extension.py
+interactions_dynamic_help.egg-info/PKG-INFO
+interactions_dynamic_help.egg-info/SOURCES.txt
+interactions_dynamic_help.egg-info/dependency_links.txt
+interactions_dynamic_help.egg-info/requires.txt
+interactions_dynamic_help.egg-info/top_level.txt

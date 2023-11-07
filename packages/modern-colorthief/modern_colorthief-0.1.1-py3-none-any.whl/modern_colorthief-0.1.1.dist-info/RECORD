@@ -1,0 +1,12 @@
+LICENSE.colorthief,sha256=smSiTdTKRnBNITvPf1CiTUHb5a1qg8_-Cp4jDFV9hnI,1491
+modern_colorthief/__init__.py,sha256=xi_DmjaIjU6jwbmWWgjw9KmCml99sUyHUj686lVaiG8,2137
+modern_colorthief/_constants.py,sha256=6fs7g_kOmdximiluEJi6T8pqOWrzuRVRV3YGpWvtmsg,82
+modern_colorthief/cmap.py,sha256=S0dMZw9HawFJqdpSFkGRnpuROCr6PkFvaUEDFV8ihiA,1224
+modern_colorthief/mmcq.py,sha256=e1ecrTvsotTpStX-OfKDGkxRD6gUN0tQJISweQ4rXJs,6749
+modern_colorthief/pqueue.py,sha256=r4BWdSjKkyu5Btgptl7-lmJ3cxxX3fUMOaFQlh1PNDM,779
+modern_colorthief/vbox.py,sha256=1jGF757QjsnbexLQ7Us3DqUMWKlsWn6fyqAb2KtrH3Q,2459
+modern_colorthief-0.1.1.dist-info/LICENSE,sha256=Nz3MjiYkhmoq4NcfuPBY73wR81Jb1-l3Kt9EfQbLXwQ,1074
+modern_colorthief-0.1.1.dist-info/LICENSE.colorthief,sha256=smSiTdTKRnBNITvPf1CiTUHb5a1qg8_-Cp4jDFV9hnI,1491
+modern_colorthief-0.1.1.dist-info/METADATA,sha256=k8bx7JiNNYxbE-QSSTPkCcA7UvVpyEa7ZSesexe5SdA,1904
+modern_colorthief-0.1.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+modern_colorthief-0.1.1.dist-info/RECORD,,

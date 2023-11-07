@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: timeflux-audio
+Version: 0.2
+Summary: Timeflux audio plugin
+Home-page: https://timeflux.io
+Author: Pierre Clisson
+Author-email: contact@timeflux.io
+License: MIT
+Project-URL: Documentation, http://doc.timeflux.io/projects/timeflux-audio/
+Project-URL: Source Code, https://github.com/timeflux/timeflux_audio
+Project-URL: Bug Tracker, https://github.com/timeflux/timeflux_audio/issues
+Keywords: timeflux
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+License-File: LICENSE
+Requires-Dist: timeflux>=0.11.1
+Requires-Dist: sounddevice>=0.4.4
+Provides-Extra: dev
+Requires-Dist: pytest>=5.3; extra == "dev"
+Requires-Dist: sphinx>=2.2; extra == "dev"
+Requires-Dist: sphinx_rtd_theme>=0.4; extra == "dev"
+Requires-Dist: setuptools_scm; extra == "dev"
+Requires-Dist: docinit; extra == "dev"
+
+Timeflux audio plugin
+=====================
+
+This plugin allows you to synthesis and play audio streams using Timeflux. Work in progress.
+
+Installation
+------------
+
+First, make sure that `Timeflux <https://github.com/timeflux/timeflux>`__ is installed.
+
+You can then install this plugin in the `timeflux` environment:
+
+::
+
+    $ conda activate timeflux
+    $ git clone https://github.com/timeflux/timeflux_audio.git
+    $ cd timeflux_audio
+    $ pip install -e .

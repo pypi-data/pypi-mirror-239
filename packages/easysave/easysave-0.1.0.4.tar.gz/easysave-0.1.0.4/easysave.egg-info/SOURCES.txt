@@ -1,0 +1,9 @@
+README.md
+setup.py
+easysave/__init__.py
+easysave/easysave.py
+easysave.egg-info/PKG-INFO
+easysave.egg-info/SOURCES.txt
+easysave.egg-info/dependency_links.txt
+easysave.egg-info/requires.txt
+easysave.egg-info/top_level.txt

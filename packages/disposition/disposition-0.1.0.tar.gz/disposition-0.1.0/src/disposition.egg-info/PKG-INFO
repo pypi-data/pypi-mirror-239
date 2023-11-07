@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: disposition
+Version: 0.1.0
+Summary: Framework for generating reports and plots with flexible and accurate layouts
+Project-URL: Homepage, https://github.com/mortencombat/disposition
+Keywords: reports,layout,plots
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: attrs<24.0,>=23.1.0
+Provides-Extra: build
+Requires-Dist: setuptools; extra == "build"
+Requires-Dist: build; extra == "build"
+Requires-Dist: wheel; extra == "build"
+Requires-Dist: twine; extra == "build"
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: pytest-cache; extra == "test"
+Requires-Dist: pytest-cov; extra == "test"
+Requires-Dist: pytest-html; extra == "test"
+Requires-Dist: hypothesis; extra == "test"
+
+# disposition
+
+**disposition** is a Python-based framework for generating reports and plots with flexible and accurate layouts.

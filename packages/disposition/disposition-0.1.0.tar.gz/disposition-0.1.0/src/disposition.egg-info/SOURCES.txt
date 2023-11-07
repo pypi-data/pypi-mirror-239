@@ -1,0 +1,10 @@
+.version
+LICENSE
+README.md
+pyproject.toml
+src/disposition/__init__.py
+src/disposition.egg-info/PKG-INFO
+src/disposition.egg-info/SOURCES.txt
+src/disposition.egg-info/dependency_links.txt
+src/disposition.egg-info/requires.txt
+src/disposition.egg-info/top_level.txt

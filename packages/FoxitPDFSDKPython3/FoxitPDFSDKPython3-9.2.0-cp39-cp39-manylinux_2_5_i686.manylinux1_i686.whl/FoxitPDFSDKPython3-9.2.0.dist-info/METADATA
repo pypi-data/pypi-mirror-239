@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: FoxitPDFSDKPython3
+Version: 9.2.0
+Summary: Foxit PDF SDK For Python3
+Home-page: https://www.developers.foxit.com
+Author: Foxit Software Inc.
+Author-email: support@foxitsoftware.com
+License: Other/Proprietary License (Commercial)
+Keywords: PDF SDK,PDF Library,PDF render,PDF view,PDF print,PDF Edit,PDF convert
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/plain
+License-File: legal.txt
+
+Foxit PDF SDK v9.2.0  Release Date: 07 Nov. 2023
+==================================================================
+This is a minor release
+
+____New Features/Enhancements____
+* Obtain the cursor position in the text field: Added a new API 'GetEditingTextCaretPosition' to retrieve the cursor position within a text field during form filling or editing.
+* Flexible font embeding control: To enhance font embedding efficiency, the Embed()function now includes the 'is_add_all_unicodes' parameter for controlling the embedding of either all possible unicodes or a specific unicode, and it also introduces the 'AddUnicodes()' method to allow users to add unicodes for the embedded font as needed.
+* XFAForm widget select status control: Added a new API 'XFAWidget::SetCheckState()' to control the select status for the CheckBox and Radio XFA widget.
+* Signing conforms to the PDF/A standard: In order to ensure that the signed documents comply with the PDF/A standard, the SDK has adjusted its underlying code to support image-based signatures and introduced a new API called 'EnableEmbedFont()' to support text-based signatures.
+* Enhanced PDF JavaScript support: This version introduces support for cursor, printparams, icon, hostcontainer, and fullscreen objects, allowing our SDK to interact with PDF documents that contain embedded JavaScript code using these specific objects.
+* Detection of multi-lines and multiple selection properties for XFA form fields: This version added new APIs 'IsSupportMultiline()' to check multi-line support for text field widget and 'IsListBox()' and 'IsSupportMultiSelect' to check multiple selection support for list widget.
+* Search results with adjustable context length for keywords: Added new parameters 'sentence', 'match_sentence_start_text_index' and 'match_sentence_end_text_index' to 'RetrieveSearchResult()' to allow adjustment of the context length of the search results
+* Enhanced full text searching capabilites: In this version, the full-text search engine has been upgraded, resulting in significantly improved search accuracy.
+* Office2PDF on Linux supports Libreoffice 7.0.
+
+____Bug Fixes____
+* [PDF2Word]Fixed a multi-threading crash issue when the ConvertCallback function was not empty and required pausing.
+* Resolved the problem of losing signatures when calling StartRenderXFAPage() to render dynamic XFA forms.
+* Fixed OCR runtime errors and recognition inaccuracies by upgrading the OCR engine.
+* Rectified various issues related to incorrect FullTextSearch search results by upgrading the full text search engine.
+* [HTML2PDF]Fixed a specific issue where HTML-to-PDF documents displayed a successful conversion message but did not generate the file.
+* Fixed the issue of excessive memory consumption within the GeneratePreviewBitmap() API when resolving high DPI bitmaps.
+* Fixed an anomaly where the vertices of triangle-style Polygon annotations were truncated after resetting their appearance.
+* Addressed the problem of cell heights not adapting when inserting cross-page tables using InsertTablePagesToDocument.
+* Fixed an Out of Memory (OOM) exception that occurred when calling InsertTablePagesToDocument with excessively long cell content.

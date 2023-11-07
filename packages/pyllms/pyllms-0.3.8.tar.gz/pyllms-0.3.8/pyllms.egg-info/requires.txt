@@ -1,0 +1,16 @@
+openai
+tiktoken
+anthropic>=0.3
+anthropi_bedrock
+ai21
+cohere
+aleph-alpha-client
+huggingface_hub
+google-cloud-aiplatform
+prettytable
+protobuf~=3.20.3
+grpcio~=1.54.2
+
+[local]
+einops
+accelerate

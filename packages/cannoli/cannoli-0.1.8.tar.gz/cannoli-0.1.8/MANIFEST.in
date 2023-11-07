@@ -1,0 +1,7 @@
+include cannoli.py
+include __init__.py
+include default_settings.json
+include utils/*.py
+recursive-include datasets *.dsv
+recursive-include datasets *.csv
+recursive-include datasets *.tsv

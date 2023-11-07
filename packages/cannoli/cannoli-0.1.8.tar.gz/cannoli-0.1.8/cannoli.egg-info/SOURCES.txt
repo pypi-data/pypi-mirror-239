@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+__init__.py
+cannoli.py
+default_settings.json
+setup.py
+cannoli.egg-info/PKG-INFO
+cannoli.egg-info/SOURCES.txt
+cannoli.egg-info/dependency_links.txt
+cannoli.egg-info/requires.txt
+cannoli.egg-info/top_level.txt
+datasets/reviews.dsv
+utils/generate_dataset.py

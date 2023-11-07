@@ -1,0 +1,8 @@
+lightning_extensions/__init__.py,sha256=lJzXBXF3FhlatKVwjXho8WiYHryWVbemTDSyhAst59k,58
+lightning_extensions/base_module.py,sha256=esCzMWSUyc_X9xMtE8T-bl3_YGurnBGcPMAjUxxBxVY,874
+lightning_extensions/extended_trainer.py,sha256=QqLuAS1DXxiP_zB9xpygZSC2TraxeVobGWFKC_Mird0,1336
+lightning_extensions-0.0.5.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+lightning_extensions-0.0.5.dist-info/METADATA,sha256=AzmrCpQ1yb9Jnz0lzDobWfmMJfwMC_3Tgad16wwjv40,626
+lightning_extensions-0.0.5.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+lightning_extensions-0.0.5.dist-info/top_level.txt,sha256=XKt4qR_XKarQpN2o4TmsBUQ9RqID0S2A9z_aOuBzFiQ,21
+lightning_extensions-0.0.5.dist-info/RECORD,,

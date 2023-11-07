@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Merkurial_ImageDownloader"
+version = "0.0.1"
+authors = [
+    {name="Brandon Marcure", email="brandon@merkurialphoenix.com"}
+]
+description="""
+ImageDownloader Is A Very Easy Way To Automate The Downloading Of Images From A WebPage. There Is A Lot Of Flexibility
+In How You Might Achieve The End Result And It Comes With Built In Meta Data Creation So That The Information Can Be
+Gathered With Or Without The Images
+"""
+
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License (GPL)",
+    "Operating System :: OS Independent",
+]
+
+dependencies = ["Merkurial-FileUtils>=0.0.0"]
+
+[project.urls]
+"Homepage" = "https://github.com/ArisenPhoenix/ImageDownloader"
+"Bug Tracker" = "https://github.com/ArisenPhoenix/ImageDownloader/issues"

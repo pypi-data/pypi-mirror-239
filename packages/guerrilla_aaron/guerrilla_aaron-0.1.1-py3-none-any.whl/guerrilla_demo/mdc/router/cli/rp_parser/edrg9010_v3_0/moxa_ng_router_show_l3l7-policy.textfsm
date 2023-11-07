@@ -1,0 +1,38 @@
+Value index (.*)
+Value status (.*)
+Value name (.*)
+Value description (.*)
+Value incoming_interface (.*)
+Value outgoing_interface (.*)
+Value filter_mode (.*)
+Value source_mac_address (.*)
+Value source_ip_address (.*)
+Value source_port (.*)
+Value destination_ip_address (.*)
+Value destination_port_or_protocol (.*)
+Value action (.*)
+Value log (.*)
+Value severity (.*)
+Value local_storage (.*)
+Value syslog_server (.*)
+Value snmp_trap_server (.*)
+
+Start
+ ^Index\s+:\s+${index}
+ ^Status\s+:\s+${status}
+ ^Name\s+:\s+${name}
+ ^Description\s+:\s+${description}}
+ ^Incoming Interface\s+:\s+${incoming_interface}
+ ^Outgoing Interface\s+:\s+${outgoing_interface}
+ ^Filter Mode\s+:\s+${filter_mode}
+ ^Source MAC Address\s+:\s+${source_mac_address}
+ ^Source IP Address\s+:\s+${source_ip_address}
+ ^Source Port\s+:\s+${source_port}
+ ^Destination IP Address\s+:\s+${destination_ip_address}
+ ^Destination Port or Protocol\s+:\s+${destination_port_or_protocol}
+ ^Action\s+:\s+${action}
+ ^Log\s+:\s+${log}
+ ^Severity\s+:\s+${severity}
+ ^Local Storage\s+:\s+${local_storage}
+ ^Syslog Server\s+:\s+${syslog_server}
+ ^SNMP Trap Server\s+:\s+${snmp_trap_server} -> Record

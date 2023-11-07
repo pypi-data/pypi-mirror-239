@@ -1,0 +1,15 @@
+Value number (\d+)
+Value index (.*)
+Value severity (.*)
+Value date (.*)
+Value time (.*)
+Value event (.*)
+
+Start
+ ^System Log:\s+${number}
+ ^index\s+:\s+${index}
+ ^Severity\s+:\s+${severity}
+ ^Date\s+:\s+${date}
+ ^Time\s+:\s+${time}
+ ^Event\s+:\s+${event} -> Record
+

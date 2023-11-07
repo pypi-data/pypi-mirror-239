@@ -1,0 +1,40 @@
+Value index (.*)
+Value enable (.*)
+Value protocol (.*)
+Value mode (.*)
+Value vrrp_binding (.*)
+Value nat_loopback (.*)
+Value double_nat (.*)
+Value original (.*)
+Value incoming_interface (.*)
+Value ori_src_ip (.*)
+Value ori_src_port (.*)
+Value ori_dest_ip (.*)
+Value ori_dest_port (.*)
+Value translated (.*)
+Value outgoing_interface (.*)
+Value trans_src_ip (.*)
+Value trans_src_port (.*)
+Value trans_dest_ip (.*)
+Value trans_dest_port (.*)
+
+Start
+ ^Index\s+:\s+${index}
+ ^Enable\s+:\s+${enable}
+ ^Protocol\s+:\s+${protocol}
+ ^Mode\s+:\s+${mode}
+ ^VRRP Binding\s+:\s+${vrrp_binding}
+ ^NAT Loopback\s+:\s+${nat_loopback}
+ ^Double NAT\s+:\s+${double_nat}
+ ^Original\s+:\s+${original}
+ ^Incoming Interface\s+:\s+${incoming_interface}
+ ^Source IP\s+:\s+${ori_src_ip}
+ ^Source Port\s+:\s+${ori_src_port}
+ ^Destination IP\s+:\s+${ori_dest_ip}
+ ^Destination Port\s+:\s+${ori_dest_port}
+ ^Translated\s+:\s+${translated}
+ ^Outgoing Interface\s+:\s+${outgoing_interface}
+ ^Source IP\s+:\s+${trans_src_ip}
+ ^Source Port\s+:\s+${trans_src_port}
+ ^Destination IP\s+:\s+${trans_dest_ip}
+ ^Destination Port\s+:\s+${trans_dest_port}

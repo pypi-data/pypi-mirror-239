@@ -1,0 +1,13 @@
+helper/__init__.py,sha256=xsru_5AiZY_8weuKBVD99A12h5rJpVdnw7MvD4qMhVE,661
+helper/append_clipboard.py,sha256=qcp-yb60UI5a5i4wAP5pSgHHMyqfpFpZKGhWdGVgAlw,363
+helper/better_color_input.py,sha256=-hETlIZlDClhiVBrvTJk7XbATwAdoBlYvrTIqv9kyMM,1055
+helper/better_input.py,sha256=Fhelr3IgPGRosj4DSGfWlPeq8dOf--JehjPeWk4dvgg,575
+helper/better_print.py,sha256=3fGXr1cVU6XeNswoJbuHqkPt_0M0-6CSIJoWghN6f4E,659
+helper/color_input.py,sha256=TGZQV2E7PKEeBOW1D1Y-cDiBuhR_GJaREV5aj0DW5nU,823
+helper/output_stdout.py,sha256=IQgKN6iegmUlXWlG3Vhmp5zx0BlqROt_qz2F0944nuY,335
+helper/terminal.py,sha256=gLxKtHd0X5tQjpkLNztRH8USNGAIDqEaJDFJbN9sdVM,3149
+helper_for_maxi-1.0.2.dist-info/LICENSE,sha256=YPRTtq6DGxKLQUeGeo_oZ6bddC_N0jHDQXlnas4qZWg,1088
+helper_for_maxi-1.0.2.dist-info/METADATA,sha256=KJ66jiJdVDlNfswCUBwVu2qSuRicmS_y7vg6sf4UE0Q,4605
+helper_for_maxi-1.0.2.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+helper_for_maxi-1.0.2.dist-info/top_level.txt,sha256=VM8lkErPJijbKhnfEGA_hE_YDXde4iizgqWKloZIxW8,7
+helper_for_maxi-1.0.2.dist-info/RECORD,,

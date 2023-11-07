@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+repotofile/__init__.py
+repotofile/cli.py
+repotofile/git_operations.py
+repotofile/utils.py
+repotofile_cli.egg-info/PKG-INFO
+repotofile_cli.egg-info/SOURCES.txt
+repotofile_cli.egg-info/dependency_links.txt
+repotofile_cli.egg-info/entry_points.txt
+repotofile_cli.egg-info/top_level.txt
+tests/test_git_operations.py
+tests/test_utils.py

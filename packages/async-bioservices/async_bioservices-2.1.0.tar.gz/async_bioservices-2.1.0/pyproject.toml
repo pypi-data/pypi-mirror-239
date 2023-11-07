@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "async-bioservices"
+version = "2.1.0"
+description = "This is an asynchronous method of accessing bioservice's db2db function"
+authors = ["Josh Loecker <joshloecker@icloud.com>"]
+readme = "README.md"
+packages = [{ include = "async_bioservices" }]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.12"
+pandas = ">=1.4.4"
+bioservices = "<2"
+aiosqlite = ">=0.19.0"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = ">=7.4.2"
+pytest-asyncio = ">=0.21.1"
+coverage = ">=7.3.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

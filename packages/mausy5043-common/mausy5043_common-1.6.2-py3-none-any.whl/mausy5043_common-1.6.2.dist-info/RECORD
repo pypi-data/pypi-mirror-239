@@ -1,0 +1,14 @@
+mausy5043_common/__init__.py,sha256=_QNG_HGFMsegwDvNFyFbDrIB4RX6K5dXt7DoACt_RJE,69
+mausy5043_common/funfile.py,sha256=wll_fkLxB-EQ8t2QHv7PFacqV-qw8eKih5hrnTY4YdY,1089
+mausy5043_common/funfile.pyi,sha256=vaUTc15uCEhnYTlPUSnwciZsL9mnyPEAZukNrFyPSZE,116
+mausy5043_common/funmeteo.py,sha256=6hN_D857nWDJkmsnYLlvglh3HfomhAsaRyLgwzefd6Q,1419
+mausy5043_common/funmeteo.pyi,sha256=TCi7m1KIBtT5Ye9t6Cd9Gy8AKKDLtXjNwkHCs3981bc,200
+mausy5043_common/libsignals.py,sha256=kNSKolNC3evCJep28cmSfvHEboy0LU-7oSNNUHInGdg,700
+mausy5043_common/libsignals.pyi,sha256=tHjbK3C7sxBrgjgqjP_cGRHfkHfWeFweUGthSLXjKno,135
+mausy5043_common/libsqlite3.py,sha256=Eyu9FOuq5fHRlDsOt1FOfSxQB7-1Hq_pE3DeUxoH7wI,9000
+mausy5043_common/libsqlite3.pyi,sha256=y69fzN7IbI-W9e_TQfUQcMUkF9tthRxVQp4duZUTFrU,479
+mausy5043_common/py.typed,sha256=UaCuPFa3H8UAakbt-5G8SPacldTOGvJv18pPjUJ5gDY,93
+mausy5043_common-1.6.2.dist-info/METADATA,sha256=8qVqUGAilnu-oyy9FUgJoTIIPXdiXd0sE-L0D07Fwg8,2649
+mausy5043_common-1.6.2.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+mausy5043_common-1.6.2.dist-info/licenses/LICENSE,sha256=kJQd2Fj-xLvTUBPWcXmdeyWnAu4tmIy3oOFE0mLO_Jc,1072
+mausy5043_common-1.6.2.dist-info/RECORD,,

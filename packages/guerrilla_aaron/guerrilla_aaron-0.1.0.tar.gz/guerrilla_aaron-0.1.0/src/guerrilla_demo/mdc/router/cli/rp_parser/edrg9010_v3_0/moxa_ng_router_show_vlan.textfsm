@@ -1,0 +1,15 @@
+Value mgmt_vid (.*)
+Value vid (.*)
+Value acs_ports (.*)
+Value trk_ports (.*)
+Value hyb_ports (.*)
+Value brg_ports (.*)
+
+Start
+ ^vlan mode: 802.1Q vlan
+ ^mgmt vlan:\s+${mgmt_vid}
+ ^VLAN ${vid}:
+ ^\s+Access Ports:\s+${acs_ports}
+ ^\s+Trunk Ports:\s+${trk_ports}
+ ^\s+Hybrid Ports:\s+${hyb_ports}
+ ^\s+Bridge Ports:\s+${brg_ports} -> Record

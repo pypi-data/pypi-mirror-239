@@ -1,0 +1,21 @@
+[project]
+name = "cloudlink"
+version = "0.2.0.1"
+authors = [
+  {name="MikeDev101", email="mike@meower.org"},
+]
+description = 'A powerful WebSocket extension for Scratch.'
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.11"
+classifiers = [
+  'Programming Language :: Python :: 3.11',
+  'Operating System :: OS Independent'
+]
+dynamic = ["dependencies"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[project.urls]
+"Source Code" = "https://github.com/MikeDev101/cloudlink"

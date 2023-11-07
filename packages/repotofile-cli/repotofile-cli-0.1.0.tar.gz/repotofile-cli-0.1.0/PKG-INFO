@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: repotofile-cli
+Version: 0.1.0
+Summary: A CLI tool to clone and process GitHub repositories.
+Home-page: https://github.com/mbbrainz/repotofile-cli
+Author: Maurits Bos
+Author-email: maurits.bos@gmail.com
+Project-URL: Bug Tracker, https://github.com/mbbrainz/repotofile-cli/issues
+Keywords: github cli tool repository conversion
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Version Control :: Git
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE

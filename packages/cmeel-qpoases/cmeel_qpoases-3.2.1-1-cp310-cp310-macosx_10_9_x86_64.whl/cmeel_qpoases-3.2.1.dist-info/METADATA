@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: cmeel-qpoases
+Version: 3.2.1
+Summary: cmeel distribution for qpOASES
+Requires-Python: >= 3.8
+License-Expression: LGPL
+Home-page: https://github.com/cmake-wheel/cmeel-qpoases
+Requires-Dist: cmeel
+Description-Content-Type: text/markdown
+
+# CMeel qpOASES
+
+[qpOASES](https://github.com/coin-or/qpOASES) distribution for cmeel packages.

@@ -1,0 +1,24 @@
+Value vrrp_state (.*)
+Value vrrp_version (.*)
+Value interface (.*)
+Value state (\w+)
+Value ip_address (.*)
+Value vrrp_status (.*)
+Value virtual_ip (.*)
+Value virtual_router_id (.*)
+Value priority (.*)
+Value advertisement_interval (.*)
+Value accept_mode (.*)
+Value preemption_mode (.*)
+Value preempt_delay (.*)
+
+Start
+ ^VRRP State:\s+${vrrp_state}
+ ^VRRP Version:\s+${vrrp_version}
+ ^Interface\s+${interface}
+ ^\s+State:\s+${state}\s+IP Address:\s+${ip_address}\s+VRRP State:\s+${vrrp_status}
+ ^\s+Virtual IP:\s+${virtual_ip}\s+Virtual Router ID:\s+${virtual_router_id}\s+Priority:\s+${priority}
+ ^\s+Advertisement Interval\s+\(millisec\):\s+${advertisement_interval}
+ ^\s+Accept Mode:\s+${accept_mode}
+ ^\s+Preemption Mode:\s+${preemption_mode}
+ ^\s+Preempt Delay\s+\(sec\):\s+${preempt_delay} -> Record

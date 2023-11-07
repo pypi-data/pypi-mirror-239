@@ -1,0 +1,12 @@
+Value interface_name (.*)
+Value state (.*)
+Value ip (.*)
+Value netmask (.*)
+Value vlan_id (.*)
+
+Start
+ ^Interface Name: ${interface_name}
+ ^State: ${state}
+ ^IP Address: ${ip}
+ ^Subnet Mask: ${netmask}
+ ^VLAN ID: ${vlan_id}

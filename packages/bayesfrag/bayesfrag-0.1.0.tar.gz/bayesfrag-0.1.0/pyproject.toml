@@ -1,0 +1,27 @@
+[build-system]
+requires = [
+    "setuptools>=68.2.2",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bayesfrag"
+authors = [
+    {name = "Lukas Bodenmann"}
+]
+description = "Bayesian estimation of empirical seismic fragility functions"
+requires-python = ">=3.10"
+version = "0.1.0"
+readme = "README.md"
+license = {text = "BSD-3-Clause"}
+dependencies = [
+    "numpyro>=0.13.2",
+    "pandas>=1.5.3",
+    "arviz>=0.15.1",
+]
+
+[tool.setuptools]
+packages = ["bayesfrag"]
+
+[project.urls]
+"Repository" = "https://github.com/bodlukas/BayesFrag"

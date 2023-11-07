@@ -1,0 +1,2 @@
+[console_scripts]
+vkstest = vkstest.cli:main

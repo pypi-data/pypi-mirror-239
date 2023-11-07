@@ -1,0 +1,6 @@
+README.md
+setup.py
+iwort.egg-info/PKG-INFO
+iwort.egg-info/SOURCES.txt
+iwort.egg-info/dependency_links.txt
+iwort.egg-info/top_level.txt

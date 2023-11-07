@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: timesplitter
+Version: 1.0.4
+Summary: A classe TimeSplitter é útil para dividir séries temporais em conjuntos de treinamento e teste, especialmente quando se deseja controlar o tamanho desses conjuntos e incluir um intervalo entre eles. Ela oferece flexibilidade ao lidar com diferentes tipos de dados e é especialmente útil em tarefas de modelagem de séries temporais.
+Keywords: timeseries,train-test-split
+Author-email: Eduardo Messias de Morais <emdemor415@gmail.com>
+Maintainer-email: Eduardo Messias de Morais <emdemor415@gmail.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: black==23.7.0 ; extra == "lint"
+Requires-Dist: flake8==6.1.0 ; extra == "lint"
+Requires-Dist: Flake8-pyproject==1.2.3 ; extra == "lint"
+Requires-Dist: mypy==1.4.1 ; extra == "lint"
+Requires-Dist: bandit==1.7.5 ; extra == "lint"
+Requires-Dist: twine ; extra == "publish"
+Requires-Dist: flit ; extra == "publish"
+Requires-Dist: pytest==7.4.0 ; extra == "test"
+Requires-Dist: pytest-cov==4.1.0 ; extra == "test"
+Requires-Dist: pytest-mock==3.11.1 ; extra == "test"
+Requires-Dist: pytest-mypy==0.10.3 ; extra == "test"
+Project-URL: Homepage, https://emdemor.github.io
+Provides-Extra: lint
+Provides-Extra: publish
+Provides-Extra: test
+
+# Time-Splitter

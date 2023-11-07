@@ -1,0 +1,5 @@
+Offline_Data_Carpentry
+build
+dist
+offlinedatasci
+test

@@ -1,0 +1,27 @@
+__pycache__
+.vscode
+.env
+
+## Terraform files ##
+.terraform
+terraform.tfstate
+terraform.tfstate.backup
+.terraform.tfstate.lock.info
+.terraform.lock.hcl
+
+## Setup files ##
+infra/*/logs/*
+infra/*/config/*
+infra/*/main.tf
+infra/*/variables.tf
+infra/*/outputs.tf
+infra/*/versions.tf
+infra/*/build.sh
+infra/*/deploy.sh
+infra/*/data/*
+!infra/*/config/.gitkeep
+!infra/*/data/.gitkeep
+!infra/*/logs/.gitkeep
+
+## Flask files ##
+database.db

@@ -1,0 +1,6 @@
+coverage
+flake8
+unittest2
+pycobertura
+xmlrunner
+debugpy

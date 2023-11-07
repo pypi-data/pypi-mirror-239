@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+typer = "*"
+gitpython = "*"
+packaging = "*"
+
+[dev-packages]
+black = "*"
+pytest = "*"
+pytest-cov = "*"
+hypothesis = "*"
+pre-commit = "*"
+
+[scripts]
+test = "pytest ./tests --cov --cov-report term-missing"

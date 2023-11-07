@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pycracks
+Version: 0.9.0
+Summary: Detect Breaking Changes with Python.
+Author-email: "Ezequiel L. Castaño" <castanoezequielleonardo@gmail.com>
+Description-Content-Type: text/x-rst
+Requires-Dist: gitpython
+Requires-Dist: packaging
+Requires-Dist: typer
+
+# pycracks
+💢🔍 breaking change detection in Python - Compatible with Semantic Version and Semantic Release

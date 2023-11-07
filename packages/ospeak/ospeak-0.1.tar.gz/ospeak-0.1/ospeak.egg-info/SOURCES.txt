@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+ospeak/__init__.py
+ospeak/__main__.py
+ospeak/cli.py
+ospeak.egg-info/PKG-INFO
+ospeak.egg-info/SOURCES.txt
+ospeak.egg-info/dependency_links.txt
+ospeak.egg-info/entry_points.txt
+ospeak.egg-info/requires.txt
+ospeak.egg-info/top_level.txt
+tests/test_ospeak.py

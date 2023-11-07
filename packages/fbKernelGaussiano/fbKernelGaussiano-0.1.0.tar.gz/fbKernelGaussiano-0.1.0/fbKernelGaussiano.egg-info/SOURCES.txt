@@ -1,0 +1,9 @@
+README.md
+setup.py
+fbKernelGaussiano/__init__.py
+fbKernelGaussiano/modulo.py
+fbKernelGaussiano.egg-info/PKG-INFO
+fbKernelGaussiano.egg-info/SOURCES.txt
+fbKernelGaussiano.egg-info/dependency_links.txt
+fbKernelGaussiano.egg-info/requires.txt
+fbKernelGaussiano.egg-info/top_level.txt

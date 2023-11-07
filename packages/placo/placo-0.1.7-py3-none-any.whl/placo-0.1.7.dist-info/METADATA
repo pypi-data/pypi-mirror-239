@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: placo
+Version: 0.1.7
+Summary: PlaCo: Planing and Control for Robots
+Home-page: https://github.com/rhoban/placo/
+Author: Rhoban team
+Author-email: team@rhoban.com
+License: UNKNOWN
+Keywords: robot robotics kinematics dynamics urdf pinocchio
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Requires-Dist: meshcat
+Requires-Dist: numpy
+Requires-Dist: pin
+
+UNKNOWN
+

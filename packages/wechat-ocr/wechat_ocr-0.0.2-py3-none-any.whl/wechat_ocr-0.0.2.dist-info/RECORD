@@ -1,0 +1,12 @@
+wechat_ocr/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wechat_ocr/default_callback.py,sha256=lAQvhzHBl3c8vBiLKR03KWcSogicIxfZxRhlBUymidQ,2653
+wechat_ocr/mmmojo_dll.py,sha256=9Wnv8-HqNnFMQxSLRWzeLwULiraTgBnLj66VENRTL9k,6655
+wechat_ocr/ocr_manager.py,sha256=MBloctXbbHa0DCj6Yn8vioAHiKPHbvhjKnlmUTy5GU4,5128
+wechat_ocr/ocr_protobuf_pb2.py,sha256=S7g4JWkl_TxPjxO506gekneI0w35lK2g5gFBMIAU4fI,3249
+wechat_ocr/utility_protobuf_pb2.py,sha256=76Fy777BK_-B5ZXhOwKD_SsR8P1B6lDPysiAv2PtAHg,3064
+wechat_ocr/winapi.py,sha256=yrPqgcrLZSGPkRPpwJUl2_WYiR9aPGZdbtf66ewt_Ec,8559
+wechat_ocr/xplugin_manager.py,sha256=5QtTSfN5XUBVrBPg2a-OSK5DZKsL5Sj1xsbcwuYMNNE,8573
+wechat_ocr-0.0.2.dist-info/METADATA,sha256=iMIF1rFlX6iE1ELnaEyuo6DbKodz_w6vpzzIvcXmSAc,1722
+wechat_ocr-0.0.2.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+wechat_ocr-0.0.2.dist-info/licenses/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+wechat_ocr-0.0.2.dist-info/RECORD,,

@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+osqua/__init__.py
+osqua/x.py
+osqua.egg-info/PKG-INFO
+osqua.egg-info/SOURCES.txt
+osqua.egg-info/dependency_links.txt
+osqua.egg-info/requires.txt
+osqua.egg-info/top_level.txt

@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: osqua
+Version: 0.0.1
+Summary: Osqua package for simulating quantum computing based on oscillatory quota
+Home-page: https://github.com/lapyl/osqua
+Author: Lalit Patel
+Author-email: llsr@att.net
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: networkx
+Requires-Dist: matplotlib
+
+# OsQua package
+
+## for simulating quantum computing based on oscillatory quota
+
+### How to install
+
+pip install osqua
+
+### How to upgrade
+
+pip install --upgrade osqua
+
+### How to use
+
+import osqua
+or
+from osqua import \*
+
+### Modules included
+
+### Version History
+
+- 0.0.1 2023-11-06 Initial release.

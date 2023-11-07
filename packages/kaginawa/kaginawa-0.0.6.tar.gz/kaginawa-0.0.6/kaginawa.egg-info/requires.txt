@@ -1,0 +1,9 @@
+requests>=2
+
+[dev]
+black>=23
+flake8>=6
+isort>=5
+
+[test]
+pytest>=7

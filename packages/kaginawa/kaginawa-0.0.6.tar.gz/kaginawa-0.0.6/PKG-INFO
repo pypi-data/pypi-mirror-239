@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: kaginawa
+Version: 0.0.6
+Summary: *Unofficial* client for the Kagi API
+Author-email: Estelle Poulin <dev@inspiredby.es>
+License: GPLv3
+Project-URL: homepage, https://github.com/estheruary/kaginawa
+Project-URL: repository, https://github.com/estheruary/kaginawa
+Project-URL: changelog, https://github.com/estheruary/kaginawa/-/blob/main/CHANGELOG.md
+Keywords: kaginawa
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: requests>=2
+Provides-Extra: test
+Requires-Dist: pytest>=7; extra == "test"
+Provides-Extra: dev
+Requires-Dist: black>=23; extra == "dev"
+Requires-Dist: flake8>=6; extra == "dev"
+Requires-Dist: isort>=5; extra == "dev"
+
+# Kaginawa
+
+![project icon](project_icon.png)
+
+An *unofficial* client to Kagi APIs
+
+## Installation
+
+```bash
+pip install kaginawa
+```
+
+## Usage
+
+```python
+from kaginawa.client import Kaginawa
+
+client = Kaginawa(token="YOUR_API_TOKEN")
+
+response: KaginawaResponse = client.generate(
+    "Write a logstash pipeline file to send a heartbeat to a server "
+    "https://example.com/heartbeat every 30 seconds"
+)
+
+print(response.output)
+
+for reference in response.references:
+    print(reference.title)
+    print(reference.snippet)
+    print(reference.url)
+```
+
+## FAQ
+
+<dl>
+ <dt>Do you support the search API?</dt>
+ <dd>I would love to but I don't have enterprise.</dd>
+
+ <dt>Why the name?</dt>
+ <dd>Because it's like the only word that starts with Kagi</dd>
+</dl>
+
+![kagi_meme](kagi_meme.png)
+
+## Authors
+
+* Estelle Poulin <dev@inspiredby.es>

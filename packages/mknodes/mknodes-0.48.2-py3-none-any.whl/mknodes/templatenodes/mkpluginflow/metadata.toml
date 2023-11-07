@@ -1,0 +1,17 @@
+[metadata]
+name = "MkPluginFlow"
+icon = "mdi:dev-to"
+status = "new"
+group = "documentation"
+virtual_children = true
+
+[examples.regular]
+title = "Regular"
+jinja = """
+{{ "mkdocs.contrib.search.SearchPlugin" | to_class | MkPluginFlow }}
+"""
+
+[output.markdown]
+template = """
+{{ node.items | join("\n") }}
+"""

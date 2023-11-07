@@ -1,0 +1,13 @@
+electromyogram/__init__.py,sha256=aUAvmXB-s-7CGKUyRtkyGpp2KJRDGHS7hM_L6sVzWNw,340
+electromyogram/consts.py,sha256=AjLXFQwXilVYlSzCFPv6c1H6LgtOEZIHfb5NoKCBXOI,15478
+electromyogram/face_model.h5,sha256=6MGfJffKRdhfwyEOpDfpy0r6npK5e0CZgrgz0kKGx50,26416
+electromyogram/locations_fridlund.json,sha256=csS2C0HuLz5pyKQSFcBbsTDpZ_IOF_AfcrDzOgE6Gyk,1159
+electromyogram/locations_kuramoto.json,sha256=O2VcOVHb6EHkhMgt2aBqPqAXGfcm_y2OU_Fi7i5msyU,878
+electromyogram/plot.py,sha256=z_1jUWaS5Rt8LJ04WLhJ1dtx2zCSnRE_WEalRYf12eM,12819
+electromyogram/schemes.py,sha256=bA_JeJMPIZKKAoC_ZIp7DjarpQIKPtLevGXAKW90UwE,5783
+electromyogram/utils.py,sha256=-2QYVAAbda4NAR791ffy_HbRY0ScujGlXiJd2GefmN8,645
+electromyogram-1.1.0.dist-info/LICENSE.txt,sha256=y-CEKxFE6o2zyNOoX7a5n5mjy6ym7EHMuswJiC57cMw,1079
+electromyogram-1.1.0.dist-info/METADATA,sha256=jIzm9u-bJCUVPmSt9w20HV_98z66_3GfSyW0gx2AT7E,5455
+electromyogram-1.1.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+electromyogram-1.1.0.dist-info/top_level.txt,sha256=q_5TAnVwrrU4_G-Ba8-N5qaPrlWqRVibKvJKxZyPWTU,15
+electromyogram-1.1.0.dist-info/RECORD,,

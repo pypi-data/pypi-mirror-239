@@ -1,0 +1,39 @@
+# To build this image:
+# docker build -f ransaclp.docker -t ransaclp .
+# 
+# To run this container:
+# 
+# docker run -it --rm -e DISPLAY=unix$DISPLAY -v /home/scpmaotj:/tmp -v /tmp/.X11-unix:/tmp/.X11-unix ransaclp /bin/bash -c 'cat /ransaclp.readme.txt; cd /ransaclp; bash'
+# docker run -it --rm -e DISPLAY=unix$DISPLAY -v /home/bee:/tmp -v /tmp/.X11-unix:/tmp/.X11-unix ransaclp /bin/bash -c 'cat /ransaclp.readme.txt; cd /ransaclp; bash'
+
+#Download base image Ubuntu
+FROM ubuntu:22.04
+
+# LABEL about the custom image
+LABEL maintainer="jmartinezot@gmail.com"
+LABEL version="0.1"
+LABEL description="ransaclp"
+
+# Disable Prompt During Packages Installation
+ARG DEBIAN_FRONTEND=noninteractive
+
+RUN apt-get update -y && apt-get install -y python3-pip
+RUN apt-get update -y && apt-get install -y libgl1-mesa-glx
+
+RUN pip3 install numpy==1.22.0 
+RUN pip3 install open3d==0.16.0
+RUN pip3 install scikit-learn==1.1.3
+RUN pip3 install scipy==1.9.3
+RUN pip3 install Sphinx==4.3.2
+RUN pip3 install sphinx-automodapi==0.14.1
+RUN pip3 install sphinx-rtd-theme==1.1.1
+RUN pip3 install mrdja
+
+#COPY ransaclp.readme.txt /
+#ADD ransaclp /ransaclp
+
+#WORKDIR ransaclp
+
+
+
+    

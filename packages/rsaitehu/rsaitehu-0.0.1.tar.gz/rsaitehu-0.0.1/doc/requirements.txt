@@ -1,0 +1,15 @@
+matplotlib>=3.5.3
+numba>=0.56.4
+numpy>=1.22.0
+open3d>=0.16.0
+pandas>=1.5.1
+pingouin>=0.5.3
+pyreadr>=0.4.9
+scikit-learn>=1.1.3
+# rsaitehu>=0.0.14
+scipy>=1.9.3
+seaborn>=0.12.1
+Sphinx>=4.3.2
+sphinx-automodapi>=0.14.1
+sphinx-rtd-theme>=1.1.1
+

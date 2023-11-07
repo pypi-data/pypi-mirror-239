@@ -1,0 +1,10 @@
+README.md
+setup.py
+webcamgpt/__init__.py
+webcamgpt/core.py
+webcamgpt/utils.py
+webcamgpt.egg-info/PKG-INFO
+webcamgpt.egg-info/SOURCES.txt
+webcamgpt.egg-info/dependency_links.txt
+webcamgpt.egg-info/requires.txt
+webcamgpt.egg-info/top_level.txt

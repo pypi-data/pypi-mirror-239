@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: webcamgpt
+Version: 0.1.0
+Summary: WebcamGPT - chat with video stream
+Home-page: https://github.com/roboflow/webcamgpt
+Author: Piotr Skalski
+Author-email: piotr.skalski92@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8,<3.12.0
+Description-Content-Type: text/markdown
+Requires-Dist: supervision
+Requires-Dist: openai
+Requires-Dist: opencv-python
+Requires-Dist: numpy
+Requires-Dist: requests
+
+# gpt-stream
+
+## 👋 hello
+
+TODO
+
+## 💻 Install
+
+```bash
+```
+
+## 📸 Execute examples
+
+```bash
+```

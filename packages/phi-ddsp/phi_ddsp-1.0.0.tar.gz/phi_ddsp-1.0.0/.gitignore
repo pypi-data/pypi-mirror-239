@@ -1,0 +1,93 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+__pycache__/
+
+# Python env
+.env
+
+# Compiled Python files
+*.pyc
+
+# Compiled C extensions
+*.pyd
+
+# Caches
+__pycache__/
+.ccache/
+mypy_cache/
+mypy_cache_bisect/
+mypy_cache_data/
+mypy_cache_misc/
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+eggs/
+.pytest_cache/
+.tox/
+.pyright/
+__pypackages__/
+app.venv/
+.venv/
+pip-xfer/
+*.venv/
+.eggs/
+
+# Virtual Environment
+venv/
+venv*/
+ENV/
+env/
+.env/
+env.bak/
+.env.bak/
+.venv/
+.venv*/
+envs/
+.envs/
+.envrc
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+*.swm
+
+# Test database
+test_db.sqlite3
+
+# Package logs
+log/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Linux and WSL
+*~
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# Jetbrains
+.idea
+.idea/*
+

@@ -1,0 +1,17 @@
+README.md
+setup.py
+magic_commit/__init__.py
+magic_commit/__main__.py
+magic_commit/config.py
+magic_commit/magic_commit.py
+magic_commit.egg-info/PKG-INFO
+magic_commit.egg-info/SOURCES.txt
+magic_commit.egg-info/dependency_links.txt
+magic_commit.egg-info/entry_points.txt
+magic_commit.egg-info/requires.txt
+magic_commit.egg-info/top_level.txt
+magic_commit/templates/system.jinja
+magic_commit/templates/user.jinja
+magic_commit/tests/__init__.py
+magic_commit/tests/test_config.py
+magic_commit/tests/test_magic_commit.py

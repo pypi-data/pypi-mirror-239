@@ -1,0 +1,8 @@
+ansible_validations/__init__.py,sha256=4xFW-c7GgYZ-yP2qA2qCv3--NwGYSDUL6CH_qEy82Nk,298
+ansible_validations/plugins/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ansible_validations/plugins/action/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ansible_validations/plugins/action/validate_vars.py,sha256=aeS46wx1OnT462oQZ-YqY1_TBezETzdLqaTeSeW2aBI,3337
+ansible_validations-0.1.1.dist-info/LICENSE,sha256=OvuPsLYi_Qvn4x0xDBb_TPiyyvKbCfxIBr8TXFkIfYM,1057
+ansible_validations-0.1.1.dist-info/METADATA,sha256=uhV-H_FTNGXiRHVvZo6RtPmi-xr70F1aO14CWmZ2ktM,407
+ansible_validations-0.1.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+ansible_validations-0.1.1.dist-info/RECORD,,

@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: bzutil
+Version: 1.0.2
+Summary: Integrates a number of commonly used Python functions, methods, algorithms, and other toolkits for easy reuse.
+Author: mrbingzhao
+Author-email: mrbingzhao@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.6
+License-File: LICENSE
+

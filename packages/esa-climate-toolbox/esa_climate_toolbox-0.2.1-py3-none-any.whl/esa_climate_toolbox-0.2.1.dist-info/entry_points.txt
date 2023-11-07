@@ -1,0 +1,2 @@
+[xcube_plugins]
+esa-climate-toolbox = esa_climate_toolbox.plugin:init_plugin

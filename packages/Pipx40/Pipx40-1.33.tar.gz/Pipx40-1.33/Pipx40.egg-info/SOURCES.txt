@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+Pipx40/__init__.py
+Pipx40.egg-info/PKG-INFO
+Pipx40.egg-info/SOURCES.txt
+Pipx40.egg-info/dependency_links.txt
+Pipx40.egg-info/not-zip-safe
+Pipx40.egg-info/requires.txt
+Pipx40.egg-info/top_level.txt

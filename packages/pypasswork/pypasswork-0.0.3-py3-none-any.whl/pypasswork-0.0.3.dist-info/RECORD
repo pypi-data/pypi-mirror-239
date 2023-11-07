@@ -1,0 +1,15 @@
+pypasswork/__init__.py,sha256=BJTeAc3tEHrN5mCwNzKg3erFagx7_SNalA7IjYYj8Y8,170
+pypasswork/__version__.py,sha256=yyLtGsBhynC-sSHdax-rRGvHNjH-gdWxIY68WnPVfDw,22
+pypasswork/exceptions.py,sha256=zvz6UWpWESe_eisLsCxIjg-Rc6rKVSYzdP6IN5lv_8g,432
+pypasswork/passwork.py,sha256=tCGBlnVp1xrFOm9JWCu_2miKj13qqB1peKHZjHjumKk,1717
+pypasswork/request.py,sha256=wlw34mOXMMxt814Erhvig3DndUs6Tq7wLR7LPHrMBec,2390
+pypasswork/response.py,sha256=tZSes2jkYg0ccsZs6fA5_y76zcHwap4QDLfyTQ4P6Qw,710
+pypasswork/operations/__init__.py,sha256=0KjWhXDg8d_IbR03PIOsabBrgI1w_Azwq-kDnJbQjQQ,73
+pypasswork/operations/folders.py,sha256=FHryy1YoK5iAuRP8_otI0Ibf4YixOntvovBTrgYoYsM,754
+pypasswork/operations/passwords.py,sha256=-TCacY_uL3DluB9e3eTy4w9prQJJgM1t-vRpM79NOMg,4090
+pypasswork/operations/vaults.py,sha256=2uIVTgxPaEyF6Cvb_Slw73uyOFED1hEyowdgJx4dHNk,3064
+pypasswork-0.0.3.dist-info/LICENSE,sha256=xpVakh1jNMQOJIN4FrPfFTKG3bmikQ1jI6q7Mip08Rc,1066
+pypasswork-0.0.3.dist-info/METADATA,sha256=Av8q7VTCF-mwK3fS8QsGz0xVYN6LU7GxDBXdl__I6ro,1771
+pypasswork-0.0.3.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+pypasswork-0.0.3.dist-info/top_level.txt,sha256=9o2q_CVzlSILSNeAS8YyHsfA6PswwPyrQw3vO5LL3Ps,11
+pypasswork-0.0.3.dist-info/RECORD,,

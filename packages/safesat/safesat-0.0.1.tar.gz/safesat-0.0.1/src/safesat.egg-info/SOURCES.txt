@@ -1,0 +1,8 @@
+README.rst
+pyproject.toml
+src/safesat/core.py
+src/safesat.egg-info/PKG-INFO
+src/safesat.egg-info/SOURCES.txt
+src/safesat.egg-info/dependency_links.txt
+src/safesat.egg-info/requires.txt
+src/safesat.egg-info/top_level.txt

@@ -1,0 +1,21 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "safesat"
+version = "0.0.1"
+dependencies = [
+    # Add your base dependencies here.
+    # "numpy",
+]
+
+[project.optional-dependencies]
+dev = [
+    # Add your development dependencies here.
+    # "pytest",
+]

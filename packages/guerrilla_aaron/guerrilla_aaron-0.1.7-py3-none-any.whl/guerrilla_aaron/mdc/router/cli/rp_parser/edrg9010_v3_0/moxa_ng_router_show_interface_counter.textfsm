@@ -1,0 +1,33 @@
+Value port_1_tx (.*)
+Value port_2_tx (.*)
+Value port_3_tx (.*)
+Value port_4_tx (.*)
+Value port_5_tx (.*)
+Value port_6_tx (.*)
+Value port_7_tx (.*)
+Value port_8_tx (.*)
+Value port_9_tx (.*)
+Value port_10_tx (.*)
+Value port_1_rx (.*)
+Value port_2_rx (.*)
+Value port_3_rx (.*)
+Value port_4_rx (.*)
+Value port_5_rx (.*)
+Value port_6_rx (.*)
+Value port_7_rx (.*)
+Value port_8_rx (.*)
+Value port_9_rx (.*)
+Value port_10_rx (.*)
+
+
+Start
+ ^1/ 1                   ${port_1_tx}                   ${port_1_rx}
+ ^1/ 2                   ${port_2_tx}                   ${port_2_rx}
+ ^1/ 3                   ${port_3_tx}                   ${port_3_rx}
+ ^1/ 4                   ${port_4_tx}                   ${port_4_rx}
+ ^1/ 5                   ${port_5_tx}                   ${port_5_rx}
+ ^1/ 6                   ${port_6_tx}                   ${port_6_rx}
+ ^1/ 7                   ${port_7_tx}                   ${port_7_rx}
+ ^1/ 8                   ${port_8_tx}                   ${port_8_rx}
+ ^1/ 9                   ${port_9_tx}                   ${port_9_rx}
+ ^1/10                   ${port_10_tx}                   ${port_10_rx} -> Record

@@ -1,0 +1,25 @@
+Value index (.*)
+Value status (.*)
+Value session_name (\S+)
+Value dst_ip (.*)
+Value dst_port (.*)
+Value ttl_tcp_conn (.*)
+Value concur_tcp_conn (.*)
+Value action (.*)
+
+Start
+ ^ Session Control Policy Setting
+ ^--------------------------------------------------------------------------------
+ ^Index                             : ${index}
+ ^Status                            : ${status}
+ ^Name                              : ${session_name}
+ ^Destiantion IP                    : ${dst_ip}
+ ^Destiantion Port                  : ${dst_port}
+ ^Total TCP Connections Limitation  : ${ttl_tcp_conn}
+ ^Concurrent TCP Requests Limitation : ${concur_tcp_conn}
+ ^Action                            : ${action}
+ ^Severity                          : <4> Warning
+ ^Local Storage                     : Enable
+ ^Syslog Server                     : Disable
+ ^SNMP Trap Server                  : Disable -> Record
+ ^--------------------------------------------------------------------------------

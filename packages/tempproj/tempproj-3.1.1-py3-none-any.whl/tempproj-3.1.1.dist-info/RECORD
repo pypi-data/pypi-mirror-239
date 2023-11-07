@@ -1,0 +1,10 @@
+tempproj/__init__.py,sha256=Hm3Mx2oWX0WuMqb65s0cx-Ug-84Ca1g2EAVnyiJK5-A,386
+tempproj/test.py,sha256=hObrkB1ugbJ7mWLNK0MM8-Xt9hMPNE5X69EUbYidBvE,342
+tempproj/supervised_classification/__init__.py,sha256=LwtQiI-KxDUR8ohaNlNcMX6CCmk4b9aYClUlVEtQkFk,95
+tempproj/supervised_classification/_classification.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tempproj/supervised_classification/_regression.py,sha256=T0PlqqRC7Hi2eRuhJenKp8Yu4XCi5kpxGfc2_DLpo50,4526
+tempproj-3.1.1.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+tempproj-3.1.1.dist-info/METADATA,sha256=m9QRYPGrXRlQw7hrFWe3rqJHZq_oi3n-nYbx1hQZ7kc,1049
+tempproj-3.1.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+tempproj-3.1.1.dist-info/top_level.txt,sha256=-79Ktwy7G9JMnZdfjQOSIDsvrs3j6qwyodVservWp7A,9
+tempproj-3.1.1.dist-info/RECORD,,

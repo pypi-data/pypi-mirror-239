@@ -1,0 +1,3 @@
+[console_scripts]
+imephu=imephu.cli:app
+

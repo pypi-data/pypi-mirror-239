@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: Merkurial-FileUtils
+Version: 0.0.0
+Summary: Light Weight Class Based File Handling Module As Well As A File And Directory Counter Class
+Author-email: Brandon Marcure <brandon@merkurialphoenix.com>
+Project-URL: Homepage, https://github.com/ArisenPhoenix/FileUtils
+Project-URL: Bug Tracker, https://github.com/ArisenPhoenix/FileUtils/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# FileUtils
+
+# License
+GNU
+
+# Description
+FileUtils Is A Class Based On The 'os' Python Module.
+It Is More Robust And Pretty Intuitive Though It Only Uses Some Of The File Handling
+Aspects At This Time. Each Class Acts As A Pointer To Its Current Location In The 
+Filesystem. When Directly Printed It Will Prgitint Its Current Location. 

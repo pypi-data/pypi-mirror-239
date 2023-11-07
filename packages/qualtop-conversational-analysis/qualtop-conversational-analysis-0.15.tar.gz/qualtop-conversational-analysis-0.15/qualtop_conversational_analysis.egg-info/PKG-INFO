@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: qualtop-conversational-analysis
+Version: 0.15
+Summary: Experimental libraries for conversational analysis with llms.
+Home-page: https://github.com/elmugrearturo/
+Author: Arturo Curiel
+Author-email: me@arturocuriel.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: wheel
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: pandas
+Requires-Dist: openai
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: tiktoken
+Requires-Dist: ppscore
+Requires-Dist: plotly
+Requires-Dist: networkx
+Requires-Dist: langchain
+Requires-Dist: csv-schema-inference

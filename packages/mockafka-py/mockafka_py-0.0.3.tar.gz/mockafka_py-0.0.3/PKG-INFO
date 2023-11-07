@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: mockafka-py
+Version: 0.0.3
+Summary: A mock library for confluent kafka
+Home-page: https://github.com/alm0ra/mockafka-py
+Author: alm0ra
+Author-email: ali.mrd318@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: confluent-kafka (>=1.9.2)
+Project-URL: Documentation, https://github.com/alm0ra/mockafka-py/docs
+Project-URL: Repository, https://github.com/alm0ra/mockafka-py
+Description-Content-Type: text/markdown
+
+# mockafka 
+
+![Alt text](banner.png)
+
+fake version of confluent-kafka-python 

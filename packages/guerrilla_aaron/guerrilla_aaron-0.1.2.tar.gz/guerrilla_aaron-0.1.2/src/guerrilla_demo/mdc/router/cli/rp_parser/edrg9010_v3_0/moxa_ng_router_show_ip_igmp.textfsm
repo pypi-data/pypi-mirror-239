@@ -1,0 +1,8 @@
+Value vid (\d+)
+Value group (\d+\.\s*\d+\.\s*\d+\.\s*\d+)
+Value port (\d+)
+Value version (\w+)
+
+Start
+ ^${vid}
+ ^\s+${group}\s+${port}\s+${version} -> Record

@@ -1,0 +1,18 @@
+Value system_name (.*)
+Value system_location (.*)
+Value system_description (.*)
+Value maintainer_information (.*)
+Value mac_address (.*)
+Value serial_no (.*)     
+Value serial_uptime (.*)
+Value cpu_frequency (.*)
+
+Start
+ ^\s+System Name\s+:\s+${system_name}
+ ^\s+System Location\s+:\s+${system_location}
+ ^\s+System Description\s+:\s+${system_description}
+ ^\s+Maintainer Information\s+:\s+${maintainer_information}
+ ^\s+MAC Address\s+:\s+${mac_address}
+ ^\s+Serial No.\s+:\s+${serial_no}
+ ^\s+Serial Uptime\s+:\s+${serial_uptime}
+ ^\s+CPU Frequency\s+:\s+${cpu_frequency} -> Record

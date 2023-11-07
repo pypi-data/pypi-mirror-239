@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pcr2echo
+Version: 1.0.2
+Summary: Script to process PCR assembly sheet to an Echo CSV
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Author-email: Elizabeth Gardner <egar18111@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: ==3.10.5
+Requires-Dist: openpyxl==3.0.10
+Requires-Dist: pandas==1.4.2
+Description-Content-Type: text/markdown
+
+This is a readme file

@@ -1,0 +1,8 @@
+[console_scripts]
+brainreg-segment = brainreg_segment.segment:main
+
+[napari.manifest]
+cellfinder-napari = brainreg_segment:napari.yaml
+
+[napari.plugin]
+brainreg-segment = brainreg_segment.plugins

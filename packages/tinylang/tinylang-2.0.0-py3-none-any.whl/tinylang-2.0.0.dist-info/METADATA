@@ -1,0 +1,93 @@
+Metadata-Version: 2.1
+Name: tinylang
+Version: 2.0.0
+Summary: A tiny language interpreter
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: annotated-types ==0.5.0
+Requires-Dist: anyio ==3.7.1
+Requires-Dist: certifi ==2023.7.22
+Requires-Dist: contourpy ==1.1.1
+Requires-Dist: cycler ==0.12.1
+Requires-Dist: distro ==1.8.0
+Requires-Dist: fonttools ==4.43.1
+Requires-Dist: h11 ==0.14.0
+Requires-Dist: httpcore ==1.0.1
+Requires-Dist: httpx ==0.25.1
+Requires-Dist: idna ==3.4
+Requires-Dist: imageio ==2.31.5
+Requires-Dist: kiwisolver ==1.4.5
+Requires-Dist: lazy-loader ==0.3
+Requires-Dist: matplotlib ==3.8.0
+Requires-Dist: networkx ==3.2
+Requires-Dist: numpy ==1.26.1
+Requires-Dist: openai ==1.0.1
+Requires-Dist: opencv-python ==4.8.1.78
+Requires-Dist: packaging ==23.2
+Requires-Dist: pillow ==10.1.0
+Requires-Dist: pydantic ==2.4.2
+Requires-Dist: pydantic-core ==2.10.1
+Requires-Dist: pyparsing ==3.1.1
+Requires-Dist: python-dateutil ==2.8.2
+Requires-Dist: scikit-image ==0.22.0
+Requires-Dist: scipy ==1.11.3
+Requires-Dist: six ==1.16.0
+Requires-Dist: sniffio ==1.3.0
+Requires-Dist: tifffile ==2023.9.26
+Requires-Dist: tqdm ==4.66.1
+Requires-Dist: typing-extensions ==4.8.0
+
+# 🦜🔗🔍 Tinylang
+[Documentation](https://astelmach01.github.io/tinylang/)
+
+
+Make working with LLMs insanely simpler and easier than ever before.
+
+## What is tinylang?
+A hackable and simpler Langchain.
+
+Langchain can be very cumbersome and annoying to work with. It's too big, complicated, and shoves pre-made prompts down your throat.
+
+With tinylang, everything is intuitive and customizable, following most of the Langchain API.
+
+
+## Installation
+
+```shell
+pip install tinylang
+```
+
+## Usage
+
+
+```python
+from tinylang.chains import Chain
+from tinylang.llms import OpenAI
+from tinylang.memory import ConversationMemory
+
+model = "gpt-3.5-turbo"
+
+chatGPT = OpenAI(
+    openai_api_key=openai_api_key,
+    openai_organization=openai_organization,
+    model=model,
+)
+
+memory = ConversationMemory()
+
+chain = Chain(
+    llm=chatGPT,
+    memory=memory,
+)
+
+prompt = "Hello"
+print(chain.run(prompt))
+```
+
+
+## Features
+
+- 🧠 Conversation Memory. Keep all or some aspects of your conversation
+- 🛸 OpenAI LLMs. It couldn't be easier to call the OpenAI API.
+- 💻 Prompts. Simple and hackable.
+- 🤖 Agents. Coming soon!

@@ -1,0 +1,15 @@
+setup.py,sha256=Fr7Ua-MhEcYzVDOgHjbcIL3Dft97h0dq37GUFYCin7s,1430
+runstardist/__init__.py,sha256=i2pEfku6FfNFCoN3dHI2lfNo8INT7xbGRGsZSyVUF8Q,125
+runstardist/augment.py,sha256=YVVRAQM0kjk0L0MT_ih-uqFTGNKHFoUax-ktTsTx-eE,1958
+runstardist/config.py,sha256=xc21OtYCI7lt838LczRjz0iFgjpO3I2o8vFW9vO9rqA,5198
+runstardist/evaluate.py,sha256=70U2xM4cBiMSw48nX0MdnJHiOCJ1O-aeWFhStcDtiH8,10103
+runstardist/predict.py,sha256=akdc7XqMSkm1W4LML7RsJuKNbqt18bmrKxyltV8TMmE,5811
+runstardist/train.py,sha256=3Bk5vfVKH2Fx2JGhyAmz9nA_Et6a6WkGpew5qNv5csE,8588
+runstardist/utils.py,sha256=ormf2GFj8YdAvYJabSjRfrY3Qf2h2jG-S6xWI4pLZkU,7039
+runstardist/dataio/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+runstardist/dataio/hdf5.py,sha256=heyUsCN9cGQ0mbQM0ilJJEP6k4rXILXk-9bJPkVDT3U,3684
+runstardist/dataio/tiff.py,sha256=8STHmNuYyExyjxsGK4E_PCgctXu1JU7LI6sVTm0OsnU,5189
+run_stardist-0.0.2.dist-info/METADATA,sha256=igAD9xnhFpFMkSjWer6YvFvHa0E7dhAPcUbXjdJ7Pug,9273
+run_stardist-0.0.2.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+run_stardist-0.0.2.dist-info/entry_points.txt,sha256=-H0eAM8uHzcr3hGj_t8kU_S40aM8m7TC1_fLZ2Bz7nA,102
+run_stardist-0.0.2.dist-info/RECORD,,

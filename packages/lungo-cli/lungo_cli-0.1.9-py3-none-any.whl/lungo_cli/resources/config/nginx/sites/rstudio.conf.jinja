@@ -1,0 +1,46 @@
+{% if config.modules.rstudio.enabled %}
+location = /app/rstudio {
+    include snippets/proxy.conf;
+    include snippets/auth.conf;
+
+    if ($arg_iframe) {
+        return 307 $scheme://$host/app/rstudio/?$args;
+    }
+
+    proxy_pass http://node;
+}
+
+location /app/rstudio/ {
+    include snippets/proxy.conf;
+    include snippets/auth.conf;
+
+    if ($arg_iframe) {
+        return 480;
+    }
+
+    # Just pass them through because websocket requests have no referer header and cannot be reliably patched
+    if ($http_upgrade = websocket) {
+        return 480;
+    }
+
+    if ($http_referer ~* \?.*iframe=1.*$) {
+        return 307 $scheme://$host$escaped_uri?iframe=1&$args;
+    }
+
+    error_page 480 = @rstudio;
+    proxy_pass http://node;
+}
+
+location @rstudio {
+    include snippets/proxy.conf;
+    include snippets/auth.conf;
+
+    # Break into two lines to avoid regex capturing group being overwritten
+    rewrite ^ $escaped_uri?$filtered_args?;
+    rewrite ^/app/rstudio/(.*)$ /$1 break;
+
+    proxy_set_header X-RStudio-Root-Path /app/rstudio;
+    proxy_pass http://rstudio;
+    proxy_redirect ~*^(?:https?://[^/]+)?/app/rstudio([^?]*)\??(.*)$ /app/rstudio$1?iframe=1&$2;
+}
+{% endif %}

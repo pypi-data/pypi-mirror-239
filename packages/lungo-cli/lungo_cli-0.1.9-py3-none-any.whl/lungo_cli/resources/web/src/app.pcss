@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn {
+        @apply animate-none;
+        @apply duration-0;
+        @apply normal-case;
+    }
+
+    .divider {
+        @apply m-0;
+    }
+
+    .drawer-side > .drawer-overlay {
+        @apply cursor-auto;
+        @apply duration-0;
+    }
+
+    .drawer-side > *:not(.drawer-overlay) {
+        @apply duration-300;
+        @apply ease-out;
+    }
+
+    .drawer-toggle:checked ~ .drawer-side > .drawer-overlay {
+        @apply bg-black/60;
+    }
+
+    .modal:not(dialog:not(.modal-open)),
+    .modal::backdrop {
+        @apply bg-black/60;
+    }
+
+    .swap > * {
+        @apply duration-200;
+        @apply ease-in-out;
+    }
+}
+
+@layer utilities {
+    .scrollbar-none {
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+    }
+
+    .transition {
+        @apply duration-200;
+    }
+}

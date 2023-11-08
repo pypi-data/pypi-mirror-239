@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: GTAlib-DataAdjust
+Version: 0.1.2
+Summary: Libreria para el ajuste de datos utilizando el método del kernel Gaussiano
+Home-page: https://gitlab.com/gtorresa312/trabajos-en-clase.git
+Author: German
+Author-email: german.torres@udea.edu.co
+License: MIT
+Requires-Python: >=3.11.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy ==1.26.1
+Requires-Dist: pandas ==2.1.2
+Requires-Dist: matplotlib ==3.8.1
+
+# DataAdjustment
+
+`DataAdjustment` es una clase Python que proporciona funcionalidades para el ajuste de datos utilizando el metodo del kernel Gaussiano. Esta clase es util para suavizar series de tiempo de datos, lo que puede ayudar a visualizar tendencias y patrones de manera mas clara.
+
+## Requisitos
+
+- Python 3.11.6
+- numpy 1.26.1
+- pandas 2.1.2
+- matplotlib 3.8.1
+
+
+
+## InstalaciÃ³n
+
+Para instalar la libreria, utiliza el comando
+
+```bash
+pip install GTAlib-DataAdjust
+```
+
+
+## Uso
+La estructura base para implementar la librerÃ­a es:
+
+```python
+# Importar la clase DataAdjustment
+from data_adjustment import DataAdjustment
+
+# Crear una instancia de DataAdjustment con el archivo CSV de datos y valor de sigma (opcional)
+adjustment = DataAdjustment('datos.csv', sigma=1)
+
+# Graficar la curva suavizada junto con los datos reales
+adjustment.plot_smooth_curve()
+
+# Graficar la derivada de la curva suavizada
+adjustment.plot_derivative()
+```
+

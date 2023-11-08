@@ -1,0 +1,5 @@
+setup.py
+bad_tron.egg-info/PKG-INFO
+bad_tron.egg-info/SOURCES.txt
+bad_tron.egg-info/dependency_links.txt
+bad_tron.egg-info/top_level.txt

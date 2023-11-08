@@ -1,0 +1,24 @@
+[project]
+name = "pantarei"
+description = "A minimal and flexible workflow manager"
+readme = "README.md"
+version = "0.1.0"
+authors = [
+    {name = "Daniele Coslovich", email = "daniele.coslovich@umontpellier.fr"}
+]
+requires-python = ">=3.8"
+license = {text = "GPLv3"}
+dependencies = [
+    "dill",
+]
+classifiers = [
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Programming Language :: Python :: 3",
+    "Development Status :: 5 - Production/Stable"
+]
+
+[project.urls]
+repository = "https://framagit.org/coslo/pantarei"
+# homepage = ""
+# documentation = ""
+# changelog = ""

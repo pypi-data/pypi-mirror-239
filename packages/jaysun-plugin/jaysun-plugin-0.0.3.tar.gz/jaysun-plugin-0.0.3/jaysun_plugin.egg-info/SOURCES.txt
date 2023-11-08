@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+jaysun_plugin.egg-info/PKG-INFO
+jaysun_plugin.egg-info/SOURCES.txt
+jaysun_plugin.egg-info/dependency_links.txt
+jaysun_plugin.egg-info/requires.txt
+jaysun_plugin.egg-info/top_level.txt

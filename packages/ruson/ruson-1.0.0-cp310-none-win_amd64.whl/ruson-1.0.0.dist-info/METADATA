@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ruson
+Version: 1.0.0
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Summary: Asynchronous MongoDB Driver Wrapper For Rust MongoDB crate
+Keywords: rust,mongo,driver,database
+Author-email: João Severo <contato@gmail.com>
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# Ruson-ODM
+
+

@@ -1,0 +1,17 @@
+format: jb-book
+root: book/Landing
+
+parts:
+  - caption: Getting started
+    chapters:
+    - file: book/Description
+    - file: book/Installation
+  - caption: Examples
+    chapters:
+    - file: book/Standard_workflow
+    - file: book/Signal_displacement
+  - caption: How to
+    chapters:
+    - file: book/Layer_as_data
+    - file: book/Reshaping_data
+    - file: book/Multi_cell

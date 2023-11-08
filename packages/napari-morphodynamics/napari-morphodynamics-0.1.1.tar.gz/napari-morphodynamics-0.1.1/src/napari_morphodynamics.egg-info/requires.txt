@@ -1,0 +1,7 @@
+morphodynamics
+napari-convpaint
+napari-guitils
+napari-matplotlib
+
+[cellpose]
+cellpose

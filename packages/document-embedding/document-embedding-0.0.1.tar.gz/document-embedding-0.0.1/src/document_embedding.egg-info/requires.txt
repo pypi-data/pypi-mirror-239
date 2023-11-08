@@ -1,0 +1,16 @@
+numpy
+numba
+sentence-transformers
+torch
+mcerp
+nltk
+
+[dev]
+isort
+pytest
+rope
+toml
+yapf
+
+[test]
+pytest

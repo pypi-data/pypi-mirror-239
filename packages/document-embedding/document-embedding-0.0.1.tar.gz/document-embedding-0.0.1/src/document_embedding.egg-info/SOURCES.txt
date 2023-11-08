@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+src/document_embedding/average.py
+src/document_embedding/base.py
+src/document_embedding/pert.py
+src/document_embedding/sentences.py
+src/document_embedding.egg-info/PKG-INFO
+src/document_embedding.egg-info/SOURCES.txt
+src/document_embedding.egg-info/dependency_links.txt
+src/document_embedding.egg-info/requires.txt
+src/document_embedding.egg-info/top_level.txt
+tests/test_embeddings.py

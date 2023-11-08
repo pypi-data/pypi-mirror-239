@@ -1,0 +1,61 @@
+[project]
+name = "document-embedding"
+version = "0.0.1"
+dependencies = [
+  "numpy",
+  "numba",
+  "sentence-transformers",
+  "torch",
+  "mcerp",
+  "nltk",
+]
+readme = "README.md"
+
+[build-system]
+requires = ['setuptools>=36.6.0', 'wheel']
+build-backend = 'setuptools.build_meta'
+
+[project.optional-dependencies]
+dev = ["isort", "pytest", "rope", "toml", "yapf"]
+test = ['pytest']
+
+
+[tool.pylsp-mypy]
+enabled = true
+live_mode = false
+strict = true
+dmypy = true
+
+
+[tool.pyright]
+
+
+[tool.mypy]
+python_version = "3.11"
+check_untyped_defs = true
+ignore_missing_imports = true
+warn_unused_ignores = true
+warn_redundant_casts = true
+warn_unused_configs = true
+
+
+[tool.flake8]
+max-line-length = 120
+exclude = ".tox,.git,*/migrations/*,*/static/CACHE/*,docs,node_modules,venv"
+
+[tool.yapf]
+based_on_style = "google"
+column_limit = 120
+
+[tool.isort]
+multi_line_output = 3
+include_trailing_comma = true
+
+
+[tool.pycodestyle]
+max-line-length = 120
+exclude = ".tox,.git,*/migrations/*,*/static/CACHE/*,docs,node_modules,venv"
+
+
+[tool.ruff]
+line-length = 120

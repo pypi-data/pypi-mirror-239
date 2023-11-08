@@ -1,0 +1,17 @@
+pip_services4_kafka/__init__.py,sha256=iwhKnzeBJLKxpRVjvzwiRE63_zNpIBfaKLITauVph-0,24
+pip_services4_kafka/build/DefaultKafkaFactory.py,sha256=V-n9O8jzGUtvDZvhr-ZKmFL8UePq0CyLGP1r992Cl6M,1342
+pip_services4_kafka/build/KafkaMessageQueueFactory.py,sha256=9Q2ltXHPOjz9j_qqVtQBh3SsohewPlUsZ080ODW-SpU,1328
+pip_services4_kafka/build/__init__.py,sha256=d-MIBwasYJktHXigyLx5IDgoutiGqsx2G3uGHVHPLHQ,189
+pip_services4_kafka/connect/IKafkaMessageListener.py,sha256=SNEXlNC2Uh5sQ1hEjA2_lUuagjxFTsclDt8p47SqMJ0,518
+pip_services4_kafka/connect/KafkaConnection.py,sha256=k0uOY9YjO4cwBuXvMFVqaEs7AN79reR33Xlyx8MaSSI,20307
+pip_services4_kafka/connect/KafkaConnectionResolver.py,sha256=5-RsBHS6AaRwDfV0Ifhjv5nRk15Zgv-a4nyBB9ye3_g,7576
+pip_services4_kafka/connect/KafkaSubscription.py,sha256=dpcHY0YbnvxlHkdNoGeytx8wR7XTdTwmBYnRD9KHvnM,834
+pip_services4_kafka/connect/__init__.py,sha256=XHWyGL0xB5cmWEqNeqB6Sd8zDfJPdDp7JADZ7_qaUjc,341
+pip_services4_kafka/queues/KafkaMessageQueue.py,sha256=pfOudCt_MUjbmCYdhD00fLcfrPQLtT5EfB9sFDflMAE,22061
+pip_services4_kafka/queues/__init__.py,sha256=unJMPSBGU5qkMYbvEkMsgcILviGvj8kPtX0ERjfWi-U,107
+pip_services4_kafka-0.0.1.dist-info/LICENSE,sha256=ctsbTIPvRHYnix1lVKVTpbd-0rqcfojFRtLjwo8rAbs,1077
+pip_services4_kafka-0.0.1.dist-info/METADATA,sha256=uXFyFEW5DltgsK0grf8nXdZZ7-9UDYdW6-KS26Iynls,1486
+pip_services4_kafka-0.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+pip_services4_kafka-0.0.1.dist-info/top_level.txt,sha256=EjXwPV7nwFUpWBOCeLFxOfudHDXexsVjwZQy59I4Cbs,20
+pip_services4_kafka-0.0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pip_services4_kafka-0.0.1.dist-info/RECORD,,

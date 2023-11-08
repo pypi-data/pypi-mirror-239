@@ -1,0 +1,17 @@
+pyalapin/__init__.py,sha256=CLkJMvFRA4B7GlpsSRSHjbJQQLZciNd1dMP5UE8pO94,141
+pyalapin/engine/__init__.py,sha256=tEih-cfuKhG960IpTjUuu7z5dtrvdhWZ2v9wcQxkaaU,30
+pyalapin/engine/color.py,sha256=LAmvFHAFLChgM9khNzizO7LN1qvZj-OI2sRTdaax0uk,87
+pyalapin/engine/engine.py,sha256=QjgTnuMIut9YUi8o5uZXj5ne1F24XRvglUKq0TYN_Sw,44187
+pyalapin/engine/material.py,sha256=lsDC-a-JjfdulsW7D69aPCcxWNYTImpZWfaYqw0dJzA,43053
+pyalapin/engine/move.py,sha256=cbch3SrVzLY4jtlNCneTvfU_g83dGs88p90NPzohyec,20342
+pyalapin/interface/__init__.py,sha256=gbF8fBtPXC2CHVYzcks-9bDBrClKMW3nH7qvLbZwMc4,48
+pyalapin/interface/interface.py,sha256=HrvNYWgJJjsFvm9W-MxBnWeVwxMbyQtvN38yAkvUypc,15141
+pyalapin/player/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyalapin/player/ai_player.py,sha256=cxHtZuehzIqsCkezcqPuXLqGRkpsIK_3Qp_j3Nsearg,17645
+pyalapin/player/my_player.py,sha256=RZou5XPCZsqV3ywMrEQje1lila72VPzy5pjsoSzPuBs,9707
+pyalapin/player/player.py,sha256=r9hRrjI8lFi_xwFlRbmeXG12vWbJ9cNB2QB4ZZmnh-w,4090
+pyalapin-0.0.2.dist-info/LICENSE.md,sha256=4uk9TFA-SOlI9YY7XsTgcOZdBNbr9sqgjrTOKT9zW3w,1070
+pyalapin-0.0.2.dist-info/METADATA,sha256=lyR4tWB2KpT21ZwEJp8l9jZ6NQNJbYH-S_qRqvrAcxE,2451
+pyalapin-0.0.2.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+pyalapin-0.0.2.dist-info/top_level.txt,sha256=L3mltCDofuIpjjjLX5XgkH4VQPV-QjIGd1Q-WGSffuM,9
+pyalapin-0.0.2.dist-info/RECORD,,

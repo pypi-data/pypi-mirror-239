@@ -1,0 +1,5 @@
+LOG_TCP_HOST = "log_tcp_host"
+LOG_FORMAT_LOG_PORT = "log_format_log_port"
+LOG_NON_FORMAT_LOG_PORT = "log_non_format_log_port"
+LOG_FORMAT_LOG_OUTPUT_LOCAL = "log_format_log_output_local"
+LOG_NON_FORMAT_LOG_OUTPUT_LOCAL = "log_non_format_local_output_local"

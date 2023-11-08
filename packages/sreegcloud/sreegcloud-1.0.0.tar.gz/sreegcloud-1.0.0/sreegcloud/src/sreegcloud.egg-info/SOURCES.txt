@@ -1,0 +1,7 @@
+LICENSE
+setup.py
+sreegcloud/src/sreegcloud.egg-info/PKG-INFO
+sreegcloud/src/sreegcloud.egg-info/SOURCES.txt
+sreegcloud/src/sreegcloud.egg-info/dependency_links.txt
+sreegcloud/src/sreegcloud.egg-info/top_level.txt
+sreegcloud/src/sreegcloud.egg-info/SOURCES.txt

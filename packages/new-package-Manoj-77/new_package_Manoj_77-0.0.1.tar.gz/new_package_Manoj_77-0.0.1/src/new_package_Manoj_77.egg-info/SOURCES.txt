@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/new_package/__init__.py
+src/new_package/main.py
+src/new_package_Manoj_77.egg-info/PKG-INFO
+src/new_package_Manoj_77.egg-info/SOURCES.txt
+src/new_package_Manoj_77.egg-info/dependency_links.txt
+src/new_package_Manoj_77.egg-info/top_level.txt

@@ -1,0 +1,5 @@
+tqdm>=4.64.0
+numpy>=1.26.1
+scipy>=1.7.3
+yfinance>=0.2.14
+pandas-datareader>=0.10.0

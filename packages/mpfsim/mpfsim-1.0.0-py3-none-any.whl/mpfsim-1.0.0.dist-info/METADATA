@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: mpfsim
+Version: 1.0.0
+Summary: Multiphase Simulation
+Home-page: https://github.com/mmmahhhhe/mpfsim
+Author: He Ma
+Author-email: mahepetroleum@163.com
+Keywords: multiphase simulation,pipesim
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Multiphase Simulation
+Written by *He Ma*

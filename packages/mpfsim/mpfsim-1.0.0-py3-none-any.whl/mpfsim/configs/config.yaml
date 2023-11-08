@@ -1,0 +1,31 @@
+# 全局配置信息
+
+
+# ========== 常量 ==========
+# 标准状况
+sc: {
+    P: 0.101,  # 标况压力 (MPa)
+    T: 288.15,  # 标况温度 (K) 15 + 273.15
+    Z: 1,  # 标况天然气压缩系数 (-)
+}
+
+
+# ========== 相对路径 ==========
+font_path: assets/tnw_simsun.ttf
+
+database: assets/MPF.db
+database_test: assets/test.db
+variable_info: assets/variable_info.xlsx
+Params_info: assets/Params.xlsx
+
+
+# 路径拼接结构表
+dir_combination_key_list: [
+  [ 'font_path' ],
+  [ 'database' ],
+  [ 'database_test' ],
+  [ 'variable_info' ],
+  [ 'Params_info' ],
+
+#  [ 'dir_data_file', 'raw_data_dir' ],
+]

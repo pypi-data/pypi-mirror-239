@@ -1,0 +1,1 @@
+This software package contains an implementation of feature-preserving data visualization tool FeatureMAP.

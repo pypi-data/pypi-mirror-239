@@ -1,0 +1,2 @@
+NAME = "Tree"
+SIDEBAR = "radio"

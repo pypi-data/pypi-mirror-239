@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: cmeel-coinutils
+Version: 2.11.10
+Summary: cmeel distribution for coinutils
+Requires-Python: >= 3.8
+License-Expression: EPL
+Home-page: https://github.com/cmake-wheel/cmeel-coinutils
+Requires-Dist: cmeel
+Description-Content-Type: text/markdown
+
+# CMeel CoinUtils
+
+[CoinUtils](https://github.com/coin-or/CoinUtils) distribution for cmeel packages.

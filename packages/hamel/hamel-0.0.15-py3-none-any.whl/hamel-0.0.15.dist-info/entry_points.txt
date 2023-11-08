@@ -1,0 +1,7 @@
+[console_scripts]
+fetch_site = hamel.context:fetch_site_from_sitemap
+oai_list_models = hamel.oai:list_models
+oai_new_func = hamel.oai:create_openai_plugin_scaffolding
+
+[nbdev]
+hamel = hamel._modidx:d

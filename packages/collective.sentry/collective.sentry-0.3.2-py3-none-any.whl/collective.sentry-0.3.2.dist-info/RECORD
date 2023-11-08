@@ -1,0 +1,10 @@
+collective.sentry-0.3.2-py3.11-nspkg.pth,sha256=i6xUrA2XwWgxJ31EmKS8F0wCvv6o3Db_2POBVx1bZDM,559
+collective/sentry/__init__.py,sha256=kRpTtrj4m3BxO9WGCpQYv5YSRha3wuFMBxjFyasOCUU,72
+collective/sentry/configure.zcml,sha256=diqeV03oUfu6LNdw47ivG-6OZkPmjMqPvs5ybFqNcV0,456
+collective/sentry/error_handler.py,sha256=f4GJmiYBZOzaX9KFoQk65FdEdIJMOitrD7qDXLS-s7A,8509
+collective.sentry-0.3.2.dist-info/METADATA,sha256=xN_WMB4RrHJeK2BYoDYQc-vHwDnLo2_TRrd-Nvie7DU,4823
+collective.sentry-0.3.2.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+collective.sentry-0.3.2.dist-info/entry_points.txt,sha256=b5cHz9FINNyhunUZ6BJOQMhgeAi2x9UcnAkA9l8KEC4,40
+collective.sentry-0.3.2.dist-info/namespace_packages.txt,sha256=FyC0xnd95fkjCaKazR3nfIgNqhWMpB0mYBlzALyXKTg,11
+collective.sentry-0.3.2.dist-info/top_level.txt,sha256=FyC0xnd95fkjCaKazR3nfIgNqhWMpB0mYBlzALyXKTg,11
+collective.sentry-0.3.2.dist-info/RECORD,,

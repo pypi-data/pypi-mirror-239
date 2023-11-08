@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: regression-testing
+Version: 0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Alex Tang
+Author-email: at5604@nyu.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: appdirs (==1.4.4)
+Requires-Dist: bzip2
+Requires-Dist: ca-certificates (==2023.08.22)
+Requires-Dist: certifi (==2023.7.22)
+Requires-Dist: charset-normalizer (==3.3.0)
+Requires-Dist: click (==8.1.7)
+Requires-Dist: docker-pycreds (==0.4.0)
+Requires-Dist: gitdb (==4.0.10)
+Requires-Dist: gitpython (==3.1.37)
+Requires-Dist: idna (==3.4)
+Requires-Dist: install (==1.3.5)
+Requires-Dist: libffi (==3.4.4)
+Requires-Dist: ncurses (==6.4)
+Requires-Dist: numpy (==1.26.0)
+Requires-Dist: openssl (==3.0.11)
+Requires-Dist: pandas (==2.1.1)
+Requires-Dist: pathtools (==0.1.2)
+Requires-Dist: pip (==23.2.1)
+Requires-Dist: protobuf (==4.24.3)
+Requires-Dist: psutil (==5.9.5)
+Requires-Dist: python (==3.11.5)
+Requires-Dist: python-dateutil (==2.8.2)
+Requires-Dist: pytz (==2023.3.post1)
+Requires-Dist: pyyaml (==6.0.1)
+Requires-Dist: readline (==8.2)
+Requires-Dist: requests (==2.31.0)
+Requires-Dist: sentry-sdk (==1.31.0)
+Requires-Dist: setproctitle (==1.3.2)
+Requires-Dist: setuptools (==68.0.0)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: smmap (==5.0.1)
+Requires-Dist: sqlite (==3.41.2)
+Requires-Dist: tk (==8.6.12)
+Requires-Dist: tzdata (==2023.3)
+Requires-Dist: urllib3 (==2.0.6)
+Requires-Dist: wandb (==0.15.11)
+Requires-Dist: wheel (==0.41.2)
+Requires-Dist: xz (==5.4.2)
+Requires-Dist: zlib (==1.2.13)
+
+UNKNOWN
+
+

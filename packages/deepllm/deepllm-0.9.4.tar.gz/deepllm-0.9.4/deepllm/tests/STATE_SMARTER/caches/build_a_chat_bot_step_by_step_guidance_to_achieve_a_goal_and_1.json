@@ -1,0 +1,82 @@
+[
+  [
+    "short_mem",
+    {}
+  ],
+  [
+    "long_mem",
+    {
+      "The plan so far is: \"Build a Chat Bot.\n\". In this context my goal is \"You could consider using a pre-existing platform like Google s Dialogflow or IBM s Watson to create a chatbot, leveraging their advanced AI and machine learning capabilities.\" Advise me how to achieve \"You could consider using a pre-existing platform like Google s Dialogflow or IBM s Watson to create a chatbot, leveraging their advanced AI and machine learning capabilities\", step by step, while ensuring steps are consistent with each other. Itemize your answer, one sentence per line.": "1. Start by researching and understanding the capabilities of various chatbot platforms like Google's Dialogflow and IBM's Watson.\n2. Choose the platform that best suits your needs, taking into account factors such as cost, ease of use, and the specific features you require for your chatbot.\n3. Sign up for an account on the chosen platform.\n4. Familiarize yourself with the platform's interface and tools, using the provided tutorials and documentation.\n5. Start building your chatbot by defining its purpose and the main tasks it will perform.\n6. Design the conversation flow, considering the possible inputs from the user and how the chatbot should respond.\n7. Use the platform's AI and machine learning capabilities to train your chatbot, feeding it with sample conversations and adjusting its responses.\n8. Test your chatbot regularly during the development process, making necessary adjustments based on the results.\n9. Once satisfied with the chatbot's performance, integrate it into your desired platform (website, app, etc.).\n10. Monitor the chatbot's interactions with users, making improvements as needed based on user feedback and the chatbot's performance.",
+      "The plan so far is: \"Build a Chat Bot.\n\". In this context my goal is \"Another approach would be to code your own chatbot from scratch, using programming languages like Python or Java, which would give you more control over the bot s functionalities.\" Advise me how to achieve \"Another approach would be to code your own chatbot from scratch, using programming languages like Python or Java, which would give you more control over the bot s functionalities\", step by step, while ensuring steps are consistent with each other. Itemize your answer, one sentence per line.": "1. Start by learning the basics of a programming language like Python or Java, if you haven't already.\n2. Research and understand the principles of chatbot development, including natural language processing (NLP) and machine learning.\n3. Decide on the functionalities you want your chatbot to have, such as answering questions, providing recommendations, or carrying out tasks.\n4. Design a flowchart or diagram to visualize how your chatbot will interact with users and handle different types of inputs.\n5. Write the code for your chatbot, starting with basic functions like receiving and sending messages.\n6. Implement NLP techniques to enable your chatbot to understand and respond to natural language inputs.\n7. Use machine learning algorithms to allow your chatbot to learn from past interactions and improve its responses over time.\n8. Test your chatbot regularly throughout the development process to identify and fix any issues or bugs.\n9. Once your chatbot is working as expected, deploy it on the platform or platforms where it will be used.\n10. Continually monitor and update your chatbot after deployment to ensure it remains effective and up-to-date.",
+      "The plan so far is: \"Build a Chat Bot.\n\". In this context my goal is \"You could also opt for a hybrid approach, where you use a chatbot building platform for the basic structure and then customize it further with your own code.\" Advise me how to achieve \"You could also opt for a hybrid approach, where you use a chatbot building platform for the basic structure and then customize it further with your own code\", step by step, while ensuring steps are consistent with each other. Itemize your answer, one sentence per line.": "1. Start by researching and selecting a chatbot building platform that suits your needs, considering factors such as ease of use, customization options, and integration capabilities.\n2. Sign up for the chosen platform and familiarize yourself with its interface and features.\n3. Use the platform's tools to create the basic structure of your chatbot, including defining its purpose, designing conversation flows, and setting up responses.\n4. Test the basic chatbot to ensure it's functioning as expected and making logical conversation.\n5. Identify areas where you want to customize the chatbot beyond the capabilities of the platform, such as adding complex decision-making abilities or integrating with other software.\n6. Write your own code to implement these custom features, using the platform's API if available.\n7. Integrate your custom code with the chatbot on the platform, ensuring that it works seamlessly with the existing structure.\n8. Test the chatbot again, paying special attention to the areas where you've added custom code.\n9. Make any necessary adjustments to your code or the chatbot's structure based on your testing.\n10. Once you're satisfied with the performance of your chatbot, deploy it on your desired platform(s).\n11. Continuously monitor and update your chatbot as needed to ensure it remains effective and relevant."
+    }
+  ],
+  [
+    "prompt_toks",
+    393
+  ],
+  [
+    "compl_toks",
+    717
+  ],
+  [
+    "sys_prompt",
+    "I am a helpful assistant."
+  ],
+  [
+    "model",
+    "gpt-4"
+  ],
+  [
+    "temperature",
+    0.2
+  ],
+  [
+    "n",
+    1
+  ],
+  [
+    "max_toks",
+    4000
+  ],
+  [
+    "name",
+    "build_a_chat_bot_step_by_step_guidance_to_achieve_a_goal_and_1"
+  ],
+  [
+    "CACHES",
+    "./STATE_SMARTER/caches/"
+  ],
+  [
+    "TRACE",
+    0
+  ],
+  [
+    "TO_SVOS",
+    true
+  ],
+  [
+    "ROOT",
+    "./STATE_SMARTER/"
+  ],
+  [
+    "DATA",
+    "./STATE_SMARTER/data/"
+  ],
+  [
+    "OUT",
+    "./STATE_SMARTER/out/"
+  ],
+  [
+    "emebedding_model",
+    "text-embedding-ada-002"
+  ],
+  [
+    "TOP_K",
+    3
+  ],
+  [
+    "pattern",
+    "The plan so far is: \"$context\". In this context my goal is \"$g.\" Advise me how to achieve \"$g\", step by step, while ensuring steps are consistent with each other. Itemize your answer, one sentence per line."
+  ]
+]

@@ -1,0 +1,94 @@
+[
+  [
+    "short_mem",
+    {}
+  ],
+  [
+    "long_mem",
+    {
+      "TSplit the following sentence into a <subject, verb, object> tuple and then split the object into a list of 2-4 word simpler components with at leas one noun in each. Return the result as  a JSON term. Just the JSON term, no comments please. Here is the sentence: \"Abundant and clean energy production\". ": "{\n  \"Subject\": \"Abundant and clean energy\",\n  \"Verb\": \"is\",\n  \"Object\": \"production\",\n  \"ObjectComponents\": [\"clean energy\", \"energy production\"]\n}",
+      "TSplit the following sentence into a <subject, verb, object> tuple and then split the object into a list of 2-4 word simpler components with at leas one noun in each. Return the result as  a JSON term. Just the JSON term, no comments please. Here is the sentence: \"Decentralization of power sources\". ": "{\n  \"Subject\": \"Decentralization\",\n  \"Verb\": \"of\",\n  \"Object\": \"power sources\",\n  \"ObjectComponents\": [\"power\", \"sources\"]\n}",
+      "TSplit the following sentence into a <subject, verb, object> tuple and then split the object into a list of 2-4 word simpler components with at leas one noun in each. Return the result as  a JSON term. Just the JSON term, no comments please. Here is the sentence: \"Decreased fossil fuel dependence\". ": "{\n  \"Subject\": \"Decreased fossil fuel dependence\",\n  \"Verb\": \"\",\n  \"Object\": \"\",\n  \"ObjectComponents\": [\"Decreased fossil\", \"fuel dependence\"]\n}",
+      "TSplit the following sentence into a <subject, verb, object> tuple and then split the object into a list of 2-4 word simpler components with at leas one noun in each. Return the result as  a JSON term. Just the JSON term, no comments please. Here is the sentence: \"Decreased global warming\". ": "{\n  \"Subject\": \"Decreased\",\n  \"Verb\": \"\",\n  \"Object\": \"global warming\",\n  \"ObjectComponents\": [\"global\", \"warming\"]\n}",
+      "TSplit the following sentence into a <subject, verb, object> tuple and then split the object into a list of 2-4 word simpler components with at leas one noun in each. Return the result as  a JSON term. Just the JSON term, no comments please. Here is the sentence: \"Emergence of new energy industries\". ": "{\n  \"Subject\": \"Emergence\",\n  \"Verb\": \"of\",\n  \"Object\": \"new energy industries\",\n  \"ObjectComponents\": [\"new energy\", \"energy industries\"]\n}",
+      "TSplit the following sentence into a <subject, verb, object> tuple and then split the object into a list of 2-4 word simpler components with at leas one noun in each. Return the result as  a JSON term. Just the JSON term, no comments please. Here is the sentence: \"Energy cost savings\". ": "{\n  \"Subject\": \"Energy\",\n  \"Verb\": \"cost\",\n  \"Object\": [\"Energy cost\", \"cost savings\"]\n}",
+      "TSplit the following sentence into a <subject, verb, object> tuple and then split the object into a list of 2-4 word simpler components with at leas one noun in each. Return the result as  a JSON term. Just the JSON term, no comments please. Here is the sentence: \"Enhanced air quality\". ": "{\n  \"Subject\": \"\",\n  \"Verb\": \"Enhanced\",\n  \"Object\": \"air quality\",\n  \"ObjectComponents\": [\"air\", \"quality\"]\n}",
+      "TSplit the following sentence into a <subject, verb, object> tuple and then split the object into a list of 2-4 word simpler components with at leas one noun in each. Return the result as  a JSON term. Just the JSON term, no comments please. Here is the sentence: \"Enhanced energy security\". ": "{\n  \"Subject\": \"\",\n  \"Verb\": \"Enhanced\",\n  \"Object\": \"energy security\",\n  \"ObjectComponents\": [\"energy\", \"security\"]\n}",
+      "TSplit the following sentence into a <subject, verb, object> tuple and then split the object into a list of 2-4 word simpler components with at leas one noun in each. Return the result as  a JSON term. Just the JSON term, no comments please. Here is the sentence: \"Lower climate change rates\". ": "{\n  \"Subject\": \"Lower\",\n  \"Verb\": \"climate\",\n  \"Object\": [\n    \"change rates\"\n  ],\n  \"ObjectComponents\": [\n    \"change\",\n    \"rates\"\n  ]\n}",
+      "TSplit the following sentence into a <subject, verb, object> tuple and then split the object into a list of 2-4 word simpler components with at leas one noun in each. Return the result as  a JSON term. Just the JSON term, no comments please. Here is the sentence: \"Practical fusion reactors\". ": "{\n  \"Subject\": \"\",\n  \"Verb\": \"\",\n  \"Object\": [\"Practical fusion\", \"fusion reactors\"]\n}",
+      "TSplit the following sentence into a <subject, verb, object> tuple and then split the object into a list of 2-4 word simpler components with at leas one noun in each. Return the result as  a JSON term. Just the JSON term, no comments please. Here is the sentence: \"Reduced greenhouse emissions\". ": "{\n  \"Subject\": \"Reduced\",\n  \"Verb\": \"\",\n  \"Object\": \"greenhouse emissions\",\n  \"ObjectComponents\": [\"greenhouse\", \"emissions\"]\n}",
+      "TSplit the following sentence into a <subject, verb, object> tuple and then split the object into a list of 2-4 word simpler components with at leas one noun in each. Return the result as  a JSON term. Just the JSON term, no comments please. Here is the sentence: \"Significant carbon emissions reduction\". ": "{\n  \"Subject\": \"Significant carbon emissions\",\n  \"Verb\": \"reduction\",\n  \"Object\": [\n    \"Significant carbon\",\n    \"carbon emissions\"\n  ]\n}",
+      "TSplit the following sentence into a <subject, verb, object> tuple and then split the object into a list of 2-4 word simpler components with at leas one noun in each. Return the result as  a JSON term. Just the JSON term, no comments please. Here is the sentence: \"Sustainable economic growth\". ": "{\n  \"Subject\": \"Sustainable economic growth\",\n  \"Verb\": \"\",\n  \"Object\": \"\",\n  \"ObjectComponents\": [\"Sustainable\", \"economic\", \"growth\"]\n}",
+      "TSplit the following sentence into a <subject, verb, object> tuple and then split the object into a list of 2-4 word simpler components with at leas one noun in each. Return the result as  a JSON term. Just the JSON term, no comments please. Here is the sentence: \"Transformation of global energy infrastructure\". ": "{\n  \"Subject\": \"Transformation\",\n  \"Verb\": \"of\",\n  \"Object\": \"global energy infrastructure\",\n  \"ObjectComponents\": [\"global energy\", \"energy infrastructure\"]\n}",
+      "TSplit the following sentence into a <subject, verb, object> tuple and then split the object into a list of 2-4 word simpler components with at leas one noun in each. Return the result as  a JSON term. Just the JSON term, no comments please. Here is the sentence: \"Widespread renewable energy adoption\". ": "{\n  \"Subject\": \"Widespread renewable energy\",\n  \"Verb\": \"adoption\",\n  \"Object\": [\n    \"Widespread renewable\",\n    \"renewable energy\",\n    \"energy adoption\"\n  ]\n}"
+    }
+  ],
+  [
+    "prompt_toks",
+    1316
+  ],
+  [
+    "compl_toks",
+    551
+  ],
+  [
+    "sys_prompt",
+    "I am a helpful assistant."
+  ],
+  [
+    "model",
+    "gpt-4"
+  ],
+  [
+    "temperature",
+    0.2
+  ],
+  [
+    "n",
+    1
+  ],
+  [
+    "max_toks",
+    4000
+  ],
+  [
+    "name",
+    "practical_fusion_reactors_sentence_to_svo_transformer"
+  ],
+  [
+    "CACHES",
+    "./STATE_SMARTER/caches/"
+  ],
+  [
+    "TRACE",
+    0
+  ],
+  [
+    "TO_SVOS",
+    true
+  ],
+  [
+    "ROOT",
+    "./STATE_SMARTER/"
+  ],
+  [
+    "DATA",
+    "./STATE_SMARTER/data/"
+  ],
+  [
+    "OUT",
+    "./STATE_SMARTER/out/"
+  ],
+  [
+    "emebedding_model",
+    "text-embedding-ada-002"
+  ],
+  [
+    "TOP_K",
+    3
+  ],
+  [
+    "pattern",
+    "TSplit the following sentence into a <subject, verb, object> tuple and then split the object into a list of 2-4 word simpler components with at leas one noun in each. Return the result as  a JSON term. Just the JSON term, no comments please. Here is the sentence: \"$sentence\". "
+  ]
+]

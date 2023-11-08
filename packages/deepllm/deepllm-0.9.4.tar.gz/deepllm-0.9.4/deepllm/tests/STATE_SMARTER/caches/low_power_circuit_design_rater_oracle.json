@@ -1,0 +1,96 @@
+[
+  [
+    "short_mem",
+    {}
+  ],
+  [
+    "long_mem",
+    {
+      " On a scale from 0 to 100, rate how relevant and semantically close \"Voltage scaling techniques\" is to \"Low power circuit design\". Return your answer in the form: rating | explanation. The rating should be a number between 0 and 100, nothing else. The word \"would\" should not be part of the rating. The explanation should be short, at most 50 words. Do not cite sources, write just 1-2 sentences, relevant to \"Low power circuit design\". ": "85 | Voltage scaling techniques are often used in low power circuit design to reduce power consumption, making them closely related.",
+      " On a scale from 0 to 100, rate how relevant and semantically close \"Power gating methods\" is to \"Low power circuit design\". Return your answer in the form: rating | explanation. The rating should be a number between 0 and 100, nothing else. The word \"would\" should not be part of the rating. The explanation should be short, at most 50 words. Do not cite sources, write just 1-2 sentences, relevant to \"Low power circuit design\". ": "85 | Power gating methods are a key technique used in low power circuit design to reduce standby leakage power, making them highly relevant and semantically close.",
+      " On a scale from 0 to 100, rate how relevant and semantically close \"Sub-threshold circuit design\" is to \"Low power circuit design\". Return your answer in the form: rating | explanation. The rating should be a number between 0 and 100, nothing else. The word \"would\" should not be part of the rating. The explanation should be short, at most 50 words. Do not cite sources, write just 1-2 sentences, relevant to \"Low power circuit design\". ": "85 | Sub-threshold circuit design is a specific technique used in low power circuit design to reduce power consumption, making them semantically close but not identical.",
+      " On a scale from 0 to 100, rate how relevant and semantically close \"Dynamic Voltage Scaling\" is to \"Low power circuit design\". Return your answer in the form: rating | explanation. The rating should be a number between 0 and 100, nothing else. The word \"would\" should not be part of the rating. The explanation should be short, at most 50 words. Do not cite sources, write just 1-2 sentences, relevant to \"Low power circuit design\". ": "85 | Dynamic Voltage Scaling is a technique often used in low power circuit design to reduce the power consumption by adjusting the voltage supply according to the needs of the circuit.",
+      " On a scale from 0 to 100, rate how relevant and semantically close \"Supply Voltage Scaling\" is to \"Low power circuit design\". Return your answer in the form: rating | explanation. The rating should be a number between 0 and 100, nothing else. The word \"would\" should not be part of the rating. The explanation should be short, at most 50 words. Do not cite sources, write just 1-2 sentences, relevant to \"Low power circuit design\". ": "90 | Supply Voltage Scaling is a key technique in low power circuit design, as it directly impacts the power consumption of the circuit.",
+      " On a scale from 0 to 100, rate how relevant and semantically close \"Adaptive Voltage Scaling\" is to \"Low power circuit design\". Return your answer in the form: rating | explanation. The rating should be a number between 0 and 100, nothing else. The word \"would\" should not be part of the rating. The explanation should be short, at most 50 words. Do not cite sources, write just 1-2 sentences, relevant to \"Low power circuit design\". ": "85 | Adaptive Voltage Scaling is a technique used in low power circuit design to minimize power consumption by dynamically adjusting voltage levels based on workload and operating conditions.",
+      " On a scale from 0 to 100, rate how relevant and semantically close \"Threshold Voltage Scaling\" is to \"Low power circuit design\". Return your answer in the form: rating | explanation. The rating should be a number between 0 and 100, nothing else. The word \"would\" should not be part of the rating. The explanation should be short, at most 50 words. Do not cite sources, write just 1-2 sentences, relevant to \"Low power circuit design\". ": "85 | Threshold Voltage Scaling is a key technique in low power circuit design, as it directly influences the power consumption of transistors, which are fundamental components of circuits.",
+      " On a scale from 0 to 100, rate how relevant and semantically close \"Sub-threshold Voltage Scaling\" is to \"Low power circuit design\". Return your answer in the form: rating | explanation. The rating should be a number between 0 and 100, nothing else. The word \"would\" should not be part of the rating. The explanation should be short, at most 50 words. Do not cite sources, write just 1-2 sentences, relevant to \"Low power circuit design\". ": "90 | Sub-threshold voltage scaling is a technique used in low power circuit design to reduce power consumption, making it highly relevant and semantically close.",
+      " On a scale from 0 to 100, rate how relevant and semantically close \"Sleep mode transition\" is to \"Low power circuit design\". Return your answer in the form: rating | explanation. The rating should be a number between 0 and 100, nothing else. The word \"would\" should not be part of the rating. The explanation should be short, at most 50 words. Do not cite sources, write just 1-2 sentences, relevant to \"Low power circuit design\". ": "70 | \"Sleep mode transition\" is a power-saving technique often used in \"Low power circuit design\" to reduce energy consumption, but it's only one aspect of the broader design process.",
+      " On a scale from 0 to 100, rate how relevant and semantically close \"Leakage power reduction\" is to \"Low power circuit design\". Return your answer in the form: rating | explanation. The rating should be a number between 0 and 100, nothing else. The word \"would\" should not be part of the rating. The explanation should be short, at most 50 words. Do not cite sources, write just 1-2 sentences, relevant to \"Low power circuit design\". ": "90 | \"Leakage power reduction\" is highly relevant to \"Low power circuit design\" as reducing leakage power is a key strategy in designing low power circuits.",
+      " On a scale from 0 to 100, rate how relevant and semantically close \"Power switch placement\" is to \"Low power circuit design\". Return your answer in the form: rating | explanation. The rating should be a number between 0 and 100, nothing else. The word \"would\" should not be part of the rating. The explanation should be short, at most 50 words. Do not cite sources, write just 1-2 sentences, relevant to \"Low power circuit design\". ": "60 | While both involve aspects of electrical engineering, power switch placement is more about physical design and user interface, whereas low power circuit design is about electrical efficiency and power consumption.",
+      " On a scale from 0 to 100, rate how relevant and semantically close \"Multi-threshold CMOS technology\" is to \"Low power circuit design\". Return your answer in the form: rating | explanation. The rating should be a number between 0 and 100, nothing else. The word \"would\" should not be part of the rating. The explanation should be short, at most 50 words. Do not cite sources, write just 1-2 sentences, relevant to \"Low power circuit design\". ": "85 | Multi-threshold CMOS technology is highly relevant to low power circuit design as it is a technique often used to reduce power consumption in digital circuits.",
+      " On a scale from 0 to 100, rate how relevant and semantically close \"Sub-threshold voltage operation\" is to \"Low power circuit design\". Return your answer in the form: rating | explanation. The rating should be a number between 0 and 100, nothing else. The word \"would\" should not be part of the rating. The explanation should be short, at most 50 words. Do not cite sources, write just 1-2 sentences, relevant to \"Low power circuit design\". ": "90 | Sub-threshold voltage operation is highly relevant to low power circuit design as it is a technique often used to minimize power consumption in electronic circuits.",
+      " On a scale from 0 to 100, rate how relevant and semantically close \"Ultra-low power consumption\" is to \"Low power circuit design\". Return your answer in the form: rating | explanation. The rating should be a number between 0 and 100, nothing else. The word \"would\" should not be part of the rating. The explanation should be short, at most 50 words. Do not cite sources, write just 1-2 sentences, relevant to \"Low power circuit design\". ": "90 | \"Ultra-low power consumption\" is highly relevant to \"Low power circuit design\" as both concepts deal with reducing energy usage in electronic systems.",
+      " On a scale from 0 to 100, rate how relevant and semantically close \"Leakage current minimization\" is to \"Low power circuit design\". Return your answer in the form: rating | explanation. The rating should be a number between 0 and 100, nothing else. The word \"would\" should not be part of the rating. The explanation should be short, at most 50 words. Do not cite sources, write just 1-2 sentences, relevant to \"Low power circuit design\". ": "90 | Leakage current minimization is highly relevant to low power circuit design as reducing leakage current is a key strategy in achieving low power consumption in circuits.",
+      " On a scale from 0 to 100, rate how relevant and semantically close \"Sub-threshold slope efficiency\" is to \"Low power circuit design\". Return your answer in the form: rating | explanation. The rating should be a number between 0 and 100, nothing else. The word \"would\" should not be part of the rating. The explanation should be short, at most 50 words. Do not cite sources, write just 1-2 sentences, relevant to \"Low power circuit design\". ": "85 | Sub-threshold slope efficiency is a key parameter in low power circuit design, as it directly impacts the power consumption and performance of the circuit.",
+      " On a scale from 0 to 100, rate how relevant and semantically close \"Energy-efficient logic gates\" is to \"Low power circuit design\". Return your answer in the form: rating | explanation. The rating should be a number between 0 and 100, nothing else. The word \"would\" should not be part of the rating. The explanation should be short, at most 50 words. Do not cite sources, write just 1-2 sentences, relevant to \"Low power circuit design\". ": "90 | \"Energy-efficient logic gates\" are a key component in \"Low power circuit design\", as they directly contribute to reducing power consumption in electronic circuits."
+    }
+  ],
+  [
+    "prompt_toks",
+    2076
+  ],
+  [
+    "compl_toks",
+    525
+  ],
+  [
+    "sys_prompt",
+    "I am a helpful assistant."
+  ],
+  [
+    "model",
+    "gpt-4"
+  ],
+  [
+    "temperature",
+    0.2
+  ],
+  [
+    "n",
+    1
+  ],
+  [
+    "max_toks",
+    4000
+  ],
+  [
+    "name",
+    "low_power_circuit_design_rater_oracle"
+  ],
+  [
+    "CACHES",
+    "./STATE_SMARTER/caches/"
+  ],
+  [
+    "TRACE",
+    0
+  ],
+  [
+    "TO_SVOS",
+    true
+  ],
+  [
+    "ROOT",
+    "./STATE_SMARTER/"
+  ],
+  [
+    "DATA",
+    "./STATE_SMARTER/data/"
+  ],
+  [
+    "OUT",
+    "./STATE_SMARTER/out/"
+  ],
+  [
+    "emebedding_model",
+    "text-embedding-ada-002"
+  ],
+  [
+    "TOP_K",
+    3
+  ],
+  [
+    "pattern",
+    " On a scale from 0 to 100, rate how relevant and semantically close \"$g\" is to \"$context\". Return your answer in the form: rating | explanation. The rating should be a number between 0 and 100, nothing else. The word \"would\" should not be part of the rating. The explanation should be short, at most 50 words. Do not cite sources, write just 1-2 sentences, relevant to \"$context\". "
+  ]
+]

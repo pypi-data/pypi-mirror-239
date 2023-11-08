@@ -1,0 +1,82 @@
+[
+  [
+    "short_mem",
+    {}
+  ],
+  [
+    "long_mem",
+    {
+      "We need to predict consequences this context: \"Superhuman artificial general intelligence.\n\" Generate 3-5 noun phrases of 2-4 words each detailing consequences of \"Revolution in healthcare through advanced disease prediction and personalized treatment\". Itemize your answer, one consequence of \"Revolution in healthcare through advanced disease prediction and personalized treatment\" per line. No explanations needed, just the noun phrase, nothing else. Avoid using the words \"Noun phrases\" in your answer. Your answer should not contain \":\".": "1. Enhanced patient prognosis\n2. Precision medicine breakthroughs\n3. Radical life expectancy increase\n4. Reduction in healthcare disparities\n5. Advanced preventive healthcare strategies",
+      "We need to predict consequences this context: \"Superhuman artificial general intelligence.\n\" Generate 3-5 noun phrases of 2-4 words each detailing consequences of \"Transformation of the global economy due to automation of jobs\". Itemize your answer, one consequence of \"Transformation of the global economy due to automation of jobs\" per line. No explanations needed, just the noun phrase, nothing else. Avoid using the words \"Noun phrases\" in your answer. Your answer should not contain \":\".": "1. Widespread unemployment crisis\n2. Emergence of new industries\n3. Increased economic inequality\n4. Shift in labor market demands\n5. Revolution in education systems",
+      "We need to predict consequences this context: \"Superhuman artificial general intelligence.\n\" Generate 3-5 noun phrases of 2-4 words each detailing consequences of \"Unprecedented advancements in scientific research and space exploration\". Itemize your answer, one consequence of \"Unprecedented advancements in scientific research and space exploration\" per line. No explanations needed, just the noun phrase, nothing else. Avoid using the words \"Noun phrases\" in your answer. Your answer should not contain \":\".": "1. Revolutionary technological breakthroughs\n2. Accelerated interstellar travel\n3. Advanced alien life detection\n4. Groundbreaking medical discoveries\n5. Quantum computing supremacy"
+    }
+  ],
+  [
+    "prompt_toks",
+    351
+  ],
+  [
+    "compl_toks",
+    103
+  ],
+  [
+    "sys_prompt",
+    "I am a helpful assistant."
+  ],
+  [
+    "model",
+    "gpt-4"
+  ],
+  [
+    "temperature",
+    0.2
+  ],
+  [
+    "n",
+    1
+  ],
+  [
+    "max_toks",
+    4000
+  ],
+  [
+    "name",
+    "superhuman_artificial_general_intelligence_consequence_prediction_and_1"
+  ],
+  [
+    "CACHES",
+    "./STATE_SMARTER/caches/"
+  ],
+  [
+    "TRACE",
+    0
+  ],
+  [
+    "TO_SVOS",
+    true
+  ],
+  [
+    "ROOT",
+    "./STATE_SMARTER/"
+  ],
+  [
+    "DATA",
+    "./STATE_SMARTER/data/"
+  ],
+  [
+    "OUT",
+    "./STATE_SMARTER/out/"
+  ],
+  [
+    "emebedding_model",
+    "text-embedding-ada-002"
+  ],
+  [
+    "TOP_K",
+    3
+  ],
+  [
+    "pattern",
+    "We need to predict consequences this context: \"$context\" Generate 3-5 noun phrases of 2-4 words each detailing consequences of \"$g\". Itemize your answer, one consequence of \"$g\" per line. No explanations needed, just the noun phrase, nothing else. Avoid using the words \"Noun phrases\" in your answer. Your answer should not contain \":\"."
+  ]
+]

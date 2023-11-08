@@ -1,0 +1,95 @@
+[
+  [
+    "short_mem",
+    {}
+  ],
+  [
+    "long_mem",
+    {
+      " You play the role of an oracle that decides if \"Power management\" is related to \"Low power circuit design\". This means that someone who is familiar with \"Low power circuit design\"  might be also be interested in \"Power management\". Your answer should de \"True\" or \"False\" expressing agreement or disagreement with the relevance of \"Power management\". No explanations or comments are needed, just one of the two words \"True\" or \"False\" ": "True.",
+      " You play the role of an oracle that decides if \"Power management techniques\" is related to \"Low power circuit design\". This means that someone who is familiar with \"Low power circuit design\"  might be also be interested in \"Power management techniques\". Your answer should de \"True\" or \"False\" expressing agreement or disagreement with the relevance of \"Power management techniques\". No explanations or comments are needed, just one of the two words \"True\" or \"False\" ": "True.",
+      " You play the role of an oracle that decides if \"Low power circuits\" is related to \"Low power circuit design\". This means that someone who is familiar with \"Low power circuit design\"  might be also be interested in \"Low power circuits\". Your answer should de \"True\" or \"False\" expressing agreement or disagreement with the relevance of \"Low power circuits\". No explanations or comments are needed, just one of the two words \"True\" or \"False\" ": "True",
+      " You play the role of an oracle that decides if \"Energy efficient design\" is related to \"Low power circuit design\". This means that someone who is familiar with \"Low power circuit design\"  might be also be interested in \"Energy efficient design\". Your answer should de \"True\" or \"False\" expressing agreement or disagreement with the relevance of \"Energy efficient design\". No explanations or comments are needed, just one of the two words \"True\" or \"False\" ": "True.",
+      " You play the role of an oracle that decides if \"Power consumption reduction\" is related to \"Low power circuit design\". This means that someone who is familiar with \"Low power circuit design\"  might be also be interested in \"Power consumption reduction\". Your answer should de \"True\" or \"False\" expressing agreement or disagreement with the relevance of \"Power consumption reduction\". No explanations or comments are needed, just one of the two words \"True\" or \"False\" ": "True.",
+      " You play the role of an oracle that decides if \"Dynamic power management\" is related to \"Low power circuit design\". This means that someone who is familiar with \"Low power circuit design\"  might be also be interested in \"Dynamic power management\". Your answer should de \"True\" or \"False\" expressing agreement or disagreement with the relevance of \"Dynamic power management\". No explanations or comments are needed, just one of the two words \"True\" or \"False\" ": "True.",
+      " You play the role of an oracle that decides if \"Low-power electronics\" is related to \"Low power circuit design\". This means that someone who is familiar with \"Low power circuit design\"  might be also be interested in \"Low-power electronics\". Your answer should de \"True\" or \"False\" expressing agreement or disagreement with the relevance of \"Low-power electronics\". No explanations or comments are needed, just one of the two words \"True\" or \"False\" ": "True.",
+      " You play the role of an oracle that decides if \"Low-power circuits\" is related to \"Low power circuit design\". This means that someone who is familiar with \"Low power circuit design\"  might be also be interested in \"Low-power circuits\". Your answer should de \"True\" or \"False\" expressing agreement or disagreement with the relevance of \"Low-power circuits\". No explanations or comments are needed, just one of the two words \"True\" or \"False\" ": "True.",
+      " You play the role of an oracle that decides if \"Power-efficient design\" is related to \"Low power circuit design\". This means that someone who is familiar with \"Low power circuit design\"  might be also be interested in \"Power-efficient design\". Your answer should de \"True\" or \"False\" expressing agreement or disagreement with the relevance of \"Power-efficient design\". No explanations or comments are needed, just one of the two words \"True\" or \"False\" ": "True.",
+      " You play the role of an oracle that decides if \"Energy-saving electronics\" is related to \"Low power circuit design\". This means that someone who is familiar with \"Low power circuit design\"  might be also be interested in \"Energy-saving electronics\". Your answer should de \"True\" or \"False\" expressing agreement or disagreement with the relevance of \"Energy-saving electronics\". No explanations or comments are needed, just one of the two words \"True\" or \"False\" ": "True.",
+      " You play the role of an oracle that decides if \"Low-power operation\" is related to \"Low power circuit design\". This means that someone who is familiar with \"Low power circuit design\"  might be also be interested in \"Low-power operation\". Your answer should de \"True\" or \"False\" expressing agreement or disagreement with the relevance of \"Low-power operation\". No explanations or comments are needed, just one of the two words \"True\" or \"False\" ": "True.",
+      " You play the role of an oracle that decides if \"Energy-efficient circuits\" is related to \"Low power circuit design\". This means that someone who is familiar with \"Low power circuit design\"  might be also be interested in \"Energy-efficient circuits\". Your answer should de \"True\" or \"False\" expressing agreement or disagreement with the relevance of \"Energy-efficient circuits\". No explanations or comments are needed, just one of the two words \"True\" or \"False\" ": "True"
+    }
+  ],
+  [
+    "prompt_toks",
+    1491
+  ],
+  [
+    "compl_toks",
+    22
+  ],
+  [
+    "sys_prompt",
+    "I am a helpful assistant."
+  ],
+  [
+    "model",
+    "vicuna-7b-v1.5"
+  ],
+  [
+    "temperature",
+    0.2
+  ],
+  [
+    "n",
+    1
+  ],
+  [
+    "max_toks",
+    2000
+  ],
+  [
+    "name",
+    "low_power_circuit_design_decider_oracle"
+  ],
+  [
+    "CACHES",
+    "./STATE_LOCAL/caches/"
+  ],
+  [
+    "TRACE",
+    0
+  ],
+  [
+    "TO_SVOS",
+    true
+  ],
+  [
+    "ROOT",
+    "./STATE_LOCAL/"
+  ],
+  [
+    "OUT",
+    "./STATE_LOCAL/out/"
+  ],
+  [
+    "DATA",
+    "./STATE_LOCAL/data/"
+  ],
+  [
+    "emebedding_model",
+    "vicuna-7b-v1.5"
+  ],
+  [
+    "TOP_K",
+    3
+  ],
+  [
+    "API_BASE",
+    "http://u.local:8000/v1"
+  ],
+  [
+    "pattern",
+    " You play the role of an oracle that decides if \"$g\" is related to \"$context\". This means that someone who is familiar with \"$context\"  might be also be interested in \"$g\". Your answer should de \"True\" or \"False\" expressing agreement or disagreement with the relevance of \"$g\". No explanations or comments are needed, just one of the two words \"True\" or \"False\" "
+  ]
+]

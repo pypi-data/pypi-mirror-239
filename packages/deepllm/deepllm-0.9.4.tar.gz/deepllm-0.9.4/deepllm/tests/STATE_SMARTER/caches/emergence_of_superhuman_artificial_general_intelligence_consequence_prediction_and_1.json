@@ -1,0 +1,82 @@
+[
+  [
+    "short_mem",
+    {}
+  ],
+  [
+    "long_mem",
+    {
+      "We need to predict consequences this context: \"Emergence of superhuman artificial general intelligence.\n\" Generate 3-5 noun phrases of 2-4 words each detailing consequences of \"Transformation of job markets due to automation\". Itemize your answer, one consequence of \"Transformation of job markets due to automation\" per line. No explanations needed, just the noun phrase, nothing else. Avoid using the words \"Noun phrases\" in your answer. Your answer should not contain \":\".": "1. Increased unemployment rates\n2. Shift in skill requirements\n3. Rise of remote work\n4. Evolution of new industries\n5. Decline of traditional occupations",
+      "We need to predict consequences this context: \"Emergence of superhuman artificial general intelligence.\n\" Generate 3-5 noun phrases of 2-4 words each detailing consequences of \"Evolution in education systems for adapting to AI technologies\". Itemize your answer, one consequence of \"Evolution in education systems for adapting to AI technologies\" per line. No explanations needed, just the noun phrase, nothing else. Avoid using the words \"Noun phrases\" in your answer. Your answer should not contain \":\".": "1. Advanced learning methodologies\n2. AI-driven curriculum changes\n3. Enhanced student capabilities\n4. Shift in teaching roles\n5. Increased digital literacy",
+      "We need to predict consequences this context: \"Emergence of superhuman artificial general intelligence.\n\" Generate 3-5 noun phrases of 2-4 words each detailing consequences of \"Shift in global power dynamics due to AI supremacy\". Itemize your answer, one consequence of \"Shift in global power dynamics due to AI supremacy\" per line. No explanations needed, just the noun phrase, nothing else. Avoid using the words \"Noun phrases\" in your answer. Your answer should not contain \":\".": "1. Technological hegemony shift\n2. AI-driven economic restructuring\n3. New geopolitical alliances\n4. Disruption of traditional workforce\n5. Evolution in warfare strategies"
+    }
+  ],
+  [
+    "prompt_toks",
+    352
+  ],
+  [
+    "compl_toks",
+    100
+  ],
+  [
+    "sys_prompt",
+    "I am a helpful assistant."
+  ],
+  [
+    "model",
+    "gpt-4"
+  ],
+  [
+    "temperature",
+    0.2
+  ],
+  [
+    "n",
+    1
+  ],
+  [
+    "max_toks",
+    4000
+  ],
+  [
+    "name",
+    "emergence_of_superhuman_artificial_general_intelligence_consequence_prediction_and_1"
+  ],
+  [
+    "CACHES",
+    "./STATE_SMARTER/caches/"
+  ],
+  [
+    "TRACE",
+    0
+  ],
+  [
+    "TO_SVOS",
+    true
+  ],
+  [
+    "ROOT",
+    "./STATE_SMARTER/"
+  ],
+  [
+    "DATA",
+    "./STATE_SMARTER/data/"
+  ],
+  [
+    "OUT",
+    "./STATE_SMARTER/out/"
+  ],
+  [
+    "emebedding_model",
+    "text-embedding-ada-002"
+  ],
+  [
+    "TOP_K",
+    3
+  ],
+  [
+    "pattern",
+    "We need to predict consequences this context: \"$context\" Generate 3-5 noun phrases of 2-4 words each detailing consequences of \"$g\". Itemize your answer, one consequence of \"$g\" per line. No explanations needed, just the noun phrase, nothing else. Avoid using the words \"Noun phrases\" in your answer. Your answer should not contain \":\"."
+  ]
+]

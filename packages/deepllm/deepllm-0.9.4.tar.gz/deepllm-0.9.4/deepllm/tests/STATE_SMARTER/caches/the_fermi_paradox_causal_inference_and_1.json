@@ -1,0 +1,82 @@
+[
+  [
+    "short_mem",
+    {}
+  ],
+  [
+    "long_mem",
+    {
+      "We need causal explanations in this context: \"The Fermi paradox.\n\" Generate 3-5 explanations of 2-4 words each for the causes of \"The Great Filter theory\". Itemize your answer, one reason for \"The Great Filter theory\" per line. No explanations needed, just the 2-4 words noun phrase, nothing else. Your answer should not contain \":\" or \"Cause\". ": "1. Advanced civilization self-destruction\n2. Resource depletion\n3. Biological extinction events\n4. Unfavorable cosmic events\n5. Technological stagnation",
+      "We need causal explanations in this context: \"The Fermi paradox.\n\" Generate 3-5 explanations of 2-4 words each for the causes of \"The Zoo Hypothesis\". Itemize your answer, one reason for \"The Zoo Hypothesis\" per line. No explanations needed, just the 2-4 words noun phrase, nothing else. Your answer should not contain \":\" or \"Cause\". ": "1. Advanced alien ethics\n2. Galactic preservation laws\n3. Non-interference principles\n4. Technological superiority\n5. Fear of contamination",
+      "We need causal explanations in this context: \"The Fermi paradox.\n\" Generate 3-5 explanations of 2-4 words each for the causes of \"The Transcension Hypothesis\". Itemize your answer, one reason for \"The Transcension Hypothesis\" per line. No explanations needed, just the 2-4 words noun phrase, nothing else. Your answer should not contain \":\" or \"Cause\". ": "1. Advanced civilization development\n2. Technological singularity achievement\n3. Inner space exploration\n4. Information density increase\n5. Black hole utilization"
+    }
+  ],
+  [
+    "prompt_toks",
+    308
+  ],
+  [
+    "compl_toks",
+    94
+  ],
+  [
+    "sys_prompt",
+    "I am a helpful assistant."
+  ],
+  [
+    "model",
+    "gpt-4"
+  ],
+  [
+    "temperature",
+    0.2
+  ],
+  [
+    "n",
+    1
+  ],
+  [
+    "max_toks",
+    4000
+  ],
+  [
+    "name",
+    "the_fermi_paradox_causal_inference_and_1"
+  ],
+  [
+    "CACHES",
+    "./STATE_SMARTER/caches/"
+  ],
+  [
+    "TRACE",
+    0
+  ],
+  [
+    "TO_SVOS",
+    true
+  ],
+  [
+    "ROOT",
+    "./STATE_SMARTER/"
+  ],
+  [
+    "DATA",
+    "./STATE_SMARTER/data/"
+  ],
+  [
+    "OUT",
+    "./STATE_SMARTER/out/"
+  ],
+  [
+    "emebedding_model",
+    "text-embedding-ada-002"
+  ],
+  [
+    "TOP_K",
+    3
+  ],
+  [
+    "pattern",
+    "We need causal explanations in this context: \"$context\" Generate 3-5 explanations of 2-4 words each for the causes of \"$g\". Itemize your answer, one reason for \"$g\" per line. No explanations needed, just the 2-4 words noun phrase, nothing else. Your answer should not contain \":\" or \"Cause\". "
+  ]
+]

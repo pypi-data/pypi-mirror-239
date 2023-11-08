@@ -1,0 +1,96 @@
+[
+  [
+    "short_mem",
+    {}
+  ],
+  [
+    "long_mem",
+    {
+      " You play the role of an oracle that decides if \"Significant reduction in greenhouse gas emissions\" is related to \"Practical fusion reactors\". This means that someone who is familiar with \"Practical fusion reactors\"  might be also be interested in \"Significant reduction in greenhouse gas emissions\". Your answer should de \"True\" or \"False\" expressing agreement or disagreement with the relevance of \"Significant reduction in greenhouse gas emissions\". No explanations or comments are needed, just one of the two words \"True\" or \"False\" ": "True",
+      " You play the role of an oracle that decides if \"Enhanced air quality\" is related to \"Practical fusion reactors\". This means that someone who is familiar with \"Practical fusion reactors\"  might be also be interested in \"Enhanced air quality\". Your answer should de \"True\" or \"False\" expressing agreement or disagreement with the relevance of \"Enhanced air quality\". No explanations or comments are needed, just one of the two words \"True\" or \"False\" ": "True",
+      " You play the role of an oracle that decides if \"Decreased global warming\" is related to \"Practical fusion reactors\". This means that someone who is familiar with \"Practical fusion reactors\"  might be also be interested in \"Decreased global warming\". Your answer should de \"True\" or \"False\" expressing agreement or disagreement with the relevance of \"Decreased global warming\". No explanations or comments are needed, just one of the two words \"True\" or \"False\" ": "True",
+      " You play the role of an oracle that decides if \"Healthier ecosystems\" is related to \"Practical fusion reactors\". This means that someone who is familiar with \"Practical fusion reactors\"  might be also be interested in \"Healthier ecosystems\". Your answer should de \"True\" or \"False\" expressing agreement or disagreement with the relevance of \"Healthier ecosystems\". No explanations or comments are needed, just one of the two words \"True\" or \"False\" ": "False",
+      " You play the role of an oracle that decides if \"Lower climate change rates\" is related to \"Practical fusion reactors\". This means that someone who is familiar with \"Practical fusion reactors\"  might be also be interested in \"Lower climate change rates\". Your answer should de \"True\" or \"False\" expressing agreement or disagreement with the relevance of \"Lower climate change rates\". No explanations or comments are needed, just one of the two words \"True\" or \"False\" ": "True",
+      " You play the role of an oracle that decides if \"Improved public health\" is related to \"Practical fusion reactors\". This means that someone who is familiar with \"Practical fusion reactors\"  might be also be interested in \"Improved public health\". Your answer should de \"True\" or \"False\" expressing agreement or disagreement with the relevance of \"Improved public health\". No explanations or comments are needed, just one of the two words \"True\" or \"False\" ": "False",
+      " You play the role of an oracle that decides if \"Abundant and clean energy production\" is related to \"Practical fusion reactors\". This means that someone who is familiar with \"Practical fusion reactors\"  might be also be interested in \"Abundant and clean energy production\". Your answer should de \"True\" or \"False\" expressing agreement or disagreement with the relevance of \"Abundant and clean energy production\". No explanations or comments are needed, just one of the two words \"True\" or \"False\" ": "True",
+      " You play the role of an oracle that decides if \"Reduced greenhouse emissions\" is related to \"Practical fusion reactors\". This means that someone who is familiar with \"Practical fusion reactors\"  might be also be interested in \"Reduced greenhouse emissions\". Your answer should de \"True\" or \"False\" expressing agreement or disagreement with the relevance of \"Reduced greenhouse emissions\". No explanations or comments are needed, just one of the two words \"True\" or \"False\" ": "True",
+      " You play the role of an oracle that decides if \"Energy cost savings\" is related to \"Practical fusion reactors\". This means that someone who is familiar with \"Practical fusion reactors\"  might be also be interested in \"Energy cost savings\". Your answer should de \"True\" or \"False\" expressing agreement or disagreement with the relevance of \"Energy cost savings\". No explanations or comments are needed, just one of the two words \"True\" or \"False\" ": "True",
+      " You play the role of an oracle that decides if \"Decreased fossil fuel dependence\" is related to \"Practical fusion reactors\". This means that someone who is familiar with \"Practical fusion reactors\"  might be also be interested in \"Decreased fossil fuel dependence\". Your answer should de \"True\" or \"False\" expressing agreement or disagreement with the relevance of \"Decreased fossil fuel dependence\". No explanations or comments are needed, just one of the two words \"True\" or \"False\" ": "True",
+      " You play the role of an oracle that decides if \"Enhanced energy security\" is related to \"Practical fusion reactors\". This means that someone who is familiar with \"Practical fusion reactors\"  might be also be interested in \"Enhanced energy security\". Your answer should de \"True\" or \"False\" expressing agreement or disagreement with the relevance of \"Enhanced energy security\". No explanations or comments are needed, just one of the two words \"True\" or \"False\" ": "True",
+      " You play the role of an oracle that decides if \"Sustainable economic growth\" is related to \"Practical fusion reactors\". This means that someone who is familiar with \"Practical fusion reactors\"  might be also be interested in \"Sustainable economic growth\". Your answer should de \"True\" or \"False\" expressing agreement or disagreement with the relevance of \"Sustainable economic growth\". No explanations or comments are needed, just one of the two words \"True\" or \"False\" ": "True",
+      " You play the role of an oracle that decides if \"Transformation of global energy infrastructure\" is related to \"Practical fusion reactors\". This means that someone who is familiar with \"Practical fusion reactors\"  might be also be interested in \"Transformation of global energy infrastructure\". Your answer should de \"True\" or \"False\" expressing agreement or disagreement with the relevance of \"Transformation of global energy infrastructure\". No explanations or comments are needed, just one of the two words \"True\" or \"False\" ": "True",
+      " You play the role of an oracle that decides if \"Widespread renewable energy adoption\" is related to \"Practical fusion reactors\". This means that someone who is familiar with \"Practical fusion reactors\"  might be also be interested in \"Widespread renewable energy adoption\". Your answer should de \"True\" or \"False\" expressing agreement or disagreement with the relevance of \"Widespread renewable energy adoption\". No explanations or comments are needed, just one of the two words \"True\" or \"False\" ": "True",
+      " You play the role of an oracle that decides if \"Significant carbon emissions reduction\" is related to \"Practical fusion reactors\". This means that someone who is familiar with \"Practical fusion reactors\"  might be also be interested in \"Significant carbon emissions reduction\". Your answer should de \"True\" or \"False\" expressing agreement or disagreement with the relevance of \"Significant carbon emissions reduction\". No explanations or comments are needed, just one of the two words \"True\" or \"False\" ": "True",
+      " You play the role of an oracle that decides if \"Emergence of new energy industries\" is related to \"Practical fusion reactors\". This means that someone who is familiar with \"Practical fusion reactors\"  might be also be interested in \"Emergence of new energy industries\". Your answer should de \"True\" or \"False\" expressing agreement or disagreement with the relevance of \"Emergence of new energy industries\". No explanations or comments are needed, just one of the two words \"True\" or \"False\" ": "True",
+      " You play the role of an oracle that decides if \"Decentralization of power sources\" is related to \"Practical fusion reactors\". This means that someone who is familiar with \"Practical fusion reactors\"  might be also be interested in \"Decentralization of power sources\". Your answer should de \"True\" or \"False\" expressing agreement or disagreement with the relevance of \"Decentralization of power sources\". No explanations or comments are needed, just one of the two words \"True\" or \"False\" ": "True"
+    }
+  ],
+  [
+    "prompt_toks",
+    1991
+  ],
+  [
+    "compl_toks",
+    17
+  ],
+  [
+    "sys_prompt",
+    "I am a helpful assistant."
+  ],
+  [
+    "model",
+    "gpt-4"
+  ],
+  [
+    "temperature",
+    0.2
+  ],
+  [
+    "n",
+    1
+  ],
+  [
+    "max_toks",
+    4000
+  ],
+  [
+    "name",
+    "practical_fusion_reactors_decider_oracle"
+  ],
+  [
+    "CACHES",
+    "./STATE_SMARTER/caches/"
+  ],
+  [
+    "TRACE",
+    0
+  ],
+  [
+    "TO_SVOS",
+    true
+  ],
+  [
+    "ROOT",
+    "./STATE_SMARTER/"
+  ],
+  [
+    "DATA",
+    "./STATE_SMARTER/data/"
+  ],
+  [
+    "OUT",
+    "./STATE_SMARTER/out/"
+  ],
+  [
+    "emebedding_model",
+    "text-embedding-ada-002"
+  ],
+  [
+    "TOP_K",
+    3
+  ],
+  [
+    "pattern",
+    " You play the role of an oracle that decides if \"$g\" is related to \"$context\". This means that someone who is familiar with \"$context\"  might be also be interested in \"$g\". Your answer should de \"True\" or \"False\" expressing agreement or disagreement with the relevance of \"$g\". No explanations or comments are needed, just one of the two words \"True\" or \"False\" "
+  ]
+]

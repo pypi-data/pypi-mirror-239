@@ -1,0 +1,86 @@
+[
+  [
+    "short_mem",
+    {}
+  ],
+  [
+    "long_mem",
+    {
+      "The topic we are exploring is: \"Teaching computational thinking with Prolog\" Generate 2-3 noun phrases describing details of \"Teaching computational thinking with Prolog\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Prolog-based computational thinking instruction\n2. Integration of Prolog in computational thinking education\n3. Prolog as a tool for teaching computational thinking",
+      "The topic we are exploring is: \"Teaching computational thinking with Prolog.\nProlog-based computational thinking instruction.\n\" Generate 2-3 noun phrases describing details of \"Prolog-based instruction\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Logic-based problem solving with Prolog.\n2. Algorithmic thinking using Prolog.\n3. Computational reasoning through Prolog programming.",
+      "The topic we are exploring is: \"Teaching computational thinking with Prolog.\nProlog-based computational thinking instruction.\n\" Generate 2-3 noun phrases describing details of \"Computational thinking with Prolog\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Problem-solving strategies in Prolog\n2. Logical reasoning with Prolog\n3. Algorithmic thinking using Prolog",
+      "The topic we are exploring is: \"Teaching computational thinking with Prolog.\nProlog-based computational thinking instruction.\n\" Generate 2-3 noun phrases describing details of \"Prolog-based computational thinking\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Logic-based problem solving with Prolog\n2. Algorithmic thinking using Prolog\n3. Computational reasoning with Prolog",
+      "The topic we are exploring is: \"Teaching computational thinking with Prolog.\nProlog-based computational thinking instruction.\n\" Generate 2-3 noun phrases describing details of \"Instruction using Prolog\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Prolog-based problem-solving techniques\n2. Logic programming instruction with Prolog\n3. Computational thinking development through Prolog",
+      "The topic we are exploring is: \"Teaching computational thinking with Prolog.\nProlog-based computational thinking instruction.\n\" Generate 2-3 noun phrases describing details of \"Prolog-based thinking instruction\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Logic-based problem solving with Prolog\n2. Algorithmic thinking using Prolog\n3. Computational reasoning through Prolog programming",
+      "The topic we are exploring is: \"Teaching computational thinking with Prolog.\nIntegration of Prolog in computational thinking education.\n\" Generate 2-3 noun phrases describing details of \"Prolog-based computational thinking\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Logic-based problem solving with Prolog\n2. Algorithmic thinking with Prolog\n3. Computational reasoning using Prolog",
+      "The topic we are exploring is: \"Teaching computational thinking with Prolog.\nIntegration of Prolog in computational thinking education.\n\" Generate 2-3 noun phrases describing details of \"Prolog integration in education\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Incorporating Prolog in computational thinking curriculum.\n2. Prolog as a tool for teaching computational thinking.\n3. Integration of Prolog in educational programs for computational thinking.",
+      "The topic we are exploring is: \"Teaching computational thinking with Prolog.\nIntegration of Prolog in computational thinking education.\n\" Generate 2-3 noun phrases describing details of \"Computational thinking with Prolog\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Problem-solving strategies in Prolog\n2. Logical reasoning with Prolog\n3. Algorithmic thinking using Prolog",
+      "The topic we are exploring is: \"Teaching computational thinking with Prolog.\nIntegration of Prolog in computational thinking education.\n\" Generate 2-3 noun phrases describing details of \"Prolog as a teaching tool\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Prolog's logical programming paradigm\n2. Prolog's rule-based reasoning\n3. Prolog's pattern matching capabilities",
+      "The topic we are exploring is: \"Teaching computational thinking with Prolog.\nIntegration of Prolog in computational thinking education.\n\" Generate 2-3 noun phrases describing details of \"Prolog-driven computational thinking\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Logic-based problem solving with Prolog\n2. Algorithmic reasoning using Prolog\n3. Computational thinking through Prolog programming"
+    }
+  ],
+  [
+    "prompt_toks",
+    907
+  ],
+  [
+    "compl_toks",
+    303
+  ],
+  [
+    "sys_prompt",
+    "I am a helpful assistant."
+  ],
+  [
+    "model",
+    "gpt-3.5-turbo"
+  ],
+  [
+    "temperature",
+    0.2
+  ],
+  [
+    "n",
+    1
+  ],
+  [
+    "max_toks",
+    4000
+  ],
+  [
+    "name",
+    "teaching_computational_thinking_with_prolog_scientific_concept_explorer_or_2"
+  ],
+  [
+    "CACHES",
+    "./STATE/caches/"
+  ],
+  [
+    "TRACE",
+    0
+  ],
+  [
+    "ROOT",
+    "./STATE/"
+  ],
+  [
+    "DATA",
+    "./STATE/data/"
+  ],
+  [
+    "OUT",
+    "./STATE/out/"
+  ],
+  [
+    "emebedding_model",
+    "text-embedding-ada-002"
+  ],
+  [
+    "TOP_K",
+    3
+  ],
+  [
+    "pattern",
+    "The topic we are exploring is: \"$context\" Generate 2-3 noun phrases describing details of \"$g\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. "
+  ]
+]

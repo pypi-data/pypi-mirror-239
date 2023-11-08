@@ -1,0 +1,107 @@
+[
+  [
+    "short_mem",
+    {}
+  ],
+  [
+    "long_mem",
+    {
+      "The task we are exploring is: \"Teaching computational thinking with Prolog.\n\" Generate 3-5 noun phrases of 2-4 words each that occur as keyphrases only in scientific papers bout \"Prolog-based computational thinking instruction\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Prolog-based instruction\n2. Computational thinking with Prolog\n3. Prolog-based computational thinking\n4. Instruction using Prolog\n5. Prolog-based thinking instruction",
+      "The task we are exploring is: \"Teaching computational thinking with Prolog.\nProlog-based computational thinking instruction.\nProlog-based instruction.\n\" Generate 3-5 noun phrases of 2-4 words each that occur as keyphrases only in scientific papers bout \"Logic-based problem solving with Prolog\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Logic-based problem solving\n2. Prolog-based computational thinking\n3. Computational thinking instruction\n4. Prolog-based instruction\n5. Scientific papers",
+      "The task we are exploring is: \"Teaching computational thinking with Prolog.\nProlog-based computational thinking instruction.\nProlog-based instruction.\n\" Generate 3-5 noun phrases of 2-4 words each that occur as keyphrases only in scientific papers bout \"Algorithmic thinking using Prolog\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Algorithmic thinking\n2. Prolog-based instruction\n3. Computational thinking\n4. Keyphrases in scientific papers\n5. Prolog-based computational thinking",
+      "The task we are exploring is: \"Teaching computational thinking with Prolog.\nProlog-based computational thinking instruction.\nProlog-based instruction.\n\" Generate 3-5 noun phrases of 2-4 words each that occur as keyphrases only in scientific papers bout \"Computational reasoning through Prolog programming\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Logic-based programming\n2. Problem-solving strategies\n3. Knowledge representation\n4. Rule-based systems\n5. Algorithmic thinking",
+      "The task we are exploring is: \"Teaching computational thinking with Prolog.\nProlog-based computational thinking instruction.\nComputational thinking with Prolog.\n\" Generate 3-5 noun phrases of 2-4 words each that occur as keyphrases only in scientific papers bout \"Problem-solving strategies in Prolog\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Logic-based problem-solving\n2. Prolog programming techniques\n3. Algorithmic reasoning in Prolog\n4. Knowledge representation in Prolog\n5. Constraint satisfaction problems in Prolog",
+      "The task we are exploring is: \"Teaching computational thinking with Prolog.\nProlog-based computational thinking instruction.\nComputational thinking with Prolog.\n\" Generate 3-5 noun phrases of 2-4 words each that occur as keyphrases only in scientific papers bout \"Logical reasoning with Prolog\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Logical reasoning\n2. Prolog-based instruction\n3. Computational thinking\n4. Scientific papers\n5. Keyphrases",
+      "The task we are exploring is: \"Teaching computational thinking with Prolog.\nProlog-based computational thinking instruction.\nComputational thinking with Prolog.\n\" Generate 3-5 noun phrases of 2-4 words each that occur as keyphrases only in scientific papers bout \"Algorithmic thinking using Prolog\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Logic-based problem solving\n2. Prolog programming concepts\n3. Algorithmic reasoning\n4. Computational problem solving\n5. Prolog-based problem solving",
+      "The task we are exploring is: \"Teaching computational thinking with Prolog.\nProlog-based computational thinking instruction.\nProlog-based computational thinking.\n\" Generate 3-5 noun phrases of 2-4 words each that occur as keyphrases only in scientific papers bout \"Logic-based problem solving with Prolog\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Logic-based problem solving\n2. Prolog-based instruction\n3. Computational thinking\n4. Prolog-based computational thinking\n5. Keyphrases in scientific papers",
+      "The task we are exploring is: \"Teaching computational thinking with Prolog.\nProlog-based computational thinking instruction.\nProlog-based computational thinking.\n\" Generate 3-5 noun phrases of 2-4 words each that occur as keyphrases only in scientific papers bout \"Algorithmic thinking using Prolog\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Logic-based problem solving\n2. Prolog programming concepts\n3. Computational reasoning with Prolog\n4. Algorithmic problem solving\n5. Prolog-based logical reasoning",
+      "The task we are exploring is: \"Teaching computational thinking with Prolog.\nProlog-based computational thinking instruction.\nProlog-based computational thinking.\n\" Generate 3-5 noun phrases of 2-4 words each that occur as keyphrases only in scientific papers bout \"Computational reasoning with Prolog\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Logic-based reasoning\n2. Prolog programming\n3. Computational problem solving\n4. Knowledge representation\n5. Prolog-based algorithms",
+      "The task we are exploring is: \"Teaching computational thinking with Prolog.\nProlog-based computational thinking instruction.\nInstruction using Prolog.\n\" Generate 3-5 noun phrases of 2-4 words each that occur as keyphrases only in scientific papers bout \"Prolog-based problem-solving techniques\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Logic-based programming\n2. Knowledge representation\n3. Rule-based systems\n4. Automated reasoning\n5. Constraint satisfaction",
+      "The task we are exploring is: \"Teaching computational thinking with Prolog.\nProlog-based computational thinking instruction.\nInstruction using Prolog.\n\" Generate 3-5 noun phrases of 2-4 words each that occur as keyphrases only in scientific papers bout \"Logic programming instruction with Prolog\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Logic programming concepts\n2. Prolog-based problem solving\n3. Computational thinking skills\n4. Prolog instruction methods\n5. Logic programming techniques",
+      "The task we are exploring is: \"Teaching computational thinking with Prolog.\nProlog-based computational thinking instruction.\nInstruction using Prolog.\n\" Generate 3-5 noun phrases of 2-4 words each that occur as keyphrases only in scientific papers bout \"Computational thinking development through Prolog\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Computational thinking skills\n2. Prolog programming language\n3. Problem-solving strategies\n4. Logic-based reasoning\n5. Algorithmic thinking",
+      "The task we are exploring is: \"Teaching computational thinking with Prolog.\nProlog-based computational thinking instruction.\nProlog-based thinking instruction.\n\" Generate 3-5 noun phrases of 2-4 words each that occur as keyphrases only in scientific papers bout \"Logic-based problem solving with Prolog\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Logic-based problem solving\n2. Prolog-based computational thinking\n3. Computational thinking instruction\n4. Prolog-based thinking\n5. Scientific papers",
+      "The task we are exploring is: \"Teaching computational thinking with Prolog.\nProlog-based computational thinking instruction.\nProlog-based thinking instruction.\n\" Generate 3-5 noun phrases of 2-4 words each that occur as keyphrases only in scientific papers bout \"Algorithmic thinking using Prolog\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Algorithmic thinking\n2. Prolog-based instruction\n3. Computational thinking\n4. Prolog-based computational thinking\n5. Prolog-based thinking",
+      "The task we are exploring is: \"Teaching computational thinking with Prolog.\nProlog-based computational thinking instruction.\nProlog-based thinking instruction.\n\" Generate 3-5 noun phrases of 2-4 words each that occur as keyphrases only in scientific papers bout \"Computational reasoning through Prolog programming\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Logic-based reasoning\n2. Prolog programming\n3. Computational thinking\n4. Problem-solving strategies\n5. Knowledge representation",
+      "The task we are exploring is: \"Teaching computational thinking with Prolog.\n\" Generate 3-5 noun phrases of 2-4 words each that occur as keyphrases only in scientific papers bout \"Integration of Prolog in computational thinking education\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Prolog-based computational thinking\n2. Prolog integration in education\n3. Computational thinking with Prolog\n4. Prolog as a teaching tool\n5. Prolog-driven computational thinking",
+      "The task we are exploring is: \"Teaching computational thinking with Prolog.\nIntegration of Prolog in computational thinking education.\nProlog-based computational thinking.\n\" Generate 3-5 noun phrases of 2-4 words each that occur as keyphrases only in scientific papers bout \"Logic-based problem solving with Prolog\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "- Logic-based problem solving\n- Prolog-based computational thinking\n- Computational thinking education\n- Integration of Prolog\n- Scientific papers",
+      "The task we are exploring is: \"Teaching computational thinking with Prolog.\nIntegration of Prolog in computational thinking education.\nProlog-based computational thinking.\n\" Generate 3-5 noun phrases of 2-4 words each that occur as keyphrases only in scientific papers bout \"Algorithmic thinking with Prolog\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Logic programming\n2. Problem solving\n3. Knowledge representation\n4. Rule-based systems\n5. Computational logic",
+      "The task we are exploring is: \"Teaching computational thinking with Prolog.\nIntegration of Prolog in computational thinking education.\nProlog-based computational thinking.\n\" Generate 3-5 noun phrases of 2-4 words each that occur as keyphrases only in scientific papers bout \"Computational reasoning using Prolog\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Logic programming\n2. Knowledge representation\n3. Rule-based reasoning\n4. Prolog inference\n5. Computational logic",
+      "The task we are exploring is: \"Teaching computational thinking with Prolog.\nIntegration of Prolog in computational thinking education.\nProlog integration in education.\n\" Generate 3-5 noun phrases of 2-4 words each that occur as keyphrases only in scientific papers bout \"Incorporating Prolog in computational thinking curriculum\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Prolog-based problem solving\n2. Logic programming in education\n3. Computational thinking with Prolog\n4. Prolog integration in curriculum\n5. Teaching Prolog for computational thinking",
+      "The task we are exploring is: \"Teaching computational thinking with Prolog.\nIntegration of Prolog in computational thinking education.\nProlog integration in education.\n\" Generate 3-5 noun phrases of 2-4 words each that occur as keyphrases only in scientific papers bout \"Prolog as a tool for teaching computational thinking\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Computational thinking skills\n2. Prolog-based problem solving\n3. Prolog programming concepts\n4. Educational applications of Prolog\n5. Prolog as a pedagogical tool",
+      "The task we are exploring is: \"Teaching computational thinking with Prolog.\nIntegration of Prolog in computational thinking education.\nProlog integration in education.\n\" Generate 3-5 noun phrases of 2-4 words each that occur as keyphrases only in scientific papers bout \"Integration of Prolog in educational programs for computational thinking\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "- Prolog-based curriculum\n- Computational thinking with Prolog\n- Educational integration of Prolog\n- Prolog in computational thinking education\n- Prolog-driven learning",
+      "The task we are exploring is: \"Teaching computational thinking with Prolog.\nIntegration of Prolog in computational thinking education.\nComputational thinking with Prolog.\n\" Generate 3-5 noun phrases of 2-4 words each that occur as keyphrases only in scientific papers bout \"Problem-solving strategies in Prolog\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Logic-based problem solving\n2. Prolog programming\n3. Computational reasoning\n4. Knowledge representation\n5. Constraint satisfaction",
+      "The task we are exploring is: \"Teaching computational thinking with Prolog.\nIntegration of Prolog in computational thinking education.\nComputational thinking with Prolog.\n\" Generate 3-5 noun phrases of 2-4 words each that occur as keyphrases only in scientific papers bout \"Logical reasoning with Prolog\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Logical reasoning\n2. Prolog integration\n3. Computational thinking education\n4. Scientific papers\n5. Keyphrases",
+      "The task we are exploring is: \"Teaching computational thinking with Prolog.\nIntegration of Prolog in computational thinking education.\nComputational thinking with Prolog.\n\" Generate 3-5 noun phrases of 2-4 words each that occur as keyphrases only in scientific papers bout \"Algorithmic thinking using Prolog\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "Algorithmic thinking\nProlog integration\nComputational education\nKeyphrases in scientific papers\nProlog applications",
+      "The task we are exploring is: \"Teaching computational thinking with Prolog.\nIntegration of Prolog in computational thinking education.\nProlog as a teaching tool.\n\" Generate 3-5 noun phrases of 2-4 words each that occur as keyphrases only in scientific papers bout \"Prolog s logical programming paradigm\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "logical programming paradigm\ncomputational thinking\nteaching tool\nintegration of Prolog\nscientific papers",
+      "The task we are exploring is: \"Teaching computational thinking with Prolog.\nIntegration of Prolog in computational thinking education.\nProlog as a teaching tool.\n\" Generate 3-5 noun phrases of 2-4 words each that occur as keyphrases only in scientific papers bout \"Prolog s rule-based reasoning\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Rule-based reasoning\n2. Computational thinking\n3. Prolog integration\n4. Teaching tool\n5. Scientific papers",
+      "The task we are exploring is: \"Teaching computational thinking with Prolog.\nIntegration of Prolog in computational thinking education.\nProlog as a teaching tool.\n\" Generate 3-5 noun phrases of 2-4 words each that occur as keyphrases only in scientific papers bout \"Prolog s pattern matching capabilities\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Pattern matching capabilities\n2. Prolog's pattern matching\n3. Computational thinking education\n4. Teaching tool\n5. Integration of Prolog",
+      "The task we are exploring is: \"Teaching computational thinking with Prolog.\nIntegration of Prolog in computational thinking education.\nProlog-driven computational thinking.\n\" Generate 3-5 noun phrases of 2-4 words each that occur as keyphrases only in scientific papers bout \"Logic-based problem solving with Prolog\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "Logic-based problem solving\nProlog-based reasoning\nComputational thinking education\nProlog integration\nProlog-driven problem solving",
+      "The task we are exploring is: \"Teaching computational thinking with Prolog.\nIntegration of Prolog in computational thinking education.\nProlog-driven computational thinking.\n\" Generate 3-5 noun phrases of 2-4 words each that occur as keyphrases only in scientific papers bout \"Algorithmic reasoning using Prolog\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Algorithmic reasoning\n2. Prolog integration\n3. Computational thinking education\n4. Prolog-driven algorithms\n5. Keyphrase analysis",
+      "The task we are exploring is: \"Teaching computational thinking with Prolog.\nIntegration of Prolog in computational thinking education.\nProlog-driven computational thinking.\n\" Generate 3-5 noun phrases of 2-4 words each that occur as keyphrases only in scientific papers bout \"Computational thinking through Prolog programming\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Prolog-based computational thinking\n2. Prolog programming for computational thinking\n3. Computational thinking using Prolog\n4. Prolog-driven computational problem solving\n5. Prolog as a tool for computational thinking"
+    }
+  ],
+  [
+    "prompt_toks",
+    3355
+  ],
+  [
+    "compl_toks",
+    988
+  ],
+  [
+    "sys_prompt",
+    "I am a helpful assistant."
+  ],
+  [
+    "model",
+    "gpt-3.5-turbo"
+  ],
+  [
+    "temperature",
+    0.2
+  ],
+  [
+    "n",
+    1
+  ],
+  [
+    "max_toks",
+    4000
+  ],
+  [
+    "name",
+    "teaching_computational_thinking_with_prolog_scientific_concept_explorer_and_2"
+  ],
+  [
+    "CACHES",
+    "./STATE/caches/"
+  ],
+  [
+    "TRACE",
+    0
+  ],
+  [
+    "ROOT",
+    "./STATE/"
+  ],
+  [
+    "DATA",
+    "./STATE/data/"
+  ],
+  [
+    "OUT",
+    "./STATE/out/"
+  ],
+  [
+    "emebedding_model",
+    "text-embedding-ada-002"
+  ],
+  [
+    "TOP_K",
+    3
+  ],
+  [
+    "pattern",
+    "The task we are exploring is: \"$context\" Generate 3-5 noun phrases of 2-4 words each that occur as keyphrases only in scientific papers bout \"$g\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. "
+  ]
+]

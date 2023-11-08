@@ -1,0 +1,89 @@
+[
+  [
+    "short_mem",
+    {}
+  ],
+  [
+    "long_mem",
+    {
+      " On a scale from 0 to 100, rate how relevant and semantically close \"Fermi paradox\" is to \"The Fermi paradox\". Return your answer in the form: rating | explanation. The rating should be a number between 0 and 100, nothing else. The word \"would\" should not be part of the rating. The explanation should be short, at most 50 words. Do not cite sources, write just 1-2 sentences, relevant to \"The Fermi paradox\". ": "70 | The Fermi paradox is the question of why, given the vast number of potentially habitable planets in the universe, we have not yet observed any evidence of intelligent extraterrestrial life. It is a central topic in the field of astrobiology and the search for extraterrestrial intelligence (SETI).",
+      " On a scale from 0 to 100, rate how relevant and semantically close \"Extraterrestrial life\" is to \"The Fermi paradox\". Return your answer in the form: rating | explanation. The rating should be a number between 0 and 100, nothing else. The word \"would\" should not be part of the rating. The explanation should be short, at most 50 words. Do not cite sources, write just 1-2 sentences, relevant to \"The Fermi paradox\". ": "75 | The Fermi paradox is the question of why, given the vast number of potentially habitable planets in the universe, we have not yet observed any evidence of extraterrestrial life.",
+      " On a scale from 0 to 100, rate how relevant and semantically close \"Technological limitations\" is to \"The Fermi paradox\". Return your answer in the form: rating | explanation. The rating should be a number between 0 and 100, nothing else. The word \"would\" should not be part of the rating. The explanation should be short, at most 50 words. Do not cite sources, write just 1-2 sentences, relevant to \"The Fermi paradox\". ": "70 | Technological limitations could be a factor in the Fermi paradox, as advanced civilizations may have faced technological obstacles that prevented them from colonizing the galaxy.",
+      " On a scale from 0 to 100, rate how relevant and semantically close \"Natural selection\" is to \"The Fermi paradox\". Return your answer in the form: rating | explanation. The rating should be a number between 0 and 100, nothing else. The word \"would\" should not be part of the rating. The explanation should be short, at most 50 words. Do not cite sources, write just 1-2 sentences, relevant to \"The Fermi paradox\". ": "75 | Natural selection is a process that favors traits that are advantageous for survival and reproduction, while the Fermi paradox is the question of why, given the vast number of potentially habitable planets, we have not yet observed any evidence of intelligent extraterrestrial life. While natural selection and the Fermi paradox are related in that they both involve the survival and evolution of life, they are not directly semantically close.",
+      " On a scale from 0 to 100, rate how relevant and semantically close \"Environmental factors\" is to \"The Fermi paradox\". Return your answer in the form: rating | explanation. The rating should be a number between 0 and 100, nothing else. The word \"would\" should not be part of the rating. The explanation should be short, at most 50 words. Do not cite sources, write just 1-2 sentences, relevant to \"The Fermi paradox\". ": "75 | Environmental factors, such as the distance of a planet from its star, the presence of a protective atmosphere, and the availability of water, can significantly impact the likelihood of life developing and thriving. These factors may help explain why, despite the vast number of potentially habitable planets, we have not yet found evidence of intelligent extraterrestrial life.",
+      " On a scale from 0 to 100, rate how relevant and semantically close \"Cosmic radiation\" is to \"The Fermi paradox\". Return your answer in the form: rating | explanation. The rating should be a number between 0 and 100, nothing else. The word \"would\" should not be part of the rating. The explanation should be short, at most 50 words. Do not cite sources, write just 1-2 sentences, relevant to \"The Fermi paradox\". ": "50 | Cosmic radiation is relevant to the Fermi paradox as it is a potential explanation for the observed lack of extraterrestrial life, as radiation can be harmful to life forms."
+    }
+  ],
+  [
+    "prompt_toks",
+    812
+  ],
+  [
+    "compl_toks",
+    386
+  ],
+  [
+    "sys_prompt",
+    "I am a helpful assistant."
+  ],
+  [
+    "model",
+    "vicuna-7b-v1.5"
+  ],
+  [
+    "temperature",
+    0.2
+  ],
+  [
+    "n",
+    1
+  ],
+  [
+    "max_toks",
+    2000
+  ],
+  [
+    "name",
+    "the_fermi_paradox_rater_oracle"
+  ],
+  [
+    "CACHES",
+    "./STATE_LOCAL/caches/"
+  ],
+  [
+    "TRACE",
+    0
+  ],
+  [
+    "TO_SVOS",
+    true
+  ],
+  [
+    "ROOT",
+    "./STATE_LOCAL/"
+  ],
+  [
+    "OUT",
+    "./STATE_LOCAL/out/"
+  ],
+  [
+    "DATA",
+    "./STATE_LOCAL/data/"
+  ],
+  [
+    "emebedding_model",
+    "vicuna-7b-v1.5"
+  ],
+  [
+    "TOP_K",
+    3
+  ],
+  [
+    "API_BASE",
+    "http://u.local:8000/v1"
+  ],
+  [
+    "pattern",
+    " On a scale from 0 to 100, rate how relevant and semantically close \"$g\" is to \"$context\". Return your answer in the form: rating | explanation. The rating should be a number between 0 and 100, nothing else. The word \"would\" should not be part of the rating. The explanation should be short, at most 50 words. Do not cite sources, write just 1-2 sentences, relevant to \"$context\". "
+  ]
+]

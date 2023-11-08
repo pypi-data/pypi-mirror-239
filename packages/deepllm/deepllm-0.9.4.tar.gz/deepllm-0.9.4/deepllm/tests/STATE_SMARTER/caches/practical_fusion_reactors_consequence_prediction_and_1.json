@@ -1,0 +1,82 @@
+[
+  [
+    "short_mem",
+    {}
+  ],
+  [
+    "long_mem",
+    {
+      "We need to predict consequences this context: \"Practical fusion reactors.\n\" Generate 3-5 noun phrases of 2-4 words each detailing consequences of \"Significant reduction in greenhouse gas emissions\". Itemize your answer, one consequence of \"Significant reduction in greenhouse gas emissions\" per line. No explanations needed, just the noun phrase, nothing else. Avoid using the words \"Noun phrases\" in your answer. Your answer should not contain \":\".": "1. Enhanced air quality\n2. Decreased global warming\n3. Healthier ecosystems\n4. Lower climate change rates\n5. Improved public health",
+      "We need to predict consequences this context: \"Practical fusion reactors.\n\" Generate 3-5 noun phrases of 2-4 words each detailing consequences of \"Abundant and clean energy production\". Itemize your answer, one consequence of \"Abundant and clean energy production\" per line. No explanations needed, just the noun phrase, nothing else. Avoid using the words \"Noun phrases\" in your answer. Your answer should not contain \":\".": "1. Reduced greenhouse emissions\n2. Energy cost savings\n3. Decreased fossil fuel dependence\n4. Enhanced energy security\n5. Sustainable economic growth",
+      "We need to predict consequences this context: \"Practical fusion reactors.\n\" Generate 3-5 noun phrases of 2-4 words each detailing consequences of \"Transformation of global energy infrastructure\". Itemize your answer, one consequence of \"Transformation of global energy infrastructure\" per line. No explanations needed, just the noun phrase, nothing else. Avoid using the words \"Noun phrases\" in your answer. Your answer should not contain \":\".": "1. Widespread renewable energy adoption\n2. Significant carbon emissions reduction\n3. Emergence of new energy industries\n4. Decentralization of power sources\n5. Enhanced energy security"
+    }
+  ],
+  [
+    "prompt_toks",
+    326
+  ],
+  [
+    "compl_toks",
+    101
+  ],
+  [
+    "sys_prompt",
+    "I am a helpful assistant."
+  ],
+  [
+    "model",
+    "gpt-4"
+  ],
+  [
+    "temperature",
+    0.2
+  ],
+  [
+    "n",
+    1
+  ],
+  [
+    "max_toks",
+    4000
+  ],
+  [
+    "name",
+    "practical_fusion_reactors_consequence_prediction_and_1"
+  ],
+  [
+    "CACHES",
+    "./STATE_SMARTER/caches/"
+  ],
+  [
+    "TRACE",
+    0
+  ],
+  [
+    "TO_SVOS",
+    true
+  ],
+  [
+    "ROOT",
+    "./STATE_SMARTER/"
+  ],
+  [
+    "DATA",
+    "./STATE_SMARTER/data/"
+  ],
+  [
+    "OUT",
+    "./STATE_SMARTER/out/"
+  ],
+  [
+    "emebedding_model",
+    "text-embedding-ada-002"
+  ],
+  [
+    "TOP_K",
+    3
+  ],
+  [
+    "pattern",
+    "We need to predict consequences this context: \"$context\" Generate 3-5 noun phrases of 2-4 words each detailing consequences of \"$g\". Itemize your answer, one consequence of \"$g\" per line. No explanations needed, just the noun phrase, nothing else. Avoid using the words \"Noun phrases\" in your answer. Your answer should not contain \":\"."
+  ]
+]

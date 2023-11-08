@@ -1,0 +1,86 @@
+[
+  [
+    "short_mem",
+    {}
+  ],
+  [
+    "long_mem",
+    {
+      "The plan so far is: \"Repair a flat tire.\n\". In this context my goal is \"Inflate the tire to the proper pressure using a tire inflator or pump.\" Advise me how to achieve \"Inflate the tire to the proper pressure using a tire inflator or pump\", step by step, while ensuring steps are consistent with each other. Itemize your answer, one sentence per line.": "1. Locate the tire inflator or pump.\n2. Connect the inflator or pump to the tire valve.\n3. Select the appropriate pressure for the tire.\n4. Turn on the inflator or pump.\n5. Begin inflating the tire slowly.\n6. Check the pressure regularly.\n7. Stop inflating when the tire is at the proper pressure.\n8. Disconnect the inflator or pump from the tire valve.\n9. Make sure the tire is properly inflated and secure.",
+      "The plan so far is: \"Repair a flat tire.\n\". In this context my goal is \"Replace the flat tire with a spare tire or a new tire.\" Advise me how to achieve \"Replace the flat tire with a spare tire or a new tire\", step by step, while ensuring steps are consistent with each other. Itemize your answer, one sentence per line.": "1. Remove the flat tire from the vehicle.\n2. Inspect the spare tire to ensure it is in good condition and properly inflated.\n3. Install the spare tire on the vehicle.\n4. Remove the spare tire and install the new tire on the vehicle.\n5. Inflate the new tire to the recommended pressure.\n6. Secure the new tire in place with the lug nuts.\n7. Check the vehicle's alignment and make any necessary adjustments.\n8. Test drive the vehicle to ensure the new tire is properly inflated and functioning correctly.",
+      "The plan so far is: \"Repair a flat tire.\n\". In this context my goal is \"Repair the flat tire by patching the inner lining of the tire or replacing the tube.\" Advise me how to achieve \"Repair the flat tire by patching the inner lining of the tire or replacing the tube\", step by step, while ensuring steps are consistent with each other. Itemize your answer, one sentence per line.": "1. Inspect the tire for any visible damage or punctures.\n2. Remove the tire from the wheel and lay it flat on a clean surface.\n3. Inspect the inner lining of the tire for any cuts or punctures.\n4. Clean the area around the puncture with a brush or cloth to remove any debris.\n5. Apply a patch to the inner lining of the tire, following the manufacturer's instructions.\n6. Inflate the tire to the recommended pressure and check for any leaks.\n7. If the patch is not holding, remove the tire and replace the inner tube.\n8. Remove the tire from the wheel and discard the inner lining.\n9. Install a new inner tube, following the manufacturer's instructions.\n10. Inflate the tire to the recommended pressure and check for any leaks."
+    }
+  ],
+  [
+    "prompt_toks",
+    323
+  ],
+  [
+    "compl_toks",
+    462
+  ],
+  [
+    "sys_prompt",
+    "I am a helpful assistant."
+  ],
+  [
+    "model",
+    "vicuna-7b-v1.5"
+  ],
+  [
+    "temperature",
+    0.2
+  ],
+  [
+    "n",
+    1
+  ],
+  [
+    "max_toks",
+    2000
+  ],
+  [
+    "name",
+    "repair_a_flat_tire_step_by_step_guidance_to_achieve_a_goal_and_1"
+  ],
+  [
+    "CACHES",
+    "./STATE_LOCAL/caches/"
+  ],
+  [
+    "TRACE",
+    0
+  ],
+  [
+    "TO_SVOS",
+    true
+  ],
+  [
+    "ROOT",
+    "./STATE_LOCAL/"
+  ],
+  [
+    "OUT",
+    "./STATE_LOCAL/out/"
+  ],
+  [
+    "DATA",
+    "./STATE_LOCAL/data/"
+  ],
+  [
+    "emebedding_model",
+    "vicuna-7b-v1.5"
+  ],
+  [
+    "TOP_K",
+    3
+  ],
+  [
+    "API_BASE",
+    "http://u.local:8000/v1"
+  ],
+  [
+    "pattern",
+    "The plan so far is: \"$context\". In this context my goal is \"$g.\" Advise me how to achieve \"$g\", step by step, while ensuring steps are consistent with each other. Itemize your answer, one sentence per line."
+  ]
+]

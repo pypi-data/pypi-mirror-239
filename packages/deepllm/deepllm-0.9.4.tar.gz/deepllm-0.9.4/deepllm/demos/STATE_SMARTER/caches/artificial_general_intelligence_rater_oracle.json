@@ -1,0 +1,95 @@
+[
+  [
+    "short_mem",
+    {}
+  ],
+  [
+    "long_mem",
+    {
+      " On a scale from 0 to 100, rate how relevant and semantically close \"Machine learning algorithms\" is to \"Artificial General Intelligence\". Return your answer in the form: rating | explanation. The rating should be a number between 0 and 100, nothing else. The word \"would\" should not be part of the rating. The explanation should be short, at most 50 words. Do not cite sources, write just 1-2 sentences, relevant to \"Artificial General Intelligence\". ": "85 | Machine learning algorithms are a fundamental component of Artificial General Intelligence, as they provide the basis for learning and decision-making capabilities. However, AGI also involves other aspects like reasoning and understanding, which are not covered by machine learning alone.",
+      " On a scale from 0 to 100, rate how relevant and semantically close \"Supervised Learning Techniques\" is to \"Artificial General Intelligence\". Return your answer in the form: rating | explanation. The rating should be a number between 0 and 100, nothing else. The word \"would\" should not be part of the rating. The explanation should be short, at most 50 words. Do not cite sources, write just 1-2 sentences, relevant to \"Artificial General Intelligence\". ": "70 | Supervised learning techniques are a subset of machine learning methods, which contribute to the development of Artificial General Intelligence by enabling it to learn from data and make decisions.",
+      " On a scale from 0 to 100, rate how relevant and semantically close \"Neural Network Models\" is to \"Artificial General Intelligence\". Return your answer in the form: rating | explanation. The rating should be a number between 0 and 100, nothing else. The word \"would\" should not be part of the rating. The explanation should be short, at most 50 words. Do not cite sources, write just 1-2 sentences, relevant to \"Artificial General Intelligence\". ": "85 | Neural network models are a fundamental component of Artificial General Intelligence, as they provide the basis for learning and decision-making processes. However, AGI encompasses more than just neural networks, including aspects like reasoning and understanding.",
+      " On a scale from 0 to 100, rate how relevant and semantically close \"Reinforcement Learning Algorithms\" is to \"Artificial General Intelligence\". Return your answer in the form: rating | explanation. The rating should be a number between 0 and 100, nothing else. The word \"would\" should not be part of the rating. The explanation should be short, at most 50 words. Do not cite sources, write just 1-2 sentences, relevant to \"Artificial General Intelligence\". ": "85 | Reinforcement Learning Algorithms are a subset of machine learning techniques that are crucial in developing Artificial General Intelligence, as they enable the system to learn and improve from its experiences.",
+      " On a scale from 0 to 100, rate how relevant and semantically close \"Deep Learning Frameworks\" is to \"Artificial General Intelligence\". Return your answer in the form: rating | explanation. The rating should be a number between 0 and 100, nothing else. The word \"would\" should not be part of the rating. The explanation should be short, at most 50 words. Do not cite sources, write just 1-2 sentences, relevant to \"Artificial General Intelligence\". ": "70 | Deep learning frameworks are tools used in the development of AI systems, including AGI. However, AGI's concept goes beyond just deep learning, encompassing broader aspects of intelligence.",
+      " On a scale from 0 to 100, rate how relevant and semantically close \"Feature Extraction Methods\" is to \"Artificial General Intelligence\". Return your answer in the form: rating | explanation. The rating should be a number between 0 and 100, nothing else. The word \"would\" should not be part of the rating. The explanation should be short, at most 50 words. Do not cite sources, write just 1-2 sentences, relevant to \"Artificial General Intelligence\". ": "70 | Feature extraction methods are relevant to Artificial General Intelligence as they help in understanding and interpreting data, which is a crucial aspect of AGI's learning and decision-making processes.",
+      " On a scale from 0 to 100, rate how relevant and semantically close \"Cognitive computing capabilities\" is to \"Artificial General Intelligence\". Return your answer in the form: rating | explanation. The rating should be a number between 0 and 100, nothing else. The word \"would\" should not be part of the rating. The explanation should be short, at most 50 words. Do not cite sources, write just 1-2 sentences, relevant to \"Artificial General Intelligence\". ": "85 | Cognitive computing capabilities are a subset of Artificial General Intelligence, focusing on problem-solving and decision-making, but AGI also includes self-awareness and the ability to understand context beyond specific tasks.",
+      " On a scale from 0 to 100, rate how relevant and semantically close \"Cognitive System Architecture\" is to \"Artificial General Intelligence\". Return your answer in the form: rating | explanation. The rating should be a number between 0 and 100, nothing else. The word \"would\" should not be part of the rating. The explanation should be short, at most 50 words. Do not cite sources, write just 1-2 sentences, relevant to \"Artificial General Intelligence\". ": "85 | Cognitive System Architecture is highly relevant to Artificial General Intelligence as it provides the framework for designing and implementing AGI systems.",
+      " On a scale from 0 to 100, rate how relevant and semantically close \"Machine Learning Algorithms\" is to \"Artificial General Intelligence\". Return your answer in the form: rating | explanation. The rating should be a number between 0 and 100, nothing else. The word \"would\" should not be part of the rating. The explanation should be short, at most 50 words. Do not cite sources, write just 1-2 sentences, relevant to \"Artificial General Intelligence\". ": "85 | Machine learning algorithms are a fundamental component of Artificial General Intelligence, as they provide the basis for learning and decision-making capabilities. However, AGI also involves other aspects like reasoning and understanding, which are not covered by ML algorithms alone.",
+      " On a scale from 0 to 100, rate how relevant and semantically close \"Intelligent Data Analysis\" is to \"Artificial General Intelligence\". Return your answer in the form: rating | explanation. The rating should be a number between 0 and 100, nothing else. The word \"would\" should not be part of the rating. The explanation should be short, at most 50 words. Do not cite sources, write just 1-2 sentences, relevant to \"Artificial General Intelligence\". ": "70 | While both involve intelligence and data processing, Artificial General Intelligence refers to a type of AI that can understand, learn, and apply knowledge across a wide range of tasks, while Intelligent Data Analysis is a specific process of examining, cleaning, and modeling data to discover useful information.",
+      " On a scale from 0 to 100, rate how relevant and semantically close \"Natural Language Processing\" is to \"Artificial General Intelligence\". Return your answer in the form: rating | explanation. The rating should be a number between 0 and 100, nothing else. The word \"would\" should not be part of the rating. The explanation should be short, at most 50 words. Do not cite sources, write just 1-2 sentences, relevant to \"Artificial General Intelligence\". ": "85 | Natural Language Processing is a crucial component of Artificial General Intelligence as it enables machines to understand, interpret, and generate human language, a key aspect of human-like intelligence.",
+      " On a scale from 0 to 100, rate how relevant and semantically close \"Autonomous decision-making processes\" is to \"Artificial General Intelligence\". Return your answer in the form: rating | explanation. The rating should be a number between 0 and 100, nothing else. The word \"would\" should not be part of the rating. The explanation should be short, at most 50 words. Do not cite sources, write just 1-2 sentences, relevant to \"Artificial General Intelligence\". ": "85 | Autonomous decision-making processes are a key component of Artificial General Intelligence, as they allow the AI to independently solve problems and make decisions similar to a human.",
+      " On a scale from 0 to 100, rate how relevant and semantically close \"Stochastic Decision Processes\" is to \"Artificial General Intelligence\". Return your answer in the form: rating | explanation. The rating should be a number between 0 and 100, nothing else. The word \"would\" should not be part of the rating. The explanation should be short, at most 50 words. Do not cite sources, write just 1-2 sentences, relevant to \"Artificial General Intelligence\". ": "70 | Stochastic Decision Processes are a part of decision-making models in AI, which can contribute to the development of Artificial General Intelligence, but they are not the sole component.",
+      " On a scale from 0 to 100, rate how relevant and semantically close \"Autonomous System Behavior\" is to \"Artificial General Intelligence\". Return your answer in the form: rating | explanation. The rating should be a number between 0 and 100, nothing else. The word \"would\" should not be part of the rating. The explanation should be short, at most 50 words. Do not cite sources, write just 1-2 sentences, relevant to \"Artificial General Intelligence\". ": "85 | Autonomous System Behavior is highly relevant to Artificial General Intelligence as it involves self-governed actions, a key aspect of AGI. However, it doesn't cover all aspects of AGI, such as learning and understanding.",
+      " On a scale from 0 to 100, rate how relevant and semantically close \"Decision-Theoretic Planning\" is to \"Artificial General Intelligence\". Return your answer in the form: rating | explanation. The rating should be a number between 0 and 100, nothing else. The word \"would\" should not be part of the rating. The explanation should be short, at most 50 words. Do not cite sources, write just 1-2 sentences, relevant to \"Artificial General Intelligence\". ": "85 | Decision-Theoretic Planning is highly relevant to Artificial General Intelligence as it involves making optimal decisions, a key aspect of achieving general intelligence in AI systems.",
+      " On a scale from 0 to 100, rate how relevant and semantically close \"Uncertainty Management Strategies\" is to \"Artificial General Intelligence\". Return your answer in the form: rating | explanation. The rating should be a number between 0 and 100, nothing else. The word \"would\" should not be part of the rating. The explanation should be short, at most 50 words. Do not cite sources, write just 1-2 sentences, relevant to \"Artificial General Intelligence\". ": "60 | Uncertainty management strategies are relevant to artificial general intelligence as they can be used to improve decision-making processes. However, they are not directly synonymous or inherently linked."
+    }
+  ],
+  [
+    "prompt_toks",
+    1951
+  ],
+  [
+    "compl_toks",
+    616
+  ],
+  [
+    "sys_prompt",
+    "I am a helpful assistant."
+  ],
+  [
+    "model",
+    "gpt-4"
+  ],
+  [
+    "temperature",
+    0.2
+  ],
+  [
+    "n",
+    1
+  ],
+  [
+    "max_toks",
+    4000
+  ],
+  [
+    "name",
+    "artificial_general_intelligence_rater_oracle"
+  ],
+  [
+    "CACHES",
+    "./STATE_SMARTER/caches/"
+  ],
+  [
+    "TRACE",
+    0
+  ],
+  [
+    "TO_SVOS",
+    false
+  ],
+  [
+    "ROOT",
+    "./STATE_SMARTER/"
+  ],
+  [
+    "DATA",
+    "./STATE_SMARTER/data/"
+  ],
+  [
+    "OUT",
+    "./STATE_SMARTER/out/"
+  ],
+  [
+    "emebedding_model",
+    "text-embedding-ada-002"
+  ],
+  [
+    "TOP_K",
+    3
+  ],
+  [
+    "pattern",
+    " On a scale from 0 to 100, rate how relevant and semantically close \"$g\" is to \"$context\". Return your answer in the form: rating | explanation. The rating should be a number between 0 and 100, nothing else. The word \"would\" should not be part of the rating. The explanation should be short, at most 50 words. Do not cite sources, write just 1-2 sentences, relevant to \"$context\". "
+  ]
+]

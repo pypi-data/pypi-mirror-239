@@ -1,0 +1,107 @@
+[
+  [
+    "short_mem",
+    {}
+  ],
+  [
+    "long_mem",
+    {
+      "The topic we are exploring is: \"Artificial General Intelligence\" Generate 2-3 noun phrases describing details of \"Artificial General Intelligence\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Cognitive abilities and reasoning capabilities\n2. Learning and adaptation mechanisms\n3. Human-like intelligence and problem-solving skills",
+      "The topic we are exploring is: \"Artificial General Intelligence.\nCognitive abilities and reasoning capabilities.\n\" Generate 2-3 noun phrases describing details of \"Cognitive flexibility\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Adaptive problem-solving skills\n2. Mental agility and adaptability\n3. Flexible thinking and learning abilities",
+      "The topic we are exploring is: \"Artificial General Intelligence.\nCognitive abilities and reasoning capabilities.\n\" Generate 2-3 noun phrases describing details of \"Reasoning skills\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Logical deduction\n2. Problem-solving\n3. Decision-making",
+      "The topic we are exploring is: \"Artificial General Intelligence.\nCognitive abilities and reasoning capabilities.\n\" Generate 2-3 noun phrases describing details of \"Problem-solving abilities\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Logical deduction skills\n2. Creative problem-solving techniques\n3. Analytical decision-making abilities",
+      "The topic we are exploring is: \"Artificial General Intelligence.\nCognitive abilities and reasoning capabilities.\n\" Generate 2-3 noun phrases describing details of \"Decision-making processes\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Neural network-based decision-making\n2. Algorithmic decision-making\n3. Machine learning-driven decision-making",
+      "The topic we are exploring is: \"Artificial General Intelligence.\nCognitive abilities and reasoning capabilities.\n\" Generate 2-3 noun phrases describing details of \"Learning capacity\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Adaptive learning algorithms\n2. Neural network architectures\n3. Knowledge acquisition and retention",
+      "The topic we are exploring is: \"Artificial General Intelligence.\nLearning and adaptation mechanisms.\n\" Generate 2-3 noun phrases describing details of \"Reinforcement learning algorithms\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Temporal difference learning\n2. Policy gradient methods\n3. Q-learning",
+      "The topic we are exploring is: \"Artificial General Intelligence.\nLearning and adaptation mechanisms.\n\" Generate 2-3 noun phrases describing details of \"Neural network architectures\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Deep learning networks\n2. Recurrent neural networks\n3. Convolutional neural networks",
+      "The topic we are exploring is: \"Artificial General Intelligence.\nLearning and adaptation mechanisms.\n\" Generate 2-3 noun phrases describing details of \"Evolutionary optimization techniques\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Genetic algorithms\n2. Population-based optimization\n3. Fitness landscape analysis",
+      "The topic we are exploring is: \"Artificial General Intelligence.\nLearning and adaptation mechanisms.\n\" Generate 2-3 noun phrases describing details of \"Cognitive learning models\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Neural networks\n2. Reinforcement learning\n3. Deep learning",
+      "The topic we are exploring is: \"Artificial General Intelligence.\nLearning and adaptation mechanisms.\n\" Generate 2-3 noun phrases describing details of \"Adaptive decision-making strategies\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Reinforcement learning algorithms\n2. Bayesian decision-making models\n3. Evolutionary optimization techniques",
+      "The topic we are exploring is: \"Artificial General Intelligence.\nHuman-like intelligence and problem-solving skills.\n\" Generate 2-3 noun phrases describing details of \"Cognitive reasoning abilities\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Logical deduction capabilities\n2. Pattern recognition skills\n3. Creative problem-solving abilities",
+      "The topic we are exploring is: \"Artificial General Intelligence.\nHuman-like intelligence and problem-solving skills.\n\" Generate 2-3 noun phrases describing details of \"Adaptive learning algorithms\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Deep neural networks\n2. Reinforcement learning\n3. Transfer learning",
+      "The topic we are exploring is: \"Artificial General Intelligence.\nHuman-like intelligence and problem-solving skills.\n\" Generate 2-3 noun phrases describing details of \"Complex problem-solving strategies\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Cognitive algorithms\n2. Heuristic approaches\n3. Adaptive decision-making",
+      "The topic we are exploring is: \"Artificial General Intelligence.\nHuman-like intelligence and problem-solving skills.\n\" Generate 2-3 noun phrases describing details of \"Human-level intelligence\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Cognitive abilities\n2. Learning capacity\n3. Reasoning capabilities",
+      "The topic we are exploring is: \"Artificial General Intelligence.\nHuman-like intelligence and problem-solving skills.\n\" Generate 2-3 noun phrases describing details of \"Intelligent decision-making\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Cognitive reasoning abilities\n2. Adaptive learning algorithms\n3. Contextual understanding",
+      "The topic we are exploring is: \"Artificial general intelligence\" Generate 2-3 noun phrases describing details of \"Artificial general intelligence\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Machine learning algorithms\n2. Cognitive abilities\n3. Human-level intelligence",
+      "The topic we are exploring is: \"Artificial general intelligence.\nMachine learning algorithms.\n\" Generate 2-3 noun phrases describing details of \"Reinforcement learning algorithms\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Policy optimization techniques.\n2. Value function approximation methods.\n3. Exploration-exploitation trade-offs.",
+      "The topic we are exploring is: \"Artificial general intelligence.\nMachine learning algorithms.\n\" Generate 2-3 noun phrases describing details of \"Deep neural networks\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Training data\n2. Activation functions\n3. Weight parameters",
+      "The topic we are exploring is: \"Artificial general intelligence.\nMachine learning algorithms.\n\" Generate 2-3 noun phrases describing details of \"Supervised learning techniques\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Classification models\n2. Regression analysis\n3. Decision trees",
+      "The topic we are exploring is: \"Artificial general intelligence.\nMachine learning algorithms.\n\" Generate 2-3 noun phrases describing details of \"Unsupervised learning models\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Clustering techniques\n2. Anomaly detection methods\n3. Dimensionality reduction approaches",
+      "The topic we are exploring is: \"Artificial general intelligence.\nMachine learning algorithms.\n\" Generate 2-3 noun phrases describing details of \"Evolutionary optimization methods\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Population-based search algorithms.\n2. Genetic algorithms.\n3. Evolutionary computation techniques.",
+      "The topic we are exploring is: \"Artificial general intelligence.\nCognitive abilities.\n\" Generate 2-3 noun phrases describing details of \"Cognitive processing speed\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Neural network efficiency\n2. Information processing rate\n3. Reaction time",
+      "The topic we are exploring is: \"Artificial general intelligence.\nCognitive abilities.\n\" Generate 2-3 noun phrases describing details of \"Working memory capacity\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Storage capacity\n2. Retrieval speed\n3. Information processing efficiency",
+      "The topic we are exploring is: \"Artificial general intelligence.\nCognitive abilities.\n\" Generate 2-3 noun phrases describing details of \"Executive function deficits\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Impaired decision-making skills.\n2. Lack of impulse control.\n3. Difficulty in planning and organizing.",
+      "The topic we are exploring is: \"Artificial general intelligence.\nCognitive abilities.\n\" Generate 2-3 noun phrases describing details of \"Attentional control mechanisms\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Selective attention\n2. Executive control\n3. Inhibitory control",
+      "The topic we are exploring is: \"Artificial general intelligence.\nCognitive abilities.\n\" Generate 2-3 noun phrases describing details of \"Language comprehension skills\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Natural language processing capabilities.\n2. Semantic understanding abilities.\n3. Contextual comprehension skills.",
+      "The topic we are exploring is: \"Artificial general intelligence.\nHuman-level intelligence.\n\" Generate 2-3 noun phrases describing details of \"Cognitive architecture\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Neural networks and deep learning algorithms.\n2. Symbolic representation and reasoning systems.\n3. Memory and knowledge management mechanisms.",
+      "The topic we are exploring is: \"Artificial general intelligence.\nHuman-level intelligence.\n\" Generate 2-3 noun phrases describing details of \"Machine learning algorithms\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Deep neural networks\n2. Reinforcement learning\n3. Supervised learning",
+      "The topic we are exploring is: \"Artificial general intelligence.\nHuman-level intelligence.\n\" Generate 2-3 noun phrases describing details of \"Neural networks\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Deep learning algorithms\n2. Pattern recognition capabilities\n3. Cognitive computing models",
+      "The topic we are exploring is: \"Artificial general intelligence.\nHuman-level intelligence.\n\" Generate 2-3 noun phrases describing details of \"Reinforcement learning\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Reward-based learning\n2. Decision-making optimization\n3. Trial-and-error training",
+      "The topic we are exploring is: \"Artificial general intelligence.\nHuman-level intelligence.\n\" Generate 2-3 noun phrases describing details of \"Natural language processing\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. ": "1. Sentiment analysis\n2. Speech recognition\n3. Language translation"
+    }
+  ],
+  [
+    "prompt_toks",
+    2421
+  ],
+  [
+    "compl_toks",
+    579
+  ],
+  [
+    "sys_prompt",
+    "I am a helpful assistant."
+  ],
+  [
+    "model",
+    "gpt-3.5-turbo"
+  ],
+  [
+    "temperature",
+    0.2
+  ],
+  [
+    "n",
+    1
+  ],
+  [
+    "max_toks",
+    4000
+  ],
+  [
+    "name",
+    "artificial_general_intelligence_scientific_concept_or_2"
+  ],
+  [
+    "CACHES",
+    "./STATE/caches/"
+  ],
+  [
+    "TRACE",
+    0
+  ],
+  [
+    "ROOT",
+    "./STATE/"
+  ],
+  [
+    "DATA",
+    "./STATE/data/"
+  ],
+  [
+    "OUT",
+    "./STATE/out/"
+  ],
+  [
+    "emebedding_model",
+    "text-embedding-ada-002"
+  ],
+  [
+    "TOP_K",
+    3
+  ],
+  [
+    "pattern",
+    "The topic we are exploring is: \"$context\" Generate 2-3 noun phrases describing details of \"$g\". Itemize your answer, one noun phrase per line. No explanations needed, just the noun phrase, nothing else. "
+  ]
+]

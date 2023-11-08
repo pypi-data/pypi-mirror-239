@@ -1,0 +1,97 @@
+[
+  [
+    "short_mem",
+    {}
+  ],
+  [
+    "long_mem",
+    {
+      " On a scale from 0 to 100, rate how relevant and semantically close \"The Great Filter theory\" is to \"The Fermi paradox\". Return your answer in the form: rating | explanation. The rating should be a number between 0 and 100, nothing else. The word \"would\" should not be part of the rating. The explanation should be short, at most 50 words. Do not cite sources, write just 1-2 sentences, relevant to \"The Fermi paradox\". ": "90 | The Great Filter theory is highly relevant to the Fermi Paradox as it provides a possible explanation for the paradox, suggesting that life-bearing civilizations may not reach a level of technological advancement due to self-destruction or other factors.",
+      " On a scale from 0 to 100, rate how relevant and semantically close \"Advanced civilization self-destruction\" is to \"The Fermi paradox\". Return your answer in the form: rating | explanation. The rating should be a number between 0 and 100, nothing else. The word \"would\" should not be part of the rating. The explanation should be short, at most 50 words. Do not cite sources, write just 1-2 sentences, relevant to \"The Fermi paradox\". ": "85 | The Fermi Paradox questions why we haven't encountered extraterrestrial life if it's statistically likely to exist. Advanced civilization self-destruction could be a potential solution, suggesting civilizations destroy themselves before making contact.",
+      " On a scale from 0 to 100, rate how relevant and semantically close \"Resource depletion\" is to \"The Fermi paradox\". Return your answer in the form: rating | explanation. The rating should be a number between 0 and 100, nothing else. The word \"would\" should not be part of the rating. The explanation should be short, at most 50 words. Do not cite sources, write just 1-2 sentences, relevant to \"The Fermi paradox\". ": "30 | While both concepts deal with existential issues, resource depletion is a concrete environmental problem, whereas the Fermi Paradox is a theoretical question about the existence of extraterrestrial life.",
+      " On a scale from 0 to 100, rate how relevant and semantically close \"Biological extinction events\" is to \"The Fermi paradox\". Return your answer in the form: rating | explanation. The rating should be a number between 0 and 100, nothing else. The word \"would\" should not be part of the rating. The explanation should be short, at most 50 words. Do not cite sources, write just 1-2 sentences, relevant to \"The Fermi paradox\". ": "70 | The Fermi Paradox questions why we haven't encountered extraterrestrial life, and biological extinction events could potentially provide an answer, as they could wipe out civilizations before they reach a point of interstellar communication.",
+      " On a scale from 0 to 100, rate how relevant and semantically close \"Unfavorable cosmic events\" is to \"The Fermi paradox\". Return your answer in the form: rating | explanation. The rating should be a number between 0 and 100, nothing else. The word \"would\" should not be part of the rating. The explanation should be short, at most 50 words. Do not cite sources, write just 1-2 sentences, relevant to \"The Fermi paradox\". ": "70 | The Fermi Paradox questions why we haven't detected signs of extraterrestrial life, and unfavorable cosmic events could potentially explain this by causing civilizations to go extinct before they can make contact.",
+      " On a scale from 0 to 100, rate how relevant and semantically close \"Technological stagnation\" is to \"The Fermi paradox\". Return your answer in the form: rating | explanation. The rating should be a number between 0 and 100, nothing else. The word \"would\" should not be part of the rating. The explanation should be short, at most 50 words. Do not cite sources, write just 1-2 sentences, relevant to \"The Fermi paradox\". ": "70 | Technological stagnation could be a potential solution to the Fermi Paradox, suggesting that civilizations may not advance far enough to engage in interstellar communication or travel.",
+      " On a scale from 0 to 100, rate how relevant and semantically close \"The Zoo Hypothesis\" is to \"The Fermi paradox\". Return your answer in the form: rating | explanation. The rating should be a number between 0 and 100, nothing else. The word \"would\" should not be part of the rating. The explanation should be short, at most 50 words. Do not cite sources, write just 1-2 sentences, relevant to \"The Fermi paradox\". ": "85 | The Zoo Hypothesis is a proposed solution to the Fermi Paradox, suggesting that extraterrestrial life intentionally avoids communication with Earth to allow for natural evolution and sociocultural development.",
+      " On a scale from 0 to 100, rate how relevant and semantically close \"Advanced alien ethics\" is to \"The Fermi paradox\". Return your answer in the form: rating | explanation. The rating should be a number between 0 and 100, nothing else. The word \"would\" should not be part of the rating. The explanation should be short, at most 50 words. Do not cite sources, write just 1-2 sentences, relevant to \"The Fermi paradox\". ": "70 | The Fermi Paradox questions why we haven't encountered advanced alien civilizations, and their ethics could potentially explain their silence or non-interference with humanity.",
+      " On a scale from 0 to 100, rate how relevant and semantically close \"Galactic preservation laws\" is to \"The Fermi paradox\". Return your answer in the form: rating | explanation. The rating should be a number between 0 and 100, nothing else. The word \"would\" should not be part of the rating. The explanation should be short, at most 50 words. Do not cite sources, write just 1-2 sentences, relevant to \"The Fermi paradox\". ": "70 | The Fermi Paradox questions why we haven't encountered extraterrestrial life, and galactic preservation laws could potentially be a reason for this, suggesting civilizations are preserving the galaxy by not making contact.",
+      " On a scale from 0 to 100, rate how relevant and semantically close \"Non-interference principles\" is to \"The Fermi paradox\". Return your answer in the form: rating | explanation. The rating should be a number between 0 and 100, nothing else. The word \"would\" should not be part of the rating. The explanation should be short, at most 50 words. Do not cite sources, write just 1-2 sentences, relevant to \"The Fermi paradox\". ": "60 | The Fermi Paradox questions why we haven't encountered extraterrestrial life, while non-interference principles could potentially explain this by suggesting advanced civilizations intentionally avoid contact.",
+      " On a scale from 0 to 100, rate how relevant and semantically close \"Technological superiority\" is to \"The Fermi paradox\". Return your answer in the form: rating | explanation. The rating should be a number between 0 and 100, nothing else. The word \"would\" should not be part of the rating. The explanation should be short, at most 50 words. Do not cite sources, write just 1-2 sentences, relevant to \"The Fermi paradox\". ": "80 | The Fermi Paradox questions why we haven't encountered extraterrestrial life, given the vast number of stars and planets. Technological superiority is relevant as it's one possible explanation - advanced civilizations may exist, but their technology could be beyond our comprehension or detection.",
+      " On a scale from 0 to 100, rate how relevant and semantically close \"Fear of contamination\" is to \"The Fermi paradox\". Return your answer in the form: rating | explanation. The rating should be a number between 0 and 100, nothing else. The word \"would\" should not be part of the rating. The explanation should be short, at most 50 words. Do not cite sources, write just 1-2 sentences, relevant to \"The Fermi paradox\". ": "10 | \"Fear of contamination\" and \"The Fermi paradox\" are not closely related. The Fermi paradox deals with the apparent contradiction between high estimates of extraterrestrial life and the lack of evidence or contact, while fear of contamination is a psychological or health-related concern.",
+      " On a scale from 0 to 100, rate how relevant and semantically close \"The Transcension Hypothesis\" is to \"The Fermi paradox\". Return your answer in the form: rating | explanation. The rating should be a number between 0 and 100, nothing else. The word \"would\" should not be part of the rating. The explanation should be short, at most 50 words. Do not cite sources, write just 1-2 sentences, relevant to \"The Fermi paradox\". ": "85 | Both concepts deal with the existence of advanced civilizations in the universe. The Transcension Hypothesis is one proposed solution to the Fermi Paradox, suggesting civilizations may inevitably leave our universe.",
+      " On a scale from 0 to 100, rate how relevant and semantically close \"Advanced civilization development\" is to \"The Fermi paradox\". Return your answer in the form: rating | explanation. The rating should be a number between 0 and 100, nothing else. The word \"would\" should not be part of the rating. The explanation should be short, at most 50 words. Do not cite sources, write just 1-2 sentences, relevant to \"The Fermi paradox\". ": "85 | The Fermi Paradox questions why we haven't detected signs of advanced civilizations, thus the development of such civilizations is highly relevant to the paradox.",
+      " On a scale from 0 to 100, rate how relevant and semantically close \"Technological singularity achievement\" is to \"The Fermi paradox\". Return your answer in the form: rating | explanation. The rating should be a number between 0 and 100, nothing else. The word \"would\" should not be part of the rating. The explanation should be short, at most 50 words. Do not cite sources, write just 1-2 sentences, relevant to \"The Fermi paradox\". ": "60 | Both concepts deal with advanced civilizations and technology, but they focus on different aspects. The Fermi Paradox questions why we haven't encountered extraterrestrial life, while the Technological Singularity refers to the point when AI surpasses human intelligence.",
+      " On a scale from 0 to 100, rate how relevant and semantically close \"Inner space exploration\" is to \"The Fermi paradox\". Return your answer in the form: rating | explanation. The rating should be a number between 0 and 100, nothing else. The word \"would\" should not be part of the rating. The explanation should be short, at most 50 words. Do not cite sources, write just 1-2 sentences, relevant to \"The Fermi paradox\". ": "40 | While both concepts are related to space and the unknown, \"Inner space exploration\" typically refers to the exploration of consciousness or the human mind, whereas \"The Fermi paradox\" deals with the contradiction between the high probability of extraterrestrial life and the lack of contact with such civilizations.",
+      " On a scale from 0 to 100, rate how relevant and semantically close \"Information density increase\" is to \"The Fermi paradox\". Return your answer in the form: rating | explanation. The rating should be a number between 0 and 100, nothing else. The word \"would\" should not be part of the rating. The explanation should be short, at most 50 words. Do not cite sources, write just 1-2 sentences, relevant to \"The Fermi paradox\". ": "20 | While both concepts deal with information and knowledge, the Fermi Paradox specifically refers to the contradiction between the high probability of extraterrestrial life and the lack of contact or evidence for such civilizations. Information density increase doesn't directly relate to this paradox.",
+      " On a scale from 0 to 100, rate how relevant and semantically close \"Black hole utilization\" is to \"The Fermi paradox\". Return your answer in the form: rating | explanation. The rating should be a number between 0 and 100, nothing else. The word \"would\" should not be part of the rating. The explanation should be short, at most 50 words. Do not cite sources, write just 1-2 sentences, relevant to \"The Fermi paradox\". ": "60 | Both concepts are related to astrophysics and the universe's mysteries. However, \"Black hole utilization\" is a speculative concept, while \"The Fermi paradox\" deals with the contradiction between the high probability of extraterrestrial life and the lack of contact or evidence."
+    }
+  ],
+  [
+    "prompt_toks",
+    2194
+  ],
+  [
+    "compl_toks",
+    797
+  ],
+  [
+    "sys_prompt",
+    "I am a helpful assistant."
+  ],
+  [
+    "model",
+    "gpt-4"
+  ],
+  [
+    "temperature",
+    0.2
+  ],
+  [
+    "n",
+    1
+  ],
+  [
+    "max_toks",
+    4000
+  ],
+  [
+    "name",
+    "the_fermi_paradox_rater_oracle"
+  ],
+  [
+    "CACHES",
+    "./STATE_SMARTER/caches/"
+  ],
+  [
+    "TRACE",
+    0
+  ],
+  [
+    "TO_SVOS",
+    true
+  ],
+  [
+    "ROOT",
+    "./STATE_SMARTER/"
+  ],
+  [
+    "DATA",
+    "./STATE_SMARTER/data/"
+  ],
+  [
+    "OUT",
+    "./STATE_SMARTER/out/"
+  ],
+  [
+    "emebedding_model",
+    "text-embedding-ada-002"
+  ],
+  [
+    "TOP_K",
+    3
+  ],
+  [
+    "pattern",
+    " On a scale from 0 to 100, rate how relevant and semantically close \"$g\" is to \"$context\". Return your answer in the form: rating | explanation. The rating should be a number between 0 and 100, nothing else. The word \"would\" should not be part of the rating. The explanation should be short, at most 50 words. Do not cite sources, write just 1-2 sentences, relevant to \"$context\". "
+  ]
+]

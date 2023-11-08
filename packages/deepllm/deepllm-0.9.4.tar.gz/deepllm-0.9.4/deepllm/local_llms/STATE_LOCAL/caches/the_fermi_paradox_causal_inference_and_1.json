@@ -1,0 +1,86 @@
+[
+  [
+    "short_mem",
+    {}
+  ],
+  [
+    "long_mem",
+    {
+      "We need causal explanations in this context: \"The Fermi paradox.\n\" Generate 3-5 explanations of 2-4 words each for the causes of \"Technological singularity\". Itemize your answer, one reason for \"Technological singularity\" per line. No explanations needed, just the 2-4 words noun phrase, nothing else. Your answer should not contain \":\" or \"Cause\". ": "1. Technological singularity\n2. Artificial intelligence\n3. Robotics\n4. Nanotechnology\n5. Quantum computing",
+      "We need causal explanations in this context: \"The Fermi paradox.\n\" Generate 3-5 explanations of 2-4 words each for the causes of \"Zoo hypothesis\". Itemize your answer, one reason for \"Zoo hypothesis\" per line. No explanations needed, just the 2-4 words noun phrase, nothing else. Your answer should not contain \":\" or \"Cause\". ": "1. Zoo hypothesis\n2. Alien civilization\n3. Technological stagnation\n4. Environmental collapse\n5. Cultural isolation",
+      "We need causal explanations in this context: \"The Fermi paradox.\n\" Generate 3-5 explanations of 2-4 words each for the causes of \"Fermi paradox\". Itemize your answer, one reason for \"Fermi paradox\" per line. No explanations needed, just the 2-4 words noun phrase, nothing else. Your answer should not contain \":\" or \"Cause\". ": "1. Extraterrestrial life\n2. Technological limitations\n3. Natural selection\n4. Environmental factors\n5. Cosmic radiation"
+    }
+  ],
+  [
+    "prompt_toks",
+    334
+  ],
+  [
+    "compl_toks",
+    98
+  ],
+  [
+    "sys_prompt",
+    "I am a helpful assistant."
+  ],
+  [
+    "model",
+    "vicuna-7b-v1.5"
+  ],
+  [
+    "temperature",
+    0.2
+  ],
+  [
+    "n",
+    1
+  ],
+  [
+    "max_toks",
+    2000
+  ],
+  [
+    "name",
+    "the_fermi_paradox_causal_inference_and_1"
+  ],
+  [
+    "CACHES",
+    "./STATE_LOCAL/caches/"
+  ],
+  [
+    "TRACE",
+    0
+  ],
+  [
+    "TO_SVOS",
+    true
+  ],
+  [
+    "ROOT",
+    "./STATE_LOCAL/"
+  ],
+  [
+    "OUT",
+    "./STATE_LOCAL/out/"
+  ],
+  [
+    "DATA",
+    "./STATE_LOCAL/data/"
+  ],
+  [
+    "emebedding_model",
+    "vicuna-7b-v1.5"
+  ],
+  [
+    "TOP_K",
+    3
+  ],
+  [
+    "API_BASE",
+    "http://u.local:8000/v1"
+  ],
+  [
+    "pattern",
+    "We need causal explanations in this context: \"$context\" Generate 3-5 explanations of 2-4 words each for the causes of \"$g\". Itemize your answer, one reason for \"$g\" per line. No explanations needed, just the 2-4 words noun phrase, nothing else. Your answer should not contain \":\" or \"Cause\". "
+  ]
+]

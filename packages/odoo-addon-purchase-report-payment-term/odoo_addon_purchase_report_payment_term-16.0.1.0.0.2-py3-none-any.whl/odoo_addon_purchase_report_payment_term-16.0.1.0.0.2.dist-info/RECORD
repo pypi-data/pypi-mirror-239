@@ -1,0 +1,13 @@
+odoo/addons/purchase_report_payment_term/README.rst,sha256=Ao6QTCB1bdtkFasSWWR3Bs24AU-T-4NWb6-E892gGBU,2932
+odoo/addons/purchase_report_payment_term/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odoo/addons/purchase_report_payment_term/__manifest__.py,sha256=HY7PXOvNUrK9O0xftA52l-pzFbI71VPDR0I_KMHFqwU,532
+odoo/addons/purchase_report_payment_term/i18n/purchase_report_payment_term.pot,sha256=leB6MlaWiU1sPOdcOTxNVY5KVORnHv0MfD14HgQJIIs,341
+odoo/addons/purchase_report_payment_term/readme/DESCRIPTION.rst,sha256=0IPB29fGW_9QK0iPmrplAtmK8vFTtr4EJDXpKsXllSI,90
+odoo/addons/purchase_report_payment_term/reports/purchase_order_templates.xml,sha256=jusk-bRqItX8lfmesnH-VqTgEF3PgcTArxJMywmVE50,419
+odoo/addons/purchase_report_payment_term/reports/purchase_quotation_templates.xml,sha256=gW5RTHX6CFczhKpVYSIDYllVuID6YD-iGGbXbjb6OZU,427
+odoo/addons/purchase_report_payment_term/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/purchase_report_payment_term/static/description/index.html,sha256=P0MRJhUJZHgZbcDl1plQ5-szH9hLl_f9ov2jJRsUFNA,11904
+odoo_addon_purchase_report_payment_term-16.0.1.0.0.2.dist-info/METADATA,sha256=Ywl0s_WqiZ5FgvneshA8ccs8gQ3P2mFWelIE2d9Gq_8,3498
+odoo_addon_purchase_report_payment_term-16.0.1.0.0.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+odoo_addon_purchase_report_payment_term-16.0.1.0.0.2.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo_addon_purchase_report_payment_term-16.0.1.0.0.2.dist-info/RECORD,,

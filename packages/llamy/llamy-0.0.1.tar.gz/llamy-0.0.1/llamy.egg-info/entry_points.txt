@@ -1,0 +1,3 @@
+[console_scripts]
+llamy = llamy.cli:main
+

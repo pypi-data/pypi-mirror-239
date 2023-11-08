@@ -1,0 +1,11 @@
+MANIFEST.in
+__init__.py
+hello_world.py
+requirements.txt
+setup.py
+llamy.egg-info/PKG-INFO
+llamy.egg-info/SOURCES.txt
+llamy.egg-info/dependency_links.txt
+llamy.egg-info/entry_points.txt
+llamy.egg-info/requires.txt
+llamy.egg-info/top_level.txt

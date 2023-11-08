@@ -1,0 +1,2 @@
+[nbdev]
+mstar = mstar._modidx:d

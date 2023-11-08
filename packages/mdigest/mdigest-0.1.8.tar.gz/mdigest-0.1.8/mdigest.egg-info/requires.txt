@@ -1,0 +1,11 @@
+numpy
+numba
+scipy
+python-louvain==0.15
+pandas
+seaborn
+mdtraj
+MDAnalysis
+silx
+nglview
+networkx

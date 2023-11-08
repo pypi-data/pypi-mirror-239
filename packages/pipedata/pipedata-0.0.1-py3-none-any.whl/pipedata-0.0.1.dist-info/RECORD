@@ -1,0 +1,9 @@
+pipedata/__init__.py,sha256=fBpZp6ea-DWYK17vN4NJyyaR7McVYK_j0h7gfd1dCas,56
+pipedata/core/__init__.py,sha256=-ZYQfZimg4zdCU2hVKbbltU6Q7hGMHx6oF3_Y6c5sB4,156
+pipedata/core/chain.py,sha256=ITs9pkkdiOQquCeuTrI7xy5_fNdt3oFUOCEH_8R6i0Q,5617
+pipedata/core/itertools.py,sha256=-yMC0v2LxjrvEfEno3oXMzKLOdJL6EMG0ItmH8xmqDE,357
+pipedata/core/stream.py,sha256=GKAvYS8vVI8TR8IDgHVu8di6YdUt1fowVLyYZguuPYw,2148
+pipedata-0.0.1.dist-info/LICENSE,sha256=UFu0Qz0FhzfDJ0mTCHpgxSxr1S47zLm2x_RZzfhlCwg,1062
+pipedata-0.0.1.dist-info/METADATA,sha256=UwJrKRfNX_gomJCj-0XTBnlz3KgrL2tyROW3VXPSNl8,2487
+pipedata-0.0.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+pipedata-0.0.1.dist-info/RECORD,,

@@ -1,0 +1,9 @@
+timeflux>=0.11.1
+sounddevice>=0.4.4
+
+[dev]
+pytest>=5.3
+sphinx>=2.2
+sphinx_rtd_theme>=0.4
+setuptools_scm
+docinit

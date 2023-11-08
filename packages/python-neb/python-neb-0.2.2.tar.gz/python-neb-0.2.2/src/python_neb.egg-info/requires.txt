@@ -1,0 +1,12 @@
+certifi
+cycler
+h5py
+kiwisolver
+matplotlib
+numpy
+pathos
+pyparsing
+python-dateutil
+scipy
+six
+numdifftools

@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+mladenpdf.egg-info/PKG-INFO
+mladenpdf.egg-info/SOURCES.txt
+mladenpdf.egg-info/dependency_links.txt
+mladenpdf.egg-info/top_level.txt

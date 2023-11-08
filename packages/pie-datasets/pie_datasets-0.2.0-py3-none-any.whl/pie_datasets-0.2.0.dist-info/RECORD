@@ -1,0 +1,8 @@
+pie_datasets/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pie_datasets/document/processing/__init__.py,sha256=NmJf6tIfnS_2M5l_AVL6gldHjeyeepQJSEgv6kI3uAg,95
+pie_datasets/document/processing/regex_partitioner.py,sha256=u1eAW5WsCTX_YQZneD7D50hFA7W3bCK44eV1bbBz6WA,9886
+pie_datasets/document/processing/text_span_trimmer.py,sha256=40G0B2bmDodw9juPC_dOX6h71EOUGZ-bYk04J1VQTTY,3674
+pie_datasets-0.2.0.dist-info/LICENSE,sha256=ShwjyxNBJH0A7Q57ztQPYw00jmfFEh9nv4BGnbhWPS0,1067
+pie_datasets-0.2.0.dist-info/METADATA,sha256=yTbjmmj_2oDrdkZzzjtUoERiPXc9I_38DO0Bmqd-FH0,4293
+pie_datasets-0.2.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+pie_datasets-0.2.0.dist-info/RECORD,,

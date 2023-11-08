@@ -1,0 +1,13 @@
+pip_services4_memcached/__init__.py,sha256=iwhKnzeBJLKxpRVjvzwiRE63_zNpIBfaKLITauVph-0,24
+pip_services4_memcached/build/DefaultMemcachedFactory.py,sha256=Iqs-9m4etWnPHNyUzWYq49XpnUjdNSZEMCVaO185rU8,1070
+pip_services4_memcached/build/__init__.py,sha256=3B13kcVdKLtyJFJu3qom6akECD5OB76yOjAqJ0_pEnw,125
+pip_services4_memcached/cache/MemcachedCache.py,sha256=7A0MkLX5JhM9Q_6WWhIfgbUBi_1IggpI5Mbsrapv5_w,9044
+pip_services4_memcached/cache/__init__.py,sha256=qfC7-evraYtv9NiXXsqj5Axh5IjWWMGjxezvluGy1zg,97
+pip_services4_memcached/lock/MemcachedLock.py,sha256=Mvlm-zY4UCJ5pGWV41JXGdOf-fpwyv__HBQj6E9cnNU,8560
+pip_services4_memcached/lock/__init__.py,sha256=530iczCwZ0B0We3B6uc6Dhu4c_reEIIjGR3xJkbD2Dk,94
+pip_services4_memcached-0.0.1.dist-info/LICENSE,sha256=s02QBYXMPC5EBLwWhp1dAm3PjZA-jz9-gfi9ndDWYoA,1076
+pip_services4_memcached-0.0.1.dist-info/METADATA,sha256=HhskOt59lOegU_h87IrWewvJHKpVynsymGXZRG3s_DY,1346
+pip_services4_memcached-0.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+pip_services4_memcached-0.0.1.dist-info/top_level.txt,sha256=O_2QUgi7oR8rE2TQnWZR1QlxFChzYvuLdpvTxvtI9NQ,24
+pip_services4_memcached-0.0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pip_services4_memcached-0.0.1.dist-info/RECORD,,

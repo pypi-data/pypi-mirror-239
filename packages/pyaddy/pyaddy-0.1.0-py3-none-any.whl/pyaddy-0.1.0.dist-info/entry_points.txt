@@ -1,0 +1,3 @@
+[console_scripts]
+api-details=pyaddy.__main__:main
+

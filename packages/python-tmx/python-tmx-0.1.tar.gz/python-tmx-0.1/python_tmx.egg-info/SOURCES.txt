@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+python_tmx.egg-info/PKG-INFO
+python_tmx.egg-info/SOURCES.txt
+python_tmx.egg-info/dependency_links.txt
+python_tmx.egg-info/top_level.txt
+src/__init__.py
+src/inline.py
+src/structural.py

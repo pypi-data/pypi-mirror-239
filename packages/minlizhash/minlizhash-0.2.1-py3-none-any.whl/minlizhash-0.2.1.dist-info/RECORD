@@ -1,0 +1,12 @@
+minlizhash/LSH.py,sha256=fEbHu9od1FWsDTE4kC17rrYtjDWsKJRtMXEyYSF1WSw,10467
+minlizhash/__init__.py,sha256=MR1ADc08RgroH9ta1lHk-AHuxcXoIl8FL7HA-2epZbs,655
+minlizhash/hash.py,sha256=8VTDvzLyfx97T0hA5XJnCW7rsUupY5U61v7nwxEX7A8,5763
+minlizhash/jit.py,sha256=HH1lkJ5RB5tKDttfmqmHMCMVUMPKtMV92RG92sETBoQ,2044
+minlizhash/min_hash.py,sha256=YRHpE1EAebAPgIlK408obTeUqdLx5q3nBpa2wiNP9hI,7483
+minlizhash/tokens.py,sha256=TtpItLoCsBbuT-hQ3Jio443AYg_CId_-Wh-Q2gM_nyQ,1067
+minlizhash/types.py,sha256=giGGY2D9JkrbCk_sY7kAj7XISaDvcTKw-hlD2mU7d9A,1782
+minlizhash/utils.py,sha256=AeKTdVySqG9hBD77vJ_WAdA0bDDJlYTn9zgkmiD5I24,1266
+minlizhash-0.2.1.dist-info/LICENSE,sha256=8lTRXKbBmYIYcyfNZbpmM5D8oeQIk0ySPkXCvIthj68,1068
+minlizhash-0.2.1.dist-info/METADATA,sha256=CqrGRb80IBO8LJjydPVHMLmM8qvWkTctyJIpCvRLGGI,10595
+minlizhash-0.2.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+minlizhash-0.2.1.dist-info/RECORD,,

@@ -1,0 +1,2 @@
+[kimmdy.parameterization_plugins]
+grappa = grappa_interface:GrappaInterface

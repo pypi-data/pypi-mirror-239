@@ -1,0 +1,13 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.py
+texteval/__init__.py
+texteval/data_store.py
+texteval/evaluate.py
+texteval/summarize.py
+texteval.egg-info/PKG-INFO
+texteval.egg-info/SOURCES.txt
+texteval.egg-info/dependency_links.txt
+texteval.egg-info/requires.txt
+texteval.egg-info/top_level.txt

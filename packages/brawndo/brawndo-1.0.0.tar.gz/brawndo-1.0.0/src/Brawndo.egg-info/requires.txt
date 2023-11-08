@@ -1,0 +1,6 @@
+build
+pytest
+twine
+termcolor
+colorama
+nltk

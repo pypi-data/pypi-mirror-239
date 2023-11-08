@@ -1,0 +1,6 @@
+[console_scripts]
+git2appsurify=testbrain.repository.cli:git2appsurify
+git2testbrain=testbrain.repository.cli:git2testbrain
+tbcli=testbrain.__main__:app
+testbrain=testbrain.__main__:app
+

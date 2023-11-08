@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+app/__init__.py
+app/directory_tree_builder.py
+app/model_serializer.py
+model_serializer.egg-info/PKG-INFO
+model_serializer.egg-info/SOURCES.txt
+model_serializer.egg-info/dependency_links.txt
+model_serializer.egg-info/requires.txt
+model_serializer.egg-info/top_level.txt
+test/__init__.py
+test/directory_tree_builder_test.py
+test/model_serializer_test.py

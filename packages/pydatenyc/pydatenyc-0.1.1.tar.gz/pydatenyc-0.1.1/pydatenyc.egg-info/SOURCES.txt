@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pydate/__init__.py
+pydate/activities.py
+pydate/dessert.py
+pydate/food.py
+pydate/pickupline.py
+pydatenyc.egg-info/PKG-INFO
+pydatenyc.egg-info/SOURCES.txt
+pydatenyc.egg-info/dependency_links.txt
+pydatenyc.egg-info/top_level.txt
+tests/test_activities.py
+tests/test_dessert.py
+tests/test_food.py
+tests/test_pickupline.py

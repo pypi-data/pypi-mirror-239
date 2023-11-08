@@ -1,0 +1,9 @@
+certbot_plugin_gandi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+certbot_plugin_gandi/gandi_api.py,sha256=H5CFnfMXTDYnX6TqMWtQb22PnYIZGyjC8UahmvuHJiA,3447
+certbot_plugin_gandi/main.py,sha256=oEJ5p79BUEDZY7nSfLwyA47O8mY8lJMuqXUmiLt4w1E,3100
+certbot_plugin_gandi-1.5.0.dist-info/LICENSE,sha256=B6guMOEiuMKbXamiWhM7s_nn_OEL5858EgtRN3KkZwE,1084
+certbot_plugin_gandi-1.5.0.dist-info/METADATA,sha256=z7xYue9dY93dhv4mV7mldW8ztd4TIIlnWbBvIoah1-k,7111
+certbot_plugin_gandi-1.5.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+certbot_plugin_gandi-1.5.0.dist-info/entry_points.txt,sha256=HV01ypF7BPeUcrOjWlYaD2K0ebw-is5FDbNFEq9azms,70
+certbot_plugin_gandi-1.5.0.dist-info/top_level.txt,sha256=byZ81uGhkIuwi9OsoLvUfpffqb9cBxxP4O61qC6Cjzc,21
+certbot_plugin_gandi-1.5.0.dist-info/RECORD,,

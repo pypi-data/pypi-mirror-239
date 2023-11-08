@@ -1,0 +1,9 @@
+src/__init__.py,sha256=aXhU_CI96MCHLJURwmxeE6XBJQx1iWmt9sKxBAK2Tzw,30
+src/main.py,sha256=Var0bjU5XVfvSI9pIyvtHCb9ti_SC-oIApy56u_hksk,49
+vecflow/__init__.py,sha256=EiWmBpsKBHlmzkGqXjMPjoYFbewV6Qx0Vrx210zBerY,47
+vecflow/chat.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vecflow/pipeline_setup/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vecflow-0.0.2.dist-info/METADATA,sha256=buSZj7KH4rT2itmYu5O-BksWTWv9B_C2CHIG88x4wgg,389
+vecflow-0.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+vecflow-0.0.2.dist-info/top_level.txt,sha256=PkgfVLhhxbrLmC0eNC89PFEo85YgpotzKQho2EKWqnI,8
+vecflow-0.0.2.dist-info/RECORD,,

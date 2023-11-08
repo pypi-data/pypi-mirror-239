@@ -1,0 +1,12 @@
+docker_printer/__init__.py,sha256=qvGT6Oj6eU7eEq_ziKYPSM3br8BPqyEf3mrZEwtP784,54
+docker_printer/__main__.py,sha256=CyNk1lc5Y2Z8yYZiViFIwkbuzG6ppu1WWHyhWb1IY_Y,1773
+docker_printer/cli.py,sha256=BaK_UZbYsdOXtw6ax5KYJmElDvotwqpGslQUI8S93wk,4264
+docker_printer/models.py,sha256=2SbnP2zUGXq_8s8VSYeYrxoctT4uVxRCbYo_BcQIroc,10619
+docker_printer/utils.py,sha256=jS7JhUloevQGh8Ir2QW08Fe_Y_l5zVHNcz6dOtW4CpQ,3485
+docker_printer/resources/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+docker_printer/resources/templates/base.Dockerfile.jinja2,sha256=6iah_Rt33wvpTyr85h0ky54uBF3_NDXo9hYMFgKVPrA,277
+docker_printer/resources/templates/stage.Dockerfile.jinja2,sha256=jyYYIvoIoBvSY5y4HxPAzfztdYZvJChdlh7-TiYnxx8,733
+docker_printer-0.4.0.dist-info/entry_points.txt,sha256=_6Boo1nIRrnsmh2BRSbOqnBPKP_9Weg8WxZ5oMcJRh0,63
+docker_printer-0.4.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+docker_printer-0.4.0.dist-info/METADATA,sha256=6AfgYZpsiGeGeMrTqB93w_jVIBsfhkuoVwQiWe_1aco,1852
+docker_printer-0.4.0.dist-info/RECORD,,

@@ -1,0 +1,39 @@
+{% block from -%}
+FROM {{ base }} AS {{ name }}
+{%- endblock %}
+
+{% block labels -%}
+{% for key, value in labels.items() -%}
+LABEL "{{ key }}"="{{ value }}"
+{% endfor %}
+{%- endblock %}
+
+{% block args -%}
+{% for arg, default in arguments.items() -%}
+ARG {{ arg }}{% if default %}={{ default }}{% endif %}
+{% endfor %}
+{%- endblock %}
+
+{% block env -%}
+{%  for key, value in env.items() -%}
+ENV {{ key }}="{{ value }}"
+{% endfor %}
+{%- endblock %}
+
+{% if shell -%}
+SHELL {{ shell|tojson|safe }}
+{%- endif %}
+
+{% block instructions -%}
+{% for instr in instructions -%}
+{{ instr }}
+{% endfor %}
+{%- endblock %}
+
+{% if entrypoint -%}
+ENTRYPOINT {{ entrypoint }}
+{%- endif %}
+
+{% if command -%}
+CMD {{ command|tojson|safe }}
+{%- endif %}

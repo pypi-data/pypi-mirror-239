@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: deepcelltypes-kit
+Version: 0.1
+Summary: A library for the deepcelltypes project.
+Home-page: https://github.com/xuefei-wang/deepcelltypes-kit
+Author: xuefei-wang
+Author-email: wang.xuefei.wang@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+
+# deepcelltypes-kit
+A collection of configs and util functions that are shared across multiple repos around Deepcelltypes project.

@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: web2py-gluon
+Version: 2.26.1
+Summary: Fork of web2py to use the `gluon`-functionality from pypi.
+Project-URL: Homepage, http://web2py.com
+Author-email: Massimo Di Pierro <mdipierro@cs.depaul.edu>
+License-Expression: LGPL-3.0
+License-File: LICENSE
+Classifier: Development Status :: 5 - Production/Stable
+Requires-Dist: pydal
+Requires-Dist: yatl

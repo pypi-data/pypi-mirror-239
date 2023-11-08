@@ -1,0 +1,7 @@
+README.md
+setup.py
+sound_scape_explorer.egg-info/PKG-INFO
+sound_scape_explorer.egg-info/SOURCES.txt
+sound_scape_explorer.egg-info/dependency_links.txt
+sound_scape_explorer.egg-info/top_level.txt
+src/__init__.py

@@ -1,0 +1,15 @@
+beanstatement/__init__.py,sha256=sq6TcUpbxu4wBWeyhBlE5Y0ctyeYVkfMwMATZP-6duw,34
+beanstatement/reporter.py,sha256=2lpfqhaGUOpy62rq-uSLf_BkzQVbfhE8S1xYcphtj-I,12109
+beanstatement/reporter_test.py,sha256=oBPiKPq8t9Gqsg1wv_GYvQszm-zesaJ1ptYbVaMMcQs,1146
+beanstatement/scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+beanstatement/scripts/main.py,sha256=pdZJiE8wJ6RUO-JLCvk21wLptySYjnttwAdOmepEIfE,739
+beanstatement/templates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+beanstatement/templates/balance_sheet.mustache,sha256=50JoeNNOmzOJ33s8uFujmhEkHM1yum5cMUqj9bRMeSc,2537
+beanstatement/templates/income_statement.mustache,sha256=50JoeNNOmzOJ33s8uFujmhEkHM1yum5cMUqj9bRMeSc,2537
+beanstatement/test_resources/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+beanstatement/test_resources/minimal/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+beancount_financial_statement-0.8.4.dist-info/METADATA,sha256=X0mPLYqOdXtIxP51_T8jDpL3qQ2zjE3Fj3exg2011F4,6330
+beancount_financial_statement-0.8.4.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+beancount_financial_statement-0.8.4.dist-info/entry_points.txt,sha256=DSOZl_sG7MxUWePkhtOFS-PqeyH7XYAn767I9VHvHFU,67
+beancount_financial_statement-0.8.4.dist-info/top_level.txt,sha256=o4anfFPEjpTbtMKNA21Z2jnJ9GHS0ZOrd4UiaL16ars,14
+beancount_financial_statement-0.8.4.dist-info/RECORD,,

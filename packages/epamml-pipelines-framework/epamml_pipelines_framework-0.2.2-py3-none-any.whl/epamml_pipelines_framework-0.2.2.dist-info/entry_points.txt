@@ -1,0 +1,9 @@
+[ml_pipelines_framework]
+batch_inference_tabular = ml_pipelines_framework.batch_inference_tabular.__main__:main
+data_loader = ml_pipelines_framework.data_loader.__main__:main
+deploy_online_serving = ml_pipelines_framework.deploy_online_serving.__main__:main
+feature_preparation = ml_pipelines_framework.feature_preparation.__main__:main
+release = ml_pipelines_framework.release.__main__:main
+test_online_inference = ml_pipelines_framework.test_online_inference.__main__:main
+trainer = ml_pipelines_framework.trainer.__main__:main
+

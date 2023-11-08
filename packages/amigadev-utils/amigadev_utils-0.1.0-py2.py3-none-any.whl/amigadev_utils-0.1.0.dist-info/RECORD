@@ -1,0 +1,12 @@
+amigadev/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+amigadev/bumprev.py,sha256=y1ZeylWhrruOeAHm5bbSdgg-9j4fCukaORUf6VqdYGw,1943
+amigadev/fdtool.py,sha256=Zs0gQnyFLCRQBUHEH2PvxrDkOZSaKtsThx5L7lEUomw,1873
+amigadev/png2image.py,sha256=LaKj8FcfR2EMYi4J679Ovdns_GSZQfy7S-DJ0doJjmo,4677
+amigadev_utils-0.1.0.data/scripts/adu-bumprev,sha256=6AGFz-vrToEi8HVExPAHOI5y9gczEBDe-BRutWgfiwI,413
+amigadev_utils-0.1.0.data/scripts/adu-dalf,sha256=LifFZvEyoAUT0ERnUfC6JUFhz3nVGuXPsmJoyVFVBRM,889
+amigadev_utils-0.1.0.data/scripts/adu-fdtool,sha256=nhbRKB3W2qLb8zv4HRpwnVDvus_1aH4jZZnXMgPWwj8,345
+amigadev_utils-0.1.0.data/scripts/adu-png2image,sha256=EyC8jl2Cob7zUrJe-7N0jj_DrTo2JOX5_ynytQ7iyHY,1516
+amigadev_utils-0.1.0.dist-info/METADATA,sha256=s5tC23KqzQZq1R-PneZlWE26E69sR8rR36qwQtFnuv4,935
+amigadev_utils-0.1.0.dist-info/WHEEL,sha256=P2T-6epvtXQ2cBOE_U1K4_noqlJFN3tj15djMgEu4NM,110
+amigadev_utils-0.1.0.dist-info/top_level.txt,sha256=bHMdZgqqH_PMf03eSI5dOkKL_DliZl1u3Ypcgobq88o,9
+amigadev_utils-0.1.0.dist-info/RECORD,,

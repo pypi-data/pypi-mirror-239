@@ -1,0 +1,172 @@
+project(placo)
+cmake_minimum_required(VERSION 3.10)
+
+find_package(Threads)
+find_package(pinocchio REQUIRED)
+find_package(eiquadprog REQUIRED)
+find_package(eigenpy REQUIRED)
+find_package(jsoncpp REQUIRED)
+
+# Enable C++17
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
+
+# Maybe this should not be done globally but only for placo's targets
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fPIC")
+
+if ("${CMAKE_LIBRARY_OUTPUT_DIRECTORY}" STREQUAL "")
+set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/${CMAKE_INSTALL_LIBDIR})
+endif()
+
+find_package (Eigen3 3 REQUIRED NO_MODULE)
+
+add_library(libplaco SHARED
+    # Wrappers and basic utils
+    src/placo/model/robot_wrapper.cpp
+    src/placo/model/humanoid_robot.cpp
+
+    # Tools
+    src/placo/tools/axises_mask.cpp
+    src/placo/tools/utils.cpp
+    src/placo/tools/prioritized.cpp
+
+    # Trajectories
+    src/placo/trajectory/foot_trajectory.cpp
+    src/placo/trajectory/swing_foot.cpp
+    src/placo/trajectory/swing_foot_quintic.cpp
+    src/placo/trajectory/swing_foot_cubic.cpp
+    src/placo/trajectory/cubic_spline.cpp
+    src/placo/trajectory/cubic_spline_3d.cpp
+    src/placo/trajectory/kick.cpp
+
+    # Problem formulation
+    src/placo/problem/problem.cpp
+    src/placo/problem/qp_error.cpp
+    src/placo/problem/variable.cpp
+    src/placo/problem/expression.cpp
+    src/placo/problem/integrator.cpp
+    src/placo/problem/constraint.cpp
+    src/placo/problem/constraints.cpp
+    src/placo/problem/polygon_constraint.cpp
+    src/placo/problem/sparsity.cpp
+
+    # Kinematics QP solver
+    src/placo/kinematics/kinematics_solver.cpp
+    src/placo/kinematics/task.cpp
+    src/placo/kinematics/position_task.cpp
+    src/placo/kinematics/orientation_task.cpp
+    src/placo/kinematics/centroidal_momentum_task.cpp
+    src/placo/kinematics/frame_task.cpp
+    src/placo/kinematics/relative_position_task.cpp
+    src/placo/kinematics/relative_orientation_task.cpp
+    src/placo/kinematics/relative_frame_task.cpp
+    src/placo/kinematics/com_task.cpp
+    src/placo/kinematics/distance_task.cpp
+    src/placo/kinematics/joints_task.cpp
+    src/placo/kinematics/gear_task.cpp
+    src/placo/kinematics/regularization_task.cpp
+    src/placo/kinematics/constraint.cpp
+    src/placo/kinematics/avoid_self_collisions_constraint.cpp
+    src/placo/kinematics/com_polygon_constraint.cpp
+
+    # Dynamics QP solver
+    src/placo/dynamics/task.cpp
+    src/placo/dynamics/position_task.cpp
+    src/placo/dynamics/orientation_task.cpp
+    src/placo/dynamics/frame_task.cpp
+    src/placo/dynamics/relative_position_task.cpp
+    src/placo/dynamics/relative_orientation_task.cpp
+    src/placo/dynamics/relative_frame_task.cpp
+    src/placo/dynamics/joints_task.cpp
+    src/placo/dynamics/gear_task.cpp
+    src/placo/dynamics/com_task.cpp
+    src/placo/dynamics/contacts.cpp
+    src/placo/dynamics/dynamics_solver.cpp
+    src/placo/dynamics/constraint.cpp
+    src/placo/dynamics/avoid_self_collisions_constraint.cpp
+    src/placo/dynamics/reaction_ratio_constraint.cpp
+
+    # Walking
+    src/placo/footsteps/footsteps_planner.cpp
+    src/placo/footsteps/footsteps_planner_naive.cpp
+    src/placo/footsteps/footsteps_planner_repetitive.cpp
+    src/placo/planning/walk_pattern_generator.cpp
+    src/placo/planning/walk_tasks.cpp
+    src/placo/model/humanoid_parameters.cpp
+    src/placo/planning/lipm.cpp
+
+    ${PROTO_SRCS}
+    ${PROTO_HDRS}  
+)
+
+target_include_directories(libplaco PUBLIC 
+  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/src> 
+  ${PROTOBUF_INCLUDE_DIRS}
+  ${CMAKE_CURRENT_BINARY_DIR})
+
+target_link_libraries(libplaco PUBLIC
+    Eigen3::Eigen
+    Threads::Threads
+    pinocchio::pinocchio
+    eigenpy::eigenpy
+    eiquadprog::eiquadprog
+    jsoncpp_lib
+    ${PROTOBUF_LIBRARIES}
+  ${PROTOBUF_LIBRARIES}
+)
+target_compile_definitions(libplaco PUBLIC -DPINOCCHIO_WITH_HPP_FCL)
+
+if(TARGET rhoban_utils)
+  message("Placo: Rhoban utils is present, enabling it")
+  target_compile_definitions(libplaco PUBLIC -DHAVE_RHOBAN_UTILS)
+  target_link_libraries(libplaco PUBLIC rhoban_utils)
+endif ()
+
+set(CMAKE_SHARED_MODULE_PREFIX "")
+
+find_package(Python3 REQUIRED)
+find_package(Boost COMPONENTS python REQUIRED)
+
+add_library(placo MODULE 
+    bindings/expose-eigen.cpp
+    bindings/expose-tools.cpp
+    bindings/expose-trajectory.cpp
+    bindings/expose-problem.cpp
+    bindings/expose-footsteps.cpp
+    bindings/expose-robot-wrapper.cpp
+    bindings/expose-parameters.cpp
+    bindings/expose-kinematics.cpp
+    bindings/expose-walk-pattern-generator.cpp
+    bindings/expose-dynamics.cpp
+    bindings/module.cpp
+    bindings/registry.cpp
+)
+
+target_link_libraries(placo ${Boost_LIBRARIES} ${PYTHON_LIBRARIES} libplaco)
+target_include_directories(placo PRIVATE ${PYTHON_INCLUDE_DIRS})
+
+ADD_CUSTOM_TARGET(native_python_files ALL
+                  COMMAND ${CMAKE_COMMAND} -E copy
+                  ${CMAKE_CURRENT_SOURCE_DIR}/python/placo_utils
+                  ${CMAKE_LIBRARY_OUTPUT_DIRECTORY}/placo_utils
+                  )
+
+add_custom_command(TARGET placo POST_BUILD
+    COMMAND ${CMAKE_CURRENT_SOURCE_DIR}/stubs.py > placo.pyi
+    WORKING_DIRECTORY ${CMAKE_LIBRARY_OUTPUT_DIRECTORY}
+    COMMENT "Generating stubs..."
+)
+
+# Hack to retrieve the string like python3.10/site-packages for the current python
+execute_process(
+  COMMAND "${PYTHON_EXECUTABLE}" -c "if True:
+    import sysconfig
+    print('/'.join(sysconfig.get_path('purelib').split('/')[-2:]))
+    "
+  OUTPUT_VARIABLE PYTHON_SITE
+  OUTPUT_STRIP_TRAILING_WHITESPACE)
+
+install(TARGETS libplaco DESTINATION lib)
+install(TARGETS placo DESTINATION lib/${PYTHON_SITE})
+install(FILES ${CMAKE_LIBRARY_OUTPUT_DIRECTORY}/placo.pyi DESTINATION lib/${PYTHON_SITE})

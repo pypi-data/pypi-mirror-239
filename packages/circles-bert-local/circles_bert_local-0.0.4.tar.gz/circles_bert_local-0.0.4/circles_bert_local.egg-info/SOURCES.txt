@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+circles_bert_local.egg-info/PKG-INFO
+circles_bert_local.egg-info/SOURCES.txt
+circles_bert_local.egg-info/dependency_links.txt
+circles_bert_local.egg-info/requires.txt
+circles_bert_local.egg-info/top_level.txt
+circles_bert_local/src/bert.py

@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+setup.py
+fuck_game.egg-info/PKG-INFO
+fuck_game.egg-info/SOURCES.txt
+fuck_game.egg-info/dependency_links.txt
+fuck_game.egg-info/entry_points.txt
+fuck_game.egg-info/not-zip-safe
+fuck_game.egg-info/top_level.txt
+src/__init__.py
+src/game_level.py
+src/game_ui.py
+src/main.py

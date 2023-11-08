@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/agmap.py
+src/agmap.egg-info/PKG-INFO
+src/agmap.egg-info/SOURCES.txt
+src/agmap.egg-info/dependency_links.txt
+src/agmap.egg-info/top_level.txt

@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+./ap_validator/__init__.py
+./ap_validator/app_package.py
+bin/ap-validator
+ogc_ap_validator.egg-info/PKG-INFO
+ogc_ap_validator.egg-info/SOURCES.txt
+ogc_ap_validator.egg-info/dependency_links.txt
+ogc_ap_validator.egg-info/requires.txt
+ogc_ap_validator.egg-info/top_level.txt
+tests/test_cli.py
+tests/test_obj.py

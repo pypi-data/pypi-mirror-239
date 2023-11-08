@@ -1,0 +1,3 @@
+[console_scripts]
+banger=bbot.main:bangerbot
+

@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: pybumpver
+Version: 0.1.0.dev0
+Summary: Bump the Python version used across your project.
+Project-URL: Documentation, https://github.com/joshuadavidthomas/pybumpver#readme
+Project-URL: Issues, https://github.com/joshuadavidthomas/pybumpver/issues
+Project-URL: Source, https://github.com/joshuadavidthomas/pybumpver
+Author-email: Josh Thomas <josh@joshthomas.dev>
+License-Expression: MIT
+License-File: AUTHORS.md
+License-File: LICENSE
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.8
+Requires-Dist: click>=8.1
+Requires-Dist: packaging>=23.2
+Requires-Dist: rich>=13.6
+Provides-Extra: dev
+Requires-Dist: bumpver; extra == 'dev'
+Requires-Dist: coverage[toml]; extra == 'dev'
+Requires-Dist: hatch; extra == 'dev'
+Requires-Dist: mypy; extra == 'dev'
+Requires-Dist: nox; extra == 'dev'
+Requires-Dist: pytest; extra == 'dev'
+Requires-Dist: pytest-cov; extra == 'dev'
+Requires-Dist: pytest-randomly; extra == 'dev'
+Requires-Dist: pytest-reverse; extra == 'dev'
+Requires-Dist: pytest-xdist; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: cogapp; extra == 'docs'
+Requires-Dist: furo; extra == 'docs'
+Requires-Dist: myst-parser; extra == 'docs'
+Requires-Dist: sphinx; extra == 'docs'
+Requires-Dist: sphinx-autobuild; extra == 'docs'
+Requires-Dist: sphinx-copybutton; extra == 'docs'
+Requires-Dist: sphinx-inline-tabs; extra == 'docs'
+Provides-Extra: lint
+Requires-Dist: pre-commit; extra == 'lint'
+Description-Content-Type: text/markdown
+
+# pybumpver
+
+WIP
+
+## License
+
+`pybumpver` is licensed under the MIT license. See the [`LICENSE`](LICENSE) file for more information.

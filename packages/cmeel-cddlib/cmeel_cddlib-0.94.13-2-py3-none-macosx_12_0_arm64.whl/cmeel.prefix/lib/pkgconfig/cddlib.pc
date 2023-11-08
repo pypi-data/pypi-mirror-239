@@ -1,0 +1,10 @@
+prefix=${pcfiledir}/../..
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${pcfiledir}/../../include
+
+Name: cddlib
+Description: C library implementing Double Description Method (generating vertices, etc. of polyhedra)
+Version: 0.94m
+Libs:  -L${libdir} -lcdd
+Cflags: -I${includedir}

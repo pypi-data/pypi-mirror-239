@@ -1,0 +1,15 @@
+evolve/__init__.py,sha256=0b2ECFYA-BdHTb2Q9Tgy3D1oLHMJ9ncPWdagZD7fwkA,42
+evolve/battery/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+evolve/battery/battery.py,sha256=ieZlE8YTov9MMLnyF4HMkZNO_KqPuyslpYbfm6clcek,4166
+evolve/battery/peak_shaving_strategy.py,sha256=TFV5_GTn9ajo0ccSZYO3UnSH8BOPT23sEBf-mDdvcL8,6090
+evolve/battery/self_consumption_strategy.py,sha256=erii132gygZG-0L95iWWPwnA9YAZ0w1UkTdV1hdRfJg,3808
+evolve/battery/timed_strategy.py,sha256=TcW_ACVB8fpZzoWp5PL4LvTrPQQKOafl4Yk8cjTmnUc,5468
+evolve/ev/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+evolve/ev/ev_constants.py,sha256=KQzs2s9CEqkKy2YzHWysmYykTGuKD_XMA7khUDgHzU0,553
+evolve/ev/ev_interfaces.py,sha256=dA88LFG3KvFGg6E4hc81iohJm01Q4UclCzhrPmh_gWc,6391
+evolve/ev/ev_module.py,sha256=aQOhu8q553tfEb3DCLW9HM_Io3-V3g1MOe12Vu6nCOY,16850
+evolve/solar/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+evolve/solar/solar.py,sha256=7fMgW_GNQP_FF-zoLVhLfNmkwxToK61nQ_ypIdzLIpI,10991
+evolve_core-1.0.3.dist-info/METADATA,sha256=hJ26p7VQU4I46UaF7u307jJ7KDWOKkA3si2VD2zAEFU,1194
+evolve_core-1.0.3.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+evolve_core-1.0.3.dist-info/RECORD,,

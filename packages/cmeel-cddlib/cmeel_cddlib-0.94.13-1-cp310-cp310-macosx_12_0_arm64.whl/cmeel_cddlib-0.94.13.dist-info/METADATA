@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: cmeel-cddlib
+Version: 0.94.13
+Summary: cmeel distribution for cddlib
+Requires-Python: >= 3.8
+License-Expression: GPL
+Home-page: https://github.com/cmake-wheel/cmeel-cddlib
+Requires-Dist: cmeel
+Description-Content-Type: text/markdown
+
+# CMeel cddlib
+
+[qpOASES](https://github.com/cddlibi/cddlibi) distribution for cmeel packages.

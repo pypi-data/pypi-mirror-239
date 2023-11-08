@@ -1,0 +1,4 @@
+theme: jekyll-theme-primer
+title: ML Configurations
+description: A small, highly opinionated python tool to handle configurations for machine learning pipelines.
+show_downloads: true

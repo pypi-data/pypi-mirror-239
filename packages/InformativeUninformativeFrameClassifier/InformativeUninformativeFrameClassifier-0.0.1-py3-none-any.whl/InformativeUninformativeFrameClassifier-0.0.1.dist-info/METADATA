@@ -1,0 +1,110 @@
+Metadata-Version: 2.1
+Name: InformativeUninformativeFrameClassifier
+Version: 0.0.1
+Summary: Python module to train and test informative/uninformative frames on Cholect80 and HeiCo datasets.
+Home-page: https://github.com/HassnaIrzan/InformativeUninformativeFrameClassifier
+Author: Hassna Irzan
+Author-email: rmaphir@gmail.com
+License: MIT License
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: torch
+Requires-Dist: torchvision
+Requires-Dist: timm
+Requires-Dist: tensorboard
+Requires-Dist: sklearn
+Requires-Dist: pillow
+Requires-Dist: natsort
+
+Informative vs Uninformative Frame Classifier
+---------------------------------------------
+
+This project contains a package of a classifier that is able to distinguish between informative and uninformative frames. The model at the skeleton is a ViT architecture. The data are from the Cholec80 and HeiCo datasets and have been labelled manually.
+
+Labelling protocol of the frames
+--------------------------------
+
+An informative video frame in endoscopy and surgery is one that exhibits the following characteristics:
+
+* **Item Clarity and Visibility**: The frame should be sufficiently clear, well-lit, and free from overexposure, underexposure issues, or close-ups. It allows for a comprehensive examination of the surgical field or anatomical region. Frames inside the trocar, with a restricted view of the internal abdomen and no visible instruments or organs, are not informative. If a frame contains areas of visible organs (or/and instruments) and areas of close-ups, underexposure, or overexposure, if the proportion of the relevant area is bigger than that of dark/underexposed, then the frame is informative. Frames showing the wall of the abdomen without any instruments are not informative.
+
+* **Focus and Sharpness**: The frame should be sharply focused, devoid of blurriness, and capable of conveying fine details. This ensures that anatomical structures, instruments, and surgical actions are discernible. 
+
+ * **Relevance**: The frame should contain content pertinent to the surgical procedure or medical examination, capturing essential aspects of the surgical process, anatomical structures, or diagnostic information. The annotator should be able to identify at least one item of the triplet (i.e. one from tool, tissues, action). For example, frames from outside the body are not relevant.
+
+## Examples of informative and uninformative frames
+These are some examples of frames that have been manually labelled as informative:
+
+![alt text](https://github.com/HassnaIrzan/InformativeUninformativeFrameClassifier/blob/main/example_frames/informaive/frame1.png) 
+
+![alt text](https://github.com/HassnaIrzan/InformativeUninformativeFrameClassifier/blob/main/example_frames/informaive/frame2.png) 
+
+These are an example of a frame manually labelled as uninformative:
+
+![alt text](https://github.com/HassnaIrzan/InformativeUninformativeFrameClassifier/blob/main/example_frames/uninformative/frame3.png) ![alt text](https://github.com/HassnaIrzan/InformativeUninformativeFrameClassifier/blob/main/example_frames/uninformative/frame4.png)
+
+
+
+Preprocessing of the data
+-------------------------
+
+### Compute the mean and standard deviation
+
+Mean and standard deviation have been computed for the dataset. The mean $\bar{x}$ and standard deviation $\sigma$ are computed as:
+
+$\bar{x} = \frac{1}{n} \sum x_i$
+
+$\sigma = \sqrt{\frac{1}{n} \sum(x_i - \bar{x})^2}$
+
+where $x$ is a pixel intensity, the mean $\bar{x}$ and standard deviation $\sigma$ are computed for each channel separately.
+
+### Run the code
+
+The code to compute $\bar{x}$ and standard deviation $\sigma$ is stored in [this code](src/preproc/compute_mean_std.py)
+Run by 
+```
+python compute_mean_std.py --input_dir data_dir  --bachsize bachsize
+```
+* Options
+  * --input_dir: Path to the directory containing the dataset.
+  * --bachsize: The number of images to process.
+
+
+Installation
+------------
+
+### Install from source
+
+To install the package from source:
+
+```
+git clone git@github.com:HassnaIrzan/GoodBadFrameClassifier.git
+cd GoodBadFrameClassifier
+python3 setup.py install
+
+```
+### Install from pip
+To be done 
+
+# Running the Classifier
+
+This section provides instructions on how to run the classifier code.
+
+## Prerequisites
+
+Before running the code, make sure you have the following prerequisites installed:
+
+- Python 3.x
+- Required Python packages (you can install them using `pip`):
+
+  ```bash
+  pip install -r requirements.txt
+
+
+ # Author
+ Hassna Irzan ([rmaphir@gmail.com](mailto:rmaphir@gmail.com))
+# License
+This repository is shared under an [MIT license](https://github.com/HassnaIrzan/InformativeUninformativeFrameClassifier/blob/main/LICENSE)
+
+

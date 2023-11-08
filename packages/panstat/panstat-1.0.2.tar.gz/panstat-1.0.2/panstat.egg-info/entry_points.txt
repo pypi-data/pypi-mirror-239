@@ -1,0 +1,3 @@
+[console_scripts]
+panstat = panstat.bin.main:main
+

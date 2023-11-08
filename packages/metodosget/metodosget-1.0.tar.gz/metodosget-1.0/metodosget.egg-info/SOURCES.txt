@@ -1,0 +1,11 @@
+README.md
+Setup.py
+setup.cfg
+setup.py
+metodosget/__init__.py
+metodosget/metodosget.py
+metodosget.egg-info/PKG-INFO
+metodosget.egg-info/SOURCES.txt
+metodosget.egg-info/dependency_links.txt
+metodosget.egg-info/requires.txt
+metodosget.egg-info/top_level.txt

@@ -1,0 +1,12 @@
+normtest/__init__.py,sha256=cCgjxrIUBQLRTbfWFEJxmHgTEITvo5PV49SQbS6zc4A,217
+normtest/bib.py,sha256=Dm0Qnkze1KYdunOdXxdu7Huauxe4sdVcfBQLL0u7iQ0,654
+normtest/ryan_joiner.py,sha256=LmymTj094pXt0LVXYmaLUB3RM_VsbHG3LazRw-1v8xs,36452
+normtest/version.py,sha256=me0xZsSJCP6WQBxVETt6yBb_2lCPxgKhQ4a7brVoXOs,180
+normtest/utils/__init__py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+normtest/utils/constants.py,sha256=WUwTmImb_unkanhBzSy2hcv3tXN5P7mpZAbrhKnFESM,521
+normtest/utils/documentation.py,sha256=oO6OmMvMvLTKzBHQvTVO88Q4nfwSpCamix35Jv8kPUM,2198
+normtest-0.0.1.dist-info/LICENSE,sha256=JkCVsxOmz7rImr3aZUnD8fI4ppgIonW4BBy8lgGi4Eo,1530
+normtest-0.0.1.dist-info/METADATA,sha256=TkmwhIwPyg3F6O6KVCYpZSBObSHCaZNwvozsP7KRhN0,4664
+normtest-0.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+normtest-0.0.1.dist-info/top_level.txt,sha256=3Vry6jYAFIFilXrU1bPu5wm1yC8f3Z3eoxO_6h1txOw,9
+normtest-0.0.1.dist-info/RECORD,,

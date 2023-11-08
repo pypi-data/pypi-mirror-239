@@ -1,0 +1,4 @@
+jax>=0.4.14
+jaxlib>=0.4.14
+jaxtyping>=0.2.21
+makefun>=1.15.1

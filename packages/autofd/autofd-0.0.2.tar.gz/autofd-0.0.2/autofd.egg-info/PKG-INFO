@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: autofd
+Version: 0.0.2
+Summary: "Automatic Functional Derivative in JAX"
+Home-page: https://github.com/sail-sg/autofd
+Author: "Min Lin"
+Author-email: "linmin@sea.com"
+Project-URL: Bug Tracker, https://github.com/sail-sg/autofd/issues
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown

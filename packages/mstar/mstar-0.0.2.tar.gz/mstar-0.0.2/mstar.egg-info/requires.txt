@@ -1,0 +1,9 @@
+atyp
+nchr
+nlit
+chck
+idfunc
+atup
+pstr
+
+[dev]

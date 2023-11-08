@@ -1,0 +1,17 @@
+capyserini/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+capyserini/collection.py,sha256=VAmn8wb_ZXb8PMRp0alwvb0y5SKEcK-z5m9alnVO9zo,21296
+capyserini/index.py,sha256=VWYk8qaJcYGS23SwlxH8Ves592lz0o4-B1oyrfqgKb4,163
+capyserini/test.py,sha256=mPoizZmhCqSBn-YB6zGNZ4kuwE5tBJzgUE3wH1PBZik,360
+capyserini/tokenizer.py,sha256=-f5fJigABp5aI8Yxfbq9dzu43sUAPdZYoGQTk8COkA8,750
+fob/__init__.py,sha256=xXykVAm0CwIbuP5LmaZYEhWFBMxJ8vuxsKW_lYoMDrA,208
+fob/base.py,sha256=30WcbjbAhIwkJ5W4ktPU2Wlf_P1hruLP95huDR_SocM,6756
+fob/cli.py,sha256=ZRsZTVYhRNGf6SQjmTiHN3b-3Yv8sHntoFztCRh3x5c,3101
+fob/ingredient.py,sha256=5-4acn3Ggr0Ei47jGjHgPzpl2fzRfSH0lman6J1WCKA,6591
+fob/serialize.py,sha256=pooKOugSTXZLwUXryBWWHkB-mymJXgqVCOAq3lBfgcs,4917
+fob/store.py,sha256=DMuutGZjE35ixTpMJPvgICPTAFGtES9wdQN_WtUHPj4,13406
+fob/types.py,sha256=BMWnmlS5bHtBORIkteZa84wDdV0cXU4GczaY4jCg6JI,4666
+fob-0.0.1.dist-info/LICENSE,sha256=0hH20OsLYXA0qRDM5ii2EhKTqqGozISIMcQ2GVxL1cY,1069
+fob-0.0.1.dist-info/METADATA,sha256=uFu7S7acQd2Fq7v8CT9Ir_2G2jfyhn6qdCn0LMxC0Wo,446
+fob-0.0.1.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+fob-0.0.1.dist-info/top_level.txt,sha256=lXGWDfmwkYe95ath0xsfANfgMJ0H9BFbU7Vvbub9NZY,15
+fob-0.0.1.dist-info/RECORD,,

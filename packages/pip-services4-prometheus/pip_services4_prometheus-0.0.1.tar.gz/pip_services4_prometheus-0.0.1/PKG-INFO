@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: pip_services4_prometheus
+Version: 0.0.1
+Summary: Prometheus components for Pip.Services in Python
+Home-page: http://github.com/pip-services3-python/pip-services4-prometheus-python
+Author: Conceptual Vision Consulting LLC
+Author-email: seroukhov@gmail.com
+License: MIT
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pytest
+Requires-Dist: pip-services4-commons<1.0,>=0.0.1
+Requires-Dist: pip-services4-components<1.0,>=0.0.1
+Requires-Dist: pip-services4-rpc<1.0,>=0.0.1
+
+
+Pip.Services Prometheus
+--------------------
+
+Pip.Services is an open-source library of basic microservices.
+pip_services4_prometheus contains components for working with meters in the Prometheus service.
+
+Links
+`````
+
+* `website <http://github.com/pip-services/pip-services>`
+* `development version <http://github.com/pip-services-python/pip-services-prometheus-python>`
+

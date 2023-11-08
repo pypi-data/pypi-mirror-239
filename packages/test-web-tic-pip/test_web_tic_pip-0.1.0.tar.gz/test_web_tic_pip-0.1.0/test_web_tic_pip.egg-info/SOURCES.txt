@@ -1,0 +1,6 @@
+README.md
+setup.py
+test_web_tic_pip.egg-info/PKG-INFO
+test_web_tic_pip.egg-info/SOURCES.txt
+test_web_tic_pip.egg-info/dependency_links.txt
+test_web_tic_pip.egg-info/top_level.txt

@@ -1,0 +1,7 @@
+[project]
+name = "hshmeng"
+version = "2023.11.7"
+authors = [{ name="hshmeng", email="hshmeng@foxmail.com" }, ]
+description = "You hshmeng ZhiZuoDeZhongWenBianChengBao"
+readme = "README.md"
+requires-python = ">=3.8"

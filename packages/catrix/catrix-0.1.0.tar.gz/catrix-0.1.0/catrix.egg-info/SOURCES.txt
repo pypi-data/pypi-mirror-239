@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+catrix/__init__.py
+catrix.egg-info/PKG-INFO
+catrix.egg-info/SOURCES.txt
+catrix.egg-info/dependency_links.txt
+catrix.egg-info/top_level.txt

@@ -1,0 +1,9 @@
+tap_delighted/__init__.py,sha256=cZBXfWk0PwQJo82KrCwgRFV1f6naDme-hecF6u0hq4o,25
+tap_delighted/client.py,sha256=GKj5Gw3X6WhowDEknsDIjMvsI2LB5Ay0F5jTtMrlKv0,658
+tap_delighted/streams.py,sha256=-3RmcwJKbAj3ygzCi048IgutIHOOnLlcUre-iK7FoLo,2871
+tap_delighted/tap.py,sha256=KZFK-alFG1cLwIX3IvQwToPwcT2xemjIC3lSfq2wICI,1018
+tap_delighted-0.0.1.dist-info/LICENSE,sha256=x0cNBNETgP1bCeZd-wOWIDg4Eqva77mk1Cc8fHXCAJM,11343
+tap_delighted-0.0.1.dist-info/METADATA,sha256=eIFmEa_t_Wl4OyLwzJp8CkveAQGfaWoxKHqph4j52cI,2057
+tap_delighted-0.0.1.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+tap_delighted-0.0.1.dist-info/entry_points.txt,sha256=a1o7KH5vLdYUNkUpUO-BBTEyDGdG6EnWogrD4mHC8YM,68
+tap_delighted-0.0.1.dist-info/RECORD,,

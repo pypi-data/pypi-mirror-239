@@ -1,0 +1,3 @@
+[console_scripts]
+tap-delighted=tap_delighted.tap:TapDelighted.cli
+

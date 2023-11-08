@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+fpos/__init__.py
+fpos/_modidx.py
+fpos/core.py
+fpos.egg-info/PKG-INFO
+fpos.egg-info/SOURCES.txt
+fpos.egg-info/dependency_links.txt
+fpos.egg-info/entry_points.txt
+fpos.egg-info/not-zip-safe
+fpos.egg-info/requires.txt
+fpos.egg-info/top_level.txt

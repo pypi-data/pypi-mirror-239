@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+events_sdk_python.egg-info/PKG-INFO
+events_sdk_python.egg-info/SOURCES.txt
+events_sdk_python.egg-info/dependency_links.txt
+events_sdk_python.egg-info/requires.txt
+events_sdk_python.egg-info/top_level.txt

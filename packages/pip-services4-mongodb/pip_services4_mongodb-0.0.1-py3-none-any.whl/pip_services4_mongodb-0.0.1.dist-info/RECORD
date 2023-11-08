@@ -1,0 +1,16 @@
+pip_services4_mongodb/__init__.py,sha256=YdVLrL623LIfszsucdNcxG2RzTxZRsME1eZkfVoHg4A,301
+pip_services4_mongodb/build/DefaultMongoDbFactory.py,sha256=crzpmQIjveKns4FSDY7j3P3b6M0d752Bqsh3huE70A0,973
+pip_services4_mongodb/build/__init__.py,sha256=8wdVK55t19mk2k8fzwgI9j6AuvLpmgxiEqtS0Kk8B2E,212
+pip_services4_mongodb/connect/MongoDbConnection.py,sha256=NORANFaJUpWB67z7gFL6-LE3GU8v9AH5PtvvHeXJNcg,8595
+pip_services4_mongodb/connect/MongoDbConnectionResolver.py,sha256=Qb_BfgkhQv-b3PlJCA7oKbhW5baOgySpj9IeyqAsGBk,6823
+pip_services4_mongodb/connect/__init__.py,sha256=VlAXuh4xF7_AqG24SZehpe_hRDmaKyRQ7Q3hr-YQHZw,498
+pip_services4_mongodb/persistence/IdentifiableMongoDbPersistence.py,sha256=T5HzMZ_EUbf_dwQNm5KgJJdiTpvSYEcxeHTAmqx3Qdo,10991
+pip_services4_mongodb/persistence/MongoDbIndex.py,sha256=8Zn-3PF6cp9BejLkwZrm33KHeP2cBhMRv98suG6LBTo,295
+pip_services4_mongodb/persistence/MongoDbPersistence.py,sha256=bfvCGxD0w5mMgODxpN9047kYVL-zJHoC0yaoXL1UJxc,20696
+pip_services4_mongodb/persistence/__init__.py,sha256=rL3yLK7wXBqrBIv28y2yKVDOtDQG_55SW32uwYxi5Bs,554
+pip_services4_mongodb-0.0.1.dist-info/LICENSE,sha256=s02QBYXMPC5EBLwWhp1dAm3PjZA-jz9-gfi9ndDWYoA,1076
+pip_services4_mongodb-0.0.1.dist-info/METADATA,sha256=PwV-rWtKp2szLIiLsnJZEsRwSGaBieeVetpgWRsupio,1362
+pip_services4_mongodb-0.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+pip_services4_mongodb-0.0.1.dist-info/top_level.txt,sha256=YT2yhMtS-bauHkYdwFR22mmY1avYow_aGEoRRj5AAYc,22
+pip_services4_mongodb-0.0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pip_services4_mongodb-0.0.1.dist-info/RECORD,,

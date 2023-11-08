@@ -1,0 +1,6 @@
+auth_trial/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+auth_trial/auth.py,sha256=ck1V0aDGCpywMJRHtPqNFMjIMhRcOYFspgWY10hG6-8,1995
+auth_trial/client.yaml,sha256=z5tq089vfhqF7BOMVMOtT5XPXeuPYoEfFyGr9Eh4A6Q,212
+auth_trial-0.1.1.dist-info/METADATA,sha256=VoLRBkexj1y4OMw57vTYZ44A9SEFXSpQSYFG9_wdQ8Q,484
+auth_trial-0.1.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+auth_trial-0.1.1.dist-info/RECORD,,

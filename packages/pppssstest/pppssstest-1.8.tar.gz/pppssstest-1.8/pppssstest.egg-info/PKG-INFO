@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: pppssstest
+Version: 1.8
+Summary: Desc here
+Home-page: 
+Author: author
+Author-email: author@email.com
+License: Free To Use But Restricted
+Keywords: pp ss tt
+Description-Content-Type: text/markdown
+Requires-Dist: PySimpleGUI

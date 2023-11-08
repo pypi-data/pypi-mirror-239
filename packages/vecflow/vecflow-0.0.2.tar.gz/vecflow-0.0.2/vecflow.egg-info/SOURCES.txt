@@ -1,0 +1,9 @@
+README.md
+setup.py
+vecflow/__init__.py
+vecflow/chat.py
+vecflow.egg-info/PKG-INFO
+vecflow.egg-info/SOURCES.txt
+vecflow.egg-info/dependency_links.txt
+vecflow.egg-info/top_level.txt
+vecflow/pipeline_setup/__init__.py

@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: fusions
+Version: 0.1.0
+Summary: Diffusion meets nested sampling
+Author: David Yallup
+Author-email: david.yallup@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: anesthetic (>=2.4.2,<3.0.0)
+Requires-Dist: flax (>=0.7.5,<0.8.0)
+Requires-Dist: pytest (>=7.3,<8.0)
+Requires-Dist: tqdm (>=4.62.0,<5.0.0)
+Description-Content-Type: text/markdown
+
+# beta-diffusion

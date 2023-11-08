@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: fob
+Version: 0.0.1
+Summary: config library
+Home-page: https://github.com/andrewyates/fob
+Author: Andrew Yates
+Author-email: first-then-last@mail-service-by-g.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+config library (under construction... nothing to see)

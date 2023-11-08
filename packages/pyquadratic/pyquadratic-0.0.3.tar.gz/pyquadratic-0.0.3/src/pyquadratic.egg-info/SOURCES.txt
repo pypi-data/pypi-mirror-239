@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/pyquadratic/__init__.py
+src/pyquadratic/__main__.py
+src/pyquadratic/pyquadratic.py
+src/pyquadratic.egg-info/PKG-INFO
+src/pyquadratic.egg-info/SOURCES.txt
+src/pyquadratic.egg-info/dependency_links.txt
+src/pyquadratic.egg-info/entry_points.txt
+src/pyquadratic.egg-info/requires.txt
+src/pyquadratic.egg-info/top_level.txt
+tests/test_pyquadratic.py

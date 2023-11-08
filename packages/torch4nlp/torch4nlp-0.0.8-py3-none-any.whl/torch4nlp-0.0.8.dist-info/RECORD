@@ -1,0 +1,13 @@
+torch4nlp/__init__.py,sha256=RcR0_R0AbYLXjV08yQjmA7x-wqLaBwYPqz2ktb1fclU,123
+torch4nlp/tfidf.py,sha256=kRAoLzSKf0TYucEXP9-xfNwBGe6vfjvKj65QoF2K0mY,2262
+torch4nlp/dsa/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+torch4nlp/dsa/tree.py,sha256=KuRugsgE3A_ekaWEZcaUrmHvBa-W6gvn89XCugDooIw,1372
+torch4nlp/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+torch4nlp/utils/file_util.py,sha256=snPW_ZkdWbrSLSkIZGb5TpafuVjOBUYx2d2wKhJeaWQ,4005
+torch4nlp/utils/metric_util.py,sha256=X0OSfwVujHO4n-87IalUQs2_Ze1DzIljKXgNzDJTFn8,237
+torch4nlp/utils/text_util.py,sha256=rxEzC0nRn-x3WetzsSaqXKn9U3ZonPYfEB_MQangmNg,1238
+torch4nlp-0.0.8.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+torch4nlp-0.0.8.dist-info/METADATA,sha256=0ljOic18yh4N3DH3WkiXKIrlNbD2K_PbvMb17EWIL0I,155
+torch4nlp-0.0.8.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+torch4nlp-0.0.8.dist-info/top_level.txt,sha256=CF0B8_ByawMe-stNCF9H9TCs_l2shEmu9GLs_6zUz7M,10
+torch4nlp-0.0.8.dist-info/RECORD,,

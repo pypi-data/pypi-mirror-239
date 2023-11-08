@@ -1,0 +1,4 @@
+aiohttp>=3.9.4
+
+[:python_version < "3.11"]
+async-timeout<5.0,>=4.0

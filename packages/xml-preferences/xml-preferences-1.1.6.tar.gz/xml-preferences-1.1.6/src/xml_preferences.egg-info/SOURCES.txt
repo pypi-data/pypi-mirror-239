@@ -1,0 +1,16 @@
+.gitignore
+LICENSE
+README.rst
+build.cmd
+build.sh
+clean.sh
+localinstall.sh
+pyproject.toml
+upload-to-pypi.sh
+src/test_xml_preferences.py
+src/xml_preferences/__init__.py
+src/xml_preferences/__main__.py
+src/xml_preferences.egg-info/PKG-INFO
+src/xml_preferences.egg-info/SOURCES.txt
+src/xml_preferences.egg-info/dependency_links.txt
+src/xml_preferences.egg-info/top_level.txt

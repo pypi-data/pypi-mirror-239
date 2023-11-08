@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+pallo/__init__.py
+pallo/pallo.py
+pallo.egg-info/PKG-INFO
+pallo.egg-info/SOURCES.txt
+pallo.egg-info/dependency_links.txt
+pallo.egg-info/requires.txt
+pallo.egg-info/top_level.txt

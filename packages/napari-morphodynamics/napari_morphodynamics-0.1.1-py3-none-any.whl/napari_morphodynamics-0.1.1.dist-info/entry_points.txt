@@ -1,0 +1,2 @@
+[napari.manifest]
+napari-morphodynamics = napari_morphodynamics:napari.yaml

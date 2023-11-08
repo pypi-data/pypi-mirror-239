@@ -1,0 +1,14 @@
+napari_morphodynamics/__init__.py,sha256=kxNhcmsuZ2O_mG8PRy0cxWfVGUKVTq_dnk9UV03PPHQ,143
+napari_morphodynamics/_version.py,sha256=PKIMyjdUACH4-ONvtunQCnYE2UhlMfp9su83e3HXl5E,411
+napari_morphodynamics/base_plot.py,sha256=eT76DEypuSERNiV2CqyyrRuAjhhmqzOkx7EEn43VWiI,716
+napari_morphodynamics/folder_list_widget.py,sha256=ebAh1qK6HcZdWw0bovyO14RcmAJBAbSHwocnPJjQPWI,1924
+napari_morphodynamics/napari.yaml,sha256=cASFI9kU_PpBe8qykpk2I6vUSHYWoMXRlsn7HNCO_nk,325
+napari_morphodynamics/napari_gui.py,sha256=ubicwbpRpRSbVyUXx0pmghEAXN13OnG6N-XafFMa5ms,48608
+napari_morphodynamics/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_morphodynamics/_tests/test_widget.py,sha256=1fNrxEMEHOXQO9Jsvu0xZ1qgEOpBqKhEtqgOBovPzpw,2943
+napari_morphodynamics-0.1.1.dist-info/LICENSE,sha256=1Ye3TFLhCXBVGikjJSJgjGvbAupknToWVp6ExDFl6Ms,1556
+napari_morphodynamics-0.1.1.dist-info/METADATA,sha256=X9taIR8dlPV25FRK5ByberUyQmnGiBt29elx8ho5cy8,4618
+napari_morphodynamics-0.1.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+napari_morphodynamics-0.1.1.dist-info/entry_points.txt,sha256=FnrySx4tQFQ-f7T8nTU4BF99NN-NP5DVbIv26-j0eiU,76
+napari_morphodynamics-0.1.1.dist-info/top_level.txt,sha256=DXLWCnzaDLG8xAzrjCEF8X5PQGPJwoE8kRU01D9gIF4,22
+napari_morphodynamics-0.1.1.dist-info/RECORD,,

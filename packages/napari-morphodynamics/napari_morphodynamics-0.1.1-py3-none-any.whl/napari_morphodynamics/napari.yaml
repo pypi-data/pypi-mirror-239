@@ -1,0 +1,10 @@
+name: napari-morphodynamics
+display_name: napari-morphodynamics
+contributions:
+  commands:
+    - id: napari-morphodynamics.make_qwidget
+      python_name: napari_morphodynamics.napari_gui:MorphoWidget
+      title: Make MorphoWidget
+  widgets:
+    - command: napari-morphodynamics.make_qwidget
+      display_name: MorphoWidget

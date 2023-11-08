@@ -1,0 +1,55 @@
+[build-system]
+requires = ['setuptools>=18.0', 'Cython<3.0.0']
+build-backend = 'setuptools.build_meta'
+
+[project]
+name = 'static_yoga'
+dynamic = ['version', 'dependencies']
+description = 'Define and draw static layouts'
+readme = 'README.md'
+requires-python = '>=3.10'
+license = { file = 'LICENSE' }
+keywords = ['layout', 'rendering', 'drawing', 'widgets']
+authors = [
+    { name = 'maxme1', email = 'max@ira-labs.com' },
+]
+classifiers = [
+    'Development Status :: 5 - Production/Stable',
+    'License :: OSI Approved :: Apache Software License',
+    'Programming Language :: Python :: 3.10',
+    'Programming Language :: Python :: 3.11',
+]
+
+[options]
+include_package_data = true
+
+[tool.black]
+line-length = 120
+skip-string-normalization = true
+
+[tool.isort]
+line_length = 120
+lines_after_imports = 2
+profile = 'black'
+combine_as_imports = true
+
+[tool.cython-lint]
+max-line-length = 120
+
+[tool.setuptools]
+py-modules = ['_build_utils']
+
+[tool.setuptools.cmdclass]
+build_py = "_build_utils.PyprojectBuild"
+build_ext = "_build_utils.YogaBuilder"
+
+[tool.setuptools.packages.find]
+include = ['static_yoga*']
+namespaces = false
+
+[tool.setuptools.package-data]
+static_yoga = ['py.typed', '**/*.py', '**/*.pyx', '**/*.pxd', '**/*.cpp', '**/*.h', '**/CMakeLists.txt']
+
+[tool.setuptools.dynamic]
+version = { attr = 'static_yoga.__version__.__version__' }
+dependencies = { file = ['requirements.txt'] }

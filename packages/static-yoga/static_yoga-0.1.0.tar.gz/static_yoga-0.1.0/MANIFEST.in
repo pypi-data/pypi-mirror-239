@@ -1,0 +1,6 @@
+include README.md
+include requirements.txt
+include pyproject.toml
+include _build_utils.py
+recursive-include static_yoga *.py *.pyx *.pxd py.typed
+recursive-include static_yoga/yoga *.cpp *.h CMakeLists.txt

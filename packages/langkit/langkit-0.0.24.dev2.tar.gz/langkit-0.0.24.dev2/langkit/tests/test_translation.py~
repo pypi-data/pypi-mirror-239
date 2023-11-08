@@ -1,0 +1,25 @@
+
+from langkit.translator import Translator, translated, translated_udf
+import whylogs as why
+from whylogs.core.metrics import FrequentItemsMetric
+from whylogs.core.resolvers import MetricSpec
+from whylogs.experimental.core.udf_schema import register_dataset_udf, udf_schema
+
+class FakeTranslator(Translator):
+
+    def translate(text: str) -> str:
+        return text[::-1]
+
+
+@register_dataset_udf(["prompt"], udf_name="prompt.translated", metrics=[MetricSpec(FrequentItemsMetric)])
+@translated(FakeTranslator())
+def translated_prompt(x):
+    return x
+
+
+def test_translated_decorator():
+    untranslated = {"prompt": "This is a prompt", "response": "This is a response"}
+    result = why.log(untranslated, schema=udf_schema())
+    print(result.view().get_column("prompt.translated").get_metric("frequent_items").to_summary_dict())
+    assert False
+    

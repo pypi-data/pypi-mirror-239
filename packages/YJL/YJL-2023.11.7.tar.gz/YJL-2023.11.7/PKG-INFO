@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: YJL
+Version: 2023.11.7
+Summary: A simple module for Base64 encoding and decoding, and printing LiMeng Love YangJiaLing!
+Author: hshmeng
+Author-email: hshmeng <hshmeng@foxmail.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE

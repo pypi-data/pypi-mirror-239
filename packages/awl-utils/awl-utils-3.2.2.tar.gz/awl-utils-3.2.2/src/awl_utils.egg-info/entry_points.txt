@@ -1,0 +1,2 @@
+[console_scripts]
+awl_utils = awl_utils:main

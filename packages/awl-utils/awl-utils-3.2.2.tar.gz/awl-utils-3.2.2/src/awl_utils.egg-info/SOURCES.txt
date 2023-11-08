@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/awl_utils/__init__.py
+src/awl_utils/package_data.dat
+src/awl_utils/read_write.py
+src/awl_utils/walk.py
+src/awl_utils/wget.py
+src/awl_utils/yaml.py
+src/awl_utils.egg-info/PKG-INFO
+src/awl_utils.egg-info/SOURCES.txt
+src/awl_utils.egg-info/dependency_links.txt
+src/awl_utils.egg-info/entry_points.txt
+src/awl_utils.egg-info/requires.txt
+src/awl_utils.egg-info/top_level.txt
+tests/test_simple.py

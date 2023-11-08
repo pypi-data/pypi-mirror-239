@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: j2o
+Version: 0.0.1
+Summary: Converter from Jupyter notebook format to Org format (Emacs text editor), without requirements for any libraries.
+Project-URL: Homepage, https://github.com/Anoncheg1/j2o
+Project-URL: Bug Tracker, https://github.com/Anoncheg1/j2o/issues
+Author: Anoncheg1
+License-File: LICENSE
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Provides-Extra: test
+Requires-Dist: pytest; extra == 'test'
+Description-Content-Type: text/markdown
+
+# j2o
+Converter from Jupyter to Org file format without any dependencies.
+
+Tested for nbformat: 4.2.

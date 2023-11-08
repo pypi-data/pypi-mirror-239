@@ -1,0 +1,8 @@
+setup.py
+trBroker/__init__.py
+trBroker/model.py
+trBroker/trBrokerFetch.py
+trBroker.egg-info/PKG-INFO
+trBroker.egg-info/SOURCES.txt
+trBroker.egg-info/dependency_links.txt
+trBroker.egg-info/top_level.txt

@@ -1,0 +1,3 @@
+include LICENSE*
+include *.md
+exclude src/kdelikelihood/_kde_tools.cpp

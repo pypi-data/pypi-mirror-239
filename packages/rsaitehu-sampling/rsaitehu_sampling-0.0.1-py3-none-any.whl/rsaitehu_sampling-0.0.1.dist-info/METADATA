@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: rsaitehu-sampling
+Version: 0.0.1
+Summary: Sampling utilities
+Requires-Dist: numpy >=1.22.0
+Requires-Dist: open3d >=0.16.0
+

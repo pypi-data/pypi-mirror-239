@@ -1,0 +1,5 @@
+pyjwt
+snowflake-connector-python>=2.2.7
+furl
+cryptography
+requests<=2.31.0

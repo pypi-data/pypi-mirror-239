@@ -1,0 +1,5 @@
+dog/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dog/dog1/__init__.py,sha256=eiCSdEovcTjMVe4biUsau5fWKCbsG-AFYHZ8VXPj4_Q,41
+dog1-0.1.4.dist-info/METADATA,sha256=cZ4YZ4kB6tucG6fLY8oWdmPX4jI-Fq1D2rJBwptw-98,237
+dog1-0.1.4.dist-info/WHEEL,sha256=C8f_gqhOWmHrh81n3Ukx5iURrqMhsHla81fuY1yuwvs,90
+dog1-0.1.4.dist-info/RECORD,,

@@ -1,0 +1,17 @@
+gpas/__init__.py,sha256=sKe_1SSM_Jc3GHNI8X7d6hWdDzoul4PQPYgtbwFISm0,166
+gpas/cli.py,sha256=S2PE1w-TN93bHqzTUf2O9dF9tXAQb9t_9EorZvbGWrM,8591
+gpas/lib.py,sha256=V99tI-t7ww1MuEtEgCxBD8QxmQnR-StiJJtvDtuWwew,37607
+gpas/misc.py,sha256=NcFz_Uis11msmGb3KoM9l2cEOnSkLmO8gp-sVYd3zBE,10370
+gpas/validation.py,sha256=MaRC8IuiMHJO3MuJqdROnmI3Ceocue3-qJan-eXh6ok,18201
+gpas/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gpas/data/countries/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gpas/data/countries/countries_subdivisions.json,sha256=RUPunCGqnGbrx8ADzG9mnUyJdGY0wWEGAQ8zrTuyuoU,76001
+gpas/data/countries/generate_countries_subdivisions.py,sha256=Y6KlRBNsiSbqI0zAH2Sed8_dsciNYmJtiYDP4cAZQu0,548
+gpas/data/refs/MN908947_no_polyA.fasta,sha256=Gblmx2L6BDjpO0iHmB3pORCM8mB88RqOXX67mqk5WZY,30324
+gpas/data/refs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gpas_sc2-0.8.4.dist-info/LICENSE,sha256=HpUWqP1C_2Pnj6Pt4xTHyaeXd_nEw7EURqviInjCI2s,5788
+gpas_sc2-0.8.4.dist-info/METADATA,sha256=PgvNJbfNc9BVlEnsmF07kifXy4v8R9Az5dKGaiTnjOI,11985
+gpas_sc2-0.8.4.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+gpas_sc2-0.8.4.dist-info/entry_points.txt,sha256=VYmS-fIyhdrqfsOCpkBeZ0tznuFO98b-DYqQNXulDNQ,39
+gpas_sc2-0.8.4.dist-info/top_level.txt,sha256=JZp6_CBndFzwIQ11pqQSgmGhRndBkmSQbXlcOrt8n5s,5
+gpas_sc2-0.8.4.dist-info/RECORD,,

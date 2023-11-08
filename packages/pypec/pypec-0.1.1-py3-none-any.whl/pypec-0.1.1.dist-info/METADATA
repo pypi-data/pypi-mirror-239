@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: pypec
+Version: 0.1.1
+Summary: pypec: photoelectrochemistry for Python.
+Author-email: Milan Skocic <milan.skocic@icloud.com>
+License: GNU General Public License v3 (GPLv3)
+Project-URL: Documentation, https://milanskocic.github.io/pypec/index.html
+Project-URL: Source, https://github.com/MilanSkocic/pypec
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+License-File: LICENSE.txt
+
+Description
+================
+
+**pypec** aims at fitting PEC data with an graphical interface. 
+The program was initially developped in Python 2.7 during my PhD from 2012 to 2015. 
+
+In 2016, the code was rewritten in Python 3 at the end of my PhD with slight modifications of the original. The code 
+remained untouched for almost 3 years and is now again under development in this repository.
+
+The first release after migrating to github will serve as a backup for the version developed during my
+PhD with completed documentation. 
+
+Installation
+==================
+See  ``INSTALL.txt``.
+
+
+Dependencies
+===================
+See ``requirements.txt``.
+
+
+License information
+===========================
+
+See ``LICENSE.txt`` for information on the history of this
+software, terms & conditions for usage, and a DISCLAIMER OF ALL
+WARRANTIES.

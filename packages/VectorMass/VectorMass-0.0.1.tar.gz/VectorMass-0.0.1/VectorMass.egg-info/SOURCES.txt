@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+VectorMass/__init__.py
+VectorMass/vector_store.py
+VectorMass.egg-info/PKG-INFO
+VectorMass.egg-info/SOURCES.txt
+VectorMass.egg-info/dependency_links.txt
+VectorMass.egg-info/requires.txt
+VectorMass.egg-info/top_level.txt

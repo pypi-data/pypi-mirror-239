@@ -1,0 +1,29 @@
+{
+  "word_storage": "elasticsearch",
+  "embedding_storage": "faiss",
+  "search_method": "elasticsearch+faiss",
+  "embedding_model_path": "C:\\yantuProject\\yantu_rag_tool\\model\\bge-large-zh-v1.5",
+  "answer_generation_model": "gpt-3.5-turbo-16k",
+  "openai": {
+    "api_key": "ak-KwIob9XdQVxvQp9xiYdgna7RkfnpANewUje0c9SqAqrHfPii",
+    "url": "https://api.nextweb.fun/openai/v1"
+  },
+  "para_config": {
+    "chunk_size": 500,
+    "overlap": 20
+  },
+  "recall_config": {
+    "top_k": 10
+  },
+  "elasticsearch_setting": {
+    "index_name": "231107_test",
+    "host": "47.100.60.247",
+    "port": 9200,
+    "username": "elastic",
+    "password": "ytkj543789",
+    "analyzer": "standard"
+  },
+  "faiss_setting": {
+    "retrieval_way": "IndexFlatL2"
+  }
+}

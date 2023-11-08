@@ -1,0 +1,14 @@
+json_rm/Attribute.py,sha256=N3efIba23_-UmDYR4FRsAAUTfwKFC6JoyWY_XzT7_Ls,930
+json_rm/Entity.py,sha256=8RjcYm4yigMVjMWvAEOMC1Ofb8WvtwaLPaCr-_uMpNg,921
+json_rm/JSONSchema.py,sha256=VVjvaY1Um1E8N-CsEJ85XFL1EB9Jrjh3r4jYLHxkTYs,5061
+json_rm/__init__.py,sha256=az7Bk5eoR__iY2u2IcCUHNz-89s7MRHKVsLiv1OSLxA,126
+json_rm/cli.py,sha256=SqMEiFwLkrOXEVspjbg5seJP52HpeO_fDl_5QkVQh50,615
+json_rm/formatters/__init__.py,sha256=tz1xhMVfMNIFSYq3JMVHvugx5EokF4gp_Ly8XeHHFyo,98
+json_rm/formatters/postgres_formatter.py,sha256=N7WLhGPsiUFOA-48TH-dsNlUDtCWU-pSqXtjELbFeYI,3312
+json_rm/formatters/simple_formatter.py,sha256=PbM3dPDDzrU5cGU7FPWqyLu6_wSOUDIQ2jmINgf6gpg,752
+json_rm-0.0.1.dist-info/LICENSE,sha256=5IxTwPpZhmADW3Rl5C4nWgLql3HWHS2HA4nXTA35nWg,1070
+json_rm-0.0.1.dist-info/METADATA,sha256=cXqRYnwjYnpTexMjAu8dkljJhsuDvNPLx2hpI-Z-Kwc,1082
+json_rm-0.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+json_rm-0.0.1.dist-info/entry_points.txt,sha256=3vrxLSMmBJ1f7d9RFnW84vE75vl6KNJFEz1LTNYYwBk,41
+json_rm-0.0.1.dist-info/top_level.txt,sha256=FzQarXejahBRyiTsQXuw6c9TC6CJEBVe8fJ48EF0ZJg,8
+json_rm-0.0.1.dist-info/RECORD,,

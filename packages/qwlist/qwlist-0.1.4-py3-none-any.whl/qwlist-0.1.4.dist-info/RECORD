@@ -1,0 +1,7 @@
+qwlist/__init__.py,sha256=MbqzCK47wul-8xAoGk-Nh1ZmUtmwFWhuGH0Wd9ThspE,34
+qwlist/qwlist.py,sha256=Oqqcub5r46Q97G4chFkxlrjhtV9m69CsSWEs1Kma7aI,12442
+qwlist/eager_qwlist/__init__.py,sha256=iiY3CHP0SmgrfVRqIJqV-fSVc7aMffRV1xpvh0oZNFk,13
+qwlist/eager_qwlist/eager.py,sha256=EW9vXZthfl4q3S_636MYeGmsUEgF8GMJACs7ZyiBd0I,5476
+qwlist-0.1.4.dist-info/METADATA,sha256=0PXDbrc7ZvCO92BrwjMZdYUWwqqOYgHWz9No05JWcjw,3597
+qwlist-0.1.4.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+qwlist-0.1.4.dist-info/RECORD,,

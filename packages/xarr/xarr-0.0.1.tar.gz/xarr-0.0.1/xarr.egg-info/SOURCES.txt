@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+xarr/__init__.py
+xarr/_modidx.py
+xarr/core.py
+xarr.egg-info/PKG-INFO
+xarr.egg-info/SOURCES.txt
+xarr.egg-info/dependency_links.txt
+xarr.egg-info/entry_points.txt
+xarr.egg-info/not-zip-safe
+xarr.egg-info/requires.txt
+xarr.egg-info/top_level.txt

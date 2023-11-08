@@ -1,0 +1,12 @@
+atyp
+nchr
+nlit
+chck
+idfunc
+acall
+ain
+mstar
+numpy>=1.22
+
+[dev]
+numpy>=1.22

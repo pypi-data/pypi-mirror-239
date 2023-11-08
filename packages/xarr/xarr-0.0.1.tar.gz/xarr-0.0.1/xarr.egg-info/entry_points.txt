@@ -1,0 +1,2 @@
+[nbdev]
+xarr = xarr._modidx:d

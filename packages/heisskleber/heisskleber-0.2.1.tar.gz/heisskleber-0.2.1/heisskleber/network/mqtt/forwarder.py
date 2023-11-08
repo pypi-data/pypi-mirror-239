@@ -1,0 +1,22 @@
+from heisskleber.config import load_config
+from heisskleber.network import get_publisher, get_subscriber
+
+from .config import MQTTConf
+
+
+def map_topic(zmq_topic, mapping):
+    return mapping + zmq_topic.decode()
+
+
+def main():
+    config: MQTTConf = load_config(MQTTConf(), "mqtt")
+    sub = get_subscriber("zmq", config.topics)
+    pub = get_publisher("mqtt")
+
+    sub.unpack = pub.pack = lambda x: x
+
+    while True:
+        (zmq_topic, data) = sub.receive()
+        mqtt_topic = map_topic(zmq_topic, config.mapping)
+
+        pub.send(mqtt_topic, data)

@@ -1,0 +1,12 @@
+fastapi_prime/__init__.py,sha256=8LqWnyZNvZ3L3Y998rIaG6t4q83aQfVtsfM2uyZ_0rY,41
+fastapi_prime/fastapi_prime.py,sha256=R5T-9BZG-eEmV52vABpVGQGyjneojL9dYTF2hcvN06I,5349
+fastapi_prime/file_content/config.py,sha256=gkVcHzxXn_fiNoAkvs-UFzQdunjfTgejIK8KzsRGM1Y,111
+fastapi_prime/file_content/main.py,sha256=cynVfY_7n8oAurLDnTDji3o5V1V1iNXVY20SK4CTJMY,231
+fastapi_prime/file_content/router.py,sha256=J_hEHKuEv3N_-bFbRRWlw-7yMep1biVIONQrtrhCy88,178
+fastapi_prime/file_content/validations.py,sha256=oSIGOK6nweT6fCCmt_3bL5XzN_huNT7xf7yNRXOEWKY,1261
+fastapi_prime-1.0.dist-info/LICENSE,sha256=k1uUZ25Ne_mz5L4Wb-Wkt3ieMEaoetnGrYPV6EGJG9g,1091
+fastapi_prime-1.0.dist-info/METADATA,sha256=HiNrwiYDb-QUEaTlqu4O4SpAQ6-Xy9aO5EDUHV1TcVI,411
+fastapi_prime-1.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+fastapi_prime-1.0.dist-info/entry_points.txt,sha256=tIqUQ-q0hGgqzqtJgejLNPO_iYnf3vPSnw2NiGyRJI4,74
+fastapi_prime-1.0.dist-info/top_level.txt,sha256=iBSboGCtsbT6MI43nvR194eTHHmn1ecbzHq2ZTniO4E,14
+fastapi_prime-1.0.dist-info/RECORD,,

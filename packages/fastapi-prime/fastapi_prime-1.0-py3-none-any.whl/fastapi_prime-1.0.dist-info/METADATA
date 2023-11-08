@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: fastapi-prime
+Version: 1.0
+Summary: This is library can make you fast whole structure
+Author: Manoj
+Author-email: mmanoj20037@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+Requires-Dist: fastapi >=0.104.0
+Requires-Dist: uvicorn >=0.23.0
+

@@ -1,0 +1,4 @@
+loguru==0.6.0
+Requests==2.31.0
+websocket_client==1.5.1
+pandas_ta

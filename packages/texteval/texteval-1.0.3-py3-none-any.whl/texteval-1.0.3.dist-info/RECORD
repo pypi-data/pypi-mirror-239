@@ -1,0 +1,9 @@
+texteval/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+texteval/data_store.py,sha256=CpBUG-WVYbyM3E7L8M4fnd0TQ6drpRXHXziRcwGPiHM,672
+texteval/evaluate.py,sha256=miu_miT6e8wjWwqNq8Rnmu3C6ruKzmdRYwmW23Oy0Xs,1095
+texteval/summarize.py,sha256=1ZshBfJHP02DfeCzl1dwkM6nTogUCybm92Pdmn1Q7_8,139
+texteval-1.0.3.dist-info/LICENSE.md,sha256=gVf0FA8YhjKBiCjmiNu-z5ePSAYbmIqyOwni5ASKYtM,1059
+texteval-1.0.3.dist-info/METADATA,sha256=9z_TVtxtcDXMPqzdSGayhhWj3RRyH6MGz84p6Hm4k6I,721
+texteval-1.0.3.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+texteval-1.0.3.dist-info/top_level.txt,sha256=eDHKSGqHqT1X6vNZHJ6yGKirGoRrFvH_6gT5QMi_E5c,9
+texteval-1.0.3.dist-info/RECORD,,

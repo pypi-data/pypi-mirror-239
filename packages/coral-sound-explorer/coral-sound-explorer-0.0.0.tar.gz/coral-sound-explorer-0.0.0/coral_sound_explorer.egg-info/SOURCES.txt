@@ -1,0 +1,7 @@
+README.md
+setup.py
+coral_sound_explorer.egg-info/PKG-INFO
+coral_sound_explorer.egg-info/SOURCES.txt
+coral_sound_explorer.egg-info/dependency_links.txt
+coral_sound_explorer.egg-info/top_level.txt
+src/__init__.py

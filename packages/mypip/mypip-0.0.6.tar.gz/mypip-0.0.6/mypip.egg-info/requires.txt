@@ -1,0 +1,4 @@
+codefast
+
+[dev]
+pytest>=5.2

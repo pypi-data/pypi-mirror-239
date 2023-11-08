@@ -1,0 +1,10 @@
+README.rst
+setup.py
+mypip.egg-info/PKG-INFO
+mypip.egg-info/SOURCES.txt
+mypip.egg-info/dependency_links.txt
+mypip.egg-info/entry_points.txt
+mypip.egg-info/requires.txt
+mypip.egg-info/top_level.txt
+tests/test_api.py
+tests/test_pydlj.py

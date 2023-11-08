@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: mypip
+Version: 0.0.6
+Summary: My pip installer
+Author: Tomy
+Author-email: tom@gmail.com
+Requires-Dist: codefast
+Provides-Extra: dev
+Requires-Dist: pytest>=5.2; extra == "dev"

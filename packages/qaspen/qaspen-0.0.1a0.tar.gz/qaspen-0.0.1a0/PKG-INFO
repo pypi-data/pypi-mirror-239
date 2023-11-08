@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: qaspen
+Version: 0.0.1a0
+Summary: 
+Author: chandr-andr (Kiselev Aleksandr)
+Author-email: askiselev00@gmail.com
+Requires-Python: >=3.8.1,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: jinja2 (>=3.1.2,<4.0.0)
+Requires-Dist: psycopg (>=3.1.12,<4.0.0)
+Requires-Dist: psycopg-pool (>=3.1.8,<4.0.0)
+Requires-Dist: pydantic (>=2.4.2,<3.0.0)
+Requires-Dist: typer (>=0.9.0,<0.10.0)
+Description-Content-Type: text/markdown
+
+

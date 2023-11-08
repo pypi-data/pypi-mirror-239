@@ -1,0 +1,8 @@
+__title__ = "kl_pbx"
+__description__ = "pbx_tool"
+__url__ = ""
+__version__ = "0.0.3"
+__author__ = "yuxin.zhang"
+__author_email__ = "whyzi@qq.com"
+__license__ = "MIT"
+__copyright__ = "Copyright yuxin.zhang"

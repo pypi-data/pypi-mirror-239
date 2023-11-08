@@ -1,0 +1,16 @@
+monke/README.txt.py,sha256=L9jpCwQYJ6C7L9NMBCK4XXP0J4toJ17XqeMbSwsvQ2c,12519
+monke/__init__.py,sha256=JFUHSodQ79cIOcTm6SNmHyv3w1DnwXtFqCLeh5V1lrg,107
+monke/constants.py,sha256=QJHa3AjEdVnupft14iPW7D1K6azgiwoBXs0idgC2ZK8,1013
+monke/fit.py,sha256=cqrELdWtsRyUz3wb_YSN2PcHRNgHeBlkPmPnaELPlaU,24723
+monke/functions.py,sha256=WfyYf-U7XUwD7KyO2ANyqSjGa36vjgVHwoNO_aqk7mY,14382
+monke/latex.py,sha256=eyz-0TxxbetHh7QUtTT6UKX8EyLIhT3U-2-xCEe9KjM,190
+monke/latexgraphic.py,sha256=zW55nH9TfcP3gpyxMn66yWMc6uU58KkbHHgNik8WYQM,162
+monke/plots.py,sha256=ftCgUYJ8gTLyoPIF-mRTJtnyFPTHOYU15CQSlEJdSMg,2009
+monke/readme.py,sha256=_HbxqEz3kjVkgTz24i-jxbGxgW1635kFdP-MkXSeUaw,272
+monke/texfile.py,sha256=3fkDmi5QyAb5daPjaelcDyKT_chbTFYFPBfojqHDYyA,1317
+monke/textable.py,sha256=Qh6EJX8ZUnjfd_Zb5E_dm1jeaipXK9PQYF6qxj8nMEc,6736
+monke2-1.4.14.dist-info/LICENSE,sha256=1b9ajoVMVo3XfguYw_ISMzutG7ORsGMIOb1-9SG-PZU,1075
+monke2-1.4.14.dist-info/METADATA,sha256=UXyjUmtJA4dpMlshR5Xg0vBkWdqpgcFz2BCz5Nn0riw,334
+monke2-1.4.14.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+monke2-1.4.14.dist-info/top_level.txt,sha256=jagUL2pMvhBcv1dP5v8vUTqQjNBAbgRfhqqavPaeNKc,6
+monke2-1.4.14.dist-info/RECORD,,

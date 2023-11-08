@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "PyOMWeather"
+version = "0.1.0"
+authors = [
+  { name="Alessandro Landi", email="al6723@nyu.edu" }, { name="Geoffrey Budiman", email="gkb8774@nyu.edu" }, { name="Nawaf Alabdullah", email="na2746@nyu.edu" }, { name="Shreyas Ujagar", email="su2043@nyu.edu" }, 
+]
+description = "A small weather package using Open-Meteo"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "requests-cache",
+    "requests",
+    "pandas",
+    "geopy",
+    "openmeteo-requests",
+    "retry-requests",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "build",
+    "twine",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/software-students-fall2023/3-python-package-exercise-team1-pt3"

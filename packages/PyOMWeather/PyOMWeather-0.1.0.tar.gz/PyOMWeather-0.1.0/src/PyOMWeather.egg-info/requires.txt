@@ -1,0 +1,11 @@
+requests-cache
+requests
+pandas
+geopy
+openmeteo-requests
+retry-requests
+
+[dev]
+pytest
+build
+twine

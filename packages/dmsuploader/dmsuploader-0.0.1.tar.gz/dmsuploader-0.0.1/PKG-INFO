@@ -1,0 +1,106 @@
+Metadata-Version: 2.1
+Name: dmsuploader
+Version: 0.0.1
+Summary: Upload Files to DMS
+Author: MTLM
+Keywords: python,dms,uploader
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Description-Content-Type: text/markdown
+
+
+# DMS Uploader!
+
+This python package contains required methods to download files from a direct link and upload them in to DMS (Document Management System) or any WebDav server with authentication:
+
+## Required Information
+
+Well, first you need few configurations before start:
+
+* Required Parameters 
+    * Username of the DMS
+    * Password of the DMS
+    * DMS URL (EX: https://dms.***.**/remote.php/dav/files/bf4f27ce-7d83-11ee-b962-0242ac120002/)
+
+* Optional Parameters
+    * zip - Wether you want to zip the file or not
+    * path - Download path
+    * logLevel - Log level you want (default: logging.DEBUG)
+    * filename - Custom file name to download the file (default: Actual File Name)
+
+Options Dict is as follows
+
+```python
+options = {
+    "username": None, 
+    "password":None, 
+    "dmsUrl": "", 
+    "zip": True, 
+    "path":None,
+    "logLevel":logging.DEBUG, 
+    "filename":None
+    }
+```
+
+## How to use DMS Uploader
+
+First install the dmsdownloader using pip.
+
+```sh
+pip install dmsdownloader
+```
+Then initialize dmsdownloader as below
+
+```python
+from dmsuploader import DMSUpload
+
+options = {
+    "username": "testuser",
+    "password": "testpassword",
+    "dmsUrl: "https://dms.***.**/remote.php/dav/files/bf4f27ce-7d83-11ee-b962-0242ac120002/",
+    .......
+}
+
+uploader = DMSUpload(options)
+
+download_link = "https://rs20.seedr.cc/ff_get/1657431157/************.mkv?st=s5UIkvBEH1T3WKaMTKpxRg&e=1699458900"
+
+uploader.upload_to_dms(download_link)
+
+``` 
+
+# Available Methods in DMSDownloader class
+
+* upload_to_dms (url)
+* download_file (url)
+* zip_file (file_path, extension)
+* upload_file(file_path)
+
+
+License
+----
+
+MIT License
+
+Copyright (c) 2023 MTLM
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

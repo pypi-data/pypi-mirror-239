@@ -1,0 +1,17 @@
+g2pk3/__init__.py,sha256=WkeSr3u_gLXdSfn2yQpVHgKau6bfBBOf22Pk9lef84g,98
+g2pk3/english.py,sha256=Q3r6-4mCledcGeQgbQC0RGTgghuDCRnI6iLXqrD9AoU,6251
+g2pk3/g2pk3.py,sha256=Re9XkeDv4gUm_USJbd6jC8oBhSdIO0kZqLH2gpmTxb0,7470
+g2pk3/idioms.txt,sha256=DJwNOUOs45vMomEpHzy0DcfdEhrTJUM91_fgFOVQmHE,2617
+g2pk3/japanese.py,sha256=v6O2H3c7JsM5idsCSkX96ayWjrnutVM_hl7uYhAAsLQ,4807
+g2pk3/korean.py,sha256=gXxYAXAVgYAn0b7wjIrvUCQHf796sDZ8zzRp6ghBkRQ,8618
+g2pk3/numerals.py,sha256=LynT64VAlJfR31WVobQLy6H3AXlyBloIyD2A1HNLEyA,4592
+g2pk3/regular.py,sha256=81-l7WKMdQVLIv9MHFesMu176W7yq8AaVPAkrJ-lP8E,2782
+g2pk3/rules.txt,sha256=t-az3e7BsUBqrAuphmXamSGiCI-q9IQ6H4Eg6DxM4z8,14803
+g2pk3/special.py,sha256=gE47CqLzQzcpy4rnH5ldbjofiRu5G82NJ4vfHiaSzT0,5121
+g2pk3/table.csv,sha256=Vjjt87tdPqggwuGGIikj0egsoG026oHDq1epdQzUU_k,5404
+g2pk3/utils.py,sha256=HZ1J_x7eLDKT6gma61WaV2KPb_fFraygcqILAWXryBg,7270
+g2pk3-1.0.dist-info/LICENSE,sha256=aUKzQaG2CFAaIFx8oJEcjVq3CVfW3SEl2sHcqGYHCvU,1069
+g2pk3-1.0.dist-info/METADATA,sha256=wFBbddL_1krVOfwY0my-D5KE3-GQNlnyCJM3LxgZqVw,1153
+g2pk3-1.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+g2pk3-1.0.dist-info/top_level.txt,sha256=CP5RxBWFvGIpS5iM3WurLQu5RAu_WEJeuO9MrOPwy1c,6
+g2pk3-1.0.dist-info/RECORD,,

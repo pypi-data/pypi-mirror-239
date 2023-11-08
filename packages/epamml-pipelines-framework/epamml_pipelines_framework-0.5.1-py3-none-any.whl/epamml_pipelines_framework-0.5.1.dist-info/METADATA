@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: epamml-pipelines-framework
+Version: 0.5.1
+Summary: ML pipelines framework general modules
+Home-page: https://databricks.com
+Author: 
+Author-email: 
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: setuptools
+
+UNKNOWN
+

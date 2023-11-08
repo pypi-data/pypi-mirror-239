@@ -1,0 +1,87 @@
+import json
+import os
+import socket
+import sys
+import warnings
+from dataclasses import dataclass
+
+import yaml
+
+
+@dataclass
+class MSBConf:
+    """
+    default configuration class for generic configuration info
+    """
+
+    verbose: bool = False
+    print_stdout: bool = False
+
+    def __setitem__(self, key, value):
+        if hasattr(self, key):
+            self.__setattr__(key, value)
+        else:
+            warnings.warn(UserWarning(f"no such class member: {key}"))
+
+    def __getitem__(self, key):
+        if hasattr(self, key):
+            return getattr(self, key)
+        else:
+            warnings.warn(UserWarning(f"no such class member: {key}"))
+
+    @property
+    def serial_number(self):
+        return socket.gethostname().upper()
+
+
+class MSBConfig:
+    def __init__(self, subconf: str = "general"):
+        self._conf_fname = "heisskleber.conf"
+        self._env_varname = "MSB_CONFIG_DIR"
+        if self._env_varname not in os.environ:
+            raise Exception("please set the $MSB_CONFIG_DIR environment variable")
+        self._conf_fpath = os.path.join(os.environ[self._env_varname], self._conf_fname)
+        self._load_conf(subconf=subconf)
+        self._construct_zmq_socketstrings()
+
+    def __str__(self):
+        return json.dumps(self.__dict__, indent=4)
+
+    def _load_conf(self, subconf: str):
+        try:
+            with open(self._conf_fpath) as conf_fhandle:
+                for att_name, att_value in yaml.safe_load(conf_fhandle)[
+                    subconf
+                ].items():
+                    setattr(self, att_name, att_value)
+        except Exception as e:
+            print(f"failed to open and parse config file: {e}")
+            sys.exit()
+
+    def _print_verbose(self, msg: str):
+        if self._cmdline_conf["verbose"] or self.verbose:
+            print(msg)
+
+    # return f"{zmq_config['protocol']}://{zmq_config['address']}:{zmq_config['xpub_port']}"
+    def _construct_zmq_socketstrings(self):
+        if not hasattr(self, "zmq"):
+            raise Exception("Missing zmq config")
+        self.zmq[
+            "xsub_connect_string"
+        ] = f"{self.zmq['protocol']}://{self.zmq['address']}:{self.zmq['xsub_port']}"
+        self.zmq[
+            "xpub_connect_string"
+        ] = f"{self.zmq['protocol']}://{self.zmq['address']}:{self.zmq['xpub_port']}"
+
+    @property
+    def xsub_socketstring(self) -> str:
+        return f"{self.zmq['xsub_connect_string']}"
+
+    @property
+    def xpub_socketstring(self) -> str:
+        return f"{self.zmq['xpub_connect_string']}"
+
+
+if __name__ == "__main__":
+    msb_conf = MSBConfig()
+    print(msb_conf)

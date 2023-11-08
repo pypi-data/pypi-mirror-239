@@ -1,0 +1,12 @@
+requests
+PyPDF2
+cryptography
+os
+json
+zipfile
+tarfile
+pathlib
+urllib
+logging
+re
+configparser

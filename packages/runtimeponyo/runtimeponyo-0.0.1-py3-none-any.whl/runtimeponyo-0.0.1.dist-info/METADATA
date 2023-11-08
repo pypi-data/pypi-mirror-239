@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: runtimeponyo
+Version: 0.0.1
+Summary: A package that allows the user to record and print out neatly the runtime of functions and also the entire program.
+Home-page: UNKNOWN
+Author: Aaron Stein, Alex Hmitti, Rafael Nadal-Scala, Jhon Kim
+License: GPLv3
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+Requires-Dist: colorama (>=0.4.4)
+
+UNKNOWN
+

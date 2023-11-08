@@ -1,0 +1,1 @@
+This is an m of n key sharing solution with split/join functionality and offers password protection on individual shares with fernet encryption.

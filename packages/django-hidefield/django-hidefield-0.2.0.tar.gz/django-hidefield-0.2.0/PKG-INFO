@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: django-hidefield
+Version: 0.2.0
+Summary: hide fields in django admin
+Home-page: https://github.com/jerch/django-hidefield
+Author: Joerg Breitbart
+Author-email: j.breitbart@netzkolchose.de
+License: UNKNOWN
+Download-URL: https://github.com/jerch/django-hidefield/archive/0.2.0.tar.gz
+Keywords: django,widget,admin,field,hide
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Database
+Classifier: Topic :: Database :: Front-Ends
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.2
+Classifier: Framework :: Django :: 4.2
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+### django-hidefield ###
+
+Provides a field base class to hide fields in django admin.
+The class turns a field label in an admin edit form into a
+show/hide toggle link.
+
+Tested with Django 4.2.
+
+#### Installation ####
+
+- `pip install django-hidefield`
+- place `'hidefield'` in `INSTALLED_APPS`
+
+#### Usage ####
+
+Build a custom field class for any model field type you want to hide.
+The field has an additional argument `hide` with the following meaning:
+
+- `'closed'`    : the field is hidden at start
+- `'data'`      : the field is hidden at start, if the field contains data (default)
+- `'no-data'`   : the field is hidden at start, if the field contains no data
+- `'opened'`    : (or any other value) the field is shown at start
+
+#### Example ####
+
+```python
+from django.db import models
+from hidefield.fields import HideField
+
+
+class HideCharField(HideField, models.CharField):
+    pass
+
+
+class MyModel(models.Model):
+    name = HideCharField(max_length=32, hide='data')
+```
+
+See `exampleapp` for more examples.
+
+

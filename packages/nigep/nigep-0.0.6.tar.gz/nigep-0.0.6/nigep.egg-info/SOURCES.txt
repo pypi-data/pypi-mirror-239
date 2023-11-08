@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+nigep/__init__.py
+nigep/nigep.py
+nigep.egg-info/PKG-INFO
+nigep.egg-info/SOURCES.txt
+nigep.egg-info/dependency_links.txt
+nigep.egg-info/top_level.txt
+tests/test_basic.py

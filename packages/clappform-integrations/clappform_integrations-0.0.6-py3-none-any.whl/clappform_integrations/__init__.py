@@ -1,0 +1,3 @@
+import clappform_ijsseldal as ijsseldal
+import clappform_itsperfect as itsperfect
+import clappform_rudholm as rudholm

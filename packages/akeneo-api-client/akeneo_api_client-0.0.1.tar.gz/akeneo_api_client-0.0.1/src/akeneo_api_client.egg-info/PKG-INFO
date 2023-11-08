@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: akeneo-api-client
+Version: 0.0.1
+Summary: REST API client for Akeneo
+Author-email: Asim Liaquat <asm.lqt@gmail.com>
+Project-URL: Homepage, https://github.com/asimlqt/akeneo-api-python-client
+Project-URL: Bug Tracker, https://github.com/asimlqt/akeneo-api-python-client/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Akeneo API Client
+
+NOTE: This is still a work in progress
+
+## installtion
+```commandline
+pip install akeneo_api_client
+```
+
+## Usage
+
+Firstly import the relevant packages and build the client:
+```python
+from akeneo_api_client.client_builder import ClientBuilder
+from akeneo_api_client.client.akeneo_api_error import AkeneoApiError
+
+cb = ClientBuilder(uri)
+api = cb.build_authenticated_by_password(username, password, client_id, secret)
+```
+
+Fetching a product:
+```python
+try:
+    res = api.product_uuid_api.get(uuid)
+    print(res)
+except AkeneoApiError as e:
+    print(e.response.status_code)
+```

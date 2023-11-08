@@ -1,0 +1,1 @@
+from fastapi_prime.fastapi_prime import *

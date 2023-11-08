@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: pyaddy
+Version: 0.2.0
+Summary: A Python package/cli to interact with addy.io
+Home-page: https://github.com/msaldivar/pyaddy
+License: GNU AFFERO GENERAL PUBLIC LICENSE
+Author: Maurice Saldivar
+Author-email: mo.py.solutions@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# pyaddy
+A Python package/cli to interact with addy.io
+
+
+## How to use
+* run `python __main__.py --help` or using poetry
+* `poetry run addy --help`
+* You must first run load-key cmd otherwise all other cmds will fail 
+
+## Example output
+
+Usage: addy [OPTIONS] COMMAND [ARGS]...
+
+&nbsp;&nbsp;&nbsp;  Entry point for the cli
+
+Options: \
+&nbsp;&nbsp;&nbsp;--version  Show the version and exit. \
+&nbsp;&nbsp;&nbsp;--help     Show this message and exit.
+
+Commands: \
+  &nbsp;&nbsp;&nbsp; get-acount-details  Get all account details associated with api key \
+  &nbsp;&nbsp;&nbsp; get-api-details     Get api details to confirm key is valid \
+  &nbsp;&nbsp;&nbsp; load-key            Supply your addy api-key \

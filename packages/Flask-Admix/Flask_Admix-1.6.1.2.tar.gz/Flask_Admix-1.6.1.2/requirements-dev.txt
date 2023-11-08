@@ -1,0 +1,25 @@
+Flask
+werkzeug
+sqlalchemy
+MarkupSafe
+jinja2
+Flask-SQLAlchemy
+peewee
+wtf-peewee
+pymongo
+pillow
+shapely
+geoalchemy2
+psycopg2
+sqlalchemy-citext
+sqlalchemy-utils
+azure-storage-blob<12
+arrow
+colour
+email-validator
+wtforms
+tablib
+# flask
+itsdangerous
+# sqlalchemy-utils
+Babel

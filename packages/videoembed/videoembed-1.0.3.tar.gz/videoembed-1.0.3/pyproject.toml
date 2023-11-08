@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=42"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "videoembed"
+version = "1.0.3"
+description = "Create embed codes from video URLs."
+readme = "README.md"
+authors = [{ name = "Philipp Hewera", email = "github.hewera@mailbox.org" }]
+license = { file = "LICENSE" }
+classifiers = [
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+        "Operating System :: OS Independent",
+]
+keywords = ["oembed", "video", "embed codes", "youtube", "vimeo", 'video embedder']
+dependencies = [
+    "requests>=2.31.0",
+]
+requires-python = ">=3.8"
+
+[project.urls]
+Homepage = "https://github.com/phewera/videoembed"

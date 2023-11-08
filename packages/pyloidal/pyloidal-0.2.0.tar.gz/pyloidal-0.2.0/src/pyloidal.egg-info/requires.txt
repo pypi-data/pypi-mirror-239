@@ -1,0 +1,17 @@
+numpy~=1.24
+
+[lint]
+black
+isort
+docformatter
+ruff
+mypy
+
+[lint:python_version >= "3.10"]
+refurb
+
+[test]
+pytest
+coverage
+pytest-cov
+pytest-sugar

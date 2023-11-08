@@ -1,0 +1,75 @@
+[project]
+name = "pyloidal"
+description = "Python utilies for tokamak science."
+readme = "README.md"
+authors = [
+    {name = "Liam Pattinson", email = "liam.pattinson@york.ac.uk"}
+]
+license = {file = "LICENSE"}
+dynamic = ["version"]
+keywords = ["tokamak", "cocos"]
+classifiers = [
+    "Programming Language :: Python",
+    "Development Status :: 3 - Alpha",
+    "Natural Language :: English",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Scientific/Engineering :: Physics",
+]
+
+requires-python = ">=3.8"
+dependencies = [
+    "numpy ~= 1.24",
+]
+
+[project.optional-dependencies]
+test = [
+  "pytest",
+  "coverage",
+  "pytest-cov",
+  "pytest-sugar",
+]
+lint = [
+  "black",
+  "isort",
+  "docformatter",
+  "ruff",
+  "refurb; python_version >= '3.10'",
+  "mypy",
+]
+
+[project.urls]
+Source = "https://github.com/PlasmaFAIR/pyloidal"
+Tracker = "https://github.com/PlasmaFAIR/pyloidal/issues"
+
+[build-system]
+requires = [
+    "setuptools >= 65",
+    "setuptools_scm >= 8.0.0",
+]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+version_file = "src/pyloidal/_version.py"
+fallback_version = "0.1.0"
+
+[tool.isort]
+profile = "black"
+
+[tool.ruff]
+select = ["E", "F", "W", "RUF"]
+
+[tool.coverage.run]
+relative_files = true
+omit = [
+    "_version.py",
+]
+
+[tool.coverage.paths]
+source = [
+  "src/",
+  "*/site-packages",
+]

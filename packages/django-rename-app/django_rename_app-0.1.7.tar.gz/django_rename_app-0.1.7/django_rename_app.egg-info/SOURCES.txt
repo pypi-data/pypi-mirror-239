@@ -1,0 +1,17 @@
+HISTORY.md
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+django_rename_app/__init__.py
+django_rename_app.egg-info/PKG-INFO
+django_rename_app.egg-info/SOURCES.txt
+django_rename_app.egg-info/dependency_links.txt
+django_rename_app.egg-info/not-zip-safe
+django_rename_app.egg-info/requires.txt
+django_rename_app.egg-info/top_level.txt
+django_rename_app/management/__init__.py
+django_rename_app/management/commands/__init__.py
+django_rename_app/management/commands/rename_app.py

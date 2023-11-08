@@ -1,0 +1,7 @@
+numpy
+torch
+scipy
+transformers
+regex
+networkx
+scikit_learn

@@ -1,0 +1,16 @@
+linfa/__init__.py,sha256=HUm3sFAhcJXrodRnkZL2vI-4VO_8PAo-LRbJdfyTpQk,51
+linfa/discrepancy.py,sha256=VBx4HBNf3ZjtUsSnU6HbjecJdEi3KDGQwYS7T4UPHyI,7175
+linfa/maf.py,sha256=MPN1IvDR1pjQIOsJLnLhwPhhf1U0c5At56uQrtmsZto,13040
+linfa/mlp.py,sha256=agNv7927RXXOSfBYcKA-9vAjxzp4ExhXwEL7K325rgM,2139
+linfa/nofas.py,sha256=au1eBINDdowzTYJPEa7QRkTBu9YdH74Zwcil0ta4QAY,15589
+linfa/plot_res.py,sha256=ZPTXqwv0Q3hkCm03rjCRVn5Z4JDYrC7cl7vr_tEcfwo,7293
+linfa/run_experiment.py,sha256=Vh_ZPWj9JIKudGEOkModc5NbBWeG5gDYwxP0mDQXiaM,17938
+linfa/run_experiment_mf.py,sha256=rnaUGK925tBtSBnTTxuMu9WyakD3wL6URCMnHsMTCwA,19039
+linfa/transform.py,sha256=xbktdtAwmbqGak34F0W464n065eEUKoxNYaDdwlIL2w,4819
+linfa/tests/__init__.py,sha256=HUm3sFAhcJXrodRnkZL2vI-4VO_8PAo-LRbJdfyTpQk,51
+linfa/tests/test_linfa.py,sha256=MU9Bl-JCO48ZnrCoX3UUwtk4ky0tjbo2TDm8FuJ3VyI,41029
+linfa_vi-1.2.1.dist-info/LICENSE,sha256=J6WD1WOfsTiprFkGRJ34n3sefMCUzJuehztOULEZ4P0,1069
+linfa_vi-1.2.1.dist-info/METADATA,sha256=0tyVCG1jXuSR6gkXqPPvXa8RqKQ63hgDCaM4AEp2lRU,7235
+linfa_vi-1.2.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+linfa_vi-1.2.1.dist-info/top_level.txt,sha256=Kr-nSnwIZKRbH64RBoiDArjublnpJyRflTkJUw83rgw,6
+linfa_vi-1.2.1.dist-info/RECORD,,

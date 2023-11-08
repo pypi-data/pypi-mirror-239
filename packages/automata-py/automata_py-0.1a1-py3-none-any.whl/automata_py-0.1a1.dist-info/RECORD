@@ -1,0 +1,9 @@
+automata/__init__.py,sha256=jzt8hOvmy1PZ2XI6e_huQO6fGsjfDY3etRwAUJLsaL8,1084
+automata/cli.py,sha256=qjc9GBR3Wsu_qKoMxmzySKdnMX3E3VGSPSq9DMt7PVs,1200
+automata/core.py,sha256=QqJh5fHCIDFFcz5U2V4TG9fLEJr6ady08-T9ffdDcEg,24613
+automata/utilities.py,sha256=M4Mw89e7Y83WncU8LuAsy_FWkpHLslN7bWrVG76mniQ,11370
+automata_py-0.1a1.dist-info/entry_points.txt,sha256=yH71yTXhltijvAIIlmQjZez-T4_W_WNo-gKtW0XTgTg,45
+automata_py-0.1a1.dist-info/LICENSE,sha256=sq0PFeTACjfjuW3xC-dg1GTUmLNgSVSckLMcPogJWiY,1077
+automata_py-0.1a1.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+automata_py-0.1a1.dist-info/METADATA,sha256=UbJuMrWDvJHkpsKFo83bS0MuM4hTGMSLrs3LTIVgtzE,2362
+automata_py-0.1a1.dist-info/RECORD,,

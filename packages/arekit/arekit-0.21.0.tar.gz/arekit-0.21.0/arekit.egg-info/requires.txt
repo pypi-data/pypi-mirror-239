@@ -1,0 +1,5 @@
+enum34==1.1.10
+pandas==0.20.3
+pymystem3==0.2.0
+tensorflow-gpu==1.14.0
+tqdm==4.48.0

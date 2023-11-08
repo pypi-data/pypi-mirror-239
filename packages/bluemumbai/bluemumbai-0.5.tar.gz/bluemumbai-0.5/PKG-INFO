@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: bluemumbai
+Version: 0.5
+Summary: Print and copy greetings based on user input for bluemumbai
+Author: Your Name
+Requires-Dist: pyperclip

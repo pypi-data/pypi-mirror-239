@@ -1,0 +1,2 @@
+from .get_system_info import get_system_info_full
+from .get_system_info import get_system_info_simple

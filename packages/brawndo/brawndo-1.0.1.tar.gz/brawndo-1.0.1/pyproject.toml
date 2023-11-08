@@ -1,0 +1,34 @@
+[project]
+name = "brawndo"
+version = "1.0.1"
+authors = [
+    { name="Michael Lin", email="mal9608@nyu.edu" },
+    { name="Seolin Jung", email="sj3182@nyu.edu" },
+    { name="Marwan AbdElhameed", email="mwa7459@nyu.edu" },
+    { name="Pavly Halim", email="poh2005@nyu.edu" }
+]
+description = "Makes your terminal text chaotic. It's got what plants crave!"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "build",
+    "pytest",
+    "twine",
+    "termcolor",
+    "colorama",
+    "nltk",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/software-students-fall2023/3-python-package-exercise-team-not-sure"
+"Repository" = "https://github.com/software-students-fall2023/3-python-package-exercise-team-not-sure.git"
+"Bug Tracker" = "https://github.com/software-students-fall2023/3-python-package-exercise-team-not-sure/issues"
+
+[tool.pytest.ini_options]
+pythonpath = ["src", "tests"]

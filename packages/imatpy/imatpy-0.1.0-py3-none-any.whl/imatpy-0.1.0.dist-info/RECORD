@@ -1,0 +1,8 @@
+imatpy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imatpy/imat.py,sha256=aKNYKsBHf2vrEQw51k16KNGr0a6l9IaphsP75p29Qzc,13693
+imatpy/model_creation.py,sha256=is5MX4FlWUOIQjjuPuqx0pY-c2V3kTSKhPYdgUlLAco,22512
+imatpy/model_utils.py,sha256=rzWu-8r9rbN5FENqRE-ngSxknfA3MhrePR_ObtzJS4g,12570
+imatpy/parse_gpr.py,sha256=fqYZHKbPxzvh3vmja__inUXeWT6ozzF1WvXAWjtdsfw,6045
+imatpy-0.1.0.dist-info/METADATA,sha256=45v2bxFWyeHj6WCEBiMD_HfrY_s04p-qBGG8ZqZPk7U,13707
+imatpy-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+imatpy-0.1.0.dist-info/RECORD,,

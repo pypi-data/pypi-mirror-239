@@ -1,0 +1,15 @@
+jaguardb-socket-client/JaguarSocketClient.py,sha256=jSfisBElLzb4sNBmuC5tX8OO0YoxxzTg7Utf18CWuWs,2095
+jaguardb-socket-client/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+jaguardb-socket-client/README.md,sha256=6SjGDclTJJ1b7K8UPYiZuU-CXbr8kspRLzPQ5Zy94zw,741
+jaguardb-socket-client/__init__.py,sha256=daEdpEyAJIa8b2VkCqSKcw8PaExcB6Qro80XNes_sHA,2
+jaguardb-socket-client/jaguarpy.so,sha256=6JRJM4oxq8SYPVU1Gi4IUW4K3w6sregwTaoSYku9_HI,348240
+jaguardb-socket-client/libJaguarClient.so,sha256=aEcg-fxsefBiKD_ol8PHHszj-ukFn1zPQIIQDK5Mywg,4103512
+jaguardb_socket_client-3.3.7.data/data/jaguardb/JaguarSocketClient.py,sha256=jSfisBElLzb4sNBmuC5tX8OO0YoxxzTg7Utf18CWuWs,2095
+jaguardb_socket_client-3.3.7.data/data/jaguardb/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+jaguardb_socket_client-3.3.7.data/data/jaguardb/README.md,sha256=6SjGDclTJJ1b7K8UPYiZuU-CXbr8kspRLzPQ5Zy94zw,741
+jaguardb_socket_client-3.3.7.data/data/jaguardb/jaguarpy.so,sha256=6JRJM4oxq8SYPVU1Gi4IUW4K3w6sregwTaoSYku9_HI,348240
+jaguardb_socket_client-3.3.7.data/data/jaguardb/libJaguarClient.so,sha256=aEcg-fxsefBiKD_ol8PHHszj-ukFn1zPQIIQDK5Mywg,4103512
+jaguardb_socket_client-3.3.7.dist-info/METADATA,sha256=ImPrSdb355qHTx00oVjGVu_BkJJM7srGCHSHL_8ujLo,239
+jaguardb_socket_client-3.3.7.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+jaguardb_socket_client-3.3.7.dist-info/top_level.txt,sha256=y5-C8AGk11DgU8MXc6chXN_LIfhmVTkt8IxqAXCecuw,23
+jaguardb_socket_client-3.3.7.dist-info/RECORD,,

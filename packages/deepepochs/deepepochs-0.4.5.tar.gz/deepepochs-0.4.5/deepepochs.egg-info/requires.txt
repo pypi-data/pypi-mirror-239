@@ -1,0 +1,7 @@
+torch>=1.8
+torchmetrics
+numpy
+matplotlib
+tensorboard
+scikit-learn
+pandas

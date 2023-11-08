@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: texteval
+Version: 1.0.4
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Dipankar
+Author-email: dipankarmedhi11@gmail.com
+License: MIT
+Description: # Text Eval
+        
+        A tiny python package to find the sentence similarity metrics.
+        
+        ## Getting started
+        
+        ### Installing
+        ```bash
+        $ pip install texteval
+        ```
+        
+        ### Usage
+        ```python
+        from texteval.evaluate import Evaluator
+        
+        system_summary = "John really loves data science very much and studies it a lot."
+        input_text = "John very much loves data science and enjoys it a lot."
+        
+        evaluator = Evaluator()
+        res = evaluator.rouge_evaluation(input_text,system_summary)
+        print(res)
+        ```
+        
+        
+Keywords: sentence similarity text python metrics cosine rouge bleu
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Requires-Python: >= 3.8
+Description-Content-Type: text/markdown

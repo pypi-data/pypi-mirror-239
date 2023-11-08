@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: py-typed-env
+Version: 0.1.0
+Summary: Dotenv, but typed
+Home-page: https://github.com/paddecraft/typed-env
+License: BSD-3-Clause
+Author: PaddeCraft
+Author-email: 70023807+PaddeCraft@users.noreply.github.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: rich (>=13.6.0,<14.0.0)
+Project-URL: Repository, https://github.com/paddecraft/typed-env
+Description-Content-Type: text/markdown
+
+# Typed-Env
+
+[![Docs](https://img.shields.io/badge/docs-github_pages-blue)](https://paddecraft.dev/typed-env/docs)
+
+
+Typed env is an easy solution to type-check and check for environment variables, including the ones from `.env`-files.
+
+## Getting Started
+
+install the `typed-env` package.
+
+## Misc
+
+#### UNICODE ESCAPE CODES (\uXXXX) ARE CURRENTLY NOT SUPPORTED
+
+This is implemented using [this](https://hexdocs.pm/dotenvy/dotenv-file-format.html) as a *spec*.
+

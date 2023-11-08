@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "py-typed-env"
+version = "0.1.0"
+description = "Dotenv, but typed"
+authors = ["PaddeCraft <70023807+PaddeCraft@users.noreply.github.com>"]
+license = "BSD-3-Clause"
+readme = "README.md"
+packages = [{ include = "typed_env" }]
+repository = "https://github.com/paddecraft/typed-env"
+homepage = "https://github.com/paddecraft/typed-env"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+rich = "^13.6.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.10.1"
+pytest = "^7.4.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

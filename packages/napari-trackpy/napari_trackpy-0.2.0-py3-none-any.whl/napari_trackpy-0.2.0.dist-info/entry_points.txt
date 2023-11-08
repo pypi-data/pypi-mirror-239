@@ -1,0 +1,2 @@
+[napari.manifest]
+napari-trackpy = napari_trackpy:napari.yaml

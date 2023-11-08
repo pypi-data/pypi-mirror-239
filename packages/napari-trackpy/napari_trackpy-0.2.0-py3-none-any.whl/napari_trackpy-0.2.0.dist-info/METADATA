@@ -1,0 +1,93 @@
+Metadata-Version: 2.1
+Name: napari-trackpy
+Version: 0.2.0
+Summary: Plugin to do trackpy particle tracking on microscopy data within napari
+Home-page: https://github.com/rhoitink/napari-trackpy
+Author: Roy Hoitink
+Author-email: L.D.Hoitink@uu.nl
+License: MIT
+Project-URL: Bug Tracker, https://github.com/rhoitink/napari-trackpy/issues
+Project-URL: Documentation, https://github.com/rhoitink/napari-trackpy#README.md
+Project-URL: Source Code, https://github.com/rhoitink/napari-trackpy
+Project-URL: User Support, https://github.com/rhoitink/napari-trackpy/issues
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Framework :: napari
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: magicgui
+Requires-Dist: qtpy
+Requires-Dist: napari
+Requires-Dist: napari-aicsimageio
+Requires-Dist: readlif
+Requires-Dist: trackpy
+Requires-Dist: matplotlib
+Provides-Extra: testing
+Requires-Dist: tox ; extra == 'testing'
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: pytest-cov ; extra == 'testing'
+Requires-Dist: pytest-qt ; extra == 'testing'
+Requires-Dist: napari ; extra == 'testing'
+Requires-Dist: pyqt5 ; extra == 'testing'
+
+# napari-trackpy
+
+[![License MIT](https://img.shields.io/pypi/l/napari-trackpy.svg?color=green)](https://github.com/rhoitink/napari-trackpy/raw/main/LICENSE)
+[![PyPI](https://img.shields.io/pypi/v/napari-trackpy.svg?color=green)](https://pypi.org/project/napari-trackpy)
+[![Python Version](https://img.shields.io/pypi/pyversions/napari-trackpy.svg?color=green)](https://python.org)
+[![tests](https://github.com/rhoitink/napari-trackpy/workflows/tests/badge.svg)](https://github.com/rhoitink/napari-trackpy/actions)
+[![napari hub](https://img.shields.io/endpoint?url=https://api.napari-hub.org/shields/napari-trackpy)](https://napari-hub.org/plugins/napari-trackpy)
+
+Plugin to do [trackpy] particle tracking on 3D microscopy data within [napari]. Currently only tracking of XYZ data is implemented.
+
+## Installation
+
+You can install `napari-trackpy` via [pip]:
+
+    pip install napari-trackpy
+
+To install latest development version :
+
+    pip install git+https://github.com/rhoitink/napari-trackpy.git
+
+## How to use this plugin?
+* Load your XYZ data (using [napari-aicsimageio])
+* Make sure to split channels into different layers, such that the layer only contains 3D (XYZ) data
+* Open the widget for the tracking plugin via `Plugins` > `XYZ particle tracking`
+* Optimize the tracking settings for your dataset, for an extensive description of the settings, visit [this tutorial](http://soft-matter.github.io/trackpy/dev/tutorial/tracking-3d.html)
+* Save your tracking data into the `.xyz` file format using `Ctrl`+`S` (on the points layer) or via the menu `File` > `Save Selected Layer(s)...`
+
+## Contributing
+
+Contributions are very welcome. Tests can be run with [tox].
+
+## License
+
+Distributed under the terms of the [MIT] license,
+"napari-trackpy" is free and open source software
+
+## Issues
+
+If you encounter any problems, please [file an issue] along with a detailed description.
+
+[napari]: https://github.com/napari/napari
+[trackpy]: https://github.com/soft-matter/trackpy
+[napari-aicsimageio]: https://github.com/AllenCellModeling/napari-aicsimageio
+[MIT]: http://opensource.org/licenses/MIT
+
+[file an issue]: https://github.com/rhoitink/napari-trackpy/issues
+
+[tox]: https://tox.readthedocs.io/en/latest/
+[pip]: https://pypi.org/project/pip/
+[PyPI]: https://pypi.org/

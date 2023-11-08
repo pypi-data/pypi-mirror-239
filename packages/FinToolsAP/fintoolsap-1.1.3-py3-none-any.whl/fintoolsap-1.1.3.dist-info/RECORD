@@ -1,0 +1,13 @@
+FinToolsAP/FamaFrench (Andrews-MBP-2.attlocal.net's conflicted copy 2023-11-07).py,sha256=PxTGNO8QjXHHhzEUJmTgth-bH_U9NpLG-pPsg5lnX84,21589
+FinToolsAP/FamaFrench.py,sha256=yqLDRPi8J6mHea4N8TOWVk_7BO5tU7FD6n4smbmcJNs,22058
+FinToolsAP/LocalDatabase.py,sha256=g4sPBKJYAXwz0D0zLH5tKTYWF4jnrlhoc1eRl5lQCTI,38993
+FinToolsAP/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+FinToolsAP/config.py,sha256=pmdrgSj8rnZOiUnyS1nqGosWHNkj47XQPdV-A-CbQd0,6130
+FinToolsAP/download_script.py,sha256=Ky5qwA8Zme2R-ggXXsBlp2_JpohIlM-7qFl69SJn4Ik,1005
+FinToolsAP/util_funcs.py,sha256=mRkSek7rqHUKK3vRq2g-7rdO_0hq8bESs2Jo886Oo5s,4771
+FinToolsAP/base_files/DatabaseParameters.py,sha256=qbSnQki0C62HYjMh-q7pAM6OqixBrnkphNHhwapjxck,957
+FinToolsAP/base_files/ExampleCreateTable.py,sha256=h2x1dxiDPilkzbAEhs1vCKxuJqKkxL7sd4orTaIeDAg,821
+fintoolsap-1.1.3.dist-info/METADATA,sha256=s8QnFkXzJu8tdBN-eJG7UkAHdhSyphcIlWmCYrAJHIs,3887
+fintoolsap-1.1.3.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+fintoolsap-1.1.3.dist-info/licenses/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+fintoolsap-1.1.3.dist-info/RECORD,,

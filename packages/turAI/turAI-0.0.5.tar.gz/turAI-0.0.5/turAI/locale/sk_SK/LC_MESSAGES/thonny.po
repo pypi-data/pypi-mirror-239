@@ -1,0 +1,1948 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: turAI\n"
+"Language: sk\n"
+
+#: turAI/workbench.py:369
+msgid "File"
+msgstr "Súbor"
+
+#: turAI/workbench.py:370
+msgid "Edit"
+msgstr "Upraviť"
+
+#: turAI/workbench.py:371
+msgid "View"
+msgstr "Zobraziť"
+
+#: turAI/running.py:116 turAI/workbench.py:372
+msgid "Run"
+msgstr "Spustiť"
+
+#: turAI/workbench.py:373
+msgid "Tools"
+msgstr "Nástroje"
+
+#: turAI/plugins/help/__init__.py:80 turAI/workbench.py:374
+msgid "Help"
+msgstr "Pomocník"
+
+#: turAI/workbench.py:591
+msgid "Exit"
+msgstr "Ukončiť"
+
+#: turAI/workbench.py:618
+msgid "Decrease font size"
+msgstr "Zmenšiť veľkosť písma"
+
+#: turAI/workbench.py:630
+msgid "Focus editor"
+msgstr "Prepnúť na editor"
+
+#: turAI/workbench.py:639
+msgid "Focus shell"
+msgstr "Prepnúť na shell"
+
+#: turAI/workbench.py:650
+msgid "Maximize view"
+msgstr "Maximalizovať okno"
+
+#: turAI/workbench.py:662
+msgid "Full screen"
+msgstr "Celá obrazovka"
+
+#: turAI/workbench.py:1465
+msgid "Program arguments"
+msgstr "Argumenty programu"
+
+#: turAI/plugins/about.py:24 turAI/plugins/about.py:151
+msgid "About turAI"
+msgstr "O aplikácii turAI"
+
+#: turAI/plugins/about.py:77
+msgid "Made in\n"
+"University of Tartu, Estonia,\n"
+"with the help from\n"
+"open-source community,\n"
+"Raspberry Pi Foundation\n"
+"and Cybernetica AS"
+msgstr "Vytvorené na\n"
+"Univerzite Tartu, Estónsko,\n"
+"s pomocou open-source komunity,\n"
+"Raspberry Pi Foundation a Cybernetica AS  "
+
+#: turAI/plugins/about.py:97
+msgid "This program comes with\n"
+"ABSOLUTELY NO WARRANTY!\n"
+"It is free software, and you are welcome to\n"
+"redistribute it under certain conditions, see\n"
+"https://opensource.org/licenses/MIT\n"
+"for details"
+msgstr "Tento program je BEZ AKÝCHKOĽVEK ZÁRUK! Je to slobodný softvér a môžete ho slobodne šíriť pri splnení určitých podmienok, pre podrobnosti navštívte https://opensource.org/licenses/MIT"
+
+#: turAI/plugins/about.py:140
+msgid "Version history"
+msgstr "História verzií"
+
+#: turAI/plugins/about.py:147
+msgid "Report problems"
+msgstr "Nahlásiť problémy"
+
+#: turAI/plugins/assistant_config_page.py:16
+msgid "Open Assistant automatically when program crashes with an exception"
+msgstr "Otvoriť Asistenta automaticky, ak program skončí chybou (exception)"
+
+#: turAI/plugins/assistant_config_page.py:23
+msgid "Open Assistant automatically when it has warnings for your code"
+msgstr "Otvoriť Asistenta automaticky, ak pre váš kód existujú varovania"
+
+#: turAI/plugins/assistant_config_page.py:30
+msgid "Perform selected Pylint checks"
+msgstr "Spustiť vybrané Pylint testy"
+
+#: turAI/plugins/assistant_config_page.py:34
+msgid "Perform MyPy checks"
+msgstr "Spustiť testy MyPy"
+
+#: turAI/plugins/assistant_config_page.py:36
+msgid "Disabled checks (one id per line)"
+msgstr "Vypnuté testy (jedno id na riadok)"
+
+#: turAI/assistance.py:985 turAI/plugins/assistant_config_page.py:74
+msgid "Assistant"
+msgstr "Asistent"
+
+#: turAI/plugins/autocomplete.py:522
+msgid "Auto-complete"
+msgstr "Automatické dopĺňanie"
+
+#: turAI/plugins/backend_config_page.py:337
+msgid "Interpreter"
+msgstr "Prekladač"
+
+#: turAI/plugins/birdseye_frontend.py:55
+msgid "About Birdseye"
+msgstr "O Birdseye"
+
+#: turAI/plugins/birdseye_frontend.py:56
+msgid "Birdseye is a Python debugger which needs to be installed separately.\n"
+"\n"
+"Do you want to open the help page and learn more?"
+msgstr "Birdseye je program na ladenie Pythonu, ktorý musíte nainštalovať samostatne.\n"
+"\n"
+"Chcete otvoriť stránku pomoci a zistiť viac?"
+
+#: turAI/plugins/birdseye_frontend.py:84
+msgid "Debug current script (birdseye)"
+msgstr "Ladiť aktuálny skript (birdseye)"
+
+#: turAI/plugins/commenting_indenting.py:172
+msgid "Toggle comment"
+msgstr "Prepnúť komentáre"
+
+#: turAI/plugins/commenting_indenting.py:182
+msgid "Comment out"
+msgstr "Zakomentovať"
+
+#: turAI/plugins/commenting_indenting.py:192
+msgid "Uncomment"
+msgstr "Odkomentovať"
+
+#: turAI/plugins/common_editing_commands.py:21
+msgid "Undo"
+msgstr "Späť"
+
+#: turAI/plugins/common_editing_commands.py:33
+msgid "Redo"
+msgstr "Vrátiť krok späť"
+
+#: turAI/base_file_browser.py:724 turAI/plugins/common_editing_commands.py:49
+#: turAI/ui_utils.py:2295
+msgid "Cut"
+msgstr "Vystrihnúť"
+
+#: turAI/base_file_browser.py:725 turAI/plugins/common_editing_commands.py:61
+#: turAI/ui_utils.py:2296
+msgid "Copy"
+msgstr "Kopírovať"
+
+#: turAI/base_file_browser.py:727 turAI/base_file_browser.py:733
+#: turAI/plugins/common_editing_commands.py:73 turAI/ui_utils.py:2297
+msgid "Paste"
+msgstr "Vložiť"
+
+#: turAI/plugins/common_editing_commands.py:85 turAI/plugins/debugger.py:152
+msgid "Select all"
+msgstr "Vybrať všetko"
+
+#: turAI/plugins/debugger.py:145 turAI/plugins/debugger.py:1401
+msgid "Run to cursor"
+msgstr "Spustiť po kurzor"
+
+#: turAI/plugins/debugger.py:982
+msgid "Can't close yet"
+msgstr "Ešte nie je možné zavrieť"
+
+#: turAI/plugins/debugger.py:983
+msgid "Use \"Stop\" command if you want to cancel debugging"
+msgstr "Použite príkaz „Stop“ na ukončenie ladenie"
+
+#: turAI/plugins/dock_user_windows_frontend.py:28
+msgid "Dock user windows"
+msgstr "Ukotviť používateľské okná"
+
+#: turAI/plugins/editor_config_page.py:20
+msgid "Highlight matching names"
+msgstr "Zvýrazniť rovnaké názvy"
+
+#: turAI/plugins/editor_config_page.py:26
+msgid "Highlight local variables"
+msgstr "Zvýrazniť lokálne premenné"
+
+#: turAI/plugins/editor_config_page.py:31
+msgid "Highlight parentheses"
+msgstr "Zvýrazniť zátvorky"
+
+#: turAI/plugins/editor_config_page.py:32
+msgid "Highlight syntax elements"
+msgstr "Zvýrazniť syntax"
+
+#: turAI/plugins/editor_config_page.py:36
+msgid "Highlight current line (requires reopening the editor)"
+msgstr "Zvýrazniť aktuálny riadok (vyžaduje opätovné otvorenie editora)"
+
+#: turAI/plugins/editor_config_page.py:73
+msgid "Show line numbers"
+msgstr "Zobraziť čísla riadkov"
+
+#: turAI/plugins/editor_config_page.py:76
+msgid "Recommended maximum line length\n"
+"(Set to 0 to turn off margin line)"
+msgstr "Odporúčané maximum znakov na riadok\n"
+"(nastavte na 0 pre vypnutie okrajov)"
+
+#: turAI/plugins/editor_config_page.py:104
+msgid "Editor"
+msgstr "Editor"
+
+#: turAI/plugins/event_logging.py:207
+msgid "Export usage logs..."
+msgstr "Exportovať záznamy o používaní..."
+
+#: turAI/plugins/event_view.py:39
+msgid "Events"
+msgstr "Udalosti"
+
+#: turAI/plugins/files.py:609
+msgid "Files"
+msgstr "Súbory"
+
+#: turAI/plugins/find_replace.py:60 turAI/plugins/find_replace.py:437
+msgid "Find & Replace"
+msgstr "Hľadať a nahradiť"
+
+#: turAI/plugins/find_replace.py:66
+msgid "Find:"
+msgstr "Hľadať:"
+
+#: turAI/plugins/find_replace.py:87
+msgid "Replace with:"
+msgstr "Nahradiť:"
+
+#: turAI/plugins/find_replace.py:105
+msgid "Case sensitive"
+msgstr "Citlivé na veľkosť"
+
+#: turAI/plugins/find_replace.py:112
+msgid "Up"
+msgstr "Hore"
+
+#: turAI/plugins/find_replace.py:116
+msgid "Down"
+msgstr "Dole"
+
+#: turAI/plugins/find_replace.py:125
+msgid "Find"
+msgstr "Hľadať"
+
+#: turAI/plugins/find_replace.py:135
+msgid "Replace"
+msgstr "Nahradiť"
+
+#: turAI/plugins/find_replace.py:143
+msgid "Replace+Find"
+msgstr "Nahradiť a hľadať"
+
+#: turAI/plugins/find_replace.py:153
+msgid "Replace all"
+msgstr "Nahradiť všetko"
+
+#: turAI/plugins/find_replace.py:253
+msgid "Enter string to be replaced."
+msgstr "Zadajte reťazec, ktorý bude nahradený iným reťazcom."
+
+#: turAI/plugins/find_replace.py:338
+msgid "The specified text was not found!"
+msgstr "Zadaný text nebol nájdený!"
+
+#: turAI/plugins/general_config_page.py:15
+msgid "Allow only single turAI instance"
+msgstr "Povoliť iba jednu inštanciu turAI"
+
+#: turAI/plugins/general_config_page.py:22
+msgid "Reopen all files from previous session"
+msgstr "Otvoriť všetky súbory z predchádzajúcej relácie"
+
+#: turAI/plugins/general_config_page.py:37
+msgid "Disable notification sound"
+msgstr "Vypnúť zvuky notifikácie"
+
+#: turAI/plugins/general_config_page.py:86
+msgid "Font scaling mode"
+msgstr "Režim škálovánia písma"
+
+#: turAI/plugins/heap.py:37
+msgid "Heap mode is on.\n"
+"Close Heap view to turn it off."
+msgstr "Režim haldy je zapnutý.\n"
+"Zavrite Zobrazenie haldy pre jeho vypnutie."
+
+#: turAI/plugins/heap.py:86
+msgid "Heap"
+msgstr "Halda"
+
+#: turAI/plugins/general_config_page.py:53
+msgid "Language"
+msgstr "Jazyk"
+
+#: turAI/plugins/notes.py:35
+msgid "This box is meant for your working notes -- assignment instructions, code snippets, whatever.\n"
+"\n"
+"Everything will be saved automatically and loaded when you open turAI next time.\n"
+"\n"
+"Feel free to delete this text to make room for your own notes."
+msgstr "Toto pole je určené na vaše pracovné poznámky - na priradenie úloh, úryvky kódu, na čokoľvek.\n"
+"\n"
+"Všetko sa automaticky uloží a načíta pri ďalšom spustení turAI.\n"
+"\n"
+"Neváhajte tento text vymazať a vytvorte si tak priestor na vlastné poznámky."
+
+#: turAI/plugins/notes.py:63
+msgid "Notes"
+msgstr "Poznámky"
+
+#: turAI/plugins/object_inspector.py:116
+msgid "Previous object"
+msgstr "Predchádzajúci objekt"
+
+#: turAI/plugins/object_inspector.py:119
+msgid "Next object"
+msgstr "Nasledujúci objekt"
+
+#: turAI/plugins/object_inspector.py:733
+msgid "Object inspector"
+msgstr "Inšpektor objektov"
+
+#: turAI/plugins/outline.py:148
+msgid "Outline"
+msgstr "Osnova"
+
+#: turAI/plugins/pgzero_frontend.py:27
+msgid "Pygame Zero mode"
+msgstr "Režim Pygame Zero"
+
+#: turAI/plugins/pip_gui.py:79
+msgid "Uninstall"
+msgstr "Odinštalovať"
+
+#: turAI/editors.py:685 turAI/plugins/pip_gui.py:251 turAI/ui_utils.py:491
+#: turAI/ui_utils.py:1872 turAI/workdlg.py:162
+msgid "Close"
+msgstr "Zavrieť"
+
+#: turAI/plugins/pip_gui.py:397
+msgid "Click "
+msgstr "Kliknite "
+
+#: turAI/plugins/pip_gui.py:398 turAI/plugins/pip_gui.py:409
+msgid "here"
+msgstr "sem"
+
+#: turAI/plugins/pip_gui.py:76
+msgid "Upgrade"
+msgstr "Inovovať"
+
+#: turAI/plugins/esp/__init__.py:349
+#: turAI/plugins/micropython/uf2dialog.py:410 turAI/plugins/pip_gui.py:73
+msgid "Install"
+msgstr "Inštalovať"
+
+#: turAI/plugins/pip_gui.py:535
+msgid "Could not find the package from PyPI."
+msgstr "Nie je možné nájsť balík na PyPI."
+
+#: turAI/plugins/pip_gui.py:557
+msgid "Latest stable version"
+msgstr "Najnovšia stabilná verzia"
+
+#: turAI/plugins/pip_gui.py:559
+msgid "Latest version"
+msgstr "Najnovšia verzia"
+
+#: turAI/plugins/pip_gui.py:561
+msgid "Summary"
+msgstr "Súhrn"
+
+#: turAI/plugins/pip_gui.py:563
+msgid "Author"
+msgstr "Autor"
+
+#: turAI/plugins/pip_gui.py:565
+msgid "Homepage"
+msgstr "Domovská stránka"
+
+#: turAI/plugins/pip_gui.py:567
+msgid "Bugtracker"
+msgstr "Hlásenie a riešenie chýb"
+
+#: turAI/plugins/pip_gui.py:569
+msgid "Documentation"
+msgstr "Dokumentácia"
+
+#: turAI/plugins/pip_gui.py:571
+msgid "PyPI page"
+msgstr "Stránka PyPI"
+
+#: turAI/plugins/pip_gui.py:611
+msgid "Requires"
+msgstr "Vyžaduje"
+
+#: turAI/plugins/pip_gui.py:743
+msgid "Really uninstall?"
+msgstr "Naozaj odinštalovať?"
+
+#: turAI/plugins/pip_gui.py:748
+msgid "Are you sure you want to uninstall it?"
+msgstr "Naozaj chcete tento balík odinštalovať?"
+
+#: turAI/plugins/variables.py:22
+msgid "Back to\n"
+"current frame"
+msgstr "Späť na\n"
+"aktuálne okno"
+
+#: turAI/plugins/variables.py:80 turAI/plugins/variables.py:82
+#: turAI/plugins/variables.py:145
+msgid "Variables"
+msgstr "Premenné"
+
+#: turAI/base_file_browser.py:1572
+msgid "This computer"
+msgstr "Tento počítač"
+
+#: turAI/base_file_browser.py:644
+msgid "Refresh"
+msgstr "Obnoviť"
+
+#: turAI/base_file_browser.py:653
+msgid "Focus into"
+msgstr "Prepnúť sa na"
+
+#: turAI/base_file_browser.py:1407 turAI/base_file_browser.py:1419
+#: turAI/plugins/autocomplete.py:300 turAI/plugins/highlight_names.py:87
+msgid "Error"
+msgstr "Chyba"
+
+#: turAI/base_file_browser.py:1407 turAI/base_file_browser.py:1419
+msgid "You need to select a file!"
+msgstr "Musíte vybrať súbor!"
+
+#: turAI/base_file_browser.py:1423
+msgid "Overwrite?"
+msgstr "Prepísať?"
+
+#: turAI/base_file_browser.py:1423
+msgid "Do you want to overwrite '%s' ?"
+msgstr "Chcete prepísať '% s'?"
+
+#: turAI/editors.py:650 turAI/editors.py:652
+msgid "New"
+msgstr "Nový"
+
+#: turAI/editors.py:663
+msgid "Open..."
+msgstr "Otvoriť..."
+
+#: turAI/editors.py:665
+msgid "Load"
+msgstr "Načítať"
+
+#: turAI/editors.py:674
+msgid "Recent files"
+msgstr "Nedávne súbory"
+
+#: turAI/editors.py:696 turAI/ui_utils.py:493
+msgid "Close all"
+msgstr "Zatvoriť všetko"
+
+#: turAI/editors.py:706 turAI/editors.py:708
+msgid "Save"
+msgstr "Uložiť"
+
+#: turAI/editors.py:731
+msgid "Save as..."
+msgstr "Uložiť ako..."
+
+#: turAI/editors.py:742
+msgid "Save copy..."
+msgstr "Uložiť kópiu..."
+
+#: turAI/config_ui.py:18
+msgid "turAI options"
+msgstr "Možnosti turAI"
+
+#: turAI/running.py:115
+msgid "Run current script"
+msgstr "Spustiť aktuálny skript"
+
+#: turAI/running.py:146
+msgid "Run current script in terminal"
+msgstr "Spustiť aktuálny skript v termináli"
+
+#: turAI/running.py:159
+msgid "Stop/Restart backend"
+msgstr "Zastaviť/Reštartovať backend"
+
+#: turAI/running.py:160
+msgid "Stop"
+msgstr "Zastaviť"
+
+#: turAI/running.py:171
+msgid "Interrupt execution"
+msgstr "Prerušiť spustenie"
+
+#: turAI/running.py:184
+msgid "Send EOF / Soft reboot"
+msgstr "Poslať EOF/mäkký reštart"
+
+#: turAI/running.py:195
+msgid "Disconnect"
+msgstr "Odpojiť"
+
+#: turAI/plugins/cpython_frontend/cp_front.py:269
+msgid "Python interpreters"
+msgstr "Prekladač Pythonu"
+
+#: turAI/editors.py:36 turAI/plugins/cpython_frontend/cp_front.py:270
+#: turAI/plugins/pip_gui.py:789 turAI/plugins/pip_gui.py:802
+msgid "all files"
+msgstr "všetky súbory"
+
+#: turAI/plugins/cpython_frontend/cp_front.py:298
+msgid "Select empty directory for new virtual environment"
+msgstr "Vyberte prázdny adresár pre nové virtuálne prostredie"
+
+#: turAI/plugins/cpython_frontend/cp_front.py:305
+msgid "Bad directory"
+msgstr "Zlý adresár"
+
+#: turAI/plugins/cpython_frontend/cp_front.py:306
+msgid "Selected directory is not empty.\n"
+"Select another or cancel."
+msgstr "Vybraný adresár nie je prázdny.\n"
+"Vyberte iný alebo zrušte výber."
+
+#: turAI/plugins/cpython_frontend/cp_front.py:323
+msgid "Creating virtual environment"
+msgstr "Vytváram virtuálne prostredie"
+
+#: turAI/shell.py:101
+msgid "Clear shell"
+msgstr "Vyčistiť shell"
+
+#: turAI/shell.py:185
+msgid "Plotter"
+msgstr "Plotter"
+
+#: turAI/shell.py:317
+msgid "Clear"
+msgstr "Vyčistiť"
+
+#: turAI/shell.py:330
+msgid "Show Plotter"
+msgstr "Zobraziť Plotter"
+
+#: turAI/shell.py:1659
+msgid "For performance reasons, Shell avoids showing very long lines in full (see Tools => Options => Shell).\n"
+"Here you can interact with the original text fragment."
+msgstr "Kvôli vyššiemu výkonu sa Shell vyhýba zobrazeniu veľmi dlhých riadkov v celej dĺžke (viď Nástroje => Možnosti => Shell).\n"
+"Tu môžete pracovať s pôvodným fragmentom textu."
+
+#: turAI/shell.py:1670
+msgid "Wrap text (may be slow)"
+msgstr "Zalamovať text (môže byť pomalé)"
+
+#: turAI/ui_utils.py:1867
+msgid "Copy to clipboard"
+msgstr "Kopírovať do schránky"
+
+#: turAI/shell.py:1712
+msgid "Squeezed text (%d characters)"
+msgstr "Skrátený text (%d znakov)"
+
+#: turAI/shell.py:1882
+msgid "Plotter visualizes series of\n"
+"numbers printed to the Shell."
+msgstr "Plotter vizualizuje číselné rady\n"
+"vypísané v Shell-i."
+
+#: turAI/shell.py:1884
+msgid "See Help for details."
+msgstr "Podrobnosti nájdete v Pomocníkovi."
+
+#: turAI/ui_utils.py:492
+msgid "Close others"
+msgstr "Zavrieť ostatné"
+
+#: turAI/ui_utils.py:1722
+msgid "Copying"
+msgstr "Kopírujem"
+
+#: turAI/ui_utils.py:1725
+msgid "Copying\n"
+"  %s\n"
+"to\n"
+"  %s"
+msgstr "Kopírujem\n"
+"% s\n"
+"do\n"
+"% s"
+
+#: turAI/base_file_browser.py:1378 turAI/config_ui.py:42 turAI/export.py:28
+#: turAI/plugins/backend_config_page.py:290 turAI/plugins/pip_gui.py:1256
+#: turAI/ui_utils.py:157 turAI/ui_utils.py:1733 turAI/ui_utils.py:1819
+#: turAI/workdlg.py:164 turAI/workdlg.py:209
+msgid "Cancel"
+msgstr "Zrušiť"
+
+#: turAI/base_file_browser.py:1369 turAI/config_ui.py:41 turAI/export.py:25
+#: turAI/plugins/about.py:111 turAI/plugins/backend_config_page.py:285
+#: turAI/ui_utils.py:154 turAI/ui_utils.py:1816 turAI/workdlg.py:206
+msgid "OK"
+msgstr "OK"
+
+#: turAI/ui_utils.py:2301
+msgid "Select All"
+msgstr "Vybrať všetko"
+
+#: turAI/plugins/shell_config_page.py:82 turAI/shell.py:149
+#: turAI/workbench.py:162
+msgid "Shell"
+msgstr "Shell"
+
+#: turAI/workbench.py:601
+msgid "Options..."
+msgstr "Možnosti..."
+
+#: turAI/workbench.py:608
+msgid "Increase font size"
+msgstr "Zväčšiť veľkosť písma"
+
+#: turAI/workbench.py:673
+msgid "Change font size"
+msgstr "Zmeniť veľkosť písma"
+
+#: turAI/workbench.py:674
+msgid "Zoom"
+msgstr "Priblíženie"
+
+#: turAI/workbench.py:683
+msgid "Exit turAI"
+msgstr "Ukončiť turAI"
+
+#: turAI/workbench.py:686
+msgid "Quit"
+msgstr "Ukončiť"
+
+#: turAI/workbench.py:1244 turAI/workbench.py:1252
+msgid "Overwriting theme '%s'"
+msgstr "Prepísať motív '%s'"
+
+#: turAI/workbench.py:1436
+msgid "Program arguments:"
+msgstr "Argumenty programu:"
+
+#: turAI/workbench.py:1490
+msgid "Regular mode"
+msgstr "Bežný režim"
+
+#: turAI/workbench.py:1491
+msgid "Configuration has been updated. Restart turAI to start working in regular mode.\n"
+"\n"
+"(See 'Tools → Options → General' if you change your mind later.)"
+msgstr "Konfigurácia bola zmenená. Reštartujte turAI, aby ste mohli pracovať v bežnom režime.\n"
+"\n"
+"(ak si to neskôr rozmyslíte, prejdite do \"Nástroje - Volby - Obecné)"
+
+#: turAI/plugins/ast_view.py:212
+msgid "Program tree"
+msgstr "Strom programu"
+
+#: turAI/plugins/debugger.py:1283
+msgid "Resume"
+msgstr "Pokračovať"
+
+#: turAI/plugins/debugger.py:1299
+msgid "Run / resume"
+msgstr "Spustiť/pokračovať"
+
+#: turAI/plugins/debugger.py:1314
+msgid "Debug current script"
+msgstr "Ladiť aktuálny skript"
+
+#: turAI/plugins/debugger.py:1316
+msgid "Debug"
+msgstr "Ladiť"
+
+#: turAI/plugins/debugger.py:1327
+msgid "Debug current script (nicer)"
+msgstr "Ladiť aktuálny skript (krajší)"
+
+#: turAI/plugins/debugger.py:1339
+msgid "Debug current script (faster)"
+msgstr "Ladiť aktuálny skript (rýchlejší)"
+
+#: turAI/plugins/debugger.py:1350
+msgid "Step over"
+msgstr "Preskočiť"
+
+#: turAI/plugins/debugger.py:1352
+msgid "Over"
+msgstr "Preskočiť"
+
+#: turAI/plugins/debugger.py:1363
+msgid "Step into"
+msgstr "Krok dovnútra"
+
+#: turAI/plugins/debugger.py:1365
+msgid "Into"
+msgstr "Dovnútra"
+
+#: turAI/plugins/debugger.py:1376
+msgid "Step out"
+msgstr "Krok von"
+
+#: turAI/plugins/debugger.py:1378
+msgid "Out"
+msgstr "Von"
+
+#: turAI/plugins/debugger.py:1413
+msgid "Step back"
+msgstr "Krok späť"
+
+#: turAI/plugins/debugger.py:1415
+msgid "Back"
+msgstr "Späť"
+
+#: turAI/plugins/debugger.py:1421
+msgid "Stack"
+msgstr "Stack"
+
+#: turAI/plugins/debugger.py:1422
+msgid "Exception"
+msgstr "Chyba (exception)"
+
+#: turAI/plugins/general_config_page.py:18
+msgid "Log program usage events"
+msgstr "Zaznamenávať udalosti využívania programu"
+
+#: turAI/plugins/general_config_page.py:43
+msgid "Debug mode (provides more detailed diagnostic logs)"
+msgstr "Režim ladenia (poskytuje detailnejšie diagnostické záznamy)"
+
+#: turAI/plugins/general_config_page.py:67
+msgid "UI mode"
+msgstr "Režim UI"
+
+#: turAI/plugins/general_config_page.py:80
+msgid "UI scaling factor"
+msgstr "UI škálovací faktor"
+
+#: turAI/plugins/general_config_page.py:114
+msgid "NB! Restart turAI after changing these options!"
+msgstr "Reštartujte turAI po zmene týchto nastavení!"
+
+#: turAI/plugins/general_config_page.py:148
+msgid "General"
+msgstr "Všeobecné"
+
+#: turAI/plugins/pip_gui.py:142
+msgid "INSTALL"
+msgstr "INŠTALOVAŤ"
+
+#: turAI/plugins/pip_gui.py:367
+msgid "Browse the packages"
+msgstr "Prehliadať balíky"
+
+#: turAI/plugins/pip_gui.py:370
+msgid "With current interpreter you can only browse the packages here.\n"
+"Use 'Tools → Open system shell...' for installing, upgrading or uninstalling."
+msgstr "S aktuálnym prekladačom môžete prehliadať iba tieto balíky.\n"
+"Na inštaláciu, aktualizáciu alebo odinštalovanie použite 'Nástroje → Otvoriť systémový shell...'."
+
+#: turAI/plugins/pip_gui.py:378
+msgid "Packages' directory"
+msgstr "Adresár s balíkmi"
+
+#: turAI/plugins/pip_gui.py:382
+msgid "Install from PyPI"
+msgstr "Inštalovať z PyPI"
+
+#: turAI/plugins/pip_gui.py:385
+msgid "If you don't know where to get the package from, then most likely you'll want to search the Python Package Index. Start by entering the name of the package in the search box above and pressing ENTER."
+msgstr "Ak neviete, odkiaľ balík môžete získať, potom pravdepodobne budete chcieť prehľadať Python Package Index. Začnite tým, že napíšete meno balíka do vyhľadávacieho poľa vyššie a stlačíte kláves ENTER."
+
+#: turAI/plugins/pip_gui.py:402
+msgid "to locate requirements.txt file and install the packages specified in it."
+msgstr "pre vyhľadanie súboru requirements.txt a inštaláciu balíkov, v ňom uvedených."
+
+#: turAI/plugins/pip_gui.py:408
+msgid "Click"
+msgstr "Kliknite"
+
+#: turAI/plugins/pip_gui.py:413
+msgid "to locate and install the package file (usually with .whl, .tar.gz or .zip extension)."
+msgstr "pre vyhľadanie a inštaláciu súbory balíka (zvyčajne s príponou .whl, .tar.gz alebo zip)."
+
+#: turAI/plugins/pip_gui.py:420
+msgid "Upgrade or uninstall"
+msgstr "Aktualizovať alebo odinštalovať"
+
+#: turAI/plugins/pip_gui.py:422
+msgid "Start by selecting the package from the left."
+msgstr "Začnite výberom balíkov vľavo."
+
+#: turAI/plugins/pip_gui.py:410
+msgid "Target:"
+msgstr "Cieľ:"
+
+#: turAI/plugins/pip_gui.py:414
+msgid "virtual environment"
+msgstr "virtuálne prostredie"
+
+#: turAI/plugins/pip_gui.py:412
+msgid "user site packages"
+msgstr "balíky na stránkach používateľov"
+
+#: turAI/plugins/pip_gui.py:430
+msgid "This dialog lists all available packages, but allows upgrading and uninstalling only packages from"
+msgstr "Toto dialógové okno zobrazuje všetky dostupné balíky, ale umožňuje aktualizovať alebo odinštalovať iba balíky z"
+
+#: turAI/plugins/pip_gui.py:440
+msgid "New packages will be also installed into this directory. Other locations must be managed by alternative means."
+msgstr "Nové balíky sa takisto nainštalujú do tohto adresára. Ak chcete použiť iné umiestnenie, musíte tak urobiť inou cestou."
+
+#: turAI/plugins/pip_gui.py:485
+msgid "Installed version:"
+msgstr "Nainštalovaná verzia:"
+
+#: turAI/plugins/pip_gui.py:487
+msgid "Installed to:"
+msgstr "Nainštalované do:"
+
+#: turAI/plugins/pip_gui.py:538
+msgid "Please check your spelling!"
+msgstr "Prosím skontrolujte preklepy!"
+
+#: turAI/plugins/pip_gui.py:542
+msgid "Could not find the package info from PyPI."
+msgstr "Nie je možné nájsť informácie o balíkoch na PyPI."
+
+#: turAI/plugins/pip_gui.py:544 turAI/plugins/pip_gui.py:1326
+msgid "Error code:"
+msgstr "Kód chyby:"
+
+#: turAI/plugins/pip_gui.py:689
+msgid "Can't find package name from the list:"
+msgstr "Nepodarilo sa nájsť balík zo zoznamu:"
+
+#: turAI/plugins/pip_gui.py:744
+msgid "Package '{}' is required for installing and uninstalling other packages."
+msgstr "Balík '{}' je potrebný na inštaláciu alebo odinštalovanie iných balíkov."
+
+#: turAI/plugins/pip_gui.py:789
+msgid "Package"
+msgstr "Balík"
+
+#: turAI/plugins/pip_gui.py:902
+msgid "Manage packages for %s"
+msgstr "Správa balíkov pre %s"
+
+#: turAI/editors.py:579 turAI/plugins/micropython/pip_gui.py:23
+#: turAI/plugins/pip_gui.py:953
+msgid "Confirmation"
+msgstr "Potvrdenie"
+
+#: turAI/plugins/pip_gui.py:954
+msgid "Looks like you are installing a turAI-related package.\n"
+"If you meant to install a turAI plugin, then you should\n"
+"choose 'Tools → Manage plugins...' instead\n"
+"\n"
+"Are you sure you want to install %s for the back-end?"
+msgstr "Vyzerá, že inštalujete balík pre turAI.\n"
+"Ak chcete nainštalovať turAI plugin,\n"
+"použite radšej 'Nástroje - Správa pluginov'\n"
+"\n"
+"Naozaj chcete inštalovať %s pre backend?"
+
+#: turAI/plugins/pip_gui.py:1059
+msgid "NB! There may be another version available which is compatible with current turAI version. Click on '...' button to choose the version to install."
+msgstr "Pravdepodobne existuje ďalšia verzia, ktorá je kompatibilná s aktuálnou\n"
+"verziou turAI. Kliknite na '...' a vyberte verziu, ktorá má byť nainštalovaná."
+
+#: turAI/plugins/pip_gui.py:1067
+msgid "turAI plugin without requirements"
+msgstr "turAI plugin bez závislostí"
+
+#: turAI/plugins/pip_gui.py:1083
+msgid "Unsuitable requirements"
+msgstr "Nesplniteľné požiadavky"
+
+#: turAI/plugins/pip_gui.py:1084
+msgid "This package requires different turAI version:"
+msgstr "Tento balík vyžaduje inú verziu turAI:"
+
+#: turAI/plugins/pip_gui.py:1088
+msgid "If you still want it, then please install it from the command line."
+msgstr "Ak ho stále chcete, nainštalujte ho, prosím, z príkazového riadka."
+
+#: turAI/plugins/pip_gui.py:1125
+msgid "NB! You need to restart turAI after installing / upgrading / uninstalling a plug-in."
+msgstr "Po inštalácií/aktualizácii/odinštalovaní pluginu je potrebné turAI reštartovať."
+
+#: turAI/plugins/pip_gui.py:1135
+msgid "turAI plug-ins"
+msgstr "Pluginy turAI"
+
+#: turAI/plugins/pip_gui.py:1171
+msgid "Advanced install / upgrade / downgrade"
+msgstr "Rozšírená inštalácia/aktualizácia/zníženie verzie"
+
+#: turAI/plugins/pip_gui.py:1180
+msgid "Desired version"
+msgstr "Žiadaná verze"
+
+#: turAI/plugins/pip_gui.py:1239
+msgid "Upgrade dependencies"
+msgstr "Závislosti pre aktualizáciu"
+
+#: turAI/plugins/pip_gui.py:1324
+msgid "Requires:"
+msgstr "Vyžaduje:"
+
+#: turAI/plugins/pip_gui.py:1328
+msgid "Error:"
+msgstr "Chyba:"
+
+#: turAI/plugins/pip_gui.py:1541
+msgid "Manage packages..."
+msgstr "Správa balíkov..."
+
+#: turAI/plugins/pip_gui.py:1547
+msgid "Manage plug-ins..."
+msgstr "Správa pluginov..."
+
+#: turAI/plugins/replayer.py:365
+msgid "Open replayer..."
+msgstr "Otvoriť prehliadač histórie..."
+
+#: turAI/plugins/run_debug_config_page.py:14
+msgid "Change working directory to script directory on Run / Debug"
+msgstr "Zmeniť pracovný adresár na adresár skriptu pri Spustení/Ladení"
+
+#: turAI/plugins/run_debug_config_page.py:22
+msgid "Show function calls (frames) in separate windows"
+msgstr "Zobraziť volania funkcií (rámce) v samostatných oknách"
+
+#: turAI/plugins/run_debug_config_page.py:23
+msgid "Uncheck if you want more traditional experience."
+msgstr "Zrušte zaškrtnutie pre pôvodné ovládanie a správanie programu."
+
+#: turAI/plugins/run_debug_config_page.py:29
+msgid "Open and close Stack view automatically"
+msgstr "Otvoriť a zavrieť Zobrazenie stacku automaticky"
+
+#: turAI/plugins/run_debug_config_page.py:30
+msgid "Opens the Stack view on first call and closes it when program returns to main frame."
+msgstr "Otvorí Zobrazenie stacku pri prvom volaní a zavrie ho, keď sa program vráti do hlavného okna."
+
+#: turAI/plugins/run_debug_config_page.py:39
+msgid "Allow stepping into libraries (ie. outside of main script directory)"
+msgstr "Umožniť krokovanie knižníc (mimo adresára hlavného skriptu)"
+
+#: turAI/plugins/run_debug_config_page.py:40
+msgid "May make debugging slower."
+msgstr "Môže spomaliť ladenie."
+
+#: turAI/plugins/run_debug_config_page.py:45
+msgid "Preferred debugger"
+msgstr "Uprednostňovaný debugger"
+
+#: turAI/plugins/run_debug_config_page.py:57
+msgid "(used when clicking Debug toolbar button)"
+msgstr "(používa sa po kliknutí na tlačidlo Ladiť na paneli nástrojov)"
+
+#: turAI/plugins/run_debug_config_page.py:62
+msgid "Birdseye port"
+msgstr "Port Birdseye"
+
+#: turAI/plugins/run_debug_config_page.py:66
+msgid "(restart turAI after changing this)"
+msgstr "(reštartujte turAI po tejto zmene)"
+
+#: turAI/plugins/run_debug_config_page.py:74
+msgid "Run & Debug"
+msgstr "Spúšťanie a ladenie"
+
+#: turAI/plugins/shell_config_page.py:26
+msgid "Terminal emulation"
+msgstr "Emulácia terminálu"
+
+#: turAI/plugins/shell_config_page.py:28
+msgid "supports basic ANSI-colors and styles"
+msgstr "podporuje základné ANSI farby a štýly"
+
+#: turAI/plugins/shell_config_page.py:40
+msgid "Maximum number of lines to keep."
+msgstr "Maximálny zobrazovaný počet riadkov."
+
+#: turAI/plugins/shell_config_page.py:42
+msgid "NB! Large values may cause poor performance!"
+msgstr "Veľké hodnoty môžu mať zlý vplyv na výkon!"
+
+#: turAI/plugins/shell_config_page.py:58
+msgid "Maximum length of line fragments before squeezing"
+msgstr "Maximálna dĺžka fragmentov riadkov pred ich zalomením"
+
+#: turAI/plugins/terminal_config_page.py:12
+msgid "Running current script in terminal"
+msgstr "Spustiť aktuálny skript v termináli"
+
+#: turAI/plugins/terminal_config_page.py:17
+msgid "Present Python REPL after program ends"
+msgstr "Po skončení programu zobraziť Python REPL"
+
+#: turAI/plugins/terminal_config_page.py:24
+msgid "Keep terminal window open after Python process ends"
+msgstr "Okno terminálu nechávať po ukončení procesu Pythonu otvorené"
+
+#: turAI/plugins/terminal_config_page.py:31
+msgid "NB! Automatic closing needs to be enabled in Terminal's settings\n"
+"(Profiles → Shell → When the shell exits)"
+msgstr "V nastavení terminálu musí byť povolené automatické zatváranie\n"
+"(Profily → Shell → Keď shell skončí)"
+
+#: turAI/plugins/terminal_config_page.py:41
+msgid "Terminal"
+msgstr "Terminál"
+
+#: turAI/plugins/theme_and_font_config_page.py:40
+msgid "UI theme"
+msgstr "Motív UI"
+
+#: turAI/plugins/theme_and_font_config_page.py:53
+msgid "Syntax theme"
+msgstr "Syntax motívu"
+
+#: turAI/plugins/theme_and_font_config_page.py:85
+msgid "Editor font"
+msgstr "Písmo editora"
+
+#: turAI/plugins/theme_and_font_config_page.py:108
+msgid "IO font"
+msgstr "Písmo IO"
+
+#: turAI/plugins/theme_and_font_config_page.py:133
+msgid "Preview"
+msgstr "Náhľad"
+
+#: turAI/plugins/theme_and_font_config_page.py:151
+msgid "This is a comment"
+msgstr "Toto je komentár"
+
+#: turAI/plugins/theme_and_font_config_page.py:154
+msgid "The answer is"
+msgstr "Odpoveď je"
+
+#: turAI/plugins/theme_and_font_config_page.py:158
+msgid "unclosed_string"
+msgstr "neuzatvoreny_retazec"
+
+#: turAI/plugins/theme_and_font_config_page.py:160
+msgid "blah, blah"
+msgstr "bla, bla"
+
+#: turAI/plugins/theme_and_font_config_page.py:184
+msgid "NB! Some style elements change only after restarting turAI!"
+msgstr "Niektoré zmeny štýlu sa prejavia až po reštarte turAI!"
+
+#: turAI/plugins/theme_and_font_config_page.py:223
+msgid "Enter an integer"
+msgstr "Zadajte celé číslo"
+
+#: turAI/plugins/theme_and_font_config_page.py:236
+msgid "Theme & Font"
+msgstr "Motív a písmo"
+
+#: turAI/plugins/turAI_folders.py:19
+msgid "Open turAI program folder..."
+msgstr "Otvoriť adresár programu turAI..."
+
+#: turAI/plugins/turAI_folders.py:24
+msgid "Open turAI data folder..."
+msgstr "Otvoriť adresár údajov turAI..."
+
+#: turAI/plugins/help/__init__.py:70
+msgid "Home"
+msgstr "Domov"
+
+#: turAI/plugins/help/__init__.py:81
+msgid "Help contents"
+msgstr "Obsah Pomocníka"
+
+#: turAI/plugins/micropython/mp_front.py:303
+msgid "CircuitPython device"
+msgstr "Zariadenie CircuitPython"
+
+#: turAI/plugins/micropython/mp_front.py:307
+msgid "MicroPython device"
+msgstr "Zariadenie MicroPython"
+
+#: turAI/plugins/micropython/mp_front.py:547
+msgid "Connect your device to the computer and select corresponding port below"
+msgstr "Pripojte vaše zariadenie k počítaču a nižšie vyberte príslušný port"
+
+#: turAI/plugins/micropython/mp_front.py:550
+msgid "look for your device name, \"USB Serial\" or \"UART\""
+msgstr "hľadajte meno vášho zariadenia, napr. „USB Serial“ alebo „UART“"
+
+#: turAI/plugins/micropython/mp_front.py:552
+msgid "If you can't find it, you may need to install proper USB driver first."
+msgstr "Ak ho nemôžete nájsť, možno budete najprv musieť nainštalovať správny USB ovládač."
+
+#: turAI/plugins/micropython/mp_front.py:444
+msgid "Port"
+msgstr "Port"
+
+#: turAI/plugins/micropython/mp_front.py:454
+msgid "Try to detect port automatically"
+msgstr "Pokúsiť sa zistiť port automaticky"
+
+#: turAI/plugins/micropython/__init__.py:25
+msgid "MicroPython (generic)"
+msgstr "MicroPython (všeobecný)"
+
+#: turAI/plugins/printing/__init__.py:98
+msgid "Print..."
+msgstr "Tlač..."
+
+#: turAI/plugins/system_shell/__init__.py:63
+msgid "Open system shell..."
+msgstr "Otvoriť systémový shell..."
+
+#: turAI/plugins/backend_config_page.py:110
+msgid "Details"
+msgstr "Podrobnosti"
+
+#: turAI/plugins/pip_gui.py:395
+msgid "Install from requirements file"
+msgstr "Inštalovať zo súboru požiadaviek (requirements.txt)"
+
+#: turAI/plugins/pip_gui.py:407
+msgid "Install from local file"
+msgstr "Inštalovať z miestneho súboru"
+
+#: turAI/plugins/pip_gui.py:1118
+msgid "This dialog is for managing turAI plug-ins and their dependencies.\n"
+"If you want to install packages for your own programs then choose 'Tools → Manage packages...'"
+msgstr "Toto dialógové okno je pre správu pluginov turAI a ich závislostí.\n"
+"Ak chcete používať pluginy pre vaše vlastné programy, vyberte „Nástroje - Správa balíkov...“"
+
+#: turAI/plugins/circuitpython/__init__.py:10
+msgid "CircuitPython (generic)"
+msgstr "CircuitPython (všeobecné)"
+
+#: turAI/plugins/commenting_indenting.py:143
+msgid "Indent selected lines"
+msgstr "Zväčšiť odsadenie vybraných riadkov"
+
+#: turAI/plugins/commenting_indenting.py:153
+msgid "Dedent selected lines"
+msgstr "Zmenšiť odsadenie vybraných riadkov"
+
+#: turAI/workbench.py:1479
+msgid "Switch to\n"
+"regular\n"
+"mode"
+msgstr "Prepnúť do\n"
+"bežného\n"
+"režimu"
+
+#: turAI/plugins/microbit/__init__.py:58
+msgid "Make sure MicroPython has been installed to your micro:bit."
+msgstr "Skontrolujte, že na Vašom micro:bit-e je nainštalovaný MicroPython."
+
+#: turAI/plugins/microbit/__init__.py:60
+msgid "Don't forget that main.py only works without embedded main script."
+msgstr "Nezabudnite, že main.py funguje iba bez vloženého hlavného skriptu."
+
+#: turAI/plugins/micropython/uf2dialog.py:44
+msgid "please wait"
+msgstr "prosím čakejte"
+
+#: turAI/misc_utils.py:151
+msgid "Could not find disk '%s'. Do you want to locate it yourself?"
+msgstr "Nepodarilo sa nájsť disk '%s'. Chcete ho nájsť vy?"
+
+#: turAI/misc_utils.py:154
+msgid "Found several '%s' disks. Do you want to choose one yourself?"
+msgstr "Nájdených niekoľko '%s' diskov. Chcete jeden vybrať?"
+
+#: turAI/misc_utils.py:170
+msgid "Can't find suitable disk"
+msgstr "Nepodarilo sa nájsť vhodný disk"
+
+#: turAI/base_file_browser.py:290
+msgid "%d items"
+msgstr "%d položiek"
+
+#: turAI/base_file_browser.py:739
+msgid "Move to Trash"
+msgstr "Vyhodiť do koša"
+
+#: turAI/base_file_browser.py:742
+msgid "Delete"
+msgstr "Odstrániť"
+
+#: turAI/base_file_browser.py:721 turAI/base_file_browser.py:874
+msgid "New directory"
+msgstr "Nový adresár"
+
+#: turAI/base_file_browser.py:745
+msgid "Properties"
+msgstr "Vlastnosti"
+
+#: turAI/base_file_browser.py:747
+msgid "Storage space"
+msgstr "Úložný priestor"
+
+#: turAI/base_file_browser.py:757
+msgid "Path"
+msgstr "Cesta"
+
+#: turAI/base_file_browser.py:759
+msgid "Directory properties"
+msgstr "Vlastnosti adresára"
+
+#: turAI/base_file_browser.py:761
+msgid "File properties"
+msgstr "Vlastnosti súboru"
+
+#: turAI/base_file_browser.py:763
+msgid "bytes"
+msgstr "bajtov"
+
+#: turAI/base_file_browser.py:766
+msgid "Size"
+msgstr "Veľkosť"
+
+#: turAI/base_file_browser.py:93 turAI/base_file_browser.py:777
+msgid "Modified"
+msgstr "Zmenené"
+
+#: turAI/base_file_browser.py:838
+msgid "Deleting %s"
+msgstr "Odstraňujem %s"
+
+#: turAI/editors.py:260
+msgid "Loading"
+msgstr "Načítavam"
+
+#: turAI/editors.py:389
+msgid "Saving"
+msgstr "Ukladám"
+
+#: turAI/plugins/files.py:219
+msgid "Upload to %s"
+msgstr "Nahrať na %s"
+
+#: turAI/plugins/files.py:420
+msgid "Downloading %s to %s"
+msgstr "Preberám %s do %s"
+
+#: turAI/plugins/files.py:326
+msgid "Download to %s"
+msgstr "Prebrať do %s"
+
+#: turAI/base_file_browser.py:646
+msgid "Open in system file manager"
+msgstr "Otvoriť v systémovom správcovi súborov"
+
+#: turAI/base_file_browser.py:674
+msgid "Hide hidden files"
+msgstr "Nezobrazovať skryté súbory"
+
+#: turAI/base_file_browser.py:674
+msgid "Show hidden files"
+msgstr "Zobrazovať skryté súbory"
+
+#: turAI/base_file_browser.py:657
+msgid "Open in turAI"
+msgstr "Otvoriť v turAI"
+
+#: turAI/base_file_browser.py:688
+msgid "Open in system default app"
+msgstr "Otvoriť v predvolenej systémovej aplikácii"
+
+#: turAI/base_file_browser.py:669 turAI/base_file_browser.py:696
+msgid "Configure %s files"
+msgstr "Nastaviť %s súborov"
+
+#: turAI/base_file_browser.py:697
+msgid "What to do with a %s file when you double-click it in turAI's file browser?"
+msgstr "Čo robiť so súborom %s po dvojitom kliknutí naň v správcovi súborov turAI?"
+
+#: turAI/base_file_browser.py:1254 turAI/editors.py:979 turAI/editors.py:981
+msgid "Deleting"
+msgstr "Odstraňujem"
+
+#: turAI/base_file_browser.py:1261
+msgid "Creating directory"
+msgstr "Vytváram adresár"
+
+#: turAI/editors.py:258
+msgid "Loading %s"
+msgstr "Načítavam %s"
+
+#: turAI/editors.py:384
+msgid "Saving to %s"
+msgstr "Ukladám do %s"
+
+#: turAI/editors.py:720 turAI/editors.py:722
+msgid "Save All files"
+msgstr "Uložiť všetky súbory"
+
+#: turAI/plugins/backend_config_page.py:340 turAI/workbench.py:877
+msgid "Configure interpreter..."
+msgstr "Nastaviť prekladač..."
+
+#: turAI/workbench.py:1589
+msgid "Device"
+msgstr "Zariadenie"
+
+#: turAI/workdlg.py:193
+msgid "Cancelling"
+msgstr "Ruším akciu"
+
+#: turAI/workdlg.py:220
+msgid "Starting"
+msgstr "Spúšťam"
+
+#: turAI/plugins/backend_config_page.py:251
+msgid "Authentication"
+msgstr "Authentifikácia"
+
+#: turAI/plugins/backend_config_page.py:253
+msgid "Enter the passphrase of your private key for\n"
+"{}"
+msgstr "Zadajte heslo pre váš súkromný kľúč pre\n"
+"{}"
+
+#: turAI/plugins/backend_config_page.py:256
+msgid "Enter your password for\n"
+"{}"
+msgstr "Zadajte heslo pre\n"
+"{}"
+
+#: turAI/plugins/object_inspector.py:487
+msgid "The representation above is an approximate value of this float. The exact stored value is %s which is about %s"
+msgstr "Číselná reprezentácia vyššie je približnou hodnotou tohto typu float. Presná hodnota je %s, čo je približne %s"
+
+#: turAI/plugins/pip_gui.py:645
+msgid "Search results"
+msgstr "Výsledky hľadania"
+
+#: turAI/plugins/pip_gui.py:646
+msgid "Searching"
+msgstr "Hľadám"
+
+#: turAI/plugins/pip_gui.py:728 turAI/plugins/pip_gui.py:817
+msgid "Installing '%s'"
+msgstr "Inštalujem '%s'"
+
+#: turAI/plugins/pip_gui.py:734
+msgid "Upgrading '%s'"
+msgstr "Aktualizujem '%s'"
+
+#: turAI/plugins/pip_gui.py:741
+msgid "Uninstalling '%s'"
+msgstr "Odinštalovávam '%s'"
+
+#: turAI/plugins/pip_gui.py:755
+msgid "Installing"
+msgstr "Inštalujem"
+
+#: turAI/plugins/pip_gui.py:1502
+msgid "Package manager is not available for this interpreter"
+msgstr "Správca balíkov nie je pre tento prekladač dostupný"
+
+#: turAI/base_file_browser.py:1205 turAI/plugins/pip_gui.py:1516
+msgid "Not supported"
+msgstr "Nepodporované"
+
+#: turAI/plugins/micropython/pip_gui.py:100 turAI/plugins/pip_gui.py:1521
+msgid "Not available"
+msgstr "Nedostupné"
+
+#: turAI/plugins/pip_gui.py:1522
+msgid "You need to stop your program before launching the package manager."
+msgstr "Pred spustením správcu balíkov musíte zastaviť váš program."
+
+#: turAI/plugins/shell_config_page.py:73
+msgid "Open evaluated values in Object inspector"
+msgstr "Otvoriť sledované hodnoty v Inšpektorovi objektov"
+
+#: turAI/plugins/cpython_frontend/cp_front.py:209
+msgid "Python executable"
+msgstr "Spustiteľný súbor Pythonu"
+
+#: turAI/plugins/cpython_frontend/cp_front.py:232
+msgid "NB! File selection button may not work properly when selecting executables\n"
+"from a virtual environment. In this case choose the 'activate' script instead\n"
+"of the interpreter (or enter the path directly to the box)!"
+msgstr "Tlačidlo na výber súborov nemusí správne fungovať pri výbere spustiteľných\n"
+"súborov z virtuálneho prostredia. V takom prípade miesto prekladača vyberte 'aktivovať'\n"
+"skript (alebo zadajte cestu priamo do poľa)!"
+
+#: turAI/plugins/cpython_ssh/__init__.py:17
+msgid "Remote Python 3 (SSH)"
+msgstr "Vzdialený Python 3 (SSH)"
+
+#: turAI/plugins/micropython/mp_front.py:313
+msgid "Not connected"
+msgstr "Nepripojený"
+
+#: turAI/plugins/micropython/mp_front.py:521
+msgid "Advanced options"
+msgstr "Pokročilé možnosti"
+
+#: turAI/plugins/micropython/mp_front.py:547
+msgid "Install or update firmware"
+msgstr "Nainštalovať alebo aktualizovať firmvér"
+
+#: turAI/plugins/micropython/__init__.py:36
+msgid "MicroPython (local)"
+msgstr "MicroPython (miestny)"
+
+#: turAI/plugins/micropython/__init__.py:47
+msgid "MicroPython (SSH)"
+msgstr "MicroPython (SSH)"
+
+#: turAI/plugins/micropython/pip_gui.py:77
+msgid "Scope"
+msgstr "Rozsah"
+
+#: turAI/plugins/micropython/pip_gui.py:90
+msgid "This dialog lists top-level modules from following directories:\n"
+""
+msgstr "Toto dialógové okno zobražuje zoznam top-level modulov z nasledujúcich adresárov:\n"
+""
+
+#: turAI/plugins/micropython/pip_gui.py:99
+msgid "New packages will be installed to"
+msgstr "Nové balíky sa nainštalujú do"
+
+#: turAI/plugins/micropython/pip_gui.py:102
+msgid "no absolute lib directory in sys.path"
+msgstr "v sys.path nie je absolútny adresár knižnice"
+
+#: turAI/plugins/micropython/uf2dialog.py:39
+msgid "Version to be installed"
+msgstr "Verzia, ktorá sa nainštaluje"
+
+#: turAI/plugins/micropython/uf2dialog.py:47
+msgid "Target device location"
+msgstr "Umiestnenie cieľového zariadenia"
+
+#: turAI/plugins/micropython/uf2dialog.py:58
+msgid "Target device model"
+msgstr "Model cieľového zariadenia"
+
+#: turAI/plugins/micropython/uf2dialog.py:146
+msgid "Please wait"
+msgstr "Čakajte, prosím"
+
+#: turAI/plugins/pip_gui.py:70
+msgid "Search on PyPI"
+msgstr "Hľadať na PyPI"
+
+#: turAI/base_file_browser.py:689
+msgid "Open in turAI's text editor"
+msgstr "Otvoriť v textovom editore turAI"
+
+#: turAI/base_file_browser.py:342
+msgid "Storage space on this drive or filesystem"
+msgstr "Úložný priestor na tejto jednotke alebo v systéme súborov"
+
+#: turAI/base_file_browser.py:343
+msgid "total space"
+msgstr "celkové mesto"
+
+#: turAI/base_file_browser.py:345
+msgid "used space"
+msgstr "použité miesto"
+
+#: turAI/base_file_browser.py:346
+msgid "free space"
+msgstr "voľné miesto"
+
+#: turAI/base_file_browser.py:353
+msgid "Storage info"
+msgstr "Informácie o úložnom priestore"
+
+#: turAI/plugins/commenting_indenting.py:163
+msgid "Replace tabs with spaces"
+msgstr "Nahradiť tabulátory medzerami"
+
+#: turAI/plugins/editor_config_page.py:33
+msgid "Highlight tab characters"
+msgstr "Zvýrazniť znak tabulátora"
+
+#: turAI/plugins/editor_config_page.py:68
+msgid "Indent with tab characters (not recommended for Python)"
+msgstr "Odsadzovať použitím znaku tabulátor (neodporúčané)"
+
+#: turAI/base_file_browser.py:91 turAI/memory.py:63
+msgid "Name"
+msgstr "Názov"
+
+#: turAI/base_file_browser.py:95
+msgid "Size (bytes)"
+msgstr "Veľkosť (bajty)"
+
+#: turAI/base_file_browser.py:875
+msgid "Enter name for new directory under\n"
+"%s"
+msgstr "Zadajte meno nového adresára pod\n"
+"%s"
+
+#: turAI/base_file_browser.py:898
+msgid "Nothing selected"
+msgstr "Nič nie je vybrané"
+
+#: turAI/base_file_browser.py:898
+msgid "Select an item and try again!"
+msgstr "Vyberte položku a skúste to znovu!"
+
+#: turAI/base_file_browser.py:1325
+msgid "Open from %s"
+msgstr "Otvoriť z %s"
+
+#: turAI/base_file_browser.py:1328
+msgid "Save to %s"
+msgstr "Uložiť do %s"
+
+#: turAI/base_file_browser.py:1347
+msgid "File name:"
+msgstr "Názov súboru:"
+
+#: turAI/memory.py:64 turAI/plugins/object_inspector.py:539
+#: turAI/plugins/object_inspector.py:618
+msgid "Value ID"
+msgstr "Hodnota ID"
+
+#: turAI/memory.py:65 turAI/plugins/heap.py:23
+#: turAI/plugins/object_inspector.py:540
+#: turAI/plugins/object_inspector.py:619
+msgid "Value"
+msgstr "Hodnota"
+
+#: turAI/plugins/backend_config_page.py:274
+msgid "Save password"
+msgstr "Uložiť heslo"
+
+#: turAI/plugins/debugger.py:553
+msgid "Function call at %s"
+msgstr "Volanie funkcie na %s"
+
+#: turAI/plugins/debugger.py:1003
+msgid "Local variables"
+msgstr "Miestne premenné"
+
+#: turAI/plugins/debugger.py:1035
+msgid "Function"
+msgstr "Funkcia"
+
+#: turAI/plugins/debugger.py:1036
+msgid "Location"
+msgstr "Umiestnenie"
+
+#: turAI/plugins/debugger.py:1112
+msgid "If last command raised an exception then this view will show the stacktrace."
+msgstr "Ak posledný príkaz vyvolal chybu (exception), tento pohľad zobrazí stacktrace."
+
+#: turAI/plugins/heap.py:22
+msgid "ID"
+msgstr "ID"
+
+#: turAI/plugins/object_inspector.py:92
+msgid "Data"
+msgstr "Údaje"
+
+#: turAI/plugins/object_inspector.py:93
+msgid "Attributes"
+msgstr "Atribúty"
+
+#: turAI/plugins/object_inspector.py:538
+msgid "Index"
+msgstr "Index"
+
+#: turAI/plugins/object_inspector.py:616
+msgid "Key ID"
+msgstr "ID kľúča"
+
+#: turAI/plugins/object_inspector.py:617
+msgid "Key"
+msgstr "Kľúč"
+
+#: turAI/plugins/variables.py:39
+msgid "Back to\n"
+"%s"
+msgstr "Späť do\n"
+"%s"
+
+#: turAI/plugins/micropython/mp_front.py:444
+msgid "Port or WebREPL"
+msgstr "WebREPL port"
+
+#: turAI/plugins/micropython/mp_front.py:589
+msgid "Password"
+msgstr "Heslo"
+
+#: turAI/plugins/debugger.py:961
+msgid "Source code"
+msgstr "Zdrojový kód"
+
+#: turAI/plugins/general_config_page.py:29
+msgid "Use Tk file dialogs instead of Zenity"
+msgstr "Použiť pre výber súborov Tk namiesto Zenity"
+
+#: turAI/plugins/general_config_page.py:30
+msgid "Select if the file dialogs end up behind the main window"
+msgstr "Vyberte, či majú okná pre výber súborov skončiť za hlavným oknom"
+
+#: turAI/plugins/general_config_page.py:97
+msgid "Environment variables (one KEY=VALUE per line)"
+msgstr "Premenné prostredia (jeden KĽÚČ=HODNOTA na riadok)"
+
+#: turAI/base_file_browser.py:718
+msgid "New file"
+msgstr "Nový súbor"
+
+#: turAI/base_file_browser.py:736
+msgid "Rename"
+msgstr "Premenovať"
+
+#: turAI/base_file_browser.py:924
+msgid "Rename '%s'"
+msgstr "Premenovať '%s'"
+
+#: turAI/base_file_browser.py:924
+msgid "Enter new name"
+msgstr "Zadajte nový názov"
+
+#: turAI/base_file_browser.py:1012
+msgid "Paste failed"
+msgstr "Vložiť zlyhané"
+
+#: turAI/base_file_browser.py:1012
+msgid "There are conflicting folders"
+msgstr "Našli ste priečinky s konfliktami"
+
+#: turAI/base_file_browser.py:1140
+msgid "File already exists"
+msgstr "Súbor už existuje"
+
+#: turAI/base_file_browser.py:1208
+msgid "If it is a text file, then you can configure it to open in turAI by right-clicking it and selecting 'Configure ... files'."
+msgstr "Ak sa jedná o textový súbor, môžete nastaviť jeho otváranie pomocou turAI tak, že naň kliknete pravým tlačidlom a vyberiete 'Nastaviť … súbory'."
+
+#: turAI/editors.py:35
+msgid "Python files"
+msgstr "Súbory Pythonu"
+
+#: turAI/editors.py:122 turAI/editors.py:189
+msgid "<untitled>"
+msgstr "<nepomenované>"
+
+#: turAI/editors.py:149
+msgid "File is gone"
+msgstr "Súbor zmizol"
+
+#: turAI/editors.py:152
+msgid "Do you want to also close the editor?"
+msgstr "Chcete tiež zavrieť editor?"
+
+#: turAI/editors.py:168
+msgid "External modification"
+msgstr "Externá modifikácia"
+
+#: turAI/editors.py:171
+msgid "Do you want to discard current editor content and reload the file from disk?"
+msgstr "Chcete zahodiť aktuálny obsah editora a znovu načítať súbor z disku?"
+
+#: turAI/editors.py:580
+msgid "Python files usually have .py extension."
+msgstr "Súbory Pythonu majú zvyčajne príponu .py."
+
+#: turAI/editors.py:582
+msgid "Did you mean '%s'?"
+msgstr "Mali ste na mysli '%s'?"
+
+#: turAI/editors.py:751
+msgid "Move / rename..."
+msgstr "Presunút / premenovať…"
+
+#: turAI/editors.py:760
+msgid "Go to line..."
+msgstr "Prejsť na riadok…"
+
+#: turAI/editors.py:1003
+msgid "Line number"
+msgstr "Číslo riadka"
+
+#: turAI/editors.py:1149
+msgid "Do you want to save files before closing?"
+msgstr "Chcete uložiť súbory pred ich uzatvorením?"
+
+#: turAI/editors.py:1151
+msgid "Do you want to save file before closing?"
+msgstr "Chcete uložiť súbor pred jeho uzatvorením?"
+
+#: turAI/editors.py:1154
+msgid "Save On Close"
+msgstr "Uložiť pri zatvorení"
+
+#: turAI/misc_utils.py:513
+msgid "Command not available"
+msgstr "Príkaz je nedostupný"
+
+#: turAI/misc_utils.py:514
+msgid "This command is not available if turAI is run via Flatpak"
+msgstr "Tento príkaz nie je dostupný, ak je turAI spustený pomocou Flatpaku"
+
+#: turAI/workbench.py:694 turAI/workbench.py:794
+msgid "Support Ukraine"
+msgstr "Podporte Ukrajinu"
+
+#: turAI/plugins/backend_config_page.py:91
+msgid "Which kind of interpreter should turAI use for running your code?"
+msgstr "Aký interpreter kódu má turAI použiť pri spúšťaní programu?"
+
+#: turAI/plugins/calltip.py:159
+msgid "Show parameter info"
+msgstr "Zobraziť informácie o parametroch"
+
+#: turAI/plugins/editor_config_page.py:41
+msgid "Automatically show parameter info after typing '('"
+msgstr "Automaticky zobrazovať informácie o parametroch po zadaní '('"
+
+#: turAI/plugins/editor_config_page.py:47
+msgid "Automatically propose completions while typing"
+msgstr "Automaticky navrhovať text pri písaní"
+
+#: turAI/plugins/editor_config_page.py:52
+msgid "Automatically show documentation for completions"
+msgstr "Automaticky zobrazovať dokumentáciu pre navrhovaný text"
+
+#: turAI/plugins/editor_config_page.py:57
+msgid "Request completions with Tab-key in editors"
+msgstr "Tabulátor v okne editora aktivuje dopĺňanie textu"
+
+#: turAI/plugins/editor_config_page.py:62
+msgid "Request completions with Tab-key in Shell"
+msgstr "Tabulátor v okne Shellu aktivuje dopĺňanie textu"
+
+#: turAI/plugins/goto_definition.py:58
+msgid "Problem"
+msgstr "Problém"
+
+#: turAI/plugins/goto_definition.py:58
+msgid "Could not find definition"
+msgstr "Nepodarilo sa nájsť definíciu"
+
+#: turAI/plugins/shell_config_page.py:17
+msgid "Clear Shell before starting new process (Run, Debug, Stop/Restart, ...)"
+msgstr "Vyčistiť Shell pred spustením nového procesu (Spustenie, Ladenie, Zastavenie/Reštart…)"
+
+#: turAI/plugins/cpython_frontend/cp_front.py:171
+msgid "turAI's Python"
+msgstr "Python pre turAI"
+
+#: turAI/plugins/micropython/mp_front.py:492
+msgid "Interrupt working program on connect"
+msgstr "Prerušiť bežiaci program pri pripojení"
+
+#: turAI/plugins/micropython/mp_front.py:500
+msgid "Synchronize device's real time clock"
+msgstr "Synchronizovať hardvérové hodiny zariadenia"
+
+#: turAI/plugins/micropython/mp_front.py:506
+msgid "Use local time in real time clock"
+msgstr "Použiť miestny čas v hardvérových hodinách"
+
+#: turAI/plugins/micropython/mp_front.py:512
+msgid "Restart interpreter before running a script"
+msgstr "Reštartovať interpreter pred spustením skriptu"
+
+#: turAI/plugins/micropython/pip_gui.py:24
+msgid "This doesn't look like MicroPython/CircuitPython package.\n"
+"Are you sure you want to install it?"
+msgstr "Toto nevyzerá ako balíček pre MicroPython/CircuitPython.\n"
+"Naozaj ho chcete nainštalovať?"
+
+#: turAI/base_file_browser.py:849
+msgid "Moving to Trash"
+msgstr "Presúvam do koša"
+
+#: turAI/base_file_browser.py:850
+msgid "Move %s to Trash?"
+msgstr "Presúnúť %s do koša?"
+
+#: turAI/base_file_browser.py:857
+msgid "Moving %s to Trash"
+msgstr "Presúvam %s do koša"
+
+#: turAI/base_file_browser.py:662
+msgid "Open in default external app"
+msgstr "Otvoriť v predvolenom externom programe"
+
+#: turAI/base_file_browser.py:1206
+msgid "Opening remote files in external app is not supported."
+msgstr "Otváranie vzdialených súborov v externom programe nie je podporované."
+
+#: turAI/base_file_browser.py:1213
+msgid "If the file needs to be opened in external app, then download it to a local directory and open it from there!"
+msgstr "Ak potrebujete súbor otvoriť v externom program, najprv ho stiahnite do miestneho priečinka a otvorte ho odtiaľ!"
+
+#: turAI/editors.py:150
+msgid "Looks like '%s' was deleted or moved."
+msgstr "Zdá sa, že '%s' bol odstránený alebo presunutý."
+
+#: turAI/editors.py:169
+msgid "Looks like '%s' was modified outside of the editor."
+msgstr "Zdá sa, že '%s' bol upravený mimo editora."
+
+#: turAI/plugins/cpython_frontend/cp_front.py:230
+msgid "NB! turAI only supports Python %s and later"
+msgstr "Pozor, turAI podporuje iba Python %s a vyšší"
+
+#: turAI/editors.py:1003
+msgid "Go to line"
+msgstr "Prejsť na riadok"
+
+#: turAI/workbench.py:697
+msgid "Support"
+msgstr "Podpora"
+
+#: turAI/editors.py:393 turAI/editors.py:408
+msgid "Could not save"
+msgstr "Nepodarilo sa uložiť"
+
+#: turAI/plugins/general_config_page.py:135
+msgid "Warning"
+msgstr "Upozornenie"
+
+#: turAI/plugins/general_config_page.py:136
+msgid "If you quote the value of an environment variable, the quotes will be part of the value.\n"
+"Did you intend this?"
+msgstr "Ak použijete v hodnote premennej prostredia úvodzovky, tie sa stanú súčasťou jej hodnoty.\n"
+"Toto ste zamýšľali?"
+
+#: turAI/workbench.py:867
+msgid "Install MicroPython"
+msgstr "Inštalovať MicroPython"
+
+#: turAI/workbench.py:871
+msgid "Install CircuitPython"
+msgstr "Inštalovať CircuitPython"
+
+#: turAI/plugins/backend_config_page.py:212
+msgid "Make uploaded shebang scripts executable"
+msgstr ""
+
+#: turAI/plugins/editor_config_page.py:91
+msgid "Make saved shebang scripts executable"
+msgstr ""
+
+#: turAI/plugins/files.py:224
+msgid "Activate virtual environment"
+msgstr "Aktivovať virtuálne prostredie"
+
+#: turAI/plugins/micropython/pip_gui.py:77 turAI/plugins/pip_gui.py:426
+msgid "Target"
+msgstr ""
+
+#: turAI/plugins/pythontutor.py:41
+msgid "Visualize current script at Python Tutor"
+msgstr ""
+
+#: turAI/plugins/todo_view.py:44
+msgid "Line"
+msgstr "Riadok"
+
+#: turAI/plugins/todo_view.py:45
+msgid "Info"
+msgstr ""
+
+#: turAI/plugins/todo_view.py:123
+msgid "No line marked with #todo found"
+msgstr ""
+
+#: turAI/plugins/todo_view.py:143
+msgid "TODO"
+msgstr ""
+
+#: turAI/plugins/circuitpython/cirpy_front.py:98
+#: turAI/plugins/micropython/mp_front.py:536
+msgid "Install or update %s"
+msgstr "Inštalovať alebo aktualizovať %s"
+
+#: turAI/plugins/cpython_frontend/__init__.py:24
+msgid "Local Python 3"
+msgstr ""
+
+#: turAI/plugins/cpython_frontend/cp_front.py:240
+msgid "You can activate an existing virtual environment also via the right-click context menu in the file navagation when selecting a virtual environment folder, or the 'pyveng.cfg' file inside."
+msgstr ""
+
+#: turAI/plugins/ev3/__init__.py:72
+msgid "Preparations (skip the VS Code part)"
+msgstr ""
+
+#: turAI/plugins/ev3/__init__.py:78
+msgid "Default password"
+msgstr ""
+
+#: turAI/running.py:338
+msgid "Information"
+msgstr ""
+
+#: turAI/running.py:339
+msgid "For debugging the program must be saved first."
+msgstr ""
+

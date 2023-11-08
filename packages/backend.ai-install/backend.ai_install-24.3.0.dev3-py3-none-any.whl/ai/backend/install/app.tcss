@@ -1,0 +1,78 @@
+Screen {
+    align: center middle;
+}
+Header {
+    text-style: bold;
+}
+#logo {
+    width: 1fr;
+    text-align: center;
+}
+
+ContentSwitcher {
+    background: $panel;
+    width: 1fr;
+    height: 1fr;
+}
+
+ModeMenu {
+    width: 1fr;
+    margin: 2 2;
+    align-horizontal: center;
+}
+ModeMenu ListView {
+    layout: horizontal;
+    width: auto;
+    height: auto;
+}
+ModeMenu ListView > ListItem {
+    width: 35;
+    margin: 1 2;
+    height: 14;
+    border: wide $panel;
+}
+ModeMenu ListView > ListItem .mode-item-title {
+    width: 1fr;
+    text-style: bold;
+}
+ModeMenu ListView > ListItem .mode-item-desc {
+    width: 1fr;
+}
+ModeMenu ListView > ListItem.--highlight {
+    border: wide white;
+}
+ModeMenu ListView > ListItem.disabled .mode-item-title {
+    color: $panel-lighten-2;
+}
+ModeMenu ListView > ListItem.disabled .mode-item-desc {
+    color: $error;
+}
+ModeMenu ListView > ListItem.--highlight.disabled {
+    background: $panel;
+    border: wide $panel-lighten-2;
+}
+ModeMenu Label {
+    padding: 1 2;
+}
+
+.mode-title {
+    width: 1fr;
+    padding: 1 2;
+    background: $panel-darken-1;
+    text-style: bold;
+}
+
+.log {
+    height: 1fr;
+    width: 1fr;
+    padding: 1 2;
+    background: $panel-darken-3;
+}
+
+#download-status {
+    dock: bottom;
+    padding: 1 2;
+    background: $panel;
+    width: 50;
+    height: auto;
+}

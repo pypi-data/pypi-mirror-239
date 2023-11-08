@@ -1,0 +1,15 @@
+pygamebox/__init__.py,sha256=BRDBNb6gET4Z4auuo3IB0QJSUuf2jPfkKxGKBQIVGpk,191
+pygamebox/guess_the_number.py,sha256=T_KIuAws3V2fMneSx4UNQeILCFf3Q5QBl8qJQz-g8U0,2885
+pygamebox/hangman.py,sha256=WjhDxX51EQNrtXJf6mg0qix7BjDFIzf6rhZyJWHg2KQ,4415
+pygamebox/rock_paper_scissors.py,sha256=wkax9aL_VPg80ZXd7etD9_F1tlI6PZ0fb4iKZtBmYNM,3626
+pygamebox/utils.py,sha256=pE4rdfI_ooHaeLzcRL5SQd6msHFbCbm_ALXia7idz2I,905
+pygamebox/word_scramble.py,sha256=KTDkniG-lKdWm-aVWfmA7ma_XNMgibBj6758-N-K5Sg,3789
+pygamebox/wordle.py,sha256=Hzdttc7BGk8JSzYbz-XFX-TXTpz5hh40K3W93PoFVvI,3939
+pygamebox/data/valid_wordle_words.txt,sha256=mb4uONrfPiaVKvfLTZY_ZbYy1d6RqpnlzjCOTclhe2U,63941
+pygamebox/data/wordle_possibilities.txt,sha256=UgmzX4I_i4DwQE-GO9gN8G1qlmxusQFtafOLrcbu1dA,13889
+pygamebox/data/words.txt,sha256=MLVbhDPiYa2JU0lLqXvINJMSNaHDYZb60-76Ef9N1oY,2020
+pygamebox-0.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pygamebox-0.0.1.dist-info/METADATA,sha256=Qs2BHydno8H7ruHtGEqDlyK6ghmaiMf9gwI2vyrJutg,55745
+pygamebox-0.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+pygamebox-0.0.1.dist-info/top_level.txt,sha256=28mK3uToIZ2zbZ2lpjmTGt6Eiy1TaUr4Ow3yYIrs5tg,10
+pygamebox-0.0.1.dist-info/RECORD,,

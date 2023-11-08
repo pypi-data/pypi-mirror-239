@@ -1,0 +1,2 @@
+[console_scripts]
+riceinfo = riceinfo.__main__:main

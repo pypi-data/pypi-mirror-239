@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+tests/__init__.py
+tests/test_todo.py
+todopkg.egg-info/PKG-INFO
+todopkg.egg-info/SOURCES.txt
+todopkg.egg-info/dependency_links.txt
+todopkg.egg-info/requires.txt
+todopkg.egg-info/top_level.txt

@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+superparsenmap/__init__.py
+superparsenmap/__main__.py
+superparsenmap.egg-info/PKG-INFO
+superparsenmap.egg-info/SOURCES.txt
+superparsenmap.egg-info/dependency_links.txt
+superparsenmap.egg-info/entry_points.txt
+superparsenmap.egg-info/requires.txt
+superparsenmap.egg-info/top_level.txt

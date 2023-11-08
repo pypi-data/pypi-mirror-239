@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "superparsenmap"
+version = "1.2.1"
+authors = [
+  { name="Jonathan Farley", email="jonffarley@gmail.com" },
+]
+license = {file = "LICENSE"}
+description = "SuperParseNmap is a command line utility that parses nmap XML into CSV or Excel format."
+readme = "README.md"
+requires-python = ">=3.4"
+dependencies = [
+ 'pandas==1.5.3',
+ 'python_libnmap==0.7.3',
+ 'xlsxwriter==3.1.2',
+ 'argparse==1.4.0',
+ 'importlib-metadata==6.8.0',
+]
+keywords = ['nmap', 'parser', 'excel', 'csv']
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Intended Audience :: Information Technology",
+    "Intended Audience :: System Administrators",
+    "Intended Audience :: Telecommunications Industry",
+    "Topic :: Security",
+    "Programming Language :: Python :: 3.4",
+    "Programming Language :: Python :: 3.5",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Operating System :: OS Independent",
+]
+
+[project.scripts]
+superparsenmap = "superparsenmap.__main__:main"
+
+[project.urls]
+"Homepage" = "https://github.com/jfarl/superparsenmap"

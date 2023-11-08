@@ -1,0 +1,2 @@
+[console_scripts]
+superparsenmap = superparsenmap.__main__:main

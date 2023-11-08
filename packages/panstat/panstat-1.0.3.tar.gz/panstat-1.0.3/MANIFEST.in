@@ -1,0 +1,2 @@
+include panstat/version.json
+include panstat/banner.txt

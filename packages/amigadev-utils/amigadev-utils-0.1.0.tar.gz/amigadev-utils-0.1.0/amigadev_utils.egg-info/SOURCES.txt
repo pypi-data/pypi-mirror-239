@@ -1,0 +1,17 @@
+README.md
+setup.cfg
+setup.py
+amigadev/__init__.py
+amigadev/bumprev.py
+amigadev/fdtool.py
+amigadev/png2image.py
+amigadev_utils.egg-info/PKG-INFO
+amigadev_utils.egg-info/SOURCES.txt
+amigadev_utils.egg-info/dependency_links.txt
+amigadev_utils.egg-info/not-zip-safe
+amigadev_utils.egg-info/requires.txt
+amigadev_utils.egg-info/top_level.txt
+bin/adu-bumprev
+bin/adu-dalf
+bin/adu-fdtool
+bin/adu-png2image

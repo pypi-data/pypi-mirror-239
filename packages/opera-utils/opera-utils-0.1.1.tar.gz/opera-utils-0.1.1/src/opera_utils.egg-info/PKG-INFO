@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: opera-utils
+Version: 0.1.1
+Summary: Miscellaneous utilities for working with OPERA data products
+Author-email: Scott Staniewicz <scott.j.staniewicz@jpl.nasa.gov>
+Project-URL: Homepage, https://github.com/opera-adt/opera-utils
+Project-URL: Bug Tracker, https://github.com/opera-adt/opera-utils/issues
+Project-URL: Discussions, https://github.com/opera-adt/opera-utils/discussions
+Project-URL: Changelog, https://github.com/opera-adt/opera-utils/releases
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering
+Classifier: Typing :: Typed
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: h5py
+Requires-Dist: shapely
+Provides-Extra: docs
+Requires-Dist: mkdocs; extra == "docs"
+Requires-Dist: mkdocs-gen-files; extra == "docs"
+Requires-Dist: mkdocs-jupyter; extra == "docs"
+Requires-Dist: mkdocs-literate-nav; extra == "docs"
+Requires-Dist: mkdocs-material; extra == "docs"
+Requires-Dist: mkdocs-section-index; extra == "docs"
+Requires-Dist: mkdocstrings[python]; extra == "docs"
+Requires-Dist: pymdown-extensions; extra == "docs"
+Provides-Extra: test
+Requires-Dist: pre-commit; extra == "test"
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: pytest-cov; extra == "test"
+Requires-Dist: pytest-randomly; extra == "test"
+Requires-Dist: pytest-xdist; extra == "test"
+Requires-Dist: ruff; extra == "test"
+
+# opera-utils
+
+[![Actions Status][actions-badge]][actions-link]
+[![PyPI version][pypi-version]][pypi-link]
+
+[![Conda-Forge][conda-badge]][conda-link]
+[![GitHub Discussion][github-discussions-badge]][github-discussions-link]
+
+<!-- prettier-ignore-start -->
+[actions-badge]:            https://github.com/opera-adt/opera-utils/workflows/CI/badge.svg
+[actions-link]:             https://github.com/opera-adt/opera-utils/actions
+[conda-badge]:              https://img.shields.io/conda/vn/conda-forge/opera-utils
+[conda-link]:               https://github.com/conda-forge/opera-utils-feedstock
+[github-discussions-badge]: https://img.shields.io/static/v1?label=Discussions&message=Ask&color=blue&logo=github
+[github-discussions-link]:  https://github.com/opera-adt/opera-utils/discussions
+[pypi-link]:                https://pypi.org/project/opera-utils/
+[pypi-platforms]:           https://img.shields.io/pypi/pyversions/opera-utils
+[pypi-version]:             https://img.shields.io/pypi/v/opera-utils
+
+<!-- prettier-ignore-end -->

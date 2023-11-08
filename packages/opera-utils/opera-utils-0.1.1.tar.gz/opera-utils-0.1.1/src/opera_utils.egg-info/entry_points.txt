@@ -1,0 +1,2 @@
+[console_scripts]
+opera_utils = opera_utils.cli:main

@@ -1,0 +1,2 @@
+[console_scripts]
+fuck-game = fuck_game.main:main

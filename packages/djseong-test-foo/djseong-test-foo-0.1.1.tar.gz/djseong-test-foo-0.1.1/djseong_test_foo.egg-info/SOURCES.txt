@@ -1,0 +1,7 @@
+README.md
+setup.py
+djseong_test_foo.egg-info/PKG-INFO
+djseong_test_foo.egg-info/SOURCES.txt
+djseong_test_foo.egg-info/dependency_links.txt
+djseong_test_foo.egg-info/requires.txt
+djseong_test_foo.egg-info/top_level.txt

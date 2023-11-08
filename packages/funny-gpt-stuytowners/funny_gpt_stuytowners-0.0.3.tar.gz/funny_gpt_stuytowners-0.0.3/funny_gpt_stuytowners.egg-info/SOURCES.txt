@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+funny_gpt_stuytowners.egg-info/PKG-INFO
+funny_gpt_stuytowners.egg-info/SOURCES.txt
+funny_gpt_stuytowners.egg-info/dependency_links.txt
+funny_gpt_stuytowners.egg-info/top_level.txt
+my_module/__init__.py
+my_module/functions.py
+tests/__init__.py
+tests/test_functions.py

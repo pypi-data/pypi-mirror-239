@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+oswrite/__init__.py
+oswrite/__main__.py
+oswrite/cli.py
+oswrite.egg-info/PKG-INFO
+oswrite.egg-info/SOURCES.txt
+oswrite.egg-info/dependency_links.txt
+oswrite.egg-info/entry_points.txt
+oswrite.egg-info/requires.txt
+oswrite.egg-info/top_level.txt
+tests/test_oswrite.py

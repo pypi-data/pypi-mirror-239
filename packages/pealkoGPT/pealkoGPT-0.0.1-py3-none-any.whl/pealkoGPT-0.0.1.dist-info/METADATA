@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pealkoGPT
+Version: 0.0.1
+Summary: This is the simplest module for quick work with files.
+Home-page: https://github.com/pealko/pealkoGPT
+Author: pealko
+Author-email: perelexa2.0@gmail.com
+Project-URL: GitHub, https://github.com/pealko/pealkoGPT
+Keywords: gpt GPT chatGPT pealko
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: requests (>=2.25.1)
+
+# PealkoGPT

@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: djseong-test-foo
+Version: 0.1.1
+Summary: test foo
+Author: Daniel
+Author-email: feedback@gmail.com
+Requires-Python: >=3.7
+Requires-Dist: mlflow-skinny[databricks] (<3,>=2.4.0)
+Requires-Dist: pyspark (<4,>=3.1.2)
+Requires-Dist: pyyaml (<7,>=6)
+Requires-Dist: boto3 (<2,>=1.16.7)
+Requires-Dist: dbl-tempo (<1,>=0.1.26)
+Requires-Dist: azure-cosmos (==4.3.1)
+Requires-Dist: numpy (<2,>=1.19.2)
+Requires-Dist: protobuf (<5,>=3.12.0)
+Requires-Dist: flask (<3,>=1.1.2)
+Requires-Dist: sqlparse (<1,>=0.4.0)
+

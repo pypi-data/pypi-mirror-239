@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+dpitextract/per.py
+dpitextract_1.egg-info/PKG-INFO
+dpitextract_1.egg-info/SOURCES.txt
+dpitextract_1.egg-info/dependency_links.txt
+dpitextract_1.egg-info/top_level.txt

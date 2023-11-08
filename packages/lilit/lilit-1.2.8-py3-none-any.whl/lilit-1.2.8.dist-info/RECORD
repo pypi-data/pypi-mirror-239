@@ -1,0 +1,11 @@
+lilit/__init__.py,sha256=9yfgDRrCbDCQUAfZWqAwPbARSJXSv3p4lrAIBXws37s,244
+lilit/binning.py,sha256=Vc7JNcdgiCsD_1RoKZeHe_b3CkEL1ZpHCyGlj9Rs6gM,3220
+lilit/experiments.yaml,sha256=lfLzf-91NsymdtFB2UYmloJdUfyLWWDxbAYa66aNVyA,10552
+lilit/functions.py,sha256=eAUBUNRrsbI3lDXTXEDI2RRNNaU6Lj3Fdki-a5dOtts,21453
+lilit/likelihood.py,sha256=BD455CZ8j_go12-bx8CAi4V0C2FJYNY5eystF7idc0s,31994
+lilit/planck_2018.ini,sha256=7-xT5a1jhMTDPwpQlxyoJYctwPwKwDkY_pYTNgDdui8,11698
+lilit-1.2.8.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+lilit-1.2.8.dist-info/METADATA,sha256=IHqOFHNvLijf7UI-ugAKC8IZd8dzeSG7anhNljUwsbc,15794
+lilit-1.2.8.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+lilit-1.2.8.dist-info/top_level.txt,sha256=1wN2ZZw6vGFqJXa349y_srSJ6E4SRw1Nu1eFyyMBV8U,6
+lilit-1.2.8.dist-info/RECORD,,

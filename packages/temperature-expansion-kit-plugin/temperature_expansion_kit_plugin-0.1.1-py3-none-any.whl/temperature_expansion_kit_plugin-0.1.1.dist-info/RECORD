@@ -1,0 +1,11 @@
+temperature_expansion_kit_plugin/__init__.py,sha256=CXG-IjVKEk1oZi1KolBAICsBrjy3HG9GedidYQcq9Sk,19489
+temperature_expansion_kit_plugin/additional_config.ini,sha256=rTbAsiui-U6z5-EnDN0IVW3g_JJCF6eyRbuutktx6yk,186
+temperature_expansion_kit_plugin/max31865.py,sha256=NGKqLRA6EB0LpRSJ1gIpd2gXuMqEtOywZOi-yMK7yE0,10541
+temperature_expansion_kit_plugin/post_install.sh,sha256=rKAEiflSVA2kUeHPVUr3vI4fjvFHlPWbj5QlQzwUkLY,98
+temperature_expansion_kit_plugin/ui/contrib/charts/temperature_downsampled.yaml,sha256=sKH3FbAlaM9_u_WO3m__qaUcMwewr6lTGFDAnfB-TXg,319
+temperature_expansion_kit_plugin-0.1.1.dist-info/LICENSE.txt,sha256=ocekcdri6meHuZdEP-AjJ_MucbIJ6VAG-CTqTIwJa_8,1052
+temperature_expansion_kit_plugin-0.1.1.dist-info/METADATA,sha256=nLARq5HVWdxLi7Oow-bLWYZJ705rr8dWg_udj1EKeX4,952
+temperature_expansion_kit_plugin-0.1.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+temperature_expansion_kit_plugin-0.1.1.dist-info/entry_points.txt,sha256=LxE57INGfNLJ3ao6fnJgnhCq2uM0c55FS8MfMk00PWA,89
+temperature_expansion_kit_plugin-0.1.1.dist-info/top_level.txt,sha256=OuAYbVS7VBykbmSV2HSW36koQoRy7e-y-MqdVUeSHao,33
+temperature_expansion_kit_plugin-0.1.1.dist-info/RECORD,,

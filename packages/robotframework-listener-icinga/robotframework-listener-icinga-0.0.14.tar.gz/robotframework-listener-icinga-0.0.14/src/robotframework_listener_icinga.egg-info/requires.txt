@@ -1,0 +1,2 @@
+linuxfabrik-lib>=2023051201.post1
+rpaframework>=27.5.2

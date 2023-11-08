@@ -1,0 +1,10 @@
+DLICV/VERSION,sha256=8LjHfZeNe0rr6x31osCmqnA5NomBndQGCCarbTa16pA,5
+DLICV/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+DLICV/__main__.py,sha256=aJngXrpRjL9CrnLtAC7QPsEOAF--DdHq-zqpQVbwyro,2962
+DLICV/compute_icv.py,sha256=7e0s1b64M1OhwLU8-51AzxjdrOMqx901xGs3JcmpvWM,5072
+DLICV-0.0.0.dist-info/LICENSE,sha256=-vjfDd2oSVzJBPpv4IADEAhW70fsXA-gLXd8jrQDgXE,148
+DLICV-0.0.0.dist-info/METADATA,sha256=I_t7XIb6DYYDxgWuMLCVwE4i0EPf41oeL--sspY-Nqk,3412
+DLICV-0.0.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+DLICV-0.0.0.dist-info/entry_points.txt,sha256=eQTD_qMyJnEQU4mtVAIGeGDfaMbQWx2IuTks7sC8AUE,46
+DLICV-0.0.0.dist-info/top_level.txt,sha256=2c2nlHGf6aIDyGc-mxALhM41Y9d7Y6fYsZ8S0_9VVx4,6
+DLICV-0.0.0.dist-info/RECORD,,

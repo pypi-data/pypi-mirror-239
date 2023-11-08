@@ -1,0 +1,12 @@
+README.md
+create.py
+setup.cfg
+pealkoGPT/PGPT.py
+pealkoGPT/__init__.py
+pealkoGPT/main.py
+pealkoGPT/main1.py
+pealkoGPT.egg-info/PKG-INFO
+pealkoGPT.egg-info/SOURCES.txt
+pealkoGPT.egg-info/dependency_links.txt
+pealkoGPT.egg-info/requires.txt
+pealkoGPT.egg-info/top_level.txt

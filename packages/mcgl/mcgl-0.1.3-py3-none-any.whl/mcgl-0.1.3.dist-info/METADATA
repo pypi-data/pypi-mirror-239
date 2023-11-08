@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: mcgl
+Version: 0.1.3
+Summary: A simple window library
+Author: MCPro1239953
+Author-email: mcpro1239953@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# MCGL - A Simple Window Library
+
+## About
+MCGL is designed to be a simple window library that uses Tkinter underneath, so it provides a user-friendly API to use.
+
+## Developers
+- MCPro1239953

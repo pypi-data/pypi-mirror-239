@@ -1,0 +1,16 @@
+numpy
+magicgui
+qtpy
+napari
+napari-aicsimageio
+readlif
+trackpy
+matplotlib
+
+[testing]
+tox
+pytest
+pytest-cov
+pytest-qt
+napari
+pyqt5

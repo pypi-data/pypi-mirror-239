@@ -1,0 +1,2 @@
+[console_scripts]
+fava-ghost = favaghost.service:main

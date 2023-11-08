@@ -1,0 +1,10 @@
+gitpython==3.1.40
+
+[dev]
+
+[test]
+black
+coverage
+pylint
+flake8
+pytest

@@ -1,0 +1,5 @@
+setup.py
+abandoned_tron.egg-info/PKG-INFO
+abandoned_tron.egg-info/SOURCES.txt
+abandoned_tron.egg-info/dependency_links.txt
+abandoned_tron.egg-info/top_level.txt

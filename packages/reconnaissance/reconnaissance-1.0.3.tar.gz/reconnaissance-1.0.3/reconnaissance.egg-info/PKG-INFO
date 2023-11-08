@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: reconnaissance
+Version: 1.0.3
+Summary: NexProbe is a Python script designed for conducting comprehensive cyber security reconnaissance activities.
+Author: Pritam Dash
+Author-email: pritamdash1997@gmail.com
+Keywords: python,NexProbe
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+License-File: LICENSE

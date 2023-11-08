@@ -1,0 +1,7 @@
+matplotlib
+networkx
+numba
+wheel
+scipy
+pandas
+giotto-tda

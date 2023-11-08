@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: gitstats-abilian
+Version: 1.0.6
+Summary: 
+Author: Stefane Fermigier
+Author-email: sf@abilian.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+git-stats
+=========
+
+A fork of the classic utility gitstats, with a modernized code base.
+
+Used by [Abilian](https://www.abilian.com/) to help with our code audits.
+
+## Installation
+
+```shell
+pip install gitstats-abilian
+```
+
+or 
+
+```shell
+pipx install gitstats-abilian
+```
+
+## usage
+
+```shell
+gitstats <git-repo> <output-dir>
+```
+
+## Credits / history
+
+- [Original fork](https://github.com/ErikBjare/gitstats)
+- [Original source on Sourceforge](http://gitstats.sourceforge.net/)
+- [Examples of output](http://gitstats.sourceforge.net/examples/)
+

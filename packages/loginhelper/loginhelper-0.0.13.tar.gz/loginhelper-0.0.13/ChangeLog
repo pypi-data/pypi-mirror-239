@@ -1,0 +1,60 @@
+CHANGES
+=======
+
+v0.0.13
+-------
+
+* feat: 增加关闭qq升级弹框检查
+
+v0.0.12
+-------
+
+* feat: 增加勾选用户协议功能
+* --story=修改格式符合代码规范
+
+v0.0.10
+-------
+
+* --bug=fix bug about ios first install qq init fail
+* --story=try to cancel device parms
+
+v0.0.9
+------
+
+* --story=add download qq apk logic
+* --story=add download qq apk logic
+* --story=update readme
+* --story=update readme
+* --story=update readme
+
+v0.0.8
+------
+
+* --story=clear acc/pwd
+
+v0.0.7
+------
+
+* --bug=optimizate
+* --story=goback sleep
+* --story=add BaseDevice api
+* update loginhelper release.sh
+
+v0.0.6
+------
+
+* add goback
+
+v0.0.5
+------
+
+* update
+* update locator
+* update ver
+* update \_\_init\_\_.py
+* add qq stop
+* update
+* update
+* add pypi
+* update
+* copy in git oa

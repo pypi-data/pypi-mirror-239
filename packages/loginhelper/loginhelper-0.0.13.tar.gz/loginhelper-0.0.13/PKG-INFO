@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: loginhelper
+Version: 0.0.13
+Summary: The handle of the login method for auto test
+Home-page: UNKNOWN
+Author: ssfanli
+Author-email: freedomlidi@163.com
+License: MIT
+Description: The handle of the login method for auto test
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

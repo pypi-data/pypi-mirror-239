@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: PyOptim
+Version: 0.0.1
+Summary: Unconstrained Optimisation Algorithms and Matrix Operations
+Author: Heyyassinesedjari
+Author-email: <yassinesmsedjari@gmail.com>
+Keywords: python,optimization,matrix operations,2D,3D
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: matplotlib
+Requires-Dist: numdifftools
+Requires-Dist: scipy
+Requires-Dist: sympy
+Requires-Dist: numpy
+
+A Python package integrating around ten unconstrained optimization algorithms, inclusive of 2D/3D visualizations for comparative analysis, and incorporated matrix operations.

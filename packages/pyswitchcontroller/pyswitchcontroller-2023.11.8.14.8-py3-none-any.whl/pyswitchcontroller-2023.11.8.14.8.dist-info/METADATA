@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: pyswitchcontroller
+Version: 2023.11.8.14.8
+Summary: A Python library for controlling the Nintendo Switch via USB.
+Project-URL: Homepage, https://github.com/Nakanishi123/pyswitchcontroller
+Author-email: Nakanishi <45790603+Nakanishi123@users.noreply.github.com>
+License-Expression: GPL-3.0
+License-File: LICENSE
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Requires-Dist: pyftdi>=0.55.0
+Requires-Dist: pyqt6>=6.6.0
+Description-Content-Type: text/markdown
+
+# pyswitchcontroller
+
+Arduino と FT232RL を使って Switch を Python から操作するライブラリ
+
+## 必要なもの
+
+1. Arduino Leonardo もしくは互換品
+2. USBシリアル変換モジュール (FT232RL 等)
+3. 上を接続する物
+   
+## セットアップ(Windows)
+
+1. Arduino に arduino/ft232.ino を書き込む
+2. FT232RLにドライバをインストール
+   1. [zadig](https://zadig.akeo.ie/)をダウンロード
+   2. Options -> List All Devices をクリック
+   3. `libusb-win32` を選択して Reinstall Driver
+3. 全部つなぐ
+![](connect_image.jpg)

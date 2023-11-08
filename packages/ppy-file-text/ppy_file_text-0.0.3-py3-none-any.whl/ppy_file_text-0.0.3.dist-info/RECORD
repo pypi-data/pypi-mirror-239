@@ -1,0 +1,14 @@
+ppy_file_text/__init__.py,sha256=xIeHMo_KeDYBZERkP28Y73wea8PYTSNoc_V8hU1nJ90,231
+ppy_file_text/file/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ppy_file_text/file/ppy_archive.py,sha256=TKtoKkIh6ECJf5K4-J-oRlau3O2P2bIilBOfGu-reLQ,528
+ppy_file_text/file/ppyf_file_util.py,sha256=jUrZqnSNSieUQvuOk6bPLh25tccJaSbzmlq69ATKw0U,2269
+ppy_file_text/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ppy_file_text/test/string_convert_test.py,sha256=ZT8LKHLMGScJKCU_qljNWdK7YqqDps0gOlq3Io0z5yM,487
+ppy_file_text/text/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ppy_file_text/text/ppyt_string_util.py,sha256=cutXBhQkSGzwqEd7c3sFQjVxcHNPMcBirzajqpRBXZ0,3618
+ppy_file_text/text/ppyt_text_file_man.py,sha256=nuwYEy6W2XbsyIdeIoswBf3m4U1iA8q4TJvn-olqtX4,1756
+ppy_file_text-0.0.3.dist-info/LICENSE,sha256=1H7exiim9HHUfiBaZRQjfGXk6sMUro2cWe3p47EkkB4,11549
+ppy_file_text-0.0.3.dist-info/METADATA,sha256=9lnlyScPpSLPMLYB3k21WXADSfShfDHwmN0_pV75lzM,1982
+ppy_file_text-0.0.3.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+ppy_file_text-0.0.3.dist-info/top_level.txt,sha256=7DQWZUtqnz-mLqRxD8FuXm_Vl9_UXDnBE8-dkzNfmQs,14
+ppy_file_text-0.0.3.dist-info/RECORD,,

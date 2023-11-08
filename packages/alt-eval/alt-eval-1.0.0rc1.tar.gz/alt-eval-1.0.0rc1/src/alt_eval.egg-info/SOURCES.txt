@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/alt_eval/__init__.py
+src/alt_eval/error_visualizer.py
+src/alt_eval/metrics.py
+src/alt_eval/tokenizer.py
+src/alt_eval.egg-info/PKG-INFO
+src/alt_eval.egg-info/SOURCES.txt
+src/alt_eval.egg-info/dependency_links.txt
+src/alt_eval.egg-info/requires.txt
+src/alt_eval.egg-info/top_level.txt

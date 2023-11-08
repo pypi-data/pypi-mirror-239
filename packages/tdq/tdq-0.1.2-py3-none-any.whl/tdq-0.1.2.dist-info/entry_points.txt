@@ -1,0 +1,3 @@
+[console_scripts]
+tdq = tdq.shell:main
+

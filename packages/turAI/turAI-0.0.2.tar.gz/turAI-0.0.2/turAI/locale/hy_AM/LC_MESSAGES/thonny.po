@@ -1,0 +1,1799 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: turAI\n"
+"Language: hy\n"
+
+#: turAI/workbench.py:357
+msgid "File"
+msgstr "Նիշք"
+
+#: turAI/workbench.py:358
+msgid "Edit"
+msgstr "Խմբագրել"
+
+#: turAI/workbench.py:359
+msgid "View"
+msgstr "Տեսք"
+
+#: turAI/running.py:122 turAI/workbench.py:360
+msgid "Run"
+msgstr "Գործարկել"
+
+#: turAI/workbench.py:361
+msgid "Tools"
+msgstr "Գործիքներ"
+
+#: turAI/plugins/help/__init__.py:74 turAI/workbench.py:362
+msgid "Help"
+msgstr "Օգնություն"
+
+#: turAI/plugins/cpython/__init__.py:610
+msgid "Alternative Python 3 interpreter or virtual environment"
+msgstr "Python 3֊ի interpreter֊ի այլընտանքային վիրտուալ միջավայր"
+
+#: turAI/plugins/cpython/__init__.py:618
+msgid "A special virtual environment (deprecated)"
+msgstr "Հատուկ վիրտուալ միջավայր (հնացած)"
+
+#: turAI/workbench.py:582
+msgid "Exit"
+msgstr "Ելք"
+
+#: turAI/workbench.py:609
+msgid "Decrease font size"
+msgstr "Փոքրացնել տառաչափը"
+
+#: turAI/workbench.py:621
+msgid "Focus editor"
+msgstr "Կետնրոնացման խմբագիր"
+
+#: turAI/workbench.py:630
+msgid "Focus shell"
+msgstr "Կենտրոնացման վահանակ"
+
+#: turAI/workbench.py:641
+msgid "Maximize view"
+msgstr "Մեծացնել տեսքը"
+
+#: turAI/workbench.py:653
+msgid "Full screen"
+msgstr "Ամբողջ էկրանով"
+
+#: turAI/workbench.py:1377
+msgid "Program arguments"
+msgstr "Ծրագրի արգումենտներ"
+
+#: turAI/plugins/about.py:28 turAI/plugins/about.py:163
+msgid "About turAI"
+msgstr "turAI֊ի մասին"
+
+#: turAI/plugins/about.py:81
+msgid "Made in\n"
+"University of Tartu, Estonia,\n"
+"with the help from\n"
+"open-source community,\n"
+"Raspberry Pi Foundation\n"
+"and Cybernetica AS"
+msgstr "Պատրաստված է\n"
+"Էստոնիայի Տարտու համալսարանում,\n"
+"բաց աղբյուրներով համայնքի,\n"
+"Raspberry Pi Foundation ֊ի\n"
+"և Cybernetica AS ֊ի\n"
+"աջակցությամբ"
+
+#: turAI/plugins/about.py:107
+msgid "This program comes with\n"
+"ABSOLUTELY NO WARRANTY!\n"
+"It is free software, and you are welcome to\n"
+"redistribute it under certain conditions, see\n"
+"https://opensource.org/licenses/MIT\n"
+"for details"
+msgstr "Այս ծրագիրը թողարկվում է\n"
+"ԱՌԱՆՑ ՈՐԵՎԻՑԵ ԵՐԱՇԽԻՔԻ!\n"
+"Այն անվճար ծրագիր է, ողջունում ենք \n"
+"եթե այն վերաբաշխեք հետևյալ արտոնագրի ներքո\n"
+"https://opensource.org/licenses/MIT"
+
+#: turAI/plugins/about.py:152
+msgid "Version history"
+msgstr "Թողարկման պատմություն"
+
+#: turAI/plugins/about.py:159
+msgid "Report problems"
+msgstr "Զեկուցել խնդիրները"
+
+#: turAI/plugins/assistant_config_page.py:16
+msgid "Open Assistant automatically when program crashes with an exception"
+msgstr "Բացել Օգնականին ինքնաբերաբար, երբ ծրագիրը կախում է"
+
+#: turAI/plugins/assistant_config_page.py:23
+msgid "Open Assistant automatically when it has warnings for your code"
+msgstr "Բացել Օգնականին ինքնաբերաբար, երբ առկա է զգուշացնումներ Ձեր կոդի համար"
+
+#: turAI/plugins/assistant_config_page.py:30
+msgid "Perform selected Pylint checks"
+msgstr "Կատարել նշած Pylint ստուգումները"
+
+#: turAI/plugins/assistant_config_page.py:34
+msgid "Perform MyPy checks"
+msgstr "Կատարել MyPy ստուգումները"
+
+#: turAI/plugins/assistant_config_page.py:36
+msgid "Disabled checks (one id per line)"
+msgstr "Հանել ստուգումները (մեկ id մեկ գծում)"
+
+#: turAI/assistance.py:968 turAI/plugins/assistant_config_page.py:73
+msgid "Assistant"
+msgstr "Օգնական"
+
+#: turAI/plugins/autocomplete.py:333
+msgid "Auto-complete"
+msgstr "Ինքնալրացում"
+
+#: turAI/plugins/backend_config_page.py:84
+msgid "Which interpreter or device should turAI use for running your code?"
+msgstr "Թոնիի ո՞ր interpreter֊ը կամ սարքը պետք է օգտագործի Ձեր կոդը գործարկելու համար։"
+
+#: turAI/plugins/backend_config_page.py:320
+msgid "Interpreter"
+msgstr "Թարգմանիչ"
+
+#: turAI/plugins/birdseye_frontend.py:54
+msgid "About Birdseye"
+msgstr "Թռչնի աչքի մասին"
+
+#: turAI/plugins/birdseye_frontend.py:55
+msgid "Birdseye is a Python debugger which needs to be installed separately.\n"
+"\n"
+"Do you want to open the help page and learn more?"
+msgstr "Թռչնի աչքը դա Python֊ի վրիպազերծիչը, որն անհրաժեշտ է տեղադրել առանձին։\n"
+"\n"
+"Ցանկանո՞ւմ եք բացել օգնության էջը և իմանալ ավելին։"
+
+#: turAI/plugins/birdseye_frontend.py:83
+msgid "Debug current script (birdseye)"
+msgstr "Վրիպազերծել ընթացիկ սցենարը  (թռչնի աչք)"
+
+#: turAI/plugins/commenting_indenting.py:172
+msgid "Toggle comment"
+msgstr "Փոխարկել մեկնաբանությունը"
+
+#: turAI/plugins/commenting_indenting.py:182
+msgid "Comment out"
+msgstr "թողնել մեկնաբանություն"
+
+#: turAI/plugins/commenting_indenting.py:192
+msgid "Uncomment"
+msgstr "հեռացնել մեկնաբանությունը"
+
+#: turAI/plugins/common_editing_commands.py:21
+msgid "Undo"
+msgstr "Հետ"
+
+#: turAI/plugins/common_editing_commands.py:33
+msgid "Redo"
+msgstr "Առաջ"
+
+#: turAI/plugins/common_editing_commands.py:49 turAI/ui_utils.py:2176
+msgid "Cut"
+msgstr "Կտրել"
+
+#: turAI/plugins/common_editing_commands.py:61 turAI/ui_utils.py:2177
+msgid "Copy"
+msgstr "Պատճենել"
+
+#: turAI/plugins/common_editing_commands.py:73 turAI/ui_utils.py:2178
+msgid "Paste"
+msgstr "Զետեղել"
+
+#: turAI/plugins/common_editing_commands.py:85 turAI/plugins/debugger.py:152
+msgid "Select all"
+msgstr "Ընտրել բոլորը"
+
+#: turAI/plugins/debugger.py:145 turAI/plugins/debugger.py:1398
+msgid "Run to cursor"
+msgstr "Բացել կուրսորը"
+
+#: turAI/plugins/debugger.py:980
+msgid "Can't close yet"
+msgstr "Դեռ չի կարողանում փակել "
+
+#: turAI/plugins/debugger.py:981
+msgid "Use \"Stop\" command if you want to cancel debugging"
+msgstr "Օգտագործեք «Դադար» հրամանը, եթե ցանկանում եք չեղարկել վրիպազերծումը"
+
+#: turAI/plugins/dock_user_windows_frontend.py:28
+msgid "Dock user windows"
+msgstr "Dock օգտատիրոջ պատուհաններ"
+
+#: turAI/plugins/editor_config_page.py:15
+msgid "Highlight matching names"
+msgstr "Ընդգծել համընկնող անունները"
+
+#: turAI/plugins/editor_config_page.py:21
+msgid "Highlight local variables"
+msgstr "Ընդգծել տեղային փոփոխականները"
+
+#: turAI/plugins/editor_config_page.py:26
+msgid "Highlight parentheses"
+msgstr "Ընդգծել փակագծերը"
+
+#: turAI/plugins/editor_config_page.py:27
+msgid "Highlight syntax elements"
+msgstr "Ընդգծել տարրերի այլագիրը"
+
+#: turAI/plugins/editor_config_page.py:31
+msgid "Highlight current line (requires reopening the editor)"
+msgstr "Ընդգծել ընթացիկ տողը (պահանջում է վերագործարկել խմբագիրը)"
+
+#: turAI/plugins/editor_config_page.py:36
+msgid "Allow code completion with Tab-key in editors"
+msgstr "Թույլատրել խմբագրիչում կոդի ավարտը Tab կոճակով"
+
+#: turAI/plugins/editor_config_page.py:42
+msgid "Allow code completion with Tab-key in Shell"
+msgstr "Թույլատրել վահանակում կոդի ավարտը Tab կոճակով"
+
+#: turAI/plugins/editor_config_page.py:51
+msgid "Show line numbers"
+msgstr "Ցույց տալ տողի համարները"
+
+#: turAI/plugins/editor_config_page.py:54
+msgid "Recommended maximum line length\n"
+"(Set to 0 to turn off margin line)"
+msgstr "Խորհուրդ է տրվում առավելագույն տողի երկարություն\n"
+"(սահմանել 0 սահմանային տողը անջատելու համար)"
+
+#: turAI/plugins/editor_config_page.py:75
+msgid "Editor"
+msgstr "Խմբագիր"
+
+#: turAI/plugins/event_logging.py:206
+msgid "Export usage logs..."
+msgstr "Արտահանել տեղեկամատյանները․․․"
+
+#: turAI/plugins/event_view.py:39
+msgid "Events"
+msgstr "Իրադարձություններ"
+
+#: turAI/plugins/files.py:551
+msgid "Files"
+msgstr "Նիշքեր"
+
+#: turAI/plugins/find_replace.py:57 turAI/plugins/find_replace.py:416
+msgid "Find & Replace"
+msgstr "Փնտրել և փոխարինել"
+
+#: turAI/plugins/find_replace.py:63
+msgid "Find:"
+msgstr "Փնտրել ՝"
+
+#: turAI/plugins/find_replace.py:74
+msgid "Replace with:"
+msgstr "Փոխարինել՝"
+
+#: turAI/plugins/find_replace.py:92
+msgid "Case sensitive"
+msgstr "Տառից կախված զգայուն"
+
+#: turAI/plugins/find_replace.py:99
+msgid "Up"
+msgstr "Վեր"
+
+#: turAI/plugins/find_replace.py:103
+msgid "Down"
+msgstr "Վար"
+
+#: turAI/plugins/find_replace.py:112
+msgid "Find"
+msgstr "Որոնել"
+
+#: turAI/plugins/find_replace.py:122
+msgid "Replace"
+msgstr "Փոխարինել"
+
+#: turAI/plugins/find_replace.py:130
+msgid "Replace+Find"
+msgstr "Փոխարինել+Փնտրել"
+
+#: turAI/plugins/find_replace.py:140
+msgid "Replace all"
+msgstr "Փոխարինել բոլորը"
+
+#: turAI/plugins/find_replace.py:236
+msgid "Enter string to be replaced."
+msgstr "Մուտքագրեք տողը փոխարինելու համար:"
+
+#: turAI/plugins/find_replace.py:320
+msgid "The specified text was not found!"
+msgstr "Նշված տեքստը չի գտնվել:"
+
+#: turAI/plugins/general_config_page.py:15
+msgid "Allow only single turAI instance"
+msgstr "Թույլատրել միայն մեկ turAI֊ի օրինակ"
+
+#: turAI/plugins/general_config_page.py:22
+msgid "Reopen all files from previous session"
+msgstr "Վերաբացել բոլո նիշքերը նախորդ սեսիայից "
+
+#: turAI/plugins/general_config_page.py:37
+msgid "Disable notification sound"
+msgstr "Անջատել ծանուցման ձայնը"
+
+#: turAI/plugins/general_config_page.py:86
+msgid "Font scaling mode"
+msgstr "Տառատեսակի մասշտաբի ռեժիմ"
+
+#: turAI/plugins/heap.py:37
+msgid "Heap mode is on.\n"
+"Close Heap view to turn it off."
+msgstr "Ծառի ռեժիմը միացված է։\n"
+"Փակել ծառի տեսքն անջատելու համար։"
+
+#: turAI/plugins/heap.py:86
+msgid "Heap"
+msgstr "Ծառ"
+
+#: turAI/plugins/general_config_page.py:53
+msgid "Language"
+msgstr "Լեզու"
+
+#: turAI/plugins/notes.py:35
+msgid "This box is meant for your working notes -- assignment instructions, code snippets, whatever.\n"
+"\n"
+"Everything will be saved automatically and loaded when you open turAI next time.\n"
+"\n"
+"Feel free to delete this text to make room for your own notes."
+msgstr "Այս տուփը նախատեսված է ձեր աշխատանքային գրառումների համար՝ հանձնարարականների ցուցումներ, կոդերի հատվածներ, ինչ էլ որ լինի։\n"
+"Ամեն ինչ կպահպանվի ինքնաբերաբար և կբեռնվի, երբ հաջորդ անգամ բացեք turAI- ն:\n"
+"Ազատորեն ջնջեք այս տեքստը՝ ձեր սեփական գրառումների համար տեղ ստեղծելու համար:"
+
+#: turAI/plugins/notes.py:63
+msgid "Notes"
+msgstr "Նշումներ"
+
+#: turAI/plugins/object_inspector.py:111
+msgid "Previous object"
+msgstr "Նախորդ առարկան"
+
+#: turAI/plugins/object_inspector.py:114
+msgid "Next object"
+msgstr "Հաջորդ առարկան"
+
+#: turAI/plugins/object_inspector.py:704
+msgid "Object inspector"
+msgstr "Առարկայի տեսուչ"
+
+#: turAI/plugins/outline.py:138
+msgid "Outline"
+msgstr "Եզրագիծ"
+
+#: turAI/plugins/pgzero_frontend.py:27
+msgid "Pygame Zero mode"
+msgstr "Pygame Zero ռեժիմ"
+
+#: turAI/plugins/pip_gui.py:78
+msgid "Find package from PyPI"
+msgstr "Փնտրել PyPI֊ի փաթեթ"
+
+#: turAI/plugins/pip_gui.py:76
+msgid "Uninstall"
+msgstr "Ապատեղադրել"
+
+#: turAI/editors.py:587 turAI/plugins/pip_gui.py:228 turAI/ui_utils.py:448
+#: turAI/ui_utils.py:1755 turAI/workdlg.py:155
+msgid "Close"
+msgstr "Փակել"
+
+#: turAI/plugins/pip_gui.py:347
+msgid "Click "
+msgstr "Սեղմել"
+
+#: turAI/plugins/pip_gui.py:348 turAI/plugins/pip_gui.py:382
+msgid "here"
+msgstr "ասյտեղ"
+
+#: turAI/plugins/pip_gui.py:73
+msgid "Upgrade"
+msgstr "Վերազինել"
+
+#: turAI/plugins/esp/__init__.py:365
+#: turAI/plugins/micropython/uf2dialog.py:94 turAI/plugins/pip_gui.py:70
+msgid "Install"
+msgstr "Տեղադրել"
+
+#: turAI/plugins/pip_gui.py:491
+msgid "Could not find the package from PyPI."
+msgstr "PyPI ֊ում չի գտնվել նման փաթեթ "
+
+#: turAI/plugins/pip_gui.py:511
+msgid "Latest stable version"
+msgstr "Վերջին կայուն տարբերակը"
+
+#: turAI/plugins/pip_gui.py:513
+msgid "Latest version"
+msgstr "Վերջին տարբերակը"
+
+#: turAI/plugins/pip_gui.py:514
+msgid "Summary"
+msgstr "Ամփոփում"
+
+#: turAI/plugins/pip_gui.py:515
+msgid "Author"
+msgstr "Հեղինակ"
+
+#: turAI/plugins/pip_gui.py:516
+msgid "Homepage"
+msgstr "Հիմնական էջ"
+
+#: turAI/plugins/pip_gui.py:518
+msgid "Bugtracker"
+msgstr "Վրիպակ հետևող"
+
+#: turAI/plugins/pip_gui.py:520
+msgid "Documentation"
+msgstr "Փաստաթղթավորում"
+
+#: turAI/plugins/pip_gui.py:522
+msgid "PyPI page"
+msgstr "PyPI էջ"
+
+#: turAI/plugins/pip_gui.py:526
+msgid "Requires"
+msgstr "Պահանջում է"
+
+#: turAI/plugins/pip_gui.py:652
+msgid "Really uninstall?"
+msgstr "Իրո՞ք հեռացնել։"
+
+#: turAI/plugins/pip_gui.py:657
+msgid "Are you sure you want to uninstall it?"
+msgstr "Իրո՞ք ցանկանում եք հեռացնել այն։"
+
+#: turAI/plugins/variables.py:19
+msgid "Back to\n"
+"current frame"
+msgstr "Հետ գնալ\n"
+"ընթացիկ շրջանակին"
+
+#: turAI/plugins/variables.py:73 turAI/plugins/variables.py:75
+#: turAI/plugins/variables.py:138
+msgid "Variables"
+msgstr "Փոփոխականներ"
+
+#: turAI/base_file_browser.py:1313
+msgid "This computer"
+msgstr "Այս համակարգիչը"
+
+#: turAI/base_file_browser.py:618
+msgid "Refresh"
+msgstr "Թարմացնել"
+
+#: turAI/base_file_browser.py:631
+msgid "Focus into"
+msgstr "Կենտրոնանալ"
+
+#: turAI/base_file_browser.py:1164
+msgid "Error"
+msgstr "Սխալ"
+
+#: turAI/base_file_browser.py:1164
+msgid "You need to select a file!"
+msgstr "Դուք պետք է ընտրեք նիշքը"
+
+#: turAI/base_file_browser.py:1168
+msgid "Overwrite?"
+msgstr "Վերագրանցե՞լ"
+
+#: turAI/base_file_browser.py:1168
+msgid "Do you want to overwrite '%s' ?"
+msgstr "Ցանկանո՞ւմ եք վերագրանցել '%s'"
+
+#: turAI/editors.py:552 turAI/editors.py:554
+msgid "New"
+msgstr "Նոր"
+
+#: turAI/editors.py:565
+msgid "Open..."
+msgstr "Բացել"
+
+#: turAI/editors.py:567
+msgid "Load"
+msgstr "Բեռնել"
+
+#: turAI/editors.py:576
+msgid "Recent files"
+msgstr "Վերջին նիշքերը"
+
+#: turAI/editors.py:598 turAI/ui_utils.py:450
+msgid "Close all"
+msgstr "Փակել բոլորը"
+
+#: turAI/editors.py:608 turAI/editors.py:610
+msgid "Save"
+msgstr "Պահել"
+
+#: turAI/editors.py:633
+msgid "Save as..."
+msgstr "Պահել որպես․․․"
+
+#: turAI/editors.py:644
+msgid "Save copy..."
+msgstr "Պահել պատճենը․․․"
+
+#: turAI/editors.py:653
+msgid "Rename..."
+msgstr "Վերանվանել․․․"
+
+#: turAI/config_ui.py:19
+msgid "turAI options"
+msgstr "Թոնիի ընտրանքեր"
+
+#: turAI/running.py:121
+msgid "Run current script"
+msgstr "Գործարկել ընթացիք սցենարը"
+
+#: turAI/running.py:152
+msgid "Run current script in terminal"
+msgstr "Գործարկել ընթացիկ սցենարը տերմինալում"
+
+#: turAI/running.py:165
+msgid "Stop/Restart backend"
+msgstr "Կանգ/Վերագործարկել backend֊ը"
+
+#: turAI/running.py:166
+msgid "Stop"
+msgstr "Կանգ"
+
+#: turAI/running.py:177
+msgid "Interrupt execution"
+msgstr "Ընդհատել կատարումը"
+
+#: turAI/running.py:190
+msgid "Send EOF / Soft reboot"
+msgstr "Ուղարկել EOF / Փափուկ վերագործարկում"
+
+#: turAI/running.py:201
+msgid "Disconnect"
+msgstr "Անջատել"
+
+#: turAI/running_config_page.py:23
+msgid "Known interpreters"
+msgstr "Հայտնի թարգմանիչներ"
+
+#: turAI/running_config_page.py:36
+msgid "Your interpreter isn't in the list?"
+msgstr "Ձեր թարգմանիչը առկա՞ չէ ցանկում։"
+
+#: turAI/plugins/cpython/__init__.py:391
+msgid "NB! turAI only supports Python 3.5 and later"
+msgstr "NB! Թոնին ունի միայն Python 3.5֊ի և բարձր տարբերակի աջակցություն"
+
+#: turAI/running_config_page.py:56
+msgid "Create new virtual environment"
+msgstr "Ստեղծել նոր վիրտուալ միջավայր"
+
+#: turAI/running_config_page.py:59
+msgid "Select existing or create a new empty directory"
+msgstr "Ընտրել գոյություն ունեցող կամ ստեղծել նոր դատարկ պանակ"
+
+#: turAI/plugins/cpython/__init__.py:419
+msgid "Python interpreters"
+msgstr "Python թարգմանիչներ"
+
+#: turAI/plugins/cpython/__init__.py:420 turAI/plugins/pip_gui.py:696
+#: turAI/plugins/pip_gui.py:709
+msgid "all files"
+msgstr "բոլոր նիշքերը"
+
+#: turAI/plugins/cpython/__init__.py:442
+msgid "Select empty directory for new virtual environment"
+msgstr "Նշել դատարկ պանակ նոր վիրտուալ միջավայրի համար"
+
+#: turAI/plugins/cpython/__init__.py:449
+msgid "Bad directory"
+msgstr "Անհամապատասխան պանակ"
+
+#: turAI/plugins/cpython/__init__.py:450
+msgid "Selected directory is not empty.\n"
+"Select another or cancel."
+msgstr "Ընտրած պանակը դատարկ չէ։\n"
+"Ընտրել այլ պանակ կամ չեղարկել։"
+
+#: turAI/plugins/cpython/__init__.py:467
+msgid "Creating virtual environment"
+msgstr "Վիրտուալ միջավայրի ստեղծում"
+
+#: turAI/shell.py:83
+msgid "Clear shell"
+msgstr "Մաքրել վահանակը"
+
+#: turAI/shell.py:138
+msgid "Plotter"
+msgstr "Պլոտեր"
+
+#: turAI/shell.py:269
+msgid "Clear"
+msgstr "Մաքրել"
+
+#: turAI/shell.py:282
+msgid "Show Plotter"
+msgstr "Ցույց տալ Պլոտերը"
+
+#: turAI/shell.py:1572
+msgid "For performance reasons, Shell avoids showing very long lines in full (see Tools => Options => Shell).\n"
+"Here you can interact with the original text fragment."
+msgstr "Արտադրողականության նկատառումներից ելնելով, Shell֊ը խուսափում է ցուցադրել \n"
+"շատ երկար տողերն ամբողջությամբ(տես Tools => Options => Shell)։\n"
+"Այստեղ դուք կարող եք աշխատել տեքստի բնօրինակ հետ։"
+
+#: turAI/shell.py:1583
+msgid "Wrap text (may be slow)"
+msgstr "Տողադարձ (ոչ այնքան շատ)"
+
+#: turAI/ui_utils.py:1750
+msgid "Copy to clipboard"
+msgstr "Պատճենել սեղմատախտակին"
+
+#: turAI/shell.py:1431
+msgid "Expand in Shell"
+msgstr "Բացազատել տերմինալում"
+
+#: turAI/shell.py:1625
+msgid "Squeezed text (%d characters)"
+msgstr "Սեղմված տեքստ (%d տառեր)"
+
+#: turAI/shell.py:1794
+msgid "Plotter visualizes series of\n"
+"numbers printed to the Shell."
+msgstr "Պլոտերը վիզուալացնում է տերմինալում \n"
+"արտացոլված թվերի շարքը։"
+
+#: turAI/shell.py:1796
+msgid "See Help for details."
+msgstr "Տես Օգնություն բաժինը մանրամասների համար։"
+
+#: turAI/ui_utils.py:449
+msgid "Close others"
+msgstr "Փակել մյուսները"
+
+#: turAI/ui_utils.py:1606
+msgid "Copying"
+msgstr "Պատճենում"
+
+#: turAI/ui_utils.py:1609
+msgid "Copying\n"
+"  %s\n"
+"to\n"
+"  %s"
+msgstr "Պատճենում\n"
+" %s\n"
+"֊ից\n"
+" %s"
+
+#: turAI/base_file_browser.py:1133 turAI/config_ui.py:36 turAI/export.py:28
+#: turAI/plugins/backend_config_page.py:273 turAI/plugins/pip_gui.py:1146
+#: turAI/ui_utils.py:114 turAI/ui_utils.py:1617 turAI/ui_utils.py:1702
+#: turAI/workdlg.py:157 turAI/workdlg.py:201
+msgid "Cancel"
+msgstr "Չեղարկել"
+
+#: turAI/base_file_browser.py:1130 turAI/config_ui.py:35 turAI/export.py:25
+#: turAI/plugins/about.py:120 turAI/plugins/backend_config_page.py:268
+#: turAI/ui_utils.py:111 turAI/ui_utils.py:1699 turAI/workdlg.py:198
+msgid "OK"
+msgstr "Լավ"
+
+#: turAI/ui_utils.py:1783
+msgid "Cancel the process?"
+msgstr "Չեղարկե՞լ գործընթացը"
+
+#: turAI/ui_utils.py:1784
+msgid "The process is still running.\n"
+"Are you sure you want to cancel?"
+msgstr "Գործընթացը դեռ աշխատանքի մեջ է։\n"
+"Իրո՞ք ցանկանում եք չեղարկել։"
+
+#: turAI/ui_utils.py:2182
+msgid "Select All"
+msgstr "Ընտրել բոլորը"
+
+#: turAI/plugins/shell_config_page.py:73 turAI/workbench.py:158
+msgid "Shell"
+msgstr "Վահանակ"
+
+#: turAI/plugins/cpython/__init__.py:602
+msgid "The same interpreter which runs turAI (default)"
+msgstr "Նույն interpreter֊ն, որով աշխատում է Թոնին (լռելայն)"
+
+#: turAI/plugins/cpython/__init__.py:350
+msgid "This virtual environment is automatically maintained by turAI.\n"
+""
+msgstr "Այս վիրտուալ միջավայրը ինքնաբերաբար սպասարկվում է Թոնիի կողմից։\n"
+""
+
+#: turAI/plugins/cpython/__init__.py:351
+msgid "Location: "
+msgstr "Տարածք՝"
+
+#: turAI/workbench.py:592
+msgid "Options..."
+msgstr "Ընտրանքներ՝"
+
+#: turAI/workbench.py:599
+msgid "Increase font size"
+msgstr "Մեծացնել տառաչափը"
+
+#: turAI/workbench.py:664
+msgid "Change font size"
+msgstr "Փոխել տառաչափը"
+
+#: turAI/workbench.py:665
+msgid "Zoom"
+msgstr "Խոշորացում"
+
+#: turAI/workbench.py:674
+msgid "Exit turAI"
+msgstr "Փակել Թոնին"
+
+#: turAI/workbench.py:677
+msgid "Quit"
+msgstr "Ելք"
+
+#: turAI/workbench.py:1181 turAI/workbench.py:1189
+msgid "Overwriting theme '%s'"
+msgstr "Վերագրանցել '%s' տեսքը"
+
+#: turAI/workbench.py:1348
+msgid "Program arguments:"
+msgstr "Ծրագրի արգումենտները՝"
+
+#: turAI/workbench.py:1402
+msgid "Regular mode"
+msgstr "Սովորական ռեժիմ"
+
+#: turAI/workbench.py:1403
+msgid "Configuration has been updated. Restart turAI to start working in regular mode.\n"
+"\n"
+"(See 'Tools → Options → General' if you change your mind later.)"
+msgstr "Կարգաբերումը թարմացվել է։ Վերագործարկել , որպեսզի Թոնին աշխատի սովորական ռեժիմում։\n"
+"\n"
+"(տես 'Գործիքներ → Ընտրանքներ → Գլխավոր' եթե փոխել եք ձեր միտքը)"
+
+#: turAI/plugins/ast_view.py:210
+msgid "Program tree"
+msgstr "Ծրագրի ծառը"
+
+#: turAI/plugins/backend_config_page.py:323
+msgid "Select interpreter"
+msgstr "Ընտրել թարգմանիչը"
+
+#: turAI/plugins/debugger.py:1280
+msgid "Resume"
+msgstr "Շարունակել"
+
+#: turAI/plugins/debugger.py:1296
+msgid "Run / resume"
+msgstr "Գործարկել / շարունակել"
+
+#: turAI/plugins/debugger.py:1311
+msgid "Debug current script"
+msgstr "Վրիպազերծել ընթացիկ սցենարը"
+
+#: turAI/plugins/debugger.py:1313
+msgid "Debug"
+msgstr "Վրիպազերծել"
+
+#: turAI/plugins/debugger.py:1324
+msgid "Debug current script (nicer)"
+msgstr "Վրիպազերծել ընթացիկ սցենարը (արագ)"
+
+#: turAI/plugins/debugger.py:1336
+msgid "Debug current script (faster)"
+msgstr "Վրիպազերծել ընթացիկ սցենարը (ավելի արագ)"
+
+#: turAI/plugins/debugger.py:1347
+msgid "Step over"
+msgstr "Քայլ առաջ"
+
+#: turAI/plugins/debugger.py:1349
+msgid "Over"
+msgstr "Առաջ"
+
+#: turAI/plugins/debugger.py:1360
+msgid "Step into"
+msgstr "Քայլ դեպի ներս"
+
+#: turAI/plugins/debugger.py:1362
+msgid "Into"
+msgstr "Ներս"
+
+#: turAI/plugins/debugger.py:1373
+msgid "Step out"
+msgstr "Քայլ դեպի դուրս"
+
+#: turAI/plugins/debugger.py:1375
+msgid "Out"
+msgstr "Դուրս"
+
+#: turAI/plugins/debugger.py:1410
+msgid "Step back"
+msgstr "Քայլ դեպի հետ"
+
+#: turAI/plugins/debugger.py:1412
+msgid "Back"
+msgstr "Հետ"
+
+#: turAI/plugins/debugger.py:1418
+msgid "Stack"
+msgstr "Փաթեթ"
+
+#: turAI/plugins/debugger.py:1419
+msgid "Exception"
+msgstr "Բացառություն"
+
+#: turAI/plugins/general_config_page.py:18
+msgid "Log program usage events"
+msgstr "Ծրագրի տեղեկամատյանի օգտագործման իրադարձություններ"
+
+#: turAI/plugins/general_config_page.py:43
+msgid "Debug mode (provides more detailed diagnostic logs)"
+msgstr "Վրիպազերծման ռեժիմ (տրամադրում է ավելի մանրամասն ախտորոշիչ տեղեկամատյաններ)"
+
+#: turAI/plugins/general_config_page.py:67
+msgid "UI mode"
+msgstr "UI ռեժիմ"
+
+#: turAI/plugins/general_config_page.py:80
+msgid "UI scaling factor"
+msgstr "UI մասշտավի գործոն"
+
+#: turAI/plugins/general_config_page.py:108
+msgid "NB! Restart turAI after changing these options!"
+msgstr "NB! Վերագործարկել Թոնին այս ընտրանքները փոփոխելուց հետ։"
+
+#: turAI/plugins/general_config_page.py:129
+msgid "General"
+msgstr "Հիմնական"
+
+#: turAI/plugins/pip_gui.py:129
+msgid "INSTALL"
+msgstr "ՏԵՂԱԴՐԵԼ"
+
+#: turAI/plugins/pip_gui.py:365
+msgid "Browse the packages"
+msgstr "Զննել փաթեթները"
+
+#: turAI/plugins/pip_gui.py:368
+msgid "With current interpreter you can only browse the packages here.\n"
+"Use 'Tools → Open system shell...' for installing, upgrading or uninstalling."
+msgstr "Ներկա interpreter֊ի օգնությամբ դուք միայն կարող եք զննել փաթեթները։\n"
+"Օգտագործել 'Գործիքներ → Բացել համակարգի վահանակը...' տեղադրելու, \n"
+"վերազինելու կամ ապատեղադրելու համար։"
+
+#: turAI/plugins/pip_gui.py:376
+msgid "Packages' directory"
+msgstr "Փաթեթների պանակը"
+
+#: turAI/plugins/pip_gui.py:333
+msgid "Install from PyPI"
+msgstr "Տեղադրել PyPI֊ից"
+
+#: turAI/plugins/pip_gui.py:336
+msgid "If you don't know where to get the package from, then most likely you'll want to search the Python Package Index. Start by entering the name of the package in the search box above and pressing ENTER."
+msgstr "Եթե չեք իմանում, թե որտեղից ձեռք բերել փաթեթը, ապա կարող եք փնտրել Python Package Index֊ի օգնությամբ։ Սկսեք մուտքագրելով փաթեթի անունը վերում գտնվող որոնման դաշտում և սեղմեք ENTER։"
+
+#: turAI/plugins/pip_gui.py:352
+msgid "to locate requirements.txt file and install the packages specified in it."
+msgstr "տեղակայեք requirements.txt նիշքը և տեղադրել դրանում նշված փաթեթները։"
+
+#: turAI/plugins/pip_gui.py:381
+msgid "Click"
+msgstr "Սեղմել"
+
+#: turAI/plugins/pip_gui.py:386
+msgid "to locate and install the package file (usually with .whl, .tar.gz or .zip extension)."
+msgstr "տեղակայել և տեղադրել փաթեթի նիշքը (հիմնակում .whl, .tar.gz or .zip ձևաչափով)։"
+
+#: turAI/plugins/micropython/pip_gui.py:243 turAI/plugins/pip_gui.py:393
+msgid "Upgrade or uninstall"
+msgstr "Վերազինել կամ ապատեղադրել"
+
+#: turAI/plugins/pip_gui.py:395
+msgid "Start by selecting the package from the left."
+msgstr "Սկսեք ընտրելով փաթեթը ձախ կողմից։"
+
+#: turAI/plugins/pip_gui.py:399
+msgid "Target:"
+msgstr "Թիրախ՝"
+
+#: turAI/plugins/pip_gui.py:401
+msgid "virtual environment"
+msgstr "վիրտուալ միջավայր"
+
+#: turAI/plugins/pip_gui.py:403
+msgid "user site packages"
+msgstr "օգտատիրոջ էջի փաթեթներ"
+
+#: turAI/plugins/pip_gui.py:407
+msgid "This dialog lists all available packages, but allows upgrading and uninstalling only packages from"
+msgstr "Այս երկխոսությունը թվարկում է բոլոր մատչելի փաթեթները, բայց թույլ է տալիս արդիականացնել և ապատեղադրել միայն այդ փաթեթները"
+
+#: turAI/plugins/pip_gui.py:417
+msgid "New packages will be also installed into this directory. Other locations must be managed by alternative means."
+msgstr "Նոր փաթեթները ևս կտեղադրվեն այս պանակում։ Այլ վայրերը պետք է կառավարվեն այլընտրանքային միջոցներով։"
+
+#: turAI/plugins/pip_gui.py:441
+msgid "Installed version:"
+msgstr "Տեղադրված տարբերակ՝"
+
+#: turAI/plugins/micropython/pip_gui.py:147 turAI/plugins/pip_gui.py:443
+msgid "Installed to:"
+msgstr "Տեղադրված է՝"
+
+#: turAI/plugins/pip_gui.py:494
+msgid "Please check your spelling!"
+msgstr "Խնդրում ենք ստուգել ուղղագրությունը։"
+
+#: turAI/plugins/pip_gui.py:512
+msgid "You need to enter"
+msgstr "Դուք պետք է մուտք գործեք"
+
+#: turAI/plugins/pip_gui.py:498
+msgid "Could not find the package info from PyPI."
+msgstr "PyPI- ից չհաջողվեց գտնել փաթեթի տվյալները:"
+
+#: turAI/plugins/pip_gui.py:500 turAI/plugins/pip_gui.py:1200
+msgid "Error code:"
+msgstr "Սխալի թիվը՝"
+
+#: turAI/plugins/pip_gui.py:601
+msgid "Can't find package name from the list:"
+msgstr "Հնարավոր չէ գտնել փաթեթի անունը ցուցակից՝"
+
+#: turAI/plugins/pip_gui.py:653
+msgid "Package '{}' is required for installing and uninstalling other packages."
+msgstr "'{}' փաթեթը պահանջում է տեղադրել և ապատեղադրել այլ փաթեթները։"
+
+#: turAI/plugins/pip_gui.py:696
+msgid "Package"
+msgstr "Փաթեթ"
+
+#: turAI/plugins/pip_gui.py:796
+msgid "Manage packages for %s"
+msgstr "Կառավարել փաթեթները %s ֊ի համար"
+
+#: turAI/plugins/pip_gui.py:872
+msgid "Confirmation"
+msgstr "Հաստատում"
+
+#: turAI/plugins/pip_gui.py:873
+msgid "Looks like you are installing a turAI-related package.\n"
+"If you meant to install a turAI plugin, then you should\n"
+"choose 'Tools → Manage plugins...' instead\n"
+"\n"
+"Are you sure you want to install %s for the back-end?"
+msgstr "Կարծես թե տեղադրում եք Թոնիի հետ կապված փաթեթ:\n"
+"Եթե ուզում եք տեղադրել Թոնիի հավելում, ապա դուք պետք է\n"
+"ընտրեք 'Գործիքներ → Կառավարել հավելումները...'\n"
+"\n"
+"Իրո՞ք ցանկանում եք տեղադրել %s  back-end֊ի համար։"
+
+#: turAI/plugins/pip_gui.py:981
+msgid "NB! There may be another version available which is compatible with current turAI version. Click on '...' button to choose the version to install."
+msgstr "NB! Կարող է լինել մեկ այլ տարբերակ, որը համատեղելի է ընթացիկ Թոնիի տարբերակի հետ: Սեղմել '...' կոճակը տեղադրման տարբերակն ընտրելու համար։"
+
+#: turAI/plugins/pip_gui.py:989
+msgid "turAI plugin without requirements"
+msgstr "Թոնի հավելում առանց պահանջների"
+
+#: turAI/plugins/pip_gui.py:990
+msgid "Looks like you are trying to install an outdated turAI\n"
+"plug-in (it doesn't specify required turAI version).\n"
+"\n"
+"If you still want it, then please install it from the command line."
+msgstr "Կարծես փորձում եք տեղադրել հնացած Թոնիի\n"
+"հավելում (այն չի նշում պահանջվող Թոնիի տարբերակը)։\n"
+"\n"
+"Եթե դեռ ուզում եք, ապա խնդրում ենք տեղադրել այն տերմինալի օգնությամբ։"
+
+#: turAI/plugins/pip_gui.py:1004
+msgid "Unsuitable requirements"
+msgstr "Անհամապատասխան պահանջներ"
+
+#: turAI/plugins/pip_gui.py:1005
+msgid "This package requires different turAI version:"
+msgstr "Այս փաթեթը պահանջում է Թոնիի այլ տարբերակ՝"
+
+#: turAI/plugins/pip_gui.py:1009
+msgid "If you still want it, then please install it from the command line."
+msgstr "Եթե դեռ ուզում եք, ապա խնդրում ենք տեղադրել այն տերմինալի օգնությամբ։"
+
+#: turAI/plugins/pip_gui.py:1052
+msgid "(In this case turAI's back-end uses same interpreter, so both dialogs manage same packages.)"
+msgstr "(Այս դեպքում Թոնիի back-end ֊ը օգտագործում է նույն interpreter֊ը, այնպես որ երկու երկխոսությունն էլ կառավարում են նույն փաթեթները):"
+
+#: turAI/plugins/pip_gui.py:1058
+msgid "NB! You need to restart turAI after installing / upgrading / uninstalling a plug-in."
+msgstr "NB! Հավելումները տեղադրելուց / վերազինելուց / տեղահանելուց հետո դուք պետք է վերագործարկեք Թոնին "
+
+#: turAI/plugins/pip_gui.py:1068
+msgid "turAI plug-ins"
+msgstr "Թոնիի հավելումներ"
+
+#: turAI/plugins/pip_gui.py:1090
+msgid "Advanced install / upgrade / downgrade"
+msgstr "Ընդլայնված տեղադրում / վերազինում / նվազեցում"
+
+#: turAI/plugins/pip_gui.py:1099
+msgid "Desired version"
+msgstr "Ցանկալի տարբերակ"
+
+#: turAI/plugins/pip_gui.py:1137
+msgid "Upgrade dependencies"
+msgstr "Վերազինման պահանջներ"
+
+#: turAI/plugins/pip_gui.py:1198
+msgid "Requires:"
+msgstr "Պահանջում է՝"
+
+#: turAI/plugins/pip_gui.py:1202
+msgid "Error:"
+msgstr "Սխալ՝"
+
+#: turAI/plugins/pip_gui.py:1409
+msgid "Manage packages..."
+msgstr "Կառավարել փաթեթները․․․"
+
+#: turAI/plugins/pip_gui.py:1415
+msgid "Manage plug-ins..."
+msgstr "Կառավարել հավելումները․․․"
+
+#: turAI/plugins/replayer.py:365
+msgid "Open replayer..."
+msgstr "Բացել վերագործարկիչը․․․"
+
+#: turAI/plugins/run_debug_config_page.py:14
+msgid "Change working directory to script directory on Run / Debug"
+msgstr "Փոխել աշխատանքային պանակը սցենարի պանակում Գործարկել / Վրիպազերծել"
+
+#: turAI/plugins/run_debug_config_page.py:22
+msgid "Show function calls (frames) in separate windows"
+msgstr "Ցուցադրել ֆունկցիայի կանչերը (շրջանակները) առանձին պատուհաններում"
+
+#: turAI/plugins/run_debug_config_page.py:23
+msgid "Uncheck if you want more traditional experience."
+msgstr "Ապանշեք, եթե հավանում եք ավելի հին փորձը:"
+
+#: turAI/plugins/run_debug_config_page.py:29
+msgid "Open and close Stack view automatically"
+msgstr "Ինքնաբերաբար բացել և փակել բուրգանման դիտումը "
+
+#: turAI/plugins/run_debug_config_page.py:30
+msgid "Opens the Stack view on first call and closes it when program returns to main frame."
+msgstr "Բացում է բուրգանման դիտումը առաջւբ կանչից և փակում է այն, երբ ծրագիրը վերադառնում է հիմնական շրջանակին։"
+
+#: turAI/plugins/run_debug_config_page.py:39
+msgid "Allow stepping into libraries (ie. outside of main script directory)"
+msgstr "Թույլատրել մուտք գործել գրադարաններ (հիմնական սցենարների պանակից դուրս)"
+
+#: turAI/plugins/run_debug_config_page.py:40
+msgid "May make debugging slower."
+msgstr "Հնարավոր է դանդաղեցնել վրիպազերծումը:"
+
+#: turAI/plugins/run_debug_config_page.py:45
+msgid "Preferred debugger"
+msgstr "Նախընտրելի վրիպազերծիչ"
+
+#: turAI/plugins/run_debug_config_page.py:57
+msgid "(used when clicking Debug toolbar button)"
+msgstr "(օգտագործվում է, երբ սեղմվում է Debug գործիքագոտու կոճակը)"
+
+#: turAI/plugins/run_debug_config_page.py:62
+msgid "Birdseye port"
+msgstr "Թռչնի աչքի port"
+
+#: turAI/plugins/run_debug_config_page.py:66
+msgid "(restart turAI after changing this)"
+msgstr "(վերագործարկեք Թոնիին այս փոփոխությունները կատարելուց հետ)"
+
+#: turAI/plugins/run_debug_config_page.py:74
+msgid "Run & Debug"
+msgstr "Գործարկել և վրիպազերծել"
+
+#: turAI/plugins/shell_config_page.py:17
+msgid "Terminal emulation"
+msgstr "Տերմինալ էմուլացիա"
+
+#: turAI/plugins/shell_config_page.py:19
+msgid "supports basic ANSI-colors and styles"
+msgstr "աջակցում է պարզ ANSI֊գույներ և ոճեր"
+
+#: turAI/plugins/shell_config_page.py:31
+msgid "Maximum number of lines to keep."
+msgstr "Առավելագույն թվով տողեր պահելու համար։"
+
+#: turAI/plugins/shell_config_page.py:33
+msgid "NB! Large values may cause poor performance!"
+msgstr "NB! Մեծ արժեքները կարող են առաջացնել թույլ արտադրողականություն։"
+
+#: turAI/plugins/shell_config_page.py:49
+msgid "Maximum length of line fragments before squeezing"
+msgstr "Տողերի հատվածների առավելագույն երկարությունը սեղմելուց առաջ"
+
+#: turAI/plugins/terminal_config_page.py:12
+msgid "Running current script in terminal"
+msgstr "Բացել ընթացիկ սցենարը տերմինալում"
+
+#: turAI/plugins/terminal_config_page.py:17
+msgid "Present Python REPL after program ends"
+msgstr "Ներկայացնել Python REPL֊ը ծրագրի ավարտից հետո"
+
+#: turAI/plugins/terminal_config_page.py:24
+msgid "Keep terminal window open after Python process ends"
+msgstr "Python գործընթացի ավարտից հետո պահել տերմինալի պատուհանը բաց "
+
+#: turAI/plugins/terminal_config_page.py:31
+msgid "NB! Automatic closing needs to be enabled in Terminal's settings\n"
+"(Profiles → Shell → When the shell exits)"
+msgstr "NB! Ավտոմատ ելքը անհրաժեշտ է միացնել տերմինալի կարգավորումներից\n"
+"(Profiles → Shell → When the shell exits)"
+
+#: turAI/plugins/terminal_config_page.py:41
+msgid "Terminal"
+msgstr "Վահանակ"
+
+#: turAI/plugins/theme_and_font_config_page.py:40
+msgid "UI theme"
+msgstr "UI տեսք"
+
+#: turAI/plugins/theme_and_font_config_page.py:53
+msgid "Syntax theme"
+msgstr "Այլագրի տեսք"
+
+#: turAI/plugins/theme_and_font_config_page.py:85
+msgid "Editor font"
+msgstr "Տառատեսակի խմբագիր"
+
+#: turAI/plugins/theme_and_font_config_page.py:108
+msgid "IO font"
+msgstr "IO տառատեսակ"
+
+#: turAI/plugins/theme_and_font_config_page.py:133
+msgid "Preview"
+msgstr "Նախատեսք"
+
+#: turAI/plugins/theme_and_font_config_page.py:145
+msgid "This is a comment"
+msgstr "Սա մեկնաբանություն է"
+
+#: turAI/plugins/theme_and_font_config_page.py:148
+msgid "The answer is"
+msgstr "Պատասխանն է"
+
+#: turAI/plugins/theme_and_font_config_page.py:152
+msgid "unclosed_string"
+msgstr "չփակված_շարք"
+
+#: turAI/plugins/theme_and_font_config_page.py:154
+msgid "blah, blah"
+msgstr "բլա, բլա"
+
+#: turAI/plugins/theme_and_font_config_page.py:177
+msgid "NB! Some style elements change only after restarting turAI!"
+msgstr "NB! Որոշ ոճի տարրեր փոխվում են Թոնիի վերագործարկումից հետո։"
+
+#: turAI/plugins/theme_and_font_config_page.py:216
+msgid "Enter an integer"
+msgstr "Մուտքագրել ամբողջ թիվ"
+
+#: turAI/plugins/theme_and_font_config_page.py:229
+msgid "Theme & Font"
+msgstr "Տեսք և տառաչափ"
+
+#: turAI/plugins/turAI_folders.py:19
+msgid "Open turAI program folder..."
+msgstr "Բացել Թոնի ծրագրի պանակը․․․"
+
+#: turAI/plugins/turAI_folders.py:24
+msgid "Open turAI data folder..."
+msgstr "Բացել Թոնի տվյալների պանակը․․․"
+
+#: turAI/plugins/help/__init__.py:64
+msgid "Home"
+msgstr "Սկիզբ"
+
+#: turAI/plugins/help/__init__.py:75
+msgid "Help contents"
+msgstr "Օգնության բովանդակությունը"
+
+#: turAI/plugins/micropython/__init__.py:274
+msgid "CircuitPython device"
+msgstr "CircuitPython սարք"
+
+#: turAI/plugins/micropython/__init__.py:278
+msgid "MicroPython device"
+msgstr "MicroPython սարք"
+
+#: turAI/plugins/micropython/__init__.py:476
+msgid "Connect your device to the computer and select corresponding port below"
+msgstr "Միացրեք սարքը Ձեր համակարգչին և ներքևում ընտրեք համապատասխան port-ը"
+
+#: turAI/plugins/micropython/__init__.py:479
+msgid "look for your device name, \"USB Serial\" or \"UART\""
+msgstr "փնտրեք ձեր սարքի անունը, «USB սերիալ» կամ «UART»"
+
+#: turAI/plugins/micropython/__init__.py:481
+msgid "If you can't find it, you may need to install proper USB driver first."
+msgstr "Եթե չեք գտնում, գուցե նախ անհրաժեշտ է տեղադրել համապատասխան USB driver-ը:"
+
+#: turAI/plugins/micropython/__init__.py:401
+msgid "Port"
+msgstr "Port"
+
+#: turAI/plugins/micropython/__init__.py:411
+msgid "Try to detect port automatically"
+msgstr "Փորձեք ավտոմատ կերպով հայտնաբերել port-ը"
+
+#: turAI/plugins/micropython/__init__.py:954
+msgid "MicroPython (generic)"
+msgstr "MicroPython (ընդհանուր)"
+
+#: turAI/plugins/printing/__init__.py:82
+msgid "Print..."
+msgstr "Տպել․․․"
+
+#: turAI/plugins/system_shell/__init__.py:59
+msgid "Open system shell..."
+msgstr "Բացել համակարգի վահանակը․․․"
+
+#: turAI/plugins/backend_config_page.py:103
+msgid "Details"
+msgstr "Մանրամասներ"
+
+#: turAI/plugins/pip_gui.py:345
+msgid "Install from requirements file"
+msgstr "Տեղադրել ներկայացվող նիշքից"
+
+#: turAI/plugins/pip_gui.py:380
+msgid "Install from local file"
+msgstr "Տեղադրել տեղային նիշքից"
+
+#: turAI/plugins/pip_gui.py:1038
+msgid "This dialog is for managing turAI plug-ins and their dependencies.\n"
+"If you want to install packages for your own programs then choose 'Tools → Manage packages...'"
+msgstr "Այս երկխոսությունը կառավարում է Թոնիի հավելումներն ու պահանջները։\n"
+"Եթե ցանկանում եք  տեղադրել փաթեթներ ձեր սեփական ծրագրերի համար, ապա ընտրեք 'Գործիքներ → Կառավարել փաթեթները ...'"
+
+#: turAI/plugins/circuitpython/__init__.py:163
+msgid "CircuitPython (generic)"
+msgstr "CircuitPython (ընդհանուր)"
+
+#: turAI/plugins/commenting_indenting.py:143
+msgid "Indent selected lines"
+msgstr "Հանել ընտրված տողերը"
+
+#: turAI/plugins/commenting_indenting.py:153
+msgid "Dedent selected lines"
+msgstr "Հետարկել ընտրած տողերը"
+
+#: turAI/workbench.py:1391
+msgid "Switch to\n"
+"regular\n"
+"mode"
+msgstr "Փոխել\n"
+"սովորական\n"
+"ռեժիմի"
+
+#: turAI/plugins/microbit/__init__.py:55
+msgid "Make sure MicroPython has been installed to your micro:bit."
+msgstr "Համոզվեք, որ MicroPython֊ը տեղադրված է Ձեր micro:bit ֊ում։"
+
+#: turAI/plugins/microbit/__init__.py:57
+msgid "Don't forget that main.py only works without embedded main script."
+msgstr "Մի մոռացեք, որ main.py- ն աշխատում է առանց ներկառուցված հիմնական այլագրի:"
+
+#: turAI/plugins/micropython/uf2dialog.py:45
+msgid "please wait"
+msgstr "խնդրում ենք սպասել"
+
+#: turAI/plugins/microbit/__init__.py:199
+msgid "Done!"
+msgstr "Կատարված"
+
+#: turAI/plugins/micropython/__init__.py:298
+msgid "Firmware"
+msgstr "ՆԾԱ"
+
+#: turAI/misc_utils.py:134
+msgid "Could not find disk '%s'. Do you want to locate it yourself?"
+msgstr "Չհաջողվեց գտնել '%s' սկավառակը: Ցանկանու՞մ եք ինքներդ գտնել այն:"
+
+#: turAI/misc_utils.py:137
+msgid "Found several '%s' disks. Do you want to choose one yourself?"
+msgstr "Գտնվել է մի քանի '%s'  սկավառակ: Ցանկանո՞ւմ եք ինքներդ ընտրել դրանցից մեկը:"
+
+#: turAI/misc_utils.py:153
+msgid "Can't find suitable disk"
+msgstr "Հնարավոր չէ գտնել համապատասխան սկավառակ"
+
+#: turAI/base_file_browser.py:273
+msgid "%d items"
+msgstr "%d տարրեր"
+
+#: turAI/base_file_browser.py:692
+msgid "Move to Recycle Bin"
+msgstr "Տեղափոխել աղբարկղ"
+
+#: turAI/base_file_browser.py:694
+msgid "Move to Trash"
+msgstr "Տեղափոխել աղբարկղ"
+
+#: turAI/base_file_browser.py:697
+msgid "Delete"
+msgstr "Ջնջել"
+
+#: turAI/base_file_browser.py:700 turAI/base_file_browser.py:834
+msgid "New directory"
+msgstr "Նոր պանակ"
+
+#: turAI/base_file_browser.py:703
+msgid "Properties"
+msgstr "Հատկություններ"
+
+#: turAI/base_file_browser.py:705
+msgid "Storage space"
+msgstr "Պահեստի տարածքը"
+
+#: turAI/base_file_browser.py:715
+msgid "Path"
+msgstr "Ուղի"
+
+#: turAI/base_file_browser.py:717
+msgid "Directory properties"
+msgstr "Պանակի հատկությունները"
+
+#: turAI/base_file_browser.py:719
+msgid "File properties"
+msgstr "Նիշքի հատկությունները"
+
+#: turAI/base_file_browser.py:721
+msgid "bytes"
+msgstr "բայթ"
+
+#: turAI/base_file_browser.py:724
+msgid "Size"
+msgstr "Չափս"
+
+#: turAI/base_file_browser.py:83 turAI/base_file_browser.py:735
+msgid "Modified"
+msgstr "Փոփոխված"
+
+#: turAI/base_file_browser.py:794
+msgid "Deleting %s"
+msgstr "%s ֊ի հեռացում"
+
+#: turAI/base_file_browser.py:817
+msgid "Moving %s to %s"
+msgstr "%s ֊ի տեղափոխում %s ֊ի մեջ"
+
+#: turAI/editors.py:219
+msgid "Loading"
+msgstr "Բեռնում"
+
+#: turAI/editors.py:335
+msgid "Saving"
+msgstr "Պահպանում"
+
+#: turAI/running.py:1408
+msgid "Working..."
+msgstr "Մշակում..."
+
+#: turAI/plugins/files.py:199
+msgid "Uploading %s to %s"
+msgstr "%s  ֊ի վերբեռնում %s ֊ի մեջ"
+
+#: turAI/plugins/files.py:216
+msgid "Upload to %s"
+msgstr "Վերբեռնել %s ֊ի մեջ"
+
+#: turAI/plugins/files.py:362
+msgid "Downloading %s to %s"
+msgstr "Ներբեռնել %s ֊ը %s ֊ի մեջ"
+
+#: turAI/plugins/files.py:275
+msgid "Download to %s"
+msgstr "Ներբեռնել %s ֊ի մեջ"
+
+#: turAI/base_file_browser.py:620
+msgid "Open in system file manager"
+msgstr "Բացել համակարգի նիշքի կառավարմամբ"
+
+#: turAI/base_file_browser.py:625
+msgid "Hide hidden files"
+msgstr "Թաքցնել գաղտնի նիշքերը"
+
+#: turAI/base_file_browser.py:625
+msgid "Show hidden files"
+msgstr "Ցուցադրել գաղտնի նիշքերը"
+
+#: turAI/base_file_browser.py:635
+msgid "Open in turAI"
+msgstr "Բացել Թոնիում"
+
+#: turAI/base_file_browser.py:640 turAI/base_file_browser.py:661
+msgid "Open in system default app"
+msgstr "բացել համակարգի լռելայն ծրագրով"
+
+#: turAI/base_file_browser.py:647 turAI/base_file_browser.py:669
+msgid "Configure %s files"
+msgstr "կարգաբերել %s նիշքերը"
+
+#: turAI/base_file_browser.py:670
+msgid "What to do with a %s file when you double-click it in turAI's file browser?"
+msgstr "Ի՞նչ անել % s նիշքի հետ, երբ կրկնակի սեղմում եք այն Թոնիի նիշքի զննարկչում:"
+
+#: turAI/base_file_browser.py:1042 turAI/plugins/micropython/pip_gui.py:77
+msgid "Deleting"
+msgstr "Հեռացում"
+
+#: turAI/base_file_browser.py:1049
+msgid "Creating directory"
+msgstr "Պանակի ստեղծում"
+
+#: turAI/editors.py:217
+msgid "Loading %s"
+msgstr "Բեռնում %s"
+
+#: turAI/editors.py:333
+msgid "Saving to %s"
+msgstr "Պահպանում %s"
+
+#: turAI/editors.py:622 turAI/editors.py:624
+msgid "Save All files"
+msgstr "Պահել բոլոր նիշքերը"
+
+#: turAI/workbench.py:828
+msgid "Configure interpreter..."
+msgstr "Կարգաբերել interpreter֊ը ..."
+
+#: turAI/workbench.py:1501
+msgid "Device"
+msgstr "Սարք"
+
+#: turAI/workdlg.py:185
+msgid "Cancelling"
+msgstr "Չեղարկում"
+
+#: turAI/workdlg.py:212
+msgid "Starting"
+msgstr "Մեկնարկ"
+
+#: turAI/plugins/backend_config_page.py:234
+msgid "Authentication"
+msgstr "Նույնականացում"
+
+#: turAI/plugins/backend_config_page.py:236
+msgid "Enter the passphrase of your private key for\n"
+"{}"
+msgstr "Մուտքագրեք ձեր անձնական բանալու գաղտնաբառը\n"
+"{}"
+
+#: turAI/plugins/backend_config_page.py:239
+msgid "Enter your password for\n"
+"{}"
+msgstr "Մուտքագրեք ձեր գաղտնաբառը\n"
+"{}"
+
+#: turAI/plugins/object_inspector.py:458
+msgid "The representation above is an approximate value of this float. The exact stored value is %s which is about %s"
+msgstr "Վերևում ներկայացրածը այս կոտորակի մոտավոր արժեքն է: Ճշգրիտ պահված արժեքը %s է, որը կազմում է մոտ %s"
+
+#: turAI/plugins/pip_gui.py:557
+msgid "Search results"
+msgstr "Որոնման արդյունք"
+
+#: turAI/plugins/pip_gui.py:558
+msgid "Searching"
+msgstr "Որոնում"
+
+#: turAI/plugins/pip_gui.py:639 turAI/plugins/pip_gui.py:729
+msgid "Installing '%s'"
+msgstr "Տեղադրում '%s'"
+
+#: turAI/plugins/pip_gui.py:645
+msgid "Upgrading '%s'"
+msgstr "Վերազինում '%s'"
+
+#: turAI/plugins/pip_gui.py:650
+msgid "Uninstalling '%s'"
+msgstr "Ապատեղադրում '%s'"
+
+#: turAI/plugins/pip_gui.py:663
+msgid "Installing"
+msgstr "Տեղադրում"
+
+#: turAI/plugins/pip_gui.py:1372
+msgid "Package manager is not available for this interpreter"
+msgstr "Փաթեթի կառավարիչը հասանելի չէ այս interpreter ֊ի համար"
+
+#: turAI/plugins/pip_gui.py:1385
+msgid "Not supported"
+msgstr "Չի աջակցվում"
+
+#: turAI/plugins/micropython/pip_gui.py:290 turAI/plugins/pip_gui.py:1390
+msgid "Not available"
+msgstr "Հասանելի չէ"
+
+#: turAI/plugins/pip_gui.py:1391
+msgid "You need to stop your program before launching the package manager."
+msgstr "Փաթեթի կառավարիչը բացելուց առաջ պետք է կանգնեցնել ծրագիրը։"
+
+#: turAI/plugins/shell_config_page.py:64
+msgid "Open evaluated values in Object inspector"
+msgstr "Բացել գնահատված արժեքները «Առարկա»֊ի հսկիչում"
+
+#: turAI/plugins/cpython/__init__.py:370
+msgid "Python executable"
+msgstr "Գործարկվող Python"
+
+#: turAI/plugins/cpython/__init__.py:393
+msgid "NB! File selection button may not work properly when selecting executables\n"
+"from a virtual environment. In this case choose the 'activate' script instead\n"
+"of the interpreter (or enter the path directly to the box)!"
+msgstr "NB! Նիշքերի ընտրության կոճակի գործարկումը կարող է ճիշտ չաշխատել\n"
+"վիրտուալ միջավայրից: Այս դեպքում interpreter-ի փոխարեն ընտրեք «ակտիվացնելու» սցենարը\n"
+" (կամ մուտքագրեք ուղին անմիջապես տուփի մեջ):"
+
+#: turAI/plugins/cpython_ssh/__init__.py:153
+msgid "Remote Python 3 (SSH)"
+msgstr "Հեռավար Python 3 (SSH)"
+
+#: turAI/plugins/micropython/__init__.py:284
+msgid "Not connected"
+msgstr "Միացված չէ"
+
+#: turAI/plugins/micropython/__init__.py:453
+msgid "Advanced options"
+msgstr "Ընդլայնված ընտրանքներ"
+
+#: turAI/plugins/micropython/__init__.py:460
+msgid "Install or update firmware"
+msgstr "Տեղադրել կամ թարմացնել ՆԾԱ֊ն"
+
+#: turAI/plugins/micropython/__init__.py:963
+msgid "MicroPython (local)"
+msgstr "MicroPython (local)"
+
+#: turAI/plugins/micropython/__init__.py:973
+msgid "MicroPython (SSH)"
+msgstr "MicroPython (SSH)"
+
+#: turAI/plugins/micropython/pip_gui.py:134
+msgid "Module"
+msgstr "Մոդուլ"
+
+#: turAI/plugins/micropython/pip_gui.py:159
+msgid "Shadowed items (not importable):"
+msgstr "Ստվերված առարկաներ (ոչ կարևոր)"
+
+#: turAI/plugins/micropython/pip_gui.py:208
+msgid "Package is not available at micropython.org. Version at PyPI will be installed."
+msgstr "Փաթեթը հասանելի չէ micropython.org կայքում: Կտեղադրվի PyPI-ի տարբերակը:"
+
+#: turAI/plugins/micropython/pip_gui.py:219
+msgid "NB! micropython.org has published version %s of this package and this will be installed by default."
+msgstr "NB! micropython.org- ը հրապարակել է այս փաթեթի %s տարբերակը, և այն կտեղադրվի լռելյայն:"
+
+#: turAI/plugins/micropython/pip_gui.py:245
+msgid "For upgrading simply install the package again."
+msgstr "Նորացման համար պարզապես նորից տեղադրեք փաթեթը:"
+
+#: turAI/plugins/micropython/pip_gui.py:248
+msgid "For uninstalling delete corresponding files."
+msgstr "Ապատեղադրելու համար ջնջեք կապ ունեցող նիշքերը:"
+
+#: turAI/plugins/micropython/pip_gui.py:262
+msgid "Scope"
+msgstr "Շրջանակ"
+
+#: turAI/plugins/micropython/pip_gui.py:275
+msgid "This dialog lists top-level modules from following directories:\n"
+""
+msgstr "Այս երկխոսությունը գտնվում է հետևյալ պանակների վերին մակարդակի մոդուլներում։ "
+
+#: turAI/plugins/micropython/pip_gui.py:284
+msgid "New packages will be installed to"
+msgstr "Նոր փաթեթներ կտեղադրվեն"
+
+#: turAI/plugins/micropython/pip_gui.py:292
+msgid "no absolute lib directory in sys.path"
+msgstr "sys.path- ում բացարձակ lib պանակ չկա"
+
+#: turAI/plugins/micropython/uf2dialog.py:40
+msgid "Version to be installed"
+msgstr "Տեղադրման տարբերակը"
+
+#: turAI/plugins/micropython/uf2dialog.py:48
+msgid "Target device location"
+msgstr "Թիրախային սարքի գտնվելու վայրը"
+
+#: turAI/plugins/micropython/uf2dialog.py:59
+msgid "Target device model"
+msgstr "Թիրախային սարքի մոդելը"
+
+#: turAI/plugins/micropython/uf2dialog.py:145
+msgid "Please wait"
+msgstr "Խնդրում ենք սպասել"
+
+#: turAI/plugins/pip_gui.py:67
+msgid "Search on PyPI"
+msgstr "Որոնում PyPI ֊ում"
+
+#: turAI/plugins/pip_gui.py:79
+msgid "Delete selected"
+msgstr "Ջնջել ընտրածը"
+
+#: turAI/base_file_browser.py:662
+msgid "Open in turAI's text editor"
+msgstr "Բացել Թոնիի տեքստային խմբագրիչում"
+
+#: turAI/base_file_browser.py:325
+msgid "Storage space on this drive or filesystem"
+msgstr "Պահպանման տարածք այս սկավառակի կամ նիշքային համակարգում"
+
+#: turAI/base_file_browser.py:326
+msgid "total space"
+msgstr "ընդհանուր տարածք"
+
+#: turAI/base_file_browser.py:328
+msgid "used space"
+msgstr "օգտագործված տարածք"
+
+#: turAI/base_file_browser.py:329
+msgid "free space"
+msgstr "ազատ տարածք"
+
+#: turAI/base_file_browser.py:336
+msgid "Storage info"
+msgstr "Պահեստի տեղեկատվություն"
+
+#: turAI/plugins/commenting_indenting.py:163
+msgid "Replace tabs with spaces"
+msgstr "Փոխարինել ներդիրները բացատներով"
+
+#: turAI/plugins/editor_config_page.py:28
+msgid "Highlight tab characters"
+msgstr "Նշեք ներդիրի նիշերը"
+
+#: turAI/plugins/editor_config_page.py:47
+msgid "Indent with tab characters (not recommended for Python)"
+msgstr "Ընկղմել ներդիրի նիշերով (խորհուրդ չի տրվում Python- ի համար)"
+
+#: turAI/base_file_browser.py:81 turAI/memory.py:63
+msgid "Name"
+msgstr "Անուն"
+
+#: turAI/base_file_browser.py:85
+msgid "Size (bytes)"
+msgstr "Չափս (բայթ)"
+
+#: turAI/base_file_browser.py:835
+msgid "Enter name for new directory under\n"
+"%s"
+msgstr "Մուտքագրեք նոր պանակի անունը \n"
+"%s"
+
+#: turAI/base_file_browser.py:858
+msgid "Nothing selected"
+msgstr "Ոչինչ ընտրված չէ"
+
+#: turAI/base_file_browser.py:858
+msgid "Select an item and try again!"
+msgstr "Ընտրեք առարկան և փորձեք նորից:"
+
+#: turAI/base_file_browser.py:1105
+msgid "Open from %s"
+msgstr "Բացել %s ֊ից"
+
+#: turAI/base_file_browser.py:1108
+msgid "Save to %s"
+msgstr "Պահել %s ֊ից"
+
+#: turAI/base_file_browser.py:1120
+msgid "File name:"
+msgstr "Նիշքի անունը՝"
+
+#: turAI/memory.py:64 turAI/plugins/object_inspector.py:510
+#: turAI/plugins/object_inspector.py:589
+msgid "Value ID"
+msgstr "ID արժեք"
+
+#: turAI/memory.py:65 turAI/plugins/heap.py:23
+#: turAI/plugins/object_inspector.py:511
+#: turAI/plugins/object_inspector.py:590
+msgid "Value"
+msgstr "Արժեք"
+
+#: turAI/plugins/backend_config_page.py:257
+msgid "Save password"
+msgstr "Պահել գաղտնաբառը"
+
+#: turAI/plugins/debugger.py:553
+msgid "Function call at %s"
+msgstr "Ֆունկցիայի կանչը % s- ով"
+
+#: turAI/plugins/debugger.py:1001
+msgid "Local variables"
+msgstr "Տեղային փոփոխականներ"
+
+#: turAI/plugins/debugger.py:1033
+msgid "Function"
+msgstr "Ֆունկցիա"
+
+#: turAI/plugins/debugger.py:1034
+msgid "Location"
+msgstr "Գտնվելու վայր"
+
+#: turAI/plugins/debugger.py:1110
+msgid "If last command raised an exception then this view will show the stacktrace."
+msgstr "Եթե վերջին հրամանը բացառություն է առաջացրել, ապա ցույց կտա այս տեսքը stacktrace- ը:"
+
+#: turAI/plugins/heap.py:22
+msgid "ID"
+msgstr "ID"
+
+#: turAI/plugins/object_inspector.py:87
+msgid "Data"
+msgstr "Տվյալներ"
+
+#: turAI/plugins/object_inspector.py:88
+msgid "Attributes"
+msgstr "Հատկանիշներ"
+
+#: turAI/plugins/object_inspector.py:509
+msgid "Index"
+msgstr "Ինդեքս"
+
+#: turAI/plugins/object_inspector.py:587
+msgid "Key ID"
+msgstr "Key ID"
+
+#: turAI/plugins/object_inspector.py:588
+msgid "Key"
+msgstr "Key"
+
+#: turAI/plugins/variables.py:36
+msgid "Back to\n"
+"%s"
+msgstr "Back to\n"
+"%s"
+
+#: turAI/plugins/micropython/__init__.py:401
+msgid "Port or WebREPL"
+msgstr "Port or WebREPL"
+
+#: turAI/plugins/micropython/__init__.py:518
+msgid "Password"
+msgstr "Գաղտնաբառ"
+
+#: turAI/plugins/debugger.py:959
+msgid "Source code"
+msgstr "Կոդերի աղբյուր"
+
+#: turAI/plugins/general_config_page.py:29
+msgid "Use Tk file dialogs instead of Zenity"
+msgstr "Zenity- ի փոխարեն օգտագործեք Tk նիշքի երկխոսությունները"
+
+#: turAI/plugins/general_config_page.py:30
+msgid "Select if the file dialogs end up behind the main window"
+msgstr "Ընտրեք, եթե նիշքի երկխոսությունները հայտնվեն հիմնական պատուհանի հետևում"
+
+#: turAI/plugins/general_config_page.py:97
+msgid "Environment variables (one KEY=VALUE per line)"
+msgstr "Միջավայրի փոփոխականներ (one KEY=VALUE per line)"
+

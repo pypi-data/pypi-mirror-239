@@ -1,0 +1,36 @@
+from typing import Any, Callable
+from whylogs.core.stubs import pd as pd
+
+
+class Translator:
+
+    def translate(text: str) -> str:
+        return text
+
+
+def translated(translator: Translator) -> Callable[[str], Any]:
+
+    def decorator(func: Callable[[str], Any]) -> Callable[[str], Any]:
+        return lambda text: func(translator.translate(text))
+
+    return decorator
+
+
+def translated_udf(translator: Translator) -> Callable[[Union[Dict[str, List], pd.DataFrame]], Union[List, pd.Series]]:
+
+    def decorator(func: Callable[[Union[Dict[str, List], pd.DataFrame]], Union[List, pd.Series]]) -> Callable[[Union[Dict[str, List], pd.DataFrame]], Union[List, pd.Series]]:
+
+        def wrapper(text: Union[Dict[str, List], pd.DataFrame]) -> Union[List, pd.Series]:
+            if isinstance(text, dict):
+                translated = {k: translator.translate(v) for k, v in text.items()}
+                return func(translated)
+
+            translated = pd.DataFrame()
+            for k in text.keys():
+                translated[k] = text[k].map(translator.translate)
+            return func(translated)
+
+        return wrapper
+
+    return decorator
+            

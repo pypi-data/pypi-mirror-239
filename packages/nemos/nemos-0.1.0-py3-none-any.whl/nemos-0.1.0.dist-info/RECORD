@@ -1,0 +1,10 @@
+nemos/__init__.py,sha256=T2pk5Vm1_kuKCVUqoN3u4hISf_znAWQOkw2x7-dbSj0,71
+nemos/basis.py,sha256=3AGo2egZ5tuFZAXw_8pTxDfdYd22lPxHzxlOpbXglrU,35039
+nemos/glm.py,sha256=DyQ8cUK4crTGr91LDLrqRRnDq5wYO9GvLnkKPqumow4,16853
+nemos/sample_points.py,sha256=eOJiUUMpjD-6wp4JCN76zXjSR17PgNmTpDo1w01bQuk,2039
+nemos/utils.py,sha256=fJz-qEerOj7gjHnnrrbN4xHdOa3Y4INqZh23QR2FdqQ,12504
+nemos-0.1.0.dist-info/LICENSE,sha256=S43Mgv-RduaZ9005vDh_U2jzJhy3GvQTonIOAqb3pTA,1077
+nemos-0.1.0.dist-info/METADATA,sha256=9vfNovsjMPLAlYepD8XZP_a6HabPzq0LJoSzL4uZ_3M,3796
+nemos-0.1.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+nemos-0.1.0.dist-info/top_level.txt,sha256=SuPislc-8fqzaJ03SvKws_0wdVIQjeh7dkUKrRcE_UU,6
+nemos-0.1.0.dist-info/RECORD,,

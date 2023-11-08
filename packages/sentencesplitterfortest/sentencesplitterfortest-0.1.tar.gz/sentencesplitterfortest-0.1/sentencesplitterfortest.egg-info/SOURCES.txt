@@ -1,0 +1,11 @@
+README.md
+setup.py
+sentencesplitterfortest/__init__.py
+sentencesplitterfortest/splitter.py
+sentencesplitterfortest.egg-info/PKG-INFO
+sentencesplitterfortest.egg-info/SOURCES.txt
+sentencesplitterfortest.egg-info/dependency_links.txt
+sentencesplitterfortest.egg-info/requires.txt
+sentencesplitterfortest.egg-info/top_level.txt
+tests/__init__.py
+tests/test_splitter.py

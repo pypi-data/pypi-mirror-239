@@ -1,0 +1,7 @@
+mrcfile
+numpy
+scipy
+matplotlib
+
+[dev]
+mypy

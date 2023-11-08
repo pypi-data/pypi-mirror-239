@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: bananalyzer
+Version: 0.1.0
+Summary: 
+Author: asim-shrestha
+Author-email: asim.shrestha@hotmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: fastapi (>=0.104.1,<0.105.0)
+Requires-Dist: playwright (>=1.39.0,<2.0.0)
+Requires-Dist: pydantic (>=2.4.2,<3.0.0)
+Requires-Dist: pytest-asyncio (>=0.21.1,<0.22.0)
+Requires-Dist: uvicorn[standard] (>=0.23.2,<0.24.0)
+Description-Content-Type: text/markdown
+
+# Banana-lyzer
+The python project housing Banana-lyzer
+
+# Components/Folders
+### Data
+Stores evaluations and examples. Files are too large for GitHub so run `TODO: DATA COMMAND` to download them
+
+### Server
+Site hosting allowing for multiple different file formats
+
+### Runner
+Wrapper for pytest that will take in agent implementation and evaluations and run tests against the agent 
+
+### Main
+Fetches agent, fetches data, runs server in the background and runs runner instances against the server
+

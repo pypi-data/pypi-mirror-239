@@ -1,0 +1,8 @@
+hairgap_binaries/__init__.py,sha256=aKMPwN7DGcDC1o0XWsmE2LhHQANbAC3pvTTQAnFK3vk,2040
+hairgap_binaries/linux-x86_64-hairgapr,sha256=fHwjWBwIlPKHRfu6wjHn-iQZa4HcA-y_-vosukoKFNM,98768
+hairgap_binaries/linux-x86_64-hairgaps,sha256=DXPRz7LvgHhSt6tPFp67gI99k7c9RTbC43Y4PRjpDDo,99072
+hairgap_binaries/test_hairgap_binaries.py,sha256=7ZSwob6y7lGEgYEE7lVn2sH4XhOvVOSGeG5VNrmSo7k,2238
+hairgap_binaries-1.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+hairgap_binaries-1.1.0.dist-info/METADATA,sha256=qbBhfhrSkRZ_9AxBpU8U5ezfh4QFEsYEC5NQml74e-k,2297
+hairgap_binaries-1.1.0.dist-info/WHEEL,sha256=5cEDLREhpnNYpDlijc02-Q_4r7AkXMYW6R1JITTLLOQ,92
+hairgap_binaries-1.1.0.dist-info/RECORD,,

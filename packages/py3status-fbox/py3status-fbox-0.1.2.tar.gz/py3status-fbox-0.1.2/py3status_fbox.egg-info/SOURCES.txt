@@ -1,0 +1,8 @@
+README.md
+setup.py
+py3status_fbox.egg-info/PKG-INFO
+py3status_fbox.egg-info/SOURCES.txt
+py3status_fbox.egg-info/dependency_links.txt
+py3status_fbox.egg-info/entry_points.txt
+py3status_fbox.egg-info/requires.txt
+py3status_fbox.egg-info/top_level.txt

@@ -1,0 +1,10 @@
+invoke
+wheel
+freezegun
+model_bakery
+factory_boy
+faker
+types-freezegun
+mock
+flake8
+Pillow

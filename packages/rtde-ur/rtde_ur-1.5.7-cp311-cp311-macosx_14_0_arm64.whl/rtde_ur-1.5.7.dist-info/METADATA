@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: rtde-ur
+Version: 1.5.7
+Summary: Forked from ur-rtde. A Python interface for controlling and receiving data from a UR robot using the Real-Time Data Exchange (RTDE) interface of the robot. 
+Author: Kenneth Cassel
+Author-email: kenneth@reasonrobotics.ai
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+<div align="center">
+
+A fork of the [ur-rtde](https://gitlab.com/sdurobotics/ur_rtde) library from sdu robotics.
+
+Forked to add support for Python 3.11
+
+</div>

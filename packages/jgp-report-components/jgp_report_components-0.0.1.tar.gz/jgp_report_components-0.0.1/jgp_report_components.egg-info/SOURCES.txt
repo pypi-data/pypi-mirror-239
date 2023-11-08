@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+jgp_report_components/__init__.py
+jgp_report_components.egg-info/PKG-INFO
+jgp_report_components.egg-info/SOURCES.txt
+jgp_report_components.egg-info/dependency_links.txt
+jgp_report_components.egg-info/requires.txt
+jgp_report_components.egg-info/top_level.txt
+jgp_report_components/resources/img/logo_jgp.png
+jgp_report_components/template/__init__.py
+jgp_report_components/template/letter_portrait.py

@@ -1,0 +1,14 @@
+cgmetadata/__init__.py,sha256=hdvjHjIlATH6kThLN6Uee5GrfizGuL1ELE79pAmm-l0,363
+cgmetadata/__main__.py,sha256=wW9Li4s1p_H1tZatQX7rh6IDkhdz2OwZ4KIiZ3BaLDQ,95
+cgmetadata/_version.py,sha256=tmQgxezP6zPjYHTR_H_u3dxihFxAbzS0TNm9qIdq4HQ,50
+cgmetadata/cgmetadata.py,sha256=bSfBd5uybzsw9nrjv2N9PWvmYR-FTMl18vuSqLRy57Y,19614
+cgmetadata/classes.py,sha256=4Et1WztNg2C1vqFWGt-jz1seNo8bw5imSUUW6MjI8Sc,12265
+cgmetadata/cli.py,sha256=EGEbu461Lwy3fqizxqKK4j5BA8MPdJJLeEGQkZ_rK_E,4905
+cgmetadata/constants.py,sha256=d23b5m3_DpC3VogWAlH81XG1cn-B55DkHbwMK6_KLfE,313
+cgmetadata/types.py,sha256=X9UeJYwsrYIYZrOHwkaaWKFFjAhlGG6fm0gV9U3p44Y,479
+cgmetadata/utils.py,sha256=kt1bY0KqXCnilnuh1Lu4Apvg-9iOYQ79XQaaCpzPd9E,3608
+cgmetadata-0.1.2.dist-info/entry_points.txt,sha256=xrhP7j8b-FN1hEzkQDpq0Pefd8cFXQx3wABMNQ_mG3M,44
+cgmetadata-0.1.2.dist-info/LICENSE,sha256=urqnDM6ACCXwDjNbksDm0YFq9dmw5al6sQgXrrSsFQw,1070
+cgmetadata-0.1.2.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+cgmetadata-0.1.2.dist-info/METADATA,sha256=I7RP6CULCwDwrRBmBRZARIyEpinIcbo1wYA4I2UPjS0,4859
+cgmetadata-0.1.2.dist-info/RECORD,,

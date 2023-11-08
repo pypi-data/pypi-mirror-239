@@ -1,0 +1,2 @@
+[nbdev]
+calr = calr._modidx:d

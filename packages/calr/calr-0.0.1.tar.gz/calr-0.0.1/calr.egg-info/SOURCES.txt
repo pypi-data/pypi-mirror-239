@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+calr/__init__.py
+calr/_modidx.py
+calr/core.py
+calr.egg-info/PKG-INFO
+calr.egg-info/SOURCES.txt
+calr.egg-info/dependency_links.txt
+calr.egg-info/entry_points.txt
+calr.egg-info/not-zip-safe
+calr.egg-info/requires.txt
+calr.egg-info/top_level.txt

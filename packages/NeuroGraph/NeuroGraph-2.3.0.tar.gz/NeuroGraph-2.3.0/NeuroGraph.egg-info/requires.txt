@@ -1,0 +1,6 @@
+boto3
+nilearn
+nibabel
+networkx
+pandas
+sphinx_rtd_theme

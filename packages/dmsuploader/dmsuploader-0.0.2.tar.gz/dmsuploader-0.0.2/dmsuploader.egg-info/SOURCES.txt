@@ -1,0 +1,12 @@
+README.md
+setup.py
+dmsuploader/__init__.py
+dmsuploader/attributes.py
+dmsuploader/color_format.py
+dmsuploader/custom_logger.py
+dmsuploader/main.py
+dmsuploader.egg-info/PKG-INFO
+dmsuploader.egg-info/SOURCES.txt
+dmsuploader.egg-info/dependency_links.txt
+dmsuploader.egg-info/requires.txt
+dmsuploader.egg-info/top_level.txt

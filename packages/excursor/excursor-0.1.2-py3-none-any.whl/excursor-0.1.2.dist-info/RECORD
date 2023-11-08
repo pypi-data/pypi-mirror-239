@@ -1,0 +1,17 @@
+excursor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+excursor/core/_process.py,sha256=xEuRtH4vqQQNR07_0VDhS5qSUCLxXpVVcrAvv8fiAMk,5175
+excursor/core/_process_39.py,sha256=mCgdz2EZ1h2MgbAgVz3_hLobiJSX2swjRJ6NfosDFBE,4568
+excursor/core/http.py,sha256=yCegsDRyhP8mB6LGoZhkKQltw09A2wCbcrvzuARzI0E,249
+excursor/core/installer.py,sha256=nKbs_wJqQghkXIOR-uPnt28EpusJTRNmoqHoRhj5ty4,18050
+excursor/core/installer_39.py,sha256=Ql8A6pRD5CJLA0gO0fv6zfPUv7CLKs6AxSK70n3piHs,17472
+excursor/core/process.py,sha256=o7Yv2S_ut7aRkTXk0PP6xob6Aat7nl7APf-Wt--1G6g,437
+excursor/example_ds/data1.ndjson,sha256=33dCotw33ji2MAEAPG9ylb19gv9zHam4RqL0_HPwgeE,1666
+excursor/example_ds/data1_pretty.json,sha256=J93U9fi9xEScRo9zKeqIPMfDQNls0UiF2gSqdP4ps3s,1774
+excursor/func.py,sha256=0b-XbrST9oNl_43g8kDSJJDmqz87lPeoALxyfLzJt0Y,3400
+excursor/learn_ray.py,sha256=8vQISO1vCM7f35ptN0mPaHXJwDmp66WW2NPEN2oTedY,23
+excursor/scripts/install.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+excursor/services/datetime_svc.py,sha256=MwwCjDFI8nNmV64iDKhCZ7sVxVUd7Q_TGvtQORxOurE,1051
+excursor-0.1.2.dist-info/METADATA,sha256=B2JpraH8SNwVpJPh_NpyXA_uWOeeec-nAwV29vW3pBA,3131
+excursor-0.1.2.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+excursor-0.1.2.dist-info/entry_points.txt,sha256=NtWFADHPRPOMic6Qt7zsI_mnQrPveCKFZZiBccXRkcQ,96
+excursor-0.1.2.dist-info/RECORD,,

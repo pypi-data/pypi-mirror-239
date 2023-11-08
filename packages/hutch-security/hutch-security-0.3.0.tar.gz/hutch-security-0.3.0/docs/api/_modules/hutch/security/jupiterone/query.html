@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>hutch.security.jupiterone.query &mdash; Hutch-Security 0.2.0 documentation</title>
+      <link rel="stylesheet" href="../../../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../../../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../../../" id="documentation_options" src="../../../../_static/documentation_options.js"></script>
+        <script src="../../../../_static/jquery.js"></script>
+        <script src="../../../../_static/underscore.js"></script>
+        <script src="../../../../_static/doctools.js"></script>
+    <script src="../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../../../../index.html" class="icon icon-home"> Hutch-Security
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../hutch.html">hutch namespace</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../../hutch.html#subpackages">Subpackages</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../../hutch.security.html">security package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../../hutch.security.html#subpackages">Subpackages</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../../hutch.security.annotation.html">annotation package</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../../hutch.security.jupiterone.html">jupiterone package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../../hutch.security.jupiterone.html#submodules">Submodules</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../hutch.security.jupiterone.constants.html">constants module</a></li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../hutch.security.jupiterone.exceptions.html">exceptions module</a></li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../hutch.security.jupiterone.models.html">models module</a></li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../hutch.security.jupiterone.queries.html">queries module</a></li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../hutch.security.jupiterone.query.html">query module</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../../../../hutch.security.parsers.html">parsers package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../../hutch.security.parsers.html#submodules">Submodules</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../hutch.security.parsers.cloudtrail.html">cloudtrail module</a></li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../hutch.security.parsers.exceptions.html">exceptions module</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../../../../hutch.security.sumologic.html">sumologic package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../../hutch.security.sumologic.html#submodules">Submodules</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../hutch.security.sumologic.base.html">base module</a></li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../hutch.security.sumologic.constants.html">constants module</a></li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../hutch.security.sumologic.exceptions.html">exceptions module</a></li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../hutch.security.sumologic.models.html">models module</a></li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../hutch.security.sumologic.search.html">search module</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../index.html">Hutch-Security</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="../../../index.html">Module code</a> &raquo;</li>
+      <li>hutch.security.jupiterone.query</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <h1>Source code for hutch.security.jupiterone.query</h1><div class="highlight"><pre>
+<span></span><span class="sd">&quot;&quot;&quot;Provides JupiterOne query wrappers.&quot;&quot;&quot;</span>
+
+<span class="kn">import</span> <span class="nn">json</span>
+<span class="kn">import</span> <span class="nn">time</span>
+<span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">Any</span><span class="p">,</span> <span class="n">Dict</span><span class="p">,</span> <span class="n">Iterable</span><span class="p">,</span> <span class="n">Optional</span>
+
+<span class="kn">import</span> <span class="nn">jmespath</span>
+<span class="kn">import</span> <span class="nn">requests</span>
+
+<span class="kn">from</span> <span class="nn">hutch.security.jupiterone.constants</span> <span class="kn">import</span> <span class="p">(</span>
+    <span class="n">API_ENDPOINT</span><span class="p">,</span>
+    <span class="n">API_ENDPOINT_GRAPHQL</span><span class="p">,</span>
+    <span class="n">JMESPATH_J1QL_DATA</span><span class="p">,</span>
+    <span class="n">QUERY_J1QL_DEFERRED</span><span class="p">,</span>
+    <span class="n">STATUS_QUERY_IN_PROG</span><span class="p">,</span>
+<span class="p">)</span>
+<span class="kn">from</span> <span class="nn">hutch.security.jupiterone.exceptions</span> <span class="kn">import</span> <span class="n">QueryException</span><span class="p">,</span> <span class="n">QueryTimeout</span>
+<span class="kn">from</span> <span class="nn">hutch.security.jupiterone.models</span> <span class="kn">import</span> <span class="p">(</span>
+    <span class="n">DeferredQuery</span><span class="p">,</span>
+    <span class="n">DeferredQueryStatus</span><span class="p">,</span>
+    <span class="n">QueryResponse</span><span class="p">,</span>
+<span class="p">)</span>
+
+
+<div class="viewcode-block" id="Client"><a class="viewcode-back" href="../../../../hutch.security.jupiterone.query.html#hutch.security.jupiterone.query.Client">[docs]</a><span class="k">class</span> <span class="nc">Client</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;Provides a JupiterOne query client.&quot;&quot;&quot;</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">account</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">token</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">api_url</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="n">API_ENDPOINT</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Initialise a JupiterOne query client.</span>
+
+<span class="sd">        :param account: The JupiterOne account ID to authenticate with.</span>
+<span class="sd">        :param token: The JupiterOne token to authenticate with.</span>
+<span class="sd">        :param api_url: The JupiterOne API endpoint to interact with.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">api</span> <span class="o">=</span> <span class="n">api_url</span><span class="o">.</span><span class="n">rstrip</span><span class="p">(</span><span class="s2">&quot;/&quot;</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">headers</span> <span class="o">=</span> <span class="p">{</span>
+            <span class="s2">&quot;Authorization&quot;</span><span class="p">:</span> <span class="sa">f</span><span class="s2">&quot;Bearer </span><span class="si">{</span><span class="n">token</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;LifeOmic-Account&quot;</span><span class="p">:</span> <span class="n">account</span><span class="p">,</span>
+        <span class="p">}</span>
+
+    <span class="k">def</span> <span class="nf">_parse_graphql_errors</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">body</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Parses errors from a GraphQL response, returning a string.</span>
+
+<span class="sd">        This method accepts a string, rather than JSON, as it may be called in exception</span>
+<span class="sd">        handlers where attempts to call .json() on a response object would also need</span>
+<span class="sd">        to be handled.</span>
+
+<span class="sd">        :param response: The response from the API as a string.</span>
+
+<span class="sd">        :return: A string containing errors encountered.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">response</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span><span class="n">body</span><span class="p">)</span>
+            <span class="n">errors</span> <span class="o">=</span> <span class="n">response</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;errors&quot;</span><span class="p">,</span> <span class="p">[])</span>
+        <span class="k">except</span> <span class="n">json</span><span class="o">.</span><span class="n">JSONDecodeError</span><span class="p">:</span>
+            <span class="k">return</span> <span class="s2">&quot;&quot;</span>
+
+        <span class="k">return</span> <span class="s2">&quot;, &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">error</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;message&quot;</span><span class="p">)</span> <span class="k">for</span> <span class="n">error</span> <span class="ow">in</span> <span class="n">errors</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">_get</span><span class="p">(</span>
+        <span class="bp">self</span><span class="p">,</span>
+        <span class="n">uri</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
+        <span class="n">headers</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Any</span><span class="p">]]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+        <span class="n">params</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Any</span><span class="p">]]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+    <span class="p">)</span> <span class="o">-&gt;</span> <span class="n">requests</span><span class="o">.</span><span class="n">Response</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Performs an HTTP GET request.</span>
+
+<span class="sd">        This method wraps requests to ensure application / GraphQL errors are returned</span>
+<span class="sd">        as part of the exception.</span>
+
+<span class="sd">        :param url: URL to perform the HTTP GET against.</span>
+<span class="sd">        :param headers: Dictionary of headers to add to the request.</span>
+<span class="sd">        :param payload: Dictionary of data to pass as JSON in the request.</span>
+<span class="sd">        :param params: HTTP parameters to add to the request.</span>
+
+<span class="sd">        :return: A requests Response object.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">uri</span><span class="p">,</span> <span class="n">headers</span><span class="o">=</span><span class="n">headers</span><span class="p">,</span> <span class="n">params</span><span class="o">=</span><span class="n">params</span><span class="p">)</span>
+            <span class="n">response</span><span class="o">.</span><span class="n">raise_for_status</span><span class="p">()</span>
+        <span class="k">except</span> <span class="n">requests</span><span class="o">.</span><span class="n">exceptions</span><span class="o">.</span><span class="n">RequestException</span> <span class="k">as</span> <span class="n">err</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="n">QueryException</span><span class="p">(</span><span class="n">err</span><span class="p">)</span> <span class="kn">from</span> <span class="bp">None</span>
+
+        <span class="c1"># Parse out any application errors and raise an exception if present.</span>
+        <span class="n">errors</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_parse_graphql_errors</span><span class="p">(</span><span class="n">response</span><span class="o">.</span><span class="n">text</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">errors</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="n">QueryException</span><span class="p">(</span><span class="n">errors</span><span class="p">)</span> <span class="kn">from</span> <span class="bp">None</span>
+
+        <span class="k">return</span> <span class="n">response</span>
+
+    <span class="k">def</span> <span class="nf">_post</span><span class="p">(</span>
+        <span class="bp">self</span><span class="p">,</span>
+        <span class="n">uri</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
+        <span class="n">headers</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Any</span><span class="p">]]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+        <span class="n">payload</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Any</span><span class="p">]]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+        <span class="n">params</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Any</span><span class="p">]]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+    <span class="p">)</span> <span class="o">-&gt;</span> <span class="n">requests</span><span class="o">.</span><span class="n">Response</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Performs an HTTP POST request.</span>
+
+<span class="sd">        This method wraps requests to ensure application / GraphQL errors are returned</span>
+<span class="sd">        as part of the exception.</span>
+
+<span class="sd">        :param url: URL to perform the HTTP GET against.</span>
+<span class="sd">        :param headers: Dictionary of headers to add to the request.</span>
+<span class="sd">        :param payload: Dictionary of data to pass as JSON in the request.</span>
+<span class="sd">        :param params: HTTP parameters to add to the request.</span>
+
+<span class="sd">        :return: A requests Response object.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">post</span><span class="p">(</span><span class="n">uri</span><span class="p">,</span> <span class="n">headers</span><span class="o">=</span><span class="n">headers</span><span class="p">,</span> <span class="n">json</span><span class="o">=</span><span class="n">payload</span><span class="p">,</span> <span class="n">params</span><span class="o">=</span><span class="n">params</span><span class="p">)</span>
+            <span class="n">response</span><span class="o">.</span><span class="n">raise_for_status</span><span class="p">()</span>
+        <span class="k">except</span> <span class="n">requests</span><span class="o">.</span><span class="n">exceptions</span><span class="o">.</span><span class="n">RequestException</span> <span class="k">as</span> <span class="n">err</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="n">QueryException</span><span class="p">(</span><span class="n">err</span><span class="p">)</span> <span class="kn">from</span> <span class="bp">None</span>
+
+        <span class="c1"># Parse out any application errors and raise an exception if present.</span>
+        <span class="n">errors</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_parse_graphql_errors</span><span class="p">(</span><span class="n">response</span><span class="o">.</span><span class="n">text</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">errors</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="n">QueryException</span><span class="p">(</span><span class="n">errors</span><span class="p">)</span> <span class="kn">from</span> <span class="bp">None</span>
+
+        <span class="k">return</span> <span class="n">response</span>
+
+<div class="viewcode-block" id="Client.deferred_status"><a class="viewcode-back" href="../../../../hutch.security.jupiterone.query.html#hutch.security.jupiterone.query.Client.deferred_status">[docs]</a>    <span class="k">def</span> <span class="nf">deferred_status</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">status_url</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">DeferredQueryStatus</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Returns the status of a deferred query.</span>
+
+<span class="sd">        :param status_url: The status URL of the deferred query.</span>
+
+<span class="sd">        :return: A deferred query status object.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">status</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_get</span><span class="p">(</span><span class="n">status_url</span><span class="p">)</span>
+        <span class="k">except</span> <span class="n">QueryException</span> <span class="k">as</span> <span class="n">err</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="n">QueryException</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Failed to get results for query: </span><span class="si">{</span><span class="n">err</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span> <span class="kn">from</span> <span class="bp">None</span>
+
+        <span class="c1"># Return the deferred query status.</span>
+        <span class="k">return</span> <span class="n">DeferredQueryStatus</span><span class="p">(</span><span class="n">status_url</span><span class="o">=</span><span class="n">status_url</span><span class="p">,</span> <span class="o">**</span><span class="n">status</span><span class="o">.</span><span class="n">json</span><span class="p">())</span></div>
+
+<div class="viewcode-block" id="Client.deferred"><a class="viewcode-back" href="../../../../hutch.security.jupiterone.query.html#hutch.security.jupiterone.query.Client.deferred">[docs]</a>    <span class="k">def</span> <span class="nf">deferred</span><span class="p">(</span>
+        <span class="bp">self</span><span class="p">,</span>
+        <span class="n">query</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
+        <span class="n">cursor</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+        <span class="n">include_deleted</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span><span class="p">,</span>
+    <span class="p">)</span> <span class="o">-&gt;</span> <span class="n">DeferredQuery</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Performs a deferred query, returning a deferred query object.</span>
+
+<span class="sd">        :param query: The JupiterOne query to execute.</span>
+<span class="sd">        :param cursor: The cursor for the next page of results to fetch, returned from</span>
+<span class="sd">            a previous query.</span>
+<span class="sd">        :param include_deleted: Whether to include &#39;recently deleted&#39; objects from</span>
+<span class="sd">            JupiterOne.</span>
+
+<span class="sd">        :return: A deferred query object.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">endpoint</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">api</span><span class="si">}{</span><span class="n">API_ENDPOINT_GRAPHQL</span><span class="si">}</span><span class="s2">&quot;</span>
+
+        <span class="c1"># It&#39;s a little confusing, but the query provided by the user is actually a</span>
+        <span class="c1"># variable passed to the canned J1QL_DEFERRED GraphQL query. Additionally,</span>
+        <span class="c1"># all original parameters must be provided when cursing / paging over results.</span>
+        <span class="n">payload</span> <span class="o">=</span> <span class="p">{</span>
+            <span class="s2">&quot;query&quot;</span><span class="p">:</span> <span class="n">QUERY_J1QL_DEFERRED</span><span class="p">,</span>
+            <span class="s2">&quot;variables&quot;</span><span class="p">:</span> <span class="p">{</span>
+                <span class="s2">&quot;query&quot;</span><span class="p">:</span> <span class="n">query</span><span class="p">,</span>
+                <span class="s2">&quot;cursor&quot;</span><span class="p">:</span> <span class="n">cursor</span><span class="p">,</span>
+                <span class="s2">&quot;includeDeleted&quot;</span><span class="p">:</span> <span class="n">include_deleted</span><span class="p">,</span>
+                <span class="s2">&quot;deferredResponse&quot;</span><span class="p">:</span> <span class="s2">&quot;FORCE&quot;</span><span class="p">,</span>
+            <span class="p">},</span>
+        <span class="p">}</span>
+
+        <span class="c1"># Schedule the query.</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">schedule</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_post</span><span class="p">(</span><span class="n">endpoint</span><span class="p">,</span> <span class="n">headers</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">headers</span><span class="p">,</span> <span class="n">payload</span><span class="o">=</span><span class="n">payload</span><span class="p">)</span>
+        <span class="k">except</span> <span class="n">QueryException</span> <span class="k">as</span> <span class="n">err</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="n">QueryException</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Failed to submit query to J1: </span><span class="si">{</span><span class="n">err</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span> <span class="kn">from</span> <span class="bp">None</span>
+
+        <span class="c1"># Return a deferred query object, rather than querying for status and returning</span>
+        <span class="c1"># a status object. This is done as the J1 API doesn&#39;t appear to allow returning</span>
+        <span class="c1"># the original query as part of a GraphQL response, and requires that the</span>
+        <span class="c1"># original query be specified when paging over results.</span>
+        <span class="n">status</span> <span class="o">=</span> <span class="n">jmespath</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="n">JMESPATH_J1QL_DATA</span><span class="p">,</span> <span class="n">schedule</span><span class="o">.</span><span class="n">json</span><span class="p">())</span>
+
+        <span class="k">return</span> <span class="n">DeferredQuery</span><span class="p">(</span>
+            <span class="n">query</span><span class="o">=</span><span class="n">query</span><span class="p">,</span>
+            <span class="n">include_deleted</span><span class="o">=</span><span class="n">include_deleted</span><span class="p">,</span>
+            <span class="n">status_url</span><span class="o">=</span><span class="n">status</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;url&quot;</span><span class="p">),</span>
+        <span class="p">)</span></div>
+
+<div class="viewcode-block" id="Client.query"><a class="viewcode-back" href="../../../../hutch.security.jupiterone.query.html#hutch.security.jupiterone.query.Client.query">[docs]</a>    <span class="k">def</span> <span class="nf">query</span><span class="p">(</span>
+        <span class="bp">self</span><span class="p">,</span>
+        <span class="n">query</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
+        <span class="n">cursor</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+        <span class="n">interval</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">5</span><span class="p">,</span>
+        <span class="n">timeout</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">300</span><span class="p">,</span>
+        <span class="n">include_deleted</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span><span class="p">,</span>
+    <span class="p">)</span> <span class="o">-&gt;</span> <span class="n">QueryResponse</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Syncronously performs a JupiterOne search, returning a response object.</span>
+
+<span class="sd">        :param query: The JupiterOne query to execute.</span>
+<span class="sd">        :param cursor: The cursor to use when retrieving results, used for pagination.</span>
+<span class="sd">        :param timeout: The maximum time to wait for results (in seconds).</span>
+<span class="sd">        :param interval: The time to wait between requests to the API to check query</span>
+<span class="sd">            status, in seconds.</span>
+<span class="sd">        :param include_deleted: Whether to include &#39;recently deleted&#39; objects from</span>
+<span class="sd">            JupiterOne.</span>
+
+<span class="sd">        :return: A Query response object.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">time_start</span> <span class="o">=</span> <span class="n">time</span><span class="o">.</span><span class="n">time</span><span class="p">()</span>
+
+        <span class="c1"># Schedule the query, and poll for status change. All queries use the deferred</span>
+        <span class="c1"># API, as otherwise long queries will timeout.</span>
+        <span class="n">scheduled</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">deferred</span><span class="p">(</span><span class="n">query</span><span class="p">,</span> <span class="n">cursor</span><span class="o">=</span><span class="n">cursor</span><span class="p">,</span> <span class="n">include_deleted</span><span class="o">=</span><span class="n">include_deleted</span><span class="p">)</span>
+
+        <span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
+            <span class="k">try</span><span class="p">:</span>
+                <span class="n">status</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">deferred_status</span><span class="p">(</span><span class="n">scheduled</span><span class="o">.</span><span class="n">status_url</span><span class="p">)</span>
+            <span class="k">except</span> <span class="n">QueryException</span> <span class="k">as</span> <span class="n">err</span><span class="p">:</span>
+                <span class="k">raise</span> <span class="n">QueryException</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Failed to get status for query: </span><span class="si">{</span><span class="n">err</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span> <span class="kn">from</span> <span class="bp">None</span>
+
+            <span class="c1"># Check if the query has complete.</span>
+            <span class="k">if</span> <span class="n">status</span><span class="o">.</span><span class="n">status</span> <span class="o">!=</span> <span class="n">STATUS_QUERY_IN_PROG</span><span class="p">:</span>
+                <span class="k">break</span>
+
+            <span class="c1"># Wait and check for timeout.</span>
+            <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="n">interval</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">time</span><span class="o">.</span><span class="n">time</span><span class="p">()</span> <span class="o">-</span> <span class="n">time_start</span> <span class="o">&gt;</span> <span class="n">timeout</span><span class="p">:</span>
+                <span class="n">message</span> <span class="o">=</span> <span class="s2">&quot;Search did not complete before a client timeout was reached.&quot;</span>
+                <span class="k">raise</span> <span class="n">QueryTimeout</span><span class="p">(</span><span class="n">message</span><span class="p">)</span> <span class="kn">from</span> <span class="bp">None</span>
+
+        <span class="c1"># Fetch and return a results object. Note: this final request falls outside</span>
+        <span class="c1"># of the timeout block, as the results are ready, we just need to get them.</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">results</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_get</span><span class="p">(</span><span class="n">status</span><span class="o">.</span><span class="n">url</span><span class="p">)</span>
+        <span class="k">except</span> <span class="n">QueryException</span> <span class="k">as</span> <span class="n">err</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="n">QueryException</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Failed to get results for query: </span><span class="si">{</span><span class="n">err</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span> <span class="kn">from</span> <span class="bp">None</span>
+
+        <span class="c1"># Generate results and return to the caller. Note: It&#39;s up to the caller to</span>
+        <span class="c1"># paginate, to reduce memory footprint.</span>
+        <span class="n">data</span> <span class="o">=</span> <span class="n">results</span><span class="o">.</span><span class="n">json</span><span class="p">()</span>
+
+        <span class="k">return</span> <span class="n">QueryResponse</span><span class="p">(</span>
+            <span class="n">query</span><span class="o">=</span><span class="n">query</span><span class="p">,</span>
+            <span class="n">count</span><span class="o">=</span><span class="n">data</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;totalCount&quot;</span><span class="p">),</span>
+            <span class="n">cursor</span><span class="o">=</span><span class="n">data</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;cursor&quot;</span><span class="p">,</span> <span class="kc">None</span><span class="p">),</span>
+            <span class="n">results</span><span class="o">=</span><span class="n">data</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;data&quot;</span><span class="p">,</span> <span class="p">[]),</span>
+            <span class="n">include_deleted</span><span class="o">=</span><span class="n">include_deleted</span><span class="p">,</span>
+        <span class="p">)</span></div>
+
+<div class="viewcode-block" id="Client.perform"><a class="viewcode-back" href="../../../../hutch.security.jupiterone.query.html#hutch.security.jupiterone.query.Client.perform">[docs]</a>    <span class="k">def</span> <span class="nf">perform</span><span class="p">(</span>
+        <span class="bp">self</span><span class="p">,</span>
+        <span class="n">query</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
+        <span class="n">interval</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">5</span><span class="p">,</span>
+        <span class="n">timeout</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">300</span><span class="p">,</span>
+        <span class="n">include_deleted</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span><span class="p">,</span>
+    <span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Iterable</span><span class="p">[</span><span class="n">QueryResponse</span><span class="p">]:</span>
+        <span class="sd">&quot;&quot;&quot;Perform a query and page over results until there are none left.</span>
+
+<span class="sd">        :param query: The JupiterOne query to execute.</span>
+<span class="sd">        :param timeout: The maximum time to wait for results (in seconds).</span>
+<span class="sd">        :param interval: The time to wait between requests to the API to check query</span>
+<span class="sd">            status, in seconds.</span>
+<span class="sd">        :param include_deleted: Whether to include &#39;recently deleted&#39; objects from</span>
+<span class="sd">            JupiterOne.</span>
+
+<span class="sd">        This is the simplest way to use this library, as results will be returned until</span>
+<span class="sd">        no more results are available.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="c1"># Query for the first page of results, and then loop until no more pages are</span>
+        <span class="c1"># returned.</span>
+        <span class="n">result</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">query</span><span class="p">(</span>
+            <span class="n">query</span><span class="o">=</span><span class="n">query</span><span class="p">,</span>
+            <span class="n">timeout</span><span class="o">=</span><span class="n">timeout</span><span class="p">,</span>
+            <span class="n">interval</span><span class="o">=</span><span class="n">interval</span><span class="p">,</span>
+            <span class="n">include_deleted</span><span class="o">=</span><span class="n">include_deleted</span><span class="p">,</span>
+        <span class="p">)</span>
+
+        <span class="k">while</span> <span class="n">result</span><span class="o">.</span><span class="n">cursor</span><span class="p">:</span>
+            <span class="k">yield</span> <span class="n">result</span>
+
+            <span class="c1"># Grab the next page.</span>
+            <span class="n">result</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">query</span><span class="p">(</span>
+                <span class="n">cursor</span><span class="o">=</span><span class="n">result</span><span class="o">.</span><span class="n">cursor</span><span class="p">,</span>
+                <span class="n">query</span><span class="o">=</span><span class="n">query</span><span class="p">,</span>
+                <span class="n">timeout</span><span class="o">=</span><span class="n">timeout</span><span class="p">,</span>
+                <span class="n">interval</span><span class="o">=</span><span class="n">interval</span><span class="p">,</span>
+                <span class="n">include_deleted</span><span class="o">=</span><span class="n">include_deleted</span><span class="p">,</span>
+            <span class="p">)</span>
+
+        <span class="c1"># Yield the final page.</span>
+        <span class="k">yield</span> <span class="n">result</span></div></div>
+</pre></div>
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright Copyright 2022 HashiCorp, Inc..</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

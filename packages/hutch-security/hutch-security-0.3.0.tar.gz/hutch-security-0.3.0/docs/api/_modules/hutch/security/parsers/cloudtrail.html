@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>hutch.security.parsers.cloudtrail &mdash; Hutch-Security 0.2.0 documentation</title>
+      <link rel="stylesheet" href="../../../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../../../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../../../" id="documentation_options" src="../../../../_static/documentation_options.js"></script>
+        <script src="../../../../_static/jquery.js"></script>
+        <script src="../../../../_static/underscore.js"></script>
+        <script src="../../../../_static/doctools.js"></script>
+    <script src="../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../../../../index.html" class="icon icon-home"> Hutch-Security
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../hutch.html">hutch namespace</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../../hutch.html#subpackages">Subpackages</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../../hutch.security.html">security package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../../hutch.security.html#subpackages">Subpackages</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../../hutch.security.annotation.html">annotation package</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../../hutch.security.jupiterone.html">jupiterone package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../../hutch.security.jupiterone.html#submodules">Submodules</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../hutch.security.jupiterone.constants.html">constants module</a></li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../hutch.security.jupiterone.exceptions.html">exceptions module</a></li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../hutch.security.jupiterone.models.html">models module</a></li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../hutch.security.jupiterone.queries.html">queries module</a></li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../hutch.security.jupiterone.query.html">query module</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../../../../hutch.security.parsers.html">parsers package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../../hutch.security.parsers.html#submodules">Submodules</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../hutch.security.parsers.cloudtrail.html">cloudtrail module</a></li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../hutch.security.parsers.exceptions.html">exceptions module</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="../../../../hutch.security.sumologic.html">sumologic package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="../../../../hutch.security.sumologic.html#submodules">Submodules</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="../../../../hutch.security.sumologic.base.html">base module</a></li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../hutch.security.sumologic.constants.html">constants module</a></li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../hutch.security.sumologic.exceptions.html">exceptions module</a></li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../hutch.security.sumologic.models.html">models module</a></li>
+<li class="toctree-l7"><a class="reference internal" href="../../../../hutch.security.sumologic.search.html">search module</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../index.html">Hutch-Security</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="../../../index.html">Module code</a> &raquo;</li>
+      <li>hutch.security.parsers.cloudtrail</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <h1>Source code for hutch.security.parsers.cloudtrail</h1><div class="highlight"><pre>
+<span></span><span class="sd">&quot;&quot;&quot;Provides parsers for extraction of fields from AWS cloudtrail data.&quot;&quot;&quot;</span>
+
+<span class="kn">import</span> <span class="nn">json</span>
+
+<span class="kn">import</span> <span class="nn">jmespath</span>
+
+<span class="kn">from</span> <span class="nn">hutch.security.parsers.exceptions</span> <span class="kn">import</span> <span class="n">FieldNotFoundException</span>
+
+
+<div class="viewcode-block" id="user_identity"><a class="viewcode-back" href="../../../../hutch.security.parsers.cloudtrail.html#hutch.security.parsers.cloudtrail.user_identity">[docs]</a><span class="k">def</span> <span class="nf">user_identity</span><span class="p">(</span><span class="n">trail</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;Attempts to extract a valid user identity from a trail.</span>
+
+<span class="sd">    :param trail: An AWS CloudTrail trail as JSON.</span>
+
+<span class="sd">    :return: The extracted user identity.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">haystack</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span><span class="n">trail</span><span class="p">)</span>
+
+    <span class="c1"># If we have a source identity, we should preference it.</span>
+    <span class="n">source_identity</span> <span class="o">=</span> <span class="n">jmespath</span><span class="o">.</span><span class="n">search</span><span class="p">(</span>
+        <span class="s2">&quot;userIdentity.sessionContext.sourceIdentity&quot;</span><span class="p">,</span>
+        <span class="n">haystack</span><span class="p">,</span>
+    <span class="p">)</span>
+    <span class="k">if</span> <span class="n">source_identity</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">source_identity</span>
+
+    <span class="c1"># Otherwise, try and parse a user from the principal.</span>
+    <span class="n">principal_id</span> <span class="o">=</span> <span class="n">jmespath</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="s2">&quot;userIdentity.principalId&quot;</span><span class="p">,</span> <span class="n">haystack</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">principal_id</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">principal_id</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;:&quot;</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span>
+
+    <span class="k">raise</span> <span class="n">FieldNotFoundException</span><span class="p">(</span><span class="s2">&quot;Could not extract a user identity from trail&quot;</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="asg_name"><a class="viewcode-back" href="../../../../hutch.security.parsers.cloudtrail.html#hutch.security.parsers.cloudtrail.asg_name">[docs]</a><span class="k">def</span> <span class="nf">asg_name</span><span class="p">(</span><span class="n">trail</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;Attempts to extract an Auto Scaling Group name from a trail.</span>
+
+<span class="sd">    :param trail: An AWS CloudTrail trail as JSON.</span>
+
+<span class="sd">    :return: The extracted ASG name.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">haystack</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span><span class="n">trail</span><span class="p">)</span>
+
+    <span class="c1"># Auto Scaling group names are pulled from tags.</span>
+    <span class="n">tags</span> <span class="o">=</span> <span class="n">jmespath</span><span class="o">.</span><span class="n">search</span><span class="p">(</span>
+        <span class="s2">&quot;requestParameters.tagSpecificationSet.items[].tags[]&quot;</span><span class="p">,</span>
+        <span class="n">haystack</span><span class="p">,</span>
+    <span class="p">)</span>
+
+    <span class="k">if</span> <span class="n">tags</span><span class="p">:</span>
+        <span class="k">for</span> <span class="n">tag</span> <span class="ow">in</span> <span class="n">tags</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">tag</span><span class="p">[</span><span class="s2">&quot;key&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;aws:autoscaling:groupName&quot;</span><span class="p">:</span>
+                <span class="k">return</span> <span class="n">tag</span><span class="p">[</span><span class="s2">&quot;value&quot;</span><span class="p">]</span>
+
+    <span class="k">raise</span> <span class="n">FieldNotFoundException</span><span class="p">(</span>
+        <span class="s2">&quot;Could not extract an Auto Scaling Group name from trail&quot;</span>
+    <span class="p">)</span></div>
+</pre></div>
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright Copyright 2022 HashiCorp, Inc..</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -1,0 +1,143 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hutch-security"
+readme = "README.md"
+description = "Security Engineering Toolkit."
+requires-python = ">=3.7"
+dynamic = ["version"]
+authors = [
+    {name = "HashiCorp Security (Security Engineering)" },
+]
+license = {text = "MPL-2.0"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "sumologic-sdk",
+    "requests",
+    "pydantic",
+    "jmespath",
+]
+
+[tool.setuptools]
+packages = ["hutch.security"]
+
+[project.optional-dependencies]
+tests = [
+    "black",
+    "coverage",
+    "ruff",
+    "types-setuptools",
+    "mypy",
+    "pip-tools",
+    "mock",
+    "pytest",
+    "pytest-cov",
+    "responses",
+    "tox",
+    "sphinx",
+    "furo",
+]
+
+[tool.setuptools.dynamic]
+version = {attr = "hutch.security.__about__.__version__"}
+
+[tool.mypy]
+files = [
+    "./hutch/**/*.py",
+    "./tests/**/*.py"
+]
+allow_redefinition = false
+check_untyped_defs = true
+disallow_any_generics = true
+disallow_untyped_calls = false
+ignore_errors = false
+ignore_missing_imports = true
+implicit_reexport = false
+local_partial_types = true
+strict_optional = true
+strict_equality = true
+no_implicit_optional = true
+warn_no_return = true
+warn_unused_ignores = true
+warn_redundant_casts = true
+warn_unused_configs = true
+warn_unreachable = true
+
+[tool.black]
+line-length = 88
+
+[tool.ruff]
+line-length = 88
+select = [
+    "B",  # Bugbear.
+    "E",  # pycodestyle.
+    "W",  # pycodestyle.
+    "F",  # pyflakes.
+    "S",  # bandit.
+    "D",  # pydocstyle.
+]
+ignore = [
+    
+    "B904",  # Exception chaining is automatic inside of except blocks.
+    "B028",  # Don't prefer !r / !s in string interpolation. 
+    "E203",  # See https://github.com/PyCQA/pycodestyle/issues/373.
+    "E266",  # Ignore too many leading '#' for block comment.
+    "E501",  # Ignore Line too long (82 > 79) in favor of bugbear.
+    "D213",  # Ignore multi-line docstring should start at the second line.
+    "D203",  # Ignore 1 blank line required before/after class docstring and summary.
+    "D204",  # Ignore 1 blank line required before/after class docstring and summary.
+    "D205",  # Ignore 1 blank line required before/after class docstring and summary.
+    "D212",  # Ignore multi-line docstring summary should start at the first line.
+    "D400",  # Ignore First line should end with a period.
+    "D401",  # Ignore First line should be in imperative mood.
+]
+
+[tool.pytest.ini_options]
+junit_family = "xunit2"
+norecursedirs = ".*"
+self-contained-html = true
+testpaths = [
+    "tests"
+]
+addopts = """
+    --strict
+    --tb=auto
+    --cov=hutch.security
+    --cov-report=term-missing:skip-covered
+    --cov-branch
+    -p no:doctest
+    -p no:warnings
+    -s
+"""
+
+[tool.tox]
+legacy_tox_ini = """
+    [tox]
+    envlist = linters,py3
+
+    [testenv]
+    extras = tests
+    srcs = hutch
+    use_develop = true
+
+    [testenv:linters]
+    commands =
+        {[testenv:ruff]commands}
+        # {[testenv:mypy]commands}
+
+    [testenv:py3]
+    commands =
+        pytest -c pyproject.toml {posargs}
+
+    [testenv:ruff]
+    commands =
+        ruff check {[testenv]srcs}
+
+    [testenv:mypy]
+    commands =
+        mypy --config-file pyproject.toml -p {[testenv]srcs}
+"""

@@ -1,0 +1,207 @@
+{
+    "eventVersion": "1.08",
+    "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AROAAAAAAAAAAAAAAAAA:AutoScaling",
+        "arn": "arn:aws:sts::012345678912:assumed-role/AWSServiceRoleForAutoScaling/AutoScaling",
+        "accountId": "012345678912",
+        "sessionContext": {
+            "sessionIssuer": {
+                "type": "Role",
+                "principalId": "AROAAAAAAAAAAAAAAAAA",
+                "arn": "arn:aws:iam::012345678912:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling",
+                "accountId": "012345678912",
+                "userName": "AWSServiceRoleForAutoScaling"
+            },
+            "webIdFederationData": {},
+            "attributes": {
+                "creationDate": "2022-01-25T13:47:53Z",
+                "mfaAuthenticated": "false"
+            }
+        },
+        "invokedBy": "autoscaling.amazonaws.com"
+    },
+    "eventTime": "2022-01-25T13:47:55Z",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "RunInstances",
+    "awsRegion": "us-east-1",
+    "sourceIPAddress": "autoscaling.amazonaws.com",
+    "userAgent": "autoscaling.amazonaws.com",
+    "requestParameters": {
+        "instancesSet": {
+            "items": [{
+                "imageId": "ami-c0ffeec0ffeec0ffe",
+                "minCount": 1,
+                "maxCount": 1,
+                "keyName": "ssh"
+            }]
+        },
+        "userData": "<sensitiveDataRemoved>",
+        "instanceType": "t2.micro",
+        "blockDeviceMapping": {},
+        "availabilityZone": "us-east-1c",
+        "monitoring": {
+            "enabled": true
+        },
+        "disableApiTermination": false,
+        "disableApiStop": false,
+        "clientToken": "2f2e54be-7ecc-4445-ac94-21465a53aec4",
+        "networkInterfaceSet": {
+            "items": [{
+                "deviceIndex": 0,
+                "subnetId": "subnet-ccccccccccccccccc",
+                "associatePublicIpAddress": true,
+                "groupSet": {
+                    "items": [{
+                        "groupId": "sg-ddddddddddddddddd"
+                    }]
+                }
+            }]
+        },
+        "iamInstanceProfile": {
+            "name": "thinger-202301251400"
+        },
+        "tagSpecificationSet": {
+            "items": [{
+                "resourceType": "instance",
+                "tags": [{
+                    "key": "aws:autoscaling:groupName",
+                    "value": "test-asg"
+                }, {
+                    "key": "AmazonECSManaged"
+                }]
+            }]
+        }
+    },
+    "responseElements": {
+        "requestId": "81ffff0e-6811-4d48-b58b-6b1486ae68e9",
+        "reservationId": "r-123abc123abc123ab",
+        "ownerId": "012345678912",
+        "groupSet": {},
+        "instancesSet": {
+            "items": [{
+                "instanceId": "i-2acbacbacbacbacb1",
+                "imageId": "ami-cabcab1cabcab1cab",
+                "instanceState": {
+                    "code": 0,
+                    "name": "pending"
+                },
+                "privateDnsName": "ip-192-0-2-1.ec2.internal",
+                "keyName": "ssh",
+                "amiLaunchIndex": 0,
+                "productCodes": {},
+                "instanceType": "t2.micro",
+                "launchTime": 1643118474000,
+                "placement": {
+                    "availabilityZone": "us-east-1c",
+                    "tenancy": "default"
+                },
+                "monitoring": {
+                    "state": "pending"
+                },
+                "subnetId": "subnet-2dbcdbcdbcdbcdbc1",
+                "vpcId": "vpc-2fedfedfedfedfed1",
+                "privateIpAddress": "192.0.2.1",
+                "stateReason": {
+                    "code": "pending",
+                    "message": "pending"
+                },
+                "architecture": "x86_64",
+                "rootDeviceType": "ebs",
+                "rootDeviceName": "/dev/xvda",
+                "blockDeviceMapping": {},
+                "virtualizationType": "hvm",
+                "hypervisor": "xen",
+                "tagSet": {
+                    "items": [{
+                        "key": "AmazonECSManaged"
+                    }, {
+                        "key": "aws:autoscaling:groupName",
+                        "value": "test-asg"
+                    }]
+                },
+                "clientToken": "2f2e54be-7ecc-4445-ac94-21465a53aec4",
+                "groupSet": {
+                    "items": [{
+                        "groupId": "sg-21dededededefdef1",
+                        "groupName": "allow-all-ec2"
+                    }]
+                },
+                "sourceDestCheck": true,
+                "networkInterfaceSet": {
+                    "items": [{
+                        "networkInterfaceId": "eni-1234123412341234a",
+                        "subnetId": "subnet-2dbcdbcdbcdbcdbc1",
+                        "vpcId": "vpc-2fedfedfedfedfed1",
+                        "ownerId": "012345678912",
+                        "status": "in-use",
+                        "macAddress": "12:d2:d1:b9:6b:5f",
+                        "privateIpAddress": "192.0.2.1",
+                        "sourceDestCheck": true,
+                        "interfaceType": "interface",
+                        "groupSet": {
+                            "items": [{
+                                "groupId": "sg-21dededededefdef1",
+                                "groupName": "allow-all-ec2"
+                            }]
+                        },
+                        "attachment": {
+                            "attachmentId": "eni-attach-234234234234324de",
+                            "deviceIndex": 0,
+                            "networkCardIndex": 0,
+                            "status": "attaching",
+                            "attachTime": 1643118474000,
+                            "deleteOnTermination": true
+                        },
+                        "privateIpAddressesSet": {
+                            "item": [{
+                                "privateIpAddress": "192.0.2.1",
+                                "primary": true
+                            }]
+                        },
+                        "ipv6AddressesSet": {},
+                        "tagSet": {}
+                    }]
+                },
+                "iamInstanceProfile": {
+                    "arn": "arn:aws:iam::012345678912:instance-profile/thinger-202301251400",
+                    "id": "AIPAEEEEEEEEEEEEEEEEE"
+                },
+                "ebsOptimized": false,
+                "enaSupport": true,
+                "cpuOptions": {
+                    "coreCount": 1,
+                    "threadsPerCore": 1
+                },
+                "capacityReservationSpecification": {
+                    "capacityReservationPreference": "open"
+                },
+                "enclaveOptions": {
+                    "enabled": false
+                },
+                "metadataOptions": {
+                    "state": "pending",
+                    "httpTokens": "optional",
+                    "httpPutResponseHopLimit": 1,
+                    "httpEndpoint": "enabled",
+                    "httpProtocolIpv4": "enabled",
+                    "httpProtocolIpv6": "disabled",
+                    "instanceMetadataTags": "disabled"
+                },
+                "privateDnsNameOptions": {
+                    "hostnameType": "ip-name",
+                    "enableResourceNameDnsARecord": false,
+                    "enableResourceNameDnsAAAARecord": false
+                }
+            }]
+        },
+        "requesterId": "940372691376"
+    },
+    "requestID": "81ffff0e-6811-4d48-b58b-6b1486ae68e9",
+    "eventID": "d3c7b677-2a8b-4d8a-b281-1db0f94be44c",
+    "readOnly": false,
+    "eventType": "AwsApiCall",
+    "managementEvent": true,
+    "recipientAccountId": "012345678912",
+    "eventCategory": "Management"
+}

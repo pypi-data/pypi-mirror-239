@@ -1,0 +1,56 @@
+{
+    "eventVersion": "1.08",
+    "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AROAAAAAAAAAAAAAAAAAA:someservice-5d798fcd-bd00-4a43-9fb8-b820bc96fd7c",
+        "arn": "arn:aws:sts::012345678912:assumed-role/SomeServiceRole/someservice-5d798fcd-bd00-4a43-9fb8-b820bc96fd7c",
+        "accountId": "012345678912",
+        "accessKeyId": "ASIABBBBBBBBBBBBBBBB",
+        "sessionContext": {
+            "sessionIssuer": {
+                "type": "Role",
+                "principalId": "AROAAAAAAAAAAAAAAAAAA",
+                "arn": "arn:aws:iam::012345678912:role/SomeServiceRole",
+                "accountId": "012345678912",
+                "userName": "SomeServiceRole"
+            },
+            "webIdFederationData": {},
+            "attributes": {
+                "creationDate": "2022-01-25T13:05:14Z",
+                "mfaAuthenticated": "false"
+            }
+        }
+    },
+    "eventTime": "2022-01-25T13:05:15Z",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetBucketInventoryConfiguration",
+    "awsRegion": "us-east-1",
+    "sourceIPAddress": "192.0.2.1",
+    "userAgent": "[aws-sdk-nodejs/2.915.0 linux/v12.22.9 exec-env/AWS_ECS_FARGATE promise]",
+    "requestParameters": {
+        "bucketName": "example-bucket",
+        "Host": "example-bucket.s3.amazonaws.com",
+        "inventory": ""
+    },
+    "responseElements": null,
+    "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "bytesTransferredIn": 0,
+        "AuthenticationMethod": "AuthHeader",
+        "x-amz-id-2": "TmljZSB0cnksIGJ1dCB0aGlzIHdhcyBzY3J1YmJlZCB0b28gOikK",
+        "bytesTransferredOut": 189
+    },
+    "requestID": "MTWTBBBBBBBBBBBB",
+    "eventID": "6379ea54-35d6-426b-86bd-40319702222b",
+    "readOnly": true,
+    "resources": [{
+        "accountId": "012345678912",
+        "type": "AWS::S3::Bucket",
+        "ARN": "arn:aws:s3:::example-bucket"
+    }],
+    "eventType": "AwsApiCall",
+    "managementEvent": true,
+    "recipientAccountId": "012345678912",
+    "eventCategory": "Management"
+}

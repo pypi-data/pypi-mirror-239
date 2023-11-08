@@ -1,0 +1,2 @@
+[console_scripts]
+happywhale = happywhale.happywhale:main

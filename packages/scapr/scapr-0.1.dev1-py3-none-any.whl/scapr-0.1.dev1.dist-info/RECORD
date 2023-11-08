@@ -1,0 +1,7 @@
+scapr/__init__.py,sha256=SZG8TxsTszQzfrCFz8j1OrPtuj-gfqdfSxFdS48wias,121
+scapr/__main__.py,sha256=UCHraY16Gr1B7joC7ORm9D1Vdr0wcn5ZKFsJdYs-Pk4,52
+scapr/scap.py,sha256=EvZk-H-2yuw1MXLg-05ma3cTvzhemnCIZS3YorZ5yjM,4822
+scapr-0.1.dev1.dist-info/LICENSE,sha256=ZNMyVxTYTNm_fu0W5O0B10seKEqI8zUfITotfxW-M4c,1081
+scapr-0.1.dev1.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+scapr-0.1.dev1.dist-info/METADATA,sha256=OIwAjV_7__gta6Zo5WdEYiCBRk8KhIS1p0-u7CvikAs,828
+scapr-0.1.dev1.dist-info/RECORD,,

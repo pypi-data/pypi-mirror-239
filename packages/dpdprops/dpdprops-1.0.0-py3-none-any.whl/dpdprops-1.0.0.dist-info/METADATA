@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: dpdprops
+Version: 1.0.0
+Summary: Mapping between DPD parameters and fluid properties.
+Home-page: http://github.com/cselab/mirRun
+Author: Lucas Amoudruz
+Author-email: amlucas@seas.harvard.edu
+License: MIT
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: trimesh
+Requires-Dist: numpy
+Requires-Dist: scipy
+

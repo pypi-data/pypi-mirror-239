@@ -1,0 +1,16 @@
+holms/__init__.py,sha256=oSY4WcaeNZV1aRtwknWxC35bfNa7d4u4Vgod8crqJxo,344
+holms/__main__.py,sha256=xZjbVsbrRLugYmEMeDobNCIS8EcBU8bqfFr6mYzHek8,324
+holms/_version.py,sha256=5WyU4_EdzKDl72mxfLuOuinDxsfh04WFq4IrLYJ4r70,288
+holms/ascii_cc.py,sha256=YlvJwfjxditgQhEWOaRMWkJvGxOSMZlfBObW4lZR43Q,3607
+holms/cli.py,sha256=TjSMdLQSou3kXJzENVurDycOdHWtk6BKTBbrxqMxios,4696
+holms/cmd.py,sha256=Ea1fDQYC6jGeB0g74annP_TGifTmDCoslUF7XGnNh7A,4535
+holms/common.py,sha256=AiGDAi3x1UdjHAirOBtmyt8FOc8V46I_48CteQpsB_4,4781
+holms/reader.py,sha256=t21tOUbjmoI5HmMWlKo2iqJCWKRgMw20fWZJ0meErjs,1299
+holms/uccat.py,sha256=10otyzKbmqiBsQApVXXgEC4PyR01HmmJ6KJB86ESAPY,3927
+holms/writer.py,sha256=GWL5AJDyqWpyKItLo7T9BpI-g7ftFbHSg-4xjRFX8Rk,19350
+holms/data/all-cats.bin,sha256=kiwCEsBKLLDD8LdgDBO2P0WXunirAJwg9bXUUoF-JNk,62
+holms/data/legend.ptpl,sha256=yAcBH_jsOkJXVAQgRO43iuc1pM1UDKGYYLU3-qm964c,3337
+holms-1.0.2.dist-info/METADATA,sha256=_5iTVKjraWqs7FG-Rt8TM15ayshsHETlgojJ5XGUZJ8,20288
+holms-1.0.2.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+holms-1.0.2.dist-info/entry_points.txt,sha256=DJY-okASSVjwVgvjNgx2JiA66xdNYZJquGckkZ_GY68,46
+holms-1.0.2.dist-info/RECORD,,

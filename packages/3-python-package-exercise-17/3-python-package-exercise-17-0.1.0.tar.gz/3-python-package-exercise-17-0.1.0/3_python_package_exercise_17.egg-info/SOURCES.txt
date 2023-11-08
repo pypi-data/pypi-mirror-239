@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+3_python_package_exercise_17.egg-info/PKG-INFO
+3_python_package_exercise_17.egg-info/SOURCES.txt
+3_python_package_exercise_17.egg-info/dependency_links.txt
+3_python_package_exercise_17.egg-info/entry_points.txt
+3_python_package_exercise_17.egg-info/top_level.txt
+python_package_exercise_17/__init__.py
+python_package_exercise_17/simple_wordle.py
+python_package_exercise_17/tests.py

@@ -1,0 +1,2 @@
+[console_scripts]
+wordle-game = python_package_exercise_17.simple_wordle:start_game

@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: functional-connectivity
+Version: 0.1.1
+Summary:  functional-connectivity allows you to sense functional connectivity in the brain, in Python.
+Home-page: https://github.com/junipertcy/functional-connectivity
+Author: Tzu-Chi Yen
+Author-email: tzuchi.yen@colorado.edu
+License: LGPLv3
+Project-URL: Source Code, https://github.com/junipertcy/functional-connectivity
+Keywords: functional-connectivity,keywords-TBD
+Platform: Windows
+Platform: Linux
+Platform: Solaris
+Platform: Mac OS-X
+Platform: Unix
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Natural Language :: English
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.7
+License-File: LICENSE
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Provides-Extra: docs
+Requires-Dist: sphinx; extra == "docs"
+
+All functional-connectivity sdists and wheels distributed on PyPI are licensed under LGPL-3.0-or-later.
+

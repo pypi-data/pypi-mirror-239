@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+src/fastapi_prime/__init__.py
+src/fastapi_prime/fastapi_prime.py
+src/fastapi_prime.egg-info/PKG-INFO
+src/fastapi_prime.egg-info/SOURCES.txt
+src/fastapi_prime.egg-info/dependency_links.txt
+src/fastapi_prime.egg-info/entry_points.txt
+src/fastapi_prime.egg-info/requires.txt
+src/fastapi_prime.egg-info/top_level.txt
+src/fastapi_prime/file_contents/config.py
+src/fastapi_prime/file_contents/main.py
+src/fastapi_prime/file_contents/router.py
+src/fastapi_prime/file_contents/validations.py

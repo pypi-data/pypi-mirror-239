@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: stringmanipulate
+Version: 0.0.2
+Summary: A package that provide basic string manipulation functions
+Project-URL: Homepage, https://github.com/software-students-fall2023/3-python-package-exercise-team-dominators-1
+Project-URL: Bug Tracker, https://github.com/software-students-fall2023/3-python-package-exercise-team-dominators-1/issues
+Author-email: Ethan Sha <ys4323@nyu.edu>, Megarene Chen <jl11703@nyu.edu>, Merry Cui <xc2081@nyu.edu>, Steve Hai <zh2101@nyu.edu>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: argparse
+Requires-Dist: pytest
+Requires-Dist: typing
+Description-Content-Type: text/markdown
+
+# Python Package Exercise
+
+A little exercise to create a Python package, build it, test it, distribute it, and use it. See [instructions](./instructions.md) for details.

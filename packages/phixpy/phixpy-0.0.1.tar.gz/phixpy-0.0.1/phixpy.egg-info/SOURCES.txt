@@ -1,0 +1,7 @@
+setup.py
+phixpy/__init__.py
+phixpy.egg-info/PKG-INFO
+phixpy.egg-info/SOURCES.txt
+phixpy.egg-info/dependency_links.txt
+phixpy.egg-info/requires.txt
+phixpy.egg-info/top_level.txt

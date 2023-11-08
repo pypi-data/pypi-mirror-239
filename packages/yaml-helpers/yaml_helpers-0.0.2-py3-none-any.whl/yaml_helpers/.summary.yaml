@@ -1,0 +1,557 @@
+directory_description: ''
+files:
+- declarations: []
+  description: ''
+  entities:
+  - attributes:
+    - class
+    complexity_rating: ''
+    declaration_end_line: 2
+    description: ''
+    end_line: 16
+    entity_hash: b62a7669f0e8b98683016b9fc29f4a80f6e9b75e483942e4e4f65fdf2da6ec70
+    entity_id: d4a6a9e16ed21542ba917bad6da1a1728a59f35ab3d7f2b4426245f631d22b02
+    functional_category: ''
+    importance_rating: ''
+    name: EmbeddingYAML
+    nested:
+    - attributes: []
+      complexity_rating: ''
+      declaration_end_line: 3
+      description: ''
+      end_line: 5
+      entity_hash: d64352471e86cb90f98470bb3e683c12c07b2a1e91913b8337058f48f8ee4924
+      entity_id: 7662544a68f33cc81b695487b1cd6b086ceac4e28170d571db09091445aacc6f
+      functional_category: ''
+      importance_rating: ''
+      name: __init__
+      nested: []
+      start_line: 3
+    - attributes: []
+      complexity_rating: ''
+      declaration_end_line: 7
+      description: ''
+      end_line: 9
+      entity_hash: ee253b3dc18cf1e6709c429bcad04c3e453ff6309eaa7f939f07eb6b4ff4ea95
+      entity_id: 29aba53ad1fbf35e2979c6145c4acf7b848fe901bd046bd2cfd9cf93962691b8
+      functional_category: ''
+      importance_rating: ''
+      name: load_yaml
+      nested: []
+      start_line: 7
+    - attributes: []
+      complexity_rating: ''
+      declaration_end_line: 11
+      description: ''
+      end_line: 12
+      entity_hash: 91c87a7b3265abc75adc8a64c2c8bfeae89ea693772bce4204b9221f932db6e1
+      entity_id: fc8026eb7a7437b4fe62a3381c41788d2423565dd569346b6abd0f04c5a6a947
+      functional_category: ''
+      importance_rating: ''
+      name: get_embedding_by_id
+      nested: []
+      start_line: 11
+    - attributes: []
+      complexity_rating: ''
+      declaration_end_line: 14
+      description: ''
+      end_line: 16
+      entity_hash: 528f02eb8e89a02c546e15f5205fd055142d1929a16572c52ab43d800b69aeac
+      entity_id: 95a042acd229c7616aeb553396146d3cb3b1fe7b55bcebcbe5a85f67556a1b1b
+      functional_category: ''
+      importance_rating: ''
+      name: save
+      nested: []
+      start_line: 14
+    start_line: 2
+  file_type: python
+  functional_category: ''
+  imports:
+  - end_line: 0
+    start_line: 0
+  name: EmbeddingYAML.py
+- declarations: []
+  description: ''
+  entities: []
+  file_type: python
+  functional_category: ''
+  imports: []
+  name: __init__.py
+- declarations: []
+  description: ''
+  entities:
+  - attributes:
+    - class
+    complexity_rating: ''
+    declaration_end_line: 10
+    description: ''
+    end_line: 397
+    entity_hash: 882c4cdee49c0b6a62e0759d8d6c3d0aaf6a54cd7eb5523601d2b6e4740ff8eb
+    entity_id: 4a49c9701b836b7502bbc07d27727dd0b1292bea85e82f0c35dc1dc4aa0f661d
+    functional_category: ''
+    importance_rating: ''
+    name: SummaryYAML
+    nested:
+    - attributes: []
+      complexity_rating: ''
+      declaration_end_line: 11
+      description: ''
+      end_line: 24
+      entity_hash: 86ee7ee4a98d3c25dc0cbad7b951e8cd2dff2f5e80e5bf4af3d6bfff853166bc
+      entity_id: 2e69bc129d53b4509b2a916bb3051fbe03bf6f437c75752378214a7759dee682
+      functional_category: ''
+      importance_rating: ''
+      name: __init__
+      nested: []
+      start_line: 11
+    - attributes: []
+      complexity_rating: ''
+      declaration_end_line: 26
+      description: ''
+      end_line: 40
+      entity_hash: 387eff1d51641afdb38737e3c27db701b436abc42e7047a1de049230f8963b04
+      entity_id: 099058775964e175780a1ab20a003cef04635c3a1c9ab1f3b0389a2616901a5c
+      functional_category: ''
+      importance_rating: ''
+      name: load_yaml_recursive
+      nested: []
+      start_line: 26
+    - attributes: []
+      complexity_rating: ''
+      declaration_end_line: 42
+      description: ''
+      end_line: 60
+      entity_hash: b0cdaaed5903b1b1ae248d88192f4d7d9362f77dd505e1982ff80142831c11d7
+      entity_id: e703f7640d55163830cc1945fcaf40d76f2d2ac68b152c78853a7ba0e30ac212
+      functional_category: ''
+      importance_rating: ''
+      name: set_current_directory
+      nested: []
+      start_line: 42
+    - attributes: []
+      complexity_rating: ''
+      declaration_end_line: 62
+      description: ''
+      end_line: 70
+      entity_hash: 03921504b460ee3b3e52fc9527d5f9b0462e97c2ec7761a54cb15304393cd6a6
+      entity_id: 237928c194c8034c623df5537e8999dc758c75c00d2c3f7fa838b07166a0e00d
+      functional_category: ''
+      importance_rating: ''
+      name: set_current_file
+      nested: []
+      start_line: 62
+    - attributes: []
+      complexity_rating: ''
+      declaration_end_line: 72
+      description: ''
+      end_line: 84
+      entity_hash: faa74f62b525aa37a9d6fe647018749c92722ea3d290810d606a4ef5a6c42551
+      entity_id: 38badc722af034aad51bbad255cbf374c46ad4d44bd9e6addbb9ba41063d2acd
+      functional_category: ''
+      importance_rating: ''
+      name: set_bookmark
+      nested: []
+      start_line: 72
+    - attributes: []
+      complexity_rating: ''
+      declaration_end_line: 86
+      description: ''
+      end_line: 108
+      entity_hash: f4e20173e00e1ae1065afd60b9fad0427d7568ed197f32e0a529a56fda34f20d
+      entity_id: c669dd72aac402213d9b1a2652de6df36ce65ebb7dda1465a0c73ff52251a2e6
+      functional_category: ''
+      importance_rating: ''
+      name: set_current_entity
+      nested: []
+      start_line: 86
+    - attributes: []
+      complexity_rating: ''
+      declaration_end_line: 110
+      description: ''
+      end_line: 114
+      entity_hash: 7d3adc18abf5c0e8cd0f81cac63db7cf221aec6f1fe32da0625e1c8473297c06
+      entity_id: e9922a0a323a604ee055758906fb49e6f4e89c450d60219911d38d5c33c6992e
+      functional_category: ''
+      importance_rating: ''
+      name: reset_bookmark
+      nested: []
+      start_line: 110
+    - attributes: []
+      complexity_rating: ''
+      declaration_end_line: 116
+      description: ''
+      end_line: 121
+      entity_hash: 9f804ab7a3eccac0a2545fcc42439832dcb3ac00093ab1f574c8d1a382659e71
+      entity_id: f74320ebf6d4dd72236e573c78d90fe880adf798268efe57794e28424c0a7dad
+      functional_category: ''
+      importance_rating: ''
+      name: get_current_bookmark
+      nested: []
+      start_line: 116
+    - attributes: []
+      complexity_rating: ''
+      declaration_end_line: 123
+      description: ''
+      end_line: 138
+      entity_hash: 4d7b72cde62ecbe7c2af9be73113df13dd5f4e590aedf1ce109a22332ab145eb
+      entity_id: dfa22411a07cd3f9fbefed8537cf4e703e55f3c9e90fd7925b1d40e56d848470
+      functional_category: ''
+      importance_rating: ''
+      name: find_entity
+      nested: []
+      start_line: 123
+    - attributes: []
+      complexity_rating: ''
+      declaration_end_line: 140
+      description: ''
+      end_line: 142
+      entity_hash: 23a5eb81ee77218e50e79fb0dbabaf5863c9f63ae30c6890090d81b533bf7945
+      entity_id: e8bb4fcf082bc81ff0c46185ca56e2b6a8abfdd03cf29c6e53af9890fdaee2e3
+      functional_category: ''
+      importance_rating: ''
+      name: get_files_in_current_directory
+      nested: []
+      start_line: 140
+    - attributes: []
+      complexity_rating: ''
+      declaration_end_line: 144
+      description: ''
+      end_line: 146
+      entity_hash: cd2713940a7960493bb62fec1b5ff7d4305e0fff9479f9a744dd7c803d10ebbc
+      entity_id: 710bde9ae39c9d6bc6877ec6e82cce1cd0ebe35d43023737f076e9411fcaed58
+      functional_category: ''
+      importance_rating: ''
+      name: get_subdirectories_in_current_directory
+      nested: []
+      start_line: 144
+    - attributes: []
+      complexity_rating: ''
+      declaration_end_line: 148
+      description: ''
+      end_line: 151
+      entity_hash: ea55335689bc652c14e00788975f5303455f6b7a9b0dfc619c058e2cdd03a700
+      entity_id: 6d65c33ab1bae12217d493449b3b8227b3f5e5b2f132493e2c0d60904b6529ad
+      functional_category: ''
+      importance_rating: ''
+      name: get_entities_in_current_file
+      nested: []
+      start_line: 148
+    - attributes: []
+      complexity_rating: ''
+      declaration_end_line: 153
+      description: ''
+      end_line: 158
+      entity_hash: 6dd7fe8dbbf6885e112ff5ae7623414636e5c39d478ea73f377526de275a03d6
+      entity_id: 52cc13237ade64bcd5c6d35fd77d9350ef7ef93ee31cefee178767402659e27d
+      functional_category: ''
+      importance_rating: ''
+      name: get_current_file
+      nested: []
+      start_line: 153
+    - attributes: []
+      complexity_rating: ''
+      declaration_end_line: 160
+      description: ''
+      end_line: 163
+      entity_hash: ab61b78eec09e63e6f9584392fff7b2924200151599f4a18c9d49c96addbb6df
+      entity_id: efd25e3381251bebdb5e3e2d010c2e0778d729911ca70b73f8615b61a997d84b
+      functional_category: ''
+      importance_rating: ''
+      name: get_current_directory
+      nested: []
+      start_line: 160
+    - attributes: []
+      complexity_rating: ''
+      declaration_end_line: 165
+      description: ''
+      end_line: 166
+      entity_hash: b603f7821231dd2d8dcfb7b01bac4792ec16586a71e4f3c16b2437b2f1d86ac7
+      entity_id: 88bfc5019bacdd3f2dbc1c026a66173217a4e3e5bde5555f453ebe3adafbcb78
+      functional_category: ''
+      importance_rating: ''
+      name: get_current_entity
+      nested: []
+      start_line: 165
+    - attributes: []
+      complexity_rating: ''
+      declaration_end_line: 168
+      description: ''
+      end_line: 177
+      entity_hash: 8d6de3eb92299760d6769c300a18084530f52db52357402b6494fb1a92ece76a
+      entity_id: a4cddf6b43386e69ec1f1b549ae1ef955c679ce9ad548254dbc8b2a3ed87d792
+      functional_category: ''
+      importance_rating: ''
+      name: get_nested_entities
+      nested: []
+      start_line: 168
+    - attributes: []
+      complexity_rating: ''
+      declaration_end_line: 179
+      description: ''
+      end_line: 183
+      entity_hash: 6465a3412a1d04696059f6fde468af7be32b7d3cd80fc6cd0561710f110db632
+      entity_id: 69d53d64c68d325e5ebea0d587a9aef275d4a4eea2883ece6dd0547a5ae03311
+      functional_category: ''
+      importance_rating: ''
+      name: add_field
+      nested: []
+      start_line: 179
+    - attributes: []
+      complexity_rating: ''
+      declaration_end_line: 185
+      description: ''
+      end_line: 189
+      entity_hash: bc7a3d2ef7234fcc6d1c8a21881bb9389fc0b16a2da7bf84e8034588f0076203
+      entity_id: be250a551e36fa4855483215d317c911f1ccc1f0b8722af4323aea046a115bfb
+      functional_category: ''
+      importance_rating: ''
+      name: add_field_to_current_file
+      nested: []
+      start_line: 185
+    - attributes: []
+      complexity_rating: ''
+      declaration_end_line: 191
+      description: ''
+      end_line: 194
+      entity_hash: d883738c79949df5b6c152d681b05259020e36f2a326683ee54c1f067d6d378d
+      entity_id: bf187094bead2e4d257fe86dbceecfc1f0523a37d03e20b626f41cb19726be0c
+      functional_category: ''
+      importance_rating: ''
+      name: add_field_to_current_directory
+      nested: []
+      start_line: 191
+    - attributes: []
+      complexity_rating: ''
+      declaration_end_line: 196
+      description: ''
+      end_line: 201
+      entity_hash: 56e0c2c57b1d3161a82b20100feec51efa0ae8b38f54ffa1e27f7f5a954f34c2
+      entity_id: ec7791c244b0626e9ee5a86db77c09d726f8cd4897890d7b7841e81704ce5779
+      functional_category: ''
+      importance_rating: ''
+      name: get_embedding_for_current_entity
+      nested: []
+      start_line: 196
+    - attributes: []
+      complexity_rating: ''
+      declaration_end_line: 203
+      description: ''
+      end_line: 213
+      entity_hash: f4f18ba021ba4bf05eb572f0947aa72c754498a72648927b2072b5b5199453fc
+      entity_id: f916f61ea56d91ce7d74d07c41dde9d0ab88c28affade778991d58beea635db6
+      functional_category: ''
+      importance_rating: ''
+      name: save
+      nested: []
+      start_line: 203
+    - attributes: []
+      complexity_rating: ''
+      declaration_end_line: 215
+      description: ''
+      end_line: 218
+      entity_hash: 07eec89231502f79da72f493d9f4a7a9834ac7ba8ceec50ad5d02cbf115c0cc3
+      entity_id: fb79f7f747cd68bd2d9af08d2f39f5b00e345db57de9f95534577b9f7897d2e2
+      functional_category: ''
+      importance_rating: ''
+      name: get_current_file_type
+      nested: []
+      start_line: 215
+    - attributes: []
+      complexity_rating: ''
+      declaration_end_line: 220
+      description: ''
+      end_line: 228
+      entity_hash: 502ba42a3639bd37439020a65e764bd1a6ded9b2906056e6bacde31e02842ca4
+      entity_id: bfc1f7729baf4fecb837474ed216b4bb9806a26fde6e597517b813ca84c21296
+      functional_category: ''
+      importance_rating: ''
+      name: read_code_lines
+      nested: []
+      start_line: 220
+    - attributes: []
+      complexity_rating: ''
+      declaration_end_line: 230
+      description: ''
+      end_line: 231
+      entity_hash: 2f17f9445901e6c8d4fbf22e5ccfc3096cb5f784c8f338e971cd974d097a9689
+      entity_id: d25b512c4721d66b87f0bee626a1c245ccbed13919903fdf84ec818cba4cd58e
+      functional_category: ''
+      importance_rating: ''
+      name: get_source_file_path
+      nested: []
+      start_line: 230
+    - attributes: []
+      complexity_rating: ''
+      declaration_end_line: 233
+      description: ''
+      end_line: 241
+      entity_hash: 9899b77bcdede2d094fa88b129bf10c4ef4269dbb954b6399a9a5ea191e53a19
+      entity_id: 851b99b0635a820e41606e3ddeee41e54166ddd811e28d8258856ec426d0fb07
+      functional_category: ''
+      importance_rating: ''
+      name: get_imports_in_current_file
+      nested: []
+      start_line: 233
+    - attributes: []
+      complexity_rating: ''
+      declaration_end_line: 243
+      description: ''
+      end_line: 251
+      entity_hash: 0752935986730392c77395ea04cf5f6e576f6e3a808370c8875ccbaa05e6430d
+      entity_id: b55edfdf722919fd26c6accd0a5bd27e69183d79ad4d91f9499e2230c65ee729
+      functional_category: ''
+      importance_rating: ''
+      name: get_declarations_in_current_file
+      nested: []
+      start_line: 243
+    - attributes: []
+      complexity_rating: ''
+      declaration_end_line: 253
+      description: ''
+      end_line: 261
+      entity_hash: 5797177f68e65b426a7a737861759d09928a78647577c1299e3d3c17adceee99
+      entity_id: b62c5b6695ac706b43a9cb6abcd57a375245229a5b87bedb89ab37be0044c01e
+      functional_category: ''
+      importance_rating: ''
+      name: get_imports_and_declarations_in_current_file
+      nested: []
+      start_line: 253
+    - attributes: []
+      complexity_rating: ''
+      declaration_end_line: 263
+      description: ''
+      end_line: 305
+      entity_hash: ea2fe6add16388478d40ee01ba965048dfa72384f24299c6f80f338a7cfffd10
+      entity_id: 929e93d188aaca5bad9ef82408f524334c60201928deac06217e1ef121c6cecb
+      functional_category: ''
+      importance_rating: ''
+      name: get_entity_code
+      nested: []
+      start_line: 263
+    - attributes: []
+      complexity_rating: ''
+      declaration_end_line: 307
+      description: ''
+      end_line: 308
+      entity_hash: 5ba5af570cdf379fc4d35190ae169f1dc6086ea9742655624ffe6ac50f068e85
+      entity_id: af5a013f0ddd2e78d7025376b23fba6f6ff2f27936ef7e536d256827763b7cc2
+      functional_category: ''
+      importance_rating: ''
+      name: get_current_file_info
+      nested: []
+      start_line: 307
+    - attributes: []
+      complexity_rating: ''
+      declaration_end_line: 310
+      description: ''
+      end_line: 332
+      entity_hash: fccb6bfede1af7aaedd9dffdb449102a9242b12190dfb63a81515f874dec77a7
+      entity_id: cc3f13f1877da940fcaad7b84d31d527ae2e5c4472f24fcf8e9437a90334011a
+      functional_category: ''
+      importance_rating: ''
+      name: _get_entity_info
+      nested: []
+      start_line: 310
+    - attributes: []
+      complexity_rating: ''
+      declaration_end_line: 334
+      description: ''
+      end_line: 344
+      entity_hash: b29608ba99df4afec65f7f818ebe4a4709ff23c99cddef8b9508779e506b4f62
+      entity_id: 7b6886cbb1a0836b8989effb7bd816ae2cb6670e405c1f9316ce67f481109de2
+      functional_category: ''
+      importance_rating: ''
+      name: get_all_entities_info_in_current_file
+      nested: []
+      start_line: 334
+    - attributes: []
+      complexity_rating: ''
+      declaration_end_line: 346
+      description: ''
+      end_line: 354
+      entity_hash: 13baf7e3098e9440c77b96d5f3d76c64a1c66b3dc4e5837854899140e7e7a51a
+      entity_id: e9e243f445961f49ff014336487b22b7ec64b94fc1a4f3173d7e3b99003a4c1f
+      functional_category: ''
+      importance_rating: ''
+      name: get_all_file_info_in_current_directory
+      nested: []
+      start_line: 346
+    - attributes: []
+      complexity_rating: ''
+      declaration_end_line: 356
+      description: ''
+      end_line: 365
+      entity_hash: 5c5bc1faa99cee9e5c1bad93c04040a216aeae752c014164700aa869db27dd3f
+      entity_id: 85305c0f4c90a8e5fd3605ef2ec9bea00c5ec761fda2995842efc0afa1ad56bc
+      functional_category: ''
+      importance_rating: ''
+      name: get_all_subdirectory_info_in_current_directory
+      nested: []
+      start_line: 356
+    - attributes: []
+      complexity_rating: ''
+      declaration_end_line: 367
+      description: ''
+      end_line: 383
+      entity_hash: 6446a260a65376e1b3c76a2214f34460e03d1ddc74237bc1ada7afc07092179f
+      entity_id: be08ed9f83a22a686d4c1a07622b666d32554d647c9d51fccc378d85a9d948de
+      functional_category: ''
+      importance_rating: ''
+      name: _navigate_to_current_directory
+      nested: []
+      start_line: 367
+    - attributes: []
+      complexity_rating: ''
+      declaration_end_line: 385
+      description: ''
+      end_line: 390
+      entity_hash: 6a5476cc97ba3b9fe2efc079733584e325b8960621aaa0888a647eeaf983820b
+      entity_id: 6a95e9f65d4d376861da4a86654fcb5b30f6d14b106b5d319149bad8418a5ce1
+      functional_category: ''
+      importance_rating: ''
+      name: __getstate__
+      nested: []
+      start_line: 385
+    - attributes: []
+      complexity_rating: ''
+      declaration_end_line: 392
+      description: ''
+      end_line: 397
+      entity_hash: e1d3608a1ef9ff26626e23a33fc23db5579f0d92239cfc336d7092324f4e59a9
+      entity_id: 5a8dd0f197bd0b53b009b8a64faf504e211927946dc2660f6344eb9699787bd7
+      functional_category: ''
+      importance_rating: ''
+      name: __setstate__
+      nested: []
+      start_line: 392
+    start_line: 10
+  - attributes:
+    - main_block
+    complexity_rating: ''
+    description: ''
+    end_line: 422
+    entity_hash: 5af2b0cf9355083a22ea572d6d5b445effda696943186f466c0d7e8dd24d2cd4
+    entity_id: 5ae7d5800b79da731425a04af9080c85135d9dc2d8de3c7a5c0b140efe29ae58
+    functional_category: ''
+    importance_rating: ''
+    name: __main__
+    nested: []
+    start_line: 401
+  file_type: python
+  functional_category: ''
+  imports:
+  - end_line: 0
+    start_line: 0
+  - end_line: 1
+    start_line: 1
+  - end_line: 2
+    start_line: 2
+  - end_line: 4
+    start_line: 4
+  - end_line: 6
+    start_line: 6
+  - end_line: 7
+    start_line: 7
+  name: SummaryYAML.py
+subdirectories:
+- __pycache__

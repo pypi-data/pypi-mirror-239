@@ -1,0 +1,3 @@
+exclude tactigon_gear/middleware/Tactigon_Speech.py
+
+include tactigon_gear/middleware/*.c

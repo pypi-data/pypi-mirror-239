@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+./rre/__init__.py
+./rre/regexes.json
+./rre/regular_regexes.py
+rre.egg-info/PKG-INFO
+rre.egg-info/SOURCES.txt
+rre.egg-info/dependency_links.txt
+rre.egg-info/top_level.txt
+tests/test_regular_regexes.py

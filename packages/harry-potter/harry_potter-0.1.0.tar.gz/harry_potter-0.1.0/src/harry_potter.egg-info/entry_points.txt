@@ -1,0 +1,2 @@
+[console_scripts]
+harry_potter = harry_potter.__main__:main

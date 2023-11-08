@@ -1,0 +1,8 @@
+aiogram_prometheus/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aiogram_prometheus/collectors.py,sha256=uNnxxBHjxP3StrzPFUY2kXjI9j8ysqCsWNL_sI6Vg98,386
+aiogram_prometheus/exporter.py,sha256=EL1sXUAXbmuD1opdQ1Al4Fnez2yzl4uHYscYMnSnhDE,609
+aiogram_prometheus/midlewares.py,sha256=-WNEErprrTrCRY43NLRYsL3t0BnPwAyG0yQlAWQemnE,524
+aiogram_prometheus-0.1.0.dist-info/LICENSE,sha256=6UZxYEivrMurbnYH8vCOplVfWBqeFQFyHyqOOP8jO_o,1056
+aiogram_prometheus-0.1.0.dist-info/METADATA,sha256=ybIGbS-xw0UMAnDNfJRMApGi3mFJ89un0-fjPI20Vm0,2511
+aiogram_prometheus-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+aiogram_prometheus-0.1.0.dist-info/RECORD,,

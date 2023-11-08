@@ -1,0 +1,9 @@
+gptbase/__init__.py,sha256=m_V2SScf5KvhUTLarRy-ZKNIeNx-Wh0fMuCBDLseyEI,64
+gptbase/base.py,sha256=M2ZDCcmhAMMe7UpWabSRVS3LK9yQFwmLSOyaez1eb70,29843
+gptbase/chat.py,sha256=jpy5BT2FyIN23M-6DEju31WioNfr-TsnQ71_wvEgvNc,765
+gptbase/const.py,sha256=DiEdSP0mveEpP1UCEVI0TTXtDj7Nbps-Pc2li8WuOo8,2755
+gptbase-0.3.1.dist-info/METADATA,sha256=X3Vf67SIW97xx04r5MjkkchNMSBZ0StFgEf8rno6_cA,4051
+gptbase-0.3.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+gptbase-0.3.1.dist-info/entry_points.txt,sha256=uHLhTbLSFoJWVYZczAtUkFo6spetVhjAC51Kp3B-FQA,51
+gptbase-0.3.1.dist-info/top_level.txt,sha256=CmiXfkhqyF4ZOsBRsXkTa8tBIGWaDga0OLOcvuqh_8w,8
+gptbase-0.3.1.dist-info/RECORD,,

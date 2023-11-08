@@ -1,0 +1,2 @@
+[nbdev]
+xpass = xpass._modidx:d

@@ -1,0 +1,6 @@
+numpy>=1.23.5
+mujoco>=2.3.1.post1
+gymnasium>=0.27.1
+
+[testing]
+pytest==7.1.3

@@ -1,0 +1,8 @@
+pip
+crayons
+blindspin
+requests
+pick==1.3.1
+configparser
+pip-autoremove
+pip2pi

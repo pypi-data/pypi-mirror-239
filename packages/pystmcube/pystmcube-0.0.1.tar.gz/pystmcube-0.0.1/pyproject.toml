@@ -1,0 +1,32 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pystmcube"
+version = "0.0.1"
+authors = [
+  { name="Vincent Werner", email="vincent.werner@outlook.fr"},
+]
+description = "Python API for STM32CubeProgrammer"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/wervin/pystmcube"
+"Bug Tracker" = "https://github.com/wervin/pystmcube/issues"
+
+[tool.hatch.build]
+exclude = [
+  ".venv",
+  ".gitignore"
+]

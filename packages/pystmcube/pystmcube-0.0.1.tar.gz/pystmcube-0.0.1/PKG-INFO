@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pystmcube
+Version: 0.0.1
+Summary: Python API for STM32CubeProgrammer
+Project-URL: Homepage, https://github.com/wervin/pystmcube
+Project-URL: Bug Tracker, https://github.com/wervin/pystmcube/issues
+Author-email: Vincent Werner <vincent.werner@outlook.fr>
+License-Expression: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
+Requires-Dist: numpy
+Description-Content-Type: text/markdown
+
+# pystmcube
+Python API for STM32CubeProgrammer

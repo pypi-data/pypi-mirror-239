@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: start-zero
+Version: 0.0.2
+Summary: DeepLearningFramework
+Home-page: https://gitee.com/tank2140896/start-zero
+Author: he bin
+Author-email: hebingaa@126.com
+License: Apache License 2.0
+Platform: all
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+
+see README.md

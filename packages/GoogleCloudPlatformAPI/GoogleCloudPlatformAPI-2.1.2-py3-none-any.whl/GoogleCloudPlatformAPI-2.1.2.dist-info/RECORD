@@ -1,0 +1,12 @@
+GoogleCloudPlatformAPI/AdManager.py,sha256=VtckENBKYyMukIKxtE6a2y5oNEnj-wDU9BGIAh-7Jo0,35800
+GoogleCloudPlatformAPI/Analytics.py,sha256=q4LSFPxfL1QnYAQOMoTEake1MCRwkB7gVMUtEnGd1lI,4683
+GoogleCloudPlatformAPI/BigQuery.py,sha256=AcSbfvI8JRC9wRr6tABPBgO8rBPaBYEfIQ-3yTfUH-Q,22635
+GoogleCloudPlatformAPI/CloudStorage.py,sha256=45p8xfuShfUGHvvN08Uhg72v5Z9EJM1bfdk6XcsQ8yc,7082
+GoogleCloudPlatformAPI/ServiceAccount.py,sha256=nrHDF4dzto6pmDtal1J6pc5W-bWc0zbI2m0XB05fmRs,2231
+GoogleCloudPlatformAPI/Utils.py,sha256=DdBH5wsuUCHDTMb-qcB7rbGNAnI4KxmsMryLGiIAKIk,2276
+GoogleCloudPlatformAPI/__init__.py,sha256=J0V3hoIKfXjXW26LGow_Y3nNhZPbIjSs5rTsa9Mh0VI,339
+GoogleCloudPlatformAPI-2.1.2.dist-info/LICENSE,sha256=hMErKLb6YZR3lRR5zr-vxeFkvY69QAaafgSpZ5-P1dQ,1067
+GoogleCloudPlatformAPI-2.1.2.dist-info/METADATA,sha256=l2I_OGpWjpsLuWZSnTKKI5SztB13ax0N72yzVCCz8-E,171
+GoogleCloudPlatformAPI-2.1.2.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+GoogleCloudPlatformAPI-2.1.2.dist-info/top_level.txt,sha256=poRD5g7gPccNr8NEDuj_SFXQFyMPhb6VE5qrgglnzEk,23
+GoogleCloudPlatformAPI-2.1.2.dist-info/RECORD,,

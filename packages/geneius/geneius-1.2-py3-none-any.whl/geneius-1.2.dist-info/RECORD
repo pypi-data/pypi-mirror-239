@@ -1,0 +1,10 @@
+src/__main__.py,sha256=PDDQaXg9vFYb-klaIiZuVx15r76E6s4a6EFedtCM_Ww,64
+src/claude.py,sha256=X4JGh7yT_dMMPcYdCHbkURAFgYUPdwMvRNSsY6coehs,505
+src/context.py,sha256=HfLCBYyd1-79BMMrLfmDrlMFnbov4tuGnRMZtodiz7Q,2968
+src/geneius.py,sha256=nVImJY9gviJ2pcEuViAJ_gYYZ0oXlft4-f0UIih0rwo,5147
+geneius-1.2.dist-info/LICENSE,sha256=rNdeWnofeJFZKZTyTZFElK6EQdRdNDZAu7E4vUhuKno,1071
+geneius-1.2.dist-info/METADATA,sha256=8048klYZh4LWxk0eUWeXwcooCvhq40-Rcx7czokqwaA,3779
+geneius-1.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+geneius-1.2.dist-info/entry_points.txt,sha256=9fvOLdoaRMgqYxTgYJ2JAHffmrPiIehZV6GgQcuz-vQ,45
+geneius-1.2.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+geneius-1.2.dist-info/RECORD,,

@@ -1,0 +1,110 @@
+[project]
+name = "ov-wag"
+dynamic = []
+description = "WGBH Open Vault Wagtail backend"
+authors = [
+    { name = "WGBH-MLA", email = "ryan_harbert@wgbh.org" },
+]
+readme = "README.md"
+dependencies = [
+    "Django~=4.2",
+    "wagtail~=5.2",
+    "wagtail-factories~=3.1",
+    "pydantic~=1.10",
+    "psycopg2~=2.9",
+    "python-dotenv~=1.0",
+    "gunicorn~=21.2",
+]
+requires-python = ">=3.8,<4.0"
+version = "0.4.0a0"
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+documentation = "https://wgbh-mla.github.io/ov-wag/"
+homepage = "https://github.com/WGBH-MLA/ov-wag"
+repository = "https://github.com/WGBH-MLA/ov-wag"
+
+[project.scripts]
+ov = "cli:app"
+
+[project.optional-dependencies]
+cli = [
+    "typer~=0.9",
+    "loguru~=0.7",
+    "trogon~=0.5",
+]
+production = [
+    "gunicorn[standard]~=21.2",
+]
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm.version]
+source = "file"
+path = "ov_wag/_version.py"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "ruff~=0.1",
+    "pre-commit~=3.5",
+]
+test = [
+    "pytest>=7.4.3",
+    "pytest-django>=4.6.0",
+    "pytest-cov>=4.1.0",
+    "pytest-sugar>=0.9.7",
+    "pytest-xdist>=3.3.1",
+    "nbmake>=1.4.6",
+    "coverage>=7.3.2",
+]
+
+[tool.black]
+extend-exclude = "migrations"
+
+[tool.ruff]
+extend-exclude = [
+    "migrations",
+]
+ignore = [
+    "Q000",
+]
+select = [
+    "B",
+    "C4",
+    "C90",
+    "E",
+    "ERA",
+    "F",
+    "INT",
+    "N",
+    "PIE",
+    "PLC",
+    "PLE",
+    "PLW",
+    "Q",
+    "RET",
+    "RUF",
+    "SIM",
+    "UP",
+    "W",
+]
+
+[tool.pytest.ini_options]
+DJANGO_SETTINGS_MODULE = "ov_wag.settings.test"
+python_files = [
+    "tests.py",
+    "test_*.py",
+    "*_tests.py",
+]
+testpaths = [
+    "authors",
+    "exhibits",
+    "ov_collections",
+    "ov_wag",
+]

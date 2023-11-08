@@ -1,0 +1,10 @@
+canica/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+canica/data.py,sha256=ZMusBFm5nsxgEsNE8QapTjYGvW7KJ6hcUfUW7mIMkgM,4532
+canica/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+canica/standalone_widget.py,sha256=crmYAeq7mjPPB5cFVVHNUmSuhvEU3KKSYVir4NhEoKE,1260
+canica/widget.py,sha256=LXuDzgkAe79lJVfVWKFK0zMd2qQBWXVCtRgHMhesk3g,4770
+canica/static/widget.css,sha256=BnLdJdvztiFHNbcceu-b--yRk0fQ77REFt0GOgReR_0,487
+canica/static/widget.js,sha256=SUswcfWXrCbahqqjtOiFeGofrI3nKpiON23PLTIoeso,6654671
+canica-0.0.16.dist-info/METADATA,sha256=BPBt5u-2pmtV46EZHFaKn2NbYf6i4h-2e9735iJ7lME,800
+canica-0.0.16.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+canica-0.0.16.dist-info/RECORD,,

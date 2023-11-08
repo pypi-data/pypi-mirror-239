@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: stack-sparrow
+Version: 0.0.6
+Summary: 
+Author: Akhil Ravidas
+Author-email: ar@mod0.ai
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: gitpython (>=3.1.40,<4.0.0)
+Requires-Dist: jinja2 (>=3.1.2,<4.0.0)
+Requires-Dist: openai (>=1.1.1,<2.0.0)
+Requires-Dist: pyyaml (>=6.0.1,<7.0.0)
+Requires-Dist: sentry-sdk (>=1.34.0,<2.0.0)
+Requires-Dist: tiktoken (>=0.5.1,<0.6.0)
+Requires-Dist: typer[all] (>=0.9.0,<0.10.0)
+Requires-Dist: unidiff (>=0.7.5,<0.8.0)
+Description-Content-Type: text/markdown
+
+# stack-sparrow
+A Code LLM - based on GPT-4-Turbo and Assistant API
+
+[![PyPI - Version](https://img.shields.io/pypi/v/stack-sparrow)](https://pypi.org/project/stack-sparrow/)
+[![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=flat&logo=discord&logoColor=white)](https://discord.gg/ZNvjdwrg)
+
+## Installation
+```bash
+pip install -U stack-sparrow
+```
+
+# Examples
+
+[Review #1](https://mod0.ai/stack-sparrow/review-semantics): Flag semantics issue
+[Review #2](https://mod0.ai/stack-sparrow/review-basic-issues): Flag broken code
+[Review #3](https://mod0.ai/stack-sparrow/review-basic-issues): Successful Review
+
+# Demo
+
+
+## Usage
+
+`sparrow` will create an OpenAI assistant on your account on the first run. You can view this assistant and tweak its base instructions at: https://platform.openai.com/assistants
+
+Review a file
+
+```
+sparrow review path/to/file
+```
+
+Review your current commit
+
+```
+sparrow review HEAD
+```
+
+Review a range of commits
+
+```
+sparrow review HEAD HEAD~5
+```
+
+Review a different repository
+
+```
+sparrow review HEAD --repo_path path/to/repo
+```
+
+## Contributing
+
+Please feel free to open issues, submit pull requests or hang out with me and other interested folks on [Discord](https://discord.gg/ZNvjdwrg).
+
+## License
+
+This project is licensed under the terms of the MIT License.
+

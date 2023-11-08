@@ -1,0 +1,12 @@
+spistats/__init__.py,sha256=Wc5G1rkfc7xRrQCIyKqNDnrI1VH-ulRkVFhKNisKZ4w,33
+spistats/collision/__init__.py,sha256=GPBiC3i4KTdhMUnHnyTJUC4n2TuIIn-5tahOPZ2cIxE,851
+spistats/desynchronization/__init__.py,sha256=aOlIRWTsZpgePC9Hh2xjEj2MQKDDMhW2Lkl53GnHHao,158
+spistats/desynchronization/dsync_count.py,sha256=e03M5LdqRlK3j-Mb7UlOlIsrluDgOj5_KkAJdqBRgig,1640
+spistats/desynchronization/law.py,sha256=IKoYUIqV7FPof5_xGCsCj_4hzeFkJK7DissmwZ3dWeM,3811
+spistats/desynchronization/law_multi.py,sha256=2KuzBd7FD80QuMB0Lh9S53Vy4a8fI-JyLSU3O7_NZGA,1178
+spistats/plot/__init__.py,sha256=UKfobp1Q0sHEfh5YWWsQSn4MIcOFDJfYWzJgK4G1Tv4,21
+spistats/plot/cdf.py,sha256=Lju_APsEjdcVcowA8B5xjMjtVOy0ckAp9HhREgoaLEY,1456
+spistats-0.0.2.dist-info/METADATA,sha256=Crcv0vQOKlCUGh_iEi73pOAkCrA5OKNRGaRN2vZ_IsI,1173
+spistats-0.0.2.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+spistats-0.0.2.dist-info/licenses/LICENSE,sha256=a1HaLuE0Mh4IPuMiCwUv_G7ZdeaiRK9kg6Mce_X60BU,34668
+spistats-0.0.2.dist-info/RECORD,,

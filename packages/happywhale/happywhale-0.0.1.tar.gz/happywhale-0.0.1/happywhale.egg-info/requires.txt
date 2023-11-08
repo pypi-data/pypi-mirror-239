@@ -1,0 +1,9 @@
+requests>=2.31.0
+pandas>=2.1.2
+geojson>=2.5.0
+
+[:platform_system != "Windows"]
+geopandas>=0.9.0
+
+[:platform_system == "Windows"]
+pipgeo>=0.0.6

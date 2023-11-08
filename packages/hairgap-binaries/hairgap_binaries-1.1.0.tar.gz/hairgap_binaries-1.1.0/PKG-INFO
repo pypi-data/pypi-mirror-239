@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: hairgap_binaries
+Version: 1.1.0
+Summary: Provide compiled binaries of https://github.com/cea-sec/hairgap
+Home-page: https://github.com/d9pouces/hairgap-binaries
+License: GPL v3
+Author: Matthieu Gallet
+Author-email: github@19pouces.net
+Maintainer: Matthieu Gallet
+Maintainer-email: github@19pouces.net
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: License :: Other/Proprietary License
+Classifier: Natural Language :: English
+Classifier: Natural Language :: French
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Project-URL: Documentation, https://github.com/d9pouces/hairgap-binaries
+Project-URL: Repository, https://github.com/d9pouces/hairgap-binaries
+Description-Content-Type: text/markdown
+
+# hairgap-binaries
+
+Provide compiled binaries of [hairgap](https://github.com/cea-sec/hairgap) under the form of a Python package.
+
+## use
+
+```bash
+python3 -m pip install hairgap-binaries
+```
+
+`hairgap-binaries` only provides `get_hairgapr` and `get_hairgaps` functions that return absolute paths of `hairgapr` and `hairgaps`.
+If there are not available for your architecture (e.g., anything else than Linux x86_64), `None` is returned. 
+
+```python
+import os
+
+from hairgap_binaries import get_hairgapr, get_hairgaps
+
+assert os.path.isfile(get_hairgapr())
+assert os.path.isfile(get_hairgaps())
+
+```
+
+## building 
+
+Requirements:
+* python3 (>= 3.5),
+* wheel Python package (in the current virtualenv) for creating the .whl package,
+* vagrant with the scp plugin.
+
+```bash
+tox -e py
+```
+

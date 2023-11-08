@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: chessan
+Version: 0.1.0
+Summary: Chess analysis project.
+Home-page: https://github.com/harttraveller/chessan
+Author: Hart Traveller
+Author-email: ruling_fiction.0b@icloud.com
+Maintainer: Hart Traveller
+Maintainer-email: ruling_fiction.0b@icloud.com
+Requires-Python: >3.9.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Project-URL: Repository, https://github.com/harttraveller/chessan
+Description-Content-Type: text/markdown
+
+# chessan
+

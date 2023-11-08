@@ -1,0 +1,1991 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: turAI\n"
+"Language: et\n"
+
+#: turAI/workbench.py:375
+msgid "File"
+msgstr "Fail"
+
+#: turAI/workbench.py:376
+msgid "Edit"
+msgstr "Redigeeri"
+
+#: turAI/workbench.py:377
+msgid "View"
+msgstr "Vaated"
+
+#: turAI/running.py:161 turAI/workbench.py:378
+msgid "Run"
+msgstr "Käivita"
+
+#: turAI/workbench.py:379
+msgid "Tools"
+msgstr "Tööriistad"
+
+#: turAI/plugins/help/__init__.py:80 turAI/workbench.py:380
+msgid "Help"
+msgstr "Abiinfo"
+
+#: turAI/workbench.py:598
+msgid "Exit"
+msgstr "Välju"
+
+#: turAI/workbench.py:625
+msgid "Decrease font size"
+msgstr "Vähenda fondi suurust"
+
+#: turAI/workbench.py:637
+msgid "Focus editor"
+msgstr "Mine redaktorisse"
+
+#: turAI/workbench.py:646
+msgid "Focus shell"
+msgstr "Mine käsureale"
+
+#: turAI/workbench.py:656
+msgid "Maximize view"
+msgstr "Suurenda vaade"
+
+#: turAI/workbench.py:668
+msgid "Full screen"
+msgstr "Täisekraan"
+
+#: turAI/workbench.py:1467
+msgid "Program arguments"
+msgstr "Programmi argumendid"
+
+#: turAI/plugins/about.py:24 turAI/plugins/about.py:153
+msgid "About turAI"
+msgstr "Info turAI kohta"
+
+#: turAI/plugins/about.py:81
+msgid "Made in\n"
+"University of Tartu, Estonia,\n"
+"with the help from\n"
+"open-source community,\n"
+"Raspberry Pi Foundation\n"
+"and Cybernetica AS"
+msgstr "Loodud\n"
+"Tartu Ülikoolis, Eestis.\n"
+"Abiks on olnud\n"
+"avatud tarkvara kogukond,\n"
+"Raspberry Pi Foundation\n"
+"ja Cybernetica AS"
+
+#: turAI/plugins/about.py:101
+msgid "This program comes with\n"
+"ABSOLUTELY NO WARRANTY!\n"
+"It is free software, and you are welcome to\n"
+"redistribute it under certain conditions, see\n"
+"https://opensource.org/licenses/MIT\n"
+"for details"
+msgstr "Selle programmi toimimise\n"
+"kohta ei anta mingeid garantiisid.\n"
+"See on avatud tarkvara ja seda\n"
+"võib teatud tingimustel levitada.\n"
+"Vaata täpsemalt\n"
+"https://opensource.org/licenses/MIT"
+
+#: turAI/plugins/about.py:142
+msgid "Version history"
+msgstr "Versioonide ajalugu"
+
+#: turAI/plugins/about.py:149
+msgid "Report problems"
+msgstr "Teata probleemidest"
+
+#: turAI/plugins/assistant_config_page.py:16
+msgid "Open Assistant automatically when program crashes with an exception"
+msgstr "Ava Juhendaja automaatselt, kui programm annab vea"
+
+#: turAI/plugins/assistant_config_page.py:23
+msgid "Open Assistant automatically when it has warnings for your code"
+msgstr "Ava Juhendaja automaatselt, kui tal on hoiatusi Sinu koodi kohta"
+
+#: turAI/plugins/assistant_config_page.py:30
+msgid "Perform selected Pylint checks"
+msgstr "Teosta Pylint kontrolle"
+
+#: turAI/plugins/assistant_config_page.py:34
+msgid "Perform MyPy checks"
+msgstr "Teosta MyPy kontrolle"
+
+#: turAI/plugins/assistant_config_page.py:36
+msgid "Disabled checks (one id per line)"
+msgstr "Tühistatud kontrollid (üks identifikaator rea kohta)"
+
+#: turAI/assistance.py:981 turAI/plugins/assistant_config_page.py:74
+msgid "Assistant"
+msgstr "Juhendaja"
+
+#: turAI/plugins/autocomplete.py:529
+msgid "Auto-complete"
+msgstr "Lõpeta sõna automaatselt"
+
+#: turAI/plugins/backend_config_page.py:335
+msgid "Interpreter"
+msgstr "Interpretaator"
+
+#: turAI/plugins/birdseye_frontend.py:55
+msgid "About Birdseye"
+msgstr "Birdseye kohta"
+
+#: turAI/plugins/birdseye_frontend.py:56
+msgid "Birdseye is a Python debugger which needs to be installed separately.\n"
+"\n"
+"Do you want to open the help page and learn more?"
+msgstr "Birdseye on Pythoni silur, mis tuleb eraldi paigaldada.\n"
+"\n"
+"Kas soovid avada vastava abiinfo lehe, et rohkem teada saada?"
+
+#: turAI/plugins/birdseye_frontend.py:84
+msgid "Debug current script (birdseye)"
+msgstr "Silu käesolevat skripti (birdseye)"
+
+#: turAI/plugins/commenting_indenting.py:171
+msgid "Toggle comment"
+msgstr "Lülita kommentaar sisse/välja"
+
+#: turAI/plugins/commenting_indenting.py:181
+msgid "Comment out"
+msgstr "Kommenteeri"
+
+#: turAI/plugins/commenting_indenting.py:191
+msgid "Uncomment"
+msgstr "Eemalda kommentaar"
+
+#: turAI/plugins/common_editing_commands.py:21
+msgid "Undo"
+msgstr "Võta muudatus tagasi"
+
+#: turAI/plugins/common_editing_commands.py:33
+msgid "Redo"
+msgstr "Rakenda tagasivõetud muudatus uuesti"
+
+#: turAI/base_file_browser.py:728 turAI/plugins/common_editing_commands.py:49
+#: turAI/ui_utils.py:2339
+msgid "Cut"
+msgstr "Lõika"
+
+#: turAI/base_file_browser.py:729 turAI/plugins/common_editing_commands.py:61
+#: turAI/ui_utils.py:2340
+msgid "Copy"
+msgstr "Kopeeri"
+
+#: turAI/base_file_browser.py:731 turAI/base_file_browser.py:737
+#: turAI/plugins/common_editing_commands.py:73 turAI/ui_utils.py:2341
+msgid "Paste"
+msgstr "Kleebi"
+
+#: turAI/plugins/common_editing_commands.py:85 turAI/plugins/debugger.py:152
+msgid "Select all"
+msgstr "Vali kõik"
+
+#: turAI/plugins/debugger.py:145 turAI/plugins/debugger.py:1402
+msgid "Run to cursor"
+msgstr "Jooksuta kursorini"
+
+#: turAI/plugins/debugger.py:985
+msgid "Can't close yet"
+msgstr "Ei saa veel sulgeda"
+
+#: turAI/plugins/debugger.py:986
+msgid "Use \"Stop\" command if you want to cancel debugging"
+msgstr "Kui soovid silumist lõpetada, siis kasuta \"Stop\" käsku"
+
+#: turAI/plugins/dock_user_windows_frontend.py:28
+msgid "Dock user windows"
+msgstr "Kinnita kasutaja aknad"
+
+#: turAI/plugins/editor_config_page.py:20
+msgid "Highlight matching names"
+msgstr "Too esile samad nimed"
+
+#: turAI/plugins/editor_config_page.py:26
+msgid "Highlight local variables"
+msgstr "Too esile lokaalsed muutujad"
+
+#: turAI/plugins/editor_config_page.py:31
+msgid "Highlight parentheses"
+msgstr "Too esile sulupaarid"
+
+#: turAI/plugins/editor_config_page.py:32
+msgid "Highlight syntax elements"
+msgstr "Tee kood värviliseks"
+
+#: turAI/plugins/editor_config_page.py:36
+msgid "Highlight current line (requires reopening the editor)"
+msgstr "Too esile jooksev rida"
+
+#: turAI/plugins/editor_config_page.py:73
+msgid "Show line numbers"
+msgstr "Näita reanumbreid"
+
+#: turAI/plugins/editor_config_page.py:76
+msgid "Recommended maximum line length\n"
+"(Set to 0 to turn off margin line)"
+msgstr "Soovitatav maksimaalne reapikkus\n"
+"(0 lülitab serva näitamise välja)"
+
+#: turAI/plugins/editor_config_page.py:104
+msgid "Editor"
+msgstr "Redaktor"
+
+#: turAI/plugins/event_logging.py:207
+msgid "Export usage logs..."
+msgstr "Ekspordi kasutuslogi"
+
+#: turAI/plugins/event_view.py:39
+msgid "Events"
+msgstr "Sündmused"
+
+#: turAI/plugins/files.py:609
+msgid "Files"
+msgstr "Failid"
+
+#: turAI/plugins/find_replace.py:60 turAI/plugins/find_replace.py:438
+msgid "Find & Replace"
+msgstr "Otsi ja asenda"
+
+#: turAI/plugins/find_replace.py:66
+msgid "Find:"
+msgstr "Otsi:"
+
+#: turAI/plugins/find_replace.py:90
+msgid "Replace with:"
+msgstr "Asenda:"
+
+#: turAI/plugins/find_replace.py:108
+msgid "Case sensitive"
+msgstr "Tõstutundlik"
+
+#: turAI/plugins/find_replace.py:115
+msgid "Up"
+msgstr "Üles"
+
+#: turAI/plugins/find_replace.py:119
+msgid "Down"
+msgstr "Alla"
+
+#: turAI/plugins/find_replace.py:128
+msgid "Find"
+msgstr "Otsi"
+
+#: turAI/plugins/find_replace.py:138
+msgid "Replace"
+msgstr "Asenda"
+
+#: turAI/plugins/find_replace.py:146
+msgid "Replace+Find"
+msgstr "Otsi ja asenda"
+
+#: turAI/plugins/find_replace.py:156
+msgid "Replace all"
+msgstr "Asenda kõik"
+
+#: turAI/plugins/find_replace.py:254
+msgid "Enter string to be replaced."
+msgstr "Sisesta asendatav sõne"
+
+#: turAI/plugins/find_replace.py:339
+msgid "The specified text was not found!"
+msgstr "Otsitavat teksti ei leitud!"
+
+#: turAI/plugins/general_config_page.py:15
+msgid "Allow only single turAI instance"
+msgstr "Luba korraga ainult üks turAI"
+
+#: turAI/plugins/general_config_page.py:22
+msgid "Reopen all files from previous session"
+msgstr "Ava käivitumisel kõik eelmise sessiooni failid"
+
+#: turAI/plugins/general_config_page.py:37
+msgid "Disable notification sound"
+msgstr "Keela teavitushelid"
+
+#: turAI/plugins/general_config_page.py:86
+msgid "Font scaling mode"
+msgstr "Fondi suuruse režiim"
+
+#: turAI/plugins/heap.py:37
+msgid "Heap mode is on.\n"
+"Close Heap view to turn it off."
+msgstr "Kuhja režiim on sees.\n"
+"Väljalülitamiseks sulge Kuhja vaade"
+
+#: turAI/plugins/heap.py:86
+msgid "Heap"
+msgstr "Kuhi"
+
+#: turAI/plugins/general_config_page.py:53
+msgid "Language"
+msgstr "Keel"
+
+#: turAI/plugins/notes.py:35
+msgid "This box is meant for your working notes -- assignment instructions, code snippets, whatever.\n"
+"\n"
+"Everything will be saved automatically and loaded when you open turAI next time.\n"
+"\n"
+"Feel free to delete this text to make room for your own notes."
+msgstr "See kast on mõeldud Sinu märkmeteks -- tööjuhenditeks, koodijuppideks, ...\n"
+"\n"
+"Tekst salvestub automaatselt ja laetakse uuesti kui Sa avad turAI uuesti.\n"
+"\n"
+"Võid vabalt selle teksti kustutada, et enda märkmetele ruumi teha."
+
+#: turAI/plugins/notes.py:63
+msgid "Notes"
+msgstr "Märkmed"
+
+#: turAI/plugins/object_inspector.py:116
+msgid "Previous object"
+msgstr "Eelmine objekt"
+
+#: turAI/plugins/object_inspector.py:119
+msgid "Next object"
+msgstr "Järgmine objekt"
+
+#: turAI/plugins/object_inspector.py:732
+msgid "Object inspector"
+msgstr "Objektivaatur"
+
+#: turAI/plugins/outline.py:148
+msgid "Outline"
+msgstr "Struktuur"
+
+#: turAI/plugins/pgzero_frontend.py:27
+msgid "Pygame Zero mode"
+msgstr "Pygame Zero režiim"
+
+#: turAI/plugins/pip_gui.py:80
+msgid "Uninstall"
+msgstr "Desinstalli"
+
+#: turAI/editors.py:693 turAI/plugins/pip_gui.py:251 turAI/ui_utils.py:496
+#: turAI/ui_utils.py:1884 turAI/workdlg.py:203
+msgid "Close"
+msgstr "Sulge"
+
+#: turAI/plugins/pip_gui.py:397
+msgid "Click "
+msgstr "Klõpsa "
+
+#: turAI/plugins/pip_gui.py:398 turAI/plugins/pip_gui.py:409
+msgid "here"
+msgstr "siia"
+
+#: turAI/plugins/pip_gui.py:77
+msgid "Upgrade"
+msgstr "Uuenda"
+
+#: turAI/plugins/micropython/base_flashing_dialog.py:398
+#: turAI/plugins/pip_gui.py:74
+msgid "Install"
+msgstr "Installi"
+
+#: turAI/plugins/pip_gui.py:570
+msgid "Could not find the package from PyPI."
+msgstr "Ei leidnud PyPI-st sellist pakki"
+
+#: turAI/plugins/pip_gui.py:592
+msgid "Latest stable version"
+msgstr "Viimane stabiilne versioon"
+
+#: turAI/plugins/pip_gui.py:594
+msgid "Latest version"
+msgstr "Viimane versioon"
+
+#: turAI/plugins/pip_gui.py:596
+msgid "Summary"
+msgstr "Kokkuvõte"
+
+#: turAI/plugins/pip_gui.py:598
+msgid "Author"
+msgstr "Autor"
+
+#: turAI/plugins/pip_gui.py:602
+msgid "Homepage"
+msgstr "Koduleht"
+
+#: turAI/plugins/pip_gui.py:604
+msgid "Bugtracker"
+msgstr "Vigade register"
+
+#: turAI/plugins/pip_gui.py:606
+msgid "Documentation"
+msgstr "Dokumentatsioon"
+
+#: turAI/plugins/pip_gui.py:608
+msgid "PyPI page"
+msgstr "PyPI leht"
+
+#: turAI/plugins/pip_gui.py:648
+msgid "Requires"
+msgstr "Nõuab"
+
+#: turAI/plugins/pip_gui.py:802
+msgid "Really uninstall?"
+msgstr "Desinstallida?"
+
+#: turAI/plugins/pip_gui.py:807
+msgid "Are you sure you want to uninstall it?"
+msgstr "Kas oled kindel, et soovid seda desinstallida?"
+
+#: turAI/plugins/variables.py:22
+msgid "Back to\n"
+"current frame"
+msgstr "Tagasi\n"
+"aktiivsesse raami"
+
+#: turAI/plugins/variables.py:80 turAI/plugins/variables.py:82
+#: turAI/plugins/variables.py:145
+msgid "Variables"
+msgstr "Muutujad"
+
+#: turAI/base_file_browser.py:1576
+msgid "This computer"
+msgstr "See arvuti"
+
+#: turAI/base_file_browser.py:648
+msgid "Refresh"
+msgstr "Värskenda"
+
+#: turAI/base_file_browser.py:657
+msgid "Focus into"
+msgstr "Mine sisse"
+
+#: turAI/base_file_browser.py:1411 turAI/base_file_browser.py:1423
+#: turAI/plugins/autocomplete.py:303 turAI/plugins/highlight_names.py:86
+msgid "Error"
+msgstr "Viga"
+
+#: turAI/base_file_browser.py:1411 turAI/base_file_browser.py:1423
+msgid "You need to select a file!"
+msgstr "Sa peand valima faili!"
+
+#: turAI/base_file_browser.py:1427
+msgid "Overwrite?"
+msgstr "Kirjutada üle?"
+
+#: turAI/base_file_browser.py:1427
+msgid "Do you want to overwrite '%s' ?"
+msgstr "Kas soovid '%s' üle kirjutada?"
+
+#: turAI/editors.py:658 turAI/editors.py:660
+msgid "New"
+msgstr "Uus"
+
+#: turAI/editors.py:671
+msgid "Open..."
+msgstr "Ava..."
+
+#: turAI/editors.py:673
+msgid "Load"
+msgstr "Lae"
+
+#: turAI/editors.py:682
+msgid "Recent files"
+msgstr "Hiljutised failid"
+
+#: turAI/editors.py:704 turAI/ui_utils.py:498
+msgid "Close all"
+msgstr "Sulge kõik"
+
+#: turAI/editors.py:714 turAI/editors.py:716
+msgid "Save"
+msgstr "Salvesta"
+
+#: turAI/editors.py:739
+msgid "Save as..."
+msgstr "Salvesta nimega..."
+
+#: turAI/editors.py:750
+msgid "Save copy..."
+msgstr "Salvesta koopia..."
+
+#: turAI/config_ui.py:18
+msgid "turAI options"
+msgstr "turAI seaded"
+
+#: turAI/running.py:160
+msgid "Run current script"
+msgstr "Jooksuta käesolev skript"
+
+#: turAI/running.py:191
+msgid "Run current script in terminal"
+msgstr "Jooksuta käesolev skript terminalis"
+
+#: turAI/running.py:204
+msgid "Stop/Restart backend"
+msgstr "Peata/taaskäivita interpretaator"
+
+#: turAI/running.py:205
+msgid "Stop"
+msgstr "Peata"
+
+#: turAI/running.py:216
+msgid "Interrupt execution"
+msgstr "Katkesta programm"
+
+#: turAI/running.py:229
+msgid "Send EOF / Soft reboot"
+msgstr "Saada EOF / Soft reboot"
+
+#: turAI/running.py:240
+msgid "Disconnect"
+msgstr "Ühenda lahti"
+
+#: turAI/plugins/cpython_frontend/cp_front.py:295
+msgid "Python interpreters"
+msgstr "Pythoni interpretaatord"
+
+#: turAI/editors.py:39 turAI/plugins/cpython_frontend/cp_front.py:296
+#: turAI/plugins/pip_gui.py:848 turAI/plugins/pip_gui.py:861
+msgid "all files"
+msgstr "kõik failid"
+
+#: turAI/plugins/cpython_frontend/cp_front.py:324
+msgid "Select empty directory for new virtual environment"
+msgstr "Vali uue virtuaalkeskkonna jaoks tühi kaust"
+
+#: turAI/plugins/cpython_frontend/cp_front.py:331
+msgid "Bad directory"
+msgstr "Halb kaust"
+
+#: turAI/plugins/cpython_frontend/cp_front.py:332
+msgid "Selected directory is not empty.\n"
+"Select another or cancel."
+msgstr "Valitud kaust pole tühi.\n"
+"Vali mõni muu või tühista."
+
+#: turAI/plugins/cpython_frontend/cp_front.py:349
+msgid "Creating virtual environment"
+msgstr "Loon virtuaalkeskkonda"
+
+#: turAI/shell.py:101
+msgid "Clear shell"
+msgstr "Puhasta käsurida"
+
+#: turAI/shell.py:185
+msgid "Plotter"
+msgstr "Plotter"
+
+#: turAI/shell.py:317
+msgid "Clear"
+msgstr "Puhasta"
+
+#: turAI/shell.py:330
+msgid "Show Plotter"
+msgstr "Ava Plotter"
+
+#: turAI/shell.py:1660
+msgid "For performance reasons, Shell avoids showing very long lines in full (see Tools => Options => Shell).\n"
+"Here you can interact with the original text fragment."
+msgstr "Parema jõudluse nimel ei näidata Käsureal väga pikki ridu\n"
+"(vaata Tööriistad => Seaded => Käsurida).\n"
+"Siin saad Sa algset tekstifragmenti täielikult näha."
+
+#: turAI/shell.py:1671
+msgid "Wrap text (may be slow)"
+msgstr "Murra rida (võib olla aeglane)"
+
+#: turAI/ui_utils.py:1879
+msgid "Copy to clipboard"
+msgstr "Kopeeri lõikepuhvrisse"
+
+#: turAI/shell.py:1713
+msgid "Squeezed text (%d characters)"
+msgstr "Kokkupressitud tekst (%d sümbolit)"
+
+#: turAI/shell.py:1883
+msgid "Plotter visualizes series of\n"
+"numbers printed to the Shell."
+msgstr "Plotter visualiseerib käsureale\n"
+"prinditud numbrijadasid."
+
+#: turAI/shell.py:1885
+msgid "See Help for details."
+msgstr "Täpsemalt vaata abiinfost."
+
+#: turAI/ui_utils.py:497
+msgid "Close others"
+msgstr "Sulge ülejäänud"
+
+#: turAI/ui_utils.py:1734
+msgid "Copying"
+msgstr "Kopeerin"
+
+#: turAI/ui_utils.py:1737
+msgid "Copying\n"
+"  %s\n"
+"to\n"
+"  %s"
+msgstr "Kopeerin\n"
+"  %s\n"
+"=> \n"
+"  %s"
+
+#: turAI/base_file_browser.py:1382 turAI/config_ui.py:42 turAI/export.py:28
+#: turAI/plugins/backend_config_page.py:288 turAI/plugins/pip_gui.py:1338
+#: turAI/ui_utils.py:160 turAI/ui_utils.py:1745 turAI/ui_utils.py:1831
+#: turAI/workdlg.py:205 turAI/workdlg.py:259
+msgid "Cancel"
+msgstr "Tühista"
+
+#: turAI/base_file_browser.py:1373 turAI/config_ui.py:41 turAI/export.py:25
+#: turAI/plugins/about.py:115 turAI/plugins/backend_config_page.py:283
+#: turAI/ui_utils.py:157 turAI/ui_utils.py:1828 turAI/workdlg.py:256
+msgid "OK"
+msgstr "Sobib"
+
+#: turAI/ui_utils.py:2345
+msgid "Select All"
+msgstr "Vali kõik"
+
+#: turAI/plugins/shell_config_page.py:82 turAI/shell.py:149
+#: turAI/workbench.py:164
+msgid "Shell"
+msgstr "Käsurida"
+
+#: turAI/workbench.py:608
+msgid "Options..."
+msgstr "Seaded..."
+
+#: turAI/workbench.py:615
+msgid "Increase font size"
+msgstr "Suurenda kirja suurust"
+
+#: turAI/workbench.py:679
+msgid "Change font size"
+msgstr "Muuda kirja suurust"
+
+#: turAI/workbench.py:680
+msgid "Zoom"
+msgstr "Suurus"
+
+#: turAI/workbench.py:689
+msgid "Exit turAI"
+msgstr "Välju turAIst"
+
+#: turAI/workbench.py:692
+msgid "Quit"
+msgstr "Välju"
+
+#: turAI/workbench.py:1247 turAI/workbench.py:1255
+msgid "Overwriting theme '%s'"
+msgstr "Kirjutan üle teemat nimega '%s'"
+
+#: turAI/workbench.py:1438
+msgid "Program arguments:"
+msgstr "Programmi argumendid:"
+
+#: turAI/workbench.py:1492
+msgid "Regular mode"
+msgstr "Tavarežiim"
+
+#: turAI/workbench.py:1493
+msgid "Configuration has been updated. Restart turAI to start working in regular mode.\n"
+"\n"
+"(See 'Tools → Options → General' if you change your mind later.)"
+msgstr "Seaded on muudetud. Tavarežiimis alustamiseks taaskäivita turAI.\n"
+"\n"
+"(Vaata 'Tööriistad → Seaded → Üldine', kui Sa mõtled hiljem ümber.)"
+
+#: turAI/plugins/ast_view.py:211
+msgid "Program tree"
+msgstr "Programmipuu"
+
+#: turAI/plugins/debugger.py:1284
+msgid "Resume"
+msgstr "Naase"
+
+#: turAI/plugins/debugger.py:1300
+msgid "Run / resume"
+msgstr "Jooksuta / naase"
+
+#: turAI/plugins/debugger.py:1315
+msgid "Debug current script"
+msgstr "Silu käesolevat skripti"
+
+#: turAI/plugins/debugger.py:1317
+msgid "Debug"
+msgstr "Silu"
+
+#: turAI/plugins/debugger.py:1328
+msgid "Debug current script (nicer)"
+msgstr "Silu käesolevat skripti (ägedam)"
+
+#: turAI/plugins/debugger.py:1340
+msgid "Debug current script (faster)"
+msgstr "Silu käesolevat skripti (kiirem)"
+
+#: turAI/plugins/debugger.py:1351
+msgid "Step over"
+msgstr "Astu üle"
+
+#: turAI/plugins/debugger.py:1353
+msgid "Over"
+msgstr "Üle"
+
+#: turAI/plugins/debugger.py:1364
+msgid "Step into"
+msgstr "Astu sisse"
+
+#: turAI/plugins/debugger.py:1366
+msgid "Into"
+msgstr "Sisse"
+
+#: turAI/plugins/debugger.py:1377
+msgid "Step out"
+msgstr "Astu välja"
+
+#: turAI/plugins/debugger.py:1379
+msgid "Out"
+msgstr "Välja"
+
+#: turAI/plugins/debugger.py:1414
+msgid "Step back"
+msgstr "Astu tagasi"
+
+#: turAI/plugins/debugger.py:1416
+msgid "Back"
+msgstr "Tagasi"
+
+#: turAI/plugins/debugger.py:1422
+msgid "Stack"
+msgstr "Pinu"
+
+#: turAI/plugins/debugger.py:1423
+msgid "Exception"
+msgstr "Erind"
+
+#: turAI/plugins/general_config_page.py:18
+msgid "Log program usage events"
+msgstr "Logi kasutussündmusi"
+
+#: turAI/plugins/general_config_page.py:43
+msgid "Debug mode (provides more detailed diagnostic logs)"
+msgstr "Arendusrežiim (annab detailsemat diagnostilised logid)"
+
+#: turAI/plugins/general_config_page.py:67
+msgid "UI mode"
+msgstr "Kasutajaliidese režiim"
+
+#: turAI/plugins/general_config_page.py:80
+msgid "UI scaling factor"
+msgstr "Kasutajaliidese suurendamine"
+
+#: turAI/plugins/general_config_page.py:114
+msgid "NB! Restart turAI after changing these options!"
+msgstr "NB! Need seaded rakenduvad peale turAI taaskäivitamist"
+
+#: turAI/plugins/general_config_page.py:148
+msgid "General"
+msgstr "Üldine"
+
+#: turAI/plugins/pip_gui.py:142
+msgid "INSTALL"
+msgstr "INSTALLI"
+
+#: turAI/plugins/pip_gui.py:367
+msgid "Browse the packages"
+msgstr "Vaata pakke"
+
+#: turAI/plugins/pip_gui.py:370
+msgid "With current interpreter you can only browse the packages here.\n"
+"Use 'Tools → Open system shell...' for installing, upgrading or uninstalling."
+msgstr "Käesoleva interpretaatoriga saad Sa siin pakke ainult vaadata.\n"
+"Installimiseks, kustutamiseks ja uuendamiseks on vaja kasutada\n"
+"muid vahendeid"
+
+#: turAI/plugins/pip_gui.py:378
+msgid "Packages' directory"
+msgstr "Pakkide kaust"
+
+#: turAI/plugins/pip_gui.py:382
+msgid "Install from PyPI"
+msgstr "Installi PyPI-st"
+
+#: turAI/plugins/pip_gui.py:385
+msgid "If you don't know where to get the package from, then most likely you'll want to search the Python Package Index. Start by entering the name of the package in the search box above and pressing ENTER."
+msgstr "Kui Sa ei tea, kust pakki saada, siis on mõistlik otsida\n"
+"seda Pythoni pakiregistrist (PyPI), Alustuseks sisest\n"
+"paki nimi otsingukasti ja vajuta ENTER."
+
+#: turAI/plugins/pip_gui.py:402
+msgid "to locate requirements.txt file and install the packages specified in it."
+msgstr "et valida requirements.txt fail ja installida seal näidatud pakid."
+
+#: turAI/plugins/pip_gui.py:408
+msgid "Click"
+msgstr "Klõpsa"
+
+#: turAI/plugins/pip_gui.py:413
+msgid "to locate and install the package file (usually with .whl, .tar.gz or .zip extension)."
+msgstr "et valida ja installida pakifail (harilikult .whl, .tar.gz või .zip laiendiga)"
+
+#: turAI/plugins/pip_gui.py:420
+msgid "Upgrade or uninstall"
+msgstr "Uuenda või desinstalli"
+
+#: turAI/plugins/pip_gui.py:422
+msgid "Start by selecting the package from the left."
+msgstr "Alustuseks vali vasakult huvipakkuv pakk"
+
+#: turAI/plugins/pip_gui.py:430
+msgid "This dialog lists all available packages, but allows upgrading and uninstalling only packages from"
+msgstr "Selles dialoogis näidatakse kõiki pakke, aga uuendada ja desinstallida\n"
+"lubatakse ainult pakke asukohast"
+
+#: turAI/plugins/pip_gui.py:440
+msgid "New packages will be also installed into this directory. Other locations must be managed by alternative means."
+msgstr "Uued pakid installitakse ka sellesse kausta. Teisi asukohti\n"
+"tuleb hallata teiste vahenditega"
+
+#: turAI/plugins/pip_gui.py:493
+msgid "Installed version:"
+msgstr "Installitud versioon:"
+
+#: turAI/plugins/pip_gui.py:495
+msgid "Installed to:"
+msgstr "Installimise asukoht:"
+
+#: turAI/plugins/pip_gui.py:573
+msgid "Please check your spelling!"
+msgstr "Kontrolli kas kirjutasid paki nime õigesti!"
+
+#: turAI/plugins/pip_gui.py:577
+msgid "Could not find the package info from PyPI."
+msgstr "Ei leidnud sellist pakki PyPI-st"
+
+#: turAI/plugins/pip_gui.py:579 turAI/plugins/pip_gui.py:1408
+msgid "Error code:"
+msgstr "Veakood:"
+
+#: turAI/plugins/pip_gui.py:748
+msgid "Can't find package name from the list:"
+msgstr "Ei leia paki nime nimekirjast:"
+
+#: turAI/plugins/pip_gui.py:803
+msgid "Package '{}' is required for installing and uninstalling other packages."
+msgstr "Pakk '{}' on vajalik teiste pakkide installimiseks ja uuendamisks"
+
+#: turAI/plugins/pip_gui.py:848
+msgid "Package"
+msgstr "Pakk"
+
+#: turAI/plugins/pip_gui.py:960
+msgid "Manage packages for %s"
+msgstr "Halda %s pakke"
+
+#: turAI/editors.py:587 turAI/plugins/micropython/pip_gui.py:25
+#: turAI/plugins/pip_gui.py:1034
+msgid "Confirmation"
+msgstr "Kinnitus"
+
+#: turAI/plugins/pip_gui.py:1035
+msgid "Looks like you are installing a turAI-related package.\n"
+"If you meant to install a turAI plugin, then you should\n"
+"choose 'Tools → Manage plugins...' instead\n"
+"\n"
+"Are you sure you want to install %s for the back-end?"
+msgstr "Paistab, et soovid installida turAI pistikprogrammi.\n"
+"Õige oleks seda teha 'Tööriistad → Halda pistikprogramme' alt.\n"
+"\n"
+"Oled sa kindel, et tahad installida %s siin?"
+
+#: turAI/plugins/pip_gui.py:1141
+msgid "NB! There may be another version available which is compatible with current turAI version. Click on '...' button to choose the version to install."
+msgstr "NB! Mõni muu versioon võib selle turAI versiooniga klappida. \n"
+"Klõpsa '...' nupule versiooni valimiseks."
+
+#: turAI/plugins/pip_gui.py:1149
+msgid "turAI plugin without requirements"
+msgstr "turAI pistikprogramm ilma sõltuvusteta"
+
+#: turAI/plugins/pip_gui.py:1165
+msgid "Unsuitable requirements"
+msgstr "Ebasobivad sõltuvused"
+
+#: turAI/plugins/pip_gui.py:1166
+msgid "This package requires different turAI version:"
+msgstr "See pakk vajab teistsugust turAI versiooni:"
+
+#: turAI/plugins/pip_gui.py:1170
+msgid "If you still want it, then please install it from the command line."
+msgstr "Kui sa ikkagi tahad seda, siis installi see süsteemi käsurealt.."
+
+#: turAI/plugins/pip_gui.py:1207
+msgid "NB! You need to restart turAI after installing / upgrading / uninstalling a plug-in."
+msgstr "NB! Äsja installitud pistikprogramm rakendub alles peale turAI taaskäivitamist."
+
+#: turAI/plugins/pip_gui.py:1217
+msgid "turAI plug-ins"
+msgstr "turAI pistikprogrammid"
+
+#: turAI/plugins/pip_gui.py:1253
+msgid "Advanced install / upgrade / downgrade"
+msgstr "Täpsem install / versiooni valik"
+
+#: turAI/plugins/pip_gui.py:1262
+msgid "Desired version"
+msgstr "Soovitud versioon"
+
+#: turAI/plugins/pip_gui.py:1321
+msgid "Upgrade dependencies"
+msgstr "Uuenda sõltuvused"
+
+#: turAI/plugins/pip_gui.py:1406
+msgid "Requires:"
+msgstr "Nõuab:"
+
+#: turAI/plugins/pip_gui.py:1410
+msgid "Error:"
+msgstr "Viga:"
+
+#: turAI/plugins/pip_gui.py:1601
+msgid "Manage packages..."
+msgstr "Halda lisapakke..."
+
+#: turAI/plugins/pip_gui.py:1607
+msgid "Manage plug-ins..."
+msgstr "Halda pistikprogramme..."
+
+#: turAI/plugins/replayer.py:364
+msgid "Open replayer..."
+msgstr "Ava Taasesitaja..."
+
+#: turAI/plugins/run_debug_config_page.py:21
+msgid "Change working directory to script directory on Run / Debug"
+msgstr "Muuda jooksutamisel / silumisel automaatselt jooksvat kausta"
+
+#: turAI/plugins/run_debug_config_page.py:35
+msgid "Show function calls (frames) in separate windows"
+msgstr "Näita funktsiooni väljakutseid (raame) eraldi akendes"
+
+#: turAI/plugins/run_debug_config_page.py:36
+msgid "Uncheck if you want more traditional experience."
+msgstr "Ära vali, kui soovid tavapärast (vähem intuitiivset) esitusviisi."
+
+#: turAI/plugins/run_debug_config_page.py:42
+msgid "Open and close Stack view automatically"
+msgstr "Ava ja sulge Pinu vaade automaatselt"
+
+#: turAI/plugins/run_debug_config_page.py:43
+msgid "Opens the Stack view on first call and closes it when program returns to main frame."
+msgstr "Avab Pinu vaate esimesel funktsiooni väljakutsel ja sulgeb, kui programm jõuab tagasi pearaami"
+
+#: turAI/plugins/run_debug_config_page.py:52
+msgid "Allow stepping into libraries (ie. outside of main script directory)"
+msgstr "Luba teegifunktsioonide sisse astumine (väljaspool skripti kausta)"
+
+#: turAI/plugins/run_debug_config_page.py:53
+msgid "May make debugging slower."
+msgstr "Võib teha silumise aeglasemaks."
+
+#: turAI/plugins/run_debug_config_page.py:58
+msgid "Preferred debugger"
+msgstr "Eelistatud silur"
+
+#: turAI/plugins/run_debug_config_page.py:70
+msgid "(used when clicking Debug toolbar button)"
+msgstr "(rakendatakse \"Silur\" tööriistariba nupu klõpsamisel)"
+
+#: turAI/plugins/run_debug_config_page.py:75
+msgid "Birdseye port"
+msgstr "Birdseye port"
+
+#: turAI/plugins/run_debug_config_page.py:79
+msgid "(restart turAI after changing this)"
+msgstr "(taaskäivita turAI peale selle muutmist)"
+
+#: turAI/plugins/run_debug_config_page.py:87
+msgid "Run & Debug"
+msgstr "Käivitamine"
+
+#: turAI/plugins/shell_config_page.py:26
+msgid "Terminal emulation"
+msgstr "Terminali emuleerimine"
+
+#: turAI/plugins/shell_config_page.py:28
+msgid "supports basic ANSI-colors and styles"
+msgstr "toetab põhilisi ANSI värvikoode ja stiile"
+
+#: turAI/plugins/shell_config_page.py:40
+msgid "Maximum number of lines to keep."
+msgstr "Maksimaalne ridade arv."
+
+#: turAI/plugins/shell_config_page.py:42
+msgid "NB! Large values may cause poor performance!"
+msgstr "NB! Suurte väärtustega võib jõudlus halveneda!"
+
+#: turAI/plugins/shell_config_page.py:58
+msgid "Maximum length of line fragments before squeezing"
+msgstr "Maksimaalne realõigu pikkus enne \"kokkupigistamist\""
+
+#: turAI/plugins/terminal_config_page.py:12
+msgid "Running current script in terminal"
+msgstr "Skripti käivitamine terminalis"
+
+#: turAI/plugins/terminal_config_page.py:17
+msgid "Present Python REPL after program ends"
+msgstr "Näita peale programmi lõppu Pythoni käsurida"
+
+#: turAI/plugins/terminal_config_page.py:24
+msgid "Keep terminal window open after Python process ends"
+msgstr "Hoia terminali aken avatuna ka peale Pythoni protsessi lõppemist"
+
+#: turAI/plugins/terminal_config_page.py:31
+msgid "NB! Automatic closing needs to be enabled in Terminal's settings\n"
+"(Profiles → Shell → When the shell exits)"
+msgstr "NB! Automaatset sulgemist tuleb lubada Terminali seadetes\n"
+"(Profiles → Shell → When the shell exits)"
+
+#: turAI/plugins/terminal_config_page.py:41
+msgid "Terminal"
+msgstr "Terminal"
+
+#: turAI/plugins/theme_and_font_config_page.py:39
+msgid "UI theme"
+msgstr "Kasutajaliidese stiil"
+
+#: turAI/plugins/theme_and_font_config_page.py:52
+msgid "Syntax theme"
+msgstr "Süntaksi stiil"
+
+#: turAI/plugins/theme_and_font_config_page.py:84
+msgid "Editor font"
+msgstr "Redaktori font"
+
+#: turAI/plugins/theme_and_font_config_page.py:107
+msgid "IO font"
+msgstr "Sisend/väljund font"
+
+#: turAI/plugins/theme_and_font_config_page.py:132
+msgid "Preview"
+msgstr "Eelvaade"
+
+#: turAI/plugins/theme_and_font_config_page.py:150
+msgid "This is a comment"
+msgstr "See on kommentaar"
+
+#: turAI/plugins/theme_and_font_config_page.py:153
+msgid "The answer is"
+msgstr "Vastus on"
+
+#: turAI/plugins/theme_and_font_config_page.py:157
+msgid "unclosed_string"
+msgstr "sulgemata_string"
+
+#: turAI/plugins/theme_and_font_config_page.py:159
+msgid "blah, blah"
+msgstr "blaa, blaa"
+
+#: turAI/plugins/theme_and_font_config_page.py:183
+msgid "NB! Some style elements change only after restarting turAI!"
+msgstr "NB! Mõned stiilielemendid muutuvad alles peale turAI taaskäivitamist!"
+
+#: turAI/plugins/theme_and_font_config_page.py:222
+msgid "Enter an integer"
+msgstr "Sisesta täisarv"
+
+#: turAI/plugins/theme_and_font_config_page.py:235
+msgid "Theme & Font"
+msgstr "Stiil & font"
+
+#: turAI/plugins/turAI_folders.py:19
+msgid "Open turAI program folder..."
+msgstr "Ava turAI programmikaust..."
+
+#: turAI/plugins/turAI_folders.py:24
+msgid "Open turAI data folder..."
+msgstr "Ava turAI andmekaust..."
+
+#: turAI/plugins/help/__init__.py:70
+msgid "Home"
+msgstr "Avaleht"
+
+#: turAI/plugins/help/__init__.py:81
+msgid "Help contents"
+msgstr "Abiinfo sisukord"
+
+#: turAI/plugins/micropython/mp_front.py:303
+msgid "CircuitPython device"
+msgstr "CircuitPythoni seade"
+
+#: turAI/plugins/micropython/mp_front.py:307
+msgid "MicroPython device"
+msgstr "MicroPythoni seade"
+
+#: turAI/plugins/micropython/mp_front.py:558
+msgid "Connect your device to the computer and select corresponding port below"
+msgstr "Ühenda seade arvutiga ja vali allpoolt selle port"
+
+#: turAI/plugins/micropython/mp_front.py:561
+msgid "look for your device name, \"USB Serial\" or \"UART\""
+msgstr "otsi oma seadme nime või fraase \"USB Serial\" või \"UART\""
+
+#: turAI/plugins/micropython/mp_front.py:563
+msgid "If you can't find it, you may need to install proper USB driver first."
+msgstr "Kui sa ei leia seda, siis pead võibolla installima sobiva USB draiveri."
+
+#: turAI/plugins/micropython/mp_front.py:453
+msgid "Port"
+msgstr "Port"
+
+#: turAI/plugins/micropython/mp_front.py:458
+msgid "Try to detect port automatically"
+msgstr "Proovi tuvastada port automaatselt"
+
+#: turAI/plugins/micropython/__init__.py:24
+msgid "MicroPython (generic)"
+msgstr "MicroPython (üldine)"
+
+#: turAI/plugins/printing/__init__.py:98
+msgid "Print..."
+msgstr "Prindi..."
+
+#: turAI/plugins/system_shell/__init__.py:63
+msgid "Open system shell..."
+msgstr "Ava süsteemi käsurida / terminal"
+
+#: turAI/plugins/backend_config_page.py:109
+msgid "Details"
+msgstr "Detailid"
+
+#: turAI/plugins/pip_gui.py:395
+msgid "Install from requirements file"
+msgstr "Installi sõltuvusfaili järgi"
+
+#: turAI/plugins/pip_gui.py:407
+msgid "Install from local file"
+msgstr "Installi lokaalsest failist"
+
+#: turAI/plugins/pip_gui.py:1200
+msgid "This dialog is for managing turAI plug-ins and their dependencies.\n"
+"If you want to install packages for your own programs then choose 'Tools → Manage packages...'"
+msgstr "See dialoog on mõeldud turAI pistiprogrammide haldamiseks.\n"
+"Kui soovid installida pakke enda programmide jaoks, siis kasuta 'Tööriistad → Halda lisapakke...'"
+
+#: turAI/plugins/circuitpython/__init__.py:10
+msgid "CircuitPython (generic)"
+msgstr "CircuitPython (üldine)"
+
+#: turAI/plugins/commenting_indenting.py:142
+msgid "Indent selected lines"
+msgstr "Suurenda ridade taanet"
+
+#: turAI/plugins/commenting_indenting.py:152
+msgid "Dedent selected lines"
+msgstr "Vähenda ridade taanet"
+
+#: turAI/workbench.py:1481
+msgid "Switch to\n"
+"regular\n"
+"mode"
+msgstr "Mine\n"
+"tavalisse\n"
+"režiimi"
+
+#: turAI/plugins/microbit/__init__.py:62
+msgid "Make sure MicroPython has been installed to your micro:bit."
+msgstr "Veendu, et MicroPython oleks su micro:bit-ile installitud."
+
+#: turAI/plugins/microbit/__init__.py:64
+msgid "Don't forget that main.py only works without embedded main script."
+msgstr "Ära unusta, et main.py toimib ainult siis kui MicroPython on ilma peaskriptita."
+
+#: turAI/misc_utils.py:177
+msgid "Could not find disk '%s'. Do you want to locate it yourself?"
+msgstr "Ei leia draivi nimega '%s'. Kas soovid selle ise valida?"
+
+#: turAI/misc_utils.py:180
+msgid "Found several '%s' disks. Do you want to choose one yourself?"
+msgstr "Leidsin mitu draivi nimega '%s'. Kas soovid ühe neist ise valida?"
+
+#: turAI/misc_utils.py:196
+msgid "Can't find suitable disk"
+msgstr "Ei leia sobivat draivi."
+
+#: turAI/base_file_browser.py:294
+msgid "%d items"
+msgstr "%d üksust"
+
+#: turAI/base_file_browser.py:743
+msgid "Move to Trash"
+msgstr "Liiguta Prügikasti"
+
+#: turAI/base_file_browser.py:746
+msgid "Delete"
+msgstr "Kustuta"
+
+#: turAI/base_file_browser.py:725 turAI/base_file_browser.py:878
+msgid "New directory"
+msgstr "Uus kaust"
+
+#: turAI/base_file_browser.py:749
+msgid "Properties"
+msgstr "Omadused"
+
+#: turAI/base_file_browser.py:751
+msgid "Storage space"
+msgstr "Salvestusruum"
+
+#: turAI/base_file_browser.py:761
+msgid "Path"
+msgstr "Tee"
+
+#: turAI/base_file_browser.py:763
+msgid "Directory properties"
+msgstr "Kausta omadused"
+
+#: turAI/base_file_browser.py:765
+msgid "File properties"
+msgstr "Faili omadused"
+
+#: turAI/base_file_browser.py:767
+msgid "bytes"
+msgstr "baiti"
+
+#: turAI/base_file_browser.py:770
+msgid "Size"
+msgstr "Suurus"
+
+#: turAI/base_file_browser.py:94 turAI/base_file_browser.py:781
+msgid "Modified"
+msgstr "Muudetud"
+
+#: turAI/base_file_browser.py:842
+msgid "Deleting %s"
+msgstr "Kustutan %s"
+
+#: turAI/editors.py:262
+msgid "Loading"
+msgstr "Laadin"
+
+#: turAI/editors.py:395
+msgid "Saving"
+msgstr "Salvestan"
+
+#: turAI/plugins/files.py:219
+msgid "Upload to %s"
+msgstr "Laadi üles kausta %s"
+
+#: turAI/plugins/files.py:420
+msgid "Downloading %s to %s"
+msgstr "Laadi %s alla kausta %s"
+
+#: turAI/plugins/files.py:326
+msgid "Download to %s"
+msgstr "Laadi alla kausta %s"
+
+#: turAI/base_file_browser.py:650
+msgid "Open in system file manager"
+msgstr "Ava süsteemi failihalduris"
+
+#: turAI/base_file_browser.py:678
+msgid "Hide hidden files"
+msgstr "Peida varjatud failid"
+
+#: turAI/base_file_browser.py:678
+msgid "Show hidden files"
+msgstr "Näita varjatud faile"
+
+#: turAI/base_file_browser.py:661
+msgid "Open in turAI"
+msgstr "Ava turAIs"
+
+#: turAI/base_file_browser.py:692
+msgid "Open in system default app"
+msgstr "Ava süsteemi vaikerakendusega"
+
+#: turAI/base_file_browser.py:673 turAI/base_file_browser.py:700
+msgid "Configure %s files"
+msgstr "Seadista %s failid"
+
+#: turAI/base_file_browser.py:701
+msgid "What to do with a %s file when you double-click it in turAI's file browser?"
+msgstr "Mida tuleks teha %s failiga, kui sa topeltklõpsad seda turAI failibrauseris?"
+
+#: turAI/base_file_browser.py:1258 turAI/editors.py:986 turAI/editors.py:988
+msgid "Deleting"
+msgstr "Kustutan"
+
+#: turAI/base_file_browser.py:1265
+msgid "Creating directory"
+msgstr "Loon kausta"
+
+#: turAI/editors.py:260
+msgid "Loading %s"
+msgstr "Laadin %s"
+
+#: turAI/editors.py:390
+msgid "Saving to %s"
+msgstr "Salvestan %s"
+
+#: turAI/editors.py:728 turAI/editors.py:730
+msgid "Save All files"
+msgstr "Salvesta kõik failid"
+
+#: turAI/plugins/backend_config_page.py:338 turAI/workbench.py:880
+msgid "Configure interpreter..."
+msgstr "Seadista interpretaator..."
+
+#: turAI/workbench.py:1591
+msgid "Device"
+msgstr "Seade"
+
+#: turAI/workdlg.py:234
+msgid "Cancelling"
+msgstr "Tühistan"
+
+#: turAI/workdlg.py:270
+msgid "Starting"
+msgstr "Alustan"
+
+#: turAI/plugins/backend_config_page.py:249
+msgid "Authentication"
+msgstr "Autentimine"
+
+#: turAI/plugins/backend_config_page.py:251
+msgid "Enter the passphrase of your private key for\n"
+"{}"
+msgstr "Sisesta oma privaatvõtme parool {} jaoks"
+
+#: turAI/plugins/backend_config_page.py:254
+msgid "Enter your password for\n"
+"{}"
+msgstr "Sisesta parool {} jaoks"
+
+#: turAI/plugins/object_inspector.py:486
+msgid "The representation above is an approximate value of this float. The exact stored value is %s which is about %s"
+msgstr "Ülaltoodud esitus on antud ujukomaarvu ligikaudne väärtus. Täpne mälus hoitav väärtus on %s, mis on umbes %s"
+
+#: turAI/plugins/pip_gui.py:682
+msgid "Search results"
+msgstr "Otsingutulemused"
+
+#: turAI/plugins/pip_gui.py:683
+msgid "Searching"
+msgstr "Otsin"
+
+#: turAI/plugins/pip_gui.py:787 turAI/plugins/pip_gui.py:876
+msgid "Installing '%s'"
+msgstr "Installin '%s'"
+
+#: turAI/plugins/pip_gui.py:793
+msgid "Upgrading '%s'"
+msgstr "Uendan '%s'"
+
+#: turAI/plugins/pip_gui.py:800
+msgid "Uninstalling '%s'"
+msgstr "Deinstallin '%s'"
+
+#: turAI/plugins/pip_gui.py:814
+msgid "Installing"
+msgstr "Installin"
+
+#: turAI/plugins/pip_gui.py:1562
+msgid "Package manager is not available for this interpreter"
+msgstr "Pakihaldur pole selle interpretaatori jaoks kättesaadav"
+
+#: turAI/base_file_browser.py:1209 turAI/plugins/pip_gui.py:1576
+msgid "Not supported"
+msgstr "Pole toetatud"
+
+#: turAI/plugins/micropython/pip_gui.py:142 turAI/plugins/pip_gui.py:1581
+msgid "Not available"
+msgstr "Pole kättesaadav"
+
+#: turAI/plugins/pip_gui.py:1582
+msgid "You need to stop your program before launching the package manager."
+msgstr "Enne pakihalduri avamist pead oma programmi töö lõpetama"
+
+#: turAI/plugins/shell_config_page.py:73
+msgid "Open evaluated values in Object inspector"
+msgstr "Ava väärtused Objektivaaturis"
+
+#: turAI/plugins/cpython_frontend/cp_front.py:234
+msgid "Python executable"
+msgstr "Pythoni käivitusfail"
+
+#: turAI/plugins/cpython_frontend/cp_front.py:258
+msgid "NB! File selection button may not work properly when selecting executables\n"
+"from a virtual environment. In this case choose the 'activate' script instead\n"
+"of the interpreter (or enter the path directly to the box)!"
+msgstr "NB! Faili valimise nupp ei pruugi korralikult toimida, kui valida\n"
+"käivitusfaile virtuaalkeskkonnas. Sel juhul vali hoopis 'activate' \n"
+"skript (või sisesta failitee sisestuskasti käsitsi)!"
+
+#: turAI/plugins/cpython_ssh/__init__.py:17
+msgid "Remote Python 3 (SSH)"
+msgstr "Python 3 teises masinas (SSH)"
+
+#: turAI/plugins/micropython/mp_front.py:313
+msgid "Not connected"
+msgstr "Pole ühendatud"
+
+#: turAI/plugins/micropython/__init__.py:35
+msgid "MicroPython (local)"
+msgstr "MicroPython (lokaalne)"
+
+#: turAI/plugins/micropython/__init__.py:46
+msgid "MicroPython (SSH)"
+msgstr "MicroPython (SSH)"
+
+#: turAI/plugins/micropython/pip_gui.py:144
+msgid "no absolute lib directory in sys.path"
+msgstr "sys.path ei sisalda absoluutset lib kausta"
+
+#: turAI/plugins/pip_gui.py:71
+msgid "Search on PyPI"
+msgstr "Otsi PyPI-st"
+
+#: turAI/base_file_browser.py:693
+msgid "Open in turAI's text editor"
+msgstr "Ava turAI tekstiredaktoris"
+
+#: turAI/base_file_browser.py:346
+msgid "Storage space on this drive or filesystem"
+msgstr "Salvestusruum sellel kettal või failisüsteemis"
+
+#: turAI/base_file_browser.py:347
+msgid "total space"
+msgstr "koguruum"
+
+#: turAI/base_file_browser.py:349
+msgid "used space"
+msgstr "kasutatud ruum"
+
+#: turAI/base_file_browser.py:350
+msgid "free space"
+msgstr "vaba ruum"
+
+#: turAI/base_file_browser.py:357
+msgid "Storage info"
+msgstr "Salvestusruumi info"
+
+#: turAI/plugins/commenting_indenting.py:162
+msgid "Replace tabs with spaces"
+msgstr "Asenda tab-sümbolid tühikutega"
+
+#: turAI/plugins/editor_config_page.py:33
+msgid "Highlight tab characters"
+msgstr "Too tab-sümbolid esile"
+
+#: turAI/plugins/editor_config_page.py:68
+msgid "Indent with tab characters (not recommended for Python)"
+msgstr "Taanda tab-sümbolitega (mittesoovitav Pythoni koodis)"
+
+#: turAI/base_file_browser.py:92 turAI/memory.py:63
+msgid "Name"
+msgstr "Nimi"
+
+#: turAI/base_file_browser.py:96
+msgid "Size (bytes)"
+msgstr "Suurus (baitides)"
+
+#: turAI/base_file_browser.py:879
+msgid "Enter name for new directory under\n"
+"%s"
+msgstr "Sisesta uue kausta nimi \n"
+"(%s all)"
+
+#: turAI/base_file_browser.py:902
+msgid "Nothing selected"
+msgstr "Midagi pole märgitud"
+
+#: turAI/base_file_browser.py:902
+msgid "Select an item and try again!"
+msgstr "Märgi midagi ja proovi uuesti"
+
+#: turAI/base_file_browser.py:1329
+msgid "Open from %s"
+msgstr "Ava asukohast %s"
+
+#: turAI/base_file_browser.py:1332
+msgid "Save to %s"
+msgstr "Salvesta %s alla"
+
+#: turAI/base_file_browser.py:1351
+msgid "File name:"
+msgstr "Faili nimi:"
+
+#: turAI/memory.py:64 turAI/plugins/object_inspector.py:538
+#: turAI/plugins/object_inspector.py:617
+msgid "Value ID"
+msgstr "Väärtuse ID"
+
+#: turAI/memory.py:65 turAI/plugins/heap.py:23
+#: turAI/plugins/object_inspector.py:539
+#: turAI/plugins/object_inspector.py:618
+msgid "Value"
+msgstr "Väärtus"
+
+#: turAI/plugins/backend_config_page.py:272
+msgid "Save password"
+msgstr "Salvesta parool"
+
+#: turAI/plugins/debugger.py:557
+msgid "Function call at %s"
+msgstr "Funktsiooni väljakutse (%s)"
+
+#: turAI/plugins/debugger.py:1006
+msgid "Local variables"
+msgstr "Lokaalsed muutujad"
+
+#: turAI/plugins/debugger.py:1038
+msgid "Function"
+msgstr "Funktsioon"
+
+#: turAI/plugins/debugger.py:1039
+msgid "Location"
+msgstr "Asukoht"
+
+#: turAI/plugins/debugger.py:1115
+msgid "If last command raised an exception then this view will show the stacktrace."
+msgstr "Kui viimane käsk tekitas erindi, siis siin näidatakse selle pinujälge."
+
+#: turAI/plugins/heap.py:22
+msgid "ID"
+msgstr "ID"
+
+#: turAI/plugins/object_inspector.py:92
+msgid "Data"
+msgstr "Andmed"
+
+#: turAI/plugins/object_inspector.py:93
+msgid "Attributes"
+msgstr "Atribuudid"
+
+#: turAI/plugins/object_inspector.py:537
+msgid "Index"
+msgstr "Indeks"
+
+#: turAI/plugins/object_inspector.py:615
+msgid "Key ID"
+msgstr "Võtme ID"
+
+#: turAI/plugins/object_inspector.py:616
+msgid "Key"
+msgstr "Võti"
+
+#: turAI/plugins/variables.py:39
+msgid "Back to\n"
+"%s"
+msgstr "Tagasi\n"
+"%s"
+
+#: turAI/plugins/micropython/mp_front.py:453
+msgid "Port or WebREPL"
+msgstr "Port või WebREPL"
+
+#: turAI/plugins/micropython/mp_front.py:599
+msgid "Password"
+msgstr "Parool"
+
+#: turAI/plugins/debugger.py:964
+msgid "Source code"
+msgstr "Lähtekood"
+
+#: turAI/plugins/general_config_page.py:29
+msgid "Use Tk file dialogs instead of Zenity"
+msgstr "Kasuta Tk failidialooge Zenity asemel"
+
+#: turAI/plugins/general_config_page.py:30
+msgid "Select if the file dialogs end up behind the main window"
+msgstr "Vali kui failidialoogid satuvad peaakna taha"
+
+#: turAI/plugins/general_config_page.py:97
+msgid "Environment variables (one KEY=VALUE per line)"
+msgstr "Keskkonnamuutujad (üks VÕTI=VÄÄRTUS ühel real)"
+
+#: turAI/base_file_browser.py:722
+msgid "New file"
+msgstr "Uus fail"
+
+#: turAI/base_file_browser.py:740
+msgid "Rename"
+msgstr "Nimeta ümber"
+
+#: turAI/base_file_browser.py:928
+msgid "Rename '%s'"
+msgstr "Nimeta '%s' ümber"
+
+#: turAI/base_file_browser.py:928
+msgid "Enter new name"
+msgstr "Sisesta uus nimi"
+
+#: turAI/base_file_browser.py:1016
+msgid "Paste failed"
+msgstr "Kleepimine ebaõnnestus"
+
+#: turAI/base_file_browser.py:1016
+msgid "There are conflicting folders"
+msgstr "Kaustades on konflikte"
+
+#: turAI/base_file_browser.py:1144
+msgid "File already exists"
+msgstr "Fail juba eksisteerib"
+
+#: turAI/base_file_browser.py:1212
+msgid "If it is a text file, then you can configure it to open in turAI by right-clicking it and selecting 'Configure ... files'."
+msgstr "Kui tegemist on tekstifailiga, siis Sa saad seadistada turAI seda avama kui teed paremklõpsu ja valid 'Seadista ... failid'."
+
+#: turAI/editors.py:38
+msgid "Python files"
+msgstr "Pythoni failid"
+
+#: turAI/editors.py:123 turAI/editors.py:189
+msgid "<untitled>"
+msgstr "<nimetu>"
+
+#: turAI/editors.py:150
+msgid "File is gone"
+msgstr "Faili ei leitud"
+
+#: turAI/editors.py:153
+msgid "Do you want to also close the editor?"
+msgstr "Kas soovid redaktorit sulgeda?"
+
+#: turAI/editors.py:169
+msgid "External modification"
+msgstr "Väline muudatus"
+
+#: turAI/editors.py:172
+msgid "Do you want to discard current editor content and reload the file from disk?"
+msgstr "Kas soovid redaktori praeguse sisu tühistada ja laadida faili kettalt uuesti?"
+
+#: turAI/editors.py:588
+msgid "Python files usually have .py extension."
+msgstr "Pythoni failidel on tavaliselt .py laiend."
+
+#: turAI/editors.py:590
+msgid "Did you mean '%s'?"
+msgstr "Kas mõtlesid '%s'?"
+
+#: turAI/editors.py:759
+msgid "Move / rename..."
+msgstr "Liiguta / nimeta ümber..."
+
+#: turAI/editors.py:768
+msgid "Go to line..."
+msgstr "Mine reale..."
+
+#: turAI/editors.py:1010
+msgid "Line number"
+msgstr "Rea number"
+
+#: turAI/editors.py:1156
+msgid "Do you want to save files before closing?"
+msgstr "Kas soovid enne sulgemist failid salvestada?"
+
+#: turAI/editors.py:1158
+msgid "Do you want to save file before closing?"
+msgstr "Kas soovid enne sulgemist faili salvestada?"
+
+#: turAI/editors.py:1161
+msgid "Save On Close"
+msgstr "Sulgemisel salvestamine"
+
+#: turAI/misc_utils.py:539
+msgid "Command not available"
+msgstr "Käsk pole saadaval"
+
+#: turAI/misc_utils.py:540
+msgid "This command is not available if turAI is run via Flatpak"
+msgstr "See käsk pole saadaval, kui turAI jooksutatakse Flatpak-i kaudu"
+
+#: turAI/workbench.py:700 turAI/workbench.py:799
+msgid "Support Ukraine"
+msgstr "Toeta Ukrainat"
+
+#: turAI/plugins/backend_config_page.py:90
+msgid "Which kind of interpreter should turAI use for running your code?"
+msgstr "Millist tüüpi interpretaatoriga peaks turAI Su koodi jooksutama?"
+
+#: turAI/plugins/calltip.py:159
+msgid "Show parameter info"
+msgstr "Näita parameetrite infot"
+
+#: turAI/plugins/editor_config_page.py:41
+msgid "Automatically show parameter info after typing '('"
+msgstr "Näita parameetrite infot automaatselt peale '(' tippimist"
+
+#: turAI/plugins/editor_config_page.py:47
+msgid "Automatically propose completions while typing"
+msgstr "Paku sõnade lõpetamist tippimisel automaatselt"
+
+#: turAI/plugins/editor_config_page.py:52
+msgid "Automatically show documentation for completions"
+msgstr "Näita pakkumiste dokumentatsiooni automaatselt"
+
+#: turAI/plugins/editor_config_page.py:57
+msgid "Request completions with Tab-key in editors"
+msgstr "Luba küsida sõnade lõpetamisi Tab-klahviga redaktoris"
+
+#: turAI/plugins/editor_config_page.py:62
+msgid "Request completions with Tab-key in Shell"
+msgstr "Luba küsida sõnade lõpetamisi Tab-klahviga Käsureal"
+
+#: turAI/editors.py:213 turAI/plugins/goto_definition.py:58
+msgid "Problem"
+msgstr "Probleem"
+
+#: turAI/plugins/goto_definition.py:58
+msgid "Could not find definition"
+msgstr "Ei leidnud definitsiooni"
+
+#: turAI/plugins/shell_config_page.py:17
+msgid "Clear Shell before starting new process (Run, Debug, Stop/Restart, ...)"
+msgstr "Tühjenda Käsurida enne uue protsessi käivitamist (Jooksuta, Silu, Peata/taaskäivita, ...)"
+
+#: turAI/plugins/cpython_frontend/cp_front.py:196
+msgid "turAI's Python"
+msgstr "turAI Pyhton"
+
+#: turAI/plugins/micropython/mp_front.py:496
+msgid "Interrupt working program on connect"
+msgstr "Katkesta ühendumisel töötav programm"
+
+#: turAI/plugins/micropython/mp_front.py:504
+msgid "Synchronize device's real time clock"
+msgstr "Sünkroniseeri seadme kell"
+
+#: turAI/plugins/micropython/mp_front.py:510
+msgid "Use local time in real time clock"
+msgstr "Kasuta seadme kellas lokaalset aega"
+
+#: turAI/plugins/micropython/mp_front.py:516
+msgid "Restart interpreter before running a script"
+msgstr "Taaskäivita interpretaator enne skripti jooksutamist"
+
+#: turAI/plugins/micropython/pip_gui.py:26
+msgid "This doesn't look like MicroPython/CircuitPython package.\n"
+"Are you sure you want to install it?"
+msgstr "See ei paista olevat MicroPythoni või CircuitPythoni pakk. Oled kindel, et soovid seda installida?"
+
+#: turAI/base_file_browser.py:853
+msgid "Moving to Trash"
+msgstr "Liigutan Prügikasti"
+
+#: turAI/base_file_browser.py:854
+msgid "Move %s to Trash?"
+msgstr "Kas liigutan %s Prügikasti?"
+
+#: turAI/base_file_browser.py:861
+msgid "Moving %s to Trash"
+msgstr "Liigutan %s Prügikasti"
+
+#: turAI/base_file_browser.py:666
+msgid "Open in default external app"
+msgstr "Ava välises vaikerakenduses"
+
+#: turAI/base_file_browser.py:1210
+msgid "Opening remote files in external app is not supported."
+msgstr "Välises rakenduses ei saa avada mittelokaalseid faile."
+
+#: turAI/base_file_browser.py:1217
+msgid "If the file needs to be opened in external app, then download it to a local directory and open it from there!"
+msgstr "Kui faili on vaja avada välises rakenduses, siis lae see kõigepealt alla lokaalsesse kausta ja ava sealt!"
+
+#: turAI/editors.py:151
+msgid "Looks like '%s' was deleted or moved."
+msgstr "Näib, et '%s' on kustutatud või ümberpaigutatud."
+
+#: turAI/editors.py:170
+msgid "Looks like '%s' was modified outside of the editor."
+msgstr "Näib, et '%s' on muudetud väljaspool redaktorit."
+
+#: turAI/plugins/cpython_frontend/cp_front.py:256
+msgid "NB! turAI only supports Python %s and later"
+msgstr "NB! turAI toetab ainult Python %s ja sellest uuemaid"
+
+#: turAI/editors.py:1010
+msgid "Go to line"
+msgstr "Mine reale"
+
+#: turAI/workbench.py:703
+msgid "Support"
+msgstr "Toeta"
+
+#: turAI/editors.py:399 turAI/editors.py:414
+msgid "Could not save"
+msgstr "Salvestamine ei õnnestunud"
+
+#: turAI/plugins/general_config_page.py:135
+msgid "Warning"
+msgstr "Hoiatus"
+
+#: turAI/plugins/general_config_page.py:136
+msgid "If you quote the value of an environment variable, the quotes will be part of the value.\n"
+"Did you intend this?"
+msgstr "Kui Sa paned keskkonnamuutuja väärtuse jutumärkidesse, siis jutumärgid saavad väärtuse osaks.\n"
+"Kas soovisid nii?"
+
+#: turAI/workbench.py:870
+msgid "Install MicroPython"
+msgstr "Installi MicroPython"
+
+#: turAI/workbench.py:874
+msgid "Install CircuitPython"
+msgstr "Installi CircuitPython"
+
+#: turAI/plugins/backend_config_page.py:210
+msgid "Make uploaded shebang scripts executable"
+msgstr "Tee üleslaetud shebang-skriptid käivitatavaks"
+
+#: turAI/plugins/editor_config_page.py:91
+msgid "Make saved shebang scripts executable"
+msgstr "Tee salvestatud shebang-skriptid käivitatavaks"
+
+#: turAI/plugins/files.py:224
+msgid "Activate virtual environment"
+msgstr "Aktiveeri virtuaalkeskkond"
+
+#: turAI/plugins/micropython/pip_gui.py:119 turAI/plugins/pip_gui.py:426
+msgid "Target"
+msgstr "Sihtkoht"
+
+#: turAI/plugins/pythontutor.py:41
+msgid "Visualize current script at Python Tutor"
+msgstr "Visualiseeri käesolev skript Python Tutor-is"
+
+#: turAI/plugins/todo_view.py:43
+msgid "Line"
+msgstr "Rida"
+
+#: turAI/plugins/todo_view.py:44
+msgid "Info"
+msgstr "Info"
+
+#: turAI/plugins/todo_view.py:121
+msgid "No line marked with #todo found"
+msgstr "Ei leidnud ühtki #todo rida"
+
+#: turAI/plugins/todo_view.py:141
+msgid "TODO"
+msgstr "TODO"
+
+#: turAI/plugins/circuitpython/cirpy_front.py:113
+#: turAI/plugins/micropython/mp_front.py:550
+msgid "Install or update %s"
+msgstr "Installi või uuenda %s"
+
+#: turAI/plugins/cpython_frontend/__init__.py:24
+msgid "Local Python 3"
+msgstr "Kohalik Python 3"
+
+#: turAI/plugins/cpython_frontend/cp_front.py:266
+msgid "You can activate an existing virtual environment also via the right-click context menu in the file navagation when selecting a virtual environment folder, or the 'pyveng.cfg' file inside."
+msgstr "Virtuaalkeskkonna saab aktiveerida ka paremklõpsuga failibrauseris keskkonna kaustal või pyvenv.cfg failil"
+
+#: turAI/plugins/ev3/__init__.py:72
+msgid "Preparations (skip the VS Code part)"
+msgstr "Ettevalmistused (ignoreeri VS Code osa)"
+
+#: turAI/plugins/ev3/__init__.py:78
+msgid "Default password"
+msgstr "Vaikeparool"
+
+#: turAI/running.py:392
+msgid "Information"
+msgstr "Informatsioon"
+
+#: turAI/running.py:393
+msgid "For debugging the program must be saved first."
+msgstr "Silumiseks tuleb programm enne salvestada."
+
+#: turAI/editors.py:213
+msgid "%s doesn't look like a text file"
+msgstr "%s ei paista olevat tekstifail"
+
+#: turAI/editors.py:219
+msgid "Problem loading file"
+msgstr "Faili laadimise probleem"
+
+#: turAI/editors.py:220
+msgid "This file seems to have problems with encoding.\n"
+"\n"
+"Make sure it is in UTF-8 or contains proper encoding hint."
+msgstr "Sellel failil paistab olevat probleem kodeeringuga.\n"
+"\n"
+"Veendu, et see oleks UTF-8 kodeeringus või et tal oleks sobiv kodeeringumarker."
+
+#: turAI/editors.py:295
+msgid "File is open"
+msgstr "Fail on avatud"
+
+#: turAI/editors.py:296
+msgid "This file is already open in turAI.\n"
+"\n"
+"If you want to save with this name,\n"
+"close the existing editor first!"
+msgstr "See fail on juba turAIs avatud.\n"
+"\n"
+"Kui soovid salvestada sellise nimega,\n"
+"siis sulge esmalt vastav redaktor!"
+
+#: turAI/editors.py:349
+msgid "Permission Error"
+msgstr "Ligipääsu viga"
+
+#: turAI/editors.py:350
+msgid "Looks like this file or folder is not writable."
+msgstr "Paistab, et see fail või kaust ei ole muudetav."
+
+#: turAI/editors.py:414
+msgid "Back-end is not ready"
+msgstr "Tagasüsteem pole valmis"
+
+#: turAI/editors.py:419
+msgid "Where to save to?"
+msgstr "Kuhu salvestada?"
+
+#: turAI/editors.py:490
+msgid "Potential problem"
+msgstr "Potentsiaalne probleem"
+
+#: turAI/editors.py:491
+msgid "If you name your script '%s', you won't be able to import the library module named '%s'"
+msgstr "Kui Sa paned oma skripti nimeks '%s', siis ei saa sa importida teegi moodulit '%s'"
+
+#: turAI/editors.py:497
+msgid "Do you still want to use this name for your script?"
+msgstr "Kas soovid siiski kasutada oma skripti jaoks seda nime?"
+
+#: turAI/editors.py:1053
+msgid "Got permission error when trying to load\n"
+"%s"
+msgstr "Sain ligipääsu vea, kui proovisin laadida\n"
+"%s"
+
+#: turAI/editors.py:1055
+msgid "Try opening it with File => Open."
+msgstr "Proovi seda avada \"Fail => Ava\" abil."
+
+#: turAI/editors.py:1057
+msgid "Permission error"
+msgstr "Ligipääsu viga"
+
+#: turAI/plugins/run_debug_config_page.py:14
+msgid "Allow running unnamed programs"
+msgstr "Luba jooksutada nimetuid programme"
+
+#: turAI/plugins/pip_gui.py:600
+msgid "License"
+msgstr "Litsents"
+
+#: turAI/plugins/run_debug_config_page.py:27
+msgid "Warn if a user module shadows a library module"
+msgstr "Hoiata, kui kasutajamoodul varjab mõne teegimooduli"
+
+#: turAI/plugins/micropython/pip_gui.py:65
+msgid "Search micropython-lib and PyPI"
+msgstr "Otsi (micropython-lib ja PyPI)"
+

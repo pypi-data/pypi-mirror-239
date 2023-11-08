@@ -1,0 +1,1988 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: turAI\n"
+"Language: ca\n"
+
+#: turAI/workbench.py:375
+msgid "File"
+msgstr "Fitxer"
+
+#: turAI/workbench.py:376
+msgid "Edit"
+msgstr "Edita"
+
+#: turAI/workbench.py:377
+msgid "View"
+msgstr "Visualitza"
+
+#: turAI/running.py:161 turAI/workbench.py:378
+msgid "Run"
+msgstr "Executa"
+
+#: turAI/workbench.py:379
+msgid "Tools"
+msgstr "Eines"
+
+#: turAI/plugins/help/__init__.py:80 turAI/workbench.py:380
+msgid "Help"
+msgstr "Ajuda"
+
+#: turAI/workbench.py:598
+msgid "Exit"
+msgstr "Surt"
+
+#: turAI/workbench.py:625
+msgid "Decrease font size"
+msgstr "Redueix la mida de la lletra"
+
+#: turAI/workbench.py:637
+msgid "Focus editor"
+msgstr "Ves a l’editor"
+
+#: turAI/workbench.py:646
+msgid "Focus shell"
+msgstr "Ves a la consola"
+
+#: turAI/workbench.py:656
+msgid "Maximize view"
+msgstr "Maximitza vista"
+
+#: turAI/workbench.py:668
+msgid "Full screen"
+msgstr "Pantalla completa"
+
+#: turAI/workbench.py:1467
+msgid "Program arguments"
+msgstr "Paràmetres de l’execució del programa"
+
+#: turAI/plugins/about.py:24 turAI/plugins/about.py:153
+msgid "About turAI"
+msgstr "Sobre turAI"
+
+#: turAI/plugins/about.py:81
+msgid "Made in\n"
+"University of Tartu, Estonia,\n"
+"with the help from\n"
+"open-source community,\n"
+"Raspberry Pi Foundation\n"
+"and Cybernetica AS"
+msgstr "Desenvolupat a \n"
+"la universitat de Tartu, Estònia, \n"
+"amb l'ajuda de \n"
+"la Comunitat de codi obert, \n"
+"la Raspberry Pi Foundation \n"
+"i Cybernetica AS"
+
+#: turAI/plugins/about.py:101
+msgid "This program comes with\n"
+"ABSOLUTELY NO WARRANTY!\n"
+"It is free software, and you are welcome to\n"
+"redistribute it under certain conditions, see\n"
+"https://opensource.org/licenses/MIT\n"
+"for details"
+msgstr "Aquest programa ve \n"
+"COMPLETAMENT SENSE GARANTIA!\n"
+"És programari lliure, per la qual cosa pots \n"
+"redistribuir-ho sota unes determinades \n"
+"condicions, veure https://opensource.org/licenses/MIT \n"
+"per a més detalls"
+
+#: turAI/plugins/about.py:142
+msgid "Version history"
+msgstr "Historial de versions"
+
+#: turAI/plugins/about.py:149
+msgid "Report problems"
+msgstr "Informa d'un problema"
+
+#: turAI/plugins/assistant_config_page.py:16
+msgid "Open Assistant automatically when program crashes with an exception"
+msgstr "Obre l'Assistent automàticament si el programa es bloqueja amb una excepció"
+
+#: turAI/plugins/assistant_config_page.py:23
+msgid "Open Assistant automatically when it has warnings for your code"
+msgstr "Obre l'Assistent automàticament si hi ha avisos en el teu codi"
+
+#: turAI/plugins/assistant_config_page.py:30
+msgid "Perform selected Pylint checks"
+msgstr "Realitza les comprovacions Pylint seleccionades"
+
+#: turAI/plugins/assistant_config_page.py:34
+msgid "Perform MyPy checks"
+msgstr "Realitza les comprovacions MyPy"
+
+#: turAI/plugins/assistant_config_page.py:36
+msgid "Disabled checks (one id per line)"
+msgstr "Desactiva comprovacions (un id per línia)"
+
+#: turAI/assistance.py:981 turAI/plugins/assistant_config_page.py:74
+msgid "Assistant"
+msgstr "Assistent"
+
+#: turAI/plugins/autocomplete.py:529
+msgid "Auto-complete"
+msgstr "Completa automàticament"
+
+#: turAI/plugins/backend_config_page.py:335
+msgid "Interpreter"
+msgstr "Intèrpret"
+
+#: turAI/plugins/birdseye_frontend.py:55
+msgid "About Birdseye"
+msgstr "Sobre el Birdseye"
+
+#: turAI/plugins/birdseye_frontend.py:56
+msgid "Birdseye is a Python debugger which needs to be installed separately.\n"
+"\n"
+"Do you want to open the help page and learn more?"
+msgstr "Birdeyes és un depurador de Python que s’ha d’instal·lar \n"
+"a part.\n"
+"Vols obrir la pàgina web d’ajuda i obtenir més informació?"
+
+#: turAI/plugins/birdseye_frontend.py:84
+msgid "Debug current script (birdseye)"
+msgstr "Depura l’script actual (Birdeyes)"
+
+#: turAI/plugins/commenting_indenting.py:171
+msgid "Toggle comment"
+msgstr "Activa/desactiva com a comentari"
+
+#: turAI/plugins/commenting_indenting.py:181
+msgid "Comment out"
+msgstr "Converteix a comentari"
+
+#: turAI/plugins/commenting_indenting.py:191
+msgid "Uncomment"
+msgstr "Desactiva com a comentari"
+
+#: turAI/plugins/common_editing_commands.py:21
+msgid "Undo"
+msgstr "Desfés"
+
+#: turAI/plugins/common_editing_commands.py:33
+msgid "Redo"
+msgstr "Refés"
+
+#: turAI/base_file_browser.py:728 turAI/plugins/common_editing_commands.py:49
+#: turAI/ui_utils.py:2339
+msgid "Cut"
+msgstr "Retalla"
+
+#: turAI/base_file_browser.py:729 turAI/plugins/common_editing_commands.py:61
+#: turAI/ui_utils.py:2340
+msgid "Copy"
+msgstr "Copia"
+
+#: turAI/base_file_browser.py:731 turAI/base_file_browser.py:737
+#: turAI/plugins/common_editing_commands.py:73 turAI/ui_utils.py:2341
+msgid "Paste"
+msgstr "Enganxa"
+
+#: turAI/plugins/common_editing_commands.py:85 turAI/plugins/debugger.py:152
+msgid "Select all"
+msgstr "Selecciona-ho tot"
+
+#: turAI/plugins/debugger.py:145 turAI/plugins/debugger.py:1402
+msgid "Run to cursor"
+msgstr "Executa fins on està el cursor"
+
+#: turAI/plugins/debugger.py:985
+msgid "Can't close yet"
+msgstr "Encara no es pot tancar"
+
+#: turAI/plugins/debugger.py:986
+msgid "Use \"Stop\" command if you want to cancel debugging"
+msgstr "Utilitza l'ordre \"Stop\" si vols cancel·lar la depuració"
+
+#: turAI/plugins/dock_user_windows_frontend.py:28
+msgid "Dock user windows"
+msgstr "Ancora les finestres de l’usuari"
+
+#: turAI/plugins/editor_config_page.py:20
+msgid "Highlight matching names"
+msgstr "Ressalta les coincidències de noms"
+
+#: turAI/plugins/editor_config_page.py:26
+msgid "Highlight local variables"
+msgstr "Ressalta les variables locals"
+
+#: turAI/plugins/editor_config_page.py:31
+msgid "Highlight parentheses"
+msgstr "Ressalta els parèntesi"
+
+#: turAI/plugins/editor_config_page.py:32
+msgid "Highlight syntax elements"
+msgstr "Ressalta els elements sintàctics"
+
+#: turAI/plugins/editor_config_page.py:36
+msgid "Highlight current line (requires reopening the editor)"
+msgstr "Ressalta la línia actual (requereix obrir de nou l’editor)"
+
+#: turAI/plugins/editor_config_page.py:73
+msgid "Show line numbers"
+msgstr "Mostra els números de línia"
+
+#: turAI/plugins/editor_config_page.py:76
+msgid "Recommended maximum line length\n"
+"(Set to 0 to turn off margin line)"
+msgstr "Longitud de línia màxima recomanada \n"
+"(posar a 0 per a desactivar el marge de línia)"
+
+#: turAI/plugins/editor_config_page.py:104
+msgid "Editor"
+msgstr "Edita"
+
+#: turAI/plugins/event_logging.py:207
+msgid "Export usage logs..."
+msgstr "Exporta registres d'ús..."
+
+#: turAI/plugins/event_view.py:39
+msgid "Events"
+msgstr "Esdeveniment"
+
+#: turAI/plugins/files.py:609
+msgid "Files"
+msgstr "Arxius"
+
+#: turAI/plugins/find_replace.py:60 turAI/plugins/find_replace.py:438
+msgid "Find & Replace"
+msgstr "Cerca i reemplaça"
+
+#: turAI/plugins/find_replace.py:66
+msgid "Find:"
+msgstr "Cerca:"
+
+#: turAI/plugins/find_replace.py:90
+msgid "Replace with:"
+msgstr "Reemplaça amb:"
+
+#: turAI/plugins/find_replace.py:108
+msgid "Case sensitive"
+msgstr "Distingeix entre majúscules i minúscules"
+
+#: turAI/plugins/find_replace.py:115
+msgid "Up"
+msgstr "Amunt"
+
+#: turAI/plugins/find_replace.py:119
+msgid "Down"
+msgstr "Avall"
+
+#: turAI/plugins/find_replace.py:128
+msgid "Find"
+msgstr "Cerca"
+
+#: turAI/plugins/find_replace.py:138
+msgid "Replace"
+msgstr "Reemplaça"
+
+#: turAI/plugins/find_replace.py:146
+msgid "Replace+Find"
+msgstr "Reemplaça+Cerca"
+
+#: turAI/plugins/find_replace.py:156
+msgid "Replace all"
+msgstr "Reemplaça-ho tot"
+
+#: turAI/plugins/find_replace.py:254
+msgid "Enter string to be replaced."
+msgstr "Introdueix la cadena a reemplaçar."
+
+#: turAI/plugins/find_replace.py:339
+msgid "The specified text was not found!"
+msgstr "El text especificat no s'ha trobat!"
+
+#: turAI/plugins/general_config_page.py:15
+msgid "Allow only single turAI instance"
+msgstr "Permet només una instància del turAI"
+
+#: turAI/plugins/general_config_page.py:22
+msgid "Reopen all files from previous session"
+msgstr "Torna a obrir tots els arxius de la sessió anterior"
+
+#: turAI/plugins/general_config_page.py:37
+msgid "Disable notification sound"
+msgstr "Desactiva els sons de notificació"
+
+#: turAI/plugins/general_config_page.py:86
+msgid "Font scaling mode"
+msgstr "Mode d’escalat de la lletra"
+
+#: turAI/plugins/heap.py:37
+msgid "Heap mode is on.\n"
+"Close Heap view to turn it off."
+msgstr "Mode Heap activat.\n"
+"Selecciona Visualització Heap per a tancar-ho."
+
+#: turAI/plugins/heap.py:86
+msgid "Heap"
+msgstr "Heap"
+
+#: turAI/plugins/general_config_page.py:53
+msgid "Language"
+msgstr "Idioma"
+
+#: turAI/plugins/notes.py:35
+msgid "This box is meant for your working notes -- assignment instructions, code snippets, whatever.\n"
+"\n"
+"Everything will be saved automatically and loaded when you open turAI next time.\n"
+"\n"
+"Feel free to delete this text to make room for your own notes."
+msgstr "Aquesta casella és per a les teves notes de treball -- instruccions, fragments de codi, o altres.\n"
+"\n"
+"Tot es guardarà automàticament i es carregarà quan obri turAI la pròxima vegada.\n"
+"\n"
+"Esborra aquest text per a fer lloc a les teves notes."
+
+#: turAI/plugins/notes.py:63
+msgid "Notes"
+msgstr "Notes"
+
+#: turAI/plugins/object_inspector.py:116
+msgid "Previous object"
+msgstr "Objecte anterior"
+
+#: turAI/plugins/object_inspector.py:119
+msgid "Next object"
+msgstr "Següent objecte"
+
+#: turAI/plugins/object_inspector.py:732
+msgid "Object inspector"
+msgstr "Inspector d'objectes"
+
+#: turAI/plugins/outline.py:148
+msgid "Outline"
+msgstr "Esquema"
+
+#: turAI/plugins/pgzero_frontend.py:27
+msgid "Pygame Zero mode"
+msgstr "Mode Pygame Zero"
+
+#: turAI/plugins/pip_gui.py:80
+msgid "Uninstall"
+msgstr "Desinstal·lar"
+
+#: turAI/editors.py:693 turAI/plugins/pip_gui.py:251 turAI/ui_utils.py:496
+#: turAI/ui_utils.py:1884 turAI/workdlg.py:203
+msgid "Close"
+msgstr "Tanca"
+
+#: turAI/plugins/pip_gui.py:397
+msgid "Click "
+msgstr "Clic "
+
+#: turAI/plugins/pip_gui.py:398 turAI/plugins/pip_gui.py:409
+msgid "here"
+msgstr "Aquí"
+
+#: turAI/plugins/pip_gui.py:77
+msgid "Upgrade"
+msgstr "Actualitza"
+
+#: turAI/plugins/micropython/base_flashing_dialog.py:398
+#: turAI/plugins/pip_gui.py:74
+msgid "Install"
+msgstr "Instal·la"
+
+#: turAI/plugins/pip_gui.py:570
+msgid "Could not find the package from PyPI."
+msgstr "No s'ha pogut trobar el paquet al PyPI."
+
+#: turAI/plugins/pip_gui.py:592
+msgid "Latest stable version"
+msgstr "Última versió estable"
+
+#: turAI/plugins/pip_gui.py:594
+msgid "Latest version"
+msgstr "Última versió"
+
+#: turAI/plugins/pip_gui.py:596
+msgid "Summary"
+msgstr "Resum"
+
+#: turAI/plugins/pip_gui.py:598
+msgid "Author"
+msgstr "Autor"
+
+#: turAI/plugins/pip_gui.py:602
+msgid "Homepage"
+msgstr "Pàgina d'inici"
+
+#: turAI/plugins/pip_gui.py:604
+msgid "Bugtracker"
+msgstr "Rastrejador d'errors"
+
+#: turAI/plugins/pip_gui.py:606
+msgid "Documentation"
+msgstr "Documentació"
+
+#: turAI/plugins/pip_gui.py:608
+msgid "PyPI page"
+msgstr "Pàgina de PyPI"
+
+#: turAI/plugins/pip_gui.py:648
+msgid "Requires"
+msgstr "Requereix"
+
+#: turAI/plugins/pip_gui.py:802
+msgid "Really uninstall?"
+msgstr "Realment vols desinstal·lar-ho?"
+
+#: turAI/plugins/pip_gui.py:807
+msgid "Are you sure you want to uninstall it?"
+msgstr "Estàs segur/a que vols desinstal·lar-ho?"
+
+#: turAI/plugins/variables.py:22
+msgid "Back to\n"
+"current frame"
+msgstr "Tornar al \n"
+"marc actual"
+
+#: turAI/plugins/variables.py:80 turAI/plugins/variables.py:82
+#: turAI/plugins/variables.py:145
+msgid "Variables"
+msgstr "Variables"
+
+#: turAI/base_file_browser.py:1576
+msgid "This computer"
+msgstr "Aquest ordinador"
+
+#: turAI/base_file_browser.py:648
+msgid "Refresh"
+msgstr "Actualitza"
+
+#: turAI/base_file_browser.py:657
+msgid "Focus into"
+msgstr "Centra-se en"
+
+#: turAI/base_file_browser.py:1411 turAI/base_file_browser.py:1423
+#: turAI/plugins/autocomplete.py:303 turAI/plugins/highlight_names.py:86
+msgid "Error"
+msgstr "Error"
+
+#: turAI/base_file_browser.py:1411 turAI/base_file_browser.py:1423
+msgid "You need to select a file!"
+msgstr "Has de seleccionar un fitxer!"
+
+#: turAI/base_file_browser.py:1427
+msgid "Overwrite?"
+msgstr "Sobreescriure?"
+
+#: turAI/base_file_browser.py:1427
+msgid "Do you want to overwrite '%s' ?"
+msgstr "Vols sobreescriure '%s'?"
+
+#: turAI/editors.py:658 turAI/editors.py:660
+msgid "New"
+msgstr "Nou"
+
+#: turAI/editors.py:671
+msgid "Open..."
+msgstr "Obre..."
+
+#: turAI/editors.py:673
+msgid "Load"
+msgstr "Carrega"
+
+#: turAI/editors.py:682
+msgid "Recent files"
+msgstr "Arxius recents"
+
+#: turAI/editors.py:704 turAI/ui_utils.py:498
+msgid "Close all"
+msgstr "Tanca-ho tot"
+
+#: turAI/editors.py:714 turAI/editors.py:716
+msgid "Save"
+msgstr "Desa"
+
+#: turAI/editors.py:739
+msgid "Save as..."
+msgstr "Desa com..."
+
+#: turAI/editors.py:750
+msgid "Save copy..."
+msgstr "Desa una còpia..."
+
+#: turAI/config_ui.py:18
+msgid "turAI options"
+msgstr "Opcions del turAI"
+
+#: turAI/running.py:160
+msgid "Run current script"
+msgstr "Executa l'script actual"
+
+#: turAI/running.py:191
+msgid "Run current script in terminal"
+msgstr "Executa l'script actual al terminal"
+
+#: turAI/running.py:204
+msgid "Stop/Restart backend"
+msgstr "Atura/Reprèn back-end"
+
+#: turAI/running.py:205
+msgid "Stop"
+msgstr "Atura"
+
+#: turAI/running.py:216
+msgid "Interrupt execution"
+msgstr "Interromp l’execució"
+
+#: turAI/running.py:229
+msgid "Send EOF / Soft reboot"
+msgstr "Envia EOF / Reinici suau"
+
+#: turAI/running.py:240
+msgid "Disconnect"
+msgstr "Desconnecta"
+
+#: turAI/plugins/cpython_frontend/cp_front.py:295
+msgid "Python interpreters"
+msgstr "Intèrprets de Python"
+
+#: turAI/editors.py:39 turAI/plugins/cpython_frontend/cp_front.py:296
+#: turAI/plugins/pip_gui.py:848 turAI/plugins/pip_gui.py:861
+msgid "all files"
+msgstr "Tots el fitxers"
+
+#: turAI/plugins/cpython_frontend/cp_front.py:324
+msgid "Select empty directory for new virtual environment"
+msgstr "Selecciona un directori buit per al nou entorn virtual"
+
+#: turAI/plugins/cpython_frontend/cp_front.py:331
+msgid "Bad directory"
+msgstr "Directori incorrecte"
+
+#: turAI/plugins/cpython_frontend/cp_front.py:332
+msgid "Selected directory is not empty.\n"
+"Select another or cancel."
+msgstr "El directori seleccionat no està buit.\n"
+"Selecciona un altre o cancel·la."
+
+#: turAI/plugins/cpython_frontend/cp_front.py:349
+msgid "Creating virtual environment"
+msgstr "Creant entorn virtual"
+
+#: turAI/shell.py:101
+msgid "Clear shell"
+msgstr "Neteja la consola"
+
+#: turAI/shell.py:185
+msgid "Plotter"
+msgstr "Plòter"
+
+#: turAI/shell.py:317
+msgid "Clear"
+msgstr "Neteja"
+
+#: turAI/shell.py:330
+msgid "Show Plotter"
+msgstr "Mostra el Plòter"
+
+#: turAI/shell.py:1660
+msgid "For performance reasons, Shell avoids showing very long lines in full (see Tools => Options => Shell).\n"
+"Here you can interact with the original text fragment."
+msgstr "Per raons de rendiment, la consola evita mostrar línies molt llargues (vegeu Eines => Opcions => Consola).\n"
+"Aquí pots interactuar amb el fragment de text original."
+
+#: turAI/shell.py:1671
+msgid "Wrap text (may be slow)"
+msgstr "Ajusta el text (pot ser lent)"
+
+#: turAI/ui_utils.py:1879
+msgid "Copy to clipboard"
+msgstr "Copia al porta-retalls"
+
+#: turAI/shell.py:1713
+msgid "Squeezed text (%d characters)"
+msgstr "Text reduït (%d caràcters)"
+
+#: turAI/shell.py:1883
+msgid "Plotter visualizes series of\n"
+"numbers printed to the Shell."
+msgstr "El plòter visualitzarà sèries de \n"
+"números impresos a la consola."
+
+#: turAI/shell.py:1885
+msgid "See Help for details."
+msgstr "Vegeu l'ajuda per a més detalls."
+
+#: turAI/ui_utils.py:497
+msgid "Close others"
+msgstr "Tanca altres"
+
+#: turAI/ui_utils.py:1734
+msgid "Copying"
+msgstr "Copiant"
+
+#: turAI/ui_utils.py:1737
+msgid "Copying\n"
+"  %s\n"
+"to\n"
+"  %s"
+msgstr "Copiant\n"
+"  %s\n"
+"a\n"
+"  %s"
+
+#: turAI/base_file_browser.py:1382 turAI/config_ui.py:42 turAI/export.py:28
+#: turAI/plugins/backend_config_page.py:288 turAI/plugins/pip_gui.py:1338
+#: turAI/ui_utils.py:160 turAI/ui_utils.py:1745 turAI/ui_utils.py:1831
+#: turAI/workdlg.py:205 turAI/workdlg.py:259
+msgid "Cancel"
+msgstr "Cancel·la"
+
+#: turAI/base_file_browser.py:1373 turAI/config_ui.py:41 turAI/export.py:25
+#: turAI/plugins/about.py:115 turAI/plugins/backend_config_page.py:283
+#: turAI/ui_utils.py:157 turAI/ui_utils.py:1828 turAI/workdlg.py:256
+msgid "OK"
+msgstr "D'acord"
+
+#: turAI/ui_utils.py:2345
+msgid "Select All"
+msgstr "Selecciona-ho tot"
+
+#: turAI/plugins/shell_config_page.py:82 turAI/shell.py:149
+#: turAI/workbench.py:164
+msgid "Shell"
+msgstr "Consola"
+
+#: turAI/workbench.py:608
+msgid "Options..."
+msgstr "Opcions..."
+
+#: turAI/workbench.py:615
+msgid "Increase font size"
+msgstr "Augmenta la mida de la lletra"
+
+#: turAI/workbench.py:679
+msgid "Change font size"
+msgstr "Canvia la mida de la lletra"
+
+#: turAI/workbench.py:680
+msgid "Zoom"
+msgstr "Amplia"
+
+#: turAI/workbench.py:689
+msgid "Exit turAI"
+msgstr "Surt del turAI"
+
+#: turAI/workbench.py:692
+msgid "Quit"
+msgstr "Surt"
+
+#: turAI/workbench.py:1247 turAI/workbench.py:1255
+msgid "Overwriting theme '%s'"
+msgstr "Sobreescriu el tema '%s'"
+
+#: turAI/workbench.py:1438
+msgid "Program arguments:"
+msgstr "Arguments del programa:"
+
+#: turAI/workbench.py:1492
+msgid "Regular mode"
+msgstr "Mode regular"
+
+#: turAI/workbench.py:1493
+msgid "Configuration has been updated. Restart turAI to start working in regular mode.\n"
+"\n"
+"(See 'Tools → Options → General' if you change your mind later.)"
+msgstr "S'ha actualitzat la configuració. Reiniciï turAI per començar a treballar en mode regular. \n"
+"(Consulti 'Eines → Opcions → General' si canvia d'opinió més \n"
+"endavant.)"
+
+#: turAI/plugins/ast_view.py:211
+msgid "Program tree"
+msgstr "Arbre del programa"
+
+#: turAI/plugins/debugger.py:1284
+msgid "Resume"
+msgstr "Reprèn"
+
+#: turAI/plugins/debugger.py:1300
+msgid "Run / resume"
+msgstr "Executa/reprèn"
+
+#: turAI/plugins/debugger.py:1315
+msgid "Debug current script"
+msgstr "Depura l'script actual"
+
+#: turAI/plugins/debugger.py:1317
+msgid "Debug"
+msgstr "Depura"
+
+#: turAI/plugins/debugger.py:1328
+msgid "Debug current script (nicer)"
+msgstr "Depura l’script actual (millor)"
+
+#: turAI/plugins/debugger.py:1340
+msgid "Debug current script (faster)"
+msgstr "Depura l’script actual (ràpid)"
+
+#: turAI/plugins/debugger.py:1351
+msgid "Step over"
+msgstr "Saltant"
+
+#: turAI/plugins/debugger.py:1353
+msgid "Over"
+msgstr "Salta"
+
+#: turAI/plugins/debugger.py:1364
+msgid "Step into"
+msgstr "Entrant"
+
+#: turAI/plugins/debugger.py:1366
+msgid "Into"
+msgstr "Entra"
+
+#: turAI/plugins/debugger.py:1377
+msgid "Step out"
+msgstr "Sortint"
+
+#: turAI/plugins/debugger.py:1379
+msgid "Out"
+msgstr "Surt"
+
+#: turAI/plugins/debugger.py:1414
+msgid "Step back"
+msgstr "Torna enrere"
+
+#: turAI/plugins/debugger.py:1416
+msgid "Back"
+msgstr "Enrere"
+
+#: turAI/plugins/debugger.py:1422
+msgid "Stack"
+msgstr "Pila"
+
+#: turAI/plugins/debugger.py:1423
+msgid "Exception"
+msgstr "Excepció"
+
+#: turAI/plugins/general_config_page.py:18
+msgid "Log program usage events"
+msgstr "Registra els esdeveniments d’ús del programa"
+
+#: turAI/plugins/general_config_page.py:43
+msgid "Debug mode (provides more detailed diagnostic logs)"
+msgstr "Mode de depuració (amb diagnòstic detallat dels registres)"
+
+#: turAI/plugins/general_config_page.py:67
+msgid "UI mode"
+msgstr "Mode IU Interfície Usuari"
+
+#: turAI/plugins/general_config_page.py:80
+msgid "UI scaling factor"
+msgstr "Factor d’escalat de IU"
+
+#: turAI/plugins/general_config_page.py:114
+msgid "NB! Restart turAI after changing these options!"
+msgstr "NB! Reinicia turAI després de canviar les opcions!"
+
+#: turAI/plugins/general_config_page.py:148
+msgid "General"
+msgstr "General"
+
+#: turAI/plugins/pip_gui.py:142
+msgid "INSTALL"
+msgstr "INSTAL·LA"
+
+#: turAI/plugins/pip_gui.py:367
+msgid "Browse the packages"
+msgstr "Navega pels paquets"
+
+#: turAI/plugins/pip_gui.py:370
+msgid "With current interpreter you can only browse the packages here.\n"
+"Use 'Tools → Open system shell...' for installing, upgrading or uninstalling."
+msgstr "Amb l'intèrpret actual només pots navegar pels paquets \n"
+"aquí. Utilitza 'Eines → Consola del sistema...' Per a instal·lar, actualitzar o desinstal·lar."
+
+#: turAI/plugins/pip_gui.py:378
+msgid "Packages' directory"
+msgstr "Directori dels paquets"
+
+#: turAI/plugins/pip_gui.py:382
+msgid "Install from PyPI"
+msgstr "Instal·la des del PyPI"
+
+#: turAI/plugins/pip_gui.py:385
+msgid "If you don't know where to get the package from, then most likely you'll want to search the Python Package Index. Start by entering the name of the package in the search box above and pressing ENTER."
+msgstr "Si no saps d'on està el paquet, probablement vols buscar-lo en Python Package Index. Introdueix el nom del paquet en el quadre de cerca i pressiona ENTER."
+
+#: turAI/plugins/pip_gui.py:402
+msgid "to locate requirements.txt file and install the packages specified in it."
+msgstr "Per a localitzar el fitxer requirements.txt i instal·lar els paquets allí especificats."
+
+#: turAI/plugins/pip_gui.py:408
+msgid "Click"
+msgstr "Clic"
+
+#: turAI/plugins/pip_gui.py:413
+msgid "to locate and install the package file (usually with .whl, .tar.gz or .zip extension)."
+msgstr "Per a localitzar i instal·lar el fitxer del paquet (normalment amb extensió .whl, .tar.gz o .zip)."
+
+#: turAI/plugins/pip_gui.py:420
+msgid "Upgrade or uninstall"
+msgstr "Actualitza o desinstal·la"
+
+#: turAI/plugins/pip_gui.py:422
+msgid "Start by selecting the package from the left."
+msgstr "Comenci seleccionant el paquet de l'esquerra."
+
+#: turAI/plugins/pip_gui.py:430
+msgid "This dialog lists all available packages, but allows upgrading and uninstalling only packages from"
+msgstr "Aquest diàleg llista tots els paquets disponibles, però només actualitza i desinstal·la paquets de"
+
+#: turAI/plugins/pip_gui.py:440
+msgid "New packages will be also installed into this directory. Other locations must be managed by alternative means."
+msgstr "També s'instal·laran nous paquets en aquest directori. Altres ubicacions hauran de ser gestionades per medis alternatius."
+
+#: turAI/plugins/pip_gui.py:493
+msgid "Installed version:"
+msgstr "Versió instal·lada:"
+
+#: turAI/plugins/pip_gui.py:495
+msgid "Installed to:"
+msgstr "Instal·lat per a:"
+
+#: turAI/plugins/pip_gui.py:573
+msgid "Please check your spelling!"
+msgstr "Si us plau, verifica l'ortografia!"
+
+#: turAI/plugins/pip_gui.py:577
+msgid "Could not find the package info from PyPI."
+msgstr "No es va poder trobar la informació del paquet de PyPI."
+
+#: turAI/plugins/pip_gui.py:579 turAI/plugins/pip_gui.py:1408
+msgid "Error code:"
+msgstr "Codi d'error:"
+
+#: turAI/plugins/pip_gui.py:748
+msgid "Can't find package name from the list:"
+msgstr "No s'ha pogut trobar el nom del paquet de la llista:"
+
+#: turAI/plugins/pip_gui.py:803
+msgid "Package '{}' is required for installing and uninstalling other packages."
+msgstr "El paquet '{}' es requereix per a instal·lar i desinstal·lar altres paquets."
+
+#: turAI/plugins/pip_gui.py:848
+msgid "Package"
+msgstr "Paquet"
+
+#: turAI/plugins/pip_gui.py:960
+msgid "Manage packages for %s"
+msgstr "Administra paquets per a %s"
+
+#: turAI/editors.py:587 turAI/plugins/micropython/pip_gui.py:25
+#: turAI/plugins/pip_gui.py:1034
+msgid "Confirmation"
+msgstr "Confirmació"
+
+#: turAI/plugins/pip_gui.py:1035
+msgid "Looks like you are installing a turAI-related package.\n"
+"If you meant to install a turAI plugin, then you should\n"
+"choose 'Tools → Manage plugins...' instead\n"
+"\n"
+"Are you sure you want to install %s for the back-end?"
+msgstr "Sembla que estàs instal·lant un paquet relacionat amb turAI. \n"
+"Si el que volies és instal·lar un plugin de turAI, llavors hauries de \n"
+"triar 'Eines → Administrar plugins...'\n"
+"\n"
+"Segur que vols instal·lar %s per al back-end?"
+
+#: turAI/plugins/pip_gui.py:1141
+msgid "NB! There may be another version available which is compatible with current turAI version. Click on '...' button to choose the version to install."
+msgstr "NB! Ha d'haver-hi una altra versió disponible que sigui compatible amb la versió actual de turAI. Fes clic en el botó '...' per a triar la versió i instal·lar-la."
+
+#: turAI/plugins/pip_gui.py:1149
+msgid "turAI plugin without requirements"
+msgstr "Plugin de turAI sense requisits"
+
+#: turAI/plugins/pip_gui.py:1165
+msgid "Unsuitable requirements"
+msgstr "Requisits inadequats"
+
+#: turAI/plugins/pip_gui.py:1166
+msgid "This package requires different turAI version:"
+msgstr "Aquest paquet requereix una versió diferent de turAI:"
+
+#: turAI/plugins/pip_gui.py:1170
+msgid "If you still want it, then please install it from the command line."
+msgstr "Si encara el vols, instal·la-ho des de la línia d'ordres."
+
+#: turAI/plugins/pip_gui.py:1207
+msgid "NB! You need to restart turAI after installing / upgrading / uninstalling a plug-in."
+msgstr "NB! És necessari reiniciar turAI després d'instal·lar / actualitzar / desinstal·lar un plug-in."
+
+#: turAI/plugins/pip_gui.py:1217
+msgid "turAI plug-ins"
+msgstr "Plug-ins del turAI"
+
+#: turAI/plugins/pip_gui.py:1253
+msgid "Advanced install / upgrade / downgrade"
+msgstr "Instal·lació avançada / actualització / desactualització"
+
+#: turAI/plugins/pip_gui.py:1262
+msgid "Desired version"
+msgstr "Versió desitjada"
+
+#: turAI/plugins/pip_gui.py:1321
+msgid "Upgrade dependencies"
+msgstr "Actualitza les dependències"
+
+#: turAI/plugins/pip_gui.py:1406
+msgid "Requires:"
+msgstr "Requereix:"
+
+#: turAI/plugins/pip_gui.py:1410
+msgid "Error:"
+msgstr "Error:"
+
+#: turAI/plugins/pip_gui.py:1601
+msgid "Manage packages..."
+msgstr "Gestiona els paquets..."
+
+#: turAI/plugins/pip_gui.py:1607
+msgid "Manage plug-ins..."
+msgstr "Gestiona els plug-ins..."
+
+#: turAI/plugins/replayer.py:364
+msgid "Open replayer..."
+msgstr "Obre el reproductor..."
+
+#: turAI/plugins/run_debug_config_page.py:21
+msgid "Change working directory to script directory on Run / Debug"
+msgstr "Canvia el directori de treball al directori de l'script a executar / depurar"
+
+#: turAI/plugins/run_debug_config_page.py:35
+msgid "Show function calls (frames) in separate windows"
+msgstr "Mostra les crides a les funcions (marcs) en finestres separades"
+
+#: turAI/plugins/run_debug_config_page.py:36
+msgid "Uncheck if you want more traditional experience."
+msgstr "Desmarca-ho si vols una experiència més tradicional."
+
+#: turAI/plugins/run_debug_config_page.py:42
+msgid "Open and close Stack view automatically"
+msgstr "Obre i tanca la vista de pila automàticament"
+
+#: turAI/plugins/run_debug_config_page.py:43
+msgid "Opens the Stack view on first call and closes it when program returns to main frame."
+msgstr "Obre la vista de pila a la primera crida i la tanca quan el programa torna al marc principal."
+
+#: turAI/plugins/run_debug_config_page.py:52
+msgid "Allow stepping into libraries (ie. outside of main script directory)"
+msgstr "Permet passar a les biblioteques (per exemple. fora del directori principal de l'script)"
+
+#: turAI/plugins/run_debug_config_page.py:53
+msgid "May make debugging slower."
+msgstr "Pot fer que la depuració sigui més lenta."
+
+#: turAI/plugins/run_debug_config_page.py:58
+msgid "Preferred debugger"
+msgstr "Depurador preferit"
+
+#: turAI/plugins/run_debug_config_page.py:70
+msgid "(used when clicking Debug toolbar button)"
+msgstr "(s'utilitza en fer clic al botó Depura de la barra d'eines)"
+
+#: turAI/plugins/run_debug_config_page.py:75
+msgid "Birdseye port"
+msgstr "Port per al Birdeyes"
+
+#: turAI/plugins/run_debug_config_page.py:79
+msgid "(restart turAI after changing this)"
+msgstr "(reinicia el turAI després de canviar això)"
+
+#: turAI/plugins/run_debug_config_page.py:87
+msgid "Run & Debug"
+msgstr "Executa i depura"
+
+#: turAI/plugins/shell_config_page.py:26
+msgid "Terminal emulation"
+msgstr "Terminal d'emulació"
+
+#: turAI/plugins/shell_config_page.py:28
+msgid "supports basic ANSI-colors and styles"
+msgstr "admet colors i estils ANSI bàsics"
+
+#: turAI/plugins/shell_config_page.py:40
+msgid "Maximum number of lines to keep."
+msgstr "Nombre màxim de línies a mantenir."
+
+#: turAI/plugins/shell_config_page.py:42
+msgid "NB! Large values may cause poor performance!"
+msgstr "NB! Els valors grans poden causar un mal rendiment!"
+
+#: turAI/plugins/shell_config_page.py:58
+msgid "Maximum length of line fragments before squeezing"
+msgstr "Longitud màxima de fragments de línia abans de condensar"
+
+#: turAI/plugins/terminal_config_page.py:12
+msgid "Running current script in terminal"
+msgstr "Executa l’script actual al terminal del sistema"
+
+#: turAI/plugins/terminal_config_page.py:17
+msgid "Present Python REPL after program ends"
+msgstr "Continuar amb el REPL de Python després de la finalització del programa"
+
+#: turAI/plugins/terminal_config_page.py:24
+msgid "Keep terminal window open after Python process ends"
+msgstr "Mantén oberta la finestra del terminal després de finalitzar el procés de Python"
+
+#: turAI/plugins/terminal_config_page.py:31
+msgid "NB! Automatic closing needs to be enabled in Terminal's settings\n"
+"(Profiles → Shell → When the shell exits)"
+msgstr "NB! Cal habilitar el tancament automàtic a la configuració del Terminal\n"
+"(Eines → Opcions → Terminal)"
+
+#: turAI/plugins/terminal_config_page.py:41
+msgid "Terminal"
+msgstr "Terminal"
+
+#: turAI/plugins/theme_and_font_config_page.py:39
+msgid "UI theme"
+msgstr "Tema de la interfície d'usuari"
+
+#: turAI/plugins/theme_and_font_config_page.py:52
+msgid "Syntax theme"
+msgstr "Tema de sintaxi"
+
+#: turAI/plugins/theme_and_font_config_page.py:84
+msgid "Editor font"
+msgstr "Tipus de lletra de l'editor"
+
+#: turAI/plugins/theme_and_font_config_page.py:107
+msgid "IO font"
+msgstr "Tipus de lletra Entrada/Sortida"
+
+#: turAI/plugins/theme_and_font_config_page.py:132
+msgid "Preview"
+msgstr "Previsualització"
+
+#: turAI/plugins/theme_and_font_config_page.py:150
+msgid "This is a comment"
+msgstr "Això és un comentari"
+
+#: turAI/plugins/theme_and_font_config_page.py:153
+msgid "The answer is"
+msgstr "La resposta és"
+
+#: turAI/plugins/theme_and_font_config_page.py:157
+msgid "unclosed_string"
+msgstr "cadena_sense tancar"
+
+#: turAI/plugins/theme_and_font_config_page.py:159
+msgid "blah, blah"
+msgstr "bla, bla"
+
+#: turAI/plugins/theme_and_font_config_page.py:183
+msgid "NB! Some style elements change only after restarting turAI!"
+msgstr "NB! Alguns elements d'estil només canvien després de reiniciar turAI!"
+
+#: turAI/plugins/theme_and_font_config_page.py:222
+msgid "Enter an integer"
+msgstr "Introdueix un enter"
+
+#: turAI/plugins/theme_and_font_config_page.py:235
+msgid "Theme & Font"
+msgstr "Tema i Lletra"
+
+#: turAI/plugins/turAI_folders.py:19
+msgid "Open turAI program folder..."
+msgstr "Obre el directori del programa turAI..."
+
+#: turAI/plugins/turAI_folders.py:24
+msgid "Open turAI data folder..."
+msgstr "Obre el directori de dades de turAI..."
+
+#: turAI/plugins/help/__init__.py:70
+msgid "Home"
+msgstr "Inici"
+
+#: turAI/plugins/help/__init__.py:81
+msgid "Help contents"
+msgstr "Contingut de l'ajuda"
+
+#: turAI/plugins/micropython/mp_front.py:303
+msgid "CircuitPython device"
+msgstr "Dispositiu CircuitPython"
+
+#: turAI/plugins/micropython/mp_front.py:307
+msgid "MicroPython device"
+msgstr "Dispositiu MicroPython"
+
+#: turAI/plugins/micropython/mp_front.py:558
+msgid "Connect your device to the computer and select corresponding port below"
+msgstr "Connecta el dispositiu a l'ordinador i selecciona el port corresponent a sota"
+
+#: turAI/plugins/micropython/mp_front.py:561
+msgid "look for your device name, \"USB Serial\" or \"UART\""
+msgstr "cerca el nom del dispositiu, \"USB Serial\" o \"UART\""
+
+#: turAI/plugins/micropython/mp_front.py:563
+msgid "If you can't find it, you may need to install proper USB driver first."
+msgstr "Si no el pots trobar, és possible que primer hagis d'instal·lar el controlador USB adequat."
+
+#: turAI/plugins/micropython/mp_front.py:453
+msgid "Port"
+msgstr "Port"
+
+#: turAI/plugins/micropython/mp_front.py:458
+msgid "Try to detect port automatically"
+msgstr "Intenta detectar el port automàticament"
+
+#: turAI/plugins/micropython/__init__.py:24
+msgid "MicroPython (generic)"
+msgstr "MicroPython (genèric)"
+
+#: turAI/plugins/printing/__init__.py:98
+msgid "Print..."
+msgstr "Imprimeix..."
+
+#: turAI/plugins/system_shell/__init__.py:63
+msgid "Open system shell..."
+msgstr "Obre l'intèrpret d'ordres del sistema..."
+
+#: turAI/plugins/backend_config_page.py:109
+msgid "Details"
+msgstr "Detalls"
+
+#: turAI/plugins/pip_gui.py:395
+msgid "Install from requirements file"
+msgstr "Instal·la des del fitxer de requisits"
+
+#: turAI/plugins/pip_gui.py:407
+msgid "Install from local file"
+msgstr "Instal·la des d'un fitxer local"
+
+#: turAI/plugins/pip_gui.py:1200
+msgid "This dialog is for managing turAI plug-ins and their dependencies.\n"
+"If you want to install packages for your own programs then choose 'Tools → Manage packages...'"
+msgstr "Aquest diàleg és per a gestionar els plug-ins de turAI i les seves dependències.\n"
+"Si vols instal·lar paquets per als teus propis programes, tria 'Eines → Gestiona els paquets...'"
+
+#: turAI/plugins/circuitpython/__init__.py:10
+msgid "CircuitPython (generic)"
+msgstr "CircuitPython (genèric)"
+
+#: turAI/plugins/commenting_indenting.py:142
+msgid "Indent selected lines"
+msgstr "Indenta les línies seleccionades"
+
+#: turAI/plugins/commenting_indenting.py:152
+msgid "Dedent selected lines"
+msgstr "Des-indenta les línies seleccionades"
+
+#: turAI/workbench.py:1481
+msgid "Switch to\n"
+"regular\n"
+"mode"
+msgstr "Canvia a\n"
+"mode\n"
+"normal"
+
+#: turAI/plugins/microbit/__init__.py:62
+msgid "Make sure MicroPython has been installed to your micro:bit."
+msgstr "Assegura't que el MicroPython s'ha instal·lat a la vostra micro:bit."
+
+#: turAI/plugins/microbit/__init__.py:64
+msgid "Don't forget that main.py only works without embedded main script."
+msgstr "No oblidis que «main.py» només funciona sense un script principal incrustat."
+
+#: turAI/misc_utils.py:177
+msgid "Could not find disk '%s'. Do you want to locate it yourself?"
+msgstr "No s'ha pogut trobar el disc '%s'. Vols localitzar-lo tu mateix?"
+
+#: turAI/misc_utils.py:180
+msgid "Found several '%s' disks. Do you want to choose one yourself?"
+msgstr "S'han trobat diversos discs '%s'. Vols triar-ne un tu mateix?"
+
+#: turAI/misc_utils.py:196
+msgid "Can't find suitable disk"
+msgstr "No es pot trobar el disc adequat"
+
+#: turAI/base_file_browser.py:294
+msgid "%d items"
+msgstr "%d ítems"
+
+#: turAI/base_file_browser.py:743
+msgid "Move to Trash"
+msgstr "Mou a la paperera"
+
+#: turAI/base_file_browser.py:746
+msgid "Delete"
+msgstr "Esborra"
+
+#: turAI/base_file_browser.py:725 turAI/base_file_browser.py:878
+msgid "New directory"
+msgstr "Nou directori"
+
+#: turAI/base_file_browser.py:749
+msgid "Properties"
+msgstr "Propietats"
+
+#: turAI/base_file_browser.py:751
+msgid "Storage space"
+msgstr "Espai d'emmagatzematge"
+
+#: turAI/base_file_browser.py:761
+msgid "Path"
+msgstr "Camí"
+
+#: turAI/base_file_browser.py:763
+msgid "Directory properties"
+msgstr "Propietat dels directoris"
+
+#: turAI/base_file_browser.py:765
+msgid "File properties"
+msgstr "Propietats del fitxers"
+
+#: turAI/base_file_browser.py:767
+msgid "bytes"
+msgstr "bytes"
+
+#: turAI/base_file_browser.py:770
+msgid "Size"
+msgstr "Mida"
+
+#: turAI/base_file_browser.py:94 turAI/base_file_browser.py:781
+msgid "Modified"
+msgstr "Modificat"
+
+#: turAI/base_file_browser.py:842
+msgid "Deleting %s"
+msgstr "Esborrat %s"
+
+#: turAI/editors.py:262
+msgid "Loading"
+msgstr "Carregant"
+
+#: turAI/editors.py:395
+msgid "Saving"
+msgstr "Desant"
+
+#: turAI/plugins/files.py:219
+msgid "Upload to %s"
+msgstr "Pujat a %s"
+
+#: turAI/plugins/files.py:420
+msgid "Downloading %s to %s"
+msgstr "Descarregant %s a %s"
+
+#: turAI/plugins/files.py:326
+msgid "Download to %s"
+msgstr "Descarregat a %s"
+
+#: turAI/base_file_browser.py:650
+msgid "Open in system file manager"
+msgstr "Obre al gestor de fitxers del sistema"
+
+#: turAI/base_file_browser.py:678
+msgid "Hide hidden files"
+msgstr "Amaga els fitxers ocults"
+
+#: turAI/base_file_browser.py:678
+msgid "Show hidden files"
+msgstr "Mostra els fitxers ocults"
+
+#: turAI/base_file_browser.py:661
+msgid "Open in turAI"
+msgstr "Obre en el turAI"
+
+#: turAI/base_file_browser.py:692
+msgid "Open in system default app"
+msgstr "Obre a l'aplicació predeterminada del sistema"
+
+#: turAI/base_file_browser.py:673 turAI/base_file_browser.py:700
+msgid "Configure %s files"
+msgstr "Configura %s fitxers"
+
+#: turAI/base_file_browser.py:701
+msgid "What to do with a %s file when you double-click it in turAI's file browser?"
+msgstr "Què fer amb un fitxer %s quan facis doble clic al navegador de fitxers de turAI?"
+
+#: turAI/base_file_browser.py:1258 turAI/editors.py:986 turAI/editors.py:988
+msgid "Deleting"
+msgstr "Esborrant"
+
+#: turAI/base_file_browser.py:1265
+msgid "Creating directory"
+msgstr "Creant directory"
+
+#: turAI/editors.py:260
+msgid "Loading %s"
+msgstr "Carregant %s"
+
+#: turAI/editors.py:390
+msgid "Saving to %s"
+msgstr "Desant a %s"
+
+#: turAI/editors.py:728 turAI/editors.py:730
+msgid "Save All files"
+msgstr "Desa tots els fitxers"
+
+#: turAI/plugins/backend_config_page.py:338 turAI/workbench.py:880
+msgid "Configure interpreter..."
+msgstr "Configura l'intèrpret..."
+
+#: turAI/workbench.py:1591
+msgid "Device"
+msgstr "Dispositiu"
+
+#: turAI/workdlg.py:234
+msgid "Cancelling"
+msgstr "Cancel·lant"
+
+#: turAI/workdlg.py:270
+msgid "Starting"
+msgstr "Iniciant"
+
+#: turAI/plugins/backend_config_page.py:249
+msgid "Authentication"
+msgstr "Autenticació"
+
+#: turAI/plugins/backend_config_page.py:251
+msgid "Enter the passphrase of your private key for\n"
+"{}"
+msgstr "Introdueix la contrasenya de la teva clau privada per a\n"
+"{}"
+
+#: turAI/plugins/backend_config_page.py:254
+msgid "Enter your password for\n"
+"{}"
+msgstr "Introdueix la teva contrasenya per a\n"
+"{}"
+
+#: turAI/plugins/object_inspector.py:486
+msgid "The representation above is an approximate value of this float. The exact stored value is %s which is about %s"
+msgstr "La representació anterior és un valor aproximat d'aquest 'float'. El valor exacte emmagatzemat és %s que és aproximadament %s"
+
+#: turAI/plugins/pip_gui.py:682
+msgid "Search results"
+msgstr "Resultats de la cerca"
+
+#: turAI/plugins/pip_gui.py:683
+msgid "Searching"
+msgstr "Cercant"
+
+#: turAI/plugins/pip_gui.py:787 turAI/plugins/pip_gui.py:876
+msgid "Installing '%s'"
+msgstr "Instal·lant '%s'"
+
+#: turAI/plugins/pip_gui.py:793
+msgid "Upgrading '%s'"
+msgstr "Actualitzant '%s'"
+
+#: turAI/plugins/pip_gui.py:800
+msgid "Uninstalling '%s'"
+msgstr "S'està desinstal·lant '%s'"
+
+#: turAI/plugins/pip_gui.py:814
+msgid "Installing"
+msgstr "Instal·lant"
+
+#: turAI/plugins/pip_gui.py:1562
+msgid "Package manager is not available for this interpreter"
+msgstr "El gestor de paquets no està disponible per a aquest intèrpret"
+
+#: turAI/base_file_browser.py:1209 turAI/plugins/pip_gui.py:1576
+msgid "Not supported"
+msgstr "No suportat"
+
+#: turAI/plugins/micropython/pip_gui.py:142 turAI/plugins/pip_gui.py:1581
+msgid "Not available"
+msgstr "No disponible"
+
+#: turAI/plugins/pip_gui.py:1582
+msgid "You need to stop your program before launching the package manager."
+msgstr "Has d'aturar el programa abans de llançar el gestor de paquets."
+
+#: turAI/plugins/shell_config_page.py:73
+msgid "Open evaluated values in Object inspector"
+msgstr "Obre els valors a avaluar a l'inspector d'objectes"
+
+#: turAI/plugins/cpython_frontend/cp_front.py:234
+msgid "Python executable"
+msgstr "Executable del Python"
+
+#: turAI/plugins/cpython_frontend/cp_front.py:258
+msgid "NB! File selection button may not work properly when selecting executables\n"
+"from a virtual environment. In this case choose the 'activate' script instead\n"
+"of the interpreter (or enter the path directly to the box)!"
+msgstr "NB! El botó de selecció de fitxers pot no funcionar correctament en seleccionar executables \n"
+"d'un entorn virtual. En aquest cas, tria en el seu lloc l'script 'activa' \n"
+"de l'intèrpret (o introdueix el camí directament al quadre)!"
+
+#: turAI/plugins/cpython_ssh/__init__.py:17
+msgid "Remote Python 3 (SSH)"
+msgstr "Python 3 Remot (SSH)"
+
+#: turAI/plugins/micropython/mp_front.py:313
+msgid "Not connected"
+msgstr "No connectat"
+
+#: turAI/plugins/micropython/__init__.py:35
+msgid "MicroPython (local)"
+msgstr "MicroPython (local)"
+
+#: turAI/plugins/micropython/__init__.py:46
+msgid "MicroPython (SSH)"
+msgstr "MicroPython (SSH)"
+
+#: turAI/plugins/micropython/pip_gui.py:144
+msgid "no absolute lib directory in sys.path"
+msgstr "no hi ha cap directori Lib absolut a sys.path"
+
+#: turAI/plugins/pip_gui.py:71
+msgid "Search on PyPI"
+msgstr "Cerca a PyPI"
+
+#: turAI/base_file_browser.py:693
+msgid "Open in turAI's text editor"
+msgstr "Obre a l'editor de text de turAI"
+
+#: turAI/base_file_browser.py:346
+msgid "Storage space on this drive or filesystem"
+msgstr "Espai d'emmagatzematge en aquesta unitat o sistema de fitxers"
+
+#: turAI/base_file_browser.py:347
+msgid "total space"
+msgstr "Espai total"
+
+#: turAI/base_file_browser.py:349
+msgid "used space"
+msgstr "Espai utilitzat"
+
+#: turAI/base_file_browser.py:350
+msgid "free space"
+msgstr "Espai lliure"
+
+#: turAI/base_file_browser.py:357
+msgid "Storage info"
+msgstr "Informació d'emmagatzematge"
+
+#: turAI/plugins/commenting_indenting.py:162
+msgid "Replace tabs with spaces"
+msgstr "Substitueix els tabuladors per espais"
+
+#: turAI/plugins/editor_config_page.py:33
+msgid "Highlight tab characters"
+msgstr "Ressalta els caràcters de tabulació"
+
+#: turAI/plugins/editor_config_page.py:68
+msgid "Indent with tab characters (not recommended for Python)"
+msgstr "Indenta amb caràcters de tabulació (no es recomana per a Python)"
+
+#: turAI/base_file_browser.py:92 turAI/memory.py:63
+msgid "Name"
+msgstr "Nom"
+
+#: turAI/base_file_browser.py:96
+msgid "Size (bytes)"
+msgstr "Mida(bytes)"
+
+#: turAI/base_file_browser.py:879
+msgid "Enter name for new directory under\n"
+"%s"
+msgstr "Introdueix el nom del directori nou a\n"
+"%s"
+
+#: turAI/base_file_browser.py:902
+msgid "Nothing selected"
+msgstr "No s'ha seleccionat res"
+
+#: turAI/base_file_browser.py:902
+msgid "Select an item and try again!"
+msgstr "Selecciona un element i torna a provar-ho!"
+
+#: turAI/base_file_browser.py:1329
+msgid "Open from %s"
+msgstr "Obre des de %s"
+
+#: turAI/base_file_browser.py:1332
+msgid "Save to %s"
+msgstr "Desa a %s"
+
+#: turAI/base_file_browser.py:1351
+msgid "File name:"
+msgstr "Nom del fitxer:"
+
+#: turAI/memory.py:64 turAI/plugins/object_inspector.py:538
+#: turAI/plugins/object_inspector.py:617
+msgid "Value ID"
+msgstr "ID del valor"
+
+#: turAI/memory.py:65 turAI/plugins/heap.py:23
+#: turAI/plugins/object_inspector.py:539
+#: turAI/plugins/object_inspector.py:618
+msgid "Value"
+msgstr "Valor"
+
+#: turAI/plugins/backend_config_page.py:272
+msgid "Save password"
+msgstr "Desa la contrassenya"
+
+#: turAI/plugins/debugger.py:557
+msgid "Function call at %s"
+msgstr "Crida de funció a %s"
+
+#: turAI/plugins/debugger.py:1006
+msgid "Local variables"
+msgstr "Variables locals"
+
+#: turAI/plugins/debugger.py:1038
+msgid "Function"
+msgstr "Funció"
+
+#: turAI/plugins/debugger.py:1039
+msgid "Location"
+msgstr "Ubicació"
+
+#: turAI/plugins/debugger.py:1115
+msgid "If last command raised an exception then this view will show the stacktrace."
+msgstr "Si l'última ordre ha produït una excepció, aquesta vista mostrarà el seguiment de la pila."
+
+#: turAI/plugins/heap.py:22
+msgid "ID"
+msgstr "ID"
+
+#: turAI/plugins/object_inspector.py:92
+msgid "Data"
+msgstr "Dada"
+
+#: turAI/plugins/object_inspector.py:93
+msgid "Attributes"
+msgstr "Atributs"
+
+#: turAI/plugins/object_inspector.py:537
+msgid "Index"
+msgstr "Índex"
+
+#: turAI/plugins/object_inspector.py:615
+msgid "Key ID"
+msgstr "ID de la clau"
+
+#: turAI/plugins/object_inspector.py:616
+msgid "Key"
+msgstr "Clau"
+
+#: turAI/plugins/variables.py:39
+msgid "Back to\n"
+"%s"
+msgstr "Torna a\n"
+"%s"
+
+#: turAI/plugins/micropython/mp_front.py:453
+msgid "Port or WebREPL"
+msgstr "Port o WebREPL"
+
+#: turAI/plugins/micropython/mp_front.py:599
+msgid "Password"
+msgstr "Contrasenya"
+
+#: turAI/plugins/debugger.py:964
+msgid "Source code"
+msgstr "Codi font"
+
+#: turAI/plugins/general_config_page.py:29
+msgid "Use Tk file dialogs instead of Zenity"
+msgstr "Usa quadres de diàleg de fitxers Tk en lloc del Zenity"
+
+#: turAI/plugins/general_config_page.py:30
+msgid "Select if the file dialogs end up behind the main window"
+msgstr "Selecciona si els diàlegs de fitxer acaben darrere de la finestra principal"
+
+#: turAI/plugins/general_config_page.py:97
+msgid "Environment variables (one KEY=VALUE per line)"
+msgstr "Variables d'entorn (una CLAU=VALOR per línia)"
+
+#: turAI/base_file_browser.py:722
+msgid "New file"
+msgstr "Nou fitxer"
+
+#: turAI/base_file_browser.py:740
+msgid "Rename"
+msgstr "Reanomenar"
+
+#: turAI/base_file_browser.py:928
+msgid "Rename '%s'"
+msgstr "Reanomena '%s'"
+
+#: turAI/base_file_browser.py:928
+msgid "Enter new name"
+msgstr "Introdueix el nou nom"
+
+#: turAI/base_file_browser.py:1016
+msgid "Paste failed"
+msgstr "Ha fallat a l'enganxar"
+
+#: turAI/base_file_browser.py:1016
+msgid "There are conflicting folders"
+msgstr "Hi ha carpetes en conflicte"
+
+#: turAI/base_file_browser.py:1144
+msgid "File already exists"
+msgstr "El fitxer ja existeix"
+
+#: turAI/base_file_browser.py:1212
+msgid "If it is a text file, then you can configure it to open in turAI by right-clicking it and selecting 'Configure ... files'."
+msgstr "Si és un fitxer de text, aleshores pots configurar-lo per obrir-lo a turAI fent clic amb el botó dret i seleccionant 'Configura... fitxers'."
+
+#: turAI/editors.py:38
+msgid "Python files"
+msgstr "Fitxers del Python"
+
+#: turAI/editors.py:123 turAI/editors.py:189
+msgid "<untitled>"
+msgstr "<untitled>"
+
+#: turAI/editors.py:150
+msgid "File is gone"
+msgstr "El fitxer ha desaparegut"
+
+#: turAI/editors.py:153
+msgid "Do you want to also close the editor?"
+msgstr "Vols tancar també l'editor?"
+
+#: turAI/editors.py:169
+msgid "External modification"
+msgstr "Modificació externa"
+
+#: turAI/editors.py:172
+msgid "Do you want to discard current editor content and reload the file from disk?"
+msgstr "Vols descartar el contingut actual de l'editor i tornar a carregar el fitxer des del disc?"
+
+#: turAI/editors.py:588
+msgid "Python files usually have .py extension."
+msgstr "Els fitxers Python normalment tenen extensió .py."
+
+#: turAI/editors.py:590
+msgid "Did you mean '%s'?"
+msgstr "Volíes dir «%s»?"
+
+#: turAI/editors.py:759
+msgid "Move / rename..."
+msgstr "Mou / reanomena..."
+
+#: turAI/editors.py:768
+msgid "Go to line..."
+msgstr "Ves a la línia..."
+
+#: turAI/editors.py:1010
+msgid "Line number"
+msgstr "Número de línia"
+
+#: turAI/editors.py:1156
+msgid "Do you want to save files before closing?"
+msgstr "Vols desar els fitxers abans de sortir?"
+
+#: turAI/editors.py:1158
+msgid "Do you want to save file before closing?"
+msgstr "Vols desar els fitxers abans de sortir?"
+
+#: turAI/editors.py:1161
+msgid "Save On Close"
+msgstr "Desa al Tancar"
+
+#: turAI/misc_utils.py:539
+msgid "Command not available"
+msgstr "Ordre no disponible"
+
+#: turAI/misc_utils.py:540
+msgid "This command is not available if turAI is run via Flatpak"
+msgstr "Aquesta ordre no està disponible si el turAI s'està executant via Flatpak"
+
+#: turAI/workbench.py:700 turAI/workbench.py:799
+msgid "Support Ukraine"
+msgstr "Dona suport a Ucraïna"
+
+#: turAI/plugins/backend_config_page.py:90
+msgid "Which kind of interpreter should turAI use for running your code?"
+msgstr "Quin intèrpret hauria d'utilitzar turAI per a executar el teu codi?"
+
+#: turAI/plugins/calltip.py:159
+msgid "Show parameter info"
+msgstr "Mostra la informació del paràmetre"
+
+#: turAI/plugins/editor_config_page.py:41
+msgid "Automatically show parameter info after typing '('"
+msgstr "Mostra automàticament la informació del paràmetre després d'escriure '('"
+
+#: turAI/plugins/editor_config_page.py:47
+msgid "Automatically propose completions while typing"
+msgstr "Proposa automàticament les complecions mentre s'escriu"
+
+#: turAI/plugins/editor_config_page.py:52
+msgid "Automatically show documentation for completions"
+msgstr "Mostra automàticament la documentació per a les complecions"
+
+#: turAI/plugins/editor_config_page.py:57
+msgid "Request completions with Tab-key in editors"
+msgstr "Demana complecions amb la tecla de tabulació en els editors"
+
+#: turAI/plugins/editor_config_page.py:62
+msgid "Request completions with Tab-key in Shell"
+msgstr "Demana complecions amb la tecla de tabulació a la consola"
+
+#: turAI/editors.py:213 turAI/plugins/goto_definition.py:58
+msgid "Problem"
+msgstr "Problema"
+
+#: turAI/plugins/goto_definition.py:58
+msgid "Could not find definition"
+msgstr "No s'ha pogut trobar la definició"
+
+#: turAI/plugins/shell_config_page.py:17
+msgid "Clear Shell before starting new process (Run, Debug, Stop/Restart, ...)"
+msgstr "Neteja la consola abans d'iniciar un procés nou (Executa, Depura, Atura/Reinicia, ...)"
+
+#: turAI/plugins/cpython_frontend/cp_front.py:196
+msgid "turAI's Python"
+msgstr "Python de turAI"
+
+#: turAI/plugins/micropython/mp_front.py:496
+msgid "Interrupt working program on connect"
+msgstr "Interromp el programa de treball en connectar"
+
+#: turAI/plugins/micropython/mp_front.py:504
+msgid "Synchronize device's real time clock"
+msgstr "Sincronitza el rellotge de temps real del dispositiu"
+
+#: turAI/plugins/micropython/mp_front.py:510
+msgid "Use local time in real time clock"
+msgstr "Utilitza l'hora local en el rellotge de temps real"
+
+#: turAI/plugins/micropython/mp_front.py:516
+msgid "Restart interpreter before running a script"
+msgstr "Reinicia l'intèrpret abans d'executar un script"
+
+#: turAI/plugins/micropython/pip_gui.py:26
+msgid "This doesn't look like MicroPython/CircuitPython package.\n"
+"Are you sure you want to install it?"
+msgstr "Això no sembla un paquet MicroPython/CircuitPython.\n"
+"Segur que vols instal·lar-lo?"
+
+#: turAI/base_file_browser.py:853
+msgid "Moving to Trash"
+msgstr "S'està movent a la paperera"
+
+#: turAI/base_file_browser.py:854
+msgid "Move %s to Trash?"
+msgstr "Vols moure %s a la paperera?"
+
+#: turAI/base_file_browser.py:861
+msgid "Moving %s to Trash"
+msgstr "S'està movent %s a la paperera"
+
+#: turAI/base_file_browser.py:666
+msgid "Open in default external app"
+msgstr "Obre en l'aplicació externa predeterminada"
+
+#: turAI/base_file_browser.py:1210
+msgid "Opening remote files in external app is not supported."
+msgstr "No s'admet obrir fitxers remots en aplicacions externes."
+
+#: turAI/base_file_browser.py:1217
+msgid "If the file needs to be opened in external app, then download it to a local directory and open it from there!"
+msgstr "Si cal obrir el fitxer en una aplicació externa, baixa-ho a un directori local i obre-ho des d'allà!"
+
+#: turAI/editors.py:151
+msgid "Looks like '%s' was deleted or moved."
+msgstr "Sembla que '%s' s'ha suprimit o mogut."
+
+#: turAI/editors.py:170
+msgid "Looks like '%s' was modified outside of the editor."
+msgstr "Sembla que '%s' s'ha modificat fora de l'editor."
+
+#: turAI/plugins/cpython_frontend/cp_front.py:256
+msgid "NB! turAI only supports Python %s and later"
+msgstr "NB! turAI només admet Python %s i posteriors"
+
+#: turAI/editors.py:1010
+msgid "Go to line"
+msgstr "Ves a la línia"
+
+#: turAI/workbench.py:703
+msgid "Support"
+msgstr "Suport"
+
+#: turAI/editors.py:399 turAI/editors.py:414
+msgid "Could not save"
+msgstr "No s'ha pogut desar"
+
+#: turAI/plugins/general_config_page.py:135
+msgid "Warning"
+msgstr "Avís"
+
+#: turAI/plugins/general_config_page.py:136
+msgid "If you quote the value of an environment variable, the quotes will be part of the value.\n"
+"Did you intend this?"
+msgstr "Si cites el valor d'una variable d'entorn, les cometes formaran part del valor.\n"
+"Tenies aquesta intenció?"
+
+#: turAI/workbench.py:870
+msgid "Install MicroPython"
+msgstr "Instal·la el  MicroPython"
+
+#: turAI/workbench.py:874
+msgid "Install CircuitPython"
+msgstr "Instal·la el CircuitPython"
+
+#: turAI/plugins/backend_config_page.py:210
+msgid "Make uploaded shebang scripts executable"
+msgstr "Fer executables els scripts amb shebang carregats"
+
+#: turAI/plugins/editor_config_page.py:91
+msgid "Make saved shebang scripts executable"
+msgstr "Fa executables els scripts amb Shebang desats"
+
+#: turAI/plugins/files.py:224
+msgid "Activate virtual environment"
+msgstr "Activa l'entorn virtual"
+
+#: turAI/plugins/micropython/pip_gui.py:119 turAI/plugins/pip_gui.py:426
+msgid "Target"
+msgstr "Objectiu"
+
+#: turAI/plugins/pythontutor.py:41
+msgid "Visualize current script at Python Tutor"
+msgstr "Visualitza l'script actual al Tutor de Python"
+
+#: turAI/plugins/todo_view.py:43
+msgid "Line"
+msgstr "Línia"
+
+#: turAI/plugins/todo_view.py:44
+msgid "Info"
+msgstr "Info"
+
+#: turAI/plugins/todo_view.py:121
+msgid "No line marked with #todo found"
+msgstr "No s'ha trobat cap línia marcada amb #todo"
+
+#: turAI/plugins/todo_view.py:141
+msgid "TODO"
+msgstr "TODO"
+
+#: turAI/plugins/circuitpython/cirpy_front.py:113
+#: turAI/plugins/micropython/mp_front.py:550
+msgid "Install or update %s"
+msgstr "Instal·la o actualitza %s"
+
+#: turAI/plugins/cpython_frontend/__init__.py:24
+msgid "Local Python 3"
+msgstr "Python 3 local"
+
+#: turAI/plugins/cpython_frontend/cp_front.py:266
+msgid "You can activate an existing virtual environment also via the right-click context menu in the file navagation when selecting a virtual environment folder, or the 'pyveng.cfg' file inside."
+msgstr "També pots activar un entorn virtual existent mitjançant el menú contextual fent clic dret al fitxer de navegació quan seleccionis una carpeta d'entorn virtual o el fitxer 'pyveng.cfg' que hi ha a dins."
+
+#: turAI/plugins/ev3/__init__.py:72
+msgid "Preparations (skip the VS Code part)"
+msgstr "Preparacions (omet la part del codi VS)"
+
+#: turAI/plugins/ev3/__init__.py:78
+msgid "Default password"
+msgstr "Contrasenya per defecte"
+
+#: turAI/running.py:392
+msgid "Information"
+msgstr "Informació"
+
+#: turAI/running.py:393
+msgid "For debugging the program must be saved first."
+msgstr "Per depurar el programa l'has de desar primer."
+
+#: turAI/editors.py:213
+msgid "%s doesn't look like a text file"
+msgstr "%s no sembla un fitxer de text"
+
+#: turAI/editors.py:219
+msgid "Problem loading file"
+msgstr "Problema al carregar el fitxer"
+
+#: turAI/editors.py:220
+msgid "This file seems to have problems with encoding.\n"
+"\n"
+"Make sure it is in UTF-8 or contains proper encoding hint."
+msgstr "Sembla que aquest fitxer té problemes amb la codificació.\n"
+"\n"
+"Assegura't que estigui en UTF-8 o que contingui la codificació adequada."
+
+#: turAI/editors.py:295
+msgid "File is open"
+msgstr "El fitxer està obert"
+
+#: turAI/editors.py:296
+msgid "This file is already open in turAI.\n"
+"\n"
+"If you want to save with this name,\n"
+"close the existing editor first!"
+msgstr "Aquest fitxer ja està obert a turAI.\n"
+"\n"
+"Si el vols desar amb aquest nom,\n"
+"primer tanca l'editor existent!"
+
+#: turAI/editors.py:349
+msgid "Permission Error"
+msgstr "Error de permís"
+
+#: turAI/editors.py:350
+msgid "Looks like this file or folder is not writable."
+msgstr "Sembla que no es pot escriure en aquest fitxer o carpeta."
+
+#: turAI/editors.py:414
+msgid "Back-end is not ready"
+msgstr "El back-end no està preparat"
+
+#: turAI/editors.py:419
+msgid "Where to save to?"
+msgstr "A on vols desar-ho?"
+
+#: turAI/editors.py:490
+msgid "Potential problem"
+msgstr "Problema potencial"
+
+#: turAI/editors.py:491
+msgid "If you name your script '%s', you won't be able to import the library module named '%s'"
+msgstr "Si li poses el nom '%s' al teu script, no podràs importar el mòdul de la biblioteca anomenat ''%s"
+
+#: turAI/editors.py:497
+msgid "Do you still want to use this name for your script?"
+msgstr "Encara vols utilitzar aquest nom per al teu script?"
+
+#: turAI/editors.py:1053
+msgid "Got permission error when trying to load\n"
+"%s"
+msgstr "S'ha obtingut un error de permís intentant carregar\n"
+"%s"
+
+#: turAI/editors.py:1055
+msgid "Try opening it with File => Open."
+msgstr "Prova d'obrir-lo amb Fitxer => Obre."
+
+#: turAI/editors.py:1057
+msgid "Permission error"
+msgstr "Error de permís"
+
+#: turAI/plugins/run_debug_config_page.py:14
+msgid "Allow running unnamed programs"
+msgstr "Permet executar programes sense nom"
+
+#: turAI/plugins/pip_gui.py:600
+msgid "License"
+msgstr "Llicència"
+
+#: turAI/plugins/run_debug_config_page.py:27
+msgid "Warn if a user module shadows a library module"
+msgstr "Avisa si un mòdul d'usuari fa ombra 'shadow' a un mòdul de biblioteca"
+
+#: turAI/plugins/micropython/pip_gui.py:65
+msgid "Search micropython-lib and PyPI"
+msgstr "Cerca micropython-lib i el PyPI"
+

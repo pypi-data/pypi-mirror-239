@@ -1,0 +1,5 @@
+setup.py
+src/automate3chapter3.egg-info/PKG-INFO
+src/automate3chapter3.egg-info/SOURCES.txt
+src/automate3chapter3.egg-info/dependency_links.txt
+src/automate3chapter3.egg-info/top_level.txt

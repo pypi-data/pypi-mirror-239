@@ -1,0 +1,4 @@
+ErrorPrank
+__init__
+__main__
+pyprankerror

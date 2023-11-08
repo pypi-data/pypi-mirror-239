@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/__main__.py
+src/pyprankerror.py
+src/pyprankerror.egg-info/PKG-INFO
+src/pyprankerror.egg-info/SOURCES.txt
+src/pyprankerror.egg-info/dependency_links.txt
+src/pyprankerror.egg-info/entry_points.txt
+src/pyprankerror.egg-info/requires.txt
+src/pyprankerror.egg-info/top_level.txt
+tests/test_error_generator.py
+tests/test_generate_error.py
+tests/test_generate_stacktrace.py
+tests/test_hacked_message.py

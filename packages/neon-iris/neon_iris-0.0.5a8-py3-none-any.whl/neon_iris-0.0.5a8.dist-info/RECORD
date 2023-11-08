@@ -1,0 +1,14 @@
+neon_iris/__init__.py,sha256=2AwtZbd8r3OwlQQjExpaQ3oLz4Z6dDOgNSPPDPjTNX0,1685
+neon_iris/cli.py,sha256=vFwVhaJZ3WUi8mQO5HETd43wsuO-nMOch4IySo67y-I,9548
+neon_iris/client.py,sha256=CVEkYaFkDh9gH3dEA1g7awmMD_wE0GMo8pHzAbQJZ0w,17558
+neon_iris/llm.py,sha256=52rhPKfhq8DpLC4G0sZzDDpR6IxSLp6KWOzU4I7Ca1o,2432
+neon_iris/util.py,sha256=tHsrZT7ckbShUdYUFRzt_p7DHoDNeopUZLPv-GlH-10,5521
+neon_iris/version.py,sha256=AQ0JpGGPPsHI393uuqo90U_UnamwhwRRbT3O3SS8FdU,1856
+neon_iris/voice_client.py,sha256=3Kt8kkPP3JOMzOAqvByCqM9rBDQML1PWdux6gNPd9nA,6373
+neon_iris/web_client.py,sha256=Kefzet0lCkeKBPkq6TmsoBLLIsw_wXr4BJQFyllBNJo,12574
+neon_iris-0.0.5a8.dist-info/LICENSE.md,sha256=KxXbLh0XZkaLbNrj5ksC1Hl04EeiMbY-I0pGhKTPBRc,1635
+neon_iris-0.0.5a8.dist-info/METADATA,sha256=RQrjwNdaUD2FWQyAAxZ2m_tHbV9PE7JNkY1sw8BOQXI,2011
+neon_iris-0.0.5a8.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+neon_iris-0.0.5a8.dist-info/entry_points.txt,sha256=yP5B-QidmyuAPtpNJkbujYsDgd2xjxoUS8TeG2C2FVE,53
+neon_iris-0.0.5a8.dist-info/top_level.txt,sha256=Qr8puTs7ZWOQgBzllZqQNCnVYJLC0IvaWkRyYddrx1g,10
+neon_iris-0.0.5a8.dist-info/RECORD,,

@@ -1,0 +1,18 @@
+Metadata-Version: 1.2
+Name: texteval
+Version: 1.0.3
+Summary: Small python package to calculate the sentence similarity metrics.
+Home-page: UNKNOWN
+Author: Dipankar
+Author-email: dipankarmedhi11@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: sentence similarity text python metrics cosine rouge bleu
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Requires-Python: >= 3.8

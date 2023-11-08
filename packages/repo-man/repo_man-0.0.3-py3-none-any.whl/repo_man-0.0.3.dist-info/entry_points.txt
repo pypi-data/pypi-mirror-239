@@ -1,0 +1,2 @@
+[console_scripts]
+repoman = repoman.cli:main

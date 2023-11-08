@@ -1,0 +1,2 @@
+[console_scripts]
+import_sbom = mend_import_sbom.import_sbom:main

@@ -1,0 +1,12 @@
+cmeel.prefix/lib/liblibplaco.so,sha256=EDIqn1qmJ5Sikr6XginIgGiJGjoReAceWBMNabe2Joc,2367744
+cmeel.prefix/lib/python3.10/site-packages/placo.pyi,sha256=93cg6Ji3YZ9q43PrlUpzfId4zvwLy5H6gFbZHwLyjeQ,133796
+cmeel.prefix/lib/python3.10/site-packages/placo.so,sha256=48MUbMpQa4GTAxWeyZkE8GWK-hxE8lAww6WWAKPajmA,9176696
+cmeel.prefix/lib/python3.10/site-packages/placo_utils/tf.py,sha256=fFRXNbeLlXzn5VOqYl7hcSuvOOtTDTiLi_Lpd9_l6wA,36
+cmeel.prefix/lib/python3.10/site-packages/placo_utils/visualization.py,sha256=zJKOiGfw0qyY-hlS8HJBFoiGwNUGZGllj-XovANKokg,6448
+cmeel.prefix/lib/python3.10/site-packages/placo_utils/__pycache__/tf.cpython-310.pyc,sha256=APWQ5-zKgbEcMnkv6Hxgj_Q46jpnuOyL9YbSrj6Z5Vw,204
+cmeel.prefix/lib/python3.10/site-packages/placo_utils/__pycache__/visualization.cpython-310.pyc,sha256=BPWMQLssYaMSjJyABsOxm2WDyGr_1AulUyj37yx8M0w,5887
+placo-0.2.8.dist-info/license/LICENSE,sha256=q2bBXvk4Eh7TmP11LoIOIGSUuJbR30JBI6ZZ37g52T4,1061
+placo-0.2.8.dist-info/METADATA,sha256=UzV8FAquZdfWScZ213RaiLYuAxSpO0vKiKlF9LhGWBM,1618
+placo-0.2.8.dist-info/WHEEL,sha256=GG3aWrINZ6-EfOf2jaRO1SBQfOwv0eJwKe893X49tgU,115
+placo-0.2.8.dist-info/top_level.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+placo-0.2.8.dist-info/RECORD,,

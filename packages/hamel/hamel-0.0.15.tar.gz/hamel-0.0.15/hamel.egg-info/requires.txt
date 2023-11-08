@@ -1,0 +1,10 @@
+fastcore
+pandas
+openai
+requests
+pandoc
+tqdm
+beautifulsoup4
+tiktoken
+
+[dev]

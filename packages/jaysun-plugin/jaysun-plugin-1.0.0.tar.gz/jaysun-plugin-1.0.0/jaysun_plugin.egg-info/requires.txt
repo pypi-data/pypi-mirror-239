@@ -1,0 +1,4 @@
+PyYAML==6.0
+pymysql==1.0.3
+requests==2.30.0
+setuptools==67.3.3

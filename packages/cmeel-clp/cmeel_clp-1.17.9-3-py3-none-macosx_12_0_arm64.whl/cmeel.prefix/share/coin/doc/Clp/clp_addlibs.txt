@@ -1,0 +1,1 @@
+-L/var/folders/76/zy5ktkns50v6gt5g8r0sf6sc0000gn/T/cmeel-vpxejno4/whl/cmeel.prefix/lib -L/private/var/folders/76/zy5ktkns50v6gt5g8r0sf6sc0000gn/T/pip-build-env-zu0r5wno/overlay/lib/python3.10/site-packages/cmeel.prefix/lib/pkgconfig/../../lib -lClpSolver -lClp -lCoinUtils -lbz2 -lz -framework Accelerate -lm

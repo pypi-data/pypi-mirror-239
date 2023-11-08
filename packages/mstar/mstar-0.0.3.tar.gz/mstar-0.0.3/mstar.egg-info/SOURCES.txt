@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+mstar/__init__.py
+mstar/_modidx.py
+mstar/core.py
+mstar.egg-info/PKG-INFO
+mstar.egg-info/SOURCES.txt
+mstar.egg-info/dependency_links.txt
+mstar.egg-info/entry_points.txt
+mstar.egg-info/not-zip-safe
+mstar.egg-info/requires.txt
+mstar.egg-info/top_level.txt

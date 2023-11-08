@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: kimmdy-grappa
+Version: 0.1
+Summary: Parameterization interface between KIMMDY and GrAPPa
+Author: Eric Hartmann
+Author-email: eric.hartmann@h-its.org
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: kimmdy
+Requires-Dist: MDAnalysis
+
+# Reaction template for KIMMDY
+
+## Installation
+Should get installed together with kimmdy. If you want to install it separatly: 
+
+* Download
+* `pip install -e ./`  or for development: `pip install -r requirements.txt`
+
+
+
+
+

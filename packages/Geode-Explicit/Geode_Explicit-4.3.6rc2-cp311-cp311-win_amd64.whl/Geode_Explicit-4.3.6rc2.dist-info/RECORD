@@ -1,0 +1,12 @@
+geode_explicit/__init__.py,sha256=-1Ma-Q_qKho5-HJywdEjGH_v91Dp0h8zchFCzKp7ADk,194
+geode_explicit/brep.py,sha256=5gXUGyujJVK7W7i2Zoqb5_9Mb5jPPZLiYZX9piVVUGY,271
+geode_explicit/section.py,sha256=diHY0-G0OXfICdOX3HSTnwrdrW3WOsct7GAT4rECQb4,249
+geode_explicit/bin/Geode-Explicit_brep.dll,sha256=-m6mMZSUBrjogPB4NPFB0_zGIn-wMNOKWCXEVWn3ZA8,4003840
+geode_explicit/bin/Geode-Explicit_common.dll,sha256=0UVYhuuK6fqWMAhqlkDSVrt6_JmSIO0LVm9PlPJNEbI,33280
+geode_explicit/bin/Geode-Explicit_section.dll,sha256=xV1zJL_rMuBcRNni8fa74QkNvcLspAWe3YW6DkZra6I,3704832
+geode_explicit/bin/geode_explicit_py_brep.cp311-win_amd64.pyd,sha256=DtaDQQrOwd3lfhHS7Ji54d54ty7wNeZJpZChZS10zSg,158208
+geode_explicit/bin/geode_explicit_py_section.cp311-win_amd64.pyd,sha256=ek5eECG_IeHUPYG66atHdgheDZHWCHrQzdZxMvdUaDM,137216
+Geode_Explicit-4.3.6rc2.dist-info/METADATA,sha256=DINNrFZmQZtKBuzCSnQ2wFS2oz4jKYkAsEK7UelYSf8,2352
+Geode_Explicit-4.3.6rc2.dist-info/WHEEL,sha256=82gZYSdmJ63dmEqVXfVfYjP-6F3ar13SybIjiy8AOec,102
+Geode_Explicit-4.3.6rc2.dist-info/top_level.txt,sha256=SLuJS840PQSB1EAIYibu72OEG1sORAkOdcw3z29RuQQ,15
+Geode_Explicit-4.3.6rc2.dist-info/RECORD,,

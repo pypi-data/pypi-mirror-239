@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: cfanalysis
+Version: 0.1.9
+Summary: Library to perform Combinatorial Fusion Analysis
+Author: Mohammed Quazi
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: PyTDC
+
+A Combinatorial Fusion Analysis (CFA) to enhance Absorption, Distribution, Metabolism, Excretion, and Toxicity (ADMET) performance of ML models. CFA models show superior performance compared to most of the individual ML models. The CFA model architecture and the performance of CFA models on TDC and other internal datasets is presented on the GitHub repo. Significant enhancement suggests that CFA is a viable tool for improving ADMET ML model performance, offering promise for faster and more cost-effective drug development pipelines. Refer to the GitHub repo for more information on the package: https://github.com/F-LIDM/CFA4DD

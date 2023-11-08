@@ -1,0 +1,17 @@
+gitstats/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gitstats/assets/arrow-down.gif,sha256=eaQ_Pcfp0KYOV5fqwT_OpqGC5w-qL7mUsgcpvqAaeyI,73
+gitstats/assets/arrow-none.gif,sha256=rjzPvZm8AyADz572_pLXzeGbZtYzUhH4eWNiQQaXaOg,71
+gitstats/assets/arrow-up.gif,sha256=LPROqqlbBqyP_bA1iU2Z1K4R1DHKh3YrfsTd5CJ9IyE,73
+gitstats/assets/gitstats.css,sha256=CsasDXE8t4I5GY_RPlP6H0IK3hjoHU8Jrm4KeNy4SZs,1645
+gitstats/assets/sortable.js,sha256=R8EFWQ6euk6ZF7MXoQ7QbimIxxuN68DsXV5o8iEsp3o,9562
+gitstats/collector.py,sha256=Kbs1VG_k7didGJw6eCTDnhvI6YyESc_x8VEKZGAG4w4,25815
+gitstats/config.py,sha256=S8FPkzEmWPEu84E8krZLOO4P3UFqWMq4-BkHQdGS7_0,821
+gitstats/gitstats.py,sha256=bS937fTzgmtRK9VW2WQ4wmILtZFPow5VhIiOetTM47k,2930
+gitstats/main.py,sha256=QjO-gsDOWIGSCWDch05inCjuZusGhKjr8_pTn7U8oPQ,190
+gitstats/report.py,sha256=XrVriJwv_H4o7jAJvqmVql-YtS10JPAGHa0XwC4SEwg,30482
+gitstats/utils.py,sha256=NQoKzb-vb99_smFEldjIv5ZXJYNGVUJ7wrtk56R-6bg,3367
+gitstats/version.py,sha256=KecMUtTdDh5AYwvCf2ZwsC1tNrsXNPT7IKWzKg6rAzY,714
+gitstats_abilian-1.0.6.dist-info/METADATA,sha256=liIaNiH1zY9rXJxog59EiFfKQ0oPdURqzWBzT3aufdI,992
+gitstats_abilian-1.0.6.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+gitstats_abilian-1.0.6.dist-info/entry_points.txt,sha256=OQsU2WxxmeasMIVKy_t44aeMWxg6b-q9alt7QYcOfaY,47
+gitstats_abilian-1.0.6.dist-info/RECORD,,

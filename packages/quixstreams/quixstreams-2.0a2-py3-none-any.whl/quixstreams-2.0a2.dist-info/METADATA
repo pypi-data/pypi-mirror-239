@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: quixstreams
+Version: 2.0a2
+Summary: Python library for building stream processing applications with Apache Kafka
+Home-page: https://github.com/quixio/quix-streams
+Author: Quix Analytics Ltd
+Author-email: devs@quix.io
+License: Apache 2.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Programming Language :: Python :: 3
+Requires-Python: <4,>=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: confluent-kafka <2.3,>=2.2
+Requires-Dist: requests >=2.28
+Requires-Dist: rocksdict <0.4,>=0.3
+Requires-Dist: typing-extensions <4.9,>=4.8
+Requires-Dist: orjson <4,>=3.9
+

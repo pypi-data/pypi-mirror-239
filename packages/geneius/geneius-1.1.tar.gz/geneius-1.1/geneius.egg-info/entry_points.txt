@@ -1,0 +1,2 @@
+[console_scripts]
+geneius = __main__:main

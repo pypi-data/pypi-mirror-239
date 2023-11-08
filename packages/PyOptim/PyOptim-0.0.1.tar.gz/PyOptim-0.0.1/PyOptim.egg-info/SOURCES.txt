@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+PyOptim.egg-info/PKG-INFO
+PyOptim.egg-info/SOURCES.txt
+PyOptim.egg-info/dependency_links.txt
+PyOptim.egg-info/requires.txt
+PyOptim.egg-info/top_level.txt

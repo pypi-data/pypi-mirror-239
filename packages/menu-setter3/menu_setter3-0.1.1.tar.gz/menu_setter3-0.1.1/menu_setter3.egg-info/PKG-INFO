@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: menu-setter3
+Version: 0.1.1
+Summary: Dynamic menu for easier customization
+Home-page: UNKNOWN
+Author: Parsa Ahmadian(PKPY)
+Author-email: <phopatism@gmail.com>
+License: UNKNOWN
+Keywords: python,menu,dynamic,dynamic menu,menu setter,python menu,terminal
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# menu_setter
+a dynamic menu for easier customization. <br>
+ This module is under development and will become more powerful.
+ 
+# How To Use?
+first pip this module in cmd or terminal:
+``` pip install menu_setter ```
+# How To Dev?
+...
+
+

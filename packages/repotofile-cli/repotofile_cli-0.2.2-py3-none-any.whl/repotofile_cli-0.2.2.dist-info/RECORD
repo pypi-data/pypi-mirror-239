@@ -1,0 +1,11 @@
+repotofile/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+repotofile/cli.py,sha256=-LMjiX441dt0_X2-nXmOtTxP1JSyZKNs4C9Ltxvxuug,2462
+repotofile/git_operations.py,sha256=wmK0XmNPqQ3QLvHmY0F8XO9zOgs-UxbXaTaBDJ6bk4E,579
+repotofile/ignored_patterns.py,sha256=SimBNBdDTVmvzPQeIjE3eid8wKdnDBUIQhozEdYQ_0M,1427
+repotofile/utils.py,sha256=AOH291oXfyClPpd-RNQrzrmIt7eV0VAItSPtVTJEHIY,3134
+repotofile_cli-0.2.2.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+repotofile_cli-0.2.2.dist-info/METADATA,sha256=PAa2MReT9gtrS9K2B0uA9dz2z8RZF_BB0q--P6_rMSE,3151
+repotofile_cli-0.2.2.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+repotofile_cli-0.2.2.dist-info/entry_points.txt,sha256=1C2e2ZByzUv2ldHQIT_DmdV2_2ByUX4H_cNYq2wlCGQ,77
+repotofile_cli-0.2.2.dist-info/top_level.txt,sha256=A9Gbruy0DPpjmzIZS15CImkJF2wNz_Go_qS1Ql1270U,11
+repotofile_cli-0.2.2.dist-info/RECORD,,

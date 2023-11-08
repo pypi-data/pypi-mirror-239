@@ -1,0 +1,3 @@
+[console_scripts]
+repotofile = repotofile.cli:main
+rtf = repotofile.cli:main

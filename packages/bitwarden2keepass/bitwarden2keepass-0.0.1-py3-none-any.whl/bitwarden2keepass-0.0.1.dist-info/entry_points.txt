@@ -1,0 +1,2 @@
+[console_scripts]
+bitwarden2keepass = bitwarden2keepass.convert:main

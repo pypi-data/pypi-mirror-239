@@ -1,0 +1,12 @@
+galter_subjects_utils/__init__.py,sha256=fvFDV3JyzLc2z06AurDrx1ivf43fG9xEy3jhCdZsbs4,282
+galter_subjects_utils/cli.py,sha256=4qvDpukOc8TOsTV0pa9O5EmuqF5LfMisUObim2JcUeY,3830
+galter_subjects_utils/converter.py,sha256=-so0M9mCteIFjN5yZZsbdecaK50m3lZxvzFXqBGeFeg,3026
+galter_subjects_utils/downloader.py,sha256=kU7vWuekqczkEg4j_Xk4b2CfwUaUv-bajaAZK-jDxaQ,2525
+galter_subjects_utils/reader.py,sha256=BnHutEL9VN8g-uMwGKlOmgCCwt-j1yFW9lHg0ytkCSg,1760
+galter_subjects_utils/writer.py,sha256=bWawCBvfTQXjS0edmTVH5XyJKJvdcFpw2y5yp0fwMuM,646
+galter_subjects_utils-0.2.0.dist-info/LICENSE,sha256=pvn4sHeXv1itkPsbMsOgqg14rm28oYDUbLm8UNiCYbE,1086
+galter_subjects_utils-0.2.0.dist-info/METADATA,sha256=wrc1ek11cWApJQ8arfaNufSPjqT-JWUN2kVbXSacsqk,4189
+galter_subjects_utils-0.2.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+galter_subjects_utils-0.2.0.dist-info/entry_points.txt,sha256=Y-Px1z8g-xA3bdHteYwx6SrrLaMix4jMWAjX3qHMHB8,73
+galter_subjects_utils-0.2.0.dist-info/top_level.txt,sha256=7mjRxNlrHnrNXnvaP5Y1WrBTBOBcDnUbyMuKoZZygio,22
+galter_subjects_utils-0.2.0.dist-info/RECORD,,

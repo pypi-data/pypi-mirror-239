@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: c-h-base
+Version: 0.0.1
+Summary: Custom exception handiling
+Home-page: UNKNOWN
+Author: Test
+Author-email: hardikp@capitalnumbers.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: fastapi (==0.103.2)
+Requires-Dist: pydantic (==2.4.2)
+
+UNKNOWN
+

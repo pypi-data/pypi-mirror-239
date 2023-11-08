@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+pycallblock/__init__.py
+pycallblock/modem.py
+pycallblock/shielded_codes_to_dte.json
+pycallblock/util.py
+pycallblock.egg-info/PKG-INFO
+pycallblock.egg-info/SOURCES.txt
+pycallblock.egg-info/dependency_links.txt
+pycallblock.egg-info/entry_points.txt
+pycallblock.egg-info/requires.txt
+pycallblock.egg-info/top_level.txt

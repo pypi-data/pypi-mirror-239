@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+xpos/__init__.py
+xpos/_modidx.py
+xpos/core.py
+xpos.egg-info/PKG-INFO
+xpos.egg-info/SOURCES.txt
+xpos.egg-info/dependency_links.txt
+xpos.egg-info/entry_points.txt
+xpos.egg-info/not-zip-safe
+xpos.egg-info/requires.txt
+xpos.egg-info/top_level.txt

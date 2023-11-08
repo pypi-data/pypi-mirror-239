@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pyaddy
+Version: 0.1.0
+Summary: A Python package/cli to interact with addy.io
+Home-page: https://github.com/msaldivar/pyaddy
+License: GNU AFFERO GENERAL PUBLIC LICENSE
+Author: Maurice Saldivar
+Author-email: mo.py.solutions@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# pyaddy
+A Python package/cli to interact with addy.io
+
+
+## How to use
+* Put your api-key in env.cfg
+* using python to execute the main file from the pyaddy dir. Your api key details will be printed, if your key is valid.

@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+djseong/__init__.py
+djseong/bar/__init__.py
+djseong_test_bar.egg-info/PKG-INFO
+djseong_test_bar.egg-info/SOURCES.txt
+djseong_test_bar.egg-info/dependency_links.txt
+djseong_test_bar.egg-info/requires.txt
+djseong_test_bar.egg-info/top_level.txt

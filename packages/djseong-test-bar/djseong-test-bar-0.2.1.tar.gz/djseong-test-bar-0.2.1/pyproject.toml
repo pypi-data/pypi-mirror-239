@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "djseong-test-bar"
+authors = [
+    {name = "djseong", email = "feedback@gmail.com"},
+]
+description = "test bar"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+version = "0.2.1"
+dependencies = [
+    "djseong-test-foo==0.2.0",
+    "databricks-feature-store==0.16.1"
+]

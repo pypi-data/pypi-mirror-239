@@ -1,0 +1,12 @@
+istar/__init__.py,sha256=Pk3L0cUXtjE2ll-GD47JAhxYJvn2HgayAlfv9NiOHFg,322
+istar/_modidx.py,sha256=5QfFx8LlYJET1nE5pUIWuWqwZ0CYnbciHF4BTekwCIQ,1251
+istar/core.py,sha256=yLLBi3WqQyBeKWGg8T83jHmHUv_RSX4FaaX1YVdFang,3029
+mstar/__init__.py,sha256=SWlJflwWq4h9DP7NwOWgc0sDEhOA06ypPvsbbsw_l4E,331
+mstar/_modidx.py,sha256=2gTEszvghq3VCS5HQWMeDWZCBI6iTQ7-hTJ5zCMWPOs,1251
+mstar/core.py,sha256=yLLBi3WqQyBeKWGg8T83jHmHUv_RSX4FaaX1YVdFang,3029
+mstar-0.0.1.dist-info/LICENSE,sha256=xV8xoN4VOL0uw9X8RSs2IMuD_Ss_a9yAbtGNeBWZwnw,11337
+mstar-0.0.1.dist-info/METADATA,sha256=5204xiHG3TrTigm9LvzHyz6CSTLAguOl1rglxX3mt5w,2103
+mstar-0.0.1.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+mstar-0.0.1.dist-info/entry_points.txt,sha256=AK1dB1afSYG2nV6HIzwXYKLd-hvhQK0xDPx1Ibx--SM,32
+mstar-0.0.1.dist-info/top_level.txt,sha256=q6q_rAtPXczl1KTwZnhax2nxXkJ_GZkLJVYe4MIWoa8,12
+mstar-0.0.1.dist-info/RECORD,,

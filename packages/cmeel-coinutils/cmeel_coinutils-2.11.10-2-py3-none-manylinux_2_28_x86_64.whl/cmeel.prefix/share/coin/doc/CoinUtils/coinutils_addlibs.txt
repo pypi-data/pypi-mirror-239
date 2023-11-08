@@ -1,0 +1,1 @@
+-L/tmp/cmeel-3kngw8bs/whl/cmeel.prefix/lib -lCoinUtils -lz -lm 

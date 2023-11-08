@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: fuck-game
+Version: 0.0.7a0
+Summary: Python game, made with curses
+Home-page: https://github.com/4sushi/fuck
+Author: 4sushi
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+

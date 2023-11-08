@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: 3-python-package-exercise-17
+Version: 0.1.0
+Summary: A simple Wordle-like game to play in the terminal.
+Author: Chang Liu
+Author-email: cl5706@nyu.edu
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Python Package Exercise
+
+A little exercise to create a Python package, build it, test it, distribute it, and use it. See [instructions](./instructions.md) for details.

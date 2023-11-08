@@ -1,0 +1,14 @@
+serializor-0.1.12.8.dist-info/WHEEL,sha256=2bj05YmpkeIwsyHbCoBNA8hZPSKrDcWoxNrpq19aYjY,113
+serializor-0.1.12.8.dist-info/LICENSE,sha256=RAniOK__cFrKZfwO6yVzJjATd-HyF27gqFNC7A9vCMI,11981
+serializor-0.1.12.8.dist-info/RECORD,,
+serializor-0.1.12.8.dist-info/top_level.txt,sha256=Qi-GN-ievkejJkgwXvb-vDjONEKC9nxQyjKw_bKPK1E,11
+serializor-0.1.12.8.dist-info/METADATA,sha256=QKda_Wp6VLYGaKZ3vBN21E64py6JE8UUb_wPP1g9qFk,13627
+serializor/__init__.pxd,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+serializor/cipher.py,sha256=AuMNHv9psUOTz_V3ourPPfCha57pDDuRjtUD93VW0Nc,5924
+serializor/transcode.py,sha256=IS0GBMAzvjJat3b9NzPLWMkZZgqoQcuvWhNGJNEcXz8,17650
+serializor/transcode.cpython-311-x86_64-linux-musl.so,sha256=3swhvPlM40ju_4SjRsV5nisfFFJfj48o_RMiEsqAndk,1419304
+serializor/transcode.pxd,sha256=iSNHrFUMd6SMx_6ABRttcZ-Xd5TFKtplBwCtvgZ3FRM,449
+serializor/cipher.cpython-311-x86_64-linux-musl.so,sha256=uU9KTJ6OqHnrBSJklx06YtnmvdOJklTfgwgBqPcEA1M,960224
+serializor/__init__.py,sha256=x6SsjwfliIHClMwH7_BPNz2SaxzXlz_1322cqwX8-Zk,415
+serializor/transcode.c,sha256=XvzWU_PZ0HqqHa03QHI34iXlC1bitGIy8XOaDW_Bq88,1020564
+serializor/cipher.c,sha256=7h1Lzh8c7n0AjUyzIDkH9FMw-MQMiXx2cnHFt7t0viQ,551090

@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: djseong-test-bar
+Version: 0.2.0
+Summary: test bar
+Author-email: djseong <feedback@gmail.com>
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: djseong-test-foo ==0.2.0
+

@@ -1,0 +1,8 @@
+README.rst
+setup.py
+econarena/__init__.py
+econarena/main.py
+econarena.egg-info/PKG-INFO
+econarena.egg-info/SOURCES.txt
+econarena.egg-info/dependency_links.txt
+econarena.egg-info/top_level.txt

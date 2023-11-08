@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: flu-geolocator
+Version: 0.0.1
+Summary: Geolocator using Photon API
+Author: Adrian Fluturel
+Author-email: <adrian.fluturel@protonmail.com>
+Keywords: python,geolocation,photon,flu
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: requests
+
+Uses the photon api to get geolocation services

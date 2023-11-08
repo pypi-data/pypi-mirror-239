@@ -1,0 +1,22 @@
+[build-system]
+build-backend = "cmeel"
+requires = ["cmeel-coinutils", "cmeel[build]"]
+
+[project]
+dependencies = ["cmeel-coinutils"]
+description = "cmeel distribution for clp"
+license = "EPL"
+name = "cmeel-clp"
+requires-python = ">= 3.8"
+version = "1.17.9"
+
+[project.urls]
+homepage = "https://github.com/cmake-wheel/cmeel-clp"
+
+[tool.cmeel]
+build-number = 3
+has-sitelib = false
+run-tests = false
+
+[tool.tomlsort]
+all = true

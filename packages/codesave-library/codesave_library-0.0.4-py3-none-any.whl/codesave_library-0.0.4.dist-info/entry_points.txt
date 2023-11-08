@@ -1,0 +1,4 @@
+[console_scripts]
+code_from_wandb = codesave.app:wandb_app
+codesave = codesave.app:codesave_app
+make_pyz = codesave.app:make_pyz_app

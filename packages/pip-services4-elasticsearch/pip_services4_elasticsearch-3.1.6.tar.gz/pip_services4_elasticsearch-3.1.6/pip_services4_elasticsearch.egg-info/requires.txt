@@ -1,0 +1,11 @@
+moment
+elasticsearch<8.0.0,>=7.17.2
+pip-services4-commons<1.0,>=0.0.1
+pip-services4-components<1.0,>=0.0.1
+pip-services4-rpc<1.0,>=0.0.1
+pip-services4-config<1.0,>=0.0.1
+pip-services4-data<1.0,>=0.0.1
+pip-services4-rpc<1.0,>=0.0.1
+pip-services4-http<1.0,>=0.0.1
+pip-services4-observability<1.0,>=0.0.5
+pip_services4_container<1.0,>=0.0.1

@@ -1,0 +1,3 @@
+pymemcache<4.0,>=3.5.0
+pip_services4_commons<4.0,>=0.0.1
+pip_services4_components<4.0,>=0.0.1

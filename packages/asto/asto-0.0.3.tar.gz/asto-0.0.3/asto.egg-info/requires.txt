@@ -1,0 +1,15 @@
+atyp
+nchr
+nlit
+chck
+idfunc
+mstar
+calr
+achn
+numpy>=1.22
+
+[dev]
+numpy>=1.22
+torch
+anndata
+scipy

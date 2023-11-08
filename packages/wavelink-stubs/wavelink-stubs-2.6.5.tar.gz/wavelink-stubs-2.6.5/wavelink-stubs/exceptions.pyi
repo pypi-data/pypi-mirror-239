@@ -1,0 +1,29 @@
+from typing import Any
+
+__all__ = (
+    "WavelinkException",
+    "AuthorizationFailed",
+    "InvalidNode",
+    "InvalidLavalinkVersion",
+    "InvalidLavalinkResponse",
+    "NoTracksError",
+    "QueueEmpty",
+    "InvalidChannelStateError",
+    "InvalidChannelPermissions",
+)
+
+class WavelinkException(Exception):
+    def __init__(self, *args: Any, **kwargs: Any) -> None: ...
+
+class AuthorizationFailed(WavelinkException): ...
+class InvalidNode(WavelinkException): ...
+class InvalidLavalinkVersion(WavelinkException): ...
+
+class InvalidLavalinkResponse(WavelinkException):
+    status: int | None
+    def __init__(self, *args: Any, **kwargs: Any) -> None: ...
+
+class NoTracksError(WavelinkException): ...
+class QueueEmpty(WavelinkException): ...
+class InvalidChannelStateError(WavelinkException): ...
+class InvalidChannelPermissions(InvalidChannelStateError): ...

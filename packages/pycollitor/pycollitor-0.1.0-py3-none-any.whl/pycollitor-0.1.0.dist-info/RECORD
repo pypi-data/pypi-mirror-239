@@ -1,0 +1,11 @@
+pycollitor/__init__.py,sha256=_M9z5tpzXBM7DwC1cWYCRs-PJH1cJxibMDMp2_kP7UM,113
+pycollitor/__main__.py,sha256=EH35EtHdqkcMw_LFwRxuhbHxwkiwn9HgMn3mHbeQDDg,77
+pycollitor/core.py,sha256=BxH-jjpv3Q9EKLZxQYnUvYAnFKUJzOnL7mTZI5HgF4U,1505
+pycollitor/plugins/__init__.py,sha256=_r8rpqHE1yb9CKK_mMXoifjDnBLkQ93llUXNhUDeh7U,148
+pycollitor/plugins/ansible_plugin.py,sha256=uAzTqv3D0MdCM5a1KDs3-_K5r-fJoYzDNB4moQOwi9E,90
+pycollitor/plugins/docker_plugin.py,sha256=lw9FQEDHla1HF2Ph-wsumugSPUxqTQTB40YrdjeVmc0,724
+pycollitor/plugins/kubernetes_plugin.py,sha256=3PNPOrBSZn1mUPfCsPfATntp1ztI2xbm6_4VhbxMqD0,96
+pycollitor-0.1.0.dist-info/LICENSE,sha256=YUszsjTdyNDPJ3B0bUHp_ZUVcVfGFVlVKVOJtAwtXUc,1065
+pycollitor-0.1.0.dist-info/METADATA,sha256=_w7ulfZWDfjwgKERNJA5FmjVIzJt09g944ElQHKbAm0,465
+pycollitor-0.1.0.dist-info/WHEEL,sha256=WGfLGfLX43Ei_YORXSnT54hxFygu34kMpcQdmgmEwCQ,88
+pycollitor-0.1.0.dist-info/RECORD,,

@@ -1,0 +1,2 @@
+[console_scripts]
+fastapi-prime-create = fastapi_prime.fastapi_prime:main

@@ -1,0 +1,6 @@
+datetime
+cryptography>=3
+requests
+requests_ntlm
+pycrypto>=2.6.1
+pysnmp>=4.4.12

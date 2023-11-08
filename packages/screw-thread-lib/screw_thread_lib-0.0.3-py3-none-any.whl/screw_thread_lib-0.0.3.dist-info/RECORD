@@ -1,0 +1,9 @@
+screw_thread_lib/__init__.py,sha256=5Dn8fDonYGaGubI38mAXMw3ll_HtZANaLC0gZbHx0Nk,47
+screw_thread_lib/threads.py,sha256=q8ZTrnQUcC94lZC2druwP0WvFHEJALLy8mXxtUDvAVs,16001
+screw_thread_lib/data/ASME_B11.py,sha256=MW7lItQUK9kAUX5YgjLCD7n6KpNhFcMZZKXe_1E88Dc,3300
+screw_thread_lib/data/__init__.py,sha256=cZoOP3xVuEn9heMlOPmiBhMPkU5_V-_2R5mewAH_lzQ,45
+screw_thread_lib-0.0.3.dist-info/LICENSE,sha256=NB9ry1eBoda335BGg1V2obGG7WESdF6T5bfw8Y7BDEA,1088
+screw_thread_lib-0.0.3.dist-info/METADATA,sha256=IiA9xAToGLJRKdK9nIcSnGLxahBsL2E14SNr7dzcR_I,662
+screw_thread_lib-0.0.3.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+screw_thread_lib-0.0.3.dist-info/top_level.txt,sha256=OfQ5wpYmVyM7iLT6f9Qe3gT0X6SraK981e93YW0zTNw,17
+screw_thread_lib-0.0.3.dist-info/RECORD,,

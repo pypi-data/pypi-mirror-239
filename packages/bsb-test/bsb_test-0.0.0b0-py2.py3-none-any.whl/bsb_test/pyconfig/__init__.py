@@ -1,0 +1,1 @@
+from .single import cfg_single

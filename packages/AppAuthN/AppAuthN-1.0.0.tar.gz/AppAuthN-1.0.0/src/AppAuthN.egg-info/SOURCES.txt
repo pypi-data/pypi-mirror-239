@@ -1,0 +1,7 @@
+setup.py
+src/AppAuthN/__init__.py
+src/AppAuthN/sendAuthN.py
+src/AppAuthN.egg-info/PKG-INFO
+src/AppAuthN.egg-info/SOURCES.txt
+src/AppAuthN.egg-info/dependency_links.txt
+src/AppAuthN.egg-info/top_level.txt

@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: scrfd
+Version: 0.1.0
+Summary: Efficient face detection using SCRFD onnxruntime inference
+Home-page: https://github.com/cospectrum/scrfd
+License: Apache-2.0
+Author: cospectrum
+Author-email: severinalexeyv@gmail.com
+Requires-Python: >=3.10,<3.13
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: numpy (>=1.26.1,<2.0.0)
+Requires-Dist: onnxruntime (>=1.16.1,<2.0.0)
+Requires-Dist: pillow (>=10.1.0,<11.0.0)
+Requires-Dist: pydantic (>=2.4.2,<3.0.0)
+Project-URL: Repository, https://github.com/cospectrum/scrfd
+Description-Content-Type: text/markdown
+
+# SCRFD
+[![github]](https://github.com/cospectrum/scrfd)
+
+[github]: https://img.shields.io/badge/github-cospectrum/scrfd-8da0cb?logo=github
+
+Efficient face detection using SCRFD onnxruntime inference.
+
+Requires python >= 3.10
+
+```py
+from scrfd import SCRFD, Threshold
+from PIL import Image
+
+face_detector = SCRFD.from_path("./models/scrfd.onnx")
+image = Image.open("./images/solvay_conference_1927.jpg")
+
+threshold = Threshold(probability=0.4)
+faces = face_detector.detect(image, threshold=threshold)
+
+for face in faces:
+    bbox = face.bbox
+    kps = face.keypoints
+    score = face.probability
+    print(f"{bbox=}, {kps=}, {score=}")
+```
+
+<img align="middle" src="https://github.com/cospectrum/scrfd/blob/main/images/readme.jpg?raw=True" alt="face detection">
+

@@ -1,0 +1,16 @@
+pydantic>=1.10
+aiohttp>=3.8
+async_lru>=2.0
+tenacity>=8.2
+cachetools>=5.3
+
+[dev]
+pytest
+pytest-cov
+pytest-asyncio
+httpx
+mypy
+types-cachetools
+isort
+black
+flake8

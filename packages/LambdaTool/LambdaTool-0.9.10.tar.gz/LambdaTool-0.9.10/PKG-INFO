@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: LambdaTool
+Version: 0.9.10
+Summary: Python Lambda utility
+Home-page: https://github.com/muckamuck/lambda-tool
+Author: Chuck Muckamuck
+Author-email: Chuck.Muckamuck@gmail.com
+License-File: LICENSE

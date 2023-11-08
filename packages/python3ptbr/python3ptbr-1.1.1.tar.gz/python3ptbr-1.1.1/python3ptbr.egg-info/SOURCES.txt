@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+python3ptbr/__init__.py
+python3ptbr/__main__.py
+python3ptbr/cli.py
+python3ptbr.egg-info/PKG-INFO
+python3ptbr.egg-info/SOURCES.txt
+python3ptbr.egg-info/dependency_links.txt
+python3ptbr.egg-info/entry_points.txt
+python3ptbr.egg-info/top_level.txt

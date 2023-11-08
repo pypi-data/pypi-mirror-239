@@ -1,0 +1,2 @@
+[console_scripts]
+python3ptbr = python3ptbr.cli:main

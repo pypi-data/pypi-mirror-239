@@ -1,0 +1,17 @@
+gidgetlab_kit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gidgetlab_kit/api.py,sha256=wWyr9RrsHGwD31kxZMXOpLkf_LYZG5j_NjNBBn6roX4,14983
+gidgetlab_kit/clone.py,sha256=AkOSH2y9kO6FWmFQxPboLQrdkpUOWdjNgsG5_-wTfN0,3504
+gidgetlab_kit/command.py,sha256=ZM4jtxcxKF2g1zo8rkAyEFsuGZIakTUvKBwjffKda5E,7035
+gidgetlab_kit/commits.py,sha256=iO6ud26eSd6OSVhdWSOmVrXyuVu-PfciH6R1vroHcSY,2048
+gidgetlab_kit/exceptions.py,sha256=u_rWddrHVg574pCeckuR7T4QK5NX0Aty4oNARSqgl8s,137
+gidgetlab_kit/get.py,sha256=0pPDOs1iAfcLYfkZGPwciCy6-NY9VmdeL8Vop1Y_DAc,871
+gidgetlab_kit/models.py,sha256=3LYTvEmsHQQfdoQAVpexMPFGJJ1SJ0zIPXo8ZWdetaI,2900
+gidgetlab_kit/pipelines.py,sha256=lTmmacANg2CkdyC4QDyllYCybtdKgJTdK5HjY8KJ34c,3678
+gidgetlab_kit/producers.py,sha256=5Luey_DAXkTea5E0l2K4Af0vYB2MtPQG4ay8fpUiYPg,562
+gidgetlab_kit/tasks.py,sha256=P3M86MpY-0SRuo-igc7wRh5Bs_j7yNbHYTCc4ep6uNA,2242
+gidgetlab_kit/util.py,sha256=0Mx8xiAWhxaOztIuaoPHaGoDowLymPgHIjUHWWX7pOE,914
+gidgetlab_kit-0.7.0.dist-info/METADATA,sha256=mZmkAbSYBIzZwI7wmbm6SSnUMa_B5LfluqH7cEsBJOs,3052
+gidgetlab_kit-0.7.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+gidgetlab_kit-0.7.0.dist-info/entry_points.txt,sha256=tTEikAlbvNsZda2ap_sPSPWFk4N1lV2QRq8u353FU2A,56
+gidgetlab_kit-0.7.0.dist-info/licenses/LICENSE,sha256=YICgTHl1pCZhNQbRB9eS0ON5gPnFLiTqKkrKuewfNv8,1079
+gidgetlab_kit-0.7.0.dist-info/RECORD,,

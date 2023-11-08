@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: oswrite
+Version: 0.0.1
+Summary: CLI tool for processing audio files
+Author: Prabin Nepal
+License: Apache-2.0
+Project-URL: Homepage, https://github.com/nepalprabin/oswrite
+Project-URL: Changelog, https://github.com/nepalprabin/oswrite/releases
+Project-URL: Issues, https://github.com/simonw/oswrite/issues
+Project-URL: CI, https://github.com/simonw/oswrite/actions
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: click
+Requires-Dist: openai>=1.0
+Requires-Dist: simpleaudio; sys_platform == "darwin"
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: cogapp; extra == "test"
+
+# oswrite
+
+CLI tool for running audio through the OpenAI whisper API
+
+See oswrite: a CLI tool for running audio through the OpenAI whisper API.
+
+PS: It is inspired by Simon Willamson's [osread](https://github.com/simonw/ospeak)
+
+## Installation
+
+Install this tool using pip:
+
+```python
+pip install oswrite
+```
+
+## Usage
+
+```
+oswrite --audio_file "test.mp3"
+```
+
+You will need an OpenAI API key. You can set that as an environment variable:
+
+```
+export OPENAI_API_KEY="..."
+```
+
+Or you can pass it using --token:
+
+```
+oswrite --token "..." --audio_file "test.mp3"
+```

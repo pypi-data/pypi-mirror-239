@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Async-DisOAuth"
+version = "1.2.0"
+description = "Helps with discord oauth2"
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+  "requests"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/disoauth/DiscoAuth"
+"Bug Tracker" = "https://github.com/disoauth/DiscoAuth/issues"
+"Repository" = "https://github.com/disoauth/DiscoAuth"
+"Documentation" = "https://async-disoauth2.readthedocs.io/en/latest/index.html"

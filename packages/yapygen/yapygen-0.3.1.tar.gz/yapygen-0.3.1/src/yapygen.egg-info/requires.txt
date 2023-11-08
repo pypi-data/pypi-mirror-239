@@ -1,0 +1,9 @@
+InquirerPy~=0.3.4
+
+[dev]
+black
+flake8
+isort
+mypy
+ipython
+pre-commit

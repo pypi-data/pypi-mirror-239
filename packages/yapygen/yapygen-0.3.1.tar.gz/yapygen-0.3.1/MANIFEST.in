@@ -1,0 +1,2 @@
+recursive-include src/yapygen/templates *
+global-include *.typed

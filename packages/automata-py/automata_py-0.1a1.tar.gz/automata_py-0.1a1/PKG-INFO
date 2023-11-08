@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: automata-py
+Version: 0.1a1
+Summary: A simple Python (3.10+) implementation aimed at simulating some cellular automata, primarily those focused on by Stephan Wolfram in his book "A New Kind of Science".
+Author-email: Roy Levien <royl@msn.com>
+Requires-Python: >=3.10,<4
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft
+Classifier: Operating System :: POSIX
+Classifier: Intended Audience :: Other Audience
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Environment :: Console
+Requires-Dist: numpy >=1.26
+Requires-Dist: matplotlib >=3.8
+Requires-Dist: ipywidgets ; extra == "all"
+Requires-Dist: IPython ; extra == "all"
+Requires-Dist: click ; extra == "all"
+Requires-Dist: click ; extra == "cli"
+Requires-Dist: ipywidgets ; extra == "notebook"
+Requires-Dist: IPython ; extra == "notebook"
+Project-URL: Home, https://github.com/orome/automata-py
+Provides-Extra: all
+Provides-Extra: cli
+Provides-Extra: notebook
+
+## Automata
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/orome/automata-py.git/main/?urlpath=lab/tree/demo.ipynb)
+[![Testing](https://github.com/orome/automata-py/actions/workflows/test-and-deploy.yml/badge.svg?branch=main)](https://github.com/orome/automata-py/actions/workflows/test-and-deploy.yml)
+
+A simple Python (3.10+) implementation aimed at simulating some cellular automata,
+primarily those focused on by Stephan Wolfram, 
+as I read along in [A New Kind of Science](https://www.wolframscience.com/nks/p315--the-intrinsic-generation-of-randomness/),
+perpetually very much under construction. 
+
+To play with the latest semi-stable version, 
+[launch the demo notebook](https://mybinder.org/v2/gh/orome/automata-py.git/main/?urlpath=lab/tree/demo.ipynb) 
+in Binder.
+
+![Example display](https://raw.githubusercontent.com/orome/automata-py/main/docs/readme_eg.png)
+
+A [related project](https://github.com/orome/turing-py) covers some basics of Turing Machines.
+

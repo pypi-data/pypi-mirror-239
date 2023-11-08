@@ -1,0 +1,44 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "automata-py"
+authors = [{name = "Roy Levien", email = "royl@msn.com"}]
+readme = "readme.md"
+license = {file = "LICENSE"}
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: MacOS",
+    "Operating System :: Microsoft",
+    "Operating System :: POSIX",
+    "Intended Audience :: Other Audience",
+    "Intended Audience :: End Users/Desktop",
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Development Status :: 3 - Alpha",  # Sync with version in __init__.py
+    "Intended Audience :: Education",
+    "Environment :: Console"
+]
+dynamic = ["version", "description"]
+requires-python = ">=3.10,<4"
+dependencies = [
+    "numpy >=1.26",
+    "matplotlib >=3.8"
+]
+
+[tool.flit.module]
+name = "automata"
+
+[project.scripts]
+automata = "automata.cli:cli"
+
+[project.urls]
+Home = "https://github.com/orome/automata-py"
+
+[project.optional-dependencies]
+notebook = ["ipywidgets", "IPython"]
+cli = ["click"]
+all = ["ipywidgets", "IPython", "click"]

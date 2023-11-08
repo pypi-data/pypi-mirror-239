@@ -1,0 +1,15 @@
+pydantic
+openai==0.28.1
+tiktoken
+diskcache
+cohere
+google.auth
+typer
+pyyaml
+
+[transformers]
+transformers[torch]>=4.26
+
+[web]
+fastapi
+uvicorn

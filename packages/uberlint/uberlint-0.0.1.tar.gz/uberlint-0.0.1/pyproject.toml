@@ -1,0 +1,21 @@
+[project]
+name = "uberlint"
+version = "0.0.1"
+description = ""
+authors = [
+    { name = "Max Ludwig", email = "mail@danjou.dev" },
+]
+dependencies = []
+requires-python = ">=3.8"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool]

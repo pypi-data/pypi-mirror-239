@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: JYTools
+Version: 2.1.0
+Summary: Jing Yun Tools Library
+Home-page: https://github.com/meisanggou/Tools
+Author: meisanggou
+Author-email: zhouheng@gene.ac
+License: MIT
+Keywords: JYTools
+License-File: LICENSE
+License-File: COPYING.txt
+
+Jing Yun Tools Library.

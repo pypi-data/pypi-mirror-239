@@ -1,0 +1,6 @@
+pykeepass
+
+[test]
+pytest
+coverage[toml]
+pytest-cov

@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+bitwarden2keepass/__init__.py
+bitwarden2keepass/convert.py
+bitwarden2keepass.egg-info/PKG-INFO
+bitwarden2keepass.egg-info/SOURCES.txt
+bitwarden2keepass.egg-info/dependency_links.txt
+bitwarden2keepass.egg-info/entry_points.txt
+bitwarden2keepass.egg-info/requires.txt
+bitwarden2keepass.egg-info/top_level.txt

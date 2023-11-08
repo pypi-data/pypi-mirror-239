@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: timeflux-upsidedownlabs
+Version: 0.1.dev5
+Summary: Connect to Upside Down Labs devices using Timeflux
+Home-page: https://timeflux.io
+Author: Pierre Clisson
+Author-email: contact@timeflux.io
+License: MIT
+Project-URL: Documentation, http://doc.timeflux.io/projects/timeflux-upsidedownlabs/
+Project-URL: Source Code, https://github.com/timeflux/timeflux_upsidedownlabs
+Project-URL: Bug Tracker, https://github.com/timeflux/timeflux_upsidedownlabs/issues
+Keywords: timeflux
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+License-File: LICENSE
+Requires-Dist: timeflux>=0.16.1
+Requires-Dist: timeflux_audio>=0.2
+Requires-Dist: timeflux_ui>=0.6.3
+Requires-Dist: pyFirmata2>=2.4.5

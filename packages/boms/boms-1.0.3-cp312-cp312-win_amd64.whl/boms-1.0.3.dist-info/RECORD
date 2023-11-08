@@ -1,0 +1,11 @@
+boms_wrapper.cp312-win_amd64.pyd,sha256=_9gtwTfTlV5sf6_uDcdyghlAWAD6uh-GKAMEbMeotr8,231424
+boms/__init__.py,sha256=dG-tJvzUH42LCiQY_eWSszuj9s7bAdZJfjP4us78WXk,55
+boms/boms_wrapper.cpp,sha256=4IFSHnH5ouwH85DMYPSc7tFSqcQ5jcNbC3eYkvdoeRo,3798
+boms/main.py,sha256=LiTGNEi-g4R6cEjAuD-NYYyKJ7CZmuiBeawKUYq7V7w,3069
+boms/meanshift.cpp,sha256=HsaHsFUGhMFGtBiJLZSDj25l-TxEynunerPUuIfizjQ,40358
+boms/meanshift.hpp,sha256=u1fgox8JeHMYTof06_d9jwtV5oC0QoF68VJ1y97sgfI,390
+boms-1.0.3.dist-info/LICENSE,sha256=WxO0Wj7KEly00dmk32m_EG7QgOJFS6JZJ8y1fTzcX6s,1064
+boms-1.0.3.dist-info/METADATA,sha256=0cwJ5fBeWFJtsO9w89LMPagvZ596KuIvjvxaYP6HWWk,1870
+boms-1.0.3.dist-info/WHEEL,sha256=7M9omTteV1AA1lqimSm66FA5mPjaJNBD3zI5eMwtk7s,102
+boms-1.0.3.dist-info/top_level.txt,sha256=NShj10cj0e9Nfstt4EXUYbbX7DGUfAYjxveQSVcVuNw,18
+boms-1.0.3.dist-info/RECORD,,

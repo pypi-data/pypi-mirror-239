@@ -1,0 +1,3 @@
+[console_scripts]
+get_math_fact = math_randomseed.cli:main2_fact
+tell_math_joke = math_randomseed.cli:main1_joke

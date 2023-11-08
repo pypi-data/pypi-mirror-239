@@ -1,0 +1,171 @@
+Metadata-Version: 2.1
+Name: swarms-torch
+Version: 0.1.1
+Summary: swarms-torch - Pytorch
+Home-page: https://github.com/kyegomez/swarms-pytorch
+License: MIT
+Keywords: artificial intelligence,deep learning,optimizers,Prompt Engineering
+Author: Kye Gomez
+Author-email: kye@apac.ai
+Requires-Python: >=3.6,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Dist: einops
+Requires-Dist: torch
+Project-URL: Repository, https://github.com/kyegomez/swarms-pytorch
+Description-Content-Type: text/markdown
+
+[![Multi-Modality](agorabanner.png)](https://discord.gg/qUtxnK2NMf)
+
+# Swarms in Torch
+An experimental repository that houses swarming algorithms like PSO, Ant Colony, Sakana, and more in PyTorch primitives😊
+
+# Benefits
+- Easy to use
+- Extreme reliability
+- 100% Novel Architectures
+- Minimal APIs
+- Seamless Experience
+
+## Installation
+
+You can install the package using pip
+
+```bash
+pip3 install swarms-torch
+```
+
+# Usage
+
+### ParticleSwarmOptimization
+
+```python
+from swarms_torch import ParticleSwarmOptimization
+
+#test
+pso = ParticleSwarmOptimization(goal="Attention is all you need", n_particles=100)
+pso.optimize(iterations=1000)
+```
+
+### Ant Colony Optimization
+```python
+from swarms_torch.ant_colony_swarm import AntColonyOptimization
+
+# Usage:
+goal_string = "Hello ACO"
+aco = AntColonyOptimization(goal_string, num_iterations=1000)
+best_solution = aco.optimize()
+print("Best Matched String:", best_solution)
+
+```
+
+### Neural Network with Transformers as synapases
+```python
+import torch
+from swarms_torch.nnt import NNTransformer
+
+x = torch.randn(1, 10)
+
+network = NNTransformer(
+    #transformer cells
+    neuron_count = 5, 
+    
+    #num states
+    num_states = 10,
+
+    #input dim
+    input_dim = 10,
+
+    #output dim
+    output_dim = 10,
+
+    #nhead
+    nhead = 2,
+)
+output = network(x)
+print(output)
+```
+
+### CellularSwarm
+a Cellular Neural Net with transformers as cells, time simulation, and a local neighboorhood!
+
+```python
+from swarms_torch import CellularSwarm 
+
+x = torch.randn(10, 32, 512)  # sequence length of 10, batch size of 32, embedding size of 512
+model = CellularSwarm(cell_count=5, input_dim=512, nhead=8)
+output = model(x)
+
+```
+### Fish School/Sakana
+- An all-new innovative approaches to machine learning that leverage the power of the Transformer model architecture. These systems are designed to mimic the behavior of a school of fish, where each fish represents an individual Transformer model. The goal is to optimize the performance of the entire school by learning from the best-performing fish.
+
+```python
+import torch
+from swarms_torch.fish_school import Fish, FishSchool
+
+# Create random source and target sequences
+src = torch.randn(10, 32, 512)
+tgt = torch.randn(10, 32, 512)
+
+# Create random labels
+labels = torch.randint(0, 512, (10, 32))
+
+# Create a fish and train it on the random data
+fish = Fish(512, 8, 6)
+fish.train(src, tgt, labels)
+print(fish.food)  # Print the fish's food
+
+# Create a fish school and optimize it on the random data
+school = FishSchool(10, 512, 8, 6, 100)
+school.forward(src, tgt, labels)
+print(school.fish[0].food)  # Print the first fish's food
+
+```
+
+### Swarmalators
+```python
+from swarms_torch import visualize_swarmalators, simulate_swarmalators
+
+# Init for Swarmalator
+# Example usage:
+N = 100
+J, alpha, beta, gamma, epsilon_a, epsilon_r, R = [0.1] * 7
+D = 3  # Ensure D is an integer
+xi, sigma_i = simulate_swarmalators(
+    N, J, alpha, beta, gamma, epsilon_a, epsilon_r, R, D
+)
+
+
+# Call the visualization function
+visualize_swarmalators(xi)
+
+```
+
+# Documentation
+- [Click here for documentation](https://swarmstorch.readthedocs.io/en/latest/swarms/)
+
+# Playground
+- There are various scripts in the playground folder with various examples for each swarm, like ant colony and fish school and spiral optimization.
+
+# Todo
+- [Check out the project board](https://github.com/users/kyegomez/projects/9/views/1)
+- make training script ready for fish school with autoregressive,
+- practical examples of training models and conduct interence
+- upload to huggingface a small model
+- train fish school, neural transformer, and pso transformer, 
+
+
+# License
+MIT
+

@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+bitopro.egg-info/PKG-INFO
+bitopro.egg-info/SOURCES.txt
+bitopro.egg-info/dependency_links.txt
+bitopro.egg-info/requires.txt
+bitopro.egg-info/top_level.txt

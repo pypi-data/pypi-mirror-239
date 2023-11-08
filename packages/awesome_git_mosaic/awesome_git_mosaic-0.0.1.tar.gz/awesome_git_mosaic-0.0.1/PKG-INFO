@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: awesome_git_mosaic
+Version: 0.0.1
+Summary: An awesome tool to write small texts on GitHub mosaic
+License: MIT
+Author: Giovane Costa
+Author-email: gigio.coder@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: Unidecode (==1.1.1)
+Description-Content-Type: text/markdown
+
+# awesome-git-mosaic
+A simple tool to make cool tricks with your GitHub activity mosaic
+

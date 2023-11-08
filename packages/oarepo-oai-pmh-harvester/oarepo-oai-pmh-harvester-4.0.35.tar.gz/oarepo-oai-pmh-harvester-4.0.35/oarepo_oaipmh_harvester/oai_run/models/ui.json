@@ -1,0 +1,166 @@
+{
+    "module": "oarepo_oaipmh_harvester.oai_run.models",
+    "file": "oarepo_oaipmh_harvester/oai_run/models/ui.json",
+    "alias": "oarepo-oaipmh-run",
+    "detail": "model",
+    "input": "model",
+    "help": ".help",
+    "label": ".label",
+    "hint": ".hint",
+    "children": {
+        "$schema": {
+            "detail": "keyword",
+            "input": "keyword",
+            "help": "$schema.help",
+            "label": "$schema.label",
+            "hint": "$schema.hint",
+            "facet": "_schema"
+        },
+        "created": {
+            "detail": "datetime",
+            "input": "datetime",
+            "help": "created.help",
+            "label": "created.label",
+            "hint": "created.hint",
+            "facet": "created"
+        },
+        "created_batches": {
+            "detail": "integer",
+            "input": "integer",
+            "help": "created_batches.help",
+            "label": "created_batches.label",
+            "hint": "created_batches.hint",
+            "facet": "created_batches"
+        },
+        "duration": {
+            "detail": "double",
+            "input": "double",
+            "help": "duration.help",
+            "label": "duration.label",
+            "hint": "duration.hint",
+            "facet": "duration"
+        },
+        "errors": {
+            "detail": "integer",
+            "input": "integer",
+            "help": "errors.help",
+            "label": "errors.label",
+            "hint": "errors.hint",
+            "facet": "errors"
+        },
+        "finished": {
+            "detail": "datetime",
+            "input": "datetime",
+            "help": "finished.help",
+            "label": "finished.label",
+            "hint": "finished.hint",
+            "facet": "finished"
+        },
+        "finished_batches": {
+            "detail": "integer",
+            "input": "integer",
+            "help": "finished_batches.help",
+            "label": "finished_batches.label",
+            "hint": "finished_batches.hint",
+            "facet": "finished_batches"
+        },
+        "harvester": {
+            "detail": "relation",
+            "input": "relation",
+            "help": "harvester.help",
+            "label": "harvester.label",
+            "hint": "harvester.hint",
+            "children": {
+                "id": {
+                    "detail": "keyword",
+                    "input": "keyword",
+                    "help": "harvester/id.help",
+                    "label": "harvester/id.label",
+                    "hint": "harvester/id.hint",
+                    "facet": "harvester_id"
+                },
+                "code": {
+                    "detail": "keyword",
+                    "input": "keyword",
+                    "help": "harvester/code.help",
+                    "label": "harvester/code.label",
+                    "hint": "harvester/code.hint",
+                    "facet": "harvester_code"
+                },
+                "@v": {
+                    "detail": "keyword",
+                    "input": "keyword",
+                    "help": "harvester/@v.help",
+                    "label": "harvester/@v.label",
+                    "hint": "harvester/@v.hint",
+                    "facet": "harvester__version"
+                }
+            }
+        },
+        "id": {
+            "detail": "keyword",
+            "input": "keyword",
+            "help": "id.help",
+            "label": "id.label",
+            "hint": "id.hint",
+            "facet": "_id"
+        },
+        "manual": {
+            "detail": "boolean",
+            "input": "boolean",
+            "help": "manual.help",
+            "label": "manual.label",
+            "hint": "manual.hint",
+            "facet": "manual"
+        },
+        "started": {
+            "detail": "datetime",
+            "input": "datetime",
+            "help": "started.help",
+            "label": "started.label",
+            "hint": "started.hint",
+            "facet": "started"
+        },
+        "status": {
+            "detail": "keyword",
+            "input": "keyword",
+            "help": "status.help",
+            "label": "status.label",
+            "hint": "status.hint",
+            "enum": "status.enum",
+            "facet": "status"
+        },
+        "title": {
+            "detail": "fulltext+keyword",
+            "input": "fulltext+keyword",
+            "help": "title.help",
+            "label": "title.label",
+            "hint": "title.hint",
+            "facet": "title"
+        },
+        "total_batches": {
+            "detail": "integer",
+            "input": "integer",
+            "help": "total_batches.help",
+            "label": "total_batches.label",
+            "hint": "total_batches.hint",
+            "facet": "total_batches"
+        },
+        "updated": {
+            "detail": "datetime",
+            "input": "datetime",
+            "help": "updated.help",
+            "label": "updated.label",
+            "hint": "updated.hint",
+            "facet": "updated"
+        },
+        "warnings": {
+            "detail": "integer",
+            "input": "integer",
+            "help": "warnings.help",
+            "label": "warnings.label",
+            "hint": "warnings.hint",
+            "facet": "warnings"
+        }
+    }
+}

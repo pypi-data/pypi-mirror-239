@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: phixpy
+Version: 0.0.1
+Summary: A package for physics operation (currently only for vector operation)
+Author: Rijul Dhungana
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+
+
+
+phixpy is a Python package that provides functions for physics operations.
+With objects like 'vector' and 'matrix' user can perform the operations like
+additions, subtraction, dot product etc.
+
+

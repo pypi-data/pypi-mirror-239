@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: cmeel-clp
+Version: 1.17.9
+Summary: cmeel distribution for clp
+Requires-Python: >= 3.8
+License-Expression: EPL
+Home-page: https://github.com/cmake-wheel/cmeel-clp
+Requires-Dist: cmeel
+Requires-Dist: cmeel-coinutils
+Description-Content-Type: text/markdown
+
+# CMeel clp
+
+[clp](https://github.com/coin-or/clp) distribution for cmeel packages.

@@ -1,0 +1,12 @@
+prefix=${pcfiledir}/../..
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include/coin
+
+Name: CLP
+Description: COIN-OR Linear Programming Solver
+URL: https://projects.coin-or.org/Clp
+Version: 1.17.9
+Libs: -L${libdir} -lClpSolver -lClp -L/tmp/pip-build-env-6iinqgya/overlay/lib/python3.11/site-packages/cmeel.prefix/lib/pkgconfig/../../lib -lCoinUtils -lbz2 -lz -lm 
+Cflags: -I${includedir}
+Requires: 

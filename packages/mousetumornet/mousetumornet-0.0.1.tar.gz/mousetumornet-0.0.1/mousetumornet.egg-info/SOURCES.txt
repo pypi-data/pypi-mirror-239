@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+mousetumornet/__init__.py
+mousetumornet/cli.py
+mousetumornet/configuration.py
+mousetumornet/nnunet_predict.py
+mousetumornet/roi.py
+mousetumornet.egg-info/PKG-INFO
+mousetumornet.egg-info/SOURCES.txt
+mousetumornet.egg-info/dependency_links.txt
+mousetumornet.egg-info/entry_points.txt
+mousetumornet.egg-info/requires.txt
+mousetumornet.egg-info/top_level.txt
+tests/test_run.py

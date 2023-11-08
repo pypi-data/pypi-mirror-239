@@ -1,0 +1,6 @@
+nnunetv2
+napari-label-focus
+pooch
+
+[test]
+pytest

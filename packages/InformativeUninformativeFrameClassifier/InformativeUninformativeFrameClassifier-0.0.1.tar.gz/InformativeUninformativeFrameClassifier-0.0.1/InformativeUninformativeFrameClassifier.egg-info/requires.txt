@@ -1,0 +1,8 @@
+numpy
+torch
+torchvision
+timm
+tensorboard
+sklearn
+pillow
+natsort

@@ -1,0 +1,17 @@
+README.md
+setup.py
+InformativeUninformativeFrameClassifier.egg-info/PKG-INFO
+InformativeUninformativeFrameClassifier.egg-info/SOURCES.txt
+InformativeUninformativeFrameClassifier.egg-info/dependency_links.txt
+InformativeUninformativeFrameClassifier.egg-info/requires.txt
+InformativeUninformativeFrameClassifier.egg-info/top_level.txt
+src/__init__.py
+src/inference.py
+src/model_functions.py
+src/mydataset.py
+src/randomaug.py
+src/run.py
+src/sampler.py
+src/test.py
+src/train.py
+src/visualise_data.py

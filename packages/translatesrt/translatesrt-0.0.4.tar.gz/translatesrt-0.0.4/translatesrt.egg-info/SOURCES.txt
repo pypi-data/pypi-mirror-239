@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+translatesrt/__init__.py
+translatesrt.egg-info/PKG-INFO
+translatesrt.egg-info/SOURCES.txt
+translatesrt.egg-info/dependency_links.txt
+translatesrt.egg-info/entry_points.txt
+translatesrt.egg-info/requires.txt
+translatesrt.egg-info/top_level.txt

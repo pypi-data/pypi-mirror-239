@@ -1,0 +1,14 @@
+open-datagen/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+open-datagen/data_manager.py,sha256=_3y1XEpRMFosgaqLfAxhyNEGeCoZEC0FF4gj9Q6ONWo,19865
+opendatagen/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+opendatagen/anonymizer.py,sha256=doNoanaojaeT3BSedaqk6bNHU88iogrRKea1VEZfcpU,2412
+opendatagen/data_generator.py,sha256=Vk0hx5bHJrxyPutDlA3KwmPiIWs2DTk9J1NvjFe6PCc,11678
+opendatagen/data_manager.py,sha256=96vqUrLzu_407YgO6w5DlBHbbeCb1VH_xHP-fPcdKzU,18688
+opendatagen/main.py,sha256=1ckRnPUUVkIVZzgkzJGhKWfNBT-svZI7qne8dsENBUg,3341
+opendatagen/model.py,sha256=rCypak3KSTAhTWZAO7OCoS-tUL2eornOi8P7AQEsGZ0,2878
+opendatagen/template.py,sha256=VnmBjvexxBP46d5vLCU6eKzHzoTGOFbsXbfvl5wAP1Q,2466
+opendatagen/utils.py,sha256=YuZtaX4L1SyzZQH-0A4L7l4EiOje9iV-fepeP7ey7q8,2905
+opendatagen-0.0.6.dist-info/METADATA,sha256=jw6yERwxsgcB_nForKvKFxBLUSuifZEI8UIR5CKpRh8,3745
+opendatagen-0.0.6.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+opendatagen-0.0.6.dist-info/top_level.txt,sha256=zOBIFhZzSV9-h5NNrqLAgYcunnQlKjK48kdLeqW2ZCQ,12
+opendatagen-0.0.6.dist-info/RECORD,,

@@ -1,0 +1,11 @@
+asyncio>=3.4
+pyee>=9.0
+websockets>=11.0
+zeroconf~=0.119.0
+
+[testing]
+pylint
+flake8-docstrings
+flake8
+black
+isort

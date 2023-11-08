@@ -1,0 +1,3 @@
+[console_scripts]
+wscribe=wscribe.cli.main:cli
+

@@ -1,0 +1,11 @@
+wscribe/__init__.py,sha256=QOz72dSYl1G5DXmAIBvo8BDrdQr9aMvQippoOub-8cY,1778
+wscribe/backends/fasterwhisper.py,sha256=vQkwLov_oq0Nmasia50AU_4Xh1SkwC-UitQKlhiAECY,2642
+wscribe/cli/main.py,sha256=jbaS15VoIf2yOGPqD6d_11wALKZNpBpyhS5Hj685SFc,3438
+wscribe/core.py,sha256=ikq2jcJp4m6Oe2yQJpIALTENM7UTCFxsLuip8NOYtJA,2277
+wscribe/sources/local.py,sha256=Al6rvypr8lo7bW-lomh15TAtF9-b-ZViQz2GAY8Jo-k,378
+wscribe/writers.py,sha256=31DlOWQCuORDjnrULpyXfhfmcGLSsy5DwMcgKWzLiAc,3298
+wscribe-0.1.5.dist-info/LICENSE,sha256=BW6rTIPKQkR1F0RUbviY3pnSK6bjx50k4aeUTAdKzeg,1074
+wscribe-0.1.5.dist-info/METADATA,sha256=mK6q66q1EKAwXdBqFQ4IEcQksk54fkQSjPkEtJxapuk,9250
+wscribe-0.1.5.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+wscribe-0.1.5.dist-info/entry_points.txt,sha256=fkvoG8qNeZ4fZYJkBgW64OskCGXEgDv2mtSoDyp_pyk,48
+wscribe-0.1.5.dist-info/RECORD,,

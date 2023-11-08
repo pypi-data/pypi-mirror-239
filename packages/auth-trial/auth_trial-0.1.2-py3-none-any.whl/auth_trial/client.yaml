@@ -1,0 +1,5 @@
+id: b7fac138d7cfeaf63232da9ea674d65f2a18f2e43876175b9f2be101a086c880
+secret: gloas-11d8a6325703cc50dffd88f4316fbcee8b0a27bf5eeec6773957e16b223c2a9f
+redirect_uri: https://your.callback/uri
+scope:
+- read_user

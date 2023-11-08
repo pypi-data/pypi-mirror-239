@@ -1,0 +1,267 @@
+Metadata-Version: 2.1
+Name: fedora-framework
+Version: 0.0.6
+Summary: The Fedora framework package
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Author-email: Miguel Rabuge <rabuge@dei.uc.pt>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Requires-Dist: numpy>=1.23.5
+Requires-Dist: pandas>=2.0.0
+Requires-Dist: pyyaml>=6.0
+Requires-Dist: pyyaml>=6.0.1
+Requires-Dist: scikit-learn>=1.2.2
+Requires-Dist: sqlalchemy>=2.0.22
+Requires-Dist: tqdm>=4.65.0
+Description-Content-Type: text/markdown
+
+[Github Issues]: https://github.com/miguelrabuge/fedora/issues
+[examples]: https://github.com/miguelrabuge/fedora/tree/main/fedora
+[PyPI]: https://pypi.org/project/fedora-framework/
+
+# Fedora Framework
+
+![Fedora Framework Logo](https://github.com/yourusername/fedora-framework/blob/main/images/fedora_logo.png)
+
+Fedora Framework is an evolutionary feature engineering framework designed to streamline the process of creating and optimizing features for machine learning tasks. This project offers a flexible and extensible set of tools for feature engineering to help data scientists and machine learning engineers efficiently prepare their data for modeling.
+
+## Features
+
+- **Modular Design:** Fedora Framework is built around a modular architecture that allows you to easily extend and customize feature engineering components. You can mix and match different modules to suit your specific needs, using a Context-Free Grammar.
+
+- **Automated Feature Generation:** Fedora Framework provides built-in tools for automatic feature generation, reducing the manual effort required to create features. You can define feature operators and let the framework generate features based on your specifications.
+
+- **Feature Selection and Construction:** Identify and select the most important features for your models using various feature engineering techniques.
+
+- **Support for Different Data Types:** Fedora Framework supports various data types, including numerical, categorical, text, and time-series data. You can easily specify how to handle different types of data.
+
+- **Scalability:** Whether you are working on a small dataset or Big Data, Fedora Framework can handle data of various sizes. Its scalable architecture ensures efficient processing regardless of the data volume.
+
+## Installation
+
+You can install Fedora Framework from [PyPI] using pip:
+
+```bash
+pip3 install fedora-framework
+```
+
+## Getting Started
+
+After installing the Fedora framework, check our examples in classical machine learning datasets in the [examples] folder. Once inside this directory, to run the MNIST dataset example:
+
+```bash
+cd mnist
+python3 main.py
+```
+
+## Contributing
+
+We welcome contributions to Fedora Framework. Whether you want to add new features, fix bugs, improve documentation, or suggest enhancements, your contributions are valuable. 
+
+Please reach out to us through the available [communication channels](#Contact).
+
+## License
+
+Fedora Framework is open-source and distributed under the MIT License. See [LICENSE](LICENSE) for details.
+
+## Contact
+
+If you have questions, suggestions, or need support, feel free to reach out to us:
+
+- Github Issues: https://github.com/miguelrabuge/fedora/issues 
+
+- Email: rabuge@dei.uc.pt / naml@dei.uc.pt
+
+<!-- ## Acknowledgments
+
+We'd like to thank the open-source community for their contributions and support in making Fedora Framework a versatile and powerful tool for feature engineering. -->
+
+## Publications
+🚧 Work in progress 🚧
+## Citation
+how to cite
+
+---
+## Walktrough: Suiting the Framework to your own needs
+
+In this chapter, we will explore how to customize the Fedora Framework to perfectly fit your data science and machine learning projects. Whether you are working on unique data types or advanced techniques, this chapter will guide you in maximizing the potential of the Fedora Framework for your specific needs.
+
+We will use the [Car Evaluation Dataset](https://archive.ics.uci.edu/dataset/19/car+evaluation) in this walktrough.
+
+**1. Original dataset**
+
+First we will need to download the dataset. The UCI Machine Learning repository python package allow us to do such with ease. To install it, run:
+
+```bash
+pip3 install ucimlrepo
+```
+Create a _main.py_ file and load the data:
+
+```PYTHON
+from ucimlrepo import fetch_ucirepo 
+dataset = fetch_ucirepo(id=19) 
+```
+
+Create a pandas Dataframe and load the data, with the first column being the targets:
+
+```PYTHON
+features = dataset.data.features
+targets = dataset.data.targets
+df = pd.concat([targets, features], axis=1)
+```
+At this point, the resulting dataset is the following:
+```PYTHON
+print(df)
+```
+```TEXT
+      class buying  maint  doors persons lug_boot safety
+0     unacc  vhigh  vhigh      2       2    small    low
+1     unacc  vhigh  vhigh      2       2    small    med
+2     unacc  vhigh  vhigh      2       2    small   high
+3     unacc  vhigh  vhigh      2       2      med    low
+4     unacc  vhigh  vhigh      2       2      med    med
+...     ...    ...    ...    ...     ...      ...    ...
+1723   good    low    low  5more    more      med    med
+1724  vgood    low    low  5more    more      med   high
+1725  unacc    low    low  5more    more      big    low
+1726   good    low    low  5more    more      big    med
+1727  vgood    low    low  5more    more      big   high
+
+[1728 rows x 7 columns]
+```
+
+Regarding the metadata of the dataset:
+```PYTHON
+mt = dataset.metadata
+print(f"Features: {mt.num_features}")
+print(f"Types: {mt.feature_types}")
+print(f"Entries: {mt.num_instances}")
+print(f"Missing Values: {mt.has_missing_values}")
+
+print(f"Summary:\n\n {mt.additional_info.summary}")
+print(f"Info:\n\n {mt.additional_info.variable_info}")
+
+print(df["class"].value_counts())
+```
+
+```TEXT
+Features: 6
+Types: ['Categorical']
+Entries: 1728
+Missing Values: no
+
+Summary: 
+
+Car Evaluation Database was derived from a simple hierarchical decision model originally developed for the demonstration of DEX, M. Bohanec, V. Rajkovic: Expert system for decision making. Sistemica 1(1), pp. 145-157, 1990.). The model evaluates cars according to the following concept structure:
+
+CAR                      car acceptability
+. PRICE                  overall price
+. . buying               buying price
+. . maint                price of the maintenance
+. TECH                   technical characteristics
+. . COMFORT              comfort
+. . . doors              number of doors
+. . . persons            capacity in terms of persons to carry
+. . . lug_boot           the size of luggage boot
+. . safety               estimated safety of the car
+
+Input attributes are printed in lowercase. Besides the target concept (CAR), the model includes three intermediate concepts: PRICE, TECH, COMFORT. Every concept is in the original model related to its lower level descendants by a set of examples (for these examples sets see http://www-ai.ijs.si/BlazZupan/car.html).
+
+The Car Evaluation Database contains examples with the structural information removed, i.e., directly relates CAR to the six input attributes: buying, maint, doors, persons, lug_boot, safety.
+
+Because of known underlying concept structure, this database may be particularly useful for testing constructive induction and structure discovery methods.
+
+Info:
+
+buying:   vhigh, high, med, low.
+maint:    vhigh, high, med, low.
+doors:    2, 3, 4, 5more.
+persons:  2, 4, more.
+lug_boot: small, med, big.
+safety:   low, med, high.
+
+class
+unacc    1210
+acc       384
+good       69
+vgood      65
+Name: count, dtype: int64
+```
+
+We can conclude that:
+ - There are 4 highly unbalanced classes: "unacc", "acc", "good" and "vgood".
+ - All 6 features are categorical. Therefore, they might require further preprocessing.
+ - There are no missing values on the 1728 available entries. If there were, one should proceed to fix or delete such entries.
+
+**2. Initial Representation and Operators**
+
+In this step, one must figure out how to represent the problem and which operators should use. 
+
+An operator can be virtually anything that combines or simply tranforms features. Each specific data type might have specific operators.
+- Examples: 
+    - Integers and Floats: sum(a,b), subtraction(a,b), division(a,b), multiplication(a,b), absoluteValue(a,b), maximum(a,b), noise(a)
+    - Boolean: AND(a,b), OR(a,b), NOT(a)
+    - Strings: Concatenation(a,b), length(a) 
+
+The following question is essencial: 
+
+```Text
+Am I able to think of operators that have the ability to combine the current features in a way that the resulting feature(s) makes sense?
+```
+If the answer is yes, then jump into next section.
+
+If not, then we will have to think on how can we represent these features in a way that the result of an operator is interpretable:
+
+
+
+
+**Related example**
+Lets say the entry *A*, *B* and *C*  have the following feature values:
+```TEXT
+Entry    buying    maint    ...
+A        "vhigh"   "med"    ...
+B        "high"    "med"    ...
+C        "vhigh"   "low"    ...
+```
+If I select an operator MyOpt that counts the "i" in the strings, for the features "buying" and "maint", the transformed dataset is:
+
+```TEXT
+Entry    buying    maint    MyOpt(buying)  MyOpt(maint)    ...
+A        "vhigh"   "med"    1              0             ...
+B        "high"    "med"    1              0             ...
+C        "vhigh"   "low"    1              0             ...
+```
+
+The resulting features are rather meaningless or at least not easily interpretable for the problem at hand.
+
+However if I one-hot encode both features (will only display the buying-vhigh and maint-med codes for simplicity) and then use the logical AND operator:
+
+```TEXT
+Entry    buying-vhigh    ...    maint-med   ...    buying-vhigh AND maint-med    ...
+A        True            ...    True        ...    True                        ...
+B        False           ...    True        ...    False                       ...
+C        True            ...    False       ...    False                       ...
+```
+
+The resulting feature (buying-vhigh AND maint-med) literally means:
+
+```TEXT
+Is the buying price of the car very high and the price of maintenance average (medium)?
+```
+
+As such, this feature and all features alike have the potential of being much more informative.
+
+Hence, for the dataset at hand, we could one-hot encode all 6 features and then apply boolean operators (AND, OR, NOT). 
+
+One-hot encoding the features, leaves us with the following dataset:
+```PYTHON
+
+```
+
+
+**3. Defining the features**
+

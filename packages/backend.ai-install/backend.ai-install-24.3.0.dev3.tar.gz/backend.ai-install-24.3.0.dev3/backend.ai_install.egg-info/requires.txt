@@ -1,0 +1,8 @@
+aiohttp~=3.8.1
+backend.ai-common==24.03.0dev3
+backend.ai-plugin==24.03.0dev3
+click~=8.1.7
+pydantic~=2.4.2
+rich~=13.6
+textual~=0.41
+tomlkit~=0.11.1

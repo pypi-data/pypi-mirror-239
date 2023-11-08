@@ -1,0 +1,7 @@
+README.md
+setup.py
+waterlog/__init__.py
+waterlog.egg-info/PKG-INFO
+waterlog.egg-info/SOURCES.txt
+waterlog.egg-info/dependency_links.txt
+waterlog.egg-info/top_level.txt

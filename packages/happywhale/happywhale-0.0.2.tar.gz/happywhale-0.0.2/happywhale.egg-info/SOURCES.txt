@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+happywhale/__init__.py
+happywhale/happywhale.py
+happywhale.egg-info/PKG-INFO
+happywhale.egg-info/SOURCES.txt
+happywhale.egg-info/dependency_links.txt
+happywhale.egg-info/entry_points.txt
+happywhale.egg-info/requires.txt
+happywhale.egg-info/top_level.txt

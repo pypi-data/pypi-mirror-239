@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: deltares-wave-toolbox
+Version: 1.0.0
+Summary: A Python toolbox for wave analysis
+Home-page: https://github.com/Deltares-research/wave-toolbox
+Author: Deltares
+Author-email: joost.denbieman@deltares.nl
+Keywords: deltares_wave_toolbox
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.9
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: scipy
+
+=====================
+Deltares Wave Toolbox
+=====================
+
+
+
+
+
+
+A Python toolbox for wave analysis
+
+
+
+Features
+--------
+
+From a time series of water level elevations, the toolbox can calculate:
+
+* the wave spectrum
+* spectral wave parameters such as wave heigth and different wave periods
+* wave height exceedance curves
+* theoretical wave spectra and wave height distributions
+
+How to install the toolbox?
+-----------------------------
+
+The package is available at pip. To install the package run:
+
+`pip install deltares-wave-toolbox`
+
+Where to find information about the Deltares Wave Toolbox?
+----------------------------------------------------------
+
+See the online manual for information about the toolbox. In addition, the examples folder contains scripts with applications of the toolbox and a Jupyter notebook is available in the documentation folder.
+
+
+Credits
+-------
+
+* Jan Kramer <jan.kramer@deltares.nl>
+* Menno de Ridder <menno.deridder@deltares.nl>
+* Ivo van der Werf <ivo.vanderwerf@deltares.nl>
+* Joost den Bieman <joost.denbieman@deltares.nl>
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+
+=======
+History
+=======
+
+1.0.0 (2023-10-27)
+------------------
+
+* Initial release

@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: magic-commit
+Version: 0.3.0
+Summary: Generate commit messages with OpenAI\’s GPT.
+Home-page: https://github.com/heyodai/magic-commit
+Author: Odai Athamneh, Rahul Mysore
+Author-email: heyodai@gmail.com, rmf9t@umkc.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: openai
+Requires-Dist: jinja2
+Requires-Dist: dagwood
+
+UNKNOWN
+

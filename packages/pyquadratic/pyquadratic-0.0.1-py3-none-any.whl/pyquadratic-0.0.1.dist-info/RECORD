@@ -1,0 +1,10 @@
+pyquadratic/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyquadratic/__main__.py,sha256=EdxlMDIVsYAeHzVQcmEtu09iktcLGjrd6vEVWoNFlEQ,518
+pyquadratic/pyquadratic.py,sha256=6KlKglE4N5ZeJvis371hyArDItH4nLX5SRmCOOX6FJI,12917
+pyquadratic/test_pyquadratic.py,sha256=paxhP2Nnk7yn6RClwfpegx55wVBwgjPo-09CxsNZ3DA,11677
+pyquadratic-0.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pyquadratic-0.0.1.dist-info/METADATA,sha256=OLa7Q_eVmhVcY__XvWIE-DvE7Xjr3c3WlxXl0JN8TeE,42094
+pyquadratic-0.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+pyquadratic-0.0.1.dist-info/entry_points.txt,sha256=jamprtOw-1DidEvPuW6YAUsYhqpuY73w3RlVm4LFGH8,58
+pyquadratic-0.0.1.dist-info/top_level.txt,sha256=ogdjvJfOOV9CbWISEo_9GQ5ekMQjrWCScJpxrc-3w-o,12
+pyquadratic-0.0.1.dist-info/RECORD,,

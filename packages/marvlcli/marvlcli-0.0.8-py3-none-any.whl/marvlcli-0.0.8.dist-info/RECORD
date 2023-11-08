@@ -1,0 +1,13 @@
+client.py,sha256=Y5HQD7DEtFNw_Dk6Tsn6Bf8YJJYvdxlZOiQupEXibPk,1178
+create.py,sha256=DtAZPOXNGCav5fam7Ph0M17tr1t_--r6OyoFLCmctMw,2006
+delete.py,sha256=49I96y_whOpdzfjLvBim5QacmciS5jShpwOpEJtXOlk,646
+info.py,sha256=1klvx6bIJSJOjnmvS-DNA14Iy9jrXxnDyVJYxBufzrE,723
+list.py,sha256=4lmYM4RBuNTSApJCeFMqCv5fdICtaiUK1nFkBhLFCM4,549
+marvlcli.py,sha256=gO8kcikyZrzZNH_gF_cPoSlbbhlZhel21TGKhVQLXCE,6230
+ssh.py,sha256=gCEImnYKeFjiDYAJ5YosqbtF5fqLk8UUXpRTWJF2rWw,731
+marvlcli-0.0.8.data/data/yaml/payloads.yaml,sha256=RFVDGDAodCtD-Oobo8t3Pw3ohszMnv30qduxr1TQi70,227
+marvlcli-0.0.8.dist-info/METADATA,sha256=8EyJycApj4ERiecO7Ad-G_mDNacLTlwaPLDeoabSzL4,259
+marvlcli-0.0.8.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+marvlcli-0.0.8.dist-info/entry_points.txt,sha256=RfADQZKug_1wuarDrC724ShLbHcT3S6Di2fBR7O9alQ,44
+marvlcli-0.0.8.dist-info/top_level.txt,sha256=5k8iSxH33Gl3EDDBLqc-ZSY3vFEbC4hxZoolpTv5kb8,44
+marvlcli-0.0.8.dist-info/RECORD,,

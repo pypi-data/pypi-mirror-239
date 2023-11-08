@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+quos/__init__.py
+quos.egg-info/PKG-INFO
+quos.egg-info/SOURCES.txt
+quos.egg-info/dependency_links.txt
+quos.egg-info/requires.txt
+quos.egg-info/top_level.txt

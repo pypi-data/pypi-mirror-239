@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: pip-services4-elasticsearch
+Version: 3.1.6
+Summary: ElasticSearch components for Pip.Services in Python
+Home-page: http://github.com/pip-services4/pip-services4-python/tree/main/pip-services4-elasticsearch-python
+Author: Conceptual Vision Consulting LLC
+Author-email: seroukhov@gmail.com
+License: MIT
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: moment
+Requires-Dist: elasticsearch <8.0.0,>=7.17.2
+Requires-Dist: pip-services4-commons <1.0,>=0.0.1
+Requires-Dist: pip-services4-components <1.0,>=0.0.1
+Requires-Dist: pip-services4-rpc <1.0,>=0.0.1
+Requires-Dist: pip-services4-config <1.0,>=0.0.1
+Requires-Dist: pip-services4-data <1.0,>=0.0.1
+Requires-Dist: pip-services4-http <1.0,>=0.0.1
+Requires-Dist: pip-services4-observability <1.0,>=0.0.5
+Requires-Dist: pip-services4-container <1.0,>=0.0.1
+
+
+Pip.Services Elasticsearch
+------------------
+
+Pip.Services is an open-source library of basic microservices.
+pip_services4_elasticsearch  contains logging components with data storage on the Elasticsearch server.
+
+Links
+`````
+
+* `website <http://github.com/pip-services/pip-services>`_
+* `development version <http://github.com/pip-services4/pip-services4-python/tree/main/pip-services4-elasticsearch-python>`
+

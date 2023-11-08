@@ -1,0 +1,11 @@
+pip_services4_elasticsearch/__init__.py,sha256=iwhKnzeBJLKxpRVjvzwiRE63_zNpIBfaKLITauVph-0,24
+pip_services4_elasticsearch/build/DefaultElasticSearchFactory.py,sha256=SGI7KHOsYP5w5wonLjDwI_ezWTI_P8siY-bUwX8SXhU,702
+pip_services4_elasticsearch/build/__init__.py,sha256=kiP1TYznvySnqTk9Z0GRN8gRlfghvj9XEpb1q2ofxl0,136
+pip_services4_elasticsearch/log/ElasticSearchLogger.py,sha256=nnD3f-jcaK0wRFuMUHM19lUm6TKdNz0wAggywg92o68,12048
+pip_services4_elasticsearch/log/__init__.py,sha256=naKnzqI7md6L7b0QnUIpcpJvSchuesMJwp_RNLNr66Y,113
+pip_services4_elasticsearch-3.1.6.dist-info/LICENSE,sha256=s02QBYXMPC5EBLwWhp1dAm3PjZA-jz9-gfi9ndDWYoA,1076
+pip_services4_elasticsearch-3.1.6.dist-info/METADATA,sha256=LkjGVqZ0I_03OdaJ12NkEeGOc-nanX26mQeOz0QixRE,1787
+pip_services4_elasticsearch-3.1.6.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+pip_services4_elasticsearch-3.1.6.dist-info/top_level.txt,sha256=_znBRYM9uH2CYgRhpBBDDAqT9uNK9dqdnifF1_398dQ,28
+pip_services4_elasticsearch-3.1.6.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pip_services4_elasticsearch-3.1.6.dist-info/RECORD,,

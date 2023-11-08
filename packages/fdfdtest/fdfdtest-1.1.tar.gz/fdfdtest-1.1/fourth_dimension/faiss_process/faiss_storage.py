@@ -1,0 +1,23 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+# @Time     : 
+# @Author   : wgh
+
+
+"""
+文件说明：
+"""
+import faiss
+import numpy as np
+
+from fourth_dimension.utils.embddings import get_context_embeddings
+from fourth_dimension.config.config import tokenizer, model
+
+
+def embeddings_storage(contexts):
+    all_doc_embeddings = get_context_embeddings(contexts, tokenizer, model)
+    context_embeddings = np.array([item["context_embeddings"] for item in all_doc_embeddings])
+    index = faiss.IndexFlatL2(context_embeddings.shape[1])  # 创建Faiss索引
+    index.add(context_embeddings)  # 添加上下文嵌入向量到索引
+    faiss.write_index(index, '../data/faiss_cache/index.index')
+    return all_doc_embeddings

@@ -1,0 +1,6 @@
+README.md
+setup.py
+remodata.egg-info/PKG-INFO
+remodata.egg-info/SOURCES.txt
+remodata.egg-info/dependency_links.txt
+remodata.egg-info/top_level.txt

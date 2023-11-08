@@ -1,0 +1,6 @@
+calculus
+data_collection
+data_processing
+descriptive_analytics
+file_management
+hypothesis_testing

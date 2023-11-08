@@ -1,0 +1,7 @@
+confluent_kafka<2.0,>=1.8.2
+pip-services4-commons<1.0,>=0.0.1
+pip-services4-components<1.0,>=0.0.1
+pip-services4-messaging<1.0,>=0.0.1
+pip-services4-observability<1.0,>=0.0.1
+pip-services4-data<1.0,>=0.0.1
+pip-services4-config<1.0,>=0.0.1

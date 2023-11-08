@@ -1,0 +1,7 @@
+numpy
+mkl
+mkl-service
+scipy
+
+[test]
+scikit-learn

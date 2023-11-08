@@ -1,0 +1,8 @@
+setup.py
+zymylogger/__init__.py
+zymylogger/zymylogger.py
+zymylogger.egg-info/PKG-INFO
+zymylogger.egg-info/SOURCES.txt
+zymylogger.egg-info/dependency_links.txt
+zymylogger.egg-info/requires.txt
+zymylogger.egg-info/top_level.txt

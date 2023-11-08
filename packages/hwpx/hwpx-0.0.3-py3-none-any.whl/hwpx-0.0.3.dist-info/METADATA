@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: hwpx
+Version: 0.0.3
+Summary: hangul word processor, hwp automation module for python
+Home-page: https://martinii.fun/
+Author: ilco
+Author-email: martinii.fun@gmail.com
+Requires-Python: >= 3.10
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pywin32
+Requires-Dist: openpyxl
+

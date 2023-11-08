@@ -1,0 +1,11 @@
+settings_doc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+settings_doc/importing.py,sha256=tcxv-VJRbBAkkhYRyAMUIVonYDL7b--BQwj0s-k4IRk,2907
+settings_doc/main.py,sha256=lgMwAFxdB3slvI9QLX1Sv6vW9i22JkQQkir5vH57rWc,7417
+settings_doc/templates/debug.jinja,sha256=c0hnZrjbvCcCcIv-gMY6oin-3CTTDdGgpcJ2FCdzRjY,737
+settings_doc/templates/dotenv.jinja,sha256=4x-w3io3BJvga9u6ejiID6ndkU_wVtBUz9pi9vewCRM,1847
+settings_doc/templates/markdown.jinja,sha256=-qa8ojaPON1OuMZl9Db9UV7q_XnnDMqGumrZi9bgryM,3450
+settings_doc-3.1.1.dist-info/LICENSE,sha256=31nzlThsGPz-WZlpJfUbH2SH5s8veARQzJSuj0fmtxE,1067
+settings_doc-3.1.1.dist-info/METADATA,sha256=XUEHV51P-Yyt7thqEQi6mc8bC3m8_CLyFfXBWOQo4vI,13288
+settings_doc-3.1.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+settings_doc-3.1.1.dist-info/entry_points.txt,sha256=DdXn-1CqY6XFEvT6DMiDqnav-QQWSnnAEVFYTGvqgFI,54
+settings_doc-3.1.1.dist-info/RECORD,,

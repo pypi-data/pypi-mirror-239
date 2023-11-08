@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/build.cc
+src/parse.cc
+src/utils.cc
+src/xdxf2html.cc
+src/xdxf2html.h
+src/xdxf2html.egg-info/PKG-INFO
+src/xdxf2html.egg-info/SOURCES.txt
+src/xdxf2html.egg-info/dependency_links.txt
+src/xdxf2html.egg-info/top_level.txt

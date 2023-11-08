@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+src/babPy.egg-info/PKG-INFO
+src/babPy.egg-info/SOURCES.txt
+src/babPy.egg-info/dependency_links.txt
+src/babPy.egg-info/entry_points.txt
+src/babPy.egg-info/requires.txt
+src/babPy.egg-info/top_level.txt
+src/babpy/__init__.py
+src/babpy/__main__.py
+src/babpy/talk.py
+tests/test_fooloo.py
+tests/test_fuh.py
+tests/test_lizzie.py
+tests/test_puhoo.py
+tests/test_wuhoo.py

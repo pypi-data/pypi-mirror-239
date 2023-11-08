@@ -1,0 +1,2 @@
+[napari.manifest]
+zarpaint = zarpaint:napari.yaml

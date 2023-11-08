@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: arcgpt
+Version: 0.1.0
+Summary: A ChatGPT powered library for doing things in ArcGIS Pro
+Author: Nicholas Chai
+Author-email: nicholas.chai@outlook.com
+Requires-Python: >=3.9.16,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: openai (>=0.28.1,<0.29.0)
+Requires-Dist: python-dotenv (>=1.0.0,<2.0.0)
+Description-Content-Type: text/markdown
+
+# ArcGPT
+### Description:
+A fork of the cora voice assistant project but focussed around ArcGIS Pro skill functions. Demonstrating capability to perform GIS tasks from natural language inputs.

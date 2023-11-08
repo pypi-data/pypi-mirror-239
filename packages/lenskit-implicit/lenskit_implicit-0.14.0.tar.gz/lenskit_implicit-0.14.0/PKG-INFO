@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: lenskit-implicit
+Version: 0.14.0
+Summary: LensKit wrappers for the Implicit package.
+Author-email: Michael Ekstrand <michaelekstrand@boisestate.edu>
+Requires-Python: >= 3.7
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Requires-Dist: lenskit ==0.14.*
+Requires-Dist: implicit >=0.6.1
+Requires-Dist: lenskit-build-helpers >=0.1 ; extra == "dev"
+Requires-Dist: flit >= 3.2 ; extra == "dev"
+Requires-Dist: flake8 >= 3 ; extra == "dev"
+Requires-Dist: coverage >= 5 ; extra == "dev"
+Requires-Dist: pytest-cov >= 2.12 ; extra == "dev"
+Requires-Dist: sphinx >= 4.2 ; extra == "doc"
+Requires-Dist: sphinxcontrib-bibtex >= 2.0 ; extra == "doc"
+Requires-Dist: sphinx_rtd_theme >= 0.5 ; extra == "doc"
+Requires-Dist: myst-nb >= 0.13 ; extra == "doc"
+Requires-Dist: pytest >= 6 ; extra == "test"
+Requires-Dist: pytest-doctestplus >= 0.9 ; extra == "test"
+Project-URL: GitHub, https://github.com/lenskit/lenskit-implicit
+Project-URL: homepage, https://lkpy.lenskit.org/projects/implicit
+Provides-Extra: dev
+Provides-Extra: doc
+Provides-Extra: test
+
+# LensKit wrapper for implicit
+
+The `lenskit-implicit` package provides [LensKit][] wrappers for the implicit-feedback matrix factorization
+algorithms found in Ben Frederickson's [implicit][] package.
+
+[implicit]: https://pypi.org/project/implicit
+[LensKit]: https://lkpy.lenskit.org
+

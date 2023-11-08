@@ -1,0 +1,321 @@
+## Authors
+
+- [@rijuldhungana]
+
+
+
+# PhixPy: Vector and Matrix Operations for Python
+
+
+**NOTE**: Currently only vector operations are allowed.
+
+PhixPy is a powerful Python package designed for seamless handling of vector and matrix operations, with a particular emphasis on efficiency and simplicity. Whether you're working on physics simulations, data analysis, or machine learning applications, PhixPy provides a robust set of tools to accelerate your development process.
+
+**Key Features**:
+
+*Effortless Vector Operations*: PhixPy simplifies vector manipulations, offering a suite of functions that streamline common tasks such as dot products, finding the angle between two vectors, applying trigonometric functions like sine, cosine, tangent etc. 
+PhixPy allows users to define their own functions and apply it on 'phixpy.vector' objects
+
+
+*Physics Toolbox*: Tailored for physics enthusiasts, PhixPy includes modules for physics-related calculations, making it a versatile toolkit for researchers, students, and professionals working in the field.
+
+
+*User-Friendly Interface*: PhixPy boasts a user-friendly API, allowing developers to integrate its functionality seamlessly into their projects. The clean and concise syntax enhances code readability and maintainability.
+
+
+*Visualization Capabilities*: PhixPy allow users to visualize the vectors to explore the vectors and their resultants either their addition, subtraction or anything else
+
+# Documentation
+*Installing PhixPy* *::*
+
+Using pip 
+
+```
+pip install phixpy
+```
+
+if that didn't worked
+```
+pip3 install phixpy
+```
+
+Using conda
+
+```
+conda install phixpy
+```
+
+*Importing phixpy* *::*
+```
+>>> import phixpy as phx
+```
+Note: 'phx' is the recommended alias for phixpy
+
+*Initializing Vectors* *::*
+```
+>>> a = phx.vector([1,2,3])
+>>> a
+output: phixpy.vector([1.0, 2.0, 3.0])
+```
+By default the datatype of the array passed is changed to float, you can specify the datatype of the vector also by
+```
+>>> b = phx.vector([4,5,6], dtype=int)
+>>> b 
+output: phixpy.vector([1,2,3])
+```
+you can also check the datatype of a vector through:
+```
+>>> b.dtype
+output: int
+```
+
+*Vector assignment and indexing* *::*
+
+Even after initializing the vector if you want or need to change the elements of the vector, that's possible with phixpy 
+
+```
+>>> a = phixpy.vector([10, 23, 89])
+>>> a[0] = 4
+>>> a
+output: phixpy.vector([4.0, 23.0, 89.0])
+```
+
+*Vector operations in phixpy* *::*
+
+phixpy supports a ton of vector operations. Some of the simplest operations are addition and subtraction
+
+let's consider two vectors a and b with the values [1,2,3] and [4,5,6], like we defined earlier while initializing the vectors.
+
+The addition of these two vectors will be the element-wise addition, i.e a + b will be [1+4, 2+5, 3+6], which is [5, 7, 9].Let's see what phixpy tells us.
+
+```
+>>> a+b
+output: phixpy.vector([5.0, 7.0, 9.0])
+```
+Another way of doing this is 
+```
+>>> a.add(b)
+output: phixpy.vector([5.0, 7.0, 9.0])
+```
+or you can also do the same with b 
+```
+>>> b.add(a)
+output: phixpy.vector([5.0, 7.0, 9.0])
+```
+you can also add any scalar the same ways mentioned
+
+you can do the same thing with subtraction, the subtraction of two vectors is just as same as addition but the elements are subtracted this time, not added, let's take a look:
+
+```
+>>> a-b 
+output: phixpy.vector([-3, -3, -3])
+```
+what a coincedence all the elements are same.
+
+now let's go into some not-so simple operations like dot product, but you might be wondering what about multiplicayion and subtraction, well those both are also done element-wise, The element-wise multiplication is also called the hadamard product, and the division is called....ah, i don't know.
+But these operation are not the standard vector operations like the dot product and cross product, that we will be talking now.
+
+so, what's a dot product?, dot product is simply the sumation of the muliplication of two vectors, CONFUSING??
+
+let's see what i mean:
+
+let's assume there are two vectors a and b with values:
+
+a = [1,2,3]
+b = [4,5,6]
+
+first multiply them, the element wise multiplication
+
+a x b = [1x4, 2x5, 3x6]
+
+a x b = [4, 10, 18]
+
+now, add all the elements of a x b;
+
+sum(a x b) = [4+10+18]
+
+which is 32, so the dot product of a and b with the values [1,2,3] and [4,5,6] respectively is 32.
+
+But we are not here to do it by hand, let's do it using phixpy 
+
+```
+>>> a = phixpy.vector([1,2,3])
+>>> b = phixpy.vector([3,4,5])
+#either
+>>> print(a@b)
+#or 
+>>>print(a.dot(b))
+output: 32
+        32
+```
+
+you can either use '@', i.e a@b or a.dot(b) and b.dot(a) too.
+
+phixpy also supports scalar-vector multiplication 
+
+```
+>>> a = phixpy.vector([1,2,3])
+>>> a*2
+output: phixpy.vector([2,4,6])
+```
+*Trigonometric operations on vector*
+
+With phixpy you can perforn various trigonometric functions on a vector like:
+- sine 
+- cosine 
+- tangent 
+- cosec 
+- secant
+- cotangent
+
+
+and inverse of sine is also available:
+ 
+```
+print(a.sin())
+print(a.cos())
+print(a.tan())
+print(a.cosec())
+print(a.sec())
+print(a.cot())
+output: phixpy.vector([0.017, 0.035, 0.052])
+        phixpy.vector([1.0, 0.999, 0.999])
+        phixpy.vector([0.017, 0.035, 0.052])
+        phixpy.vector([58.8235294117647, 28.     57142857142857, 19.23076923076923])
+        phixpy.vector([1.0, 1.001001001001001, 1.001001001001001])
+        phixpy.vector([58.8235294117647, 28.57142857142857, 19.23076923076923])
+```
+By defalut, the functions returns in degrees, in case if you need them in radians, you can:
+
+```
+print(a.sin(in_degrees=False))
+print(a.cos(in_degrees=False))
+print(a.tan(in_degrees=False))
+print(a.cosec(in_degrees=False))
+print(a.sec(in_degrees=False))
+print(a.cot(in_degrees=False))
+output: phixpy.vector([0.841, 0.909, 0.141])
+        phixpy.vector([0.54, -0.416, -0.99])
+        phixpy.vector([1.557, -2.185, -0.143])
+        phixpy.vector([1.1890606420927468, 1.1001100110011002, 7.092198581560284])
+        phixpy.vector([1.8518518518518516, -2.4038461538461537, -1.0101010101010102])
+        phixpy.vector([0.6422607578676943, -0.45766590389016015, -6.993006993006993])
+```
+
+To use sin-inversed:
+
+```
+a = phixpy.vector([1, 0.78, 0.5])
+print(a.sin_inv(in_degrees=True))
+output: phixpy.vector([90.0, 51.26057540214435, 30.000000000000004])
+```
+
+The phixpy does everything great up untill now, but the results it is providing are much presice and has many decimal points but not user-friendly, if you want to limit the decimal points:
+
+```
+>>> a = phixpy.vector[1,0.78, 0.5])
+>>> a.sin(precision='3f)
+output: phixpy.vector([0.017, 0.014, 0.009])
+```
+
+**More features in phixpy** :
+
+*Normal math operations* : :
+
+You can apply some functions like 'sqrt', 'cbrt' etc to get the cuberoot and square root respectively.
+```
+"""
+You cannnot control the precision here 
+"""
+
+# for squareroot
+>>> a = phixpy.vector([4,16,36])
+>>> a.sqrt()
+output: phixpy.vector([2.0, 4.0, 6.0])
+
+# for cuberoot 
+>>> a = phixpy.vector([4,16,36])
+>>> a.cbrt()
+output: phixpy.vector([1.5874010519681994, 2.5198420997897464, 3.3019272488946263])
+
+# for rooting by any number
+>>> a = phixpy.vector([2,3,4])
+>>> a.root(4)
+output: phixpy.vector([1.189207115002721, 1.3160740129524924, 1.4142135623730951])
+
+# for squaring
+>>> a = phixpy.vector([1,2,3])
+>>> a.sqr()
+output: phixpy.vector([1.0, 4.0, 9.0])
+
+# for cubing
+>>> a = phixpy.vector([1,2,3])
+>>> a.cube()
+output: phixpy.vector([1.0, 8.0, 27.0])
+
+# for raising by any number 
+>>> a = phixpy.vector([1,2,3])
+>>> a.pow(5)
+output: phixpy.vector([1.0, 32.0, 243.0])
+
+```
+
+**Visualization**:: 
+
+One of the coolest features of phixpy is the 'VectorPlot' function, which can be used to visualize multiple 2-D vectors
+
+*Note* :A 2-D vector is a vector with 2 elements like [1,2] and [6,7]
+
+You can visualize vectors in phixpy very easily by:
+
+```
+import phixpy as phx 
+
+a = phx.vector([1,2,3])
+b = phx.vector([4,5,6])
+c = a+b 
+
+# visualizing a, b and their sum 
+# Do not forget to give labels, without them you will run into error
+# The number of labels should match the number of vectors passed
+
+# creating a plot, you can call it anything  
+plot = phx.VectorPlot(a, b, c, labels=['a', 'b', 'a+b'])
+plot.show()
+
+# you can also directly instead of creating 'c'
+# plot = phx.VectorPlot(a, b, c, labels=['a', 'b', 'a+b'])
+# plot.show()
+
+```
+That's all you have to do it order to see the vectors, just run this code any you will see a image on your screen, which is generated using matplotlib.pyplot in the backend
+
+
+
+
+There are a lot of more functions inside phixpy, I will try to slowing add them in this documentation, but you can take a look at them by using 
+
+```
+import phixpy 
+print(dir(phixpy))
+```
+This will give:
+```
+['VectorPlot', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__path__', '__spec__', 'backend', 'compressor', 'math_funcs', 'uid', 'vector']
+```
+Now you can take a look inside all the sub-modules of phixpy
+
+```
+print(dir(phixpy.vector))
+```
+This will give:
+```
+['__add__', '__class__', '__delattr__', '__dict__', '__dir__', '__divmod__', '__doc__', '__eq__', '__floordiv__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__iter__', '__le__', '__len__', '__list__', '__lt__', '__matmul__', '__mod__', '__module__', '__mul__', '__ne__', '__neg__', '__new__', '__next__', '__post_init__', '__pow__', '__radd__', '__reduce__', '__reduce_ex__', '__repr__', '__rmul__', '__rsub__', '__setattr__', '__setitem__', '__sizeof__', '__str__', '__sub__', '__subclasshook__', '__truediv__', '__weakref__', '_vector__change_dtype', '_vector__fmt', 'add', 'angle_betn', 'append', 'assign', 'avg', 'cbrt', 'change_dtype', 'compress_and_save', 'cos', 'cosec', 'cot', 'cube', 'degrees2rad', 'divide', 'dot', 'fill', 'filter', 'format', 'get_evens', 'get_items', 'get_odds', 'id', 'is_orthogonal', 'load', 'magnitude', 'map', 'mod', 'multiply', 'ones', 'pow', 'rad2degrees', 'random', 'root', 'sec', 'sin', 'sin_inv', 'sqr', 'sqrt', 'sub', 'sum', 'tan', 'to_numpy', 'vec2string', 'visualize', 'zeros']
+```
+Now you can learn to use them by playing around with them,, ignore all the functions like __add__, __sub__, having double underscores because they all are dunders
+
+
+
+
+
+

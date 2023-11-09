@@ -1,0 +1,5 @@
+setup.py
+ai_coustics.egg-info/PKG-INFO
+ai_coustics.egg-info/SOURCES.txt
+ai_coustics.egg-info/dependency_links.txt
+ai_coustics.egg-info/top_level.txt

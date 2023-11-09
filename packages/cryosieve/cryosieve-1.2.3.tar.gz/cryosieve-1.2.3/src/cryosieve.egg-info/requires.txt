@@ -1,0 +1,5 @@
+numpy>=1.18
+mrcfile>=1.2
+starfile>=0.4
+cupy>=10
+torch>=1.10

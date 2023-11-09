@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.ruff]
+# Allow lines to be as long as 120 characters.
+# line-length = 100
+
+[tool.pytest.ini_options]
+# Flags we always want to run pytest with.
+addopts = [
+    "--strict-markers",
+    "--strict-config",
+    "-ra",
+    "-v",
+    ]
+
+# Path to test files.
+testpaths = "tests"
+
+# path to files
+pythonpath = "prasys"
+
+markers = [
+    "smoke: subset of tests.",
+    "integration: Run the integration tests.",
+]

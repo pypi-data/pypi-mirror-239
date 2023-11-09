@@ -1,0 +1,9 @@
+piplicenses_lib/__init__.py,sha256=TdzlojlUyY4UmJkLQw2IIyCWgOnTVWFEr9KM2Q_aTXE,11441
+piplicenses_lib/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_piplicenses_lib.py,sha256=EEmeMgjUAWIlCg_1_2OxKNKk1d9DIb2Pbo0ZsBuzrjg,17555
+pip_licenses_lib-0.2.0.dist-info/LICENSE.txt,sha256=aOzAFknfAuz9ItpvvfvDfGisVs7aQ99HRIeEShYeN24,1096
+pip_licenses_lib-0.2.0.dist-info/METADATA,sha256=YLBH-LoHUIjce4jEyY8xyd5kOECDPzqdqmebqviyVrc,3942
+pip_licenses_lib-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pip_licenses_lib-0.2.0.dist-info/top_level.txt,sha256=rr0uDWckjR3988RDJ2Yqhhv-4Nagw0eyJ-npPIaKzQU,22
+pip_licenses_lib-0.2.0.dist-info/RECORD,,

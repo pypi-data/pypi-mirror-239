@@ -1,0 +1,2 @@
+[console_scripts]
+bstpackage = bstpackage.__main__:main

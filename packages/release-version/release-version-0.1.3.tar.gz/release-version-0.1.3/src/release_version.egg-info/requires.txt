@@ -1,0 +1,8 @@
+tomli>=2.0.1
+
+[dev]
+black
+mypy
+pylint
+pytest
+types-toml

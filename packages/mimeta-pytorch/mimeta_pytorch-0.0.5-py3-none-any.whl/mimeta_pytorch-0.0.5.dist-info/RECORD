@@ -1,0 +1,15 @@
+examples/cross_domain_maml.py,sha256=1UDDx1IZoymb6-vanv6gpcbo-QzQxE9dlQ2ceGC2s-g,4426
+examples/cross_domain_pretraining.py,sha256=Z9IT3uJ2BKCAF3cssDJMdh45uS6UoaI58Z8lMtlwiLA,5362
+examples/fully_supervised.py,sha256=ReXUllgMKTcKWuf94L95dg9s1NeWkSc7PQVv2LWn6EQ,2667
+examples/imagenet_pretrained.py,sha256=PLJ6GmUmdM-4EAf2uCH1wRKdhLAYs0sVDbFLjp_gqB0,3474
+mimeta/__init__.py,sha256=5xQIitBZ3RMurgXuUyLp2NlyLQCsdza3si_32QjFhIQ,444
+mimeta/batches.py,sha256=dQRnA_mIbEwtb_SHKV3TfYeEzkOkJHqeK92KXgJyCAQ,1957
+mimeta/logger.py,sha256=W-z_-faq8vaAQaQfsypDC-OZC1EsntcwQVIM6Ei7qIw,53
+mimeta/mimeta.py,sha256=8K9POOLVYC13uoNQYdOSHD4jEC1ZYbMoYpoizT_U0zA,7070
+mimeta/task_presampling.py,sha256=bNmrslAHp3Ss-TPefR7onddUFrH-XunfvJ08atDTtFU,4345
+mimeta/tasks.py,sha256=zBxJuKBRIWNZKAiN_Ei85A1PEXDYsptuyT8-PP1b73o,4568
+mimeta_pytorch-0.0.5.dist-info/METADATA,sha256=HxtCF3G37U8dT_hqsHizRVVJ_PgvwV4JIJQc-Jfo1cU,4992
+mimeta_pytorch-0.0.5.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+mimeta_pytorch-0.0.5.dist-info/licenses/LICENSE,sha256=5X8cMguM-HmKfS_4Om-eBqM6A1hfbgZf6pfx2G24QFI,35150
+mimeta_pytorch-0.0.5.dist-info/licenses/LICENSE.LESSER,sha256=GkWx0KhgPf4s_GRPnauXCxdi-Sur4qrG6y9dRXLEpoA,7653
+mimeta_pytorch-0.0.5.dist-info/RECORD,,

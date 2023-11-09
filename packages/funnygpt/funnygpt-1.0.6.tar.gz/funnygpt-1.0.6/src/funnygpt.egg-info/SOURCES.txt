@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/funnygpt/__init__.py
+src/funnygpt/functions.py
+src/funnygpt.egg-info/PKG-INFO
+src/funnygpt.egg-info/SOURCES.txt
+src/funnygpt.egg-info/dependency_links.txt
+src/funnygpt.egg-info/requires.txt
+src/funnygpt.egg-info/top_level.txt
+tests/test_functions.py

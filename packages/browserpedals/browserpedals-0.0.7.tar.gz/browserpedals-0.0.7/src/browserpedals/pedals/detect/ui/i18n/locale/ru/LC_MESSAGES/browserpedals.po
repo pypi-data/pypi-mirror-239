@@ -1,0 +1,171 @@
+# Control a video in a web browser with foot pedals.
+# Copyright (C) 2022 Dmitry Shmygov
+# This file is distributed under the same license as the browserpedals package.
+# Dmitry Shmygov <shmygov@rambler.ru>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: browserpedals\n"
+"Report-Msgid-Bugs-To: <shmygov@rambler.ru>\n"
+"POT-Creation-Date: 2022-02-01 16:11+0300\n"
+"PO-Revision-Date: 2022-02-01 16:23+0300\n"
+"Last-Translator: Dmitry Shmygov <shmygov@rambler.ru>\n"
+"Language-Team: Russian <gnu@d07.ru>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: browserpedals.py:59
+msgid "Wait for new browser window to open."
+msgstr "Подождите, пока откроется новое окно браузера."
+
+#: browserpedals.py:123
+msgid "browser is not supported"
+msgstr "браузер не поддерживается"
+
+#: browserpedals.py:235 browserpedals.py:242
+msgid "Please Wait..."
+msgstr "Пожалуйста, подождите..."
+
+#: pedals/usepedals.py:204 pedals/usepedals.py:280
+msgid "Were the pedals plugged in?"
+msgstr "Педали были подключены?"
+
+#: pedals/usepedals.py:205 pedals/usepedals.py:281
+msgid "If not, plug them in and then answer 'no'."
+msgstr "Если нет, подключите их, после чего ответьте 'нет'."
+
+#: pedals/usepedals.py:214 pedals/usepedals.py:426 pedals/usepedals.py:554
+#: pedals/detect/detectpedals.py:649
+msgid "Mac is not supported yet"
+msgstr "Mac пока не поддерживается"
+
+#: pedals/usepedals.py:366 pedals/usepedals.py:497
+msgid "Testing the pedals..."
+msgstr "Проверяем работу педалей..."
+
+#: pedals/usepedals.py:367 pedals/usepedals.py:498
+msgid "During "
+msgstr "В течение "
+
+#: pedals/usepedals.py:368 pedals/usepedals.py:499
+msgid " seconds press each pedal at least once."
+msgstr " секунд нажмите каждую педаль хотя бы один раз."
+
+#: pedals/usepedals.py:411 pedals/usepedals.py:517
+msgid "Pedals are working!"
+msgstr "Педали работают!"
+
+#: pedals/usepedals.py:576 pedals/detect/ui/browserui.py:163
+msgid "Pause/Play pedal pressed"
+msgstr "Педаль Пауза/Воспроизведение нажата"
+
+#: pedals/usepedals.py:578 pedals/detect/ui/browserui.py:165
+msgid "Jump Back pedal pressed"
+msgstr "Педаль Возврата назад нажата"
+
+#: pedals/usepedals.py:584 pedals/detect/ui/browserui.py:172
+msgid "Pause/Play pedal released"
+msgstr "Педаль Пауза/Воспроизведение отпущена"
+
+#: pedals/usepedals.py:586 pedals/detect/ui/browserui.py:174
+msgid "Jump Back pedal released"
+msgstr "Педаль Возврата назад отпущена"
+
+#: pedals/usepedals.py:601
+msgid "Now we will test the pedals."
+msgstr "Приступаем к проверке работы педалей."
+
+#: pedals/usepedals.py:602 pedals/detect/detectpedals.py:785
+msgid "Are you ready?"
+msgstr "Вы готовы?"
+
+#: pedals/detect/detectpedals.py:109
+msgid "Pause/Play pedal"
+msgstr "Педаль Пауза/Воспроизведение"
+
+#: pedals/detect/detectpedals.py:111
+msgid "Jump Back pedal"
+msgstr "Педаль Возврата назад"
+
+#: pedals/detect/detectpedals.py:124
+msgid "All active pedal roles:"
+msgstr "Все активные роли педалей:"
+
+#: pedals/detect/detectpedals.py:125
+msgid "OK"
+msgstr "OK"
+
+#: pedals/detect/detectpedals.py:125
+msgid "Change"
+msgstr "Другие"
+
+#: pedals/detect/detectpedals.py:543 pedals/detect/detectpedals.py:582
+msgid "Is this device correct?"
+msgstr "Это правильное устройство?"
+
+#: pedals/detect/detectpedals.py:547 pedals/detect/detectpedals.py:587
+msgid "Saved"
+msgstr "Сохранено"
+
+#: pedals/detect/detectpedals.py:597 pedals/detect/detectpedals.py:657
+msgid "Detect"
+msgstr "Распознаем"
+
+#: pedals/detect/detectpedals.py:598 pedals/detect/detectpedals.py:658
+msgid "Wait for the prompt \"Press and release"
+msgstr "Подождите, пока появится фраза \"Нажмите и отпустите"
+
+#: pedals/detect/detectpedals.py:599 pedals/detect/detectpedals.py:659
+msgid "Do not press any other buttons and do not move the mouse."
+msgstr "Не нажимайте никакие другие кнопки и не двигайте мышью."
+
+#: pedals/detect/detectpedals.py:612 pedals/detect/detectpedals.py:729
+msgid "Sorry, no HID devices found"
+msgstr "К сожалению, HID-устройства не найдены"
+
+#: pedals/detect/detectpedals.py:623 pedals/detect/detectpedals.py:743
+msgid "Press and release"
+msgstr "Нажмите и отпустите"
+
+#: pedals/detect/detectpedals.py:642 pedals/detect/detectpedals.py:769
+msgid ""
+"Pedal was not pressed (or something else like joystick was constantly "
+"pressed)"
+msgstr ""
+"Педаль не была нажата (или постоянно было нажато что-то другое типа "
+"джойстика)"
+
+#: pedals/detect/detectpedals.py:783
+msgid "Now we will detect the pedals."
+msgstr "Приступаем к распознаванию педалей."
+
+#: pedals/detect/detectpedals.py:784
+msgid "Each pedal will be detected during "
+msgstr "Каждая педаль будет распознаваться в течение "
+
+#: pedals/detect/detectpedals.py:784
+msgid " seconds."
+msgstr " секунд"
+
+#: pedals/detect/ui/cmdlineui.py:19
+msgid "Y"
+msgstr "Д"
+
+#: pedals/detect/ui/cmdlineui.py:21
+msgid "n"
+msgstr "н"
+
+#: pedals/detect/ui/cmdlineui.py:24
+msgid " [Enter]"
+msgstr " [Ввод]"
+
+#: pedals/detect/ui/browserui.py:183
+msgid "Yes"
+msgstr "Да"
+
+#: pedals/detect/ui/browserui.py:185
+msgid "No"
+msgstr "Нет"

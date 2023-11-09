@@ -1,0 +1,30 @@
+{
+'options': {
+  'jump_back_sec': {
+    'possible_values': 'number of seconds to jump back - may be any number, possibly with a fractional part',
+    'value': 5,
+    },
+  'browser': {
+    'possible_values': ["Firefox", "Chrome", "Edge", "Ie", "Safari", "Opera"],
+    'value': "Firefox",
+    },
+  'user_interface': {
+    'possible_values': ["browser", "command_line"],
+    'value': "browser",
+    },
+  'subtitles_to_clipboard': {
+    'possible_values': 'copy SRT subtitles to clipboard (Play starts subtitle, Pause ends it); 1 on, 0 off, -1 just timestamps',
+    'value': 0,
+    'important': 'On Linux, to use this feature instal xclip: sudo apt-get install xclip',
+    },
+  'pause_period_sec': {
+    'possible_values': 'pause at given time points - period in seconds, possibly with a fractional part; 0 to disable',
+    'value': 0,
+    'important': 'On Linux, to use this feature instal xclip: sudo apt-get install xclip',
+    },
+  'periodic_timestamp_format': {
+    'possible_values': 'Python format string, for example with {SS:04d} - can use SS(total sec), MM(total min), hh, mm, ss, uu',
+    'value': "{SS:04d};{MM:03d};{hh:02d}:{mm:02d}:{ss:02d},{uu:03d}",
+    },
+  },
+}

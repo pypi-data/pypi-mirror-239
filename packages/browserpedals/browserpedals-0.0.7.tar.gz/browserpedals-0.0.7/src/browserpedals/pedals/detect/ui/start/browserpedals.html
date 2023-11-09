@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Browser Pedals</title>
+
+  <script defer>
+  </script>
+
+  <style>
+
+html:not([lang~=en]) :lang(en), 
+html:not([lang~=ru]) :lang(ru) { 
+    display: none; 
+}
+
+body:not(.browserpedals) .browserpedals, 
+body:not(.browserpedals_options) .browserpedals_options, 
+body:not(.browserpedals_options_file) .browserpedals_options_file, 
+body:not(.browserpedals_web_driver) .browserpedals_web_driver, 
+body:not(.browserpedals_pedals_detection) .browserpedals_pedals_detection, 
+body:not(.browserpedals_program_launching) .browserpedals_program_launching, 
+body:not(.browserpedals_css_editing) .browserpedals_css_editing, 
+body:not(.browserpedals_clipboard_subtitles) .browserpedals_clipboard_subtitles, 
+body:not(.browserpedals_periodic_pause) .browserpedals_periodic_pause { 
+    display: none; 
+}
+
+#language {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+.languageButton {
+    font-size: large;
+    font-weight: bold;
+    color: blue;
+}
+
+.linkButton {
+    font-size: large;
+    font-weight: bold;
+    color: blue;
+}
+
+.err_msg {
+    font-size: large;
+    font-weight: bold;
+
+    color: red;
+}
+
+.howto {
+    padding: 35px;
+}
+
+  </style>
+
+</head>
+
+<body class="browserpedals">
+
+<div id="language">
+<button class="languageButton" onclick="document.documentElement.lang='en'">English</button>
+<button class="languageButton" onclick="document.documentElement.lang='ru'">Русский</button>
+</div>
+
+<span class="browserpedals">
+
+<span lang="en">
+
+<div class="howto">
+<h2>Usage:</h2>
+<h3>Control any video in a web browser with foot pedals - pause/play or jump back - even when the web browser is not in focus.</h3>
+<h4>How to start controlling a video/audio with pedals:</h4>
+<p>
+Navigate to any Web site containing a video/audio (or to a local video/audio file: Firefox - "Alt" key, Chrome and Edge - "Ctrl+O" key).
+</p>
+<p>
+To start controlling a video/audio with pedals, click "Play" button on the video with the mouse at least once.
+</p>
+<p>
+To stop controlling the video/audio with pedals, click "Pause" button on the video with the mouse (not with pedals).
+<br>
+After that, you can start controlling any other video on the site by clicking it's "Play" button.
+</p>
+<p>
+You may have to wait for about a minute before the program starts controlling the video, or click "Play" button on the video with the mouse several times.
+</p>
+<h4>How to control the video/audio with pedals:</h4>
+<p>
+To pause/play the video, press right pedal (or other pedal of your choice).
+</p>
+<p>
+To jump back in the video, press left pedal (or other pedal of your choice).
+</p>
+<br>
+<p style="text-align:center;">
+<button class="linkButton" onclick="document.body.className='browserpedals_options'">Options</button>
+</p>
+</div>
+
+</span>
+
+<span lang="ru">
+
+<div class="howto">
+<h2>Как пользоваться:</h2>
+<h3>Управлять просмотром любого видео в веб-браузере с использованием ножных педалей - приостановить/продолжить или вернуться назад - даже когда веб-браузер находится не в фокусе.</h3>
+<h4>Как начать управлять видео/аудио при помощи педалей:</h4>
+<p>
+Перейдите на любой веб-сайт, содержащий видео/аудио (или видео/аудио файл на компьютере: Firefox - клавиша "Alt", Chrome или Edge - клавиша "Ctrl+O").
+</p>
+<p>
+Чтобы начать управлять видео/аудио при помощи педалей, кликните мышью кнопку "Воспроизведение" на видео хотя бы один раз.
+</p>
+<p>
+Чтобы прекратить управлять данным видео/аудио при помощи педалей, кликните мышью кнопку "Пауза" на видео (не педалями).
+<br>
+После этого вы сможете начать управлять любым другим видео на сайте, кликнув мышью на его кнопке "Воспроизведение".
+</p>
+<p>
+Иногда нужно подождать примерно минуту, пока программа начнет управлять выбранным видео, или кликнуть мышью кнопку "Воспроизведение" на видео несколько раз.
+</p>
+<h4>Как управлять видео/аудио при помощи педалей:</h4>
+<p>
+Чтобы приостановить/продолжить просмотр видео, нажмите правую педаль (или другую назначенную вами педаль).
+</p>
+<p>
+Чтобы отмотать видео назад, нажмите левую педаль (или другую назначенную вами педаль).
+</p>
+<br>
+<p style="text-align:center;">
+<button class="linkButton" onclick="document.body.className='browserpedals_options'">Опции</button>
+</p>
+</div>
+
+</span>
+
+</span>
+
+<span class="browserpedals_options">
+
+<span lang="en">
+
+<div class="howto">
+<h2>Editable options:</h2>
+<p>
+Application's editable data directory:
+</p>
+<p>
+<code>application_data_directory</code>
+</p>
+<p style="text-align:left;">
+<button class="linkButton" onclick="document.body.className='browserpedals_options_file'">Change the program's options</button>
+</p>
+<p style="text-align:left;">
+<button class="linkButton" onclick="document.body.className='browserpedals_web_driver'">Install the Web Driver</button>
+</p>
+<p style="text-align:left;">
+<button class="linkButton" onclick="document.body.className='browserpedals_pedals_detection'">Automatic pedals detection</button>
+</p>
+<p style="text-align:left;">
+<button class="linkButton" onclick="document.body.className='browserpedals_program_launching'">Running the program</button>
+</p>
+<p style="text-align:left;">
+<button class="linkButton" onclick="document.body.className='browserpedals_css_editing'">Changing the appearance of the user interface</button>
+</p>
+<p style="text-align:left;">
+<button class="linkButton" onclick="document.body.className='browserpedals_clipboard_subtitles'">Copy subtitles to clipboard</button>
+</p>
+<p style="text-align:left;">
+<button class="linkButton" onclick="document.body.className='browserpedals_periodic_pause'">Periodic pause</button>
+</p>
+<p style="text-align:center;">
+<button class="linkButton" onclick="document.body.className='browserpedals'">Home</button>
+</p>
+</div>
+
+</span>
+
+<span lang="ru">
+
+<div class="howto">
+<h2>Редактируемые опции:</h2>
+<p>
+Директория редактируемых данных программы:
+</p>
+<p>
+<code>application_data_directory</code>
+</p>
+<p style="text-align:left;">
+<button class="linkButton" onclick="document.body.className='browserpedals_options_file'">Изменение опций программы</button>
+</p>
+<p style="text-align:left;">
+<button class="linkButton" onclick="document.body.className='browserpedals_web_driver'">Установка веб-драйвера</button>
+</p>
+<p style="text-align:left;">
+<button class="linkButton" onclick="document.body.className='browserpedals_pedals_detection'">Автоматическое распознавание педалей</button>
+</p>
+<p style="text-align:left;">
+<button class="linkButton" onclick="document.body.className='browserpedals_program_launching'">Запуск программы</button>
+</p>
+<p style="text-align:left;">
+<button class="linkButton" onclick="document.body.className='browserpedals_css_editing'">Изменение внешнего вида пользовательского интерфейса</button>
+</p>
+<p style="text-align:left;">
+<button class="linkButton" onclick="document.body.className='browserpedals_clipboard_subtitles'">Копирование субтитров в буфер обмена</button>
+</p>
+<p style="text-align:left;">
+<button class="linkButton" onclick="document.body.className='browserpedals_periodic_pause'">Периодическая пауза</button>
+</p>
+<p style="text-align:center;">
+<button class="linkButton" onclick="document.body.className='browserpedals'">Главная</button>
+</p>
+</div>
+
+</span>
+
+</span>
+
+<span class="browserpedals_options_file">
+
+<span lang="en">
+
+<div class="howto">
+<h3>Change the program's options:</h3>
+<p>
+The following text file contains several options which users can edit to change the way the program behaves:
+</p>
+<p>
+<code>options_text_file</code>
+</p>
+<p>
+Available options:
+</p>
+<p>
+<em>browser</em>: By default, the program opens Firefox browser. To use another browser, change the <em>value</em> of the <em>browser</em> option in the options file correspondingly. So far, the program was tested with Firefox, Chrome, and Edge browsers.
+</p>
+<p>
+<em>user_interface</em>: By default, the program uses web browser as graphical user interface during pedals recognition. To use command line for pedals recognition, change the <em>value</em> of the <em>user_interface</em> option in the options file from "browser" to "command_line".
+</p>
+<p>
+<em>jump_back_sec</em>: By default, pressing the "jump back" pedal rewinds the video 5 seconds back. To use another time jump, change the <em>value</em> of the <em>jump_back_sec</em> option in the options file correspondingly. It may be any number, possibly with a fractional part.
+</p>
+<p>
+<em>subtitles_to_clipboard</em>: If this feature is enabled, every time user presses the pedal to Play the video and then presses the pedal to Pause it, subtitle timing data in SRT format is created for the video fragment just played (Play starts the subtitle, Pause ends the subtitle), and this SRT data is copied to the clipboard. Then it can be pasted to any text file before corresponding text fragment to make it an SRT subtitle. To enable this feature, set the <em>value</em> of the <em>subtitles_to_clipboard</em> option in the options file to 1. To disable this feature, set it to 0. To copy just timestamps to clipboard every time Pause pedal is pressed, instead of copying subtitle data (timestamp format is specified in the option called <em>periodic_timestamp_format</em>), set the value to -1.
+<br>
+<em>Important:</em> On Linux, to use this feature instal <em>xclip</em>: <code>sudo apt-get install xclip</code>
+</p>
+<p>
+<em>pause_period_sec</em>: If this feature is enabled, the video/audio periodically pauses at certain time points in the video. When pressing Play after each such pause, current time point in the video/audio is copied to the clipboard, so the user can paste it into any text file. The string copied to the clipboard will have the format specified in the next option of the options file called <em>periodic_timestamp_format</em>. To enable this feature, set the <em>value</em> of the <em>pause_period_sec</em> option in the options file to desired time interval between pauses, in seconds, possibly with a fractional part. To disable this feature, set the value to 0.
+<br>
+<em>Important:</em> On Linux, to use this feature instal <em>xclip</em>: <code>sudo apt-get install xclip</code>
+</p>
+<p>
+<em>periodic_timestamp_format</em>: If the feature <em>pause_period_sec</em> is enabled or the value of feature <em>subtitles_to_clipboard</em> is set to -1, this option specifies the format of the timestamp string which is copied to the clipboard during each pause. Set the <em>value</em> of the <em>periodic_timestamp_format</em> option in the options file to a Python format string, for example it can contain format elements such as {SS:04d} - in this string you can use variables SS (time in seconds), MM (time in minutes), hh (hours), mm (minutes), ss (seconds), uu (milliseconds).
+</p>
+<h3>Browser data:</h3>
+<p>
+When this program opens a web browser, it uses a browser user's profile which is different from default profile used when the browser is opened standard way. All browser data (including user preferences, browser cache, history, bookmarks, installed extensions, etc.) used by web browsers when they are opened by this program are stored in the following location. If a profile here is deleted, a clean profile will be created instead:
+</p>
+<p>
+<code>browser_profiles_directory</code>
+</p>
+<p style="text-align:center;">
+<button class="linkButton" onclick="document.body.className='browserpedals_options'">Options</button>
+</p>
+<p style="text-align:center;">
+<button class="linkButton" onclick="document.body.className='browserpedals'">Home</button>
+</p>
+</div>
+
+</span>
+
+<span lang="ru">
+
+<div class="howto">
+<h3>Изменение опций программы:</h3>
+<p>
+Следующий текстовый файл содержит ряд опций, которые пользователь может менять, чтобы корректировать поведение программы:
+</p>
+<p>
+<code>options_text_file</code>
+</p>
+<p>
+Имеющиеся опции:
+</p>
+<p>
+<em>browser</em>: По умолчанию программа открывает браузер Firefox. Чтобы использовать другой браузер, в файле опций соответствующим образом поменяйте значение <em>value</em> опции <em>browser</em>. На данный момент программа тестировалась с браузерами Firefox, Chrome, и Edge.
+</p>
+<p>
+<em>user_interface</em>: По умолчанию программа использует веб-браузер в качестве графического пользовательского интерфейса при распознавании педалей. Чтобы использовать командную строку для распознавания педалей, в файле опций поменяйте значение <em>value</em> опции <em>user_interface</em> с "browser" на "command_line".
+</p>
+<p>
+<em>jump_back_sec</em>: По умолчанию при нажатии педали "возврат назад" видео отматывается назад на 5 секунд. Чтобы использовать другой временной скачок, в файле опций соответствующим образом поменяйте значение <em>value</em> опции <em>jump_back_sec</em>. Это может быть любое число, возможно с дробной частью.
+</p>
+<p>
+<em>subtitles_to_clipboard</em>: Если данная опция включена, каждый раз, когда пользователь нажимает педаль для Воспроизведения видео, а затем нажимает педаль для Паузы видео, для только что проигранного фрагмента видео создаются временные параметры субтитра в SRT-формате (Воспроизведение начинает субтитр, Пауза заканчивает субтитр), и эти SRT-данные копируются в буфер обмена. После этого их можно вставить в любой текстовый файл перед соответствующим фрагментом текста, что превратит фрагмент в SRT-субтитр. Чтобы включить данную функцию, в файле опций установите значение <em>value</em> опции <em>subtitles_to_clipboard</em> равным 1. Чтобы отключить данную функцию, установите значение 0. Чтобы при каждом нажатии педали Пауза вместо данных субтитра в буфер обмена копировались просто текущие моменты времени видео (в формате, заданном в опции <em>periodic_timestamp_format</em>), установите значение -1.
+<br>
+<em>Важно:</em> В Linux, чтобы использовать данную функцию, установите <em>xclip</em>: <code>sudo apt-get install xclip</code>
+</p>
+<p>
+<em>pause_period_sec</em>: Если данная опция включена, видео/аудио будет периодически вставать на паузу в определенные моменты текущего времени видео/аудио. При нажатии педали Воспроизведения после каждой такой паузы текущий момент времени видео/аудио будет скопирован в буфер обмена, чтобы пользователь мог вставить его в любой текстовый файл. Строка, скопированная в буфер обмена, будет иметь формат, заданный в следующей опции файла опций под названием <em>periodic_timestamp_format</em>. Чтобы включить данную функцию, в файле опций поменяйте значение <em>value</em> опции <em>pause_period_sec</em> на величину требуемого интервала времени между паузами, в секундах, возможно с дробной частью. Чтобы отключить данную функцию, установите значение 0.
+<br>
+<em>Важно:</em> В Linux, чтобы использовать данную функцию, установите <em>xclip</em>: <code>sudo apt-get install xclip</code>
+</p>
+<p>
+<em>periodic_timestamp_format</em>: Если включена опция <em>pause_period_sec</em> или значение опции <em>subtitles_to_clipboard</em> установлено равным -1, то данная опция задает формат строки с текущим временем, которая копируется в буфер обмена после каждой паузы. В качестве значения поля <em>value</em> опции <em>periodic_timestamp_format</em> должна выступать строка формата из языка Python. Например, она может содержать элементы формата типа {SS:04d} - в этой строке можно использовать переменные SS (время в секундах), MM (время в минутах), hh (часы), mm (минуты), ss (секунды), uu (миллисекунды).
+</p>
+<h3>Данные браузера:</h3>
+<p>
+Когда данная программа открывает веб-браузер, используется пользовательский профиль отличный от профиля, используемого по умолчанию при открытии браузера обычным образом. Все данные браузера (включая пользовательские настройки, кэш браузера, историю, закладки, установленные расширения, и т.п.), используемые веб-браузерами, когда они открываются данной программой, хранятся в следующей директории. Если профиль здесь удалить, вместо него будет создан чистый профиль:
+</p>
+<p>
+<code>browser_profiles_directory</code>
+</p>
+<p style="text-align:center;">
+<button class="linkButton" onclick="document.body.className='browserpedals_options'">Опции</button>
+</p>
+<p style="text-align:center;">
+<button class="linkButton" onclick="document.body.className='browserpedals'">Главная</button>
+</p>
+</div>
+
+</span>
+
+</span>
+
+<span class="browserpedals_web_driver">
+
+<span lang="en">
+
+<div class="howto">
+<p>
+<span class="err_msg"></span>
+</p>
+<h3>Install the Web Driver (optional):</h3>
+<p>
+The program comes with a pre-installed Web Driver for Firefox browser, so if you want to use Firefox it will work out of the box. However, if you want to use another browser like Chrome or Edge, you have to install corresponding Web Driver manually as described below. Also, in case of Chrome or Edge you will have to periodically upgrade the Web Driver to match the current version of automatically upgraded Chrome or Edge browser.
+</p>
+<p>
+Install the Web Driver for the browser you want to use. The download links are on the site:
+</p>
+<p>
+<a href="https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/#download-the-driver" target="_blank">Download a Web Driver</a>
+</p>
+<p>
+<strong>Important:</strong>For all browsers except Firefox, the version of Web Driver file should match the current version of your browser.
+</p>
+<p>
+Open the downloaded archive and extract the Web Driver executable. For Firefox browser the Web Driver file name is usually "geckodriver". For Chrome browser the Web Driver file name is usually "chromedriver". For Edge browser the Web Driver file name is usually "msedgedriver.exe".
+</p>
+<p>
+Place the Web Driver file into the corresponding sub-directory of the program's data directory:
+</p>
+<p>
+<code>web_driver_directory</code>
+</p>
+<p style="text-align:center;">
+<button class="linkButton" onclick="document.body.className='browserpedals_options'">Options</button>
+</p>
+<p style="text-align:center;">
+<button class="linkButton" onclick="document.body.className='browserpedals'">Home</button>
+</p>
+</div>
+
+</span>
+
+<span lang="ru">
+
+<div class="howto">
+<p>
+<span class="err_msg"></span>
+</p>
+<h3>Установка веб-драйвера (опционно):</h3>
+<p>
+Программа поставляется с предустановленным веб-драйвером для браузера Firefox, поэтому если вы хотите использовать Firefox, он будет работать без каких-либо дополнительных действий. Однако, если вы хотите использовать другой браузер, например Chrome или Edge, вы должны установить соответствующий веб-драйвер вручную, как описано ниже. К тому же, в случае использования Chrome или Edge вы должны будете периодически обновлять веб-драйвер, чтобы его версия совпадала с текущей версией автоматически обновляемого браузера Chrome или Edge.
+</p>
+<p>
+Установите веб-драйвер для браузера, который вы хотите использовать. Ссылки для загрузки приведены на сайте:
+</p>
+<p>
+<a href="https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/#download-the-driver" target="_blank">Скачать веб-драйвер</a>
+</p>
+<p>
+<strong>Важно:</strong>Для всех браузеров, кроме Firefox, версия файла веб-драйвера должна совпадать с текущей версией вашего браузера.
+</p>
+<p>
+Откройте скачанный архив и извлеките файл веб-драйвера. Веб-драйвер для браузера Firefox обычно имеет имя "geckodriver". Веб-драйвер для браузера Chrome обычно имеет имя "chromedriver". Веб-драйвер для браузера Edge обычно имеет имя "msedgedriver.exe".
+</p>
+<p>
+Поместите файл веб-драйвера в соответствующую поддиректорию в директории данных программы:
+</p>
+<p>
+<code>web_driver_directory</code>
+</p>
+<p style="text-align:center;">
+<button class="linkButton" onclick="document.body.className='browserpedals_options'">Опции</button>
+</p>
+<p style="text-align:center;">
+<button class="linkButton" onclick="document.body.className='browserpedals'">Главная</button>
+</p>
+</div>
+
+</span>
+
+</span>
+
+<span class="browserpedals_pedals_detection">
+
+<span lang="en">
+
+<div class="howto">
+<h3>Automatic pedals detection:</h3>
+<p>
+Currently, the program supports just one specific type of pedals out of the box - the "Thrustmaster wheel" foot pedals (Thrustmaster 360 SPIDER PC).
+</p>
+<p>
+If other pedals are used, the program will attempt to recognize them automatically. Just plug the pedals into the PC, run the program, and follow the instructions on the screen. If the pedals are recognized successfully, the information is saved to the file "auto_detected_pedals.txt", and next time the program is run the new pedals will be recognized automatically:
+</p>
+<p>
+<code>auto_detected_pedals_file</code>
+</p>
+<p>
+Users who use pedals which where successfully recognized by the program, can send the above file to the program's developer so new versions of the program could support these pedals out of the box:
+</p>
+<p style="text-align:center;">
+<a href="mailto:shmygov@rambler.ru">Email</a>
+</p>
+<p style="text-align:center;">
+<a href="https://github.com/shmygov/browserpedals" target="_blank">Site</a>
+</p>
+<p>
+Currently supported pedal roles are "Pause/Play pedal" and "Jump Back pedal". User can assign any role to any pedal, can use both pedals or just one. This is done automatically by running the program and following the instructions on the screen.
+</p>
+<p>
+(Technically, the auto_detected_pedals.txt file can also be edited manually.)
+</p>
+<p style="text-align:center;">
+<button class="linkButton" onclick="document.body.className='browserpedals_options'">Options</button>
+</p>
+<p style="text-align:center;">
+<button class="linkButton" onclick="document.body.className='browserpedals'">Home</button>
+</p>
+</div>
+
+</span>
+
+<span lang="ru">
+
+<div class="howto">
+<h3>Автоматическое распознавание педалей:</h3>
+<p>
+В настоящее время программа поддерживает только один конкретный вид педалей, с которыми она работает без дополнительной настройки - это ножные педали "Thrustmaster wheel" (Thrustmaster 360 SPIDER PC).
+</p>
+<p>
+Если используются другие педали, программа попытается распознать их автоматически. Просто подключите педали к компьютеру, запустите программу и следуйте инструкциям на экране. Если педали будут удачно распознаны, информация будет сохранена в файле "auto_detected_pedals.txt", и при следующем запуске программы новые педали будут распознаны автоматически:
+</p>
+<p>
+<code>auto_detected_pedals_file</code>
+</p>
+<p>
+Пользователи, использующие педали, успешно распознанные программой, могут отправить вышеуказанный файл разработчику, чтобы последующие версии программы работали с данными педалями без дополнительной настройки:
+</p>
+<p style="text-align:center;">
+<a href="mailto:shmygov@rambler.ru">Email</a>
+</p>
+<p style="text-align:center;">
+<a href="https://github.com/shmygov/browserpedals" target="_blank">Сайт</a>
+</p>
+<p>
+В настоящее время поддерживаются следующие роли педалей: "Педаль Пауза/Воспроизведение" и "Педаль Возврата назад". Любой педали можно назначить любую из этих ролей. Можно использовать обе педали, или только одну. Все это делается автоматически путем запуска программы и следования инструкциям на экране.
+</p>
+<p>
+(Технически, файл auto_detected_pedals.txt можно также редактировать вручную.)
+</p>
+<p style="text-align:center;">
+<button class="linkButton" onclick="document.body.className='browserpedals_options'">Опции</button>
+</p>
+<p style="text-align:center;">
+<button class="linkButton" onclick="document.body.className='browserpedals'">Главная</button>
+</p>
+</div>
+
+</span>
+
+</span>
+
+<span class="browserpedals_program_launching">
+
+<span lang="en">
+
+<div class="howto">
+<h3>Running the program:</h3>
+<p>
+If the program was installed using PIP:
+</p>
+<p>
+<code>python3 -m pip install --no-cache-dir browserpedals</code>
+</p>
+<p>
+then a shortcut ("BrowserPedals" icon) was automatically created on the Desktop and in the Applications menu. In this case the program can be launched using this shortcut, or by right-clicking the video file which we want to open and selecting "BrowserPedals" program from the drop-down menu.
+Technically, the program "browserpedals.py" or its submodules "usepedals.py" and "detectpedals.py" can also be run as Python scripts from command line:
+</p>
+<p>
+<code>python3 browserpedals.py</code>
+</p>
+<p style="text-align:center;">
+<button class="linkButton" onclick="document.body.className='browserpedals_options'">Options</button>
+</p>
+<p style="text-align:center;">
+<button class="linkButton" onclick="document.body.className='browserpedals'">Home</button>
+</p>
+</div>
+
+</span>
+
+<span lang="ru">
+
+<div class="howto">
+<h3>Запуск программы:</h3>
+<p>
+Если программа устанавливалась с использованием PIP:
+</p>
+<p>
+<code>python3 -m pip install --no-cache-dir browserpedals</code>
+</p>
+<p>
+тогда на рабочем столе и в меню приложений для нее был автоматически создан ярлык "BrowserPedals". В этом случае программу можно запустить, используя этот ярлык, или щелкнув правой кнопкой мыши на том видео-файле, который мы хотим открыть, и в выпадающем меню выбрав программу "BrowserPedals". Технически, программу "browserpedals.py" и ее подмодули "usepedals.py" и "detectpedals.py" можно также запустить из командной строки как Python-скрипты:
+</p>
+<p>
+<code>python3 browserpedals.py</code>
+</p>
+<p style="text-align:center;">
+<button class="linkButton" onclick="document.body.className='browserpedals_options'">Опции</button>
+</p>
+<p style="text-align:center;">
+<button class="linkButton" onclick="document.body.className='browserpedals'">Главная</button>
+</p>
+</div>
+
+</span>
+
+</span>
+
+<span class="browserpedals_css_editing">
+
+<span lang="en">
+
+<div class="howto">
+<h3>Changing the appearance of the user interface:</h3>
+<p>
+The program uses web browser as graphical user interface. The way the interface elements look can be changed by editing the following CSS file:
+</p>
+<p>
+<code>ui_appearance_css_file</code>
+</p>
+<p style="text-align:center;">
+<button class="linkButton" onclick="document.body.className='browserpedals_options'">Options</button>
+</p>
+<p style="text-align:center;">
+<button class="linkButton" onclick="document.body.className='browserpedals'">Home</button>
+</p>
+</div>
+
+</span>
+
+<span lang="ru">
+
+<div class="howto">
+<h3>Изменение внешнего вида пользовательского интерфейса:</h3>
+<p>
+В качестве графического пользовательского интерфейса программа использует веб-браузер. То, как выглядят элементы этого интерфейса, можно менять, редактируя следующий CSS-файл:
+</p>
+<p>
+<code>ui_appearance_css_file</code>
+</p>
+<p style="text-align:center;">
+<button class="linkButton" onclick="document.body.className='browserpedals_options'">Опции</button>
+</p>
+<p style="text-align:center;">
+<button class="linkButton" onclick="document.body.className='browserpedals'">Главная</button>
+</p>
+</div>
+
+</span>
+
+</span>
+
+<span class="browserpedals_clipboard_subtitles">
+
+<span lang="en">
+
+<div class="howto">
+<h3>Copy subtitles to clipboard:</h3>
+<p>
+<em>Important:</em> On Linux, to use this feature instal <em>xclip</em>: <code>sudo apt-get install xclip</code>
+</p>
+<p>
+The following text file contains several options which users can edit to change the way the program behaves:
+</p>
+<p>
+<code>options_text_file</code>
+</p>
+<p>
+To enable this feature, set the <em>value</em> of the <em>subtitles_to_clipboard</em> option in the options file to 1. To disable this feature, set it to 0.
+</p>
+<p>
+If this feature is enabled, every time user presses the pedal to Play the video and then presses the pedal to Pause it, subtitle timing data in SRT format is created for the video fragment just played (Play starts the subtitle, Pause ends the subtitle). This SRT data is copied to the clipboard. Then it can be pasted to any text file before corresponding text fragment to make it an SRT subtitle.
+</p>
+<p>
+User can prepare subtitles in the form of an SRT file for a video as follows:
+</p>
+<p>
+First, prepare a text file with plain text by typing while listening to the video. For example, you can use this program and pedals to type such file. Or you may use an existing text file if you have one. The main advantage of the described method is that you can select yourself which fragments in the text will be the subtitles. Start from the beginning of the text, choose the text fragment that will be the first subtitle. Add two line breaks at the end of the fragment, so it will be on a separate line. Press the pedal to play the video. When the video reaches the end of the selected fragment of text, press the pedal to pause the video. Place the cursor at the beginning of the text fragment, and select Paste from the mouse's right button menu, or hit Ctrl-V. The time interval of the subtitle in SRT format will be pasted into the text from the clipboard. Then choose the text fragment that will be the second subtitle. Add two line breaks at the end of the fragment, so it will be on a separate line. Press the pedal to play the video. When the video reaches the end of the selected fragment of text, press the pedal to pause the video. Place the cursor at the beginning of the text fragment, and repeat the same steps as for the previous fragment to paste the subtitle SRT data before the text fragment. This way, by continuously playing, pausing, and pasting SRT data, plain text file can be transformed into an SRT subtitle file. You can subdivide the text into subtitles any way you want, by pausing at selected places in the text. The SRT file will look as follows:
+</p>
+<p>
+<code style="display:block; white-space:pre-wrap">
+1
+00:00:00,100 --> 00:00:01,900
+What's up guys? This is the first subtitle.
+
+2
+00:00:02,000 --> 00:00:04,266
+And this is the second subtitle.
+
+</code>
+</p>
+<p>
+(hours:minutes:seconds,milliseconds)
+</p>
+<p>
+Subtitles are assigned numbers starting from number 1. To continue subtitles from any given number, before pressing Pause pedal and pasting the subtitle data, copy previous number to the clipboard. For example, if you want the next subtitle to have number 5, copy number 4 to the clipboard, and only after that press Pause pedal and paste the subtitle data.
+</p>
+<p>
+Sometimes, there may be a long silent period in the video. When you press Pause pedal after such silent period ends, the clipboard will contain subtitle data for this silent period. But we don't want that. In this case, after you have have pressed Pause pedal at the end of the silent period, press Jump Back pedal. Then press Play pedal, wait for the speech to start, and press Pause pedal. After that, as usual, continue playing, listening to the speech, pausing, and pasting time intervals at the start of subtitles. The pasted subtitle timing will have correct number and will start when the silence ended. The silent subtitle will be dropped.
+</p>
+<p>
+If the value of feature <em>subtitles_to_clipboard</em> is set to -1, just timestamps are copied to clipboard every time Pause pedal is pressed, instead of copying subtitle data. In this case <em>periodic_timestamp_format</em> option specifies the format of the timestamp string which is copied to the clipboard during each pause. Set the <em>value</em> of the <em>periodic_timestamp_format</em> option in the options file to a Python format string, for example it can contain format elements such as {SS:04d} - in this string you can use variables SS (time in seconds), MM (time in minutes), hh (hours), mm (minutes), ss (seconds), uu (milliseconds).
+</p>
+<p style="text-align:center;">
+<button class="linkButton" onclick="document.body.className='browserpedals_options'">Options</button>
+</p>
+<p style="text-align:center;">
+<button class="linkButton" onclick="document.body.className='browserpedals'">Home</button>
+</p>
+</div>
+
+</span>
+
+<span lang="ru">
+
+<div class="howto">
+<h3>Копирование субтитров в буфер обмена:</h3>
+<p>
+<em>Важно:</em> В Linux, чтобы использовать данную функцию, установите <em>xclip</em>: <code>sudo apt-get install xclip</code>
+</p>
+<p>
+Следующий текстовый файл содержит ряд опций, которые пользователь может менять, чтобы корректировать поведение программы:
+</p>
+<p>
+<code>options_text_file</code>
+</p>
+<p>
+Чтобы включить данную функцию, в файле опций поменяйте значение <em>value</em> опции <em>subtitles_to_clipboard</em> на 1. Чтобы отключить данную функцию, поменяйте значение 1 на 0.
+</p>
+<p>
+Если данная опция включена, каждый раз, когда пользователь нажимает педаль для Воспроизведения видео, а затем нажимает педаль для Паузы видео, для только что проигранного фрагмента видео создаются параметры для субтитра в SRT-формате (Воспроизведение начинает субтитр, Пауза заканчивает субтитр), и эти SRT-данные копируются в буфер обмена. После этого их можно вставить в любой текстовый файл перед соответствующим фрагментом текста, что превратит фрагмент в SRT-субтитр. 
+</p>
+<p>
+Субтитры для видео в форме SRT-файла можно подготовить следующим образом:
+</p>
+<p>
+Для начала подготовьте текстовый файл с простым текстом, напечатав его во время прослушивании видео. Например, можно напечатать такой файл при помощи данной программы и педалей. Или можете использовать существующий текстовый файл, если таковой имеется. Главное преимущество описываемого метода в том, что вы сами можете выбирать, какие фрагменты текста будут субтитрами. Начните с начала текста, выберите фрагмент, который станет первым субтитром. Добавьте две новые строки в конце фрагмента, чтобы он оказался на отдельной строке. Нажмите педаль, чтобы видео заиграло. Когда видео доиграет до конца выбранного фрагмента текста, нажмите педаль, чтобы видео встало на паузу. Установите курсор на начало текстового фрагмента и выберите Вставить в меню правой кнопки мыши, или нажмите клавиши Ctrl-V. Временной интервал для субтитра в формате SRT будет вставлен в текст из буфера обмена. Далее, выберите фрагмент текста, который будет вторым субтитром. Добавьте две новые строки в конце фрагмента, чтобы он оказался на отдельной строке. Нажмите педаль, чтобы видео заиграло. Когда видео доиграет до конца выбранного фрагмента текста, нажмите педаль, чтобы видео встало на паузу. Установите курсор на начало текстового фрагмента, и повторите все так же, как в случае с первым фрагментом, чтобы перед текстовым фрагментом вставить SRT-данные для субтитра. Таким образом, последовательно запуская видео, останавливая видео, и вставляя в текст SRT-данные, файл с непрерывным текстом может быть преобразован в файл субтитров в формате SRT. Вы можете разбивать текст на субтитры так, как вам угодно, нажимая на педаль Паузы в выбранных местах в тексте. SRT-файл будет выглядеть следующим образом:
+</p>
+<p>
+<code style="display:block; white-space:pre-wrap">
+1
+00:00:00,100 --> 00:00:01,900
+Ну что, друзья? Вот вам и первый субтитр.
+
+2
+00:00:02,000 --> 00:00:04,266
+Ну а это второй.
+
+</code>
+</p>
+<p>
+(часы:минуты:секунды,миллисекунды)
+</p>
+<p>
+Субтитрам присваиваются номера, начиная с 1. Чтобы продолжить субтитры с любого заданного номера, перед тем, как нажать педаль паузы и вставить данные из буфера обмена в текст, скопируйте предыдущий номер в буфер обмена. Например, если вы хотите, чтобы следующий субтитр имел номер 5, скопируйте цифру 4 в буфер обмена, и только после этого нажмите на педаль паузы и вставьте данные для субтитра.
+</p>
+<p>
+Иногда по ходу видео может возникнуть продолжительный период молчания. Когда вы нажимаете педаль паузы в конце такого периода молчания, буфер обмена будет содержать данные субтитра, соответствующие этому периоду тишины. Но это совсем не то, что нам нужно. В таком случае, после того, как вы нажали педаль Паузы в конце периода молчания, нажмите педаль Возврата назад. Затем нажмите педаль Воспроизведения, чтобы видео заиграло, дождитесь начала речи и нажмите педаль Паузы. После этого, как обычно, продолжайте запускать видео, останавливать его, и вставлять в текст временные интервалы в начала субтитров. Вставленный временной интервал для субтитра будет иметь правильный номер и будет начинаться после завершения периода молчания. Субтитр с тишиной будет пропущен.
+</p>
+<p>
+Если значение опции <em>subtitles_to_clipboard</em> установлено равным -1, при каждом нажатии педали Пауза вместо данных субтитра в буфер обмена копируются просто текущие моменты времени видео. В этом случае опция <em>periodic_timestamp_format</em> задает формат строки с текущим временем, которая копируется в буфер обмена после каждой паузы. В качестве значения поля <em>value</em> опции <em>periodic_timestamp_format</em> должна выступать строка формата из языка Python. Например, она может содержать элементы формата типа {SS:04d} - в этой строке можно использовать переменные SS (время в секундах), MM (время в минутах), hh (часы), mm (минуты), ss (секунды), uu (миллисекунды).
+</p>
+<p style="text-align:center;">
+<button class="linkButton" onclick="document.body.className='browserpedals_options'">Опции</button>
+</p>
+<p style="text-align:center;">
+<button class="linkButton" onclick="document.body.className='browserpedals'">Главная</button>
+</p>
+</div>
+
+</span>
+
+</span>
+
+<span class="browserpedals_periodic_pause">
+
+<span lang="en">
+
+<div class="howto">
+<h3>Periodic pause:</h3>
+<p>
+<em>Important:</em> On Linux, to use this feature instal <em>xclip</em>: <code>sudo apt-get install xclip</code>
+</p>
+<p>
+The following text file contains several options which users can edit to change the way the program behaves:
+</p>
+<p>
+<code>options_text_file</code>
+<p>
+Sometimes there is a requirement that the text typed during listening to a video/audio should also contain timestamps inserted into the text periodically after the video/audio plays for some time. For example, time markers should be inserted into the text every minute. Following options serve this purpose.
+</p>
+</p>
+If the feature <em>pause_period_sec</em> is enabled, the video/audio periodically pauses at certain time points in the video. When pressing Play after each such pause, current time point in the video/audio is copied to the clipboard, so the user can paste it into any text file. The string copied to the clipboard will have the format specified in the next option of the options file called <em>periodic_timestamp_format</em>.
+</p>
+<p>
+To enable this feature, set the <em>value</em> of the <em>pause_period_sec</em> option in the options file to desired time interval between pauses, in seconds, possibly with a fractional part. To disable this feature, set the value to 0.
+</p>
+<p>
+If the previous feature called <em>pause_period_sec</em> is enabled, the option <em>periodic_timestamp_format</em> specifies the format of the timestamp string which is copied to the clipboard after each periodic pause. Set the <em>value</em> of the <em>periodic_timestamp_format</em> option in the options file to a Python format string, for example it can contain format elements such as {SS:04d} - in this string you can use variables SS (time in seconds), MM (time in minutes), hh (hours), mm (minutes), ss (seconds), uu (milliseconds).
+</p>
+<p>
+If the value of feature <em>subtitles_to_clipboard</em> is set to -1, timestamps are copied to the clipboard also every time Pause pedal is pressed.
+</p>
+<p style="text-align:center;">
+<button class="linkButton" onclick="document.body.className='browserpedals_options'">Options</button>
+</p>
+<p style="text-align:center;">
+<button class="linkButton" onclick="document.body.className='browserpedals'">Home</button>
+</p>
+</div>
+
+</span>
+
+<span lang="ru">
+
+<div class="howto">
+<h3>Периодическая пауза:</h3>
+<p>
+<em>Важно:</em> В Linux, чтобы использовать данную функцию, установите <em>xclip</em>: <code>sudo apt-get install xclip</code>
+</p>
+<p>
+Следующий текстовый файл содержит ряд опций, которые пользователь может менять, чтобы корректировать поведение программы:
+</p>
+<p>
+<code>options_text_file</code>
+</p>
+<p>
+Иногда ставится требование, чтобы текст, напечатанный во время прослушивания видео/audio, также содержал временные метки, периодически вставляемые в текст каждый раз, когда в видео/audio проходит определенное время. Например, нужно вставлять временный маркеры в текст каждую минуту. Следующие опции служат этой цели.
+</p>
+<p>
+Если опция <em>pause_period_sec</em> включена, видео/аудио будет периодически вставать на паузу в определенные моменты текущего времени видео/аудио. При нажатии педали Воспроизведения после каждой такой паузы текущий момент времени видео/аудио будет скопирован в буфер обмена, чтобы пользователь мог вставить его в любой текстовый файл. Строка, скопированная в буфер обмена, будет иметь формат, заданный в следующей опции файла опций под названием <em>periodic_timestamp_format</em>.
+</p>
+<p>
+Чтобы включить данную функцию, в файле опций поменяйте значение <em>value</em> опции <em>subtitles_to_clipboard</em> на величину требуемого интервала времени между паузами, в секундах, возможно с дробной частью. Чтобы отключить данную функцию, установите значение 0.
+</p>
+<p>
+Если включена предыдущая опция <em>pause_period_sec</em> (периодическая пауза), то опция <em>periodic_timestamp_format</em> задает формат строки с текущим временем, которая копируется в буфер обмена после каждой периодической паузы. В качестве значения поля <em>value</em> опции <em>periodic_timestamp_format</em> должна выступать строка формата из языка Python. Например, она может содержать элементы формата типа {SS:04d} - в этой строке можно использовать переменные SS (время в секундах), MM (время в минутах), hh (часы), mm (минуты), ss (секунды), uu (миллисекунды).
+</p>
+<p>
+Если значение опции <em>subtitles_to_clipboard</em> установлено равным -1, то текущие моменты времени видео будут копироваться в буфер обмена также при каждом нажатии педали Паузы.
+</p>
+<p style="text-align:center;">
+<button class="linkButton" onclick="document.body.className='browserpedals_options'">Опции</button>
+</p>
+<p style="text-align:center;">
+<button class="linkButton" onclick="document.body.className='browserpedals'">Главная</button>
+</p>
+</div>
+
+</span>
+
+</span>
+
+</body>
+</html>
+

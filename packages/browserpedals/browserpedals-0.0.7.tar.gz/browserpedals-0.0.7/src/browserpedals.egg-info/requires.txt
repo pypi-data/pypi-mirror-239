@@ -1,0 +1,12 @@
+wheel
+pyshortcuts
+platformdirs
+pyperclip
+importlib-resources
+selenium
+
+[:platform_system == "Linux"]
+evdev
+
+[:platform_system == "Windows"]
+pywinusb

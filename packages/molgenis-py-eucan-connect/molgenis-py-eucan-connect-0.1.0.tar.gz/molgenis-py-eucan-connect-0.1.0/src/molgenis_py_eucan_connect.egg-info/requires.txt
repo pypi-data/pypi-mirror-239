@@ -1,0 +1,9 @@
+molgenis-py-client
+pandas
+requests
+unidecode
+
+[testing]
+setuptools
+pytest
+pytest-cov

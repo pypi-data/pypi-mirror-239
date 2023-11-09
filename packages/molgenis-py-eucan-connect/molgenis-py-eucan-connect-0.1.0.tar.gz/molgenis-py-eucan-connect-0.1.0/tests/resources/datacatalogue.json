@@ -1,0 +1,4 @@
+[{"id": "DC1", "name": "DataCatalogue Study 1", "acronym": "DC1", "description": "Test study 1 DataCatalogue", "startYear": 1994,
+  "countries": [{"name":  "Netherlands (the)"}, {"name": "Austria"}]
+}, {"id": "DC Two", "name": "Second DataCatalogue Study", "acronym": "DC Two", "startYear": 2010, "countries":  [{"name":  "Unknown"}]},
+{"id": "DCNC", "name": "DataCatalogue no Country", "acronym": "DCNC"}]

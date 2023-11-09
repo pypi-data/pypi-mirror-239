@@ -1,0 +1,3 @@
+[{"identification": {"id": "1", "id_user": "5", "name": " Birth Cohort1 ", "abbreviation": "BC1", "country": "Netherlands (Nederland)"}, "description": {"aim": "To investigate Birth Cohort 1. "}},
+{"identification": {"id": "2", "id_user": "103", "name": "Birth Cohort Two ", "abbreviation": "Birth C2", "country": "Belgium (Belgi" }, "description": {"aim": "A birth cohort study to investigate. ", "enrollment": {"period": {"start": "2010-12-01", "end": "2015-05-31"}}}},
+  {"identification":  {"id": "3", "id_user":  "222", "name":  "Birth Cohort No Country", "abbreviation":  "BCNC"}}]

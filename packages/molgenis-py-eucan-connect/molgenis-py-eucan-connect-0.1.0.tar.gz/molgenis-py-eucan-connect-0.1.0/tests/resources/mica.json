@@ -1,0 +1,27 @@
+[
+{"id": "mc1",
+"name": [{"lang": "en", "value": "Mica Study One"}],
+"acronym": [{"lang": "en", "value": "MC1"}],
+"objectives": [{"lang": "en", "value": "The first Mica Study"}],
+"populations": [
+{"id": "1",
+"name": [{"lang": "en", "value": "MC1 Population"}],
+"content": "{\"selectionCriteria\":{\"countriesIso\":[\"FIN\"]}}"}],
+"content": "{\"startYear\":2019}"},
+  {"id": "mcTwo",
+"name": [{"lang": "en", "value": "Mica Study Two"}],
+"acronym": [{"lang": "en", "value": "MC Two"}],
+"populations": [
+{"id": "1",
+"name": [{"lang": "en", "value": "MC2 Population"}],
+"content": "{\"selectionCriteria\":{\"countriesIso\":[\"NLD\", \"GER\"]}}"}],
+  "content": "{\"startYear\":2010}"},
+    {"id": "noC",
+"name": [{"lang": "en", "value": "Mica Study no Country"}],
+"acronym": [{"lang": "en", "value": "MCNC"}],
+"objectives": [{"lang": "en", "value": "<p>Mica Study without country.</p>"}],
+"populations": [
+{"id": "1",
+"name": [{"lang": "en", "value": "MCNC Population"}]}],
+  "content": "{}"}
+]

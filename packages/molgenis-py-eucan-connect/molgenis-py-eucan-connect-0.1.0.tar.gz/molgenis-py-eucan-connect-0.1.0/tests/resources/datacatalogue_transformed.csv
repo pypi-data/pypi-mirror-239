@@ -1,0 +1,4 @@
+studies_id;studies_study_name;studies_acronym;studies_objectives;studies_start_year;studies_countries;studies_source_data
+testnetwork:studyID:DC1;DataCatalogue Study 1;DC1;Test study 1 DataCatalogue;1994;[Netherlands,Austria];dc_url/catalogue/catalogue/#/networks-catalogue/TestNetwork/cohorts/DC1
+testnetwork:studyID:DC_Two;Second DataCatalogue Study;DC Two;;2010;[Unknown];dc_url/catalogue/catalogue/#/networks-catalogue/TestNetwork/cohorts/DC_Two
+testnetwork:studyID:DCNC;DataCatalogue no Country;DCNC;;;;dc_url/catalogue/catalogue/#/networks-catalogue/TestNetwork/cohorts/DCNC

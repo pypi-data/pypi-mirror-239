@@ -1,0 +1,3 @@
+[console_scripts]
+cryosieve = cryosieve.__main__:main
+cryosieve-core = cryosieve.core:core

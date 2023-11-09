@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pdf2ppt
+Version: 0.0.1
+Summary: A tool to convert PDF documents to PPTX format with an adjustable DPI setting.
+Home-page: https://github.com/fuzihaofzh/pdf2ppt
+Author: Zihao Fu
+Keywords: PDF PPTX conversion tool
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Topic :: Office/Business :: Office Suites
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: python-pptx
+Requires-Dist: pdf2image
+Requires-Dist: pqdm
+

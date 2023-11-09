@@ -1,0 +1,61 @@
+Distributor ID:	Ubuntu
+Description:	Ubuntu 22.04.2 LTS
+Release:	22.04
+Codename:	jammy
+┌──────────────────────────┐
+│ Experimental Environment │
+└──────────────────────────┘
+platform: Linux-5.10.16.3-microsoft-standard-WSL2-x86_64-with-glibc2.35
+node: t
+time: 2023-11-04 21:59:21.631820
+python interpreter: /home/kk/miniconda3/bin/python
+python version: 3.11.5 (main, Sep 11 2023, 13:54:46) [GCC 11.2.0]
+device: gpu
+CUDA version: 12.1
+driver version: 536.40
+cuDNN version: 8902
+nccl version: 2.18.1
+gpu usable count: 1
+gpu total count: 1
+    gpu 0: NVIDIA GeForce RTX 4060 Ti, [mem]   856M /  8188M, 10%,  31°C, 🔋 3
+gpu direct communication matrix:
+	GPU0	CPU Affinity	NUMA Affinity	GPU NUMA ID
+GPU0	 X 				N/A
+cpu: [logical] 24, [physical] 12, [usage] 2.1%
+virtual memory: [total] 7.6GB, [avail] 6.4GB, [used] 990.9MB 15.6%
+disk usage: [total] 251.0GB, [free] 229.1GB, [used] 9.1GB 3.8%
+current dir: /mnt/d
+user: kk
+shell: /bin/bash
+python packages version:
+    torch: 2.1.0+cu121
+    transformers: 4.35.0
+    triton: 2.1.0
+┌─────────────────────────────────┐
+│ Matrix Multiplication Benchmark │
+└─────────────────────────────────┘
+Matrix: A [16384 x 16384], B [16384 x 16384]
+Operation: A @ B
+Experiment: 50
+Tensor:
+    - torch.float16 | 0.20521s (median) | 42.8634 TFLOPS | GPU mem allocated 1.5GB, reserved 1.5GB
+    - torch.float32 | 0.63401s (median) | 13.8736 TFLOPS | GPU mem allocated 3.0GB, reserved 4.5GB
+┌─────────────────────────────┐
+│ Resnet18 Inference Profiler │
+└─────────────────────────────┘
+---------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  
+                             Name    Self CPU %      Self CPU   CPU total %     CPU total  CPU time avg       CPU Mem  Self CPU Mem      CUDA Mem  Self CUDA Mem    # of Calls  
+---------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  
+                  model_inference         0.35%       4.718ms       100.00%        1.334s        1.334s           0 b           0 b           0 b    -117.92 Mb             1  
+                     aten::conv2d         0.04%     502.000us        92.61%        1.235s      61.747ms           0 b           0 b      47.51 Mb           0 b            20  
+                aten::convolution         0.04%     554.000us        92.57%        1.234s      61.722ms           0 b           0 b      47.51 Mb           0 b            20  
+               aten::_convolution         0.01%     106.000us        92.53%        1.234s      61.694ms           0 b           0 b      47.51 Mb           0 b            20  
+          aten::cudnn_convolution        92.52%        1.234s        92.52%        1.234s      61.689ms           0 b           0 b      47.51 Mb      47.51 Mb            20  
+                       aten::add_         0.15%       1.999ms         0.15%       1.999ms      71.393us           0 b           0 b           0 b           0 b            28  
+                 aten::batch_norm         0.01%     173.000us         6.51%      86.846ms       4.342ms           0 b           0 b      47.41 Mb      11.49 Mb            20  
+     aten::_batch_norm_impl_index         0.02%     317.000us         6.51%      86.820ms       4.341ms           0 b           0 b      47.41 Mb           0 b            20  
+           aten::cudnn_batch_norm         6.42%      85.571ms         6.49%      86.503ms       4.325ms           0 b           0 b      47.41 Mb      11.00 Kb            20  
+                 aten::empty_like         0.01%      82.000us         0.07%     874.000us      43.700us           0 b           0 b      47.37 Mb           0 b            20  
+---------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  
+Self CPU time total: 1.334s
+

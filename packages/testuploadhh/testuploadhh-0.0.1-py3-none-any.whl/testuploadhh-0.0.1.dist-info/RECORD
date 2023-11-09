@@ -1,0 +1,10 @@
+testforpypi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+testforpypi/cos/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+testforpypi/cos/hh_cos.py,sha256=ScGCW79_-sCFtqLQwkrdrRxM3qXWTAe8RmMi33naz2I,491
+testforpypi/sin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+testforpypi/sin/hh_sin.py,sha256=qSbBdNY6cROI7q2ckbnVScL7HxozcDDtXaohiv5971g,75
+testuploadhh-0.0.1.dist-info/LICENSE.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+testuploadhh-0.0.1.dist-info/METADATA,sha256=K2hcgP71Xy21olN8-mPR5DPoHT7iVybkTWlwgFO-NR0,461
+testuploadhh-0.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+testuploadhh-0.0.1.dist-info/top_level.txt,sha256=offprGel1dr9aqVeh3VBfyoRNKuLODHYx4VOwnWZlWY,12
+testuploadhh-0.0.1.dist-info/RECORD,,

@@ -1,0 +1,14 @@
+MANIFEST.in
+requirements.txt
+setup.cfg
+setup.py
+llamy/.pypirc
+llamy/__init__.py
+llamy/cli.py
+llamy/get_banner.py
+llamy.egg-info/PKG-INFO
+llamy.egg-info/SOURCES.txt
+llamy.egg-info/dependency_links.txt
+llamy.egg-info/entry_points.txt
+llamy.egg-info/requires.txt
+llamy.egg-info/top_level.txt

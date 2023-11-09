@@ -1,0 +1,40 @@
+name: Build and test BSB
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    if: github.event_name == 'push' || github.event.pull_request.head.repo.full_name != github.repository
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.9", "3.10", "3.11", "3.12"]
+    steps:
+    - uses: actions/checkout@v3.5.0
+
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v4.3.0
+      with:
+        python-version: ${{ matrix.python-version }}
+
+    - name: Install apt dependencies
+      run: |
+        sudo apt update
+        # Install `libopenmpi` for MPI
+        sudo apt install openmpi-bin libopenmpi-dev
+        # Install `libhdf5` for `morphio`
+        sudo apt install libhdf5-dev
+
+    - name: Install dependencies & self
+      run: |
+        # Install latest pip
+        pip install --upgrade pip
+        # Install bsb-core
+        pip install .[test,mpi]
+
+    - name: Run tests & coverage
+      run: |
+        coverage run -p -m unittest discover -v -s ./tests
+        mpiexec -n 2 coverage run -p -m unittest discover -v -s ./tests
+        BSB_PROFILING=TRUE coverage run -p -m unittest tests.test_env_options
+        bash <(curl -s https://codecov.io/bash)

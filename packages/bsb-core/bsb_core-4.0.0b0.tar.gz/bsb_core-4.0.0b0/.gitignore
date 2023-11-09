@@ -1,0 +1,30 @@
+__pycache__/
+*.gdf
+*.pyc
+*.hdf5
+*.swc
+*.h5
+*.json
+build/
+dist/
+bsb-*/
+*.egg-info/
+pip-wheel-metadata/
+.python-version
+venv/
+dev_env/
+test_env/
+nrnmech.dll
+.coverage
+htmlcov/
+!morphologies.hdf5
+# Ignore report files
+*.io
+.vscode/
+.idea/
+bsb-*/
+
+
+# Merge note: NRRD & jupyter checkpoints
+*.nrrd
+.ipynb_checkpoints

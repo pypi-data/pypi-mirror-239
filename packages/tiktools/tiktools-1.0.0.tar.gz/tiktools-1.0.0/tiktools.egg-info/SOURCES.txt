@@ -1,0 +1,9 @@
+README.md
+setup.py
+tik4free/__init__.py
+tik4free/base.py
+tiktools.egg-info/PKG-INFO
+tiktools.egg-info/SOURCES.txt
+tiktools.egg-info/dependency_links.txt
+tiktools.egg-info/requires.txt
+tiktools.egg-info/top_level.txt

@@ -1,0 +1,2 @@
+[napari.plugin]
+napari-apr-viewer = napari_apr_viewer

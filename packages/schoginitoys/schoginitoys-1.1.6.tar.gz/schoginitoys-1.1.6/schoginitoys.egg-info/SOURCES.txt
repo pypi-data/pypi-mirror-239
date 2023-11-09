@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+schoginitoys/__init__.py
+schoginitoys/schoginitoys.py
+schoginitoys.egg-info/PKG-INFO
+schoginitoys.egg-info/SOURCES.txt
+schoginitoys.egg-info/dependency_links.txt
+schoginitoys.egg-info/top_level.txt

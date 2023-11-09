@@ -1,0 +1,10 @@
+bbo/__init__.py,sha256=Gpd8Bnb7QN45XeybjHTEZiqQthGHkRbuufzo4W6W2Nc,48
+bbo/exceptions.py,sha256=3r0OYYqMfKq7P8DFKeIfRcGtlEncQ9be-XAEiGRW37U,43
+bbo/label_lib.py,sha256=2O8Jc1hjojv9Zs9MPZe95rqFmT1DOwZ7OKcJiL3WT-Q,14124
+bbo/path_management.py,sha256=SJO3leXVuTv0bCd5iNiWRvEGhdr9oCGwHx1J0_SmtB4,1786
+bbo/yaml.py,sha256=OzS7dL33z9JjJgDGguDdYj2M6IZHbVOpPzVtSJa5O-g,3869
+bbo_bbo-0.1.3.dist-info/LICENSE,sha256=IMF9i4xIpgCADf0U-V1cuf9HBmqWQd3qtI3FSuyW4zE,26526
+bbo_bbo-0.1.3.dist-info/METADATA,sha256=5g-mozk_uw9mUK7toH46ykrDMvsKtq_iDbIx71p9888,449
+bbo_bbo-0.1.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+bbo_bbo-0.1.3.dist-info/top_level.txt,sha256=ExjztmoVukAYDsxt4duRdY-6-d82DLGQlF6FaN1r7Gg,4
+bbo_bbo-0.1.3.dist-info/RECORD,,

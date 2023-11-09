@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+CRISPR_TAPE/__init__.py
+CRISPR_TAPE/__main__.py
+CRISPR_TAPE/general_function.py
+CRISPR_TAPE/shared_functions.py
+CRISPR_TAPE/specific_function.py
+CRISPR_TAPE.egg-info/PKG-INFO
+CRISPR_TAPE.egg-info/SOURCES.txt
+CRISPR_TAPE.egg-info/dependency_links.txt
+CRISPR_TAPE.egg-info/requires.txt
+CRISPR_TAPE.egg-info/top_level.txt

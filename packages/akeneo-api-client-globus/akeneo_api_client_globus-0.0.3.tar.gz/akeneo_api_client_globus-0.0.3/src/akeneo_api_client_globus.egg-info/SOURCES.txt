@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/akeneo_api_client_globus/akeneo_api_client.py
+src/akeneo_api_client_globus/akeneo_api_client_utils.py
+src/akeneo_api_client_globus.egg-info/PKG-INFO
+src/akeneo_api_client_globus.egg-info/SOURCES.txt
+src/akeneo_api_client_globus.egg-info/dependency_links.txt
+src/akeneo_api_client_globus.egg-info/top_level.txt

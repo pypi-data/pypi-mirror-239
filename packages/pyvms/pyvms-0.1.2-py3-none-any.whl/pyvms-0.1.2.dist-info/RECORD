@@ -1,0 +1,14 @@
+pyvms/ConfigSocket.py,sha256=xU4hGci0Y1yunM5hFHsfvf8j4DF8ll6EbFi4RVlH9rA,7819
+pyvms/Crc32.py,sha256=JDcWhMJax_VzesdqevEQ_EeDQNg1j_oPYuBtwjm5xPk,4355
+pyvms/DbMySql.py,sha256=F0QsoSJctdCqDwHykoH2rXpcJy7aNfpBUrFHVu7kQL4,5265
+pyvms/Discovery.py,sha256=gaF4jZPa2dwkv26KNTaYgIt7NLqFiatlUYjIvTj2pBA,6686
+pyvms/Protocol.py,sha256=wawGcY7w1EP1S09gALx7c7g2vrlNPT9gi2UwwuHWZhA,12288
+pyvms/Regs.py,sha256=ZmIIbyRMxhYddXetPLCTZ1CrL_V6EHK7TNOAkvO_7rs,5622
+pyvms/TimeSocket.py,sha256=BMwIdeYO1aDpPClO7JaHdeQst44nNVNEi8gbhzKTWGE,1886
+pyvms/TimeStats.py,sha256=isu4UakgHlBs4A2dYhPEUZE76syDwTF98c9nCI3R8aQ,1652
+pyvms/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyvms-0.1.2.dist-info/LICENSE,sha256=Y8T9N-1ibpcBA-792Oj7cywmAip4gsw3rMxVZeVFprw,1098
+pyvms-0.1.2.dist-info/METADATA,sha256=Yq6LkeXqc86Gy9Zs15ZBlJwP1gCpij_JiW56s-zPufI,778
+pyvms-0.1.2.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+pyvms-0.1.2.dist-info/top_level.txt,sha256=nmojXzsDLQqk6BMdku7sAzIayKbs-rTfLmyILMz-tHI,6
+pyvms-0.1.2.dist-info/RECORD,,

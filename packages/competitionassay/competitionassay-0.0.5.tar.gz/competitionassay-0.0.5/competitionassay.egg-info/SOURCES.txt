@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+CompetitionAssay/__init__.py
+CompetitionAssay/binarization.py
+CompetitionAssay/datahandling.py
+CompetitionAssay/denoising.py
+CompetitionAssay/quantification.py
+CompetitionAssay/visualization.py
+competitionassay.egg-info/PKG-INFO
+competitionassay.egg-info/SOURCES.txt
+competitionassay.egg-info/dependency_links.txt
+competitionassay.egg-info/requires.txt
+competitionassay.egg-info/top_level.txt

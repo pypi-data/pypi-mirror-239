@@ -1,0 +1,12 @@
+imspy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imspy/chemistry.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imspy/data.py,sha256=Pg-fqrPmIv3b7-wDQd0sEqz53qTxCq0gGBC_43TRa8U,190
+imspy/frame.py,sha256=2nHB1aP_90B-S0ZELRO_ZRWwmsHXXuvBlZVilMYM2eg,12246
+imspy/handle.py,sha256=2i-onHVEts8fFIfqI93Q7Qe_1e6lid35xAuRNvb4AwI,4714
+imspy/mixture.py,sha256=zvoCbHXSEOywAuczsMAofGEDB62cNKrgCNz9nXl4oPo,6364
+imspy/slice.py,sha256=l1Stwvlqo_Oc7fXTykTa9QhiCTTcZszIma3XW4xwejM,12815
+imspy/spectrum.py,sha256=n1PkyYge3lP1BtS4tjYKJVsBFflNoVkaYSyywT_iuMM,11981
+imspy/utilities.py,sha256=NJyw0urgLVa3TvPkZJQh2tUbJCKS-2QEHgycWmvHQrM,120
+imspy-0.2.5.dist-info/METADATA,sha256=eticCi-67wLFr7EFjZq62NxqTGZ1ra8MMSoRrQIl68Q,536
+imspy-0.2.5.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+imspy-0.2.5.dist-info/RECORD,,

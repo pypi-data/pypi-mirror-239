@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.py
+testforpypi/__init__.py
+testforpypi/cos/__init__.py
+testforpypi/cos/hh_cos.py
+testforpypi/sin/__init__.py
+testforpypi/sin/hh_sin.py
+testuploadhh.egg-info/PKG-INFO
+testuploadhh.egg-info/SOURCES.txt
+testuploadhh.egg-info/dependency_links.txt
+testuploadhh.egg-info/top_level.txt

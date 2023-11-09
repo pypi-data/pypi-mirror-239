@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+version = "0.5"
+name = "simple-logging-setup"
+description = "Nice and simple log formatting for the standard library"
+
+authors = [
+  { name="Florian Scherf", email="mail@florianscherf.de" },
+]
+
+license = { file="LICENSE.txt" }
+readme = "README.md"
+
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+]
+
+
+[project.optional-dependencies]
+dev = [
+  "build",
+  "twine",
+  "rlpython",
+]
+
+
+[project.urls]
+"Homepage" = "https://github.com/fscherf/simple-logging-setup"
+"Repository" = "https://github.com/fscherf/simple-logging-setup"
+"Bug Tracker" = "https://github.com/fscherf/simple-logging-setup/issues"
+
+
+[tool.setuptools.packages.find]
+include = ['simple_logging_setup*']
+
+
+[tool.setuptools.exclude-package-data]
+"*" = [
+  ".*",
+  "~*",
+  "*.swp",
+  "*.pyc",
+]

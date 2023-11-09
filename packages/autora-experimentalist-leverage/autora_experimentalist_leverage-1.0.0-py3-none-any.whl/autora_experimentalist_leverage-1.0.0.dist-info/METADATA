@@ -1,0 +1,91 @@
+Metadata-Version: 2.1
+Name: autora-experimentalist-leverage
+Version: 1.0.0
+Summary: Experimentalist that uses statistical leverage to determine the next data to sample.
+Author-email: Chad Williams <chad_williams@brown.edu>
+License: MIT License
+        
+        Copyright (c) 2023 Autonomous Empirical Research Initiative
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: homepage, http://www.empiricalresearch.ai
+Project-URL: repository, https://github.com/AutoResearch/autora-experimentalist-leverage
+Project-URL: documentation, https://autoresearch.github.io/autora/
+Requires-Python: <4,>=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: autora-core >=3.1.0
+Requires-Dist: scikit-learn
+Provides-Extra: dev
+Requires-Dist: autora-core[dev] ; extra == 'dev'
+
+# The Leverage Experimentalist
+
+This experimentalist uses the statistical concept of leverage by refitting the provided models iteratively with the leave-one-out method. 
+
+---
+WARNING: 
+This experimentalist needs to fit each model you provide it n times, where n corresponds to the number of datapoints you have. 
+As such, the computational time and power needed to run this experimentalist increases exponentially with increasing number of models and datapoints.
+
+---
+
+In each iteration, it computes the degree to which the currently removed datapoint has influence on the model. 
+If the model remains stable, the datapoint is deemed to have little influence on the model, and as such will have a low likelihood of being selected for further investigation.
+In contrast, if the model changes, the datapoint is influential on the model, and has a higher likelihood of being selected for further investigation.
+
+Specifically, you provide the experimentalist with a model that has been trained on all of the data. On each iteration, the experimentalist fits a new model with all data aside from one datapoint. 
+Both models ($m$) then predict Y scores ($Y'$) from the original X variable and compute a mean squared error (MSE) for each X score ($i$):
+
+$$MSE_{m,i} = \sum(Y'_{m,i} - Y_{i})^{2}$$    
+
+The experimentalist then computes a ratio of the MSE scores between the experimentalist model and the original model that you provided:
+
+$${MSE_{Ratio}}_{m,i} = {MSE_{experimentalist}}_{m,i}/{MSE_{original}}_{m}$$
+As such, values above one indicates that the original model fit the data better than the experimentalist model when removing that datapoint ($i$).
+In contrast, values below one indicates that the experimentalist model fit the data better than the original model when removing that datapoint ($i$).
+And a value of one indicates that both models fit the data equally. If you provide multiple models, it will then average across these models to result in an aggregate MSE score for each X score. In the future, it might be a good idea to incorporate multiple models in a more sophisticated way.
+
+Finally, the experimentalist then uses these aggregated ratios to select the next set of datapoints to explore in one of three ways, declared with the 'fit' parameter.
+    -'increase' will choose samples focused on X scores where the fits got better (i.e., the smallest MSE ratios)
+    -'decrease' will choose samples focused on X scores where the fits got worse (i.e., the largest MSE ratios)
+    -'both' will do both of the above, or in other words focus on X scores with the most extreme scores.
+
+
+# Example Code
+```
+from autora.experimentalist.leverage import leverage_sample
+from autora.theorist.darts import DARTSRegressor; DARTSRegressor()
+from sklearn.linear_model import LogisticRegression
+
+#Meta-Setup
+X = np.linspace(start=-3, stop=6, num=10).reshape(-1, 1)
+y = (X**2).reshape(-1, 1)
+n = 5
+
+#Theorists
+darts_theorist = DARTSRegressor()
+lr_theorist = LogisticRegression()
+darts_theorist.fit(X,y)
+lr_theorist.fit(X,y)
+
+#Experimentalist
+X_new = leverage_sample(X, y, [darts_theorist, lr_theorist], fit = 'both', num_samples = n)
+```

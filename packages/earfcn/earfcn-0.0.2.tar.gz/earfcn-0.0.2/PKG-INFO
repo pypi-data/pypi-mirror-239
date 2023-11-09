@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: earfcn
+Version: 0.0.2
+Summary: Convert LTE EARFCN to frequency, or frequency to EARFCN.
+Home-page: https://gitlab.com/alexander_marder/earfcn
+Author: Alex Marder
+Requires-Python: >3.6
+Description-Content-Type: text/markdown
+
+# earfcn
+
+Convert downlink EARFCN to frequency and vice versa.
+EARFCN -> frequency converts to MHz.
+frequency -> EARFCN can take Hz or MHz as input.
+
+Multiple EARFCNs map to the same downlink frequency, so freq2earfcn returns a list of possible (band, EARFCN) values.
+
+## Examples
+```python
+from earfcn.convert import earfcn2freq, earfcn2band, freq2earfcn
+
+earfcn2freq(3350)  # 2680.0
+earfcn2band(3350)  # 7
+freq2earfcn(2680)  # [(7, 3350), (41, 41490)]
+```
+
+## Command Line Tools
+Installing this package also installs two command line utilities `earfcn2freq` and `freq2earfcn`.
+Each takes one argument and outputs to stdout.
+
+```shell
+earfcn2freq 3350
+```
+```
+2680.0
+```
+
+```shell
+freq2earfcn 2680
+```
+```
+band=7, earfcn=3350
+band=41, earfcn=41490
+```

@@ -1,0 +1,1 @@
+-L/tmp/cmeel-srzeoyjj/whl/cmeel.prefix/lib -lClpSolver -lClp -L/tmp/pip-build-env-mowr7rd4/overlay/lib/python3.11/site-packages/cmeel.prefix/lib/pkgconfig/../../lib -lCoinUtils -lbz2 -lz -lm 

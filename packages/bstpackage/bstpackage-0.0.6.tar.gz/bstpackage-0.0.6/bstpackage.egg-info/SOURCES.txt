@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+bstpackage/__init__.py
+bstpackage/__main__.py
+bstpackage/generateBST.py
+bstpackage.egg-info/PKG-INFO
+bstpackage.egg-info/SOURCES.txt
+bstpackage.egg-info/dependency_links.txt
+bstpackage.egg-info/entry_points.txt
+bstpackage.egg-info/requires.txt
+bstpackage.egg-info/top_level.txt
+tests/test_.py

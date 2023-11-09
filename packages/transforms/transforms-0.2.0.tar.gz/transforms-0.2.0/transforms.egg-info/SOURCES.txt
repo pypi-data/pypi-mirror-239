@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+transforms/__init__.py
+transforms/safe_html.py
+transforms/safe_html_utils.py
+transforms/utils.py
+transforms.egg-info/PKG-INFO
+transforms.egg-info/SOURCES.txt
+transforms.egg-info/dependency_links.txt
+transforms.egg-info/top_level.txt

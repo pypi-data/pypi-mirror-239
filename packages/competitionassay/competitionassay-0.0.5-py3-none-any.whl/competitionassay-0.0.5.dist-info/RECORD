@@ -1,0 +1,11 @@
+CompetitionAssay/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+CompetitionAssay/binarization.py,sha256=ogEgqAKWnx3ob3A0ulx3xPHb12Th8RXlkscGb8D8kzA,2710
+CompetitionAssay/datahandling.py,sha256=dNLx6t5MjyCgzvhCESZfIFPtjW1jt9R2eUjNXjLLW84,2724
+CompetitionAssay/denoising.py,sha256=doEWFlR09GuxTspbu_nne3xFch6sRroz6RgVv6HvveE,1404
+CompetitionAssay/quantification.py,sha256=5wy1Md8XO4gdQrTi75drW_o8uHXo9xLDFIu8iMtOZkg,5888
+CompetitionAssay/visualization.py,sha256=g0OS-tFtCYH0OJ58LByzZT1TqJJD5RF05XtKPSCFoq0,7628
+competitionassay-0.0.5.dist-info/LICENSE,sha256=Y8ox1MAUmjN2X_J_S0Mjs43mL7k-fA6mQ4NFAl_X60k,1069
+competitionassay-0.0.5.dist-info/METADATA,sha256=34AaVl4dbAID_G6e_Kwjsw1N2UUDWVSWREJUpUNZDng,19603
+competitionassay-0.0.5.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+competitionassay-0.0.5.dist-info/top_level.txt,sha256=AjD48xLZuO1FPH8-wFMqQ62-Qap21rR59KXsq8i14tk,17
+competitionassay-0.0.5.dist-info/RECORD,,

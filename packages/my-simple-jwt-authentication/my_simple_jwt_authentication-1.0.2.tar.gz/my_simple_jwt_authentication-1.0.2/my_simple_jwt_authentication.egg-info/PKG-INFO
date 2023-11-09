@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: my-simple-jwt-authentication
+Version: 1.0.2
+Summary: A simple jwt authenticaion module.
+Author: Mahdi Abrishami
+Author-email: mabrishami00@gmail.com
+License: MIT
+Keywords: jwt authentication
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+License-File: LICENSE.txt

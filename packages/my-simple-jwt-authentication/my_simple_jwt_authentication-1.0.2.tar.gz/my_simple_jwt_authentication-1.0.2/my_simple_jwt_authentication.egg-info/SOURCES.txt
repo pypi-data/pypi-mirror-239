@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+my_simple_jwt_auth/__init__.py
+my_simple_jwt_auth/my_simple_jwt_auth.py
+my_simple_jwt_authentication.egg-info/PKG-INFO
+my_simple_jwt_authentication.egg-info/SOURCES.txt
+my_simple_jwt_authentication.egg-info/dependency_links.txt
+my_simple_jwt_authentication.egg-info/requires.txt
+my_simple_jwt_authentication.egg-info/top_level.txt

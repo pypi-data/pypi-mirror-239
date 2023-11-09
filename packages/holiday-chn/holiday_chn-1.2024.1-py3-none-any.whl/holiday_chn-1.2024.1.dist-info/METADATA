@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: holiday-chn
+Version: 1.2024.1
+Summary: This package provides judgment on Chinese holidays and outputs the dates of all holidays.By using it, one can determine whether a certain date is a holiday and obtain the working days or holidays of a certain year.
+Author: lytcreate
+Author-email: lytcreate@163.com
+License: ZPL 2.1
+

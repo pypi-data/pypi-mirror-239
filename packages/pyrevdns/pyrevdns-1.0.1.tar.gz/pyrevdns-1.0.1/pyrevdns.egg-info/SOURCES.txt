@@ -1,0 +1,13 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.py
+pyrevdns/__init__.py
+pyrevdns/__main__.py
+pyrevdns/arg_parser.py
+pyrevdns/pyrevdns.py
+pyrevdns.egg-info/PKG-INFO
+pyrevdns.egg-info/SOURCES.txt
+pyrevdns.egg-info/dependency_links.txt
+pyrevdns.egg-info/requires.txt
+pyrevdns.egg-info/top_level.txt

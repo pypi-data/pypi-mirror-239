@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: teamcity-messages-extra
+Version: 0.1.0
+Summary: Python Unit Test Reporting to TeamCity (EXTENDED)
+Author-email: Filipe Pina <fopina@duck.com>
+License: MIT
+Keywords: unittest,teamcity,test,nose,behave,flake8,py.test,pytest,jetbrains
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Testing
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: teamcity-messages ==1.32
+Provides-Extra: dev
+Requires-Dist: black <24,>=23 ; extra == 'dev'
+Requires-Dist: pytest <8,>=7 ; extra == 'dev'
+Requires-Dist: pytest-cov <5,>=4 ; extra == 'dev'
+

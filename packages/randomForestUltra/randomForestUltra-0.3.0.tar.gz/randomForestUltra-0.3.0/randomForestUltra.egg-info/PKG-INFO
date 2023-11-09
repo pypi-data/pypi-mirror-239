@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: randomForestUltra
+Version: 0.3.0
+Summary: 2023-11-08 20:14:44It supports multi-objective variable and multi-fold random forest, and can calculate P value through random permutation.
+Author: Haiyang Hou
+Author-email: 2868582991@qq.com
+License: UNKNOWN
+Keywords: random forest,multi-fold,multi-objective,P value
+Platform: UNKNOWN
+Requires-Python: >=3.7
+License-File: LICENSE
+
+UNKNOWN
+

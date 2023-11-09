@@ -1,0 +1,17 @@
+.gitignore
+.gitlab-ci.yml
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+src/aap/__init__.py
+src/aap/__main__.py
+src/aap/base.py
+src/aap/endpoints.py
+src/aap/mixins.py
+src/python_aap.egg-info/PKG-INFO
+src/python_aap.egg-info/SOURCES.txt
+src/python_aap.egg-info/dependency_links.txt
+src/python_aap.egg-info/entry_points.txt
+src/python_aap.egg-info/requires.txt
+src/python_aap.egg-info/top_level.txt

@@ -1,0 +1,93 @@
+before_script:
+  - virtualenv --python=python3.8 venv --system-site-packages
+  - source venv/bin/activate
+  - pip3 install -r requirements.txt
+
+stages:
+ - validate
+ - test
+ - build
+ - publish
+
+.base:
+  cache:
+    paths:
+      - venv
+
+code style check:
+  extends: .base
+  stage: validate
+  script:
+   - pip3 install --upgrade pycodestyle
+   - pycodestyle --max-line-length=120 src/aap
+  allow_failure: true
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      changes:
+        paths:
+          - src/aap/*
+
+basic tests:
+  extends: .base
+  stage: test
+  script:
+   - echo "Not yet implemented"
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      changes:
+        paths:
+          - src/aap/*
+
+example test:
+  extends: .base
+  stage: test
+  script:
+   - PYTHONPATH="$(pwd)/src" python3 -m aap --id 7848 -l sw01-dist.itdev --insecure run-job --ignore-fail --tags tag1,tag2
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      changes:
+        paths:
+          - src/aap/*
+
+build job:
+  extends: .base
+  stage: build
+  script:
+   - pip3 install --upgrade build[virtualenv]
+   - python3 -m build
+  artifacts:
+    when: on_success
+    expire_in: "1h"
+    paths:
+     - dist/
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+      changes:
+        paths:
+          - pyproject.toml  
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+      when: manual
+
+push to test pypi:
+  extends: .base
+  stage: publish
+  dependencies:
+    - build job
+  script:
+   - pip3 install --upgrade twine
+   - python3 -m twine upload --repository testpypi -u __token__ -p $TESTPYPI_TOKEN dist/*
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+      when: on_success
+
+push to pypi:
+  extends: .base
+  stage: publish
+  dependencies:
+    - build job
+  script:
+   - pip3 install --upgrade twine
+   - python3 -m twine upload  -u __token__ -p $PYPI_TOKEN dist/*
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+      when: on_success

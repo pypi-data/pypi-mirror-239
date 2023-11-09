@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: robotframework_adf_library
+Version: 0.0.4
+Summary: Library for Robot Framework in which to interface with Azure Data Factory
+Project-URL: Homepage, https://github.com/erikmeijer91/robotframework_adf_library
+Project-URL: Bug Tracker, https://github.com/erikmeijer91/robotframework_adf_library/issues
+Author-email: Erik Meijer <erik_meijer_14@hotmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
+Requires-Dist: azure-identity==1.12.0
+Requires-Dist: azure-mgmt-datafactory==2.10.0
+Requires-Dist: robotframework>=6.0.0
+Description-Content-Type: text/markdown
+
+# Example Package
+
+This is a simple example package. You can use
+[GitHub-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.

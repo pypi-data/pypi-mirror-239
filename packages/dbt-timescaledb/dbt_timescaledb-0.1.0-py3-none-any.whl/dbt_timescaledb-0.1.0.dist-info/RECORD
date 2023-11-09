@@ -1,0 +1,10 @@
+dbt/adapters/timescaledb/__init__.py,sha256=roVNrhTaVeLT26AiIxNtY9_S1oR1ofhF1knk3lIXdvw,569
+dbt/adapters/timescaledb/__version__.py,sha256=C3BRWidYz52Hz7Nw1wMhsEwdju_NsMr2phBRGLgnuVE,17
+dbt/adapters/timescaledb/impl.py,sha256=82T3yHvEC0doledLdagjMAMqBRwnF0m3WRnYG0jQz2w,104
+dbt/include/timescaledb/__init__.py,sha256=vBGWeG-dHHkimfnX8axBJ4IgAowFw8xADmo6Auzn2xc,52
+dbt/include/timescaledb/dbt_project.yml,sha256=te0engmCAfwXpvhCfRb2C9xmmOtMwSvRPOAbgIxtAeI,80
+dbt/include/timescaledb/macros/.gitkeep,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dbt/include/timescaledb/profile_template.yml,sha256=M0sAtUpsxgbCwumhAfbXQ3P31tA52EPkzUgMQxSPTVQ,307
+dbt_timescaledb-0.1.0.dist-info/METADATA,sha256=UcFLkLJ9xss3u8KqeG5yP_R-ByBarYi1eco0yobawlQ,2142
+dbt_timescaledb-0.1.0.dist-info/WHEEL,sha256=C8f_gqhOWmHrh81n3Ukx5iURrqMhsHla81fuY1yuwvs,90
+dbt_timescaledb-0.1.0.dist-info/RECORD,,

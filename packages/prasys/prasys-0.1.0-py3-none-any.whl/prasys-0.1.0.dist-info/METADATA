@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: prasys
+Version: 0.1.0
+Summary: The project is for calculating and plotting performance and risk analysis for a portfolio of assets.
+Author: Edward Wall
+Author-email: ewallj@gmail.com
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+

@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+scDesign3Py/__init__.py
+scDesign3Py/_core.py
+scDesign3Py.egg-info/PKG-INFO
+scDesign3Py.egg-info/SOURCES.txt
+scDesign3Py.egg-info/dependency_links.txt
+scDesign3Py.egg-info/requires.txt
+scDesign3Py.egg-info/top_level.txt
+scDesign3Py/_utils/_errors.py
+scDesign3Py/_utils/_format.py
+scDesign3Py/tools/get_bpparam.py
+scDesign3Py/tools/lrt.py
+scDesign3Py/tools/plot.py

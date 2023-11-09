@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: pg_environment
+Version: 1.0.8
+Summary: python game: environment
+Author: baozilaji@gmail.com
+Requires-Python: >=3.9
+Requires-Dist: pg-common>=0

@@ -1,0 +1,6 @@
+include LICENSE.txt
+include README.rst
+prune demo
+prune docs
+prune testrender
+prune tests

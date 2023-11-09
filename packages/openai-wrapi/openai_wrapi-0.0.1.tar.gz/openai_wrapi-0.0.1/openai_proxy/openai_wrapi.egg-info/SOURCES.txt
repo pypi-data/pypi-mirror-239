@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+openai_proxy/openai_wrapi.egg-info/PKG-INFO
+openai_proxy/openai_wrapi.egg-info/SOURCES.txt
+openai_proxy/openai_wrapi.egg-info/dependency_links.txt
+openai_proxy/openai_wrapi.egg-info/not-zip-safe
+openai_proxy/openai_wrapi.egg-info/requires.txt
+openai_proxy/openai_wrapi.egg-info/top_level.txt

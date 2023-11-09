@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project]
+name = "funnygpt"
+version = "1.0.3"
+authors = [
+  { name="Luke Bernstein", email="lnb337@nyu.edu" },
+  { name="Angela Tao", email="xt2016@nyu.edu" },
+  { name="Charles Hu", email="cch9399@nyu.edu" },
+  { name="James Luo", email="jl11335@nyu.edu" }
+]
+description = "A package for project 3 for stuytowners"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+
+[project.urls]
+"Homepage" = "https://github.com/software-students-fall2023/3-python-package-exercise-stuytowners/tree/main"

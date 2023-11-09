@@ -1,0 +1,10 @@
+{
+  "properties": {
+    "_sid": {
+      "type": "string"
+    },
+    "people__region": {
+      "type": "string"
+    }
+  }
+}

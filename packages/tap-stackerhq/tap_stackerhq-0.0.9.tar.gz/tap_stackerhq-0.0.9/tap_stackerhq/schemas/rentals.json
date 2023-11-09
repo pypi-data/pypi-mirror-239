@@ -1,0 +1,30 @@
+{
+  "properties": {
+    "_sid": {
+      "type": "string"
+    },
+    "rentals__end_rental": {
+      "type": ["string","null"],
+      "format": "date"
+    },
+    "rentals__start_rental": {
+      "type": "string",
+      "format": "date"
+    },
+    "rentals__vehicle": {
+      "type": "string"
+    },
+    "rentals__region": {
+      "type": "string"
+    },
+    "rentals__rental_id": {
+      "type": "string"
+    },
+    "rentals__curent_rental": {
+      "type": "string"
+    },
+    "rentals__rental_fee": {
+    "type": "number"
+    }
+  }
+}

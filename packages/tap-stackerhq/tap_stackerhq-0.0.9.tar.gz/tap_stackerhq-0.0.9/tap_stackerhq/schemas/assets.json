@@ -1,0 +1,51 @@
+{
+  "properties": {
+    "_sid": {
+      "type": "string"
+    },
+    "assets__warranty_expiration": {
+      "type": "string",
+      "format": "date"
+    },
+    "assets__placed_in_service": {
+      "type": ["number", "null"],
+      "nullable": true
+    },
+    "assets__useful_life": {
+      "type": "number"
+    },
+    "assets__residual_value": {
+      "type": "number"
+    },
+    "assets__purchase_price": {
+      "type": "number"
+    },
+    "assets__purchase_date": {
+      "type": ["string","null"],
+      "nullable": true,
+      "format": "date"
+    },
+    "assets__stock_id": {
+      "type": ["string", "null"],
+      "nullable": true
+    },
+    "assets__model_id": {
+      "type": "number"
+    },
+    "assets__batterij_kwh": {
+      "type": ["string","null"]
+    },
+    "assets__length": {
+      "type": "string"
+    },
+    "assets__brand": {
+      "type": "string"
+    },
+    "assets__name": {
+      "type": "string"
+    },
+    "assets__status": {
+      "type": "string"
+    }
+  }
+}

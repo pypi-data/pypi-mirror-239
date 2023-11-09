@@ -1,0 +1,14 @@
+MANIFEST.in
+requirements.txt
+setup.cfg
+setup.py
+baremagic/.pypirc
+baremagic/__init__.py
+baremagic/cli.py
+baremagic/get_banner.py
+baremagic.egg-info/PKG-INFO
+baremagic.egg-info/SOURCES.txt
+baremagic.egg-info/dependency_links.txt
+baremagic.egg-info/entry_points.txt
+baremagic.egg-info/requires.txt
+baremagic.egg-info/top_level.txt

@@ -1,0 +1,10 @@
+simple_logging_setup/__init__.py,sha256=ETYjOine2GeKCRHuQefA5t27u4YJwrv5Sc8o_BEa4UE,1330
+simple_logging_setup/configuration.py,sha256=wwq_mN38O5ikaZlBVwaHE_yLs0kAq0758So0OtvlVoA,3141
+simple_logging_setup/filter.py,sha256=Ybie_wMqzkbTGGNuE-8iehhukCDdgR66vAv_JLHKXmE,374
+simple_logging_setup/formatter.py,sha256=9WkisQ9zotTHwLjPjVrS9UYh1a8V7862va8XANru4y0,3526
+simple_logging_setup/platform.py,sha256=Jce-omDZpAsdEHPrZHiDYsuZ1Jm0TYPfhGnu3hVij1g,1003
+simple_logging_setup-0.5.dist-info/LICENSE.txt,sha256=3_BVfhgzpXNBbijF2zIt8WjDRGXEw7W87-joMNP8llo,1071
+simple_logging_setup-0.5.dist-info/METADATA,sha256=py3qY_wFf4NT8Uw1azBMig1T6sgpis3yjUJ1kxZ5XV4,6353
+simple_logging_setup-0.5.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+simple_logging_setup-0.5.dist-info/top_level.txt,sha256=NIF31mneZ9WpPidUkIaFhEzNrrT_beu_HyUndA4uZ10,21
+simple_logging_setup-0.5.dist-info/RECORD,,

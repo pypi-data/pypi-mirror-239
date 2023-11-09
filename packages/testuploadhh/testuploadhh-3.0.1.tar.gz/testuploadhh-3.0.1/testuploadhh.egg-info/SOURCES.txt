@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.py
+testuploadhh/__init__.py
+testuploadhh.egg-info/PKG-INFO
+testuploadhh.egg-info/SOURCES.txt
+testuploadhh.egg-info/dependency_links.txt
+testuploadhh.egg-info/top_level.txt
+testuploadhh/cos/__init__.py
+testuploadhh/cos/hh_cos.py
+testuploadhh/sin/__init__.py
+testuploadhh/sin/hh_sin.py

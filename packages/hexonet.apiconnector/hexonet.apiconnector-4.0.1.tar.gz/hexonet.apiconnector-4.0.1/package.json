@@ -1,0 +1,47 @@
+{
+  "name": "python-sdk",
+  "description": "Python SDK for the insanely fast HEXONET API",
+  "version": "0.0.0-development",
+  "private": true,
+  "author": {
+    "name": "Kai Schwarz",
+    "email": "kschwarz@hexonet.net"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.6.1"
+  },
+  "homepage": "https://github.com/centralnicgroup-opensource/rtldev-middleware-python-sdk",
+  "repository": "https://github.com/centralnicgroup-opensource/rtldev-middleware-python-sdk.git",
+  "bugs": "https://github.com/centralnicgroup-opensource/rtldev-middleware-python-sdk/issues",
+  "maintainers": [
+    {
+      "name": "Kai Schwarz",
+      "email": "kschwarz@hexonet.net"
+    }
+  ],
+  "keywords": [
+    "hexonet",
+    "domain",
+    "api",
+    "connector",
+    "isp",
+    "ispapi",
+    "ssl",
+    "cert",
+    "dns",
+    "backorder",
+    "premium",
+    "preregistration",
+    "registration",
+    "application"
+  ],
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/exec": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "gulp": "^4.0.2",
+    "rtldev-middleware-gulp-release-notification-plugin": "github:centralnicgroup-opensource/rtldev-middleware-gulp-release-notification-plugin",
+    "semantic-release": "^22.0.7"
+  }
+}

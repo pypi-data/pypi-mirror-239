@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: hexonet.apiconnector
+Version: 4.0.1
+Summary: hexonet.apiconnector is a connector library for the insanely fast HEXONET Backend API
+Author-email: Kai Schwarz <kschwarz@hexonet.net>
+Maintainer-email: Kai Schwarz <kschwarz@hexonet.net>
+License: MIT License
+        
+        Copyright (c) 2018 HEXONET
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: homepage, https://github.com/centralnicgroup-opensource/rtldev-middleware-python-sdk/
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: AUTHORS.md
+Requires-Dist: docutils<1,>=0
+Requires-Dist: sphinx-rtd-theme<2,>=1
+Requires-Dist: m2r2<1,>=0
+Requires-Dist: pytest-cov<5,>=2
+Requires-Dist: sphinx<8,>=3
+Requires-Dist: sphinxcontrib-log-cabinet<2,>=1
+Requires-Dist: sphinxcontrib-websupport<2,>=1
+Requires-Dist: twine<5,>=4
+Requires-Dist: black<24,>=23
+
+# python-sdk
+
+[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
+[![Build Status](https://github.com/centralnicgroup-opensource/rtldev-middleware-python-sdk/workflows/Release/badge.svg?branch=master)](https://github.com/centralnicgroup-opensource/rtldev-middleware-python-sdk/workflows/Release/badge.svg?branch=master)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/hexonet.apiconnector.svg)](https://www.python.org/)
+[![PyPI](https://img.shields.io/pypi/v/hexonet.apiconnector.svg)](https://pypi.org/project/hexonet.apiconnector/)
+[![Documentation Status](https://readthedocs.org/projects/hexonet-python-sdk/badge/?version=latest)](https://hexonet-python-sdk.readthedocs.io/en/latest/?badge=latest)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/centralnicgroup-opensource/rtldev-middleware-python-sdk/blob/master/CONTRIBUTING.md)
+
+This module is a connector library for the insanely fast HEXONET Backend API. For further informations visit our [homepage](http://hexonet.net) and do not hesitate to [contact us](https://www.hexonet.net/contact).
+
+## Resources
+
+- [Documentation](https://centralnicgroup-public.github.io/rtldev-middleware-documentation/docs/hexonet/sdks/python-sdk/)
+- [Release Notes](https://github.com/centralnicgroup-opensource/rtldev-middleware-python-sdk/releases)
+
+## Authors
+
+List of responsible developers can be found [here](https://github.com/centralnicgroup-opensource/rtldev-middleware-python-sdk/blob/master/AUTHORS.md)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

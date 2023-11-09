@@ -1,0 +1,10 @@
+testuploadhh/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+testuploadhh/cos/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+testuploadhh/cos/hh_cos.py,sha256=I-RojfNHiA-Je7f-4hXnB2G0Am6IjGNUPtbw8n4Kyd0,332
+testuploadhh/sin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+testuploadhh/sin/hh_sin.py,sha256=t9Lu7MJjyiTfI8NuSlFKNkD-QWpGrFecNxNq69ZrWN0,331
+testuploadhh-3.0.1.dist-info/LICENSE.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+testuploadhh-3.0.1.dist-info/METADATA,sha256=2A9j3XPwVK1P-h4QJNjbZY6UIldTh_yhMOfTkLpWipM,461
+testuploadhh-3.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+testuploadhh-3.0.1.dist-info/top_level.txt,sha256=eLseTN9GGCxJ3IPRihqu-ysHS5KpCdQlh_21FeUtaxo,13
+testuploadhh-3.0.1.dist-info/RECORD,,

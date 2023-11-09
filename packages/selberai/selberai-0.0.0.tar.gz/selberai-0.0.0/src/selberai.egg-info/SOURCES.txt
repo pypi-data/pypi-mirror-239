@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+src/selberai/__init__.py
+src/selberai.egg-info/PKG-INFO
+src/selberai.egg-info/SOURCES.txt
+src/selberai.egg-info/dependency_links.txt
+src/selberai.egg-info/requires.txt
+src/selberai.egg-info/top_level.txt
+src/selberai/data/__init__.py
+src/selberai/data/download_data.py
+src/selberai/data/load_data.py
+src/selberai/data/upload_data.py

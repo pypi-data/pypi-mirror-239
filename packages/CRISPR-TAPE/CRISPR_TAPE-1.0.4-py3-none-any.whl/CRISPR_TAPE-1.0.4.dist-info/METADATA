@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: CRISPR-TAPE
+Version: 1.0.4
+Summary: A protein-centric CRISPR gRNA design tool for TArgeted Protein Engineering
+Home-page: https://github.com/LaboratoryChild/CRISPR-TAPE
+Author: Daniel Anderson
+Author-email: 
+License: Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International Public License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Existing CRIPSR gRNA design tools target protein-coding regions within genomic loci and non-specifically target the entire input region of DNA. Current tools fail to consider proteomic-based applications, so CRISPR-TAPE has been developed to reduce the substantial time burden associated with manual curation of gRNA libraries and empower the proteomics community.

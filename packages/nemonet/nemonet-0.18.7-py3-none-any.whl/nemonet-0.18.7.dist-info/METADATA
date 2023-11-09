@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: nemonet
+Version: 0.18.7
+Summary: Visual testing framework. Combining selenium and computer vision.
+License: MIT
+Author: Jan Rummens
+Author-email: jan.rummens@nemo.be
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: beautifulsoup4 (>=4.12.2,<5.0.0)
+Requires-Dist: chardet (>=5.2.0,<6.0.0)
+Requires-Dist: graphviz (>=0.20.1,<0.21.0)
+Requires-Dist: h5py (>=3.10.0,<4.0.0)
+Requires-Dist: imagehash (>=4.3.1,<5.0.0)
+Requires-Dist: imutils (>=0.5.4,<0.6.0)
+Requires-Dist: lxml (>=4.9.3,<5.0.0)
+Requires-Dist: opencv-python (>=4.8.1.78,<5.0.0.0)
+Requires-Dist: pillow (>=10.1.0,<11.0.0)
+Requires-Dist: scikit-image (>=0.22.0,<0.23.0)
+Requires-Dist: selenium (>=4.15.2,<5.0.0)
+Description-Content-Type: text/markdown
+
+# Vision (beta version)
+Visual testing framework. Combining selenium and computer vision.
+
+<a href="https://www.nemonet.io" target="_blank">Vision</a>
+
+## What is Vision?
+```
+It is a web app testing framework that combines selenium and computer vision written in python.
+
+There are several good selenium automation frameworks out there. Why then make another one? 
+- Most of the better frameworks are not free for use.
+- Most frameworks are selenium only.
+- I needed a framework that is open source.
+- I needed a framework that needs minimal coding
+```
+## Getting started
+### Before installation
+- Python is installed on your system
+- Chrome web browser installed <a href="https://www.google.com/intl/en/chrome/" target="_blank">`Download Chrome`</a>
+- Chrome web driver installed <a href="https://chromedriver.chromium.org/downloads" target="_blank">`ChromeDriver - WebDriver for Chrome`</a>
+- test if you can start the web browser
+- test if you can start chromedriver from commandline
+- best  to install the package under <a href="https://docs.python.org/3.6/library/venv.html" target="_blank">`python virtual environment`</a> 
+- install https://graphviz.org  
+- install <a href="https://www.google.com/intl/en/chrome/" target="_blank">`Graphviz for your environment`</a>
+
+[Install details](install.md)
+
+### Installation
+```
+pip install nemonet
+```
+
+## Run example
+- open a command prompt
+- clone following repo : git clone https://github.com/janrum/visiontestfiles.git
+- cd into visiontestfiles
+- vision selenium-dev
+

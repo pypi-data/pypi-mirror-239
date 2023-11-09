@@ -1,0 +1,15 @@
+dacwinapi/__init__.py,sha256=5lbJQ_A4ROF5Hr6quSyn14Me6xdSQ1I1i6lKUI3Yb1w,296
+dacwinapi/appuser.py,sha256=C9XAVpqtMxHWyFlJviQzhsuljcMZDD5bPcf7GaSbCSI,2268
+dacwinapi/base.py,sha256=cX3I4wZ7LXl2X3Fow82XgGlg9VWAGTdh9qEqHtN4ocI,1306
+dacwinapi/campaign.py,sha256=VhJ9v45RhKqKxZd3nvTP9isJhkGohQX5npDnvsqV91s,581
+dacwinapi/event.py,sha256=EGokw9FJ-KpprjN28XgjUBsI1fyj3dHioqZPz-d3b_o,1460
+dacwinapi/reward.py,sha256=DspiSEZO35BxvG2xnzQR1ilsVZpkrgVkhUl6j-o-0Uo,682
+dacwinapi/utils/Class.py,sha256=C_PBbjTnGwCjB_EiL-FHnENCQGMRDE4R-81LA2ILxWI,425
+dacwinapi/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dacwinapi/utils/constants.py,sha256=41bmeA55SSvBoqDnAcWt7WuMswrwYt3Xg8ew7xYv1bc,67
+dacwinapi/utils/models.py,sha256=pz7ODtR87DYmSbdyglPJiBDqQx4Ik8hVajejhSnkcZ4,4002
+dacwinapi-2.2.0.dist-info/LICENSE,sha256=ca-sV5RoU__dZ4g5wLYIExVYsttrFV_Xb5fAhKipaVY,1072
+dacwinapi-2.2.0.dist-info/METADATA,sha256=VtXQ84eWmtxxB19cJQu9KZDVV8c85oVamze8f1LSZoQ,3216
+dacwinapi-2.2.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+dacwinapi-2.2.0.dist-info/top_level.txt,sha256=PsVbPXZp-HVuWS6aljG5coO0el8yo5Rj_cf48-xdd-k,10
+dacwinapi-2.2.0.dist-info/RECORD,,

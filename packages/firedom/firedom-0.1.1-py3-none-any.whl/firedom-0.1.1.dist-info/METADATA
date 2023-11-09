@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: firedom
+Version: 0.1.1
+Summary: Simple Firestore ORM
+Home-page: https://github.com/afuenzalida/firedom
+Author: Andrés Fuenzalida
+Author-email: a.fuenzalida1494@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.11
+License-File: LICENSE
+Requires-Dist: google-cloud-firestore >=2.13.1
+

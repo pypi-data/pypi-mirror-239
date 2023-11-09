@@ -1,0 +1,4 @@
+typing-extensions<5,>=4
+iso8601
+pytz
+httpx==0.23.0

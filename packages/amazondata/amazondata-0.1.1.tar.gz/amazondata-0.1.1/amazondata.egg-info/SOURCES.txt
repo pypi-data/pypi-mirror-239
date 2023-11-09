@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.py
+amazondata/__init__.py
+amazondata/product_details_extractor.py
+amazondata/search_result_extractor.py
+amazondata.egg-info/PKG-INFO
+amazondata.egg-info/SOURCES.txt
+amazondata.egg-info/dependency_links.txt
+amazondata.egg-info/requires.txt
+amazondata.egg-info/top_level.txt

@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: edx-sysadmin
+Version: 0.3.0
+Summary: An Open edX plugin to enable SysAdmin panel
+Author: MIT Office of Digital Learning
+License: BSD-3-Clause
+Keywords: Python edx
+Requires-Python: >=3.8
+Requires-Dist: Django (>2.0)
+Requires-Dist: celery (>=4.4.7)
+Requires-Dist: djangorestframework (<4.0.0,>=3.14.0)
+Requires-Dist: gitpython (<4.0.0,>=3.1.37)
+

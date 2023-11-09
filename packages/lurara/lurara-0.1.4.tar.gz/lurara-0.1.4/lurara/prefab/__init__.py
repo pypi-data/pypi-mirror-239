@@ -1,0 +1,1 @@
+import lurara.prefab.yolo as yolo

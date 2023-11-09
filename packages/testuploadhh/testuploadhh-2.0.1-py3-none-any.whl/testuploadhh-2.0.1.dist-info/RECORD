@@ -1,0 +1,15 @@
+testforpypi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+testforpypi/cos/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+testforpypi/cos/hh_cos.py,sha256=ScGCW79_-sCFtqLQwkrdrRxM3qXWTAe8RmMi33naz2I,491
+testforpypi/sin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+testforpypi/sin/hh_sin.py,sha256=qSbBdNY6cROI7q2ckbnVScL7HxozcDDtXaohiv5971g,75
+testuploadhh/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+testuploadhh/cos/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+testuploadhh/cos/hh_cos.py,sha256=ScGCW79_-sCFtqLQwkrdrRxM3qXWTAe8RmMi33naz2I,491
+testuploadhh/sin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+testuploadhh/sin/hh_sin.py,sha256=qSbBdNY6cROI7q2ckbnVScL7HxozcDDtXaohiv5971g,75
+testuploadhh-2.0.1.dist-info/LICENSE.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+testuploadhh-2.0.1.dist-info/METADATA,sha256=iOJmKP7-NnD_26YbWt-M-MXLzVS0RKXOLY8V6UI2BIQ,461
+testuploadhh-2.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+testuploadhh-2.0.1.dist-info/top_level.txt,sha256=eLseTN9GGCxJ3IPRihqu-ysHS5KpCdQlh_21FeUtaxo,13
+testuploadhh-2.0.1.dist-info/RECORD,,

@@ -1,0 +1,15 @@
+filepattern-2.0.4.dist-info/RECORD,,
+filepattern-2.0.4.dist-info/LICENSE,sha256=Fg4kOwqZrHdNpYuaPay-zI5aNJNXmBfi8ev4u0eytdo,1064
+filepattern-2.0.4.dist-info/WHEEL,sha256=zst1g9R8aYeeErNlettjC8XiRzZ23gBXlMBKueiQ9-0,112
+filepattern-2.0.4.dist-info/top_level.txt,sha256=fCy9CXm8Dd8ovEp9aVEgsTpnjgD0GOnqUs-fuFnStYM,32
+filepattern-2.0.4.dist-info/METADATA,sha256=zl2gZ5HiYDSCOAMkc6cMGntca8C2dbYXh3NbFtGxTqY,18054
+filepattern/functions.py,sha256=_KQH3YehydhmpndiLrXV0Tu5aGR7KpwV7hFTTw4CE3k,1952
+filepattern/libfilepattern.2.0.4.dylib,sha256=-cpslfHR_M0Vio-8kytNvPR89_cvVEWw29o6Rbqh2Y4,726968
+filepattern/libfilepattern.2.dylib,sha256=-cpslfHR_M0Vio-8kytNvPR89_cvVEWw29o6Rbqh2Y4,726968
+filepattern/_version.py,sha256=q7Wa9GZC3dF9aU27Ge7Er327bQEKQZCiwvTxsSO24Pg,497
+filepattern/libfilepattern.dylib,sha256=-cpslfHR_M0Vio-8kytNvPR89_cvVEWw29o6Rbqh2Y4,726968
+filepattern/filepattern.py,sha256=6b_gxAs53wkgMHbo167C1gqRyWV35FfWl6MCwb6A1IM,20522
+filepattern/__init__.py,sha256=7Lsr9t0Yi3lzgMAa49i49mTLtyk-QxbeHwdkEL6nOxk,297
+filepattern/pydantic_filepattern.py,sha256=7M2YYSwzJMZJ8aop2dkouDnXK3XqdES-UNb2PMwOnIA,620
+filepattern/backend.cpython-310-darwin.so,sha256=y1dwF7qpiLdwnEtmG160bUvXa7KF4b2hSOuyo0zLSic,259952
+filepattern/.dylibs/libfilepattern.2.0.4.dylib,sha256=wZzoZtPzFqZ0v_A7ChNcv3aVFmBH8AbZhBko4EO-FAo,750912

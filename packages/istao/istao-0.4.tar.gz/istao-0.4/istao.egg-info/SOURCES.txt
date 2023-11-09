@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+istao/__init__.py
+istao/istao.py
+istao.egg-info/PKG-INFO
+istao.egg-info/SOURCES.txt
+istao.egg-info/dependency_links.txt
+istao.egg-info/requires.txt
+istao.egg-info/top_level.txt

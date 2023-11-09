@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: edutap.wallet-google
+Version: 1.0.0b1
+Summary: Library for Google Wallet Communication
+Author-email: Philipp Auersperg-Castell <phil@bluedynamics.com>, Alexander Loechel <Alexander.Loechel@verwaltung.uni-muenchen.de>, Jens Klein <jk@kleinundpartner.at>
+License: EUPL 1.2
+Project-URL: Source, https://github.com/edutap-eu/edutap.wallet_google
+Project-URL: Issues, https://github.com/edutap-eu/edutap.wallet_google/issues
+Project-URL: Documentation, https://docs.edutap.eu/packages/edutap_wallet_google.html
+Keywords: wallet,google,api,pass
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: European Union Public Licence 1.2 (EUPL 1.2)
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Provides-Extra: typecheck
+Provides-Extra: develop
+License-File: LICENSE
+
+# edutap.wallet_google
+
+This package provides a Python API to interact with the Google Wallet Restful API
+
+It contains:
+
+- an API to
+   - create,
+   - read,
+   - update,
+   - disable,
+   - list
+  wallet classes and objects
+  and
+  - issue passes.
+- Pydantic models of the classes, objects, and their primitives.
+- An extensible registry for models of classes and objects.
+- A session manager for authorized HTTPS communication with the Google Restful API.
+
+## Documentation
+
+Read the [complete `edutap.wallet_google` documentation](https://docs.edutap.eu/packages/edutap_wallet_google.html) to get started.
+
+## Source Code
+
+The sources are in a GIT DVCS with its main branches at the [GitHub `edutap-eu` `edutap.wallet_google` repository](https://github.com/edutap-eu/edutap.wallet_google) .
+
+We'd be happy to see many issue reports, forks and pull requests to make the package even better.
+
+## License
+
+The code is copyrighted by eduTAP - EUGLOH Working Package - Campus Life.
+
+It is licensed under the [EUROPEAN UNION PUBLIC LICENCE v. 1.2](https://opensource.org/license/eupl-1-2/), a free and OpenSource software license.

@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/detectorusoutlierus/__init__.py
+src/detectorusoutlierus/outliers.py
+src/detectorusoutlierus.egg-info/PKG-INFO
+src/detectorusoutlierus.egg-info/SOURCES.txt
+src/detectorusoutlierus.egg-info/dependency_links.txt
+src/detectorusoutlierus.egg-info/top_level.txt

@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "holiday-chn"
+version = "1.2024.3"
+authors = [
+  { name="lytcreate", email="lytcreate@163.com" },
+]
+description = "This package provides judgment on Chinese holidays and outputs the dates of all holidays.By using it, one can determine whether a certain date is a holiday and obtain the working days or holidays of a certain year.\n该库提供了2018年以后的中国节假日查询，包含法定节假日及周末，主要有is_holiday()方法判断日期是否为节假日，holidays()方法获取指定年的节假日日期，workdays()方法获取指定年的工作日日期。"
+readme = "README.md"
+requires-python = ">=3.0"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License"
+]

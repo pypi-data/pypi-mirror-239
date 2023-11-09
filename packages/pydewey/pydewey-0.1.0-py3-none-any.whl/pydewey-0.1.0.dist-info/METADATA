@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pydewey
+Version: 0.1.0
+Summary: Dewey — a fast reproducible training automation tool for MLOps pipelines.
+Home-page: https://github.com/dbuzinski/dewey
+Author: David Buzinski
+Author-email: davidbuzinski@gmail.com
+Maintainer: David Buzinski
+Maintainer-email: davidbuzinski@gmail.com
+License: Apache License, Version 2.0
+Project-URL: Bug Tracker, https://github.com/dbuzinski/dewey/issues
+Project-URL: Source Code, https://github.com/dbuzinski/dewey
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python
+Requires-Python: >=3.11
+
+Dewey — a fast reproducible training automation tool for MLOps pipelines.
+
+Dewey is a machine learning automation tool written to create consistent reproducible ways to train models 
+in a framework agnostic way. It allows providing a training specification, and the Dewey training framework
+takes care of all of the standard boilerplate code involving monitoring, metrics, setting up checkpoints, 
+remote caching and more. Please note that this tool is in early stages of development and is prone to rapid
+updates and breaking API changes.

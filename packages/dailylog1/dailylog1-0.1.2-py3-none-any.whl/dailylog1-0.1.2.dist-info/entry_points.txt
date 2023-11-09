@@ -1,0 +1,3 @@
+[console_scripts]
+dailylog=dailylog.cli:main
+

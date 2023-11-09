@@ -1,0 +1,13 @@
+dailylog1/__init__.py,sha256=64xHdkzNIlNarh1oNirk7tv2tkOCVLsS7sFIrEOqzIc,38
+dailylog1/cache.py,sha256=gxnl0e7v2VyKrfuSHTJhYDe47ODC3bWrKW0-2C2_1QE,5260
+dailylog1/cli.py,sha256=EHs9Z3cahWKHErZZbGJMv0V1Eyv7Jf-UBrYSx1IQnbA,4314
+dailylog1/config.py,sha256=BxnJquB-QFhJ7_mo6AAEU6al0WicNl0nlfmJ_kmakxo,3690
+dailylog1/exceptions.py,sha256=m2KDq6HlhkFwH_t84tzFVvojwdLjbsORbrH2dBeGWGY,126
+dailylog1/options.py,sha256=qyzg8OgKjPmAuUIQhI6AvVqypSPDxTpIuSA7nQzVRyY,2316
+dailylog1/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dailylog1/version.py,sha256=JAcCle3C6W4-NVNLjTVCrMtfYmTHnirQFvNjMc6O-Zc,475
+dailylog1-0.1.2.dist-info/LICENSE,sha256=RA2UpwtTTEsf9HPGR-UGwCqkTK59ar6dnCxF5iVgVio,1094
+dailylog1-0.1.2.dist-info/METADATA,sha256=dUEytaW1PhWex2YMMw1_qvLNaM4VXQoCRt7yB4Fj9UA,3237
+dailylog1-0.1.2.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+dailylog1-0.1.2.dist-info/entry_points.txt,sha256=WcCxWFeWXkFU0Nxu417eI3R1CsqfEhzb8dnuoonaoGY,46
+dailylog1-0.1.2.dist-info/RECORD,,

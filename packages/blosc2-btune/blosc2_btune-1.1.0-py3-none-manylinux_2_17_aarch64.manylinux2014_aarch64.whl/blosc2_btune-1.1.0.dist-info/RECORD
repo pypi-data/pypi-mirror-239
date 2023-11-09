@@ -1,0 +1,8 @@
+blosc2_btune-1.1.0.dist-info/WHEEL,sha256=bL75gUo95GB6XbKu4X27vvegZr9tomvkfy0bAz-mhzY,151
+blosc2_btune-1.1.0.dist-info/RECORD,,
+blosc2_btune-1.1.0.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+blosc2_btune-1.1.0.dist-info/METADATA,sha256=5Da_vZlU-epZWzSDpomhElm8v70l4T0S98RANO0aMYY,22360
+blosc2_btune-1.1.0.dist-info/licenses/LICENSE.txt,sha256=7A3rCSjj9QvtqxvQ2gGymvw0as1ItOLSmltTkar6sVY,34689
+blosc2_btune/libblosc2_btune.so,sha256=-QmH8JeNra-0UhCvp3sA2xckvak2ua5Bk46vHSbDP_w,6469656
+blosc2_btune/__init__.py,sha256=UqWYGaBkoLgYq-B5eI_Tfd7AOGIZWkMUYpPFQn3lTV0,2460
+include/btune.h,sha256=ikaVFzhQnUBTSO_N0hhbUuO1Ti2FR47zbpyis53SstQ,7272

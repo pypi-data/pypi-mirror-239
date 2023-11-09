@@ -1,0 +1,3 @@
+[console_scripts]
+metamorph=metamorph.main:__main__
+

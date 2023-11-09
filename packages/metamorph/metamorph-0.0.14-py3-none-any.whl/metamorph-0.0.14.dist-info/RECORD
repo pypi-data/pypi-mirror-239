@@ -1,0 +1,10 @@
+metamorph/__init__.py,sha256=zl_6-MgBmrFCohAYxCA60Uk2Z27yrubqXKc4DbD859Y,236
+metamorph/config.py,sha256=HNbzt8jQmqwwIJ6fBFCjKmX0QKNl2zO3WLfhJcep-Dk,6501
+metamorph/handler.py,sha256=6XX_YXS38ahUDEMtEOqjp2ybTRDOV-_Zn37yvSvaRmA,3190
+metamorph/main.py,sha256=UCXjJdAX5_IoM2Ui8_WwacTvWT78IwcNinLaE71Eze4,5019
+metamorph/util.py,sha256=f2o35gI3Acf-Glv4NRo9wkWuA6qEIBqqU74her_kV3U,1321
+metamorph-0.0.14.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+metamorph-0.0.14.dist-info/METADATA,sha256=I7OPvYuT2FQQkyXdweTOXF5GxAHTFzsMO8twyGZTaa4,4902
+metamorph-0.0.14.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+metamorph-0.0.14.dist-info/entry_points.txt,sha256=drkEpQ_P9sn-Qg3_0xhl-MSOYBu-Pzp1KYKqzsNf3zw,53
+metamorph-0.0.14.dist-info/RECORD,,

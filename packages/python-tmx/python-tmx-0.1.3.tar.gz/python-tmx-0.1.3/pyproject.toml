@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "python-tmx"
+version = "0.1.3"
+description = "A Python library for creating, editing and exporting tmx files"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+keywords = ["tmx", "localization"]
+authors = [{ name = "Enzo Agosta", email = "agosta.enzowork@gmail.com" }]
+maintainers = [{ name = "Enzo Agosta", email = "agosta.enzowork@gmail.com" }]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python",
+]
+
+dependencies = ["lxml"]
+
+# dynamic = ["version", "description"]
+
+[project.urls]
+Homepage = "https://github.com/ChonkyYoshi/python-tmx"
+Repository = "https://github.com/ChonkyYoshi/python-tmx"

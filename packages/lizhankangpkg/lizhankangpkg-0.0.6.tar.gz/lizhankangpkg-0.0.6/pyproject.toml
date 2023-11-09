@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lizhankangpkg"
+version = "0.0.6"
+dependencies = [
+    "requests",
+    'importlib-metadata; python_version<"3.8"',
+]

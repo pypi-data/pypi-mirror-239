@@ -1,0 +1,1 @@
+CopyFactory code examples have moved to `https://github.com/metaapi/metaapi-copyfactory-python-sdk/tree/master/examples <https://github.com/metaapi/metaapi-copyfactory-python-sdk/tree/master/examples>`_

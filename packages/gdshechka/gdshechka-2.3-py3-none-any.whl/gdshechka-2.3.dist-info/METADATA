@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: gdshechka
+Version: 2.3
+Summary: https://sites.google.com/view/n1c1n1/programs/gdshechka-doc
+Author: N1C1
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: bs4 (>=0,<1)
+Requires-Dist: requests_html (>=0,<1)
+Description-Content-Type: text/markdown
+
+Geometry Dash in python
+
+2.3 Update:
+ - Сode descriptions
+ -requirements
+
+DOC: https://sites.google.com/view/n1c1n1/programs/gdshechka-doc

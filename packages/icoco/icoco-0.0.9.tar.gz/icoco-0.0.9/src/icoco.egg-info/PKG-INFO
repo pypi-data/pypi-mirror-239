@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: icoco
+Version: 0.0.9
+Summary: ICoCo Python implementation
+Home-page: https://github.com/code-coupling/ICoCo-python
+Author: R. Lenain
+Author-email: roland.lenain@cea.fr
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/code-coupling/ICoCo-python/issues
+Project-URL: Doc, https://icoco-python.readthedocs.io/en/latest/index.html
+Project-URL: Source, https://github.com/code-coupling/ICoCo-python
+Keywords: couping,medcoupling,salome,c3po
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+Provides-Extra: docs
+Provides-Extra: test
+License-File: LICENSE
+
+# ICoCo API - Version 2 (02/2021)
+
+**WARNING: This API should not be changed!!**
+
+See https://github.com/cea-trust-platform/icoco-coupling for full reference.
+
+ICoCo stands for **Interface for Code Coupling**. This is a norm that a code may choose
+to implement to facilitate its coupling with other ICoCo-compliant codes.
+
+Practically ICoCo is provided as a main abstract C++ class (ICoCo::Problem) that a code has
+to derive to implement the norm. This can be only a partial implementation as some methods
+are not relevant to all the codes (especially the I/O methods of the API).
+
+The API rely on ICoCo::MEDDoubleField and ICoCo::MEDIntField for some of the field exchange
+methods. An implementation for those is provided by the SALOME MEDCoupling library
+(version 9.7+)
+
+This package implements the abstract class {class}`icoco.problem.Problem` in Python following the
+specifications of the c++ version.
+
+The Python implementation proposed is based on {mod}`medcoupling` implementation for fields and {mod}`mpi4py` for MPI
+communication. Nevertheless, it is possible to use other implementation of such concepts within this
+package.
+
+

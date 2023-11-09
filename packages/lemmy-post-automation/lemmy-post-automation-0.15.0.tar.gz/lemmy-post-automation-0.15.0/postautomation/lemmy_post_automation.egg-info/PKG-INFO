@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: lemmy-post-automation
+Version: 0.15.0
+Summary: A bot to automate regular image posts from a variety of sources.
+Home-page: https://github.com/EmilyMcLean/LemmyPostAutomation
+Project-URL: Bug Tracker, https://github.com/EmilyMcLean/LemmyPostAutomation/issues
+Project-URL: Changelog, https://github.com/EmilyMcLean/LemmyPostAutomation/releases
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.md

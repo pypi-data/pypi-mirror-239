@@ -1,0 +1,22 @@
+.gitignore
+.pre-commit-config.yaml
+LICENSE
+README.md
+mkdocs.yml
+pyproject.toml
+.github/workflows/python-publish.yml
+docs/Additional Example.ipynb
+docs/Basic Usage.ipynb
+docs/index.md
+docs/quickstart.md
+docs/javascripts/mathjax.js
+mkdocs/base.yml
+src/autora/experimentalist/assumption/__init__.py
+src/autora_experimentalist_assumption.egg-info/PKG-INFO
+src/autora_experimentalist_assumption.egg-info/SOURCES.txt
+src/autora_experimentalist_assumption.egg-info/dependency_links.txt
+src/autora_experimentalist_assumption.egg-info/requires.txt
+src/autora_experimentalist_assumption.egg-info/top_level.txt
+tests/README.md
+tests/__init__.py
+tests/test_assumption.py

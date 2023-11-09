@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+data_selection/__init__.py
+data_selection/base.py
+data_selection/hashed_ngram_dsir.py
+data_selection/utils.py
+data_selection.egg-info/PKG-INFO
+data_selection.egg-info/SOURCES.txt
+data_selection.egg-info/dependency_links.txt
+data_selection.egg-info/requires.txt
+data_selection.egg-info/top_level.txt
+tests/test_hashed_ngram.py
+tests/test_utils.py

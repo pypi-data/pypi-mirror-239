@@ -1,0 +1,13 @@
+pymodaq_plugin_manager/VERSION,sha256=HltRzeUVOWqfp2KQnPjKZYTMxWSzJdLuvup2F1_pXE0,6
+pymodaq_plugin_manager/__init__.py,sha256=hTk4f-NSWW62i4xGf5jSjp9N1rKc7lP7X8FwIdoXVHw,185
+pymodaq_plugin_manager/manager.py,sha256=2MiAWBzMpoKqh-RnnuHae6wFc4ZP7RmCNsjbuSZCTMQ,17863
+pymodaq_plugin_manager/utils.py,sha256=_cowKyzR9VH7XqjGMW5FWvo78Td5VuohxKpMRQEmEbI,9544
+pymodaq_plugin_manager/validate.py,sha256=MWG8tfRozTyn6KMCbXbNjQYWE14CGRUKpG85EGF-N5U,14572
+pymodaq_plugin_manager/data/PluginList.json,sha256=zkqdBC81BN7GGOet3dGep5fkcTHkLfYO180VVyTER1c,12424
+pymodaq_plugin_manager/data/plugin_list.schema,sha256=ZwXn2iS53Yk8ieHtKDPKj_vUBgtsTrasuqsgykuQXq0,1937
+pymodaq_plugin_manager-1.2.0.dist-info/LICENSE,sha256=VKOejxexXAe3XwfhAhcFGqeXQ12irxVHdeAojZwFEI8,1108
+pymodaq_plugin_manager-1.2.0.dist-info/METADATA,sha256=PICbyGF8y9QSLmQqeBQF39IciKeabBV1bqOlr2Wra9E,1593
+pymodaq_plugin_manager-1.2.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+pymodaq_plugin_manager-1.2.0.dist-info/entry_points.txt,sha256=tKFNw4MKvw8RTVx0m60OEEDCOX-HgejZiHT8GdOvGA8,71
+pymodaq_plugin_manager-1.2.0.dist-info/top_level.txt,sha256=SbRrbpDqhqX8Uapy5Utozmt6t30nIx2TRZ5970isPdw,23
+pymodaq_plugin_manager-1.2.0.dist-info/RECORD,,

@@ -1,0 +1,28 @@
+name: CI
+on: [push]
+jobs:
+  integration-tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.8.15"
+
+      - name: Setup edX & Run Tests
+        run: |
+          cd ..
+          git clone https://github.com/edx/devstack.git
+          cd devstack
+          sed -i 's/:cached//g' ./docker-compose-host.yml
+          make dev.clone.https
+          DEVSTACK_WORKSPACE=$PWD/.. docker-compose -f docker-compose.yml -f docker-compose-host.yml run -v $PWD/../rapid-response-xblock:/rapid-response-xblock lms /rapid-response-xblock/run_devstack_integration_tests.sh
+
+      - name: Upload coverage to CodeCov
+        uses: codecov/codecov-action@v1
+        with:
+          file: ./coverage.xml
+          fail_ci_if_error: false

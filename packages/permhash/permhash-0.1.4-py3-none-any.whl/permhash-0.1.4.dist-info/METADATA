@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: permhash
+Version: 0.1.4
+Summary: Permhash calculator
+Author: jaredscottwilson
+License: Google
+License-File: LICENSE
+Requires-Dist: androguard >=3.3.5
+Requires-Dist: python-magic >=0.4.27
+Requires-Dist: bs4 >=0.0.1
+Requires-Dist: jstyleson >=0.0.2
+

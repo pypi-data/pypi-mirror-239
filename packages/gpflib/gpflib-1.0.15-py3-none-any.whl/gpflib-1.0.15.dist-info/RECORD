@@ -1,0 +1,16 @@
+gpflib/BCCconfig.txt,sha256=Jn0FfjhyI2xaqeb0WBtbdJpdzrvIcYdQz3f17vyNAhQ,3376
+gpflib/GPFconfig.txt,sha256=J-0uDiHJVs9rzErr-3nbCIoJgWMSVFtA5CO-6Z98DJI,890
+gpflib/Parser.lua,sha256=_4gpz0k6Ed_UOv9IwLUM2uYqL42iW6gJaxspyPkCOyc,18995
+gpflib/__init__.py,sha256=fj8VYjL8CHN4GMUDiF2dJp0weIbMjjARwsayLLasnuo,23
+gpflib/__version__.py,sha256=Gc0XLg2MNqJfMUU1rA-hrDNmXGMOPcTlrFDlTn-j8cA,67
+gpflib/bcclib.dll,sha256=wc0s8cCnbvCA34rY54GEKtpf1DJCkKQrhGjNO5Cn6aE,1046528
+gpflib/gpf_Test.py,sha256=1DBLOlx9zAFVUecZU5gv50UaAyL2w8hpDdzD6zkNvd0,16164
+gpflib/gpflib.dll,sha256=iULmk-k0B3d4PpCrv4OTUUclxv2XEc1B1OR5VoLafeU,1181696
+gpflib/gpflib.py,sha256=UzLDHKblEk3U8kxuJPw0hzbIxQ3uQRNfWZqIgeuwClk,21024
+gpflib/libbcclib.so,sha256=5gsZsU4JffEcWLS4LKQ8-wAluF6OL97ULiXre6BeOCA,5893568
+gpflib/libgpflib.so,sha256=5gsZsU4JffEcWLS4LKQ8-wAluF6OL97ULiXre6BeOCA,5893568
+gpflib-1.0.15.dist-info/LICENSE,sha256=NqTlefKost5lRhF9Oa_pSjPpR9zbV8yBQVvEgNol5_o,1058
+gpflib-1.0.15.dist-info/METADATA,sha256=lPXBUYJXKC_TiFv85ijh07duuEtzASY0DQ6MnKuqQjk,1878
+gpflib-1.0.15.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+gpflib-1.0.15.dist-info/top_level.txt,sha256=zOOAF-uFl6qliW3I6k7SHYnyPX3wwm9n9vl5PYxcBT4,7
+gpflib-1.0.15.dist-info/RECORD,,

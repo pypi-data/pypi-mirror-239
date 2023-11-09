@@ -1,0 +1,3 @@
+[console_scripts]
+earfcn2freq = earfcn.convert:earfcn2freq_main
+freq2earfcn = earfcn.convert:freq2earfcn_main

@@ -1,0 +1,10 @@
+README.md
+setup.py
+earfcn/__init__.py
+earfcn/convert.py
+earfcn.egg-info/PKG-INFO
+earfcn.egg-info/SOURCES.txt
+earfcn.egg-info/dependency_links.txt
+earfcn.egg-info/entry_points.txt
+earfcn.egg-info/not-zip-safe
+earfcn.egg-info/top_level.txt

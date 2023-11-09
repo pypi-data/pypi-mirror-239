@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: earfcn
+Version: 0.0.1
+Summary: Convert LTE EARFCN to frequency, or frequency to EARFCN.
+Home-page: https://gitlab.com/alexander_marder/earfcn
+Author: Alex Marder
+Requires-Python: >3.6

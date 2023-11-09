@@ -1,0 +1,10 @@
+{
+  "properties": {
+    "_sid": {
+      "type": "string"
+    },
+    "regions__name": {
+      "type": "string"
+    }
+  }
+}

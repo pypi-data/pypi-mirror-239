@@ -1,0 +1,16 @@
+tap_stackerhq/__init__.py,sha256=lx-ApriqW823QU2LsHC356jLlEj2U2nW-p5HBfwRGf0,25
+tap_stackerhq/client.py,sha256=mNKTtRpmVOMzwcxpOSaqitJn7uy6xeSO2sw6Rm5qF60,3635
+tap_stackerhq/schemas/assets.json,sha256=9LNHu370pnkasHDUsiJX_-udsf0G5BkJKCZ3BaiGeEE,987
+tap_stackerhq/schemas/damages.json,sha256=6ip87hfZIo5aXEIF7zpaqZRUaGcmd7Ofj-BIfCgI-bs,748
+tap_stackerhq/schemas/fines.json,sha256=ALez-_n0bV546DbI0n4xu_8DMe4HMQZ1NMC95cQoqIw,573
+tap_stackerhq/schemas/investigations.json,sha256=ErlkdZURvp1pRNIP7ulTystAi843GWwrQbMJQbH3QHM,1434
+tap_stackerhq/schemas/investigations_regions.json,sha256=Jw7b9zClvdLQvwteadpAk-LRNV6De4IIBWykX1pRIAo,121
+tap_stackerhq/schemas/regions.json,sha256=Bgz8XOIwPiK8kDgK6iyL1ivsjR7DwFgXLEhDiyAvxXI,122
+tap_stackerhq/schemas/rentals.json,sha256=Lw1wUUTWrxY07fv6wGJvYYZPvcGs7-3PB7qQOH7S5xQ,533
+tap_stackerhq/streams.py,sha256=XNKtF7SsvtDvz42d0fp5DDro4scAw984_iy0bEoBxHU,2113
+tap_stackerhq/tap.py,sha256=rSHC28j3-xdEl6oSYaiJ9ZHXHdw2LHl2FyoUgSGFEJQ,1511
+tap_stackerhq-0.0.9.dist-info/LICENSE,sha256=esgaFyaP4srv6f4FxsUiSOnO6ffOcvuSIf3C6TVG-eY,11344
+tap_stackerhq-0.0.9.dist-info/METADATA,sha256=3tqrfHmdo2k5P-WQ83KV0YC9v0qthE7xrqMx2OHpTw4,3889
+tap_stackerhq-0.0.9.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+tap_stackerhq-0.0.9.dist-info/entry_points.txt,sha256=8rI09QN1YSKMcLG1Qp84upDNfgkuopVmC-36YsdqRj4,68
+tap_stackerhq-0.0.9.dist-info/RECORD,,

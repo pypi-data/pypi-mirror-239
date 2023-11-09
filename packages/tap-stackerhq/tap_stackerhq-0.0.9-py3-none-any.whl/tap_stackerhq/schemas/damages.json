@@ -1,0 +1,38 @@
+{
+  "properties": {
+    "_sid": {
+      "type": "string"
+    },
+    "dames__name": {
+      "type": "string"
+    },
+    "damages__vehicle": {
+      "type": "string"
+    },
+    "damages__status": {
+      "type": "string"
+    },
+    "damages__total_amount_of_damages": {
+      "type": ["string", "null"],
+      "nullable": true
+    },
+    "damages__reported_by_partner": {
+      "type": "boolean"
+    },
+    "damages__reporter": {
+      "type": "string"
+    },
+    "damages__date_and_time_of_the_damage": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "damages__last_updated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "damages__created_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}

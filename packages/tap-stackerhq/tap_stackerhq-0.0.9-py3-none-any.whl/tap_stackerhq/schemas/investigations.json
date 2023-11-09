@@ -1,0 +1,63 @@
+{
+  "properties": {
+    "_sid": {
+      "type": "string"
+    },
+    "onderzoeken__description": {
+      "type": ["string", "null"],
+      "nullable": true
+    },
+    "onderzoeken__status": {
+      "type": ["string", "null"],
+      "nullable": true
+    },
+    "onderzoeken__last_status_change": {
+      "type": ["string", "null"],
+      "nullable": true
+    },
+    "onderzoeken__laatste_scan_door": {
+      "type": ["string", "null"],
+      "nullable": true
+    },
+    "onderzoeken__label": {
+      "type": ["string", "null"],
+      "nullable": true
+    },
+    "onderzoeken__onderzoek_uitgezet_door": {
+      "type": ["string", "null"],
+      "nullable": true
+    },
+    "onderzoeken__omschrijving_vraag": {
+      "type": ["string", "null"],
+      "nullable": true
+    },
+    "onderzoeken__vers_zending": {
+      "type": ["string", "null"],
+      "nullable": true
+    },
+    "onderzoeken__stopnummer": {
+      "type": ["string", "null"],
+      "nullable": true
+    },
+    "onderzoeken__driver": {
+      "type": ["string", "null"],
+      "nullable": true
+    },
+    "onderzoeken__region": {
+      "type": ["string", "null"],
+      "nullable": true
+    },
+    "onderzoeken__webshop": {
+      "type": ["string", "null"],
+      "nullable": true
+    },
+    "onderzoeken__name": {
+      "type": ["string", "null"],
+      "nullable": true
+    },
+    "onderzoeken__created_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}

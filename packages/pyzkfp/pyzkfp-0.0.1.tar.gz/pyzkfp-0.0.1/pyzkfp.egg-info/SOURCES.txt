@@ -1,0 +1,9 @@
+setup.py
+libzkfp/__init__.py
+libzkfp/errors_handler.py
+libzkfp/zkfp2.py
+pyzkfp.egg-info/PKG-INFO
+pyzkfp.egg-info/SOURCES.txt
+pyzkfp.egg-info/dependency_links.txt
+pyzkfp.egg-info/requires.txt
+pyzkfp.egg-info/top_level.txt

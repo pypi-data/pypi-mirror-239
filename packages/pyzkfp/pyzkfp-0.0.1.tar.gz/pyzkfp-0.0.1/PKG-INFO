@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: pyzkfp
+Version: 0.0.1
+Summary: A Python wrapper library for ZKFinger fingerprint scanner software.
+Author: Amjed Alqasemi
+Author-email: alqasemy2020@gmail.com
+Keywords: python,fingerprint,scanner,wrapper,library,zkteco,zkfinger,zkfp,zklib,zkaccess,zktime
+Requires-Dist: pythonnet
+Requires-Dist: PIL

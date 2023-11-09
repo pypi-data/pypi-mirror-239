@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: django_query_analyzer
+Version: 0.0.6
+Summary: Django app for query analysis and monitoring
+Author: Muhammed Shaheen
+Author-email: muhammedshaheen.tkb@gmail.com
+License: MIT
+License-File: LICENSE

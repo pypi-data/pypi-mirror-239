@@ -1,0 +1,96 @@
+Metadata-Version: 2.1
+Name: isimip-utils
+Version: 1.3.2
+Summary: This package contains common functionality for different ISIMIP tools.
+Author-email: Jochen Klar <jochen.klar@pik-potsdam.de>
+Maintainer-email: Jochen Klar <jochen.klar@pik-potsdam.de>
+License: MIT License
+        
+        Copyright (c) 2022 Potsdam Institute for Climate Impact Research
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Repository, https://github.com/ISI-MIP/isimip-utils
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: colorlog
+Requires-Dist: netCDF4
+Requires-Dist: python-dotenv
+Requires-Dist: requests
+Provides-Extra: dev
+Requires-Dist: build; extra == "dev"
+Requires-Dist: pre-commit; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
+Requires-Dist: twine; extra == "dev"
+
+ISIMIP utils
+============
+
+[![Latest release](https://shields.io/github/v/release/ISI-MIP/isimip-utils)](https://github.com/ISI-MIP/isimip-utils/releases)
+[![PyPI Release](https://img.shields.io/pypi/v/isimip-utils)](https://pypi.org/project/isimip-utils/)
+[![Python Version](https://img.shields.io/badge/python->=3.8-blue)](https://www.python.org/)
+[![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/ISI-MIP/django-datacite/blob/master/LICENSE)
+
+This package contains common functionality for different ISIMIP tools, namely:
+
+* https://github.com/ISI-MIP/isimip-publisher
+* https://github.com/ISI-MIP/isimip-qa
+* https://github.com/ISI-MIP/isimip-qc
+
+It comprises of:
+
+* `isimip_utils.checksum`: Functions to compute the SHA-512 checksum of a file.
+* `isimip_utils.config`: A settings class to combine input from `argparse`, the environment (via `python-dotenv`) and config files.
+* `isimip_utils.exceptions`: Custom exceptions for ISIMIP tools.
+* `isimip_utils.fetch`: Functions to fetch files from the machine-actionable ISIMIP protocols.
+* `isimip_utils.netcdf`: Functions to open and read NetCDF files.
+* `isimip_utils.patterns`: Functions to match the file names and extract the ISIMIP specifiers.
+* `isimip_utils.utils`: Additional utility functions.
+
+
+Setup
+=====
+
+Working on the package requires a running Python3 on your system. Installing those prerequisites is covered [here](https://github.com/ISI-MIP/isimip-utils/blob/master/docs/releases.md).
+
+The package itself can be installed via pip:
+
+```
+pip install isimip-utils
+```
+
+The package can also be installed directly from GitHub:
+
+```
+pip install git+https://github.com/ISI-MIP/isimip-utils
+```
+
+For a development setup, the repo should be cloned and installed in *editable* mode:
+
+```
+git clone git@github.com:ISI-MIP/isimip-utils
+pip install -e isimip-utils
+```

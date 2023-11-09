@@ -1,0 +1,10 @@
+colorlog
+netCDF4
+python-dotenv
+requests
+
+[dev]
+build
+pre-commit
+ruff
+twine

@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+pokemonPackage2/__init__.py
+pokemonPackage2/functions.py
+pokemonPackage2.egg-info/PKG-INFO
+pokemonPackage2.egg-info/SOURCES.txt
+pokemonPackage2.egg-info/dependency_links.txt
+pokemonPackage2.egg-info/requires.txt
+pokemonPackage2.egg-info/top_level.txt

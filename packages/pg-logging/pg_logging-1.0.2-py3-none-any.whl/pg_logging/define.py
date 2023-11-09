@@ -1,0 +1,9 @@
+KEY_LOG_TCP_HOST = "log_tcp_host"  # 发送tcp日志的接收端地址
+KEY_LOG_FORMAT_LOG_PORT = "log_format_log_port"  # 发送tcp格式化日志的接受端端口
+KEY_LOG_NON_FORMAT_LOG_PORT = "log_non_format_log_port"  # 发送tcp非格式化日志的接收端端口
+KEY_LOG_OUTPUT_CONSOLE = "log_output_console"  # 日志是否输出到控制台
+KEY_LOG_FORMAT_LOG_OUTPUT_LOCAL = "log_format_log_output_local"  # 发送tcp日志的同时，格式化日志是否写本地
+KEY_LOG_NON_FORMAT_LOG_OUTPUT_LOCAL = "log_non_format_log_output_local"  # 发送tcp日志的同时，非格式化日志是否写本地
+KEY_LOG_LEVEL = "log_level"  # 日志级别
+KEY_LOG_DIR = "log_dir"  # 日志目录
+KEY_LOG = "log"

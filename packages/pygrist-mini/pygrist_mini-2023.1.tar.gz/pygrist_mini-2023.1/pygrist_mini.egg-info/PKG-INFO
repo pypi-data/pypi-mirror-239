@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pygrist-mini
+Version: 2023.1
+Summary: Minimal Grist API (document) client
+Author-email: Andreas Kloeckner <inform@tiker.net>
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: requests~=2.31
+
+# A (very) minimal API client for Grist
+
+Currently only supports a few document operations, but enough for my purposes.
+
+Alternative to the [official API
+package](https://github.com/gristlabs/py_grist_api/), which (still)
+monkeypatches the standard library for Py3 compatibility.

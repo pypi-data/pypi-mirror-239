@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.cfg
+pygrist_mini/__init__.py
+pygrist_mini.egg-info/PKG-INFO
+pygrist_mini.egg-info/SOURCES.txt
+pygrist_mini.egg-info/dependency_links.txt
+pygrist_mini.egg-info/requires.txt
+pygrist_mini.egg-info/top_level.txt

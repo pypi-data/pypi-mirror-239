@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: rapid-response-xblock
+Version: 0.9.0
+Summary: Rapid Response XBlock
+Home-page: https://github.com/mitodl/rapid-response-xblock
+Author: MITx
+License: BSD
+License-File: LICENSE
+Requires-Dist: django <5.0,>=2.2
+Requires-Dist: XBlock
+Requires-Dist: xblock-utils
+Requires-Dist: edx-opaque-keys
+

@@ -1,0 +1,11 @@
+deltares_datasuite/__init__.py,sha256=5xiWh9UYQNkJlyjxmSkoTJLv8PdjjLsfpiTBRMueISk,633
+deltares_datasuite/client/__init__.py,sha256=UqksGsJvkopOYe6bOm3JU7c4hlMJhCRjGfG3ikqDkXg,91
+deltares_datasuite/client/dms_client.py,sha256=92CRp7LCTUI5XNye6RJcvoufTqYh-02T31EDNrmSUoo,3554
+deltares_datasuite/core/__init__.py,sha256=f3T4tcRmE9zam_cU7hU3pLb6RYAkpN5yhAguG-zoZrU,88
+deltares_datasuite/core/models/__init__.py,sha256=V8hCVZaTjXqkk5t32j4JJQmAAaZnX1ho_roOVWUvGOM,42
+deltares_datasuite/core/models/item.py,sha256=-NnIqineGHQdAabpWuWg7W2dij4VXjj08_OelbNIho8,4863
+deltares_datasuite/example.py,sha256=gsswaZmrpqBqt1Nj7A95Tbyy8pKQoHPWTt99vxbwpus,1833
+deltares_datasuite-0.2.0.dist-info/LICENSE,sha256=euaRQz-cehF0HZZk4HUJ03ekvORL-u3ShPpnkatLSPM,1073
+deltares_datasuite-0.2.0.dist-info/METADATA,sha256=4Ibzd7IKnbz3CeSxQCvRG4A2vczkPRZjrpUbzbodmj8,11323
+deltares_datasuite-0.2.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+deltares_datasuite-0.2.0.dist-info/RECORD,,

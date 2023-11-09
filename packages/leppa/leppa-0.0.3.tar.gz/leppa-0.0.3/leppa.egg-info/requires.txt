@@ -1,0 +1,9 @@
+numpy
+matplotlib
+scikit-learn
+qiskit
+qiskit-ibmq-provider
+pylatexenc
+qiskit-ignis
+qiskit-aer
+genomic-benchmarks

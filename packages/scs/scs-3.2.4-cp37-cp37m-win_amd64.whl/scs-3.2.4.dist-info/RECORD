@@ -1,0 +1,15 @@
+_scs_direct.cp37-win_amd64.dll.a,sha256=_9_fU8SOn4RW9tYSI24aeECWl4lf5U8Sym64J4y162Q,1774
+_scs_direct.cp37-win_amd64.pyd,sha256=-ZPx31KPJKYso-UHdhkVjq4vdwaWQhDtk0HanP5yXMk,185726
+_scs_indirect.cp37-win_amd64.dll.a,sha256=524_RLjbdqrncFK5FhL4EMOx2atm941rhhNZHODhuFM,1804
+_scs_indirect.cp37-win_amd64.pyd,sha256=3CNJH6CqvdasdbTQ7wE-o6Vuxyg-yBhN7ll1HsgEAEQ,157598
+scs/__init__.py,sha256=NhGpyKmWgTDHJMV7UDeU4a2ppK8ZL-SqmyY0kM30Ue4,7589
+scs-3.2.4.data/platlib/.load-order-scs-3.2.4,sha256=V0F45_6EeospuwlgP7unZv32xdwbCo0Sg7QzlBmi8yQ,179
+scs-3.2.4.data/platlib/flang-748cd5b22ce830f11f52f8257e155fa3.dll,sha256=Lo8J8JtNcex3BZsIP9zWrT1un7wQlj6tBWJZsYSxSWg,1679360
+scs-3.2.4.data/platlib/flangrti-caa71c69bfef2a05fa7f6a1f56783775.dll,sha256=_MD5GK7NUJfl2JP3LL1N1TRfPty-4yvoU_VXGGHtBIg,50688
+scs-3.2.4.data/platlib/libomp-32223b6dc36d3cc9afac7fa0ea2edfd4.dll,sha256=z0O154uGZMc0NmrZm756Nn_lDThE8mfJIPHmKA08Vr4,612864
+scs-3.2.4.data/platlib/openblas-083803611724a15c57639ab2663d83cc.dll,sha256=7Qeb6cSLwnc9S7LE8ng6SJ3hrjJf7wEZJz8HR0TLCaU,28623360
+scs-3.2.4.dist-info/DELVEWHEEL,sha256=v13SslahdKbY3ysWcxwFw8gco0bqR80sqF9S89dltjs,130
+scs-3.2.4.dist-info/LICENSE,sha256=7Lc8bCEkAOhTRGOUitKX0hhZiZ-e_jS1V_naEQR5YDw,1096
+scs-3.2.4.dist-info/METADATA,sha256=mt1GxAOD4sAxe-oWxACe21SsSQNrYuMWhjHy6c1UigY,2054
+scs-3.2.4.dist-info/RECORD,,
+scs-3.2.4.dist-info/WHEEL,sha256=Nev81HRaPPFaJxtPw0V0OVn7-92Nc0ABJrwOL0z7AP0,84

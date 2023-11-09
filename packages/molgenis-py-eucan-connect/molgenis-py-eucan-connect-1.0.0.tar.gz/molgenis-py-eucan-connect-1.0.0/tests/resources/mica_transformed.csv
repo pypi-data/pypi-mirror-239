@@ -1,0 +1,4 @@
+studies_id;studies_study_name;studies_acronym;studies_objectives;studies_start_year;studies_countries;studies_source_data
+mica:studyID:mc1;Mica Study One;MC1;The first Mica Study;2019;[FIN];mica_url/study/mc1
+mica:studyID:mcTwo;Mica Study Two;MC Two;;2010;[NLD,GER];mica_url/study/mcTwo
+mica:studyID:noC;Mica Study no Country;MCNC;<p>Mica Study without country.</p>;;;mica_url/study/noC

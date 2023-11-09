@@ -1,0 +1,4 @@
+studies_id;studies_study_name;studies_acronym;studies_objectives;studies_start_year;studies_countries;studies_source_data
+birthcohorts:studyID:5; Birth Cohort1 ;BC1;To investigate Birth Cohort 1. ;;[Netherlands];https://birthcohorts_url/birthcohorts/birthcohort/?id=5
+birthcohorts:studyID:103;Birth Cohort Two ;Birth C2;A birth cohort study to investigate. ;2010;[Belgium];https://birthcohorts_url/birthcohorts/birthcohort/?id=103
+birthcohorts:studyID:222;Birth Cohort No Country;BCNC;;;;https://birthcohorts_url/birthcohorts/birthcohort/?id=222

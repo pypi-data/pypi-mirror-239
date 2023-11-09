@@ -1,0 +1,9 @@
+selberai/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+selberai/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+selberai/data/download_data.py,sha256=Pl47mOjXUsgfRe-2TZ5irkkqIFYxK-7oNewAWy711Ls,2828
+selberai/data/load_data.py,sha256=HMfnxxLGikwcGdG7V9P5sRCSTtSi76ifgH_aDK8ZEa8,17744
+selberai/data/upload_data.py,sha256=1NAr1_RJMlWIF2fdHrXgkMlHygkQZtAG2ZZD7X8cMd0,2934
+selberai-0.0.0.dist-info/METADATA,sha256=z6BoR1XhXHOcda-SK6wIlMSV5_ibb_eS6UtN5KdUSlU,501
+selberai-0.0.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+selberai-0.0.0.dist-info/top_level.txt,sha256=fSQ-OgWjAJL_5oQKL7KgU19fcMKpcqe1GBVogbNbBcE,9
+selberai-0.0.0.dist-info/RECORD,,

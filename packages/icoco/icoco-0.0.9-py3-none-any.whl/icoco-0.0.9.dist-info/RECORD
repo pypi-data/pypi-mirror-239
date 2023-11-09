@@ -1,0 +1,12 @@
+icoco/VERSION,sha256=jiZ3bQj3r0XJlhKzpNPDLX3RDMEc5gZCka7uGBTIiSI,6
+icoco/__init__.py,sha256=Vde5W9mboPgjEaXzSzyvDw4AQ7f6KajxdVriYtSp0ms,1028
+icoco/exception.py,sha256=u7L98-o02Uwve-mH5WTLJ9D6JuhnUInVGuhlx5SZfzw,3145
+icoco/problem.py,sha256=ljv8Or9QsuhGgjDnwx69WuoqLWV4b-lC29TTHXubap4,45155
+icoco/problem_server.py,sha256=TVXcKZmaGSUsCnRNpaK6PpUFP2ASw9QHz3RRk3Zeesg,3451
+icoco/problem_wrapper.py,sha256=7yGrUpvee5AoZgvnqZ1c0N6z7RjQ15LJ0vFv02hfI4A,63507
+icoco/utils.py,sha256=rAqs_PYF7QR1ulEzLGEsasW-rQLb6URbg5WxhOvdLk4,3433
+icoco-0.0.9.dist-info/LICENSE,sha256=60g1-rYv-ihlhia33lGnN-_4bKV8OQKks8u2gJ7unUk,1302
+icoco-0.0.9.dist-info/METADATA,sha256=mZ7-zJmXdSWgPIZ-SVZPAu8mlIjwJyRSo4ufhU-1Gug,2881
+icoco-0.0.9.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+icoco-0.0.9.dist-info/top_level.txt,sha256=BZuzLYg0IQPuOjdMYWWhspSgMMIAsyOCbUFQ1NxMwVI,6
+icoco-0.0.9.dist-info/RECORD,,
